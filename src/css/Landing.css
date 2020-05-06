@@ -1,0 +1,38 @@
+.landing {
+	height: 100vh;
+	width: 100%;
+	background-image: url('../img/landing-background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100vh;
+}
+.body {
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.landing-design {
+	position: absolute;
+	right: 0;
+}
+
+.text {
+	width: 40%;
+	margin: 0 5%;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 44px;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	color: white;
+}
+.landing-button {
+	width: 55%;
+	margin-top: 1.6rem;
+}
