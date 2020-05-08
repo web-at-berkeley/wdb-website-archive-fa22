@@ -1,0 +1,43 @@
+.site-navbar {
+	position: relative;
+	padding-top: 5vh;
+}
+.site-navbar .nav-background {
+	position: absolute;
+	width: 45%;
+	height: 13vh;
+	z-index: 2;
+}
+.site-navbar .nav-background-1 {
+	position: absolute;
+	top: 2.5vh;
+	left: 1.5%;
+	z-index: 1;
+}
+.site-navbar .nav-background-2 {
+	position: absolute;
+	top: 12vh;
+	left: -8%;
+	z-index: 3;
+}
+.site-navbar .text {
+	position: absolute;
+	top: 5vh;
+	display: flex;
+	flex-direction: row;
+	width: 37.5%;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 5%;
+	height: 5.7vh;
+	z-index: 4;
+}
+.site-navbar .nav-text {
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 0.11em;
+}
+.site-navbar .link-tag:hover {
+	text-decoration: underline white;
+}

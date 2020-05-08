@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 
 import LogoWhite from '../img/logo-white.png';
 
-import '../css/Navbar.css';
+import '../css/LandingNavbar.css';
 
 const LandingNavbar = () => {
 	return (
@@ -14,7 +14,7 @@ const LandingNavbar = () => {
 			bg="transparent"
 			expand="lg"
 			style={style.SiteNav}
-			className="navbar"
+			className="landing-navbar"
 		>
 			<Navbar.Brand href="/">
 				<img src={LogoWhite} alt="logo white" style={style.Logo} />
