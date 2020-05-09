@@ -4,7 +4,7 @@ import { Link } from '@reach/router';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import LogoWhite from '../img/logo-white.png';
+import LogoWhite from '../img/site-nav/logo-white.png';
 
 import '../css/LandingNavbar.css';
 

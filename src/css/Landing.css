@@ -1,7 +1,7 @@
 .landing {
 	height: 100vh;
 	width: 100%;
-	background-image: url('../img/landing-background.png');
+	background-image: url('../img/landing/landing-background.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100vh;
@@ -48,6 +48,10 @@
 	border-radius: 22.5px;
 	background: #52f1f9;
 	border: none;
+	transition: 0.3s ease;
+}
+.landing .landing-button:hover {
+	background: blue;
 }
 .landing .button-text {
 	font-family: Lato;

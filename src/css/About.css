@@ -1,13 +1,13 @@
-.body {
+.about .body {
 	padding-top: 19vh;
 }
-.subtitle {
+.about .subtitle {
 	font-size: 22px;
 	line-height: 136%;
 	letter-spacing: 0.17em;
 	margin-top: 2rem;
 }
-.sub-subtitle {
+.about .sub-subtitle {
 	font-size: 24px;
 	line-height: 136%;
 	text-align: center;
@@ -16,16 +16,17 @@
 	margin-top: 2.5rem;
 	margin-bottom: 3rem;
 }
-.relative-container {
+.about .relative-container {
 	position: relative;
 }
-.wires {
+.about .wires {
 	z-index: 2;
 	position: absolute;
 	top: 0;
 	left: 0;
+	margin-bottom: 7vh;
 }
-.content-box {
+.about .content-box {
 	position: absolute;
 	top: 0;
 	box-shadow: 5px 3px 23px rgba(0, 0, 0, 0.07);
@@ -38,7 +39,7 @@
 	z-index: 3;
 	min-height: 37vh;
 }
-.subject-header {
+.about .subject-header {
 	color: #5f60ff;
 	font-size: 19px;
 	font-weight: 700;
@@ -46,7 +47,7 @@
 	text-transform: uppercase;
 	letter-spacing: 0.23em;
 }
-.subject-text {
+.about .subject-text {
 	color: #727272;
 	font-size: 16px;
 	line-height: 19px;

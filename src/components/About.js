@@ -6,10 +6,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import AboutTitle from '../img/about-title.png';
-import Wires1 from '../img/background-wires-1.png';
-import Wires2 from '../img/background-wires-2.png';
-import Wires3 from '../img/background-wires-3.png';
+import AboutTitle from '../img/about/about-title.png';
+import Wires1 from '../img/about/background-wires-1.png';
+import Wires2 from '../img/about/background-wires-2.png';
+import Wires3 from '../img/about/background-wires-3.png';
 
 import '../css/About.css';
 

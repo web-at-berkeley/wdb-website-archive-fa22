@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
-import NavBackground from '../img/site-nav-background.png';
-import NavBackground1 from '../img/site-nav-1.png';
-import NavBackground2 from '../img/site-nav-2.png';
+import NavBackground from '../img/site-nav/site-nav-background.png';
+import NavBackground1 from '../img/site-nav/site-nav-1.png';
+import NavBackground2 from '../img/site-nav/site-nav-2.png';
 
 import '../css/SiteNavbar.css';
 
@@ -25,7 +25,7 @@ const SiteNavbar = () => {
 				alt="nav background 2"
 				className="nav-background-2"
 			/>
-			<div class="text">
+			<div className="text">
 				<Link to="/" className="link-tag">
 					<p className="nav-text">Home</p>
 				</Link>

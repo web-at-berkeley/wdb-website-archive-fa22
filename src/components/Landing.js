@@ -4,8 +4,8 @@ import LandingNavbar from './LandingNavbar';
 
 import Button from 'react-bootstrap/Button';
 
-import LandingDesign from '../img/landing-design.png';
-import LandingText from '../img/landing-text.png';
+import LandingDesign from '../img/landing/landing-design.png';
+import LandingText from '../img/landing/landing-text.png';
 
 import '../css/Landing.css';
 
