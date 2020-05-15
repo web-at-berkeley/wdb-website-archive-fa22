@@ -1,0 +1,6 @@
+# Ignore Metafiles
+.DS_Store
+.idea
+
+# Ignore Security Files
+wdb-private-key.pem
