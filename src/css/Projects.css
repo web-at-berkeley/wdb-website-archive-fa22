@@ -1,8 +1,66 @@
 .projects .body {
-	padding: 19vh 5% 5vh 5%;
+	padding: 15vh 10% 0 10%;
 }
-.projects .partner {
-	max-width: 100%;
-	max-height: 60vh;
+
+.projects .title-col {
 	margin-bottom: 5vh;
+}
+
+.projects .partner {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10vh;
+	position: relative;
+	padding: 0 30px;
+}
+.projects .screenshot {
+	box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.08);
+	border-radius: 8px;
+	transition: 0.3s ease;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	height: 0;
+	transition: 0.5s ease;
+}
+.partner:hover .overlay {
+	bottom: 0;
+	height: 100%;
+}
+.overlay-image {
+	padding: 0 30px;
+	top: 40%;
+	position: absolute;
+	width: 100%;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	/* top: 50%; */
+	/* left: 50%; */
+	/* -webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center; */
+}
+.overlay-rotated {
+	top: 0;
+}
+.partner:hover .overlay-rotated {
+	top: 0;
+}
+.overlay-image-rotated {
+	padding: 0 30px;
+	bottom: 40%;
+	position: absolute;
+	width: 100%;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	transform: rotate(180deg);
 }

@@ -1,3 +1,17 @@
 .landing-navbar .link-tag:hover {
-	text-decoration: underline white;
+	text-decoration: none;
+}
+
+.landing-navbar p:after {
+	display: block;
+	content: '';
+	border-bottom: solid 1px #ffffff;
+	transform: scaleX(0);
+	transition: transform 350ms ease-in-out;
+}
+.landing-navbar p:hover:after {
+	transform: scaleX(1);
+}
+.landing-navbar p.nav-text:after {
+	transform-origin: 0% 50%;
 }

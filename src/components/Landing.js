@@ -15,17 +15,22 @@ const Landing = () => {
 			<LandingNavbar />
 			<div class="body">
 				<div class="text">
-					<img src={LandingText} alt="landing text" className="landing-text" />
+					<img
+						src={LandingText}
+						alt="landing text"
+						className="landing-text selectDisable"
+						draggable="false"
+					/>
 					<a href="/about" className="landing-link">
 						<Button className="landing-button">
-							<p className="button-text">Learn More.</p>
+							<p className="button-text">Learn More</p>
 						</Button>
 					</a>
 				</div>
 				<img
 					src={LandingDesign}
 					alt="landing design"
-					className="landing-design"
+					className="landing-design selectDisable"
 				/>
 			</div>
 		</div>

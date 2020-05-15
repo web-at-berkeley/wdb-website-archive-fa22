@@ -13,17 +13,20 @@ const SiteNavbar = () => {
 			<img
 				src={NavBackground}
 				alt="nav background"
-				className="nav-background"
+				className="nav-background selectDisable"
+				draggable="false"
 			/>
 			<img
 				src={NavBackground1}
 				alt="nav background 1"
-				className="nav-background-1"
+				className="nav-background-1 selectDisable"
+				draggable="false"
 			/>
 			<img
 				src={NavBackground2}
 				alt="nav background 2"
-				className="nav-background-2"
+				className="nav-background-2 selectDisable"
+				draggable="false"
 			/>
 			<div className="text">
 				<Link to="/" className="link-tag">

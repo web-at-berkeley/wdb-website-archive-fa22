@@ -1,15 +1,18 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
+import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import AboutTitle from '../img/about/about-title.png';
-import Wires1 from '../img/about/background-wires-1.png';
-import Wires2 from '../img/about/background-wires-2.png';
-import Wires3 from '../img/about/background-wires-3.png';
+import Line1 from '../img/about/line-1.png';
+import Line2 from '../img/about/line-2.png';
+// import Wires1 from '../img/about/background-wires-1.png';
+// import Wires2 from '../img/about/background-wires-2.png';
+// import Wires3 from '../img/about/background-wires-3.png';
 
 import '../css/About.css';
 
@@ -20,11 +23,16 @@ const About = () => {
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="text-center">
-						<img src={AboutTitle} alt="about title" />
+						<img
+							src={AboutTitle}
+							alt="about title"
+							className="selectDisable"
+							draggable="false"
+						/>
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
-					<Col xs={12} sm={11} md={10} className="text-center">
+					<Col xs={12} sm={11} className="text-center">
 						<p className="subtitle">
 							Est. in Spring 2020, Web Development at Berkeley aims to increase
 							awareness of web development education and technologies within the
@@ -32,6 +40,18 @@ const About = () => {
 							opportunities and resources offered by current campus
 							organizations.
 						</p>
+						<img
+							src={Line1}
+							alt="line"
+							className="line-1 selectDisable"
+							draggable="false"
+						/>
+						<img
+							src={Line2}
+							alt="line"
+							className="line-2 selectDisable"
+							draggable="false"
+						/>
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
@@ -39,9 +59,12 @@ const About = () => {
 						<p className="sub-subtitle">Get a glimpse of what we offer:</p>
 					</Col>
 				</Row>
-				<Row className="justify-content-around">
-					<Col xs={12} sm={3} className="text-center relative-container">
-						<img src={Wires1} alt="wires 1" className="wires" />
+				<Row className="justify-content-center">
+					<Col
+						xs={12}
+						sm={5}
+						className="text-center relative-container left-container"
+					>
 						<div className="content-box">
 							<h3 className="subject-header">Education</h3>
 							<p className="subject-text">
@@ -52,8 +75,11 @@ const About = () => {
 							</p>
 						</div>
 					</Col>
-					<Col xs={12} sm={3} className="text-center  relative-container">
-						<img src={Wires2} alt="wires 2" className="wires" />
+					<Col
+						xs={12}
+						sm={5}
+						className="text-center relative-container right-container"
+					>
 						<div className="content-box">
 							<h3 className="subject-header">Development</h3>
 							<p className="subject-text">
@@ -64,10 +90,11 @@ const About = () => {
 							</p>
 						</div>
 					</Col>
-					<Col xs={12} sm={3} className="text-center  relative-container">
-						<img src={Wires3} alt="wires 3" className="wires" />
-						<div className="content-box">
-							<h3 className="subject-header">Partnerships</h3>
+				</Row>
+				<Row className="justify-content-center">
+					<Col xs={12} sm={10} className="text-center relative-container">
+						<div className="content-box partner-box">
+							<h3 className="subject-header">partnerships</h3>
 							<p className="subject-text">
 								As a UC Berkeley-based organization, students will have the
 								opportunity to partner with clubs on campus and companies around
@@ -79,6 +106,7 @@ const About = () => {
 					</Col>
 				</Row>
 			</Container>
+			<Footer />
 		</div>
 	);
 };

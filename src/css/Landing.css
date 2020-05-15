@@ -25,38 +25,52 @@
 	display: flex;
 	flex-direction: column;
 }
-.landing h1 {
-	margin: 0;
-	text-transform: uppercase;
-	font-size: 44px;
-	font-weight: 700;
-	letter-spacing: 0.15em;
-	color: white;
-}
 .landing .landing-text {
 	width: 500px;
+	max-width: 100%;
 	margin-bottom: 2.6rem;
 }
 .landing .landing-link {
 	width: 300px;
 	height: 45px;
 	border-radius: 22.5px;
+	max-width: 100%;
 }
 .landing .landing-button {
+	max-width: 100%;
 	width: 300px;
 	height: 45px;
 	border-radius: 22.5px;
-	background: #52f1f9;
 	border: none;
+	background: linear-gradient(to left, #52f1f9 50%, blue 50%);
+	background-size: 200% 100%;
+	background-position: right;
 	transition: 0.3s ease;
 }
 .landing .landing-button:hover {
-	background: blue;
+	background-position: left;
 }
 .landing .button-text {
 	font-family: Lato;
-	/* font-weight: 600; */
 	font-size: 18px;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.landing .button-text:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.landing .landing-button:hover .button-text {
+	padding-right: 25px;
+}
+.landing-button:hover .button-text:after {
+	opacity: 1;
+	right: 0;
 }

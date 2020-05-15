@@ -14,7 +14,7 @@ const LandingNavbar = () => {
 			bg="transparent"
 			expand="lg"
 			style={style.SiteNav}
-			className="landing-navbar"
+			className="landing-navbar selectDisable"
 		>
 			<Navbar.Brand href="/">
 				<img src={LogoWhite} alt="logo white" style={style.Logo} />
@@ -23,19 +23,29 @@ const LandingNavbar = () => {
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="mr-auto">
 					<Link to="/" className="link-tag">
-						<p style={style.NavText}>Home</p>
+						<p style={style.NavText} className="nav-text">
+							Home
+						</p>
 					</Link>
 					<Link to="/about" className="link-tag">
-						<p style={style.NavText}>About</p>
+						<p style={style.NavText} className="nav-text">
+							About
+						</p>
 					</Link>
 					<Link to="/team" className="link-tag">
-						<p style={style.NavText}>Team</p>
+						<p style={style.NavText} className="nav-text">
+							Team
+						</p>
 					</Link>
 					<Link to="/projects" className="link-tag">
-						<p style={style.NavText}>Projects</p>
+						<p style={style.NavText} className="nav-text">
+							Projects
+						</p>
 					</Link>
 					<Link to="/apply" className="link-tag">
-						<p style={style.NavText}>Apply</p>
+						<p style={style.NavText} className="nav-text">
+							Apply
+						</p>
 					</Link>
 				</Nav>
 			</Navbar.Collapse>
@@ -54,6 +64,7 @@ const style = {
 	NavText: {
 		fontSize: '22px',
 		color: 'white',
+		padding: '0',
 		margin: '0 1rem',
 		letterSpacing: '0.11em',
 		textTransform: 'uppercase',

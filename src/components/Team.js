@@ -1,12 +1,13 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
+import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import TeamText from '../img/team/team-text.png';
+import TeamText from '../img/team/team-title.png';
 import Samarth from '../img/team/samring.png';
 import Vicky from '../img/team/vickyring.png';
 import Aditya from '../img/team/aditring.png';
@@ -63,15 +64,12 @@ const Team = () => {
 	return (
 		<div className="team">
 			<SiteNavbar />
-			<div className="title-container">
-				<img src={TeamText} alt="team text" />
-				<p className="subtitle">
-					Hover over photo to
-					<br />
-					view bios
-				</p>
-			</div>
 			<Container fluid className="body">
+				<Row>
+					<Col xs={12} className="text-center title-col">
+						<img src={TeamText} alt="team text" draggable="false" />
+					</Col>
+				</Row>
 				<Row>
 					<Col xs={6} className="text-col">
 						<h2 className="name" id="name">
@@ -88,6 +86,14 @@ const Team = () => {
 							Dev @ Berkeley! Besides coding, I practice martial arts, practice
 							guitar, and play the drums in the cal band.
 						</p>
+						<div className="social-row">
+							<a href="#">
+								<i className="fa fa-linkedin"></i>
+							</a>
+							<a href="#">
+								<i className="fa fa-envelope"></i>
+							</a>
+						</div>
 					</Col>
 					<Col xs={2} className="image-col">
 						<img
@@ -133,6 +139,7 @@ const Team = () => {
 					</Col>
 				</Row>
 			</Container>
+			<Footer />
 		</div>
 	);
 };
