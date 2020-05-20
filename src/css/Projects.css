@@ -22,40 +22,38 @@
 	display: block;
 }
 
-.overlay {
+/* Overlay for Purple div */
+.projects .overlay {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	overflow: hidden;
 	height: 0;
-	transition: 0.5s ease;
+	transition-delay: 0.5s;
+	transition-property: height;
+	transition-duration: 0.5s;
 }
-.partner:hover .overlay {
-	bottom: 0;
+/* hover effect for Purple div */
+.projects .partner:hover .overlay {
 	height: 100%;
+	transition-delay: 0s;
 }
-.overlay-image {
+/* Overlay for Purple image */
+.projects .overlay-image {
 	padding: 0 30px;
 	top: 40%;
 	position: absolute;
 	width: 100%;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
-	/* top: 50%; */
-	/* left: 50%; */
-	/* -webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	text-align: center; */
 }
-.overlay-rotated {
+/* Specifics for purple image from top */
+.projects .overlay-rotated {
 	top: 0;
 }
-.partner:hover .overlay-rotated {
-	top: 0;
-}
-.overlay-image-rotated {
+
+.projects .overlay-image-rotated {
 	padding: 0 30px;
 	bottom: 40%;
 	position: absolute;
@@ -63,4 +61,60 @@
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 	transform: rotate(180deg);
+}
+
+/* Overlay for div containing text */
+.projects .text-overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	height: 0;
+	display: flex;
+	flex-direction: column;
+	transition-delay: 0s;
+	transition-property: height;
+	transition-duration: 0.5s;
+}
+/* hover effect for div containing text */
+.projects .partner:hover .text-overlay {
+	height: 28%;
+	transition-delay: 0.5s;
+}
+
+.projects .text-overlay-rotated {
+	top: 0;
+	transform: rotate(180deg);
+}
+.projects .partner:hover .text-overlay-rotated {
+	height: 21.5%;
+}
+
+.projects .overlay-header {
+	padding: 0 50px;
+	width: 100%;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 31px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+.projects .overlay-text {
+	padding: 0 50px;
+	margin-bottom: 2vh;
+	width: 100%;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+.projects .overlay-header-rotated {
+	transform: rotate(180deg);
+}
+.projects .overlay-text-rotated {
+	transform: rotate(180deg);
+	margin-bottom: 0;
 }

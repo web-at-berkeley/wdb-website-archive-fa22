@@ -55,3 +55,38 @@
 .site-navbar p.nav-text:after {
 	transform-origin: 0% 50%;
 }
+
+.site-navbar .dropdown-content p:after {
+	border-bottom: transparent;
+}
+
+.site-navbar .nav-text mark {
+	color: #ffffff;
+	background-color: #00f8f9;
+	transition: 0.3s ease;
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+}
+.site-navbar .nav-text:hover mark {
+	background-color: #5f60ff;
+}
+.site-navbar .dropdown {
+	position: relative;
+	display: inline-block;
+}
+.site-navbar .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: transparent;
+	min-width: 160px;
+	padding-top: 2vh;
+	z-index: 1;
+	transition: 0.5s ease;
+}
+.site-navbar .dropdown-content .link-tag {
+	padding-bottom: 1vh;
+	display: block;
+}
+.site-navbar .dropdown:hover .dropdown-content {
+	display: block;
+}

@@ -13,6 +13,15 @@ h6 {
 	padding: 0;
 }
 
+.header {
+	font-family: Raleway;
+	font-size: 45px;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #00f8f9, 4px 4px #5f60ff;
+	text-align: center;
+}
+
 .selectDisable {
 	-webkit-user-select: none;
 	-khtml-user-select: none;

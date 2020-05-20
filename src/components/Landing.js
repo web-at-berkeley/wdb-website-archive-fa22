@@ -5,7 +5,6 @@ import LandingNavbar from './LandingNavbar';
 import Button from 'react-bootstrap/Button';
 
 import LandingDesign from '../img/landing/landing-design.png';
-import LandingText from '../img/landing/landing-text.png';
 
 import '../css/Landing.css';
 
@@ -13,14 +12,13 @@ const Landing = () => {
 	return (
 		<div className="landing">
 			<LandingNavbar />
-			<div class="body">
-				<div class="text">
-					<img
-						src={LandingText}
-						alt="landing text"
-						className="landing-text selectDisable"
-						draggable="false"
-					/>
+			<div className="body">
+				<div className="text">
+					<h1 className="landing-text">
+						Web Development
+						<br />
+						at Berkeley
+					</h1>
 					<a href="/about" className="landing-link">
 						<Button className="landing-button">
 							<p className="button-text">Learn More</p>

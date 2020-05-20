@@ -1,0 +1,32 @@
+.long-arrow-top {
+	width: 90%;
+	margin-left: 5%;
+}
+.secondary-header {
+	font-size: 42px;
+	line-height: 49px;
+	letter-spacing: 0.12em;
+	color: #000000;
+	font-family: Raleway;
+	font-weight: 700;
+}
+.timeline-text {
+	font-size: 23px;
+	line-height: 1.1;
+	text-align: center;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: #000000;
+	font-family: Raleway;
+	font-weight: 700;
+}
+
+.long-arrow-row {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	margin-left: 5%;
+}
+.long-arrow {
+	width: 100%;
+}

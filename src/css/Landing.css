@@ -26,9 +26,17 @@
 	flex-direction: column;
 }
 .landing .landing-text {
-	width: 500px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 43px;
+	line-height: 114.1%;
+
+	letter-spacing: 0.19em;
+	text-transform: uppercase;
+	color: #ffffff;
 	max-width: 100%;
-	margin-bottom: 2.6rem;
+	margin-bottom: 2vh;
 }
 .landing .landing-link {
 	width: 300px;

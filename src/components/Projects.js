@@ -7,8 +7,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import ProjectsTitle from '../img/projects/projects-title.png';
 import Overlay from '../img/projects/overlay.png';
+import OverlayRotated from '../img/projects/overlay-rotated.png';
 import Resource19 from '../img/projects/resource19.png';
 import GroTech from '../img/projects/grotech.png';
 import Frio from '../img/projects/frio.png';
@@ -23,7 +23,7 @@ const Projects = () => {
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="text-center title-col">
-						<img src={ProjectsTitle} alt="projects title" draggable="false" />
+						<h1 className="header">Our Work.</h1>
 					</Col>
 				</Row>
 				<Row className="align-items-center">
@@ -38,6 +38,12 @@ const Projects = () => {
 						<div class="overlay">
 							<img src={Overlay} alt="overlay" className="overlay-image" />
 						</div>
+						<div className="text-overlay">
+							<h3 className="overlay-header">RESOURCE 19</h3>
+							<p className="overlay-text">
+								BUILT USING REACT, JQUERY, BOOTSTRAP, SASS, AND FIREBASE
+							</p>
+						</div>
 					</Col>
 					<Col xs={12} sm={6} className="partner">
 						<a href="/" title="GroTech @ Berkeley" className="screenshot">
@@ -45,10 +51,19 @@ const Projects = () => {
 						</a>
 						<div class="overlay overlay-rotated">
 							<img
-								src={Overlay}
+								src={OverlayRotated}
 								alt="overlay"
 								className="overlay-image-rotated"
+								style={{ bottom: '33.5%' }}
 							/>
+						</div>
+						<div className="text-overlay text-overlay-rotated">
+							<p className="overlay-text overlay-text-rotated">
+								BUILT USING HTML, CSS, AND PHP
+							</p>
+							<h3 className="overlay-header overlay-header-rotated">
+								GROTECH @BERKELEY
+							</h3>
 						</div>
 					</Col>
 				</Row>
@@ -68,6 +83,12 @@ const Projects = () => {
 								className="overlay-image-rotated"
 							/>
 						</div>
+						<div className="text-overlay text-overlay-rotated">
+							<p className="overlay-text overlay-text-rotated">
+								BUILT USING HTML, CSS, JS, FLASK, AND SQLITE3
+							</p>
+							<h3 className="overlay-header overlay-header-rotated">FRIO</h3>
+						</div>
 					</Col>
 					<Col xs={12} sm={6} className="partner">
 						<a
@@ -78,7 +99,16 @@ const Projects = () => {
 							<img src={Formula} alt="formula" className="screenshot" />
 						</a>
 						<div class="overlay">
-							<img src={Overlay} alt="overlay" className="overlay-image" />
+							<img
+								src={OverlayRotated}
+								alt="overlay"
+								className="overlay-image"
+								style={{ top: '33.5%' }}
+							/>
+						</div>
+						<div className="text-overlay">
+							<h3 className="overlay-header">FORMULA ELECTRIC AT BERKELEY</h3>
+							<p className="overlay-text">BUILT USING REACT AND BOOTSTRAP</p>
 						</div>
 					</Col>
 				</Row>

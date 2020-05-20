@@ -32,9 +32,28 @@ const SiteNavbar = () => {
 				<Link to="/" className="link-tag">
 					<p className="nav-text">Home</p>
 				</Link>
-				<Link to="/about" className="link-tag">
-					<p className="nav-text">About</p>
-				</Link>
+				<div class="dropdown">
+					<Link to="/about" className="link-tag dropbtn">
+						<p className="nav-text">What We Offer</p>
+					</Link>
+					<div class="dropdown-content">
+						<Link to="/about/education" className="link-tag">
+							<p className="nav-text">
+								<mark>Education</mark>
+							</p>
+						</Link>
+						<Link to="/about/development" className="link-tag">
+							<p className="nav-text">
+								<mark>Development</mark>
+							</p>
+						</Link>
+						<Link to="/about/partnerships" className="link-tag">
+							<p className="nav-text">
+								<mark>Partnerships</mark>
+							</p>
+						</Link>
+					</div>
+				</div>
 				<Link to="/team" className="link-tag">
 					<p className="nav-text">Team</p>
 				</Link>

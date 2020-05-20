@@ -1,4 +1,5 @@
 import React from 'react';
+import { navigate } from '@reach/router';
 
 import SiteNavbar from './SiteNavbar';
 import Footer from './Footer';
@@ -7,7 +8,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import AboutTitle from '../img/about/about-title.png';
 import Line1 from '../img/about/line-1.png';
 import Line2 from '../img/about/line-2.png';
 // import Wires1 from '../img/about/background-wires-1.png';
@@ -23,12 +23,7 @@ const About = () => {
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="text-center">
-						<img
-							src={AboutTitle}
-							alt="about title"
-							className="selectDisable"
-							draggable="false"
-						/>
+						<h1 className="header">What We're all about.</h1>
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
@@ -65,13 +60,17 @@ const About = () => {
 						sm={5}
 						className="text-center relative-container left-container"
 					>
-						<div className="content-box">
+						<div
+							className="content-box"
+							onClick={() => navigate('/about/education')}
+						>
 							<h3 className="subject-header">Education</h3>
 							<p className="subject-text">
-								In our Education track, we offer students the unique opportunity
-								to gain a comprehensive web development education in both
-								frontend and backend. Students will receive interactive lessons
-								taught by Berkeley students experienced in Web Development.
+								With Berkeley's scattered web development education
+								opportunities, it can be difficult to know where to start
+								pursuing this knowledge. Web Developers of Berkeley is the place
+								for students to master these skills and web developers to apply
+								their knowledge.
 							</p>
 						</div>
 					</Col>
@@ -80,29 +79,38 @@ const About = () => {
 						sm={5}
 						className="text-center relative-container right-container"
 					>
-						<div className="content-box">
+						{/* <Link to="/development"> */}
+						<div
+							className="content-box"
+							onClick={() => navigate('/about/development')}
+						>
 							<h3 className="subject-header">Development</h3>
 							<p className="subject-text">
-								In our Development branch, we connect experienced web developers
-								to Bay Area startups. Students will partake in the software
-								engineering lifecycle, leading the design, build, and deployment
-								stages of the client's website.
+								Learning has its true payoff when given the chance to apply
+								one’s knowledge in the real world. We provide opportunities to
+								develop for real startups in the Bay Area, where students will
+								experience every step of the software development process.
 							</p>
 						</div>
+						{/* </Link> */}
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
 					<Col xs={12} sm={10} className="text-center relative-container">
-						<div className="content-box partner-box">
+						{/* <Link to="/partnerships"> */}
+						<div
+							className="content-box partner-box"
+							onClick={() => navigate('/about/partnerships')}
+						>
 							<h3 className="subject-header">partnerships</h3>
 							<p className="subject-text">
-								As a UC Berkeley-based organization, students will have the
-								opportunity to partner with clubs on campus and companies around
-								the Bay. By creating websites for these organizations, we aim to
-								provide our club developers with industry-level experience in
-								web development.
+								As a member of the Berkeley tech community, part of our mission
+								is to provide web development services to fellow UC Berkeley
+								organizations and associated non-profits, giving back to the
+								community and prioritizing tech for social good.
 							</p>
 						</div>
+						{/* </Link> */}
 					</Col>
 				</Row>
 			</Container>
