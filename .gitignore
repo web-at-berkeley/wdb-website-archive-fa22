@@ -4,3 +4,5 @@
 
 # Ignore Security Files
 wdb-private-key.pem
+
+node_modules/
