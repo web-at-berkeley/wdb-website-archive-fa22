@@ -1,35 +1,35 @@
 .site-navbar {
 	position: relative;
-	padding-top: 5vh;
+	padding-top: 2.5rem;
 }
 .site-navbar .nav-background {
 	position: absolute;
-	width: 45%;
-	height: 13vh;
+	width: 47.5%;
+	height: 6.5rem;
 	z-index: 2;
 }
 .site-navbar .nav-background-1 {
 	position: absolute;
-	top: 2.5vh;
+	top: 1rem;
 	left: 1.5%;
 	z-index: 1;
 }
 .site-navbar .nav-background-2 {
 	position: absolute;
-	top: 12vh;
+	top: 6rem;
 	left: -8%;
 	z-index: 3;
 }
 .site-navbar .text {
 	position: absolute;
-	top: 5vh;
+	top: 2.5rem;
 	display: flex;
 	flex-direction: row;
-	width: 37.5%;
+	width: 40%;
 	justify-content: space-between;
 	align-items: center;
 	margin-left: 5%;
-	height: 5.7vh;
+	height: 3rem;
 	z-index: 4;
 }
 .site-navbar .nav-text {
@@ -79,14 +79,35 @@
 	position: absolute;
 	background-color: transparent;
 	min-width: 160px;
-	padding-top: 2vh;
+	padding-top: 1rem;
 	z-index: 1;
 	transition: 0.5s ease;
 }
 .site-navbar .dropdown-content .link-tag {
-	padding-bottom: 1vh;
+	padding-bottom: 0.5rem;
 	display: block;
 }
 .site-navbar .dropdown:hover .dropdown-content {
 	display: block;
+}
+
+@media only screen and (max-width: 1300px) {
+	.site-navbar .nav-background {
+		width: 52.5%;
+	}
+	.site-navbar .text {
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	.site-navbar .nav-background {
+		width: 57.5%;
+	}
+	.site-navbar .text {
+		width: 50%;
+	}
+	.site-navbar .nav-background-2 {
+		left: -10%;
+	}
 }

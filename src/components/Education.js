@@ -1,19 +1,30 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
-import Footer from './Footer';
+import SiteNavbarMobile from './mobile/SiteNavbarMobile';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Graphic from '../img/about/education/graphic.png';
+import RightNav from '../img/right-nav.png';
+
+import '../css/Education.css';
+
 const Education = () => {
+	const large = matchMedia('(max-width: 992px)');
+	let Navbar = SiteNavbar;
+	if (large.matches) {
+		Navbar = SiteNavbarMobile;
+	}
 	return (
-		<div className="apply">
-			<SiteNavbar />
-			<Container fluid className="body" style={{ paddingTop: '15vh' }}>
+		<div className="education">
+			<Navbar />
+			<Container fluid className="body">
+				<img src={RightNav} alt="right nav" className="right-nav" />
 				<Row>
-					<Col xs={12} className="text-center title-col">
+					<Col xs={12} className="text-center">
 						<h1 className="header">
 							Education
 							<span style={{ textShadow: 'none' }}> With Application.</span>
@@ -21,8 +32,8 @@ const Education = () => {
 					</Col>
 				</Row>
 				<Row>
-					<Col xs={12} className="text-center title-col">
-						<p style={{ color: 'black', padding: '10vh 10% 10vh 10%' }}>
+					<Col xs={12} className="text-center">
+						<p className="subtitle">
 							In our Education track, we offer students the unique opportunity
 							to gain a comprehensive web development education in both frontend
 							and backend. Students will receive interactive lessons taught by
@@ -32,8 +43,12 @@ const Education = () => {
 						</p>
 					</Col>
 				</Row>
+				<Row>
+					<Col xs={12} className="text-center" style={{ padding: '0' }}>
+						<img src={Graphic} alt="graphic" style={{ width: '100%' }} />
+					</Col>
+				</Row>
 			</Container>
-			<Footer />
 		</div>
 	);
 };

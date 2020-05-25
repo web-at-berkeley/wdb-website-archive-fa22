@@ -1,0 +1,158 @@
+.education .body {
+	padding-top: 10rem;
+}
+.education .subtitle {
+	color: black;
+	font-size: 26px;
+	letter-spacing: 0.14em;
+	line-height: 136%;
+	padding: 1.5rem 10% 3rem 10%;
+}
+
+.right-nav {
+	position: absolute;
+	right: 0;
+	top: 3.6rem;
+}
+
+.education .sub-subtitle {
+	font-size: 55px;
+	line-height: 119.1%;
+	text-align: right;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+	color: #5f60ff;
+	text-align: center;
+	padding: 7rem 0 4rem 0;
+}
+/* Development */
+.development .blobs {
+	position: absolute;
+	width: 100%;
+	top: 11rem;
+	z-index: -1;
+	left: 0;
+}
+.development .client-logo {
+	width: 530px;
+	max-width: 85%;
+}
+.development .client-description {
+	font-size: 27px;
+	line-height: 32px;
+	text-align: center;
+	letter-spacing: 0.13em;
+	color: #000000;
+	padding: 1rem 15% 2rem 15%;
+}
+
+/* Partnerships */
+.partnerships .blobs {
+	position: absolute;
+	width: 100%;
+	top: 13rem;
+	z-index: -1;
+	left: 0;
+}
+.partnerships .partner {
+	max-width: 100%;
+	padding: 1rem;
+	transition: 1s ease;
+	border-radius: 50%;
+}
+.partnerships .partner:hover {
+	transform: scale(1.1);
+}
+.partnerships .cloud,
+.partnerships .grotech {
+	margin-top: 4rem;
+}
+
+@media only screen and (max-width: 992px) {
+	.education .body {
+		padding-top: 7vh;
+	}
+	.education .header {
+		font-size: 32px;
+	}
+	.education .subtitle {
+		color: black;
+		font-size: 22px;
+		padding: 1.5rem 5% 2rem 5%;
+	}
+	.development .blobs {
+		top: 37rem;
+	}
+
+	.right-nav {
+		display: none;
+	}
+	.partnerships .blobs {
+		top: 5rem;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.education .sub-subtitle {
+		padding: 3rem 0 2rem 0;
+	}
+	.development .client-description {
+		font-size: 22px;
+		padding: 1rem 10% 2rem 10%;
+	}
+	.development .blobs {
+		top: 32rem;
+	}
+	.partnerships .blobs {
+		top: 7rem;
+	}
+	.partnerships .cloud,
+	.partnerships .grotech {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.education .header {
+		font-size: 28px;
+	}
+	.education .subtitle {
+		color: black;
+		font-size: 18px;
+		padding: 0.5rem 4% 2rem 4%;
+	}
+	.education .sub-subtitle {
+		padding: 1rem 0 2rem 0;
+		font-size: 42px;
+	}
+	.development .client-description {
+		font-size: 22px;
+		padding: 0.8rem 5% 1rem 5%;
+	}
+	.development .blobs {
+		top: 7rem;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.education .header {
+		font-size: 24px;
+		text-shadow: 1px 1px #00f8f9, 2px 2px #5f60ff;
+	}
+	.education .subtitle {
+		color: black;
+		font-size: 16px;
+		padding: 0.5rem 2% 2rem 2%;
+	}
+	.education .sub-subtitle {
+		padding: 1rem 0 2rem 0;
+		font-size: 32px;
+	}
+	.development .client-description {
+		font-size: 16px;
+		padding: 0.8rem 3% 1rem 3%;
+	}
+	.partnerships .blobs {
+		top: 22rem;
+	}
+}

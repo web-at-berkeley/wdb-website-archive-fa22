@@ -9,7 +9,10 @@ const Footer = () => {
 				src={FooterBackground}
 				alt="footer background"
 				draggable="false"
-				style={{ width: '100%', marginTop: '5vh' }}
+				style={{
+					width: '100%',
+					marginTop: '5vh',
+				}}
 			/>
 		</div>
 	);

@@ -2,6 +2,7 @@ import React from 'react';
 import { navigate } from '@reach/router';
 
 import SiteNavbar from './SiteNavbar';
+import SiteNavbarMobile from './mobile/SiteNavbarMobile';
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -17,9 +18,14 @@ import Line2 from '../img/about/line-2.png';
 import '../css/About.css';
 
 const About = () => {
+	const large = matchMedia('(max-width: 992px)');
+	let Navbar = SiteNavbar;
+	if (large.matches) {
+		Navbar = SiteNavbarMobile;
+	}
 	return (
 		<div className="about">
-			<SiteNavbar />
+			<Navbar />
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="text-center">
@@ -57,12 +63,13 @@ const About = () => {
 				<Row className="justify-content-center">
 					<Col
 						xs={12}
-						sm={5}
+						md={5}
 						className="text-center relative-container left-container"
 					>
 						<div
 							className="content-box"
 							onClick={() => navigate('/about/education')}
+							title="Education"
 						>
 							<h3 className="subject-header">Education</h3>
 							<p className="subject-text">
@@ -76,13 +83,13 @@ const About = () => {
 					</Col>
 					<Col
 						xs={12}
-						sm={5}
+						md={5}
 						className="text-center relative-container right-container"
 					>
-						{/* <Link to="/development"> */}
 						<div
 							className="content-box"
 							onClick={() => navigate('/about/development')}
+							title="Development"
 						>
 							<h3 className="subject-header">Development</h3>
 							<p className="subject-text">
@@ -92,15 +99,14 @@ const About = () => {
 								experience every step of the software development process.
 							</p>
 						</div>
-						{/* </Link> */}
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
-					<Col xs={12} sm={10} className="text-center relative-container">
-						{/* <Link to="/partnerships"> */}
+					<Col xs={12} md={10} className="text-center relative-container">
 						<div
 							className="content-box partner-box"
 							onClick={() => navigate('/about/partnerships')}
+							title="Partnerships"
 						>
 							<h3 className="subject-header">partnerships</h3>
 							<p className="subject-text">
@@ -110,7 +116,6 @@ const About = () => {
 								community and prioritizing tech for social good.
 							</p>
 						</div>
-						{/* </Link> */}
 					</Col>
 				</Row>
 			</Container>

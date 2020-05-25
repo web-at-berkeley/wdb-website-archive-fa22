@@ -6,6 +6,16 @@
 	margin-bottom: 5vh;
 }
 
+.projects .subtitle {
+	font-size: 23px;
+	line-height: 136%;
+	text-align: center;
+	letter-spacing: 0.14em;
+	color: #000000;
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
 .projects .partner {
 	display: flex;
 	justify-content: center;
@@ -117,4 +127,135 @@
 .projects .overlay-text-rotated {
 	transform: rotate(180deg);
 	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+	.projects .overlay-header {
+		padding: 0 50px;
+		font-size: 21px;
+	}
+	.projects .overlay-text {
+		padding: 0 50px;
+		margin-bottom: 2vh;
+		font-size: 16px;
+	}
+	.projects .overlay-header-rotated {
+		transform: rotate(180deg);
+		margin-top: -1rem;
+	}
+}
+
+@media only screen and (max-width: 1255px) {
+	.projects .overlay-header {
+		font-size: 18px;
+	}
+	.projects .partner:hover .text-overlay {
+		height: 32%;
+	}
+	.projects .partner:hover .text-overlay-rotated {
+		height: 25%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.projects .overlay-header {
+		font-size: 32px;
+		margin-bottom: 2vh;
+		line-height: 1.12;
+	}
+	.projects .overlay-text {
+		padding: 0 50px;
+		margin-bottom: 2vh;
+		font-size: 26px;
+		line-height: 1.1;
+	}
+	.projects .partner:hover .text-overlay {
+		height: 28%;
+	}
+	.projects .partner:hover .text-overlay-rotated {
+		height: 25%;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.projects .body {
+		padding-top: 7vh;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.projects .overlay-header {
+		font-size: 26px;
+		margin-bottom: 1vh;
+		line-height: 1.12;
+	}
+	.projects .overlay-text {
+		margin-bottom: 2vh;
+		font-size: 20px;
+		line-height: 1.1;
+	}
+	.projects .partner:hover .text-overlay {
+		height: 28%;
+	}
+	.projects .partner:hover .text-overlay-rotated {
+		height: 20%;
+	}
+	.projects .partner {
+		margin-bottom: 2rem;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.projects .overlay-header {
+		margin-bottom: 0.5vh;
+	}
+	.projects .partner:hover .text-overlay {
+		height: 32%;
+	}
+	.projects .body {
+		padding: 7vh 5% 0 5%;
+	}
+	.projects .subtitle {
+		font-size: 18px;
+		padding-top: 0.5rem;
+		padding-right: 0.2rem;
+		padding-left: 0.2rem;
+	}
+	.projects .title-col {
+		margin-bottom: 2rem;
+	}
+}
+
+@media only screen and (max-width: 675px) {
+	.projects .overlay-header {
+		font-size: 24px;
+		margin-bottom: 0.2vh;
+	}
+	.projects .overlay-text {
+		font-size: 16px;
+	}
+	.projects .partner:hover .text-overlay {
+		height: 32%;
+	}
+	.projects .partner:hover .text-overlay-rotated {
+		height: 24%;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.projects .partner:hover .overlay {
+		height: 0;
+		transition-delay: 0s;
+	}
+	.projects .partner:hover .text-overlay {
+		height: 0;
+		transition-delay: 0s;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.about .header {
+		font-size: 32px;
+		text-shadow: 1px 1px #00f8f9, 2px 2px #5f60ff;
+	}
 }

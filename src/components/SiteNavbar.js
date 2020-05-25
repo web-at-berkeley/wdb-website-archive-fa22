@@ -32,11 +32,11 @@ const SiteNavbar = () => {
 				<Link to="/" className="link-tag">
 					<p className="nav-text">Home</p>
 				</Link>
-				<div class="dropdown">
+				<div className="dropdown">
 					<Link to="/about" className="link-tag dropbtn">
 						<p className="nav-text">What We Offer</p>
 					</Link>
-					<div class="dropdown-content">
+					<div className="dropdown-content">
 						<Link to="/about/education" className="link-tag">
 							<p className="nav-text">
 								<mark>Education</mark>

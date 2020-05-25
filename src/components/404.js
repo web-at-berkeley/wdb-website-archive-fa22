@@ -1,35 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from '@reach/router';
 
-import Particles from 'react-particles-js';
-
-class ErrorPage extends Component {
-	render() {
-		return (
-			<div>
-				404 babyyyyyy
-				<Particles
-					params={{
-						particles: {
-							number: {
-								value: 50,
-							},
-							size: {
-								value: 3,
-							},
-						},
-						interactivity: {
-							events: {
-								onhover: {
-									enable: true,
-									mode: 'repulse',
-								},
-							},
-						},
-					}}
-				/>
-			</div>
-		);
-	}
-}
+const ErrorPage = () => {
+	return (
+		<div
+			style={{
+				display: 'flex',
+				flexDirection: 'column',
+				alignItems: 'center',
+				justifyContent: 'center',
+				height: '100vh',
+			}}
+		>
+			<h1 style={{ fontSize: '72px' }}>404</h1>
+			<Link to="/">
+				<p style={{ fontSize: '26px' }}>Return to Home</p>
+			</Link>
+		</div>
+	);
+};
 
 export default ErrorPage;

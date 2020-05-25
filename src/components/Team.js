@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
+import SiteNavbarMobile from './mobile/SiteNavbarMobile';
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -82,13 +83,25 @@ const Team = () => {
 		document.getElementById('mail').href = 'mailto: sgoel9@berkeley.edu';
 	}
 
+	const large = matchMedia('(max-width: 992px)');
+	let Navbar = SiteNavbar;
+	if (large.matches) {
+		Navbar = SiteNavbarMobile;
+	}
+
 	return (
 		<div className="team">
-			<SiteNavbar />
+			<Navbar />
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="text-center title-col">
 						<h1 className="header">Meet The Team.</h1>
+						<p className="subtitle">
+							We are a team of UC Berkeley Students who are passionate about
+							providing education and support in our community for web
+							development. Hover over or tap on our photos to learn more about
+							us.
+						</p>
 					</Col>
 				</Row>
 				<Row>
@@ -112,10 +125,14 @@ const Team = () => {
 								href="https://www.linkedin.com/in/samarth-goel-07"
 								id="linkedin"
 							>
-								<img src={Linkedin} alt="linkedin" className="linkedin-icon" />
+								<img
+									src={Linkedin}
+									alt="linkedin"
+									className=" social-icon linkedin-icon"
+								/>
 							</a>
 							<a href="mailto: sgoel9@berkeley.edu" id="mail">
-								<img src={Mail} alt="mail" />
+								<img src={Mail} alt="mail" className="social-icon mail-icon" />
 							</a>
 						</div>
 					</Col>

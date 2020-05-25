@@ -1,5 +1,18 @@
+.landing-navbar {
+	padding: 10vh 0 0 7%;
+}
+
 .landing-navbar .link-tag:hover {
 	text-decoration: none;
+}
+
+.landing-navbar .nav-text {
+	font-size: 22px;
+	color: white;
+	padding: 0;
+	margin: 0 1rem;
+	letter-spacing: 0.11em;
+	text-transform: uppercase;
 }
 
 .landing-navbar p:after {
@@ -14,4 +27,18 @@
 }
 .landing-navbar p.nav-text:after {
 	transform-origin: 0% 50%;
+}
+
+.landing-navbar .tab-text {
+	padding-left: 1.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+	#basic-navbar-nav {
+		padding-top: 1vh;
+		margin-left: -3%;
+	}
+	.landing-navbar {
+		padding: 5vh 10% 0 7%;
+	}
 }

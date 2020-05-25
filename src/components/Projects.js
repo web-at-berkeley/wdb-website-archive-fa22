@@ -1,6 +1,8 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
+import SiteNavbarMobile from './mobile/SiteNavbarMobile';
+
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -17,17 +19,26 @@ import Formula from '../img/projects/formula.png';
 import '../css/Projects.css';
 
 const Projects = () => {
+	const large = matchMedia('(max-width: 992px)');
+	let Navbar = SiteNavbar;
+	if (large.matches) {
+		Navbar = SiteNavbarMobile;
+	}
 	return (
 		<div className="projects">
-			<SiteNavbar />
+			<Navbar />
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="text-center title-col">
 						<h1 className="header">Our Work.</h1>
+						<p className="subtitle">
+							Our work is 100% pro-bono and for the benefit of the Berkeley
+							campus community.
+						</p>
 					</Col>
 				</Row>
 				<Row className="align-items-center">
-					<Col xs={12} sm={6} className="partner">
+					<Col xs={12} xl={6} className="partner">
 						<a
 							href="https://resource19.org/"
 							title="Resource-19"
@@ -45,7 +56,7 @@ const Projects = () => {
 							</p>
 						</div>
 					</Col>
-					<Col xs={12} sm={6} className="partner">
+					<Col xs={12} xl={6} className="partner">
 						<a href="/" title="GroTech @ Berkeley" className="screenshot">
 							<img src={GroTech} alt="grotech" className="screenshot" />
 						</a>
@@ -68,7 +79,7 @@ const Projects = () => {
 					</Col>
 				</Row>
 				<Row className="align-items-center">
-					<Col xs={12} sm={6} className="partner">
+					<Col xs={12} xl={6} className="partner">
 						<a
 							href="https://devpost.com/software/frio"
 							title="Frio"
@@ -85,12 +96,12 @@ const Projects = () => {
 						</div>
 						<div className="text-overlay text-overlay-rotated">
 							<p className="overlay-text overlay-text-rotated">
-								BUILT USING HTML, CSS, JS, FLASK, AND SQLITE3
+								BUILT USING JS, FLASK, AND SQLITE3
 							</p>
 							<h3 className="overlay-header overlay-header-rotated">FRIO</h3>
 						</div>
 					</Col>
-					<Col xs={12} sm={6} className="partner">
+					<Col xs={12} xl={6} className="partner">
 						<a
 							href="https://ev.berkeley.edu/"
 							title="Formula Electric at Berkeley"
@@ -107,7 +118,9 @@ const Projects = () => {
 							/>
 						</div>
 						<div className="text-overlay">
-							<h3 className="overlay-header">FORMULA ELECTRIC AT BERKELEY</h3>
+							<h3 className="overlay-header formula-header">
+								FORMULA ELECTRIC AT BERKELEY
+							</h3>
 							<p className="overlay-text">BUILT USING REACT AND BOOTSTRAP</p>
 						</div>
 					</Col>

@@ -1,0 +1,5 @@
+.site-mavbar-mobile .nav-text {
+	background: -webkit-linear-gradient(left, #00f8f9, #5f60ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
