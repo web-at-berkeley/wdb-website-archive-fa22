@@ -78,7 +78,6 @@
 }
 .toggle-arrow {
 	padding: 0 5%;
-	width: 56px;
 }
 .role {
 	font-family: Raleway;
@@ -159,28 +158,24 @@
 }
 
 @media only screen and (max-width: 992px) {
+	.apply .body {
+		padding-top: 7vh;
+	}
 	.role {
 		font-size: 28px;
 	}
 	.secondary-header {
-		font-size: 34px;
+		font-size: 24px;
 	}
-	.teacher-arrow {
-		top: -15rem;
-		height: 20rem;
-		margin-left: 22.5%;
-		display: none;
+	.timeline-text {
+		font-size: 16px;
 	}
-	.student-arrow {
-		top: -12.75rem;
-		height: 18rem;
-		width: 50%;
-		display: none;
+	.arrowhead {
+		transform: rotate(180deg);
+		margin-bottom: 0.5rem;
+		margin-top: 0.5rem;
 	}
-	.developer-arrow {
-		top: -12.5rem;
-		height: 18rem;
-		width: 24%;
-		display: none;
+	.card {
+		margin: 2rem 3% 0 3%;
 	}
 }

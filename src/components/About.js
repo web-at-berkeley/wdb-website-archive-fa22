@@ -11,9 +11,8 @@ import Col from 'react-bootstrap/Col';
 
 import Line1 from '../img/about/line-1.png';
 import Line2 from '../img/about/line-2.png';
-// import Wires1 from '../img/about/background-wires-1.png';
-// import Wires2 from '../img/about/background-wires-2.png';
-// import Wires3 from '../img/about/background-wires-3.png';
+import LeftRings from '../img/about/leftrings.png';
+import RightRings from '../img/about/rightrings.png';
 
 import '../css/About.css';
 
@@ -66,6 +65,7 @@ const About = () => {
 						md={5}
 						className="text-center relative-container left-container"
 					>
+						<img src={LeftRings} alt="left rings" className="left-rings" />
 						<div
 							className="content-box"
 							onClick={() => navigate('/about/education')}
@@ -86,6 +86,7 @@ const About = () => {
 						md={5}
 						className="text-center relative-container right-container"
 					>
+						<img src={RightRings} alt="right rings" className="right-rings" />
 						<div
 							className="content-box"
 							onClick={() => navigate('/about/development')}

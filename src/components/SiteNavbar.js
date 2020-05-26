@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from '@reach/router';
 
 import NavBackground from '../img/site-nav/site-nav-background.png';
-import NavBackground1 from '../img/site-nav/site-nav-1.png';
-import NavBackground2 from '../img/site-nav/site-nav-2.png';
+import LogoRainbow from '../img/site-nav/logo-rainbow.png';
 
 import '../css/SiteNavbar.css';
 
@@ -16,18 +15,8 @@ const SiteNavbar = () => {
 				className="nav-background selectDisable"
 				draggable="false"
 			/>
-			<img
-				src={NavBackground1}
-				alt="nav background 1"
-				className="nav-background-1 selectDisable"
-				draggable="false"
-			/>
-			<img
-				src={NavBackground2}
-				alt="nav background 2"
-				className="nav-background-2 selectDisable"
-				draggable="false"
-			/>
+			<img src={LogoRainbow} alt="logo rainbow" className="logo-rainbow" />
+
 			<div className="text">
 				<Link to="/" className="link-tag">
 					<p className="nav-text">Home</p>

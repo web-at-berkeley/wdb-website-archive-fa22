@@ -47,13 +47,24 @@
 	margin-left: 2%;
 	height: 17rem;
 }
-.about .wires {
-	z-index: 2;
-	/* position: absolute;
-	top: 0;
-	left: 0; */
-	width: 100%;
+
+.left-rings {
+	position: absolute;
+	width: 85%;
+	z-index: 1;
+	top: -2.5rem;
+	right: 2.5%;
+	height: 140%;
 }
+.right-rings {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	top: -2.5rem;
+	right: 12%;
+	height: 140%;
+}
+
 .about .content-box {
 	position: absolute;
 	box-shadow: 5px 3px 23px rgba(0, 0, 0, 0.1);
@@ -73,8 +84,9 @@
 	width: 82.5%;
 }
 .about .content-box:hover {
-	transform: scale(1.15);
+	transform: scale(1.1);
 	cursor: pointer;
+	box-shadow: 8px 3px 23px rgba(0, 0, 0, 0.2);
 }
 .about .subject-header {
 	color: #5f60ff;
@@ -124,6 +136,13 @@
 	.about .body {
 		padding-top: 7vh;
 	}
+	.left-rings {
+		right: 7.5%;
+	}
+
+	.right-rings {
+		right: 6%;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -150,6 +169,13 @@
 	.about .content-box {
 		padding: 2rem;
 		width: 80%;
+	}
+	.left-rings {
+		display: none;
+	}
+
+	.right-rings {
+		display: none;
 	}
 }
 

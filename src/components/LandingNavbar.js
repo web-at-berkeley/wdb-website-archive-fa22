@@ -37,6 +37,9 @@ const LandingNavbar = () => {
 					<Link to="/apply" className="link-tag">
 						<p className="nav-text">Apply</p>
 					</Link>
+					<a href="mailto: webatberkeley@gmail.com" className="link-tag">
+						<p className="nav-text">Contact</p>
+					</a>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

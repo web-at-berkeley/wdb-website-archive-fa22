@@ -58,9 +58,11 @@
 }
 .linkedin-icon {
 	max-height: 40px;
+	height: 40px;
 }
 .mail-icon {
 	max-height: 40px;
+	height: 40px;
 }
 .team .social-row a:hover {
 	text-decoration: none;
@@ -88,7 +90,7 @@
 	border-radius: 50%;
 }
 .team .team-image:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 .team .member-1 {
 	margin-top: 7vh;
@@ -167,32 +169,33 @@
 		flex-direction: row;
 		justify-content: center;
 	}
+	.team .team-image:hover {
+		transform: scale(1.1);
+	}
 	.team .member-1 {
 		margin-top: 0;
 		width: 45%;
 		/* transform: translateX(20%); */
 	}
-	.team .member-2 {
-		margin-top: 0;
-		margin-right: 0;
-		width: 45%;
-	}
 	.team .member-3 {
-		margin-top: 0;
+		margin-top: 1rem;
 		width: 45%;
+		margin-right: 0.6rem;
 	}
 	.member-4 {
-		margin-top: 0;
+		margin-top: 1rem;
 		margin-right: 0;
 		width: 45%;
+		margin-left: 0.6rem;
 	}
 	.team .member-5 {
-		margin-top: 0;
+		margin-top: 1rem;
+		margin-right: 0.6rem;
 		width: 45%;
 	}
 	.team .member-6 {
-		margin-top: 0;
-		margin-left: 0;
+		margin-top: 1rem;
+		margin-left: 0.6rem;
 		width: 45%;
 	}
 }

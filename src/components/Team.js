@@ -8,12 +8,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Samarth from '../img/team/samring.png';
-import Vicky from '../img/team/vickyring.png';
-import Aditya from '../img/team/aditring.png';
-import Justin from '../img/team/justinring.png';
-import Ervin from '../img/team/ervinring.png';
-import Spider from '../img/team/spider.png';
+import Samarth from '../img/team/samring.jpg';
+import Vicky from '../img/team/vickyring.jpg';
+import Aditya from '../img/team/aditring.jpg';
+import Justin from '../img/team/justinring.jpg';
+import Ervin from '../img/team/ervinring.jpg';
+import Spider from '../img/team/spider.jpg';
 import Bubbles from '../img/team/bubbles.png';
 import Linkedin from '../img/team/linkedin.png';
 import Mail from '../img/team/mail.png';
@@ -80,7 +80,7 @@ const Team = () => {
 			"why is this spider here? Don't ask me!";
 		document.getElementById('linkedin').href =
 			'https://www.linkedin.com/company/web-dev-at-berkeley/';
-		document.getElementById('mail').href = 'mailto: sgoel9@berkeley.edu';
+		document.getElementById('mail').href = 'mailto: webatberkeley@gmail.edu';
 	}
 
 	const large = matchMedia('(max-width: 992px)');

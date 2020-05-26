@@ -51,6 +51,11 @@ const Partnerships = () => {
 				</Row>
 
 				<Row className="justify-content-center">
+					{/* <Col xs={12}>
+						<img src={Cloud} alt="cloud" className="partner cloud" />
+						<img src={Formula} alt="formula" className="partner formula" />
+						<img src={Grotech} alt="grotech" className="partner grotech" />
+					</Col> */}
 					<Col xs={12} md={4} lg={3} className="text-center">
 						<img src={Cloud} alt="cloud" className="partner cloud" />
 					</Col>

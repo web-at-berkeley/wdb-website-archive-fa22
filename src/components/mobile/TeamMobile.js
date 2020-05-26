@@ -8,11 +8,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Samarth from '../../img/team/samring.png';
-import Vicky from '../../img/team/vickyring.png';
-import Aditya from '../../img/team/aditring.png';
-import Justin from '../../img/team/justinring.png';
-import Ervin from '../../img/team/ervinring.png';
+import Samarth from '../../img/team/samring.jpg';
+import Vicky from '../../img/team/vickyring.jpg';
+import Aditya from '../../img/team/aditring.jpg';
+import Justin from '../../img/team/justinring.jpg';
+import Ervin from '../../img/team/ervinring.jpg';
 import Bubbles from '../../img/team/bubbles.png';
 import Linkedin from '../../img/team/linkedin.png';
 import Mail from '../../img/team/mail.png';

@@ -11,10 +11,10 @@ import Col from 'react-bootstrap/Col';
 
 import Overlay from '../img/projects/overlay.png';
 import OverlayRotated from '../img/projects/overlay-rotated.png';
-import Resource19 from '../img/projects/resource19.png';
-import GroTech from '../img/projects/grotech.png';
-import Frio from '../img/projects/frio.png';
-import Formula from '../img/projects/formula.png';
+import Resource19 from '../img/projects/resource19.jpg';
+import GroTech from '../img/projects/grotech.jpg';
+import Frio from '../img/projects/frio.jpg';
+import Formula from '../img/projects/formula.jpg';
 
 import '../css/Projects.css';
 

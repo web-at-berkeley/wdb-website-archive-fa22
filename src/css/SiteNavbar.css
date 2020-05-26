@@ -1,6 +1,6 @@
 .site-navbar {
 	position: relative;
-	padding-top: 2.5rem;
+	padding-top: 1.75rem;
 }
 .site-navbar .nav-background {
 	position: absolute;
@@ -8,18 +8,13 @@
 	height: 6.5rem;
 	z-index: 2;
 }
-.site-navbar .nav-background-1 {
+.logo-rainbow {
 	position: absolute;
-	top: 1rem;
-	left: 1.5%;
-	z-index: 1;
+	right: 2rem;
+	top: 2.5rem;
+	width: 150px;
 }
-.site-navbar .nav-background-2 {
-	position: absolute;
-	top: 6rem;
-	left: -8%;
-	z-index: 3;
-}
+
 .site-navbar .text {
 	position: absolute;
 	top: 2.5rem;
@@ -106,8 +101,5 @@
 	}
 	.site-navbar .text {
 		width: 50%;
-	}
-	.site-navbar .nav-background-2 {
-		left: -10%;
 	}
 }
