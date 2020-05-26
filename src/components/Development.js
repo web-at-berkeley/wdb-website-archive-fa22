@@ -21,7 +21,7 @@ const Development = () => {
 	}
 	return (
 		<div className="education development">
-			<Navbar />
+			<Navbar logo="false" />
 			<img src={Blobs} alt="blobs" className="blobs" />
 			<Container fluid className="body">
 				<img src={RightNav} alt="right nav" className="right-nav" />

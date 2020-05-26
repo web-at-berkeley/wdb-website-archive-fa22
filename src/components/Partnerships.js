@@ -22,7 +22,7 @@ const Partnerships = () => {
 	}
 	return (
 		<div className="partnerships education">
-			<Navbar />
+			<Navbar logo="false" />
 			<Container fluid className="body">
 				<img src={RightNav} alt="right nav" className="right-nav" />
 				<img src={Blobs} alt="blobs" className="blobs" />

@@ -20,7 +20,7 @@ const Education = () => {
 	}
 	return (
 		<div className="education">
-			<Navbar />
+			<Navbar logo="false" />
 			<Container fluid className="body">
 				<img src={RightNav} alt="right nav" className="right-nav" />
 				<Row>
