@@ -7,11 +7,17 @@ import LogoRainbow from '../img/site-nav/logo-rainbow.png';
 import '../css/SiteNavbar.css';
 
 const SiteNavbar = (props) => {
-	let LogoToggle = <div></div>;
+	let Toggle = (
+		<img
+			src={LogoRainbow}
+			alt="logo rainbow"
+			className="logo-rainbow"
+			id="logo-rainbow"
+		/>
+	);
+
 	if (props.logo === 'false') {
-		LogoToggle = (
-			<img src={LogoRainbow} alt="logo rainbow" className="logo-rainbow" />
-		);
+		Toggle = <div></div>;
 	}
 
 	return (
@@ -22,7 +28,7 @@ const SiteNavbar = (props) => {
 				className="nav-background selectDisable"
 				draggable="false"
 			/>
-			<LogoToggle />
+			{Toggle}
 
 			<div className="text">
 				<Link to="/" className="link-tag">

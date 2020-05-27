@@ -136,17 +136,18 @@ const Apply = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										We're currently looking for 2 frontend teachers and 1
+										We're currently looking for two frontend teachers and one
 										backend teacher. For both positions, basic knowledge of
 										HTML, CSS, and Javascript is required. For frontend teachers
-										specifically, knowledge of React and some cSS
+										specifically, knowledge of React and some CSS
 										frameworks/pre-processors is a plus. For backend teachers,
-										knowledge of Django, Node.js, and some AWS is a plus. If
-										interested, please send an email to webatberkeley@gmail.com
-										with what position you're interested in, a description of
-										your teaching ability/ experience, as well as your
-										familiarity with the aforementioned technologies, and of
-										course, go bears!
+										knowledge of Django, Node.js, and some AWS is a plus. Prior
+										experience in teaching is a major plus, but can also be
+										shown through passion. If interested, please send an email
+										to webatberkeley@gmail.com with what position you're
+										interested in, a description of your teaching
+										ability/experience, as well as your familiarity with the
+										aforementioned technologies, and of course, go bears!
 									</Card.Body>
 								</Accordion.Collapse>
 							</Card>
@@ -177,7 +178,7 @@ const Apply = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										Hey There! If you're looking to become a student, be on the
+										Hey there! If you're looking to become a student, be on the
 										lookout for our application when it opens in the beginning
 										of the 2020-2021 school year. No prior web development
 										experience is required, instead what we look for is a strong
@@ -215,19 +216,19 @@ const Apply = () => {
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
 										For prospective developers, applications will open in the
-										fall, with our application process consisting of the written
-										application, a behavioral interview along with a technical
-										interview, and a social round. The purpose of the technical
-										interview will be to ensure that you are able to perform at
-										the level required by an external client, because the work
-										done by developers will be used in the real world by many
-										many people. We will give applicants the choice between a
+										Fall, with our application process consisting of the written
+										application, a behavioral and technical interview, and a
+										social round. The purpose of the technical interview will be
+										to ensure that applicants are able to perform at the level
+										required by an external client, because the work done by
+										developers will be used in the real world by many many
+										people. We will give applicants the choice between a
 										frontend or backend focus and tailor the interview
-										accordingly. Once you are accepted into the developer track,
-										you will have the oppertunity to interface with local bay
-										area startups in developing cutting-edge web apps and sites
-										for them, gaining invaluable indutry experience and exposure
-										to the world of tech.
+										accordingly. Once applicants are accepted into the developer
+										track, they will have the opportunity to interface with
+										local Bay Area startups in developing cutting-edge web apps
+										and sites for them, gaining invaluable industry experience
+										and exposure to the world of tech.
 									</Card.Body>
 								</Accordion.Collapse>
 							</Card>
