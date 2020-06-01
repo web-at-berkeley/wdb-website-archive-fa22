@@ -109,4 +109,19 @@
 	.landing .button-text {
 		font-size: 16px;
 	}
+
+	.landing .landing-button {
+		background: #54d3fa;
+	}
+
+	.landing .landing-button:hover {
+		background: #3bbae1;
+	}
+	.landing-button:hover .button-text:after {
+		opacity: 0;
+		right: -20px;
+	}
+	.landing .landing-button:hover .button-text {
+		padding-right: 0;
+	}
 }

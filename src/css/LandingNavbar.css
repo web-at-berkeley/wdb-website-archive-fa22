@@ -32,6 +32,9 @@
 .landing-navbar .tab-text {
 	padding-left: 1.5rem;
 }
+.landing-navbar .tab-text-container {
+	display: none;
+}
 
 @media only screen and (max-width: 992px) {
 	#basic-navbar-nav {
@@ -40,5 +43,13 @@
 	}
 	.landing-navbar {
 		padding: 5vh 10% 0 7%;
+	}
+	.landing-navbar p:after {
+		display: none;
+		content: '';
+		border-bottom: none;
+	}
+	.landing-navbar .tab-text-container {
+		display: inline;
 	}
 }
