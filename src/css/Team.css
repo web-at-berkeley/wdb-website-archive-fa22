@@ -1,5 +1,5 @@
 .team .body {
-	padding: 15vh 5% 5vh 5%;
+	padding: 9rem 5% 5vh 5%;
 }
 
 .team .title-col {
@@ -175,7 +175,6 @@
 	.team .member-1 {
 		margin-top: 0;
 		width: 45%;
-		/* transform: translateX(20%); */
 	}
 	.team .member-3 {
 		margin-top: 1rem;
@@ -197,6 +196,9 @@
 		margin-top: 1rem;
 		margin-left: 0.6rem;
 		width: 45%;
+	}
+	.team .role {
+		margin-bottom: 0;
 	}
 }
 

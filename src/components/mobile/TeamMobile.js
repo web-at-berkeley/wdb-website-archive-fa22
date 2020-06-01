@@ -99,13 +99,20 @@ const Team = () => {
 						className="team"
 						style={{ width: '90%', margin: '2.5rem 5%' }}
 					>
+						<Modal.Header
+							closeButton
+							style={{ border: 'none', paddingBottom: '0' }}
+						>
+							<div style={{ display: 'flex', flexDirection: 'column' }}>
+								<h2 className="name" id="name">
+									Samarth Goel
+								</h2>
+								<h3 className="role" id="role">
+									Co-President and VP Finance
+								</h3>
+							</div>
+						</Modal.Header>
 						<Modal.Body>
-							<h2 className="name" id="name">
-								Samarth Goel
-							</h2>
-							<h3 className="role" id="role">
-								Co-President and VP Finance
-							</h3>
 							<p className="description" id="description">
 								I am a second-year studying Computer Science and Business
 								Administration. Web Development has been a huge passion of mine,
@@ -142,13 +149,20 @@ const Team = () => {
 						className="team"
 						style={{ width: '90%', margin: '2.5rem 5%' }}
 					>
+						<Modal.Header
+							closeButton
+							style={{ border: 'none', paddingBottom: '0' }}
+						>
+							<div style={{ display: 'flex', flexDirection: 'column' }}>
+								<h2 className="name" id="name">
+									Vicky Li
+								</h2>
+								<h3 className="role" id="role">
+									Co-President and VP Marketing and Design
+								</h3>
+							</div>
+						</Modal.Header>
 						<Modal.Body>
-							<h2 className="name" id="name">
-								Vicky Li
-							</h2>
-							<h3 className="role" id="role">
-								Co-President and VP Marketing and Design
-							</h3>
 							<p className="description" id="description">
 								Hi everyone, I am a second-year at UC Berkeley studying Computer
 								Science with a minor in Data Science. I recently got into Web
@@ -190,13 +204,20 @@ const Team = () => {
 						className="team"
 						style={{ width: '90%', margin: '2.5rem 5%' }}
 					>
+						<Modal.Header
+							closeButton
+							style={{ border: 'none', paddingBottom: '0' }}
+						>
+							<div style={{ display: 'flex', flexDirection: 'column' }}>
+								<h2 className="name" id="name">
+									Ervin Baccay
+								</h2>
+								<h3 className="role" id="role">
+									VP Education
+								</h3>
+							</div>
+						</Modal.Header>
 						<Modal.Body>
-							<h2 className="name" id="name">
-								Ervin Baccay
-							</h2>
-							<h3 className="role" id="role">
-								VP Education
-							</h3>
 							<p className="description" id="description">
 								Hi! I’m Ervin Baccay and I study Bioengineering and EECS. After
 								four years of teaching a technical field, I’ve grown passionate
@@ -231,13 +252,20 @@ const Team = () => {
 						className="team"
 						style={{ width: '90%', margin: '2.5rem 5%' }}
 					>
+						<Modal.Header
+							closeButton
+							style={{ border: 'none', paddingBottom: '0' }}
+						>
+							<div style={{ display: 'flex', flexDirection: 'column' }}>
+								<h2 className="name" id="name">
+									Aditya Bhawal
+								</h2>
+								<h3 className="role" id="role">
+									VP Internal
+								</h3>
+							</div>
+						</Modal.Header>
 						<Modal.Body>
-							<h2 className="name" id="name">
-								Aditya Bhawal
-							</h2>
-							<h3 className="role" id="role">
-								VP Internal
-							</h3>
 							<p className="description" id="description">
 								Hello! I am an EECS major from Arcadia, a city close to Los
 								Angeles. I first got into computer science through video games,
@@ -277,13 +305,20 @@ const Team = () => {
 						className="team"
 						style={{ width: '90%', margin: '2.5rem 5%' }}
 					>
+						<Modal.Header
+							closeButton
+							style={{ border: 'none', paddingBottom: '0' }}
+						>
+							<div style={{ display: 'flex', flexDirection: 'column' }}>
+								<h2 className="name" id="name">
+									Justin Chen
+								</h2>
+								<h3 className="role" id="role">
+									VP External
+								</h3>
+							</div>
+						</Modal.Header>
 						<Modal.Body>
-							<h2 className="name" id="name">
-								Justin Chen
-							</h2>
-							<h3 className="role" id="role">
-								VP External
-							</h3>
 							<p className="description" id="description">
 								Hey everyone! I am a second-year at Berkeley studying Computer
 								Science and Applied Math. I started programming in high school,

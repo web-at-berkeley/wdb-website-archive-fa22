@@ -28,6 +28,17 @@ const LandingNavbar = () => {
 					<Link to="/about" className="link-tag">
 						<p className="nav-text">What We Offer</p>
 					</Link>
+					<div className="tab-text-container">
+						<Link to="/about/education" className="link-tag">
+							<p className="nav-text tab-text">Education</p>
+						</Link>
+						<Link to="/about/development" className="link-tag">
+							<p className="nav-text tab-text">Development</p>
+						</Link>
+						<Link to="/about/partnerships" className="link-tag">
+							<p className="nav-text tab-text">Partnerships</p>
+						</Link>
+					</div>
 					<Link to="/team" className="link-tag">
 						<p className="nav-text">Team</p>
 					</Link>
