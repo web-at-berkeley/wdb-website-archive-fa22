@@ -1,7 +1,6 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
-import SiteNavbarMobile from './mobile/SiteNavbarMobile';
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -14,14 +13,9 @@ import Carepath from '../img/about/development/carepath.png';
 import Resource19 from '../img/about/development/resource19.png';
 
 const Development = () => {
-	const large = matchMedia('(max-width: 992px)');
-	let Navbar = SiteNavbar;
-	if (large.matches) {
-		Navbar = SiteNavbarMobile;
-	}
 	return (
 		<div className="education development">
-			<Navbar logo="false" />
+			<SiteNavbar logo="false" />
 			<img src={Blobs} alt="blobs" className="blobs" />
 			<Container fluid className="body">
 				<img src={RightNav} alt="right nav" className="right-nav" />
@@ -68,7 +62,7 @@ const Development = () => {
 				<Row>
 					<Col xs={12} className="text-center">
 						<img src={Carepath} alt="Carepath" className="client-logo" />
-						<p className="client-description">
+						<p className="client-description bottom-description">
 							Carepath is a moderated online platform founded at Stanford where
 							parents with children with mental health disorders can find a
 							community to share their stories and find resources. Web

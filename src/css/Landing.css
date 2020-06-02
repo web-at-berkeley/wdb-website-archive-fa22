@@ -31,7 +31,7 @@
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 900;
-	font-size: 43px;
+	font-size: 72px;
 	line-height: 114.1%;
 
 	letter-spacing: 0.19em;
@@ -41,16 +41,16 @@
 	margin-bottom: 2vh;
 }
 .landing .landing-link {
-	width: 300px;
-	height: 45px;
-	border-radius: 22.5px;
+	width: 480px;
+	height: 72px;
+	border-radius: 36px;
 	max-width: 100%;
 }
 .landing .landing-button {
 	max-width: 100%;
-	width: 300px;
-	height: 45px;
-	border-radius: 22.5px;
+	width: 480px;
+	height: 72px;
+	border-radius: 36px;
 	border: none;
 	background: linear-gradient(to left, #54d3fa 50%, #5f60ff 50%);
 	background-size: 200% 100%;
@@ -62,7 +62,7 @@
 }
 .landing .button-text {
 	font-family: Lato;
-	font-size: 18px;
+	font-size: 28px;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	display: inline-block;
@@ -83,6 +83,25 @@
 .landing-button:hover .button-text:after {
 	opacity: 1;
 	right: 0;
+}
+
+@media only screen and (max-width: 1800px) {
+	.landing .landing-text {
+		font-size: 43px;
+	}
+	.landing .landing-link {
+		width: 300px;
+		height: 45px;
+		border-radius: 22.5px;
+	}
+	.landing .landing-button {
+		width: 300px;
+		height: 45px;
+		border-radius: 22.5px;
+	}
+	.landing .button-text {
+		font-size: 18px;
+	}
 }
 
 @media only screen and (max-width: 520px) {

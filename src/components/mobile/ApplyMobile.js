@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SiteNavbarMobile from '../mobile/SiteNavbarMobile';
+import SiteNavbarMobile from '../SiteNavbar';
 import Footer from '../Footer';
 
 import Accordion from 'react-bootstrap/Accordion';

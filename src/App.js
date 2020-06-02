@@ -8,7 +8,6 @@ import Development from './components/Development';
 import Partnerships from './components/Partnerships';
 
 import Team from './components/Team';
-import TeamMobile from './components//mobile/TeamMobile';
 import Projects from './components/Projects';
 import Apply from './components/Apply';
 import ApplyMobile from './components//mobile/ApplyMobile';
@@ -19,13 +18,9 @@ import './css/App.css';
 
 function App() {
 	const NotFound = ErrorPage;
-	const medium = matchMedia('(max-width: 640px)');
 	const large = matchMedia('(max-width: 992px)');
 	let TeamPage = Team;
 	let ApplyPage = Apply;
-	if (medium.matches) {
-		TeamPage = TeamMobile;
-	}
 	if (large.matches) {
 		ApplyPage = ApplyMobile;
 	}

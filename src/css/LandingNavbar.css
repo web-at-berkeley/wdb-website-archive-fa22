@@ -2,12 +2,17 @@
 	padding: 10vh 0 0 7%;
 }
 
+.landing-navbar .logo {
+	margin-right: 1.5rem;
+	width: 150px;
+}
+
 .landing-navbar .link-tag:hover {
 	text-decoration: none;
 }
 
 .landing-navbar .nav-text {
-	font-size: 19px;
+	font-size: 29px;
 	color: white;
 	padding: 0;
 	margin: 0 0.7rem;
@@ -34,6 +39,15 @@
 }
 .landing-navbar .tab-text-container {
 	display: none;
+}
+
+@media only screen and (max-width: 1700px) {
+	.landing-navbar .nav-text {
+		font-size: 19px;
+	}
+	.logo {
+		width: 100px;
+	}
 }
 
 @media only screen and (max-width: 992px) {

@@ -15,7 +15,7 @@ h6 {
 
 .header {
 	font-family: Raleway;
-	font-size: 45px;
+	font-size: 64px;
 	letter-spacing: 0.22em;
 	text-transform: uppercase;
 	text-shadow: 2px 2px #00f8f9, 4px 4px #5f60ff;
@@ -28,4 +28,10 @@ h6 {
 	-moz-user-select: none;
 	-o-user-select: none;
 	user-select: none;
+}
+
+@media only screen and (max-width: 1800px) {
+	.header {
+		font-size: 45px;
+	}
 }

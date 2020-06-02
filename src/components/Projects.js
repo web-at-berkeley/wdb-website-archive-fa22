@@ -1,8 +1,6 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
-import SiteNavbarMobile from './mobile/SiteNavbarMobile';
-
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -19,14 +17,9 @@ import Formula from '../img/projects/formula.jpg';
 import '../css/Projects.css';
 
 const Projects = () => {
-	const large = matchMedia('(max-width: 992px)');
-	let Navbar = SiteNavbar;
-	if (large.matches) {
-		Navbar = SiteNavbarMobile;
-	}
 	return (
 		<div className="projects">
-			<Navbar />
+			<SiteNavbar />
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="text-center title-col">

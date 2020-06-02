@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea131455.chunk.css",
-    "main.js": "/static/js/main.f7286637.chunk.js",
-    "main.js.map": "/static/js/main.f7286637.chunk.js.map",
+    "main.css": "/static/css/main.f7b576eb.chunk.css",
+    "main.js": "/static/js/main.0162eecd.chunk.js",
+    "main.js.map": "/static/js/main.0162eecd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f3a02c50.js",
     "runtime-main.js.map": "/static/js/runtime-main.f3a02c50.js.map",
-    "static/js/2.69721240.chunk.js": "/static/js/2.69721240.chunk.js",
-    "static/js/2.69721240.chunk.js.map": "/static/js/2.69721240.chunk.js.map",
+    "static/js/2.96e89716.chunk.js": "/static/js/2.96e89716.chunk.js",
+    "static/js/2.96e89716.chunk.js.map": "/static/js/2.96e89716.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6f0546675d06e8bc5ded4debe652b298.js": "/precache-manifest.6f0546675d06e8bc5ded4debe652b298.js",
+    "precache-manifest.7601ac6e4ba9b9fd0efab3cd772d5fbb.js": "/precache-manifest.7601ac6e4ba9b9fd0efab3cd772d5fbb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ea131455.chunk.css.map": "/static/css/main.ea131455.chunk.css.map",
-    "static/js/2.69721240.chunk.js.LICENSE.txt": "/static/js/2.69721240.chunk.js.LICENSE.txt",
+    "static/css/main.f7b576eb.chunk.css.map": "/static/css/main.f7b576eb.chunk.css.map",
+    "static/js/2.96e89716.chunk.js.LICENSE.txt": "/static/js/2.96e89716.chunk.js.LICENSE.txt",
     "static/media/aditring.jpg": "/static/media/aditring.f9b224fe.jpg",
     "static/media/blobs.png": "/static/media/blobs.e3d1c5d6.png",
     "static/media/bubbles.png": "/static/media/bubbles.d8141d4c.png",
@@ -25,13 +25,11 @@
     "static/media/Landing.css": "/static/media/landing-background.a8de44d7.jpg",
     "static/media/landing-design-mobile.png": "/static/media/landing-design-mobile.b51dade4.png",
     "static/media/landing-design.png": "/static/media/landing-design.1ffea0f7.png",
-    "static/media/leftrings.png": "/static/media/leftrings.1cafa938.png",
     "static/media/logo-rainbow.png": "/static/media/logo-rainbow.2a8faefe.png",
     "static/media/overlay-rotated.png": "/static/media/overlay-rotated.5ac70fb2.png",
     "static/media/overlay.png": "/static/media/overlay.57bb6fa0.png",
     "static/media/resource19.jpg": "/static/media/resource19.6fc77bce.jpg",
     "static/media/right-nav.png": "/static/media/right-nav.2dfc9322.png",
-    "static/media/rightrings.png": "/static/media/rightrings.694f185b.png",
     "static/media/samring.jpg": "/static/media/samring.79416a38.jpg",
     "static/media/site-nav-background.png": "/static/media/site-nav-background.fe09d967.png",
     "static/media/spider.jpg": "/static/media/spider.af14266c.jpg",
@@ -39,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f3a02c50.js",
-    "static/js/2.69721240.chunk.js",
-    "static/css/main.ea131455.chunk.css",
-    "static/js/main.f7286637.chunk.js"
+    "static/js/2.96e89716.chunk.js",
+    "static/css/main.f7b576eb.chunk.css",
+    "static/js/main.0162eecd.chunk.js"
   ]
 }

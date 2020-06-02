@@ -1,18 +1,19 @@
 .team .body {
-	padding: 9rem 5% 5vh 5%;
+	padding: 11rem 5% 5vh 5%;
 }
 
 .team .title-col {
 	margin-bottom: 5vh;
 }
 .team .subtitle {
-	font-size: 23px;
+	font-size: 32px;
 	line-height: 136%;
 	text-align: center;
 	letter-spacing: 0.14em;
 	color: #000000;
 	padding-right: 3rem;
 	padding-left: 3rem;
+	margin-top: 1rem;
 }
 
 .team .text-col {
@@ -23,24 +24,24 @@
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 900;
-	font-size: 43px;
-
+	font-size: 72px;
 	text-align: left;
 	letter-spacing: 0.22em;
 	text-transform: uppercase;
 }
 .team .role {
-	font-size: 19px;
+	font-size: 35px;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	color: #5f60ff;
 	margin-bottom: 1.5rem;
 }
 .team .description {
-	font-size: 21px;
-	line-height: 25px;
+	font-size: 33px;
+	line-height: 36px;
 	letter-spacing: 0.07em;
 	color: #000000;
+	margin-bottom: 2rem;
 }
 
 .team .social-row {
@@ -54,15 +55,13 @@
 	transform: scale(1.1);
 }
 #linkedin {
-	margin-right: 15px;
+	margin-right: 45px;
 }
 .linkedin-icon {
-	max-height: 40px;
-	height: 40px;
+	height: 60px;
 }
 .mail-icon {
-	max-height: 40px;
-	height: 40px;
+	height: 60px;
 }
 .team .social-row a:hover {
 	text-decoration: none;
@@ -93,31 +92,87 @@
 	transform: scale(1.1);
 }
 .team .member-1 {
-	margin-top: 7vh;
-	width: 95%;
-	/* transform: translateX(20%); */
+	margin-top: 10vh;
+	width: 85%;
 }
 .team .member-2 {
-	margin-top: 8vh;
+	margin-top: 11vh;
 	margin-right: 10%;
+	width: 90%;
 }
 .team .member-3 {
-	margin-top: -3vh;
-	width: 90%;
+	margin-top: 0;
+	width: 80%;
 }
 .member-4 {
-	margin-top: 5vh;
-	margin-right: 5%;
-	width: 90%;
+	margin-top: 8vh;
+	margin-right: 3%;
+	width: 80%;
 }
 .team .member-5 {
-	margin-top: 5vh;
-	width: 100%;
+	margin-top: 8vh;
+	width: 90%;
 }
 .team .member-6 {
-	margin-top: 10vh;
-	margin-left: 3%;
-	width: 90%;
+	margin-top: 13vh;
+	margin-left: 7%;
+	width: 80%;
+}
+
+@media only screen and (max-width: 1800px) {
+	.team .body {
+		padding: 9rem 5% 5vh 5%;
+	}
+	.team .subtitle {
+		font-size: 23px;
+		margin-top: 0;
+	}
+	.team .name {
+		font-size: 43px;
+	}
+	.team .role {
+		font-size: 19px;
+	}
+	.team .description {
+		font-size: 21px;
+		line-height: 25px;
+		margin-bottom: 0;
+	}
+	#linkedin {
+		margin-right: 15px;
+	}
+	.linkedin-icon {
+		height: 40px;
+	}
+	.mail-icon {
+		height: 40px;
+	}
+	.team .member-1 {
+		margin-top: 7vh;
+		width: 95%;
+	}
+	.team .member-2 {
+		margin-top: 8vh;
+		margin-right: 10%;
+	}
+	.team .member-3 {
+		margin-top: -3vh;
+		width: 90%;
+	}
+	.member-4 {
+		margin-top: 5vh;
+		margin-right: 5%;
+		width: 90%;
+	}
+	.team .member-5 {
+		margin-top: 5vh;
+		width: 100%;
+	}
+	.team .member-6 {
+		margin-top: 10vh;
+		margin-left: 3%;
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width: 992px) {

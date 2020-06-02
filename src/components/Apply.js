@@ -136,18 +136,20 @@ const Apply = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										We're currently looking for two frontend teachers and one
-										backend teacher. For both positions, basic knowledge of
-										HTML, CSS, and Javascript is required. For frontend teachers
-										specifically, knowledge of React and some CSS
-										frameworks/pre-processors is a plus. For backend teachers,
-										knowledge of Django, Node.js, and some AWS is a plus. Prior
-										experience in teaching is a major plus, but can also be
-										shown through passion. If interested, please send an email
-										to webatberkeley@gmail.com with what position you're
-										interested in, a description of your teaching
-										ability/experience, as well as your familiarity with the
-										aforementioned technologies, and of course, go bears!
+										<p className="role-text">
+											We're currently looking for two frontend teachers and one
+											backend teacher. For both positions, basic knowledge of
+											HTML, CSS, and Javascript is required. For frontend
+											teachers specifically, knowledge of React and some CSS
+											frameworks/pre-processors is a plus. For backend teachers,
+											knowledge of Django, Node.js, and some AWS is a plus.
+											Prior experience in teaching is a major plus, but can also
+											be shown through passion. If interested, please send an
+											email to webatberkeley@gmail.com with what position you're
+											interested in, a description of your teaching
+											ability/experience, as well as your familiarity with the
+											aforementioned technologies, and of course, go bears!
+										</p>
 									</Card.Body>
 								</Accordion.Collapse>
 							</Card>
@@ -178,13 +180,15 @@ const Apply = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										Hey there! If you're looking to become a student, be on the
-										lookout for our application when it opens in the beginning
-										of the 2020-2021 school year. No prior web development
-										experience is required, instead what we look for is a strong
-										work ethic, passion for technology, and a desire to learn
-										web development. We look forward to meeting you all in the
-										Fall!
+										<p className="role-text">
+											Hey there! If you're looking to become a student, be on
+											the lookout for our application when it opens in the
+											beginning of the 2020-2021 school year. No prior web
+											development experience is required, instead what we look
+											for is a strong work ethic, passion for technology, and a
+											desire to learn web development. We look forward to
+											meeting you all in the Fall!
+										</p>
 									</Card.Body>
 								</Accordion.Collapse>
 							</Card>
@@ -215,20 +219,23 @@ const Apply = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										For prospective developers, applications will open in the
-										Fall, with our application process consisting of the written
-										application, a behavioral and technical interview, and a
-										social round. The purpose of the technical interview will be
-										to ensure that applicants are able to perform at the level
-										required by an external client, because the work done by
-										developers will be used in the real world by many many
-										people. We will give applicants the choice between a
-										frontend or backend focus and tailor the interview
-										accordingly. Once applicants are accepted into the developer
-										track, they will have the opportunity to interface with
-										local Bay Area startups in developing cutting-edge web apps
-										and sites for them, gaining invaluable industry experience
-										and exposure to the world of tech.
+										<p className="role-text">
+											For prospective developers, applications will open in the
+											Fall, with our application process consisting of the
+											written application, a behavioral and technical interview,
+											and a social round. The purpose of the technical interview
+											will be to ensure that applicants are able to perform at
+											the level required by an external client, because the work
+											done by developers will be used in the real world by many
+											many people. We will give applicants the choice between a
+											frontend or backend focus and tailor the interview
+											accordingly. Once applicants are accepted into the
+											developer track, they will have the opportunity to
+											interface with local Bay Area startups in developing
+											cutting-edge web apps and sites for them, gaining
+											invaluable industry experience and exposure to the world
+											of tech.
+										</p>
 									</Card.Body>
 								</Accordion.Collapse>
 							</Card>

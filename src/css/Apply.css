@@ -8,22 +8,23 @@
 }
 .secondary-header {
 	font-size: 42px;
-	line-height: 49px;
+	line-height: 55px;
 	letter-spacing: 0.12em;
 	color: #000000;
 	font-family: Raleway;
 	font-weight: 700;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 .timeline-text {
-	font-size: 23px;
-	line-height: 1.1;
+	font-size: 32px;
+	line-height: 1.15;
 	text-align: center;
 	letter-spacing: 0.07em;
 	text-transform: uppercase;
 	color: #000000;
 	font-family: Raleway;
 	font-weight: 700;
+	margin-bottom: 0.3rem;
 }
 
 .long-arrow-row {
@@ -49,7 +50,7 @@
 	min-height: 11rem;
 }
 .recruitment-text {
-	font-size: 21px;
+	font-size: 23px;
 	line-height: 1.1;
 	text-align: center;
 	letter-spacing: 0.13em;
@@ -84,10 +85,13 @@
 .role {
 	font-family: Raleway;
 	font-weight: 700;
-	font-size: 34px;
+	font-size: 44px;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	color: #000000;
+}
+.role-text {
+	font-size: 26px;
 }
 
 .teacher-arrow {
@@ -109,6 +113,27 @@
 	height: 12.5rem;
 	position: absolute;
 	width: 25%;
+}
+
+@media only screen and (max-width: 1700px) {
+	.role {
+		font-size: 34px;
+	}
+	.role-text {
+		font-size: 18px;
+	}
+	.recruitment-text {
+		font-size: 21px;
+	}
+	.timeline-text {
+		font-size: 23px;
+		line-height: 1.1;
+		margin-bottom: 0;
+	}
+	.secondary-header {
+		font-size: 42px;
+		margin-top: 1rem;
+	}
 }
 
 @media only screen and (max-width: 1346px) {
