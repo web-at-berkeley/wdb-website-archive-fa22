@@ -1,5 +1,5 @@
 .projects .body {
-	padding: 9rem 10% 0 10%;
+	padding: 11rem 10% 0 10%;
 }
 
 .projects .title-col {
@@ -7,13 +7,14 @@
 }
 
 .projects .subtitle {
-	font-size: 23px;
+	font-size: 32px;
 	line-height: 136%;
 	text-align: center;
 	letter-spacing: 0.14em;
 	color: #000000;
 	padding-right: 3rem;
 	padding-left: 3rem;
+	margin-top: 1rem;
 }
 
 .projects .partner {
@@ -127,6 +128,16 @@
 .projects .overlay-text-rotated {
 	transform: rotate(180deg);
 	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1800px) {
+	.team .body {
+		padding: 9rem 5% 5vh 5%;
+	}
+	.team .subtitle {
+		font-size: 23px;
+		margin-top: 0;
+	}
 }
 
 @media only screen and (max-width: 1400px) {

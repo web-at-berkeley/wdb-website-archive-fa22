@@ -2,7 +2,6 @@ import React from 'react';
 import { navigate } from '@reach/router';
 
 import SiteNavbar from './SiteNavbar';
-import SiteNavbarMobile from './mobile/SiteNavbarMobile';
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -17,14 +16,9 @@ import Line2 from '../img/about/line-2.png';
 import '../css/About.css';
 
 const About = () => {
-	const large = matchMedia('(max-width: 992px)');
-	let Navbar = SiteNavbar;
-	if (large.matches) {
-		Navbar = SiteNavbarMobile;
-	}
 	return (
 		<div className="about">
-			<Navbar />
+			<SiteNavbar />
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="text-center">

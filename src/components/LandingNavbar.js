@@ -17,7 +17,7 @@ const LandingNavbar = () => {
 			className="landing-navbar selectDisable"
 		>
 			<Navbar.Brand href="/">
-				<img src={LogoWhite} alt="logo white" style={style.Logo} />
+				<img src={LogoWhite} alt="logo white" className="logo" />
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
@@ -55,13 +55,6 @@ const LandingNavbar = () => {
 			</Navbar.Collapse>
 		</Navbar>
 	);
-};
-
-const style = {
-	Logo: {
-		marginRight: '1.5rem',
-		width: '100px',
-	},
 };
 
 export default LandingNavbar;

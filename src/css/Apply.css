@@ -2,28 +2,34 @@
 	padding-top: 9rem;
 }
 
+.arrowhead {
+	width: 28px;
+	margin-top: 0.3rem;
+}
+
 .long-arrow-top {
 	width: 90%;
 	margin-left: 5%;
 }
 .secondary-header {
 	font-size: 42px;
-	line-height: 49px;
+	line-height: 55px;
 	letter-spacing: 0.12em;
 	color: #000000;
 	font-family: Raleway;
 	font-weight: 700;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 .timeline-text {
-	font-size: 23px;
-	line-height: 1.1;
+	font-size: 32px;
+	line-height: 1.15;
 	text-align: center;
 	letter-spacing: 0.07em;
 	text-transform: uppercase;
 	color: #000000;
 	font-family: Raleway;
 	font-weight: 700;
+	margin-bottom: 0.3rem;
 }
 
 .long-arrow-row {
@@ -49,7 +55,7 @@
 	min-height: 11rem;
 }
 .recruitment-text {
-	font-size: 21px;
+	font-size: 23px;
 	line-height: 1.1;
 	text-align: center;
 	letter-spacing: 0.13em;
@@ -77,21 +83,24 @@
 	align-items: center;
 }
 .toggle-arrow {
-	padding: 0 5%;
-	/* width: 28px;
-	height: 26px; */
+	margin: 0 5%;
+	width: 28px;
+	height: 28px;
 }
 .role {
 	font-family: Raleway;
 	font-weight: 700;
-	font-size: 34px;
+	font-size: 44px;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	color: #000000;
 }
+.role-text {
+	font-size: 26px;
+}
 
 .teacher-arrow {
-	margin-left: 25.8%;
+	margin-left: 27.8%;
 	top: -11rem;
 	height: 15rem;
 	position: absolute;
@@ -109,6 +118,55 @@
 	height: 12.5rem;
 	position: absolute;
 	width: 25%;
+}
+
+.apply {
+	display: block;
+}
+.apply-mobile {
+	display: none;
+}
+
+@media only screen and (max-width: 2200px) {
+	.teacher-arrow {
+		margin-left: 27.4%;
+	}
+}
+
+@media only screen and (max-width: 2000px) {
+	.teacher-arrow {
+		margin-left: 26.8%;
+	}
+}
+
+@media only screen and (max-width: 1700px) {
+	.role {
+		font-size: 34px;
+	}
+	.role-text {
+		font-size: 18px;
+	}
+	.recruitment-text {
+		font-size: 21px;
+	}
+	.timeline-text {
+		font-size: 23px;
+		line-height: 1.1;
+		margin-bottom: 0;
+	}
+	.secondary-header {
+		font-size: 42px;
+		margin-top: 1rem;
+	}
+	.teacher-arrow {
+		margin-left: 26.4%;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.teacher-arrow {
+		margin-left: 25.8%;
+	}
 }
 
 @media only screen and (max-width: 1346px) {
@@ -133,11 +191,15 @@
 	.card {
 		margin: 5rem 3% 5rem 3%;
 	}
+	.toggle-arrow {
+		width: 23px;
+		height: 23px;
+	}
 }
 
 @media only screen and (max-width: 1145px) {
 	.role {
-		font-size: 28px;
+		font-size: 26px;
 	}
 	.secondary-header {
 		font-size: 34px;
@@ -179,5 +241,21 @@
 	}
 	.card {
 		margin: 2rem 3% 0 3%;
+	}
+	.apply {
+		display: none;
+	}
+	.apply-mobile {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.role {
+		font-size: 22px;
+	}
+	.toggle-arrow {
+		width: 17px;
+		height: 17px;
 	}
 }

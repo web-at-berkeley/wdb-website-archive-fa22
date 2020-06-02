@@ -4,7 +4,7 @@ import FooterBackground from '../img/footer.png';
 
 const Footer = () => {
 	return (
-		<div className="footer">
+		<div className="footer" id="footer">
 			<img
 				src={FooterBackground}
 				alt="footer background"

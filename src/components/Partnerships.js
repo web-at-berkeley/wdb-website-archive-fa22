@@ -1,7 +1,6 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
-import SiteNavbarMobile from './mobile/SiteNavbarMobile';
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -15,14 +14,9 @@ import Formula from '../img/about/partnerships/formula.png';
 import Cloud from '../img/about/partnerships/cloud.png';
 
 const Partnerships = () => {
-	const large = matchMedia('(max-width: 992px)');
-	let Navbar = SiteNavbar;
-	if (large.matches) {
-		Navbar = SiteNavbarMobile;
-	}
 	return (
 		<div className="partnerships education">
-			<Navbar logo="false" />
+			<SiteNavbar logo="false" />
 			<Container fluid className="body">
 				<img src={RightNav} alt="right nav" className="right-nav" />
 				<img src={Blobs} alt="blobs" className="blobs" />
@@ -51,11 +45,6 @@ const Partnerships = () => {
 				</Row>
 
 				<Row className="justify-content-center">
-					{/* <Col xs={12}>
-						<img src={Cloud} alt="cloud" className="partner cloud" />
-						<img src={Formula} alt="formula" className="partner formula" />
-						<img src={Grotech} alt="grotech" className="partner grotech" />
-					</Col> */}
 					<Col xs={12} md={4} lg={3} className="text-center">
 						<img src={Cloud} alt="cloud" className="partner cloud" />
 					</Col>

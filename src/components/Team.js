@@ -1,7 +1,6 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
-import SiteNavbarMobile from './mobile/SiteNavbarMobile';
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -82,16 +81,9 @@ const Team = () => {
 			'https://www.linkedin.com/company/web-dev-at-berkeley/';
 		document.getElementById('mail').href = 'mailto: webatberkeley@gmail.edu';
 	}
-
-	const large = matchMedia('(max-width: 992px)');
-	let Navbar = SiteNavbar;
-	if (large.matches) {
-		Navbar = SiteNavbarMobile;
-	}
-
 	return (
 		<div className="team">
-			<Navbar />
+			<SiteNavbar />
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="text-center title-col">

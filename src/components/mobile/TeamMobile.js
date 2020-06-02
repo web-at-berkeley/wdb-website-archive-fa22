@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Navbar from '../mobile/SiteNavbarMobile';
+import Navbar from '../SiteNavbar';
 import Footer from '../Footer';
 
 import Modal from 'react-bootstrap/Modal';

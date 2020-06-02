@@ -1,7 +1,6 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
-import SiteNavbarMobile from './mobile/SiteNavbarMobile';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -13,14 +12,9 @@ import RightNav from '../img/right-nav.png';
 import '../css/Education.css';
 
 const Education = () => {
-	const large = matchMedia('(max-width: 992px)');
-	let Navbar = SiteNavbar;
-	if (large.matches) {
-		Navbar = SiteNavbarMobile;
-	}
 	return (
 		<div className="education">
-			<Navbar logo="false" />
+			<SiteNavbar logo="false" />
 			<Container fluid className="body">
 				<img src={RightNav} alt="right nav" className="right-nav" />
 				<Row>
