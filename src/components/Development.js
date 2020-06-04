@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
+import Contact from './Contact';
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -36,6 +37,7 @@ const Development = () => {
 							engineering lifecycle, leading the design, build, and deployment
 							stages of the client's website.
 						</p>
+						<Contact />
 						<hr style={{ width: '60%', borderTop: '2px solid #5F60FF' }} />
 					</Col>
 				</Row>
@@ -48,7 +50,12 @@ const Development = () => {
 
 				<Row>
 					<Col xs={12} className="text-center">
-						<a href="https://resource19.org/" title="Resource-19">
+						<a
+							href="https://resource19.org/"
+							title="Resource-19"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img src={Resource19} alt="resource 19" className="client-logo" />
 						</a>
 						<p className="client-description">

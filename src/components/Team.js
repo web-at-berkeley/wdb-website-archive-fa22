@@ -115,6 +115,8 @@ const Team = () => {
 						<div className="social-row">
 							<a
 								href="https://www.linkedin.com/in/samarth-goel-07"
+								target="_blank"
+								rel="noopener noreferrer"
 								id="linkedin"
 							>
 								<img
@@ -123,7 +125,12 @@ const Team = () => {
 									className=" social-icon linkedin-icon"
 								/>
 							</a>
-							<a href="mailto: sgoel9@berkeley.edu" id="mail">
+							<a
+								href="mailto: sgoel9@berkeley.edu"
+								id="mail"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<img src={Mail} alt="mail" className="social-icon mail-icon" />
 							</a>
 						</div>

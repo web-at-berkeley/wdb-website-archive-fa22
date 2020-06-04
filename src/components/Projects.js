@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
+import Contact from './Contact';
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -28,6 +29,7 @@ const Projects = () => {
 							Our work is 100% pro-bono and for the benefit of the Berkeley
 							campus community.
 						</p>
+						<Contact />
 					</Col>
 				</Row>
 				<Row className="align-items-center">
@@ -36,13 +38,20 @@ const Projects = () => {
 							href="https://resource19.org/"
 							title="Resource-19"
 							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<img src={Resource19} alt="resource 19" className="screenshot" />
 
 							<div class="overlay">
 								<img src={Overlay} alt="overlay" className="overlay-image" />
 							</div>
-							<div className="text-overlay"></div>
+							<div className="text-overlay">
+								<h3 className="overlay-header">Resource 19</h3>
+								<p className="overlay-text">
+									Built using React, JQuery, Bootstrap, Sass, and Firebase
+								</p>
+							</div>
 						</a>
 						<div className="description-container">
 							<h3 className="description-header">Resource 19</h3>
@@ -56,6 +65,8 @@ const Projects = () => {
 							href="https://www.ocf.berkeley.edu/~grotech/"
 							title="GroTech @ Berkeley"
 							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<img src={GroTech} alt="grotech" className="screenshot" />
 
@@ -88,6 +99,8 @@ const Projects = () => {
 							href="https://devpost.com/software/frio"
 							title="Frio"
 							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<img src={Frio} alt="frio" className="screenshot" />
 
@@ -117,6 +130,8 @@ const Projects = () => {
 							href="https://ev.berkeley.edu/"
 							title="Formula Electric at Berkeley"
 							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<img src={Formula} alt="formula" className="screenshot" />
 							<div class="overlay">

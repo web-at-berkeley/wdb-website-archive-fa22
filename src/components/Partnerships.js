@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SiteNavbar from './SiteNavbar';
+import Contact from './Contact';
 import Footer from './Footer';
 
 import Container from 'react-bootstrap/Container';
@@ -34,6 +35,7 @@ const Partnerships = () => {
 							with meaningful experiences and preparation for industry-level
 							development.
 						</p>
+						<Contact />
 						<hr style={{ width: '60%', borderTop: '2px solid #5F60FF' }} />
 					</Col>
 				</Row>
@@ -46,7 +48,12 @@ const Partnerships = () => {
 
 				<Row className="justify-content-center">
 					<Col xs={12} md={4} lg={3} className="text-center">
-						<a href="http://cloudatcal.org/" title="Cloud at Cal">
+						<a
+							href="http://cloudatcal.org/"
+							title="Cloud at Cal"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img src={Cloud} alt="cloud" className="partner cloud" />
 						</a>
 					</Col>
@@ -55,6 +62,8 @@ const Partnerships = () => {
 							href="https://ev.berkeley.edu/"
 							title="Formula Electric at Berkeley"
 							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<img src={Formula} alt="formula" className="partner formula" />
 						</a>
@@ -63,6 +72,8 @@ const Partnerships = () => {
 						<a
 							href="https://www.ocf.berkeley.edu/~grotech/"
 							title="GroTech @ Berkeley"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<img src={Grotech} alt="grotech" className="partner grotech" />
 						</a>

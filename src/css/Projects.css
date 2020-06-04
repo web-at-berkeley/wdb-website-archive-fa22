@@ -3,7 +3,7 @@
 }
 
 .projects .title-col {
-	margin-bottom: 5vh;
+	margin-bottom: 1rem;
 }
 
 .projects .subtitle {
@@ -15,6 +15,7 @@
 	padding-right: 3rem;
 	padding-left: 3rem;
 	margin-top: 1rem;
+	margin-bottom: 3rem;
 }
 
 .projects .partner {
@@ -111,18 +112,19 @@
 	width: 100%;
 	color: #ffffff;
 	font-weight: 500;
-	font-size: 24px;
-	line-height: 31px;
+	font-size: 36px;
+	line-height: 34px;
+	padding-bottom: 5px;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 }
 .projects .overlay-text {
 	padding: 0 50px;
-	margin-bottom: 2vh;
+	margin-bottom: 0vh;
 	width: 100%;
 	color: #ffffff;
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 24px;
+	line-height: 25px;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 }
@@ -135,12 +137,24 @@
 }
 
 @media only screen and (max-width: 1800px) {
-	.team .body {
+	.projects .body {
 		padding: 9rem 5% 5vh 5%;
 	}
-	.team .subtitle {
+	.projects .subtitle {
 		font-size: 23px;
 		margin-top: 0;
+	}
+	.projects .overlay-header {
+		padding: 0 50px;
+		font-size: 24px;
+		line-height: 31px;
+		padding-bottom: 0;
+	}
+	.projects .overlay-text {
+		padding: 0 50px;
+		margin-bottom: 2vh;
+		font-size: 16px;
+		line-height: 19px;
 	}
 }
 
@@ -250,27 +264,27 @@
 		height: 0;
 		transition-delay: 0s;
 	}
-	.description-container {
+	.projects .description-container {
 		display: block;
 		margin-top: 0.7rem;
 		margin-left: 5px;
 		text-align: center;
 	}
-	.description-header {
+	.projects .description-header {
 		margin-bottom: 0.3rem;
 		color: #000000;
 	}
-	.description-text {
+	.projects .description-text {
 		margin-left: 1px;
 		color: #000000;
 	}
-	.partner {
+	.projects .partner {
 		flex-direction: column;
 	}
 }
 
 @media only screen and (max-width: 400px) {
-	.about .header {
+	.projects .header {
 		font-size: 32px;
 		text-shadow: 1px 1px #00f8f9, 2px 2px #5f60ff;
 	}

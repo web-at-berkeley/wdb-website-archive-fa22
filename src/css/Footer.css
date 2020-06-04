@@ -1,0 +1,54 @@
+.footer {
+	position: relative;
+}
+
+.footer .bg-image {
+	width: 100%;
+	height: auto;
+	margin-top: 5vh;
+	z-index: 1;
+}
+
+.footer .text {
+	position: absolute;
+	bottom: 8%;
+	left: 8rem;
+	font-family: Raleway;
+	font-weight: 300;
+	font-size: 33px;
+	text-transform: uppercase;
+	color: #ffffff;
+	display: block;
+}
+
+.footer .linkedin {
+	position: absolute;
+	bottom: 10%;
+	left: 3rem;
+	z-index: 4;
+	width: 60px;
+	display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+	.footer .text {
+		font-size: 20px;
+		left: 4.5rem;
+		bottom: 7%;
+	}
+
+	.footer .linkedin {
+		width: 30px;
+		left: 2rem;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.footer .text {
+		display: none;
+	}
+
+	.footer .linkedin {
+		display: none;
+	}
+}
