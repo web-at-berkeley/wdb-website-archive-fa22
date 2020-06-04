@@ -22,7 +22,72 @@ const Contact = () => {
 
 			<Modal show={show} size="lg" onHide={handleClose}>
 				<Modal.Header closeButton></Modal.Header>
-				<Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+				<Modal.Body>
+					<form
+						action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfIhjGYVPkR5ds6lp4-BD2veVE8lVHBCGths4Hl140pQLVIqg/formResponse" 
+						target="_self" 
+						method="POST" 
+						id="mG61Hd"
+					>
+						<div class="name">
+							<p>
+								<label for="first">FIRST NAME</label>
+								<input
+									type="text"
+									required
+									name="entry.453885916"
+									id="first"
+									placeholder="Please enter your first name."
+								/>
+							</p>
+							<p class="last-name">
+								<label for="last">LAST NAME</label>
+								<input
+									type="text"
+									required
+									name="entry.424415708"
+									id="first"
+									placeholder="Please enter your last name."
+								/>
+							</p>
+						</div>
+
+						<p class="email">
+							<label for="email">EMAIL ADDRESS</label>
+							<input
+								type="text"
+								required
+								name="entry.1510521009"
+								id="first"
+								placeholder="Please enter your email address."
+							/>
+						</p>
+						<p class="organization">
+							<label for="organization">ORGANIZATION NAME</label>
+							<input
+								type="text"
+								required
+								name="entry.108998585"
+								id="first"
+								placeholder="Please enter your email address."
+							/>
+						</p>
+						<p>
+							<label for="body">COMMENTS, QUESTIONS, FEEDBACK?</label>
+							<input
+								type="text"
+								required
+								name="entry.1252965523"
+								id="first"
+								placeholder="Please enter your message."
+								class="big"
+							/>
+						</p>
+						<p>
+							<input id="submit" type="submit" value="Send message" />
+						</p>
+					</form>
+				</Modal.Body>
 			</Modal>
 		</div>
 	);
