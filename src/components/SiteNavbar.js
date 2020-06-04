@@ -80,7 +80,7 @@ const SiteNavbar = (props) => {
 				className="landing-navbar selectDisable site-navbar-mobile"
 			>
 				<Navbar.Brand href="/">
-					<img src={LogoRainbow} alt="logo white" style={style.Logo} />
+					<img src={LogoRainbow} alt="logo rainbow" style={style.Logo} />
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">

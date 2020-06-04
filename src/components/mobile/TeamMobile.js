@@ -97,11 +97,19 @@ const Team = () => {
 						show={showSamarth}
 						onHide={handleCloseSamarth}
 						className="team"
-						style={{ width: '90%', margin: '2.5rem 5%' }}
+						style={{
+							width: '90%',
+							margin: '2.5rem 5%',
+							maxHeight: '85%',
+							overflowY: 'scroll',
+						}}
 					>
 						<Modal.Header
 							closeButton
-							style={{ border: 'none', paddingBottom: '0' }}
+							style={{
+								border: 'none',
+								paddingBottom: '0',
+							}}
 						>
 							<div style={{ display: 'flex', flexDirection: 'column' }}>
 								<h2 className="name" id="name">
@@ -147,7 +155,12 @@ const Team = () => {
 						show={showVicky}
 						onHide={handleCloseVicky}
 						className="team"
-						style={{ width: '90%', margin: '2.5rem 5%' }}
+						style={{
+							width: '90%',
+							margin: '2.5rem 5%',
+							maxHeight: '85%',
+							overflowY: 'scroll',
+						}}
 					>
 						<Modal.Header
 							closeButton
@@ -202,7 +215,12 @@ const Team = () => {
 						show={showErvin}
 						onHide={handleCloseErvin}
 						className="team"
-						style={{ width: '90%', margin: '2.5rem 5%' }}
+						style={{
+							width: '90%',
+							margin: '2.5rem 5%',
+							maxHeight: '85%',
+							overflowY: 'scroll',
+						}}
 					>
 						<Modal.Header
 							closeButton
@@ -250,7 +268,12 @@ const Team = () => {
 						show={showAditya}
 						onHide={handleCloseAditya}
 						className="team"
-						style={{ width: '90%', margin: '2.5rem 5%' }}
+						style={{
+							width: '90%',
+							margin: '2.5rem 5%',
+							maxHeight: '85%',
+							overflowY: 'scroll',
+						}}
 					>
 						<Modal.Header
 							closeButton
@@ -303,7 +326,12 @@ const Team = () => {
 						show={showJustin}
 						onHide={handleCloseJustin}
 						className="team"
-						style={{ width: '90%', margin: '2.5rem 5%' }}
+						style={{
+							width: '90%',
+							margin: '2.5rem 5%',
+							maxHeight: '85%',
+							overflowY: 'scroll',
+						}}
 					>
 						<Modal.Header
 							closeButton

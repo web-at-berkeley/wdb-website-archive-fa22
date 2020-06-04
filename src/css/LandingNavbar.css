@@ -3,8 +3,8 @@
 }
 
 .landing-navbar .logo {
-	margin-right: 1.5rem;
-	width: 150px;
+	margin-right: 1.2rem;
+	width: 120px;
 }
 
 .landing-navbar .link-tag:hover {
@@ -65,5 +65,9 @@
 	}
 	.landing-navbar .tab-text-container {
 		display: inline;
+	}
+	.landing-navbar .logo {
+		margin-right: 1.5rem;
+		width: 100px;
 	}
 }

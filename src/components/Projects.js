@@ -38,36 +38,47 @@ const Projects = () => {
 							className="screenshot"
 						>
 							<img src={Resource19} alt="resource 19" className="screenshot" />
+
+							<div class="overlay">
+								<img src={Overlay} alt="overlay" className="overlay-image" />
+							</div>
+							<div className="text-overlay"></div>
 						</a>
-						<div class="overlay">
-							<img src={Overlay} alt="overlay" className="overlay-image" />
-						</div>
-						<div className="text-overlay">
-							<h3 className="overlay-header">RESOURCE 19</h3>
-							<p className="overlay-text">
-								BUILT USING REACT, JQUERY, BOOTSTRAP, SASS, AND FIREBASE
+						<div className="description-container">
+							<h3 className="description-header">Resource 19</h3>
+							<p className="description-text">
+								Built using React, JQuery, Bootstrap, Sass, and Firebase
 							</p>
 						</div>
 					</Col>
 					<Col xs={12} xl={6} className="partner">
-						<a href="/" title="GroTech @ Berkeley" className="screenshot">
+						<a
+							href="https://www.ocf.berkeley.edu/~grotech/"
+							title="GroTech @ Berkeley"
+							className="screenshot"
+						>
 							<img src={GroTech} alt="grotech" className="screenshot" />
+
+							<div class="overlay overlay-rotated">
+								<img
+									src={OverlayRotated}
+									alt="overlay"
+									className="overlay-image-rotated"
+									style={{ bottom: '33.5%' }}
+								/>
+							</div>
+							<div className="text-overlay text-overlay-rotated">
+								<p className="overlay-text overlay-text-rotated">
+									BUILT USING HTML, CSS, AND PHP
+								</p>
+								<h3 className="overlay-header overlay-header-rotated">
+									GROTECH @BERKELEY
+								</h3>
+							</div>
 						</a>
-						<div class="overlay overlay-rotated">
-							<img
-								src={OverlayRotated}
-								alt="overlay"
-								className="overlay-image-rotated"
-								style={{ bottom: '33.5%' }}
-							/>
-						</div>
-						<div className="text-overlay text-overlay-rotated">
-							<p className="overlay-text overlay-text-rotated">
-								BUILT USING HTML, CSS, AND PHP
-							</p>
-							<h3 className="overlay-header overlay-header-rotated">
-								GROTECH @BERKELEY
-							</h3>
+						<div className="description-container">
+							<h3 className="description-header">Grotech @ Berkeley</h3>
+							<p className="description-text">Built using HTML, CSS, and PHP</p>
 						</div>
 					</Col>
 				</Row>
@@ -79,19 +90,26 @@ const Projects = () => {
 							className="screenshot"
 						>
 							<img src={Frio} alt="frio" className="screenshot" />
+
+							<div class="overlay overlay-rotated">
+								<img
+									src={Overlay}
+									alt="overlay"
+									className="overlay-image-rotated"
+								/>
+							</div>
+							<div className="text-overlay text-overlay-rotated">
+								<p className="overlay-text overlay-text-rotated">
+									BUILT USING JS, FLASK, AND SQLITE3
+								</p>
+								<h3 className="overlay-header overlay-header-rotated">FRIO</h3>
+							</div>
 						</a>
-						<div class="overlay overlay-rotated">
-							<img
-								src={Overlay}
-								alt="overlay"
-								className="overlay-image-rotated"
-							/>
-						</div>
-						<div className="text-overlay text-overlay-rotated">
-							<p className="overlay-text overlay-text-rotated">
-								BUILT USING JS, FLASK, AND SQLITE3
+						<div className="description-container">
+							<h3 className="description-header">Frio</h3>
+							<p className="description-text">
+								Built using Javascript, Flask, and SQLite3
 							</p>
-							<h3 className="overlay-header overlay-header-rotated">FRIO</h3>
 						</div>
 					</Col>
 					<Col xs={12} xl={6} className="partner">
@@ -101,20 +119,28 @@ const Projects = () => {
 							className="screenshot"
 						>
 							<img src={Formula} alt="formula" className="screenshot" />
+							<div class="overlay">
+								<img
+									src={OverlayRotated}
+									alt="overlay"
+									className="overlay-image"
+									style={{ top: '33.5%' }}
+								/>
+							</div>
+							<div className="text-overlay">
+								<h3 className="overlay-header formula-header">
+									FORMULA ELECTRIC AT BERKELEY
+								</h3>
+								<p className="overlay-text">BUILT USING REACT AND BOOTSTRAP</p>
+							</div>
 						</a>
-						<div class="overlay">
-							<img
-								src={OverlayRotated}
-								alt="overlay"
-								className="overlay-image"
-								style={{ top: '33.5%' }}
-							/>
-						</div>
-						<div className="text-overlay">
-							<h3 className="overlay-header formula-header">
-								FORMULA ELECTRIC AT BERKELEY
+						<div className="description-container">
+							<h3 className="description-header">
+								Formula Electric at Berkeley
 							</h3>
-							<p className="overlay-text">BUILT USING REACT AND BOOTSTRAP</p>
+							<p className="description-text">
+								Built using React and Bootstrap
+							</p>
 						</div>
 					</Col>
 				</Row>

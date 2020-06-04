@@ -46,13 +46,26 @@ const Partnerships = () => {
 
 				<Row className="justify-content-center">
 					<Col xs={12} md={4} lg={3} className="text-center">
-						<img src={Cloud} alt="cloud" className="partner cloud" />
+						<a href="http://cloudatcal.org/" title="Cloud at Cal">
+							<img src={Cloud} alt="cloud" className="partner cloud" />
+						</a>
 					</Col>
 					<Col xs={12} md={4} lg={3} className="text-center">
-						<img src={Formula} alt="formula" className="partner formula" />
+						<a
+							href="https://ev.berkeley.edu/"
+							title="Formula Electric at Berkeley"
+							className="screenshot"
+						>
+							<img src={Formula} alt="formula" className="partner formula" />
+						</a>
 					</Col>
 					<Col xs={12} md={4} lg={3} className="text-center">
-						<img src={Grotech} alt="grotech" className="partner grotech" />
+						<a
+							href="https://www.ocf.berkeley.edu/~grotech/"
+							title="GroTech @ Berkeley"
+						>
+							<img src={Grotech} alt="grotech" className="partner grotech" />
+						</a>
 					</Col>
 				</Row>
 			</Container>

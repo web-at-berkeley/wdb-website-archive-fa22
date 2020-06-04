@@ -48,7 +48,9 @@ const Development = () => {
 
 				<Row>
 					<Col xs={12} className="text-center">
-						<img src={Resource19} alt="resource 19" className="client-logo" />
+						<a href="https://resource19.org/" title="Resource-19">
+							<img src={Resource19} alt="resource 19" className="client-logo" />
+						</a>
 						<p className="client-description">
 							In response to the unfolding COVID-19 crisis, Web Development at
 							Berkeley aided a team of UC Berkeley students in building a

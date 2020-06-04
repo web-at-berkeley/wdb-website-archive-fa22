@@ -33,6 +33,10 @@
 	display: block;
 }
 
+.description-container {
+	display: none;
+}
+
 /* Overlay for Purple div */
 .projects .overlay {
 	position: absolute;
@@ -238,22 +242,6 @@
 }
 
 @media only screen and (max-width: 675px) {
-	.projects .overlay-header {
-		font-size: 24px;
-		margin-bottom: 0.2vh;
-	}
-	.projects .overlay-text {
-		font-size: 16px;
-	}
-	.projects .partner:hover .text-overlay {
-		height: 32%;
-	}
-	.projects .partner:hover .text-overlay-rotated {
-		height: 24%;
-	}
-}
-
-@media only screen and (max-width: 575px) {
 	.projects .partner:hover .overlay {
 		height: 0;
 		transition-delay: 0s;
@@ -261,6 +249,23 @@
 	.projects .partner:hover .text-overlay {
 		height: 0;
 		transition-delay: 0s;
+	}
+	.description-container {
+		display: block;
+		margin-top: 0.7rem;
+		margin-left: 5px;
+		text-align: center;
+	}
+	.description-header {
+		margin-bottom: 0.3rem;
+		color: #000000;
+	}
+	.description-text {
+		margin-left: 1px;
+		color: #000000;
+	}
+	.partner {
+		flex-direction: column;
 	}
 }
 
