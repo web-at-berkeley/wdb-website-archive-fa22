@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from '@reach/router';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Modal from 'react-bootstrap/Modal';
+
+import ContactModal from './ContactModal';
 
 import NavBackground from '../img/site-nav/site-nav-background.png';
 import LogoRainbow from '../img/site-nav/logo-rainbow.png';
@@ -11,6 +14,10 @@ import '../css/SiteNavbar.css';
 import '../css/LandingNavbar.css';
 
 const SiteNavbar = (props) => {
+	const [show, setShow] = useState(false);
+
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
 	let Toggle = (
 		<img
 			src={LogoRainbow}
@@ -70,6 +77,9 @@ const SiteNavbar = (props) => {
 					<Link to="/apply" className="link-tag">
 						<p className="nav-text">Apply</p>
 					</Link>
+					<div onClick={handleShow} className="link-tag">
+						<p className="nav-text">Contact</p>
+					</div>
 				</div>
 			</div>
 
@@ -109,12 +119,15 @@ const SiteNavbar = (props) => {
 						<Link to="/apply" className="link-tag">
 							<p className="nav-text">Apply</p>
 						</Link>
-						<a href="mailto: webatberkeley@gmail.com" className="link-tag">
+						<div onClick={handleShow} className="link-tag">
 							<p className="nav-text">Contact Us</p>
-						</a>
+						</div>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
+			<Modal show={show} size="lg" onHide={handleClose}>
+				<ContactModal />
+			</Modal>
 		</div>
 	);
 };

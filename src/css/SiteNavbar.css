@@ -4,10 +4,9 @@
 }
 .site-navbar .nav-background {
 	position: absolute;
-	width: 47.5%;
-	height: 8.5rem;
+	height: 9rem;
 	z-index: 2;
-	max-width: 870px;
+	width: 920px;
 }
 .logo-rainbow {
 	position: absolute;
@@ -18,22 +17,22 @@
 
 .site-navbar .text {
 	position: absolute;
-	top: 3.1rem;
+	top: 3.3rem;
 	display: flex;
 	flex-direction: row;
-	width: 40%;
+	/* width: 40%; */
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 5%;
+	margin-left: 3%;
 	height: 3rem;
 	z-index: 4;
-	max-width: 700px;
 }
 .site-navbar .nav-text {
 	color: white;
 	font-size: 24px;
 	text-transform: uppercase;
 	letter-spacing: 0.11em;
+	margin-left: 1rem;
 }
 .site-navbar .link-tag:hover {
 	text-decoration: none;
@@ -101,33 +100,41 @@
 	display: block;
 }
 
-@media only screen and (max-width: 1500px) {
-	.site-navbar .nav-background {
-		height: 6.5rem;
-	}
-	.site-navbar .text {
-		top: 2.5rem;
-	}
+@media only screen and (max-width: 1900px) {
 	.site-navbar .nav-text {
-		font-size: 17px;
+		color: white;
+		font-size: 20px;
+		text-transform: uppercase;
+		letter-spacing: 0.11em;
+		margin-left: 0.6rem;
+	}
+	.site-navbar .nav-background {
+		width: 740px;
 	}
 }
 
-@media only screen and (max-width: 1300px) {
-	.site-navbar .nav-background {
-		width: 52.5%;
+@media only screen and (max-width: 1500px) {
+	.site-navbar .nav-text {
+		margin-left: 0.7rem;
 	}
 	.site-navbar .text {
-		width: 45%;
+		top: 3rem;
+	}
+	.site-navbar .nav-background {
+		height: 8rem;
 	}
 }
 
 @media only screen and (max-width: 1150px) {
-	.site-navbar .nav-background {
-		width: 57.5%;
+	.site-navbar .nav-text {
+		color: white;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 0.11em;
+		margin-left: 0.6rem;
 	}
-	.site-navbar .text {
-		width: 50%;
+	.site-navbar .nav-background {
+		width: 660px;
 	}
 }
 
