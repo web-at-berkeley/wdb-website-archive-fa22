@@ -31,6 +31,16 @@ h6 {
 	user-select: none;
 }
 
+.purple-gradient {
+	background: -webkit-linear-gradient(left, #5f60ff, #9f5ef4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.cursor:hover {
+	cursor: pointer;
+}
+
 @media only screen and (max-width: 1800px) {
 	.header {
 		font-size: 45px;
