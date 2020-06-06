@@ -192,6 +192,13 @@
 		max-width: 80%;
 		margin-top: 0;
 	}
+	.left-rings {
+		display: none;
+	}
+
+	.right-rings {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 576px) {

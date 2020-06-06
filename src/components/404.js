@@ -19,6 +19,8 @@ const ErrorPage = () => {
 					src={ErrorImage}
 					alt="error"
 					style={{ width: '50%', marginLeft: '1%', marginTop: '.5rem' }}
+					className="selectDisable"
+					draggable="false"
 				/>
 			</div>
 		</Link>
