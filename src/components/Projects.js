@@ -41,10 +41,20 @@ const Projects = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={Resource19} alt="resource 19" className="screenshot" />
+							<img
+								src={Resource19}
+								alt="resource 19"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
 
 							<div class="overlay">
-								<img src={Overlay} alt="overlay" className="overlay-image" />
+								<img
+									src={Overlay}
+									alt="overlay"
+									className="overlay-image selectDisable"
+									draggable="false"
+								/>
 							</div>
 							<div className="text-overlay">
 								<h3 className="overlay-header">Resource 19</h3>
@@ -68,14 +78,20 @@ const Projects = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={GroTech} alt="grotech" className="screenshot" />
+							<img
+								src={GroTech}
+								alt="grotech"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
 
 							<div class="overlay overlay-rotated">
 								<img
 									src={OverlayRotated}
 									alt="overlay"
-									className="overlay-image-rotated"
+									className="overlay-image-rotated selectDisable"
 									style={{ bottom: '33.5%' }}
+									draggable="false"
 								/>
 							</div>
 							<div className="text-overlay text-overlay-rotated">
@@ -102,20 +118,28 @@ const Projects = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={Frio} alt="frio" className="screenshot" />
+							<img
+								src={Frio}
+								alt="frio"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
 
 							<div class="overlay overlay-rotated">
 								<img
 									src={Overlay}
 									alt="overlay"
-									className="overlay-image-rotated"
+									className="overlay-image-rotated selectDisable"
+									draggable="false"
 								/>
 							</div>
 							<div className="text-overlay text-overlay-rotated">
 								<p className="overlay-text overlay-text-rotated">
 									BUILT USING JS, FLASK, AND SQLITE3
 								</p>
-								<h3 className="overlay-header overlay-header-rotated">FRIO</h3>
+								<h3 className="overlay-header overlay-header-rotated selectDisable">
+									FRIO
+								</h3>
 							</div>
 						</a>
 						<div className="description-container">
@@ -133,12 +157,18 @@ const Projects = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={Formula} alt="formula" className="screenshot" />
+							<img
+								src={Formula}
+								alt="formula"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
 							<div class="overlay">
 								<img
 									src={OverlayRotated}
 									alt="overlay"
-									className="overlay-image"
+									className="overlay-image selectDisable"
+									draggable="false"
 									style={{ top: '33.5%' }}
 								/>
 							</div>

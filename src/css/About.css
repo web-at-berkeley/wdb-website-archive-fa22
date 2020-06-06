@@ -33,32 +33,74 @@
 }
 
 .about .relative-container {
+	background: #ffffff;
+	padding: 0;
+	position: relative;
+}
+.about .left-container {
+	margin-right: 3%;
+}
+.about .right-container {
+	margin-left: 3%;
+}
+.about .inner-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	box-shadow: 5px 3px 23px rgba(0, 0, 0, 0.1);
-	background: #ffffff;
+	background: white;
 	border-radius: 46px;
 	padding: 2.5rem 4rem 3rem 4rem;
-	transition: 0.3s ease;
 	z-index: 3;
+	transition: 0.4s ease;
 }
-.about .relative-container:hover {
+.about .inner-container:hover {
 	transform: scale(1.1);
 	cursor: pointer;
 	box-shadow: 8px 3px 23px rgba(0, 0, 0, 0.2);
 }
-.about .left-container {
-	margin-right: 2%;
+
+.about .inner-container:hover ~ .left-rings {
+	transform: scale(1.05);
 }
-.about .right-container {
-	margin-left: 2%;
+.about .inner-container:hover ~ .right-rings {
+	transform: scale(1.05);
+}
+
+.left-rings {
+	height: 125%;
+	width: 100%;
+	position: absolute;
+	top: -14.5%;
+	left: -12%;
+	z-index: -1;
+	transition: 1s ease;
+}
+
+.right-rings {
+	height: 125%;
+	width: 123%;
+	position: absolute;
+	top: -15%;
+	right: -10%;
+	z-index: -1;
+	transition: 1s ease;
 }
 
 .about .partner-container {
-	padding: 2.5rem 4rem 3rem 4rem;
-	max-width: 70.5%;
+	border-radius: 46px;
+	box-shadow: 5px 3px 23px rgba(0, 0, 0, 0.1);
+	background: white;
+	max-width: 72.5%;
 	margin-top: 3.5rem;
+	transition: 0.4s ease;
+	z-index: 5;
+	padding: 2.5rem 4rem 3rem 4rem;
+}
+.about .partner-container:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	box-shadow: 8px 3px 23px rgba(0, 0, 0, 0.2);
 }
 
 .about .subject-header {
@@ -90,9 +132,10 @@
 		font-size: 16px;
 		line-height: 19px;
 	}
-	.about .relative-container {
-		border-radius: 32px;
+	.inner-container {
+		background: white;
 		padding: 2rem;
+		border-radius: 32px;
 	}
 	.about .subtitle {
 		font-size: 22px;
@@ -102,8 +145,9 @@
 	}
 	.about .partner-container {
 		padding: 2rem 4rem;
-		max-width: 71%;
-		margin-top: 2rem;
+		max-width: 72.85%;
+		margin-top: 2.5rem;
+		border-radius: 32px;
 	}
 }
 

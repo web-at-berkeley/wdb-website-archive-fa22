@@ -76,7 +76,12 @@ const Apply = () => {
 								<br />
 								here
 							</p>
-							<img src={Arrowhead} alt="arrowhead" className="arrowhead" />
+							<img
+								src={Arrowhead}
+								alt="arrowhead"
+								className="arrowhead selectDisable"
+								draggable="false"
+							/>
 						</Col>
 						<Col xs={8} className="text-center">
 							<h2 className="secondary-header">WHAT WE’RE LOOKING FOR</h2>
@@ -87,11 +92,21 @@ const Apply = () => {
 								<br />
 								2020
 							</p>
-							<img src={Arrowhead} alt="arrowhead" className="arrowhead" />
+							<img
+								src={Arrowhead}
+								alt="arrowhead"
+								className="arrowhead selectDisable"
+								draggable="false"
+							/>
 						</Col>
 					</Row>
 					<Row className="long-arrow-row">
-						<img src={LongArrow} alt="long-arrow" className="long-arrow" />
+						<img
+							src={LongArrow}
+							alt="long-arrow"
+							className="long-arrow selectDisable"
+							draggable="false"
+						/>
 					</Row>
 
 					<Row className="long-arrow-bottom">
@@ -117,7 +132,8 @@ const Apply = () => {
 							<img
 								src={TeacherArrow}
 								alt="teacher-arrow"
-								className="teacher-arrow"
+								className="teacher-arrow selectDisable"
+								draggable="false"
 							/>
 							<Accordion>
 								<Card onClick={openTeacher}>
@@ -131,7 +147,8 @@ const Apply = () => {
 												src={ToggleArrow}
 												alt="toggle-arrow"
 												className="toggle-arrow"
-												id="toggle-arrow-teacher"
+												id="toggle-arrow-teacher selectDisable"
+												draggable="false"
 											/>
 											<h3 className="role">Teacher</h3>
 										</div>
@@ -162,7 +179,8 @@ const Apply = () => {
 							<img
 								src={StudentArrow}
 								alt="student-arrow"
-								className="student-arrow"
+								className="student-arrow selectDisable"
+								draggable="false"
 							/>
 							<Accordion>
 								<Card onClick={openStudent}>
@@ -175,7 +193,8 @@ const Apply = () => {
 											<img
 												src={ToggleArrow}
 												alt="toggle-arrow"
-												className="toggle-arrow"
+												className="toggle-arrow selectDisable"
+												draggable="false"
 												id="toggle-arrow-student"
 											/>
 											<h3 className="role">Student</h3>
@@ -201,7 +220,8 @@ const Apply = () => {
 							<img
 								src={DeveloperArrow}
 								alt="developer-arrow"
-								className="developer-arrow"
+								className="developer-arrow selectDisable"
+								draggable="false"
 							/>
 							<Accordion>
 								<Card onClick={openDeveloper}>
@@ -214,7 +234,8 @@ const Apply = () => {
 											<img
 												src={ToggleArrow}
 												alt="toggle-arrow"
-												className="toggle-arrow"
+												className="toggle-arrow selectDisable"
+												draggable="false"
 												id="toggle-arrow-developer"
 											/>
 											<h3 className="role">Developer</h3>
@@ -263,12 +284,22 @@ const Apply = () => {
 						</Col>
 					</Row>
 					<Row className="long-arrow-row">
-						<img src={LongArrow} alt="long-arrow" className="long-arrow" />
+						<img
+							src={LongArrow}
+							alt="long-arrow"
+							className="long-arrow selectDisable"
+							draggable="false"
+						/>
 					</Row>
 
 					<Row className="justify-content-between">
 						<Col xs={4} className="text-center">
-							<img src={Arrowhead} alt="arrowhead" className="arrowhead" />
+							<img
+								src={Arrowhead}
+								alt="arrowhead"
+								className="arrowhead selectDisable"
+								draggable="false"
+							/>
 							<p className="timeline-text">
 								you are
 								<br />
@@ -276,7 +307,12 @@ const Apply = () => {
 							</p>
 						</Col>
 						<Col xs={4} className="text-center">
-							<img src={Arrowhead} alt="arrowhead" className="arrowhead" />
+							<img
+								src={Arrowhead}
+								alt="arrowhead"
+								className="arrowhead selectDisable"
+								draggable="false"
+							/>
 							<p className="timeline-text">
 								Fall
 								<br />
@@ -298,7 +334,8 @@ const Apply = () => {
 											<img
 												src={ToggleArrow}
 												alt="toggle-arrow"
-												className="toggle-arrow"
+												className="toggle-arrow selectDisable"
+												draggable="false"
 												id="toggle-arrow-teacher-mobile"
 											/>
 											<h3 className="role">Teacher</h3>
@@ -334,7 +371,8 @@ const Apply = () => {
 											<img
 												src={ToggleArrow}
 												alt="toggle-arrow"
-												className="toggle-arrow"
+												className="toggle-arrow selectDisable"
+												draggable="false"
 												id="toggle-arrow-student-mobile"
 											/>
 											<h3 className="role">Student</h3>
@@ -366,7 +404,8 @@ const Apply = () => {
 											<img
 												src={ToggleArrow}
 												alt="toggle-arrow"
-												className="toggle-arrow"
+												className="toggle-arrow selectDisable"
+												draggable="false"
 												id="toggle-arrow-developer-mobile"
 											/>
 											<h3 className="role">Developer</h3>

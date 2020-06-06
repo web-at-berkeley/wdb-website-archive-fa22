@@ -60,7 +60,8 @@ const Team = () => {
 						<img
 							src={Samarth}
 							alt="samarth"
-							className="team-image member-1"
+							className="team-image member-1 selectDisable"
+							draggable="false"
 							onClick={handleShowSamarth}
 						/>
 					</Col>
@@ -68,13 +69,15 @@ const Team = () => {
 						<img
 							src={Vicky}
 							alt="vicky"
-							className="team-image member-3"
+							className="team-image member-3 selectDisable"
+							draggable="false"
 							onClick={handleShowVicky}
 						/>
 						<img
 							src={Ervin}
 							alt="ervin"
-							className="team-image member-4"
+							className="team-image member-4 selectDisable"
+							draggable="false"
 							onClick={handleShowErvin}
 						/>
 					</Col>
@@ -82,17 +85,24 @@ const Team = () => {
 						<img
 							src={Aditya}
 							alt="aditya"
-							className="team-image member-5"
+							className="team-image member-5 selectDisable"
+							draggable="false"
 							onClick={handleShowAditya}
 						/>
 						<img
 							src={Justin}
 							alt="justin"
-							className="team-image member-6"
+							className="team-image member-6 selectDisable"
+							draggable="false"
 							onClick={handleShowJustin}
 						/>
 					</Col>
-					<img src={Bubbles} alt="bubbles" className="bubbles" />
+					<img
+						src={Bubbles}
+						alt="bubbles"
+						className="bubbles selectDisable"
+						draggable="false"
+					/>
 					<Modal
 						show={showSamarth}
 						onHide={handleCloseSamarth}
@@ -197,14 +207,16 @@ const Team = () => {
 									<img
 										src={Linkedin}
 										alt="linkedin"
-										className=" social-icon linkedin-icon"
+										className=" social-icon linkedin-icon selectDisable"
+										draggable="false"
 									/>
 								</a>
 								<a href="mailto: victoria.li@berkeley.edu" id="mail">
 									<img
 										src={Mail}
 										alt="mail"
-										className="social-icon mail-icon"
+										className="social-icon mail-icon selectDisable"
+										draggable="false"
 									/>
 								</a>
 							</div>
@@ -250,7 +262,7 @@ const Team = () => {
 									<img
 										src={Linkedin}
 										alt="linkedin"
-										className=" social-icon linkedin-icon"
+										className="social-icon linkedin-icon"
 									/>
 								</a>
 								<a href="mailto: ebaccay@berkeley.edu" id="mail">

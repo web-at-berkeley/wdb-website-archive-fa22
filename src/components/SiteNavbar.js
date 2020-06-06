@@ -22,7 +22,7 @@ const SiteNavbar = (props) => {
 		<img
 			src={LogoRainbow}
 			alt="logo rainbow"
-			className="logo-rainbow"
+			className="logo-rainbow selectDisable"
 			id="logo-rainbow"
 		/>
 	);
