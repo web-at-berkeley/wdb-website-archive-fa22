@@ -10,8 +10,8 @@ import Col from 'react-bootstrap/Col';
 
 import Line1 from '../img/about/line-1.png';
 import Line2 from '../img/about/line-2.png';
-// import LeftRings from '../img/about/leftrings.png';
-// import RightRings from '../img/about/rightrings.png';
+import LeftRings from '../img/about/leftrings.png';
+import RightRings from '../img/about/rightrings.png';
 
 import '../css/About.css';
 
@@ -54,37 +54,49 @@ const About = () => {
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
-					{/* <img src={LeftRings} alt="left rings" className="left-rings" /> */}
-					<Col
-						xs={12}
-						md={4}
-						className="relative-container left-container"
-						onClick={() => navigate('/about/education')}
-						title="Education"
-					>
-						<h3 className="subject-header">Education</h3>
-						<p className="subject-text">
-							With Berkeley's scattered web development education opportunities,
-							it can be difficult to know where to start pursuing this
-							knowledge. Web Developers of Berkeley is the place for students to
-							master these skills and web developers to apply their knowledge.
-						</p>
+					<Col xs={12} md={4} className="relative-container left-container">
+						<div
+							className="inner-container"
+							onClick={() => navigate('/about/education')}
+							title="Education"
+						>
+							<h3 className="subject-header">Education</h3>
+							<p className="subject-text">
+								With Berkeley's scattered web development education
+								opportunities, it can be difficult to know where to start
+								pursuing this knowledge. Web Developers of Berkeley is the place
+								for students to master these skills and web developers to apply
+								their knowledge.
+							</p>
+						</div>
+						<img
+							src={LeftRings}
+							alt="left rings"
+							className="left-rings selectDisable"
+							draggable="false"
+						/>
 					</Col>
-					{/* <img src={RightRings} alt="right rings" className="right-rings" /> */}
-					<Col
-						xs={12}
-						md={4}
-						className="relative-container right-container"
-						onClick={() => navigate('/about/development')}
-						title="Development"
-					>
-						<h3 className="subject-header">Development</h3>
-						<p className="subject-text">
-							Learning has its true payoff when given the chance to apply one’s
-							knowledge in the real world. We provide opportunities to develop
-							for real startups in the Bay Area, where students will experience
-							every step of the software development process.
-						</p>
+
+					<Col xs={12} md={4} className="relative-container right-container">
+						<div
+							className="inner-container"
+							onClick={() => navigate('/about/development')}
+							title="Development"
+						>
+							<h3 className="subject-header">Development</h3>
+							<p className="subject-text">
+								Learning has its true payoff when given the chance to apply
+								one’s knowledge in the real world. We provide opportunities to
+								develop for real startups in the Bay Area, where students will
+								experience every step of the software development process.
+							</p>
+						</div>
+						<img
+							src={RightRings}
+							alt="right rings"
+							className="right-rings selectDisable"
+							draggable="false"
+						/>
 					</Col>
 				</Row>
 				<Row className="justify-content-center">

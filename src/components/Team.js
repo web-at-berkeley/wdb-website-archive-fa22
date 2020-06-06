@@ -122,7 +122,7 @@ const Team = () => {
 								<img
 									src={Linkedin}
 									alt="linkedin"
-									className=" social-icon linkedin-icon"
+									className=" social-icon linkedin-icon selectDisable"
 								/>
 							</a>
 							<a
@@ -131,7 +131,11 @@ const Team = () => {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								<img src={Mail} alt="mail" className="social-icon mail-icon" />
+								<img
+									src={Mail}
+									alt="mail"
+									className="social-icon mail-icon selectDisable"
+								/>
 							</a>
 						</div>
 					</Col>
@@ -139,13 +143,15 @@ const Team = () => {
 						<img
 							src={Samarth}
 							alt="samarth"
-							className="team-image member-1"
+							className="team-image member-1 selectDisable"
+							draggable="false"
 							onMouseEnter={samarth}
 						/>
 						<img
 							src={Spider}
 							alt="spider"
-							className="team-image member-2"
+							className="team-image member-2 selectDisable"
+							draggable="false"
 							onMouseEnter={spider}
 						/>
 					</Col>
@@ -153,13 +159,15 @@ const Team = () => {
 						<img
 							src={Vicky}
 							alt="vicky"
-							className="team-image member-3"
+							className="team-image member-3 selectDisable"
+							draggable="false"
 							onMouseEnter={vicky}
 						/>
 						<img
 							src={Ervin}
 							alt="ervin"
-							className="team-image member-4"
+							className="team-image member-4 selectDisable"
+							draggable="false"
 							onMouseEnter={ervin}
 						/>
 					</Col>
@@ -167,17 +175,24 @@ const Team = () => {
 						<img
 							src={Aditya}
 							alt="aditya"
-							className="team-image member-5"
+							className="team-image member-5 selectDisable"
+							draggable="false"
 							onMouseEnter={aditya}
 						/>
 						<img
 							src={Justin}
 							alt="justin"
-							className="team-image member-6"
+							className="team-image member-6 selectDisable"
+							draggable="false"
 							onMouseEnter={justin}
 						/>
 					</Col>
-					<img src={Bubbles} alt="bubbles" className="bubbles" />
+					<img
+						src={Bubbles}
+						alt="bubbles"
+						className="bubbles selectDisable"
+						draggable="false"
+					/>
 				</Row>
 			</Container>
 			<Footer />

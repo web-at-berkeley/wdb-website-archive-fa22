@@ -19,8 +19,18 @@ const Partnerships = () => {
 		<div className="partnerships education">
 			<SiteNavbar logo="false" />
 			<Container fluid className="body">
-				<img src={RightNav} alt="right nav" className="right-nav" />
-				<img src={Blobs} alt="blobs" className="blobs" />
+				<img
+					src={RightNav}
+					alt="right nav"
+					className="right-nav selectDisable"
+					draggable="false"
+				/>
+				<img
+					src={Blobs}
+					alt="blobs"
+					className="blobs selectDisable"
+					draggable="false"
+				/>
 				<Row>
 					<Col xs={12} className="text-center">
 						<h1 className="header">Giving Back</h1>
@@ -54,7 +64,12 @@ const Partnerships = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={Cloud} alt="cloud" className="partner cloud" />
+							<img
+								src={Cloud}
+								alt="cloud"
+								className="partner cloud selectDisable"
+								draggable="false"
+							/>
 						</a>
 					</Col>
 					<Col xs={12} md={4} lg={3} className="text-center">
@@ -65,7 +80,12 @@ const Partnerships = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={Formula} alt="formula" className="partner formula" />
+							<img
+								src={Formula}
+								alt="formula"
+								className="partner formula selectDisable"
+								draggable="false"
+							/>
 						</a>
 					</Col>
 					<Col xs={12} md={4} lg={3} className="text-center">
@@ -75,7 +95,12 @@ const Partnerships = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={Grotech} alt="grotech" className="partner grotech" />
+							<img
+								src={Grotech}
+								alt="grotech"
+								className="partner grotech selectDisable"
+								draggable="false"
+							/>
 						</a>
 					</Col>
 				</Row>

@@ -17,9 +17,19 @@ const Development = () => {
 	return (
 		<div className="education development">
 			<SiteNavbar logo="false" />
-			<img src={Blobs} alt="blobs" className="blobs" />
+			<img
+				src={Blobs}
+				alt="blobs"
+				className="blobs selectDisable"
+				draggable="false"
+			/>
 			<Container fluid className="body">
-				<img src={RightNav} alt="right nav" className="right-nav" />
+				<img
+					src={RightNav}
+					alt="right nav"
+					className="right-nav selectDisable"
+					draggable="false"
+				/>
 				<Row>
 					<Col xs={12} className="text-center">
 						<h1 className="header">
@@ -56,7 +66,12 @@ const Development = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={Resource19} alt="resource 19" className="client-logo" />
+							<img
+								src={Resource19}
+								alt="resource 19"
+								className="client-logo selectDisable"
+								draggable="false"
+							/>
 						</a>
 						<p className="client-description">
 							In response to the unfolding COVID-19 crisis, Web Development at
@@ -70,7 +85,12 @@ const Development = () => {
 
 				<Row>
 					<Col xs={12} className="text-center">
-						<img src={Carepath} alt="Carepath" className="client-logo" />
+						<img
+							src={Carepath}
+							alt="Carepath"
+							className="client-logo selectDisable"
+							draggable="false"
+						/>
 						<p className="client-description bottom-description">
 							Carepath is a moderated online platform founded at Stanford where
 							parents with children with mental health disorders can find a

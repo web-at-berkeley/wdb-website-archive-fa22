@@ -16,7 +16,12 @@ const Education = () => {
 		<div className="education">
 			<SiteNavbar logo="false" />
 			<Container fluid className="body">
-				<img src={RightNav} alt="right nav" className="right-nav" />
+				<img
+					src={RightNav}
+					alt="right nav"
+					className="right-nav selectDisable"
+					draggable="false"
+				/>
 				<Row>
 					<Col xs={12} className="text-center">
 						<h1 className="header">
@@ -39,7 +44,13 @@ const Education = () => {
 				</Row>
 				<Row>
 					<Col xs={12} className="text-center" style={{ padding: '0' }}>
-						<img src={Graphic} alt="graphic" style={{ width: '100%' }} />
+						<img
+							src={Graphic}
+							alt="graphic"
+							style={{ width: '100%' }}
+							className="selectDisable"
+							draggable="false"
+						/>
 					</Col>
 				</Row>
 			</Container>
