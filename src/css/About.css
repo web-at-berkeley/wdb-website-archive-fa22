@@ -75,6 +75,7 @@
 	left: -12%;
 	z-index: -1;
 	transition: 1s ease;
+	display: block;
 }
 
 .right-rings {
@@ -85,6 +86,7 @@
 	right: -10%;
 	z-index: -1;
 	transition: 1s ease;
+	display: block;
 }
 
 .about .partner-container {

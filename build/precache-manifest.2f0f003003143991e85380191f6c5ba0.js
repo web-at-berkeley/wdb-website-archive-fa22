@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99788e05d714e6f52fcfe72d5bc515b1",
+    "revision": "64f2f7185db56c80bfe534e14af6f034",
     "url": "/index.html"
   },
   {
-    "revision": "2e0b1bf505afdac01bff",
-    "url": "/static/css/main.f7b576eb.chunk.css"
+    "revision": "ed496fecb99743855b8e",
+    "url": "/static/css/main.c1752f8a.chunk.css"
   },
   {
-    "revision": "c1b4365678c8e59e70d0",
-    "url": "/static/js/2.96e89716.chunk.js"
+    "revision": "611a5ca183b0b2e50dc9",
+    "url": "/static/js/2.da8b7077.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.96e89716.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.da8b7077.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e0b1bf505afdac01bff",
-    "url": "/static/js/main.0162eecd.chunk.js"
+    "revision": "ed496fecb99743855b8e",
+    "url": "/static/js/main.4b49f429.chunk.js"
   },
   {
-    "revision": "2060b9a7e54a59ab7b07",
-    "url": "/static/js/runtime-main.f3a02c50.js"
+    "revision": "22395fb2138ce6e80ded",
+    "url": "/static/js/runtime-main.d0474311.js"
   },
   {
     "revision": "f9b224fee774de57b7e8d4d4f55e0964",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bubbles.d8141d4c.png"
   },
   {
+    "revision": "e4c8ad45efce2818f80db0bb887ef4ee",
+    "url": "/static/media/error.e4c8ad45.png"
+  },
+  {
     "revision": "1e184a0d8e86c40428379e73f5e5ad63",
     "url": "/static/media/ervinring.1e184a0d.jpg"
   },
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "466b50ac870b07561208b1d6ee94eb8f",
     "url": "/static/media/frio.466b50ac.jpg"
+  },
+  {
+    "revision": "c15b2310d46c2f32dc123ea8df731cad",
+    "url": "/static/media/graphic-mobile.c15b2310.png"
   },
   {
     "revision": "b6ea6d9e1c4f549ea8348104bd09e82a",
@@ -80,8 +88,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/landing-design.1ffea0f7.png"
   },
   {
+    "revision": "d4f360f344793d96fd3c0edb9e3257d2",
+    "url": "/static/media/leftrings.d4f360f3.png"
+  },
+  {
     "revision": "2a8faefec3251bdfe251b2594fe20802",
     "url": "/static/media/logo-rainbow.2a8faefe.png"
+  },
+  {
+    "revision": "5fe11b681d652ce891ee600a756d11d1",
+    "url": "/static/media/meta-image.5fe11b68.png"
   },
   {
     "revision": "5ac70fb250cd97654553dcd888dec04b",
@@ -98,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2dfc93222d34a617514a8ab4009b47ab",
     "url": "/static/media/right-nav.2dfc9322.png"
+  },
+  {
+    "revision": "de06ae5e4dbed21af2ddfc3926d841f3",
+    "url": "/static/media/rightrings.de06ae5e.png"
   },
   {
     "revision": "79416a3811e33afe9420c74dce8697fc",

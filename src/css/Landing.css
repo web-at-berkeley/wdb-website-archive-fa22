@@ -85,6 +85,13 @@
 	right: 0;
 }
 
+.large-graphic {
+	display: block;
+}
+.small-graphic {
+	display: none;
+}
+
 @media only screen and (max-width: 1800px) {
 	.landing .landing-text {
 		font-size: 43px;
@@ -101,6 +108,15 @@
 	}
 	.landing .button-text {
 		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.large-graphic {
+		display: none;
+	}
+	.small-graphic {
+		display: block;
 	}
 }
 

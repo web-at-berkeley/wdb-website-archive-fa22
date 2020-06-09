@@ -7,11 +7,16 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Graphic from '../img/about/education/graphic.png';
+import GraphicMobile from '../img/about/education/graphic-mobile.png';
 import RightNav from '../img/right-nav.png';
 
 import '../css/Education.css';
 
 const Education = () => {
+	let GraphicVersion = Graphic;
+	if (matchMedia('(max-width: 992px)').matches) {
+		GraphicVersion = GraphicMobile;
+	}
 	return (
 		<div className="education">
 			<SiteNavbar logo="false" />
@@ -45,7 +50,7 @@ const Education = () => {
 				<Row>
 					<Col xs={12} className="text-center" style={{ padding: '0' }}>
 						<img
-							src={Graphic}
+							src={GraphicVersion}
 							alt="graphic"
 							style={{ width: '100%' }}
 							className="selectDisable"

@@ -41,6 +41,14 @@ h6 {
 	cursor: pointer;
 }
 
+.modal-open {
+	overflow: scroll;
+}
+
+.landing .modal-open {
+	overflow: hidden;
+}
+
 @media only screen and (max-width: 1800px) {
 	.header {
 		font-size: 45px;

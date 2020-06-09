@@ -9,18 +9,20 @@ import Row from 'react-bootstrap/Row';
 
 import LandingDesign from '../img/landing/landing-design.png';
 import LandingDesignMobile from '../img/landing/landing-design-mobile.png';
+import MetaImage from '../img/meta-image.png';
 
 import '../css/Landing.css';
 
 const Landing = () => {
-	const large = matchMedia('(max-width: 992px)');
-	let LandingGraphic = LandingDesign;
-	if (large.matches) {
-		LandingGraphic = LandingDesignMobile;
-	}
 	return (
 		<div className="landing">
 			<LandingNavbar />
+			<img
+				src={MetaImage}
+				alt="meta"
+				className="selectDisable"
+				style={{ display: 'none' }}
+			/>
 			<Container fluid className="align-items-center">
 				<Row>
 					<Col xs={12} lg={6} className="text">
@@ -37,9 +39,14 @@ const Landing = () => {
 					</Col>
 					<Col xs={12} lg={6} className="image">
 						<img
-							src={LandingGraphic}
+							src={LandingDesign}
 							alt="landing design"
-							className="landing-design selectDisable"
+							className="landing-design large-graphic selectDisable"
+						/>
+						<img
+							src={LandingDesignMobile}
+							alt="landing design"
+							className="landing-design small-graphic selectDisable"
 						/>
 					</Col>
 				</Row>
