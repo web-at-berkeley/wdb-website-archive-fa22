@@ -167,8 +167,7 @@ const Apply = () => {
 												please send an email to webatberkeley@gmail.com with
 												what position you're interested in, a description of
 												your teaching ability/experience, as well as your
-												familiarity with the aforementioned technologies, and of
-												course, go bears!
+												familiarity with the aforementioned technologies.
 											</p>
 										</Card.Body>
 									</Accordion.Collapse>
@@ -346,14 +345,13 @@ const Apply = () => {
 											We're currently looking for 2 frontend teachers and 1
 											backend teacher. For both positions, basic knowledge of
 											HTML, CSS, and Javascript is required. For frontend
-											teachers specifically, knowledge of React and some cSS
-											frameworks/pre-processors is a plus. For backend teachers,
+											teachers specifically, knowledge of React and some CSS frameworks/pre-processors is a plus. For backend teachers,
 											knowledge of Django, Node.js, and some AWS is a plus. If
 											interested, please send an email to
 											webatberkeley@gmail.com with what position you're
 											interested in, a description of your teaching ability/
 											experience, as well as your familiarity with the
-											aforementioned technologies, and of course, go bears!
+											aforementioned technologies.
 										</Card.Body>
 									</Accordion.Collapse>
 								</Card>
