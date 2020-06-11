@@ -6,7 +6,7 @@
 	position: absolute;
 	height: 9rem;
 	z-index: 2;
-	width: 920px;
+	width: 925px;
 }
 .logo-rainbow {
 	position: absolute;
@@ -32,7 +32,7 @@
 	font-size: 24px;
 	text-transform: uppercase;
 	letter-spacing: 0.11em;
-	margin-left: 1rem;
+	margin-left: 1.1rem;
 }
 .site-navbar .link-tag:hover {
 	text-decoration: none;
@@ -106,16 +106,16 @@
 		font-size: 20px;
 		text-transform: uppercase;
 		letter-spacing: 0.11em;
-		margin-left: 0.6rem;
+		margin-left: 1rem;
 	}
 	.site-navbar .nav-background {
-		width: 740px;
+		width: 780px;
 	}
 }
 
 @media only screen and (max-width: 1500px) {
 	.site-navbar .nav-text {
-		margin-left: 0.7rem;
+		margin-left: 0.9rem;
 	}
 	.site-navbar .text {
 		top: 3rem;
@@ -131,10 +131,10 @@
 		font-size: 18px;
 		text-transform: uppercase;
 		letter-spacing: 0.11em;
-		margin-left: 0.6rem;
+		margin-left: 0.9rem;
 	}
 	.site-navbar .nav-background {
-		width: 660px;
+		width: 690px;
 	}
 }
 
