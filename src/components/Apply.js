@@ -146,9 +146,9 @@ const Apply = () => {
 											<img
 												src={ToggleArrow}
 												alt="toggle-arrow"
-												className="toggle-arrow"
-												id="toggle-arrow-teacher selectDisable"
+												className="toggle-arrow selectDisable"
 												draggable="false"
+												id="toggle-arrow-teacher"
 											/>
 											<h3 className="role">Teacher</h3>
 										</div>
@@ -345,7 +345,8 @@ const Apply = () => {
 											We're currently looking for 2 frontend teachers and 1
 											backend teacher. For both positions, basic knowledge of
 											HTML, CSS, and Javascript is required. For frontend
-											teachers specifically, knowledge of React and some CSS frameworks/pre-processors is a plus. For backend teachers,
+											teachers specifically, knowledge of React and some CSS
+											frameworks/pre-processors is a plus. For backend teachers,
 											knowledge of Django, Node.js, and some AWS is a plus. If
 											interested, please send an email to
 											webatberkeley@gmail.com with what position you're
