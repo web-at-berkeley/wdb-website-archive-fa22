@@ -2,6 +2,7 @@ import React from 'react';
 
 import FooterBackground from '../img/footer.png';
 import Linkedin from '../img/linkedin-white.png';
+import Badge from '../img/badge.png';
 
 import '../css/Footer.css';
 
@@ -28,6 +29,9 @@ const Footer = () => {
 				rel="noopener noreferrer"
 			>
 				<p className="text">Email: webatberkeley@gmail.com</p>
+			</a>
+			<a href="/">
+				<img src={Badge} alt="badge" className="badge" />
 			</a>
 		</div>
 	);

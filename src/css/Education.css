@@ -1,3 +1,15 @@
+.education {
+	overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+}
+.development {
+	padding-bottom: 20%;
+}
+.partnerships {
+	padding-bottom: 23%;
+}
+
 .education .body {
 	padding-top: 11rem;
 }
@@ -64,10 +76,19 @@
 	transition: 1s ease;
 	border-radius: 50%;
 	min-width: 80%;
+	pointer-events: auto;
+}
+.partner-col {
+	pointer-events: none;
+	transition: 1.5s ease;
 }
 .partnerships .partner:hover {
 	transform: scale(1.1);
 }
+.partnerships .partner-col:hover {
+	margin: 0 3%;
+}
+
 .partnerships .cloud,
 .partnerships .grotech {
 	margin-top: 7rem;

@@ -57,7 +57,7 @@ const Partnerships = () => {
 				</Row>
 
 				<Row className="justify-content-center">
-					<Col xs={12} md={4} lg={3} className="text-center">
+					<Col xs={12} md={4} lg={3} className="text-center partner-col">
 						<a
 							href="http://cloudatcal.org/"
 							title="Cloud at Cal"
@@ -72,7 +72,7 @@ const Partnerships = () => {
 							/>
 						</a>
 					</Col>
-					<Col xs={12} md={4} lg={3} className="text-center">
+					<Col xs={12} md={4} lg={3} className="text-center partner-col">
 						<a
 							href="https://ev.berkeley.edu/"
 							title="Formula Electric at Berkeley"
@@ -88,7 +88,7 @@ const Partnerships = () => {
 							/>
 						</a>
 					</Col>
-					<Col xs={12} md={4} lg={3} className="text-center">
+					<Col xs={12} md={4} lg={3} className="text-center partner-col">
 						<a
 							href="https://www.ocf.berkeley.edu/~grotech/"
 							title="GroTech @ Berkeley"

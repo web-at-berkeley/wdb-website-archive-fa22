@@ -1,3 +1,10 @@
+.projects {
+	overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 17%;
+}
+
 .projects .body {
 	padding: 11rem 10% 0 10%;
 }
@@ -159,6 +166,9 @@
 }
 
 @media only screen and (max-width: 1400px) {
+	.projects {
+		padding-bottom: 15%;
+	}
 	.projects .overlay-header {
 		padding: 0 50px;
 		font-size: 21px;
@@ -235,6 +245,9 @@
 }
 
 @media only screen and (max-width: 750px) {
+	.projects {
+		padding-bottom: 20%;
+	}
 	.projects .overlay-header {
 		margin-bottom: 0.5vh;
 	}

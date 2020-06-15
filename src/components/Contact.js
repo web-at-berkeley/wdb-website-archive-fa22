@@ -13,7 +13,11 @@ const Contact = () => {
 		<div>
 			<div style={style.Container}>
 				<h5 style={style.Header}>Want to Work With Us?</h5>
-				<p style={style.Subtitle} onClick={handleShow} className="cursor">
+				<p
+					style={style.Subtitle}
+					onClick={handleShow}
+					className="cursor contact-text"
+				>
 					Contact Us!
 				</p>
 			</div>

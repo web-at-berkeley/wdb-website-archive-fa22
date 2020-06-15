@@ -1,5 +1,6 @@
 .footer {
-	position: relative;
+	position: absolute;
+	bottom: 0;
 }
 
 .footer .bg-image {
@@ -11,7 +12,7 @@
 
 .footer .text {
 	position: absolute;
-	bottom: 8%;
+	bottom: 10.3%;
 	left: 8rem;
 	font-family: Raleway;
 	font-weight: 300;
@@ -19,6 +20,21 @@
 	text-transform: uppercase;
 	color: #ffffff;
 	display: block;
+	line-height: 1.2;
+}
+
+.footer p:after {
+	display: block;
+	content: '';
+	border-bottom: solid 1px #ffffff;
+	transform: scaleX(0);
+	transition: transform 350ms ease-in-out;
+}
+.footer p:hover:after {
+	transform: scaleX(1);
+}
+.footer p.text:after {
+	transform-origin: 0% 50%;
 }
 
 .footer .linkedin {
@@ -35,16 +51,40 @@
 	transform: scale(1.05) rotate(5deg);
 }
 
+.badge {
+	width: 20%;
+	position: absolute;
+	bottom: 10%;
+	right: 1.5rem;
+	transition: 0.5s ease;
+}
+.badge:hover {
+	transform: scale(1.05);
+}
+.badge:empty {
+	display: block;
+}
+
 @media only screen and (max-width: 1000px) {
 	.footer .text {
 		font-size: 20px;
 		left: 4.5rem;
-		bottom: 7%;
+		bottom: 9.3%;
 	}
 
 	.footer .linkedin {
 		width: 30px;
 		left: 2rem;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.footer .text {
+		font-size: 16px;
+		left: 4.5rem;
+		bottom: 9.3%;
+	}
+	.badge {
+		width: 23%;
 	}
 }
 
@@ -54,6 +94,9 @@
 	}
 
 	.footer .linkedin {
+		display: none;
+	}
+	.badge:empty {
 		display: none;
 	}
 }

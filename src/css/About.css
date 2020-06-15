@@ -1,5 +1,8 @@
 .about {
 	overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 35rem;
 }
 
 .about .body {
@@ -124,6 +127,9 @@
 }
 
 @media only screen and (max-width: 1800px) {
+	.about {
+		padding-bottom: 23rem;
+	}
 	.about .body {
 		padding-top: 9rem;
 	}
@@ -154,6 +160,9 @@
 }
 
 @media only screen and (max-width: 1600px) {
+	.about {
+		padding-bottom: 20rem;
+	}
 	.about .line-1 {
 		top: 1rem;
 	}
@@ -163,6 +172,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+	.about {
+		padding-bottom: 15rem;
+	}
 	.about .body {
 		padding-top: 7vh;
 	}
@@ -172,6 +184,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+	.about {
+		padding-bottom: 10rem;
+	}
 	.about .line-1 {
 		left: -175.6px;
 	}
@@ -207,6 +222,9 @@
 }
 
 @media only screen and (max-width: 576px) {
+	.about {
+		padding-bottom: 6rem;
+	}
 	.about .header {
 		font-size: 36px;
 	}
@@ -243,6 +261,9 @@
 }
 
 @media only screen and (max-width: 400px) {
+	.about {
+		padding-bottom: 4rem;
+	}
 	.about .header {
 		font-size: 32px;
 		text-shadow: 1px 1px #00f8f9, 2px 2px #5f60ff;

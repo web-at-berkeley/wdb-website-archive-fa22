@@ -136,11 +136,12 @@ const Apply = () => {
 								draggable="false"
 							/>
 							<Accordion>
-								<Card onClick={openTeacher}>
+								<Card>
 									<Accordion.Toggle
 										as={Card.Header}
 										eventKey="0"
 										className="toggle"
+										onClick={openTeacher}
 									>
 										<div className="toggle-top">
 											<img
@@ -182,11 +183,12 @@ const Apply = () => {
 								draggable="false"
 							/>
 							<Accordion>
-								<Card onClick={openStudent}>
+								<Card>
 									<Accordion.Toggle
 										as={Card.Header}
 										eventKey="0"
 										className="toggle"
+										onClick={openStudent}
 									>
 										<div className="toggle-top">
 											<img
@@ -223,11 +225,12 @@ const Apply = () => {
 								draggable="false"
 							/>
 							<Accordion>
-								<Card onClick={openDeveloper}>
+								<Card>
 									<Accordion.Toggle
 										as={Card.Header}
 										eventKey="0"
 										className="toggle"
+										onClick={openDeveloper}
 									>
 										<div className="toggle-top">
 											<img
@@ -323,11 +326,12 @@ const Apply = () => {
 					<Row className="toggle-row">
 						<Col xs={12} lg={4}>
 							<Accordion>
-								<Card onClick={openTeacherMobile}>
+								<Card>
 									<Accordion.Toggle
 										as={Card.Header}
 										eventKey="0"
 										className="toggle"
+										onClick={openTeacherMobile}
 									>
 										<div className="toggle-top">
 											<img
@@ -360,11 +364,12 @@ const Apply = () => {
 						</Col>
 						<Col xs={12} lg={4}>
 							<Accordion>
-								<Card onClick={openStudentMobile}>
+								<Card>
 									<Accordion.Toggle
 										as={Card.Header}
 										eventKey="0"
 										className="toggle"
+										onClick={openStudentMobile}
 									>
 										<div className="toggle-top">
 											<img
@@ -393,11 +398,12 @@ const Apply = () => {
 						</Col>
 						<Col xs={12} lg={4}>
 							<Accordion>
-								<Card onClick={openDeveloperMobile}>
+								<Card>
 									<Accordion.Toggle
 										as={Card.Header}
 										eventKey="0"
 										className="toggle"
+										onClick={openDeveloperMobile}
 									>
 										<div className="toggle-top">
 											<img

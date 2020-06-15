@@ -1,3 +1,10 @@
+.team {
+	overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 20%;
+}
+
 .team .body {
 	padding: 11rem 5% 5vh 5%;
 }
