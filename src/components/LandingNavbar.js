@@ -33,19 +33,39 @@ const LandingNavbar = () => {
 						<Link to="/" className="link-tag">
 							<p className="nav-text">Home</p>
 						</Link>
-						<Link to="/about" className="link-tag">
-							<p className="nav-text">What We Offer</p>
-						</Link>
-						<div className="tab-text-container">
-							<Link to="/about/education" className="link-tag">
-								<p className="nav-text tab-text">Education</p>
+
+						<div className="dropdown">
+							<Link to="/about" className="link-tag dropbtn">
+								<p className="nav-text">What We Offer</p>
 							</Link>
-							<Link to="/about/development" className="link-tag">
-								<p className="nav-text tab-text">Development</p>
+							<div className="dropdown-content">
+								<Link to="/about/education" className="link-tag">
+									<p className="nav-text">Education</p>
+								</Link>
+								<Link to="/about/development" className="link-tag">
+									<p className="nav-text">Development</p>
+								</Link>
+								<Link to="/about/partnerships" className="link-tag">
+									<p className="nav-text">Partnerships</p>
+								</Link>
+							</div>
+						</div>
+
+						<div className="about-nav-phone">
+							<Link to="/about" className="link-tag">
+								<p className="nav-text">What We Offer</p>
 							</Link>
-							<Link to="/about/partnerships" className="link-tag">
-								<p className="nav-text tab-text">Partnerships</p>
-							</Link>
+							<div className="tab-text-container">
+								<Link to="/about/education" className="link-tag">
+									<p className="nav-text tab-text">Education</p>
+								</Link>
+								<Link to="/about/development" className="link-tag">
+									<p className="nav-text tab-text">Development</p>
+								</Link>
+								<Link to="/about/partnerships" className="link-tag">
+									<p className="nav-text tab-text">Partnerships</p>
+								</Link>
+							</div>
 						</div>
 						<Link to="/team" className="link-tag">
 							<p className="nav-text">Team</p>
