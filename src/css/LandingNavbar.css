@@ -41,6 +41,30 @@
 	display: none;
 }
 
+.about-nav-phone {
+	display: none;
+}
+.landing-navbar .dropdown {
+	position: relative;
+	display: inline-block;
+}
+.landing-navbar .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: transparent;
+	min-width: 160px;
+	padding-top: 0.5rem;
+	z-index: 1;
+	transition: 0.5s ease;
+}
+.landing-navbar .dropdown-content .link-tag {
+	padding-bottom: 0.5rem;
+	display: block;
+}
+.landing-navbar .dropdown:hover .dropdown-content {
+	display: block;
+}
+
 @media only screen and (max-width: 1700px) {
 	.landing-navbar .nav-text {
 		font-size: 19px;
@@ -51,6 +75,12 @@
 }
 
 @media only screen and (max-width: 992px) {
+	.about-nav-phone {
+		display: block;
+	}
+	.dropdown {
+		display: none;
+	}
 	#basic-navbar-nav {
 		padding-top: 1vh;
 		margin-left: -3%;
@@ -69,5 +99,9 @@
 	.landing-navbar .logo {
 		margin-right: 1.5rem;
 		width: 100px;
+	}
+	.landing-navbar .nav-text {
+		margin: 0;
+		margin-left: 3.15%;
 	}
 }
