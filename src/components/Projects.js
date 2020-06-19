@@ -25,10 +25,12 @@ const Projects = () => {
 				<Row>
 					<Col xs={12} className="text-center title-col">
 						<h1 className="header">Our Work.</h1>
-						{/* <p className="subtitle">
-							Our work is 100% pro-bono and for the benefit of the Berkeley
-							campus community.
-						</p> */}
+						<p className="subtitle">
+							Our work encompasses all facets of web development, from frontend
+							to backend to everything in between. We have worked with a wide
+							range of clients, including startups, nonprofits, and student
+							organizations.
+						</p>
 						<Contact />
 					</Col>
 				</Row>
