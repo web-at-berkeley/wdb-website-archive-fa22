@@ -429,7 +429,7 @@ const Apply = () => {
 											applicants the choice between a frontend or backend focus
 											and tailor the interview accordingly. Once you are
 											accepted into the developer track, you will have the
-											oppertunity to interface with local bay area startups in
+											opportunity to interface with local bay area startups in
 											developing cutting-edge web apps and sites for them,
 											gaining invaluable indutry experience and exposure to the
 											world of tech.
