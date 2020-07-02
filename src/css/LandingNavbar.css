@@ -41,12 +41,12 @@
 	display: none;
 }
 
-.about-nav-phone {
+.landing-navbar .about-nav-phone {
 	display: none;
 }
 .landing-navbar .dropdown {
 	position: relative;
-	display: inline-block;
+	display: block;
 }
 .landing-navbar .dropdown-content {
 	display: none;
@@ -75,10 +75,10 @@
 }
 
 @media only screen and (max-width: 992px) {
-	.about-nav-phone {
+	.landing-navbar .about-nav-phone {
 		display: block;
 	}
-	.dropdown {
+	.landing-navbar .dropdown {
 		display: none;
 	}
 	#basic-navbar-nav {
