@@ -15,7 +15,7 @@
 	font-size: 29px;
 	color: white;
 	padding: 0;
-	margin: 0 0.7rem;
+	margin: 0 0.9rem;
 	letter-spacing: 0.11em;
 	text-transform: uppercase;
 }
@@ -67,14 +67,19 @@
 
 @media only screen and (max-width: 1700px) {
 	.landing-navbar .nav-text {
-		font-size: 19px;
+		font-size: 25px;
 	}
 	.logo {
 		width: 100px;
 	}
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1400px) {
+	.landing-navbar .nav-text {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 1000px) {
 	.landing-navbar .about-nav-phone {
 		display: block;
 	}

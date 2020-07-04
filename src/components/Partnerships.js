@@ -13,6 +13,7 @@ import Blobs from '../img/about/partnerships/blobs.png';
 import Grotech from '../img/about/partnerships/grotech.png';
 import Formula from '../img/about/partnerships/formula.png';
 import Cloud from '../img/about/partnerships/cloud.png';
+import Tbf from '../img/about/partnerships/tbf.png';
 
 const Partnerships = () => {
 	return (
