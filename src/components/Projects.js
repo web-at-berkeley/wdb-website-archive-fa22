@@ -29,7 +29,10 @@ const Projects = () => {
 							Our work encompasses all facets of web development, from frontend
 							to backend to everything in between. We have worked with a wide
 							range of clients, including startups, nonprofits, and student
-							organizations.
+							organizations.<br/><br/>
+							We do pro-bono work for Berkeley campus organizations.
+							For external clients, we will work with you to negotiate fair and transparent pricing schemes 
+							for your specific needs.
 						</p>
 						<Contact />
 					</Col>
