@@ -25,6 +25,22 @@
 	margin-bottom: 3rem;
 }
 
+.project-header {
+	font-family: Rubik;
+	font-size: 45px;
+	letter-spacing: 0.22em;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 60px;
+}
+
+hr {
+	width: 60%;
+	border-top: 2px solid rgb(95, 96, 255);
+	margin-bottom: 40px;
+}
 .projects .partner {
 	display: flex;
 	justify-content: center;

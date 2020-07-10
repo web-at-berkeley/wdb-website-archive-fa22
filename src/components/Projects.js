@@ -16,6 +16,7 @@ import Frio from '../img/projects/frio.jpg';
 import Formula from '../img/projects/formula.jpg';
 import Tbf from '../img/projects/tbf.jpg';
 import Cloud from '../img/projects/cloud.jpg';
+import Ansari from '../img/projects/ansari.png';
 
 import '../css/Projects.css';
 
@@ -39,6 +40,8 @@ const Projects = () => {
 							transparent pricing schemes for your specific needs.
 						</p>
 						<Contact />
+						<hr></hr>
+						<h1 className="project-header">Past Projects</h1>
 					</Col>
 				</Row>
 				<Row className="align-items-center">
@@ -198,37 +201,6 @@ const Projects = () => {
 				</Row>
 				<Row className="align-items-center">
 					<Col xs={12} xl={6} className="partner">
-						<img
-							src={Tbf}
-							alt="frio"
-							className="screenshot selectDisable"
-							draggable="false"
-						/>
-
-						<div class="overlay overlay-rotated">
-							<img
-								src={Overlay}
-								alt="overlay"
-								className="overlay-image-rotated selectDisable"
-								draggable="false"
-							/>
-						</div>
-						<div className="text-overlay text-overlay-rotated">
-							<p className="overlay-text overlay-text-rotated">
-								BUILT USING HTML, CSS, JS, AND BOOTSTRAP
-							</p>
-							<h3 className="overlay-header overlay-header-rotated selectDisable">
-								THE BERKELEY FORUM
-							</h3>
-						</div>
-						<div className="description-container">
-							<h3 className="description-header">The Berkeley Forum</h3>
-							<p className="description-text">
-								Built using HTML, CSS, JS, and Bootstrap
-							</p>
-						</div>
-					</Col>
-					<Col xs={12} xl={6} className="partner">
 						<a
 							href="https://cloudatcal.org/"
 							title="Formula Electric at Berkeley"
@@ -262,6 +234,67 @@ const Projects = () => {
 							<p className="description-text">
 								Built using HTML, CSS, JS, and Bootstrap
 							</p>
+						</div>
+					</Col>
+				</Row>
+				<h1 className="project-header">In Progress</h1>
+				<Row className="align-items-center">
+					<Col xs={12} xl={6} className="partner">
+						<img
+							src={Tbf}
+							alt="frio"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+
+						<div class="overlay overlay-rotated">
+							<img
+								src={Overlay}
+								alt="overlay"
+								className="overlay-image-rotated selectDisable"
+								draggable="false"
+							/>
+						</div>
+						<div className="text-overlay text-overlay-rotated">
+							<p className="overlay-text overlay-text-rotated">
+								BUILT USING HTML, CSS, JS, AND BOOTSTRAP
+							</p>
+							<h3 className="overlay-header overlay-header-rotated selectDisable">
+								THE BERKELEY FORUM
+							</h3>
+						</div>
+						<div className="description-container">
+							<h3 className="description-header">The Berkeley Forum</h3>
+							<p className="description-text">
+								Built using HTML, CSS, JS, and Bootstrap
+							</p>
+						</div>
+					</Col>
+					<Col xs={12} xl={6} className="partner">
+						<img
+							src={Ansari}
+							alt="frio"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+
+						<div class="overlay overlay-rotated">
+							<img
+								src={Overlay}
+								alt="overlay"
+								className="overlay-image-rotated selectDisable"
+								draggable="false"
+							/>
+						</div>
+						<div className="text-overlay text-overlay-rotated">
+							<p className="overlay-text overlay-text-rotated"></p>
+							<h3 className="overlay-header overlay-header-rotated selectDisable">
+								ANSARI MATH
+							</h3>
+						</div>
+						<div className="description-container">
+							<h3 className="description-header">Ansari Math</h3>
+							<p className="description-text"></p>
 						</div>
 					</Col>
 				</Row>
