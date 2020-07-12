@@ -225,14 +225,14 @@ const Projects = () => {
 							<div className="text-overlay">
 								<h3 className="overlay-header formula-header">CLOUD AT CAL</h3>
 								<p className="overlay-text">
-									BUILT USING HTML, CSS, REACT, AND BOOTSTRAP
+									BUILT USING REACT
 								</p>
 							</div>
 						</a>
 						<div className="description-container">
 							<h3 className="description-header">Cloud at Cal</h3>
 							<p className="description-text">
-								Built using HTML, CSS, REACT, and Bootstrap
+								BUILT USING REACT
 							</p>
 						</div>
 					</Col>
@@ -257,7 +257,7 @@ const Projects = () => {
 						</div>
 						<div className="text-overlay text-overlay-rotated">
 							<p className="overlay-text overlay-text-rotated">
-								BUILT USING HTML, CSS, REACT, AND BOOTSTRAP
+								BUILT USING REACT AND BOOTSTRAP
 							</p>
 							<h3 className="overlay-header overlay-header-rotated selectDisable">
 								THE BERKELEY FORUM
@@ -266,7 +266,7 @@ const Projects = () => {
 						<div className="description-container">
 							<h3 className="description-header">The Berkeley Forum</h3>
 							<p className="description-text">
-								Built using HTML, CSS, React, and Bootstrap
+								Built using React and Bootstrap
 							</p>
 						</div>
 					</Col>
@@ -294,7 +294,9 @@ const Projects = () => {
 						</div>
 						<div className="description-container">
 							<h3 className="description-header">Ansari Math</h3>
-							<p className="description-text"></p>
+							<p className="description-text">
+								Built using AWS, Node, Express, and React
+							</p>
 						</div>
 					</Col>
 				</Row>
