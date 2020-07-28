@@ -113,9 +113,9 @@ const Apply = () => {
 						<Col xs={2} className="text-center"></Col>
 						<Col xs={8} className="text-center">
 							<p className="descriptive-text">
-								We are currently looking for both frontend and backend teachers,
-								as well as Project managers. If you wish to be a part of our
-								educational branch or development team, check back in fall 2020!
+								If you are interested in being a part of our educational branch
+								or development team, check back in Fall 2020! We're looking
+								forward to seeing your application!
 							</p>
 						</Col>
 						<Col xs={2} className="text-center">
@@ -157,18 +157,20 @@ const Apply = () => {
 									<Accordion.Collapse eventKey="0">
 										<Card.Body>
 											<p className="role-text">
-												We're currently looking for two frontend teachers and
-												one backend teacher. For both positions, basic knowledge
-												of HTML, CSS, and Javascript is required. For frontend
-												teachers specifically, knowledge of React and some CSS
+												Each semester, we will recruit frontend and backend
+												teachers. For both positions, basic knowledge of HTML,
+												CSS, and Javascript is required. For frontend teachers
+												specifically, knowledge of React and some CSS
 												frameworks/pre-processors is a plus. For backend
 												teachers, knowledge of Django, Node.js, and some AWS is
 												a plus. Prior experience in teaching is a major plus,
-												but can also be shown through passion. If interested,
-												please send an email to webatberkeley@gmail.com with
+												but can also be shown through passion. We have already
+												found our Fall 2020 teachers, however if you are
+												interested, check back in Spring 2021 to apply!
+												{/* please send an email to webatberkeley@gmail.com with
 												what position you're interested in, a description of
 												your teaching ability/experience, as well as your
-												familiarity with the aforementioned technologies.
+												familiarity with the aforementioned technologies. */}
 											</p>
 										</Card.Body>
 									</Accordion.Collapse>
@@ -204,12 +206,15 @@ const Apply = () => {
 									<Accordion.Collapse eventKey="0">
 										<Card.Body>
 											<p className="role-text">
-												Hey there! If you're looking to become a student, be on
-												the lookout for our application when it opens in the
-												beginning of the 2020-2021 school year. No prior web
-												development experience is required, instead what we look
-												for is a strong work ethic, passion for technology, and
-												a desire to learn web development. We look forward to
+												If you're interested in learning web development, then
+												you're in the right place! If you're looking to become a
+												student, be on the lookout for our application when it
+												opens in the beginning of the 2020-2021 school year. No
+												prior web development experience is required, instead
+												what we look for is a strong work ethic, passion for
+												technology, and a grit. We truly value willingness to
+												learn and stick with the material even if it's new and
+												fast-paced over everthing else. We look forward to
 												meeting you all in the Fall!
 											</p>
 										</Card.Body>

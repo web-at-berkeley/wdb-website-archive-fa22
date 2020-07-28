@@ -17,6 +17,8 @@ import Formula from '../img/projects/formula.jpg';
 import Tbf from '../img/projects/tbf.jpg';
 import Cloud from '../img/projects/cloud.jpg';
 import Ansari from '../img/projects/ansari.png';
+import Netic from '../img/projects/netic.png';
+import TitanRig from '../img/projects/titan.png';
 
 import '../css/Projects.css';
 
@@ -42,6 +44,86 @@ const Projects = () => {
 						<Contact />
 						<hr></hr>
 						<h1 className="project-header">Past Projects</h1>
+					</Col>
+				</Row>
+				<Row className="align-items-center">
+					<Col xs={12} xl={6} className="partner">
+						<a
+							href="https://www.netic.health/"
+							title="Netic Health"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={Netic}
+								alt="Netic Health"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
+
+							<div class="overlay">
+								<img
+									src={Overlay}
+									alt="overlay"
+									className="overlay-image selectDisable"
+									draggable="false"
+								/>
+							</div>
+							<div className="text-overlay">
+								<h3 className="overlay-header">Netic Health</h3>
+								<p className="overlay-text">
+									Built with React Native and AWS Amplify
+								</p>
+							</div>
+						</a>
+						<div className="description-container">
+							<h3 className="description-header">Netic Health</h3>
+							<p className="description-text">
+								Built with React Native and AWS Amplify
+							</p>
+						</div>
+					</Col>
+					<Col xs={12} xl={6} className="partner">
+						<a
+							href="https://www.titanrig.com/"
+							title="Titan Rig"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={TitanRig}
+								alt="Titan Rig"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
+
+							<div class="overlay overlay-rotated">
+								<img
+									src={OverlayRotated}
+									alt="overlay"
+									className="overlay-image-rotated selectDisable"
+									draggable="false"
+								/>
+							</div>
+							<div className="text-overlay text-overlay-rotated">
+								<p className="overlay-text overlay-text-rotated">
+									worked with AWS (EC2, API Gateway, DynamoDB, Redshift, and
+									Lambda) and Python
+								</p>
+								<h3 className="overlay-header overlay-header-rotated">
+									Titan Rig
+								</h3>
+							</div>
+						</a>
+						<div className="description-container">
+							<h3 className="description-header">Titan Rig</h3>
+							<p className="description-text">
+								worked with AWS (EC2, API Gateway, DynamoDB, Redshift, and
+								Lambda) and Python
+							</p>
+						</div>
 					</Col>
 				</Row>
 				<Row className="align-items-center">
