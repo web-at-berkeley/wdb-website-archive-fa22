@@ -120,7 +120,7 @@ const Projects = () => {
 						<div className="description-container">
 							<h3 className="description-header">Titan Rig</h3>
 							<p className="description-text">
-								worked with AWS (EC2, API Gateway, DynamoDB, Redshift, and
+								Worked with AWS (EC2, API Gateway, DynamoDB, Redshift, and
 								Lambda) and Python
 							</p>
 						</div>
@@ -305,16 +305,16 @@ const Projects = () => {
 								/>
 							</div>
 							<div className="text-overlay">
-								<h3 className="overlay-header formula-header">CLOUD AT CAL</h3>
+								<h3 className="overlay-header formula-header">Cloud At Berkeley</h3>
 								<p className="overlay-text">
 									BUILT USING REACT
 								</p>
 							</div>
 						</a>
 						<div className="description-container">
-							<h3 className="description-header">Cloud at Cal</h3>
+							<h3 className="description-header">Cloud at Berkeley</h3>
 							<p className="description-text">
-								BUILT USING REACT
+								Built using React
 							</p>
 						</div>
 					</Col>
