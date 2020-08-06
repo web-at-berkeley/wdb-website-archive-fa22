@@ -109,8 +109,7 @@ const Projects = () => {
 							</div>
 							<div className="text-overlay text-overlay-rotated">
 								<p className="overlay-text overlay-text-rotated">
-									worked with AWS (EC2, API Gateway, DynamoDB, Redshift, and
-									Lambda) and Python
+									worked with AWS and Python
 								</p>
 								<h3 className="overlay-header overlay-header-rotated">
 									Titan Rig
@@ -305,17 +304,15 @@ const Projects = () => {
 								/>
 							</div>
 							<div className="text-overlay">
-								<h3 className="overlay-header formula-header">Cloud At Berkeley</h3>
-								<p className="overlay-text">
-									BUILT USING REACT
-								</p>
+								<h3 className="overlay-header formula-header">
+									Cloud At Berkeley
+								</h3>
+								<p className="overlay-text">BUILT USING REACT</p>
 							</div>
 						</a>
 						<div className="description-container">
 							<h3 className="description-header">Cloud at Berkeley</h3>
-							<p className="description-text">
-								Built using React
-							</p>
+							<p className="description-text">Built using React</p>
 						</div>
 					</Col>
 				</Row>
@@ -369,7 +366,9 @@ const Projects = () => {
 							/>
 						</div>
 						<div className="text-overlay text-overlay-rotated">
-							<p className="overlay-text overlay-text-rotated"></p>
+							<p className="overlay-text overlay-text-rotated">
+								Built with AWS and React
+							</p>
 							<h3 className="overlay-header overlay-header-rotated selectDisable">
 								ANSARI MATH
 							</h3>

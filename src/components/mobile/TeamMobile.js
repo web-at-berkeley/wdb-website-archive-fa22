@@ -189,15 +189,11 @@ const Team = () => {
 						<Modal.Body>
 							<p className="description" id="description">
 								Hi everyone, I am a second-year at UC Berkeley studying Computer
-								Science with a minor in Data Science. I recently got into Web
-								Development after attending a hackathon, and I believe that it
-								is an extremely valuable topic that is not extensively covered
-								in Berkeley’s current CS curriculum. I am also very passionate
-								about UI/UX Design, and I am excited to teach others these
-								skills as well. Outside of coding and staring at screens, I am
-								an avid photographer, videographer, and dancer. I enjoy making
-								Youtube videos in my free time, so as they say, like and
-								subscribe, and go bears!
+								Science with a minor in Data Science. I got into Web Development
+								after attending a hackathon, and I believe that it is an
+								extremely valuable topic. I am also very passionate about UI/UX
+								Design, and I am excited to teach others these skills as well. I
+								am also an avid photographer, videographer, and dancer.
 							</p>
 
 							<div className="social-row">
@@ -230,7 +226,7 @@ const Team = () => {
 						className="team"
 						style={{
 							width: '90%',
-							margin: '2.5rem 5%',
+							margin: '5%',
 							maxHeight: '85%',
 							overflowY: 'scroll',
 						}}
@@ -303,15 +299,12 @@ const Team = () => {
 						</Modal.Header>
 						<Modal.Body>
 							<p className="description" id="description">
-								Hello! I am an EECS major from Arcadia, a city close to Los
-								Angeles. I first got into computer science through video games,
-								when I used to play with the Unity3D game engine and Skyrim
-								mods. Since then, I’ve had a variety of interests in computer
-								science, one of which is web development! Outside of the world
-								of computers, I’m also in TBD Comedy, an improv comedy team here
-								at UC Berkeley. My other interests include playing the electric
-								bass guitar, ludology, studying philosophy, and reading science
-								fiction.{' '}
+								Hello! I am an EECS major from Arcadia, CA. I first got into
+								computer science through video games, when I used to play with
+								the Unity3D game engine. Since then, I’ve had a variety of
+								interests in computer science, one of which is web development!
+								My other interests include playing the electric bass guitar,
+								ludology, studying philosophy, and reading science fiction.
 							</p>
 							<div className="social-row">
 								<a
@@ -363,15 +356,13 @@ const Team = () => {
 							<p className="description" id="description">
 								Hey everyone! I am a second-year at Berkeley studying Computer
 								Science and Applied Math. I started programming in high school,
-								creating various games with my own game driver and physics
-								engine, and have since transitioned to a variety of other
-								interests as well, such as web development. Outside of Web
-								Development at Berkeley, I am also on the Quantum CubeSat and
-								executive team for Space Technologies at Cal, an aerospace
-								engineering club on campus. In my free time, I enjoy playing
-								music and jamming with friends! I play the violin, piano, and
-								love making fingerstyle guitar arrangements.
-							</p>{' '}
+								and have since transitioned interests such as web development.
+								Outside of Web Development at Berkeley, I am also on the Quantum
+								CubeSat and executive team for Space Technologies at Cal. In my
+								free time, I enjoy playing music and jamming with friends! I
+								play the violin, piano, and love making fingerstyle guitar
+								arrangements.
+							</p>
 							<div className="social-row">
 								<a
 									href="https://www.linkedin.com/in/justinshawnchen/"
