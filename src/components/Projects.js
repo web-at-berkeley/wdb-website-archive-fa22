@@ -10,15 +10,17 @@ import Col from 'react-bootstrap/Col';
 
 import Overlay from '../img/projects/overlay.png';
 import OverlayRotated from '../img/projects/overlay-rotated.png';
-import Resource19 from '../img/projects/resource19.jpg';
-import GroTech from '../img/projects/grotech.jpg';
-import Frio from '../img/projects/frio.jpg';
-import Formula from '../img/projects/formula.jpg';
-import Tbf from '../img/projects/tbf.jpg';
-import Cloud from '../img/projects/cloud.jpg';
+
+import Resource19 from '../img/projects/resource19.png';
+import GroTech from '../img/projects/grotech.png';
+import Frio from '../img/projects/frio.png';
+import Formula from '../img/projects/formula.png';
+import Tbf from '../img/projects/tbf.png';
+import Cloud from '../img/projects/cloud.png';
 import Ansari from '../img/projects/ansari.png';
 import Netic from '../img/projects/netic.png';
 import TitanRig from '../img/projects/titan.png';
+import Carepath from '../img/projects/carepath.png';
 
 import '../css/Projects.css';
 
@@ -377,6 +379,39 @@ const Projects = () => {
 							<h3 className="description-header">Ansari Math</h3>
 							<p className="description-text">
 								Built using AWS, Node, Express, and React
+							</p>
+						</div>
+					</Col>
+				</Row>
+				<Row className="align-items-center">
+					<Col xs={12} xl={6} className="partner">
+						<img
+							src={Carepath}
+							alt="Carepath"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+
+						<div class="overlay overlay-rotated">
+							<img
+								src={Overlay}
+								alt="overlay"
+								className="overlay-image-rotated selectDisable"
+								draggable="false"
+							/>
+						</div>
+						<div className="text-overlay text-overlay-rotated">
+							<p className="overlay-text overlay-text-rotated">
+								BUILT USING REACT AND BOOTSTRAP
+							</p>
+							<h3 className="overlay-header overlay-header-rotated selectDisable">
+								CAREPATH
+							</h3>
+						</div>
+						<div className="description-container">
+							<h3 className="description-header">Carepath</h3>
+							<p className="description-text">
+								Built using React and Bootstrap
 							</p>
 						</div>
 					</Col>
