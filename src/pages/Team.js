@@ -2,18 +2,13 @@ import React, { useState } from 'react';
 
 import SiteNavbar from '../components/SiteNavbar';
 import Footer from '../components/Footer';
-import { teamData } from './data/TeamData';
+import TeamLevel from '../components/TeamLevel';
+import { execData } from './data/TeamData';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Samarth from '../img/team/samring.jpg';
-import Vicky from '../img/team/vickyring.jpg';
-import Aditya from '../img/team/aditring.jpg';
-import Justin from '../img/team/justinring.jpg';
-import Ervin from '../img/team/ervinring.jpg';
-import Spider from '../img/team/spider.jpg';
 import Bubbles from '../img/team/bubbles.png';
 import Linkedin from '../img/team/linkedin.png';
 import Mail from '../img/team/mail.png';
@@ -21,24 +16,23 @@ import Mail from '../img/team/mail.png';
 import '../css/Team.css';
 
 const Team = () => {
-	const [name, setName] = useState('Samarth Goel');
-	const [role, setRole] = useState('Co-President and VP Finance');
-	const [description, setDescription] = useState(
-		'Hey there! My name is Samarth and I am studying Computer Science and Business Administration. Web Development has been a huge passion of mine, and the lack of advanced web dev education on Berkeley’s campus is a problem I’ve long wanted to solve, and I hope to do so with Web Dev @ Berkeley! Besides coding, I practice martial arts, practice guitar, and play the drums in the cal band.'
-	);
-	const [linkedin, setLinkedin] = useState(
-		'https://www.linkedin.com/in/samarth-goel-07'
-	);
-	const [mail, setMail] = useState('mailto: sgoel9@berkeley.edu');
+	const initInfo = execData['Samarth'];
+	const [name, setName] = useState(initInfo.name);
+	const [role, setRole] = useState(initInfo.role);
+	const [description, setDescription] = useState(initInfo.description);
+	const [linkedin, setLinkedin] = useState(initInfo.linkedin);
+	const [mail, setMail] = useState(initInfo.mail);
 
 	const updateInfo = (name) => {
-		const info = teamData[name];
+		const info = execData[name];
 		setName(info.name);
 		setRole(info.role);
 		setDescription(info.description);
 		setLinkedin(info.linkedin);
 		setMail(info.mail);
 	};
+
+	const teamImages = execData.images;
 
 	return (
 		<div className="team">
@@ -100,14 +94,14 @@ const Team = () => {
 					</Col>
 					<Col xs={2} className="image-col">
 						<img
-							src={Samarth}
+							src={teamImages.Samarth}
 							alt="samarth"
 							className="team-image member-1 selectDisable"
 							draggable="false"
 							onMouseEnter={() => updateInfo('Samarth')}
 						/>
 						<img
-							src={Spider}
+							src={teamImages.Spider}
 							alt="spider"
 							className="team-image member-2 selectDisable"
 							draggable="false"
@@ -116,14 +110,14 @@ const Team = () => {
 					</Col>
 					<Col xs={2} className="image-col">
 						<img
-							src={Vicky}
+							src={teamImages.Vicky}
 							alt="vicky"
 							className="team-image member-3 selectDisable"
 							draggable="false"
 							onMouseEnter={() => updateInfo('Vicky')}
 						/>
 						<img
-							src={Ervin}
+							src={teamImages.Ervin}
 							alt="ervin"
 							className="team-image member-4 selectDisable"
 							draggable="false"
@@ -132,14 +126,14 @@ const Team = () => {
 					</Col>
 					<Col xs={2} className="image-col">
 						<img
-							src={Aditya}
+							src={teamImages.Aditya}
 							alt="aditya"
 							className="team-image member-5 selectDisable"
 							draggable="false"
 							onMouseEnter={() => updateInfo('Aditya')}
 						/>
 						<img
-							src={Justin}
+							src={teamImages.Justin}
 							alt="justin"
 							className="team-image member-6 selectDisable"
 							draggable="false"
@@ -154,6 +148,9 @@ const Team = () => {
 					/>
 				</Row>
 			</Container>
+			{/* <TeamLevel title="extended leadership" data={['Tijmen', 'April']} />
+			<TeamLevel title="educators" data={['Arushi', 'Alex']} />
+			<TeamLevel title="product managers" data={['Neha', 'Aman', 'Emily']} /> */}
 			<Footer />
 		</div>
 	);

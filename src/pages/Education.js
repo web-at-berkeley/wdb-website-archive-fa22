@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SiteNavbar from './SiteNavbar';
+import SiteNavbar from '../components/SiteNavbar';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

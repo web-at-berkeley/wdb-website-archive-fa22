@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
 
-import Navbar from '../SiteNavbar';
-import Footer from '../Footer';
+import Navbar from '../../components/SiteNavbar';
+import Footer from '../../components/Footer';
+import { execData } from '../data/TeamData';
 
 import Modal from 'react-bootstrap/Modal';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Samarth from '../../img/team/samring.jpg';
-import Vicky from '../../img/team/vickyring.jpg';
-import Aditya from '../../img/team/aditring.jpg';
-import Justin from '../../img/team/justinring.jpg';
-import Ervin from '../../img/team/ervinring.jpg';
 import Bubbles from '../../img/team/bubbles.png';
 import Linkedin from '../../img/team/linkedin.png';
 import Mail from '../../img/team/mail.png';
@@ -20,26 +16,64 @@ import Mail from '../../img/team/mail.png';
 import '../../css/Team.css';
 
 const Team = () => {
-	const [showSamarth, setShowSamarth] = useState(false);
-	const [showVicky, setShowVicky] = useState(false);
-	const [showAditya, setShowAditya] = useState(false);
-	const [showErvin, setShowErvin] = useState(false);
-	const [showJustin, setShowJustin] = useState(false);
+	const updateInfo = (name) => {
+		const info = execData[name];
+		handleShowMember(info);
+	};
 
-	const handleCloseVicky = () => setShowVicky(false);
-	const handleShowVicky = () => setShowVicky(true);
+	const [showMember, setShowMember] = useState(false);
+	const handleCloseMember = () => setShowMember(false);
+	const handleShowMember = () => setShowMember(true);
 
-	const handleCloseSamarth = () => setShowSamarth(false);
-	const handleShowSamarth = () => setShowSamarth(true);
+	const infoModal = (info) => (
+		<Modal
+			show={showMember}
+			onHide={handleCloseMember}
+			className="team"
+			style={{
+				width: '90%',
+				margin: '2.5rem 5%',
+				maxHeight: '85%',
+				overflowY: 'scroll',
+			}}
+		>
+			<Modal.Header
+				closeButton
+				style={{
+					border: 'none',
+					paddingBottom: '0',
+				}}
+			>
+				<div style={{ display: 'flex', flexDirection: 'column' }}>
+					<h2 className="name" id="name">
+						{info.name}
+					</h2>
+					<h3 className="role" id="role">
+						{info.role}
+					</h3>
+				</div>
+			</Modal.Header>
+			<Modal.Body>
+				<p className="description" id="description">
+					{info.description}
+				</p>
+				<div className="social-row">
+					<a href={info.linkedin} id="linkedin">
+						<img
+							src={Linkedin}
+							alt="linkedin"
+							className="social-icon linkedin-icon"
+						/>
+					</a>
+					<a href={info.mail} id="mail">
+						<img src={Mail} alt="mail" className="social-icon mail-icon" />
+					</a>
+				</div>
+			</Modal.Body>
+		</Modal>
+	);
 
-	const handleCloseAditya = () => setShowAditya(false);
-	const handleShowAditya = () => setShowAditya(true);
-
-	const handleCloseErvin = () => setShowErvin(false);
-	const handleShowErvin = () => setShowErvin(true);
-
-	const handleCloseJustin = () => setShowJustin(false);
-	const handleShowJustin = () => setShowJustin(true);
+	const teamImages = execData.images;
 
 	return (
 		<div className="team">
@@ -58,43 +92,43 @@ const Team = () => {
 				<Row>
 					<Col xs={12} className="image-col">
 						<img
-							src={Samarth}
+							src={teamImages.Samarth}
 							alt="samarth"
 							className="team-image member-1 selectDisable"
 							draggable="false"
-							onClick={handleShowSamarth}
+							onClick={updateInfo('Samarth')}
 						/>
 					</Col>
 					<Col xs={12} className="image-col">
 						<img
-							src={Vicky}
+							src={teamImages.Vicky}
 							alt="vicky"
 							className="team-image member-3 selectDisable"
 							draggable="false"
-							onClick={handleShowVicky}
+							onClick={updateInfo('Vicky')}
 						/>
 						<img
-							src={Ervin}
+							src={teamImages.Ervin}
 							alt="ervin"
 							className="team-image member-4 selectDisable"
 							draggable="false"
-							onClick={handleShowErvin}
+							onClick={updateInfo('Ervin')}
 						/>
 					</Col>
 					<Col xs={12} className="image-col">
 						<img
-							src={Aditya}
+							src={teamImages.Aditya}
 							alt="aditya"
 							className="team-image member-5 selectDisable"
 							draggable="false"
-							onClick={handleShowAditya}
+							onClick={updateInfo('Aditya')}
 						/>
 						<img
-							src={Justin}
+							src={teamImages.Justin}
 							alt="justin"
 							className="team-image member-6 selectDisable"
 							draggable="false"
-							onClick={handleShowJustin}
+							onClick={updateInfo('Justin')}
 						/>
 					</Col>
 					<img
@@ -103,287 +137,6 @@ const Team = () => {
 						className="bubbles selectDisable"
 						draggable="false"
 					/>
-					<Modal
-						show={showSamarth}
-						onHide={handleCloseSamarth}
-						className="team"
-						style={{
-							width: '90%',
-							margin: '2.5rem 5%',
-							maxHeight: '85%',
-							overflowY: 'scroll',
-						}}
-					>
-						<Modal.Header
-							closeButton
-							style={{
-								border: 'none',
-								paddingBottom: '0',
-							}}
-						>
-							<div style={{ display: 'flex', flexDirection: 'column' }}>
-								<h2 className="name" id="name">
-									Samarth Goel
-								</h2>
-								<h3 className="role" id="role">
-									Co-President and VP Finance
-								</h3>
-							</div>
-						</Modal.Header>
-						<Modal.Body>
-							<p className="description" id="description">
-								Hey there! My name is Samarth and I am a second-year studying
-								Computer Science and Business Administration. Web Development
-								has been a huge passion of mine, and the lack of advanced web
-								dev education on Berkeley’s campus is a problem I’ve long wanted
-								to solve, and I hope to do so with Web Dev @ Berkeley! Besides
-								coding, I practice martial arts, practice guitar, and play the
-								drums in the cal band.
-							</p>
-							<div className="social-row">
-								<a
-									href="https://www.linkedin.com/in/samarth-goel-07"
-									id="linkedin"
-								>
-									<img
-										src={Linkedin}
-										alt="linkedin"
-										className="social-icon linkedin-icon"
-									/>
-								</a>
-								<a href="mailto: sgoel9@berkeley.edu" id="mail">
-									<img
-										src={Mail}
-										alt="mail"
-										className="social-icon mail-icon"
-									/>
-								</a>
-							</div>
-						</Modal.Body>
-					</Modal>
-
-					<Modal
-						show={showVicky}
-						onHide={handleCloseVicky}
-						className="team"
-						style={{
-							width: '90%',
-							margin: '2.5rem 5%',
-							maxHeight: '85%',
-							overflowY: 'scroll',
-						}}
-					>
-						<Modal.Header
-							closeButton
-							style={{ border: 'none', paddingBottom: '0' }}
-						>
-							<div style={{ display: 'flex', flexDirection: 'column' }}>
-								<h2 className="name" id="name">
-									Vicky Li
-								</h2>
-								<h3 className="role" id="role">
-									Co-President and VP Marketing and Design
-								</h3>
-							</div>
-						</Modal.Header>
-						<Modal.Body>
-							<p className="description" id="description">
-								Hi everyone, I am a second-year at UC Berkeley studying Computer
-								Science with a minor in Data Science. I got into Web Development
-								after attending a hackathon, and I believe that it is an
-								extremely valuable topic. I am also very passionate about UI/UX
-								Design, and I am excited to teach others these skills as well. I
-								am also an avid photographer, videographer, and dancer.
-							</p>
-
-							<div className="social-row">
-								<a
-									href="https://www.linkedin.com/in/victoriayli/"
-									id="linkedin"
-								>
-									<img
-										src={Linkedin}
-										alt="linkedin"
-										className=" social-icon linkedin-icon selectDisable"
-										draggable="false"
-									/>
-								</a>
-								<a href="mailto: victoria.li@berkeley.edu" id="mail">
-									<img
-										src={Mail}
-										alt="mail"
-										className="social-icon mail-icon selectDisable"
-										draggable="false"
-									/>
-								</a>
-							</div>
-						</Modal.Body>
-					</Modal>
-
-					<Modal
-						show={showErvin}
-						onHide={handleCloseErvin}
-						className="team"
-						style={{
-							width: '90%',
-							margin: '5%',
-							maxHeight: '85%',
-							overflowY: 'scroll',
-						}}
-					>
-						<Modal.Header
-							closeButton
-							style={{ border: 'none', paddingBottom: '0' }}
-						>
-							<div style={{ display: 'flex', flexDirection: 'column' }}>
-								<h2 className="name" id="name">
-									Ervin Baccay
-								</h2>
-								<h3 className="role" id="role">
-									VP Education
-								</h3>
-							</div>
-						</Modal.Header>
-						<Modal.Body>
-							<p className="description" id="description">
-								Hi! I’m Ervin Baccay and I study Bioengineering and EECS. After
-								four years of teaching a technical field, I’ve grown passionate
-								about educating the future generation of engineers and computer
-								scientists. When I’m not busy teaching backend web development,
-								cloud technologies, data structures, data science, or
-								bioengineering, you can catch me at marching band performances
-								or drinking boba somewhere!
-							</p>
-							<div className="social-row">
-								<a href="https://www.linkedin.com/in/ebaccay/" id="linkedin">
-									<img
-										src={Linkedin}
-										alt="linkedin"
-										className="social-icon linkedin-icon"
-									/>
-								</a>
-								<a href="mailto: ebaccay@berkeley.edu" id="mail">
-									<img
-										src={Mail}
-										alt="mail"
-										className="social-icon mail-icon"
-									/>
-								</a>
-							</div>
-						</Modal.Body>
-					</Modal>
-
-					<Modal
-						show={showAditya}
-						onHide={handleCloseAditya}
-						className="team"
-						style={{
-							width: '90%',
-							margin: '2.5rem 5%',
-							maxHeight: '85%',
-							overflowY: 'scroll',
-						}}
-					>
-						<Modal.Header
-							closeButton
-							style={{ border: 'none', paddingBottom: '0' }}
-						>
-							<div style={{ display: 'flex', flexDirection: 'column' }}>
-								<h2 className="name" id="name">
-									Aditya Bhawal
-								</h2>
-								<h3 className="role" id="role">
-									VP Internal
-								</h3>
-							</div>
-						</Modal.Header>
-						<Modal.Body>
-							<p className="description" id="description">
-								Hello! I am an EECS major from Arcadia, CA. I first got into
-								computer science through video games, when I used to play with
-								the Unity3D game engine. Since then, I’ve had a variety of
-								interests in computer science, one of which is web development!
-								My other interests include playing the electric bass guitar,
-								ludology, studying philosophy, and reading science fiction.
-							</p>
-							<div className="social-row">
-								<a
-									href="https://www.linkedin.com/in/aditya-bhawal-4a4352145/"
-									id="linkedin"
-								>
-									<img
-										src={Linkedin}
-										alt="linkedin"
-										className=" social-icon linkedin-icon"
-									/>
-								</a>
-								<a href="mailto: aditya.bhawal@gmail.com" id="mail">
-									<img
-										src={Mail}
-										alt="mail"
-										className="social-icon mail-icon"
-									/>
-								</a>
-							</div>
-						</Modal.Body>
-					</Modal>
-
-					<Modal
-						show={showJustin}
-						onHide={handleCloseJustin}
-						className="team"
-						style={{
-							width: '90%',
-							margin: '2.5rem 5%',
-							maxHeight: '85%',
-							overflowY: 'scroll',
-						}}
-					>
-						<Modal.Header
-							closeButton
-							style={{ border: 'none', paddingBottom: '0' }}
-						>
-							<div style={{ display: 'flex', flexDirection: 'column' }}>
-								<h2 className="name" id="name">
-									Justin Chen
-								</h2>
-								<h3 className="role" id="role">
-									VP External
-								</h3>
-							</div>
-						</Modal.Header>
-						<Modal.Body>
-							<p className="description" id="description">
-								Hey everyone! I am a second-year at Berkeley studying Computer
-								Science and Applied Math. I started programming in high school,
-								and have since transitioned interests such as web development.
-								Outside of Web Development at Berkeley, I am also on the Quantum
-								CubeSat and executive team for Space Technologies at Cal. In my
-								free time, I enjoy playing music and jamming with friends! I
-								play the violin, piano, and love making fingerstyle guitar
-								arrangements.
-							</p>
-							<div className="social-row">
-								<a
-									href="https://www.linkedin.com/in/justinshawnchen/"
-									id="linkedin"
-								>
-									<img
-										src={Linkedin}
-										alt="linkedin"
-										className=" social-icon linkedin-icon"
-									/>
-								</a>
-								<a href="mailto: justinshawnchen@berkeley.edu" id="mail">
-									<img
-										src={Mail}
-										alt="mail"
-										className="social-icon mail-icon"
-									/>
-								</a>
-							</div>
-						</Modal.Body>
-					</Modal>
 				</Row>
 			</Container>
 			<Footer />

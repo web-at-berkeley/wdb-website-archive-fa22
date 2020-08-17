@@ -1,4 +1,11 @@
-export const teamData = {
+import Samarth from '../../img/team/samring.jpg';
+import Vicky from '../../img/team/vickyring.jpg';
+import Aditya from '../../img/team/aditring.jpg';
+import Justin from '../../img/team/justinring.jpg';
+import Ervin from '../../img/team/ervinring.jpg';
+import Spider from '../../img/team/spider.jpg';
+
+export const execData = {
 	Samarth: {
 		name: 'Samarth Goel',
 		role: 'Co-President and VP Finance',
@@ -45,5 +52,80 @@ export const teamData = {
 		description: "why is this spider here? Don't ask me!",
 		linkedin: 'https://www.linkedin.com/company/web-dev-at-berkeley/',
 		mail: 'mailto: webatberkeley@gmail.edu',
+	},
+	images: {
+		Samarth: Samarth,
+		Vicky: Vicky,
+		Ervin: Ervin,
+		Aditya: Aditya,
+		Justin: Justin,
+		Spider: Spider,
+	},
+};
+
+export const leadershipData = {
+	Tijmen: {
+		name: 'Tijmen Sep',
+		role: 'Head of Design',
+		description:
+			'I’m a second year and I enjoy both artistic and mechanical design. I enjoy WDB because I get to work with a diverse group of skilled people to create beautiful websites.',
+		linkedin: 'https://www.linkedin.com/in/tijmen-sep-582469175/',
+		mail: 'mailto: tijmensep@berkeley.edu',
+	},
+	April: {
+		name: 'April Ma',
+		role: 'Head of Legal',
+		description:
+			"I'm a second year student at UC Berkeley studying Political Science and minoring in History and Global Studies. I am the head of the Legal Department for Web Dev @ Berkeley and make sure our project contracts work smoothly for both our PM's and clients. When I'm not preventing the club from committing tax fraud, I teach debate at a local high school and take scenic bus rides to Trader Joe's. I am unofficially the club's token Humanities student. Go bears?",
+		linkedin: 'https://www.linkedin.com/in/april-ma',
+		mail: 'mailto: aprilma@berkeley.edu',
+	},
+	Aman: {
+		name: 'Aman Sidhant',
+		role: 'Product Manager',
+		description:
+			'’m a rising senior studying Electrical Engineering and Computer Science at UC Berkeley. I’m passionate about technology and its impact on the world. My hobbies include reading books, coding, playing guitar and video games. During quarantine I have also discovered several secret spots across campus, so hmu for some suggestions',
+		linkedin: 'linkedin.com/in/amansidhant',
+		mail: 'mailto: amansidhant@berkeley.edu',
+	},
+	Emily: {
+		name: 'Emily Su',
+		role: 'Product Manager',
+		description:
+			'Hi! My name is Emily and I’m a sophomore studying CS & ORMS. I love working with others to create cool technologies and web development is no exception! In my free time, I like to try new recipes, swim, and listen to French pop.',
+		linkedin: 'https://www.linkedin.com/in/emily-su/',
+		mail: 'mailto: emilysu@berkeley.edu',
+	},
+	Neha: {
+		name: 'Neha Haq',
+		role: 'Product Manager',
+		description:
+			'Heyy! I am Neha Haq, a third year student double majoring in Statistics and Data Science. In my free time - if I get any (sighh) - I love to bake and temporarily enjoy being bored, which I get bored of and always end up putting too much on my plate hahah. I love watching random YouTube content and anything chocolate is always nice and the best stress reliever (imo).',
+		linkedin: 'https://www.linkedin.com/in/neha-haq/',
+		mail: 'mailto: nwhaq1@berkeley.edu',
+	},
+	Alex: {
+		name: 'Alex Wu',
+		role: 'Educator',
+		description: 'Engineer & startup founder who likes udon.',
+		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
+		mail: 'mailto: jialin_wu@berkeley.edu',
+	},
+	Arushi: {
+		name: 'Arushi Somani',
+		role: 'Educator',
+		description:
+			'Hey! I’m a sophomore studying CS with an interest in econ and philosophy who’s mildly addicted to pav bhaji, acoustic music, and random astronomy facts. I love talking about all things CS and Berkeley and life and finding internships and starting companies and whatever! I wanna help you out however I can. Email me, let’s chat!',
+		linkedin: 'https://www.linkedin.com/in/arushisomani',
+		mail: 'mailto: arushisomani@berkeley.edu',
+	},
+	images: {
+		Tijmen: Samarth,
+		April: Vicky,
+		Aman: Ervin,
+		Neha: Aditya,
+		Emily: Justin,
+		Alex: Spider,
+		Arushi: Spider,
 	},
 };
