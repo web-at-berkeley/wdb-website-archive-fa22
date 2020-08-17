@@ -19,7 +19,7 @@ const Education = () => {
 	}
 	return (
 		<div className="education">
-			<SiteNavbar logo="false" />
+			<SiteNavbar />
 			<Container fluid className="body">
 				<img
 					src={RightNav}

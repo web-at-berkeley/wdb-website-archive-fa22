@@ -1,8 +1,8 @@
 import React from 'react';
 import { navigate } from '@reach/router';
 
-import SiteNavbar from './SiteNavbar';
-import Footer from './Footer';
+import SiteNavbar from '../components/SiteNavbar';
+import Footer from '../components/Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -28,11 +28,10 @@ const About = () => {
 				<Row className="justify-content-center">
 					<Col xs={12} sm={11} className="text-center">
 						<p className="subtitle">
-							Est. in Spring 2020, Web Development at Berkeley aims to increase
-							awareness of web development education and technologies within the
-							Berkeley community, centralizing the scattered web education
-							opportunities and resources offered by current campus
-							organizations.
+							Web Development at Berkeley aims to increase awareness of web
+							development education and technologies within the Berkeley
+							community, centralizing the scattered web education opportunities
+							and resources offered by current campus organizations.
 						</p>
 						<img
 							src={Line1}

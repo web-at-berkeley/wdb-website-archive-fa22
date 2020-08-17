@@ -1,8 +1,8 @@
 import React from 'react';
 
-import SiteNavbar from './SiteNavbar';
-import Contact from './Contact';
-import Footer from './Footer';
+import SiteNavbar from '../components/SiteNavbar';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -19,7 +19,7 @@ import Tbf from '../img/projects/tbf.png';
 import Cloud from '../img/projects/cloud.png';
 import Ansari from '../img/projects/ansari.png';
 import Netic from '../img/projects/netic.png';
-import TitanRig from '../img/projects/titan.png';
+import TitanRig from '../img/projects/titanrig.png';
 import Carepath from '../img/projects/carepath.png';
 
 import '../css/Projects.css';

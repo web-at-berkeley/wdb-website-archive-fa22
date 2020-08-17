@@ -1,8 +1,8 @@
 import React from 'react';
 
-import SiteNavbar from './SiteNavbar';
-import Contact from './Contact';
-import Footer from './Footer';
+import SiteNavbar from '../components/SiteNavbar';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -18,7 +18,7 @@ import Tbf from '../img/about/partnerships/tbf.png';
 const Partnerships = () => {
 	return (
 		<div className="partnerships education">
-			<SiteNavbar logo="false" />
+			<SiteNavbar />
 			<Container fluid className="body">
 				<img
 					src={RightNav}

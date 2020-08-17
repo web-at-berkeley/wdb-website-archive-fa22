@@ -16,7 +16,7 @@ import Resource19 from '../img/about/development/resource19.png';
 const Development = () => {
 	return (
 		<div className="education development">
-			<SiteNavbar logo="false" />
+			<SiteNavbar />
 			<img
 				src={Blobs}
 				alt="blobs"

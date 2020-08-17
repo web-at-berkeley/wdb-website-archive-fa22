@@ -18,18 +18,6 @@ const SiteNavbar = (props) => {
 
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
-	let Toggle = (
-		<img
-			src={LogoRainbow}
-			alt="logo rainbow"
-			className="logo-rainbow selectDisable"
-			id="logo-rainbow"
-		/>
-	);
-
-	if (props.logo === 'false') {
-		Toggle = <div></div>;
-	}
 
 	return (
 		<div>
@@ -40,7 +28,14 @@ const SiteNavbar = (props) => {
 					className="nav-background selectDisable"
 					draggable="false"
 				/>
-				{Toggle}
+				<Link to="/">
+					<img
+						src={LogoRainbow}
+						alt="logo rainbow"
+						className="logo-rainbow selectDisable"
+						id="logo-rainbow"
+					/>
+				</Link>
 
 				<div className="text">
 					<Link to="/" className="link-tag">
