@@ -213,22 +213,30 @@
 		padding-right: 0.2rem;
 		padding-left: 0.2rem;
 	}
-	.team .name {
+	.member-modal {
+		width: 90%;
+		margin: 0 5%;
+	}
+	.member-modal .name {
 		font-size: 26px;
 		margin-top: 1rem;
 		padding-right: 1.5rem;
 		padding-left: 1.5rem;
 	}
-	.team .role {
+	.member-modal .role {
 		font-size: 16px;
 		margin-top: 0.2rem;
 		padding-right: 1.5rem;
 		padding-left: 1.5rem;
 	}
-	.team .description {
+	.member-modal .description {
 		font-size: 16px;
 		padding-right: 1.5rem;
 		padding-left: 1.5rem;
+	}
+	.team .team-image {
+		max-width: 85%;
+		margin: 0.7rem 7.5%;
 	}
 	#linkedin {
 		margin-right: 15px;
@@ -258,31 +266,6 @@
 	}
 	.team .team-image:hover {
 		transform: scale(1.1);
-	}
-	.team .member-1 {
-		margin-top: 0;
-		width: 45%;
-	}
-	.team .member-3 {
-		margin-top: 1rem;
-		width: 45%;
-		margin-right: 0.6rem;
-	}
-	.member-4 {
-		margin-top: 1rem;
-		margin-right: 0;
-		width: 45%;
-		margin-left: 0.6rem;
-	}
-	.team .member-5 {
-		margin-top: 1rem;
-		margin-right: 0.6rem;
-		width: 45%;
-	}
-	.team .member-6 {
-		margin-top: 1rem;
-		margin-left: 0.6rem;
-		width: 45%;
 	}
 	.team .role {
 		margin-bottom: 0;

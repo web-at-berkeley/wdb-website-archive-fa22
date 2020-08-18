@@ -5,6 +5,14 @@ import Justin from '../../img/team/justinring.jpg';
 import Ervin from '../../img/team/ervinring.jpg';
 import Spider from '../../img/team/spider.jpg';
 
+import Tijmen from '../../img/team/tijmen.png';
+import April from '../../img/team/april.png';
+import Aman from '../../img/team/aman.png';
+import Emily from '../../img/team/emily.png';
+import Neha from '../../img/team/neha.png';
+import Arushi from '../../img/team/arushi.png';
+import Alex from '../../img/team/alex.png';
+
 export const execData = {
 	Samarth: {
 		name: 'Samarth Goel',
@@ -84,7 +92,7 @@ export const leadershipData = {
 		name: 'Aman Sidhant',
 		role: 'Product Manager',
 		description:
-			'’m a rising senior studying Electrical Engineering and Computer Science at UC Berkeley. I’m passionate about technology and its impact on the world. My hobbies include reading books, coding, playing guitar and video games. During quarantine I have also discovered several secret spots across campus, so hmu for some suggestions',
+			'I’m a rising senior studying Electrical Engineering and Computer Science at UC Berkeley. I’m passionate about technology and its impact on the world. My hobbies include reading books, coding, playing guitar and video games. During quarantine I have also discovered several secret spots across campus, so hmu for some suggestions!',
 		linkedin: 'linkedin.com/in/amansidhant',
 		mail: 'mailto: amansidhant@berkeley.edu',
 	},
@@ -120,12 +128,12 @@ export const leadershipData = {
 		mail: 'mailto: arushisomani@berkeley.edu',
 	},
 	images: {
-		Tijmen: Samarth,
-		April: Vicky,
-		Aman: Ervin,
-		Neha: Aditya,
-		Emily: Justin,
-		Alex: Spider,
-		Arushi: Spider,
+		Tijmen: Tijmen,
+		April: April,
+		Aman: Aman,
+		Neha: Neha,
+		Emily: Emily,
+		Alex: Alex,
+		Arushi: Arushi,
 	},
 };

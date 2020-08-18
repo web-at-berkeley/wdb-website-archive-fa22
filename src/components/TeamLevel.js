@@ -4,7 +4,6 @@ import { leadershipData } from '../pages/data/TeamData';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import Linkedin from '../img/team/linkedin.png';
 import Mail from '../img/team/mail.png';
@@ -25,7 +24,7 @@ const TeamLevel = (props) => {
 			<Row>
 				<h3 className="title">{props.title}</h3>
 			</Row>
-			<Row>
+			<Row className="justify-content-center">
 				{props.data.map((person) => {
 					return (
 						<img

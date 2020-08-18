@@ -148,9 +148,9 @@ const Team = () => {
 					/>
 				</Row>
 			</Container>
-			{/* <TeamLevel title="extended leadership" data={['Tijmen', 'April']} />
+			<TeamLevel title="extended leadership" data={['Tijmen', 'April']} />
 			<TeamLevel title="educators" data={['Arushi', 'Alex']} />
-			<TeamLevel title="product managers" data={['Neha', 'Aman', 'Emily']} /> */}
+			<TeamLevel title="product managers" data={['Neha', 'Aman', 'Emily']} />
 			<Footer />
 		</div>
 	);
