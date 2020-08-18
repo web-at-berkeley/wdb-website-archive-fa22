@@ -1,8 +1,8 @@
 import React from 'react';
 
-import SiteNavbar from './SiteNavbar';
-import Contact from './Contact';
-import Footer from './Footer';
+import SiteNavbar from '../components/SiteNavbar';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -16,7 +16,7 @@ import Resource19 from '../img/about/development/resource19.png';
 const Development = () => {
 	return (
 		<div className="education development">
-			<SiteNavbar logo="false" />
+			<SiteNavbar />
 			<img
 				src={Blobs}
 				alt="blobs"

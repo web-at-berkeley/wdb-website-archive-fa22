@@ -1,17 +1,17 @@
 import React from 'react';
 import { Router } from '@reach/router';
 
-import Landing from './components/Landing';
-import About from './components/About';
-import Education from './components/Education';
-import Development from './components/Development';
-import Partnerships from './components/Partnerships';
+import Landing from './pages/Landing';
+import About from './pages/About';
+import Education from './pages/Education';
+import Development from './pages/Development';
+import Partnerships from './pages/Partnerships';
 
-import Team from './components/Team';
-import Projects from './components/Projects';
-import Apply from './components/Apply';
-import TeamMobile from './components/mobile/TeamMobile';
-import ErrorPage from './components/404';
+import Team from './pages/Team';
+import Projects from './pages/Projects';
+import Apply from './pages/Apply';
+import TeamMobile from './pages/mobile/TeamMobile';
+import ErrorPage from './pages/404';
 
 import './css/App.css';
 

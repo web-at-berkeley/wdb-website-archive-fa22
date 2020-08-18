@@ -1,7 +1,7 @@
 import React from 'react';
 
-import SiteNavbar from './SiteNavbar';
-import Footer from './Footer';
+import SiteNavbar from '../components/SiteNavbar';
+import Footer from '../components/Footer';
 
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';

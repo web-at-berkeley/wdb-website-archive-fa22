@@ -1,0 +1,40 @@
+.level {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	margin: 4rem 5%;
+	.title {
+		font-family: Raleway;
+		font-weight: 700;
+		font-size: 39px;
+		letter-spacing: 0.22em;
+		text-transform: uppercase;
+		color: #5f60ff;
+		margin-bottom: 3rem;
+		text-align: center;
+	}
+	.team-image {
+		width: 200px;
+		margin: 0 2rem;
+	}
+	.info-row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 1rem;
+		.social-row {
+			display: flex;
+			align-items: center;
+			.name {
+				margin: 0 2rem;
+			}
+		}
+		.role {
+			margin-top: 0.3rem;
+		}
+	}
+	.description {
+		text-align: center;
+	}
+}

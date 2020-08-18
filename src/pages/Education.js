@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SiteNavbar from './SiteNavbar';
+import SiteNavbar from '../components/SiteNavbar';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -19,7 +19,7 @@ const Education = () => {
 	}
 	return (
 		<div className="education">
-			<SiteNavbar logo="false" />
+			<SiteNavbar />
 			<Container fluid className="body">
 				<img
 					src={RightNav}
