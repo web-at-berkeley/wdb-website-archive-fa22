@@ -146,7 +146,7 @@
 
 @media only screen and (max-width: 600px) {
 	.recruitment-card {
-		width: 400px;
+		width: 300px;
 	}
 	.apply .body {
 		padding-top: 3rem;
@@ -154,9 +154,18 @@
 		padding-right: 3rem !important;
 	}
 	.what-to-expect {
-		font-size: 31px;
+		font-size: 25px;
+		margin-bottom: 0;
+	}
+	.card {
+		font-size: 15px;
 	}
 	.card.role {
-		font-size: 28px;
+		font-size: 23px;
+	}
+	.apply-button {
+		font-size: 20px;
+
+		width: 300px;
 	}
 }
