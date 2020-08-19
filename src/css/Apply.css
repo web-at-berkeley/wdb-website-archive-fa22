@@ -7,262 +7,132 @@
 
 .apply .body {
 	padding-top: 9rem;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
-.arrowhead {
-	width: 28px;
-	margin-top: 0.3rem;
-}
-
-.long-arrow-top {
-	width: 90%;
-	margin-left: 5%;
-}
-.secondary-header {
-	font-size: 42px;
-	line-height: 55px;
-	letter-spacing: 0.12em;
-	color: #000000;
-	font-family: Raleway;
-	font-weight: 700;
-	margin-top: 2rem;
-}
-.timeline-text {
-	font-size: 32px;
-	line-height: 1.15;
-	text-align: center;
-	letter-spacing: 0.07em;
-	text-transform: uppercase;
-	color: #000000;
-	font-family: Raleway;
-	font-weight: 700;
-	margin-bottom: 0.3rem;
-}
-
-.long-arrow-row {
-	display: flex;
-	justify-content: center;
-	width: 90%;
-	margin-left: 5%;
-}
-.long-arrow {
+.recruitment-timeline {
 	width: 100%;
+	margin: 0;
 }
 
-.long-arrow-bottom {
-	width: 90%;
-	margin-left: 5%;
-}
-.descriptive-text {
-	font-weight: 300;
-	font-size: 32px;
-	line-height: 1.1;
-	letter-spacing: 0.12em;
-	color: #000000;
-	min-height: 11rem;
-}
-.recruitment-text {
-	font-size: 23px;
-	line-height: 1.1;
-	text-align: center;
-	letter-spacing: 0.13em;
-	color: #000000;
-	margin-top: -0.5rem;
-}
-
-.toggle-row {
-	padding: 0 3%;
-}
-.card {
-	border: 0;
-	box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.12);
-	border-radius: 15px;
-	margin: 4rem 3% 5rem 3%;
-}
-.toggle {
-	background: transparent;
-}
-.toggle:hover {
-	cursor: pointer;
-}
-.toggle-top {
-	display: flex;
-	align-items: center;
-}
-.toggle-arrow {
-	margin: 0 5%;
-	width: 28px;
-	height: 28px;
-}
-.role {
-	font-family: Raleway;
-	font-weight: 700;
-	font-size: 44px;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
-	color: #000000;
-}
-.role-text {
-	font-size: 26px;
-}
-
-.teacher-arrow {
-	margin-left: 27.8%;
-	top: -11rem;
-	height: 15rem;
-	position: absolute;
-}
-.student-arrow {
-	margin-left: 50%;
-	top: -8.25rem;
-	height: 12.5rem;
-	position: absolute;
-	width: 112%;
-}
-.developer-arrow {
-	margin-left: 50%;
-	top: -8rem;
-	height: 12.5rem;
-	position: absolute;
-	width: 25%;
-}
-
-.apply {
-	display: block;
-}
-.apply-mobile {
+.recruitment-timeline-mobile {
+	width: 100%;
+	margin: 0;
 	display: none;
 }
 
+.apply-button {
+	color: white;
+	background-image: linear-gradient(to right, #51f4f9, #55c9fb);
+	padding: 12px;
+	padding-left: 35px;
+	padding-right: 35px;
+	font-size: 30px;
+	border-radius: 300px;
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto 0 auto;
+}
+
+.recruitment-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+}
+
+.what-to-expect {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 45px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: #5f60ff;
+	margin-bottom: 1.5rem;
+}
+
+.recruitment-card-row {
+	display: flex;
+	justify-content: center;
+}
+.recruitment-card {
+	background: #ffffff;
+	box-shadow: 3px 2px 29px rgba(95, 96, 255, 0.15);
+	border-radius: 32px;
+	width: 600px;
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 40px;
+}
+
+.card {
+	box-shadow: none;
+	border: none;
+	font-size: 25px;
+	margin-bottom: 15px;
+	width: 70%;
+}
+.card.role {
+	box-shadow: none;
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 37px;
+	color: #5f60ff;
+}
+
+.card.bold {
+	font-family: 'Rubik';
+	font-weight: 500;
+	margin-top: 15px;
+}
+
 @media only screen and (max-width: 2200px) {
-	.teacher-arrow {
-		margin-left: 27.4%;
-	}
 }
 
 @media only screen and (max-width: 2000px) {
-	.teacher-arrow {
-		margin-left: 26.8%;
-	}
 }
 
 @media only screen and (max-width: 1700px) {
-	.role {
-		font-size: 34px;
-	}
-	.role-text {
-		font-size: 18px;
-	}
-	.recruitment-text {
-		font-size: 21px;
-	}
-	.timeline-text {
-		font-size: 23px;
-		line-height: 1.1;
-		margin-bottom: 0;
-	}
-	.secondary-header {
-		font-size: 42px;
-		margin-top: 1rem;
-	}
-	.teacher-arrow {
-		margin-left: 26.4%;
-	}
 }
 
 @media only screen and (max-width: 1500px) {
-	.teacher-arrow {
-		margin-left: 25.8%;
-	}
 }
 
 @media only screen and (max-width: 1346px) {
-	.role {
-		font-size: 32px;
-	}
-	.teacher-arrow {
-		top: -13rem;
-		height: 18rem;
-	}
-	.student-arrow {
-		top: -10.25rem;
-		height: 15.5rem;
-	}
-	.developer-arrow {
-		top: -10rem;
-		height: 15.5rem;
-	}
-	.secondary-header {
-		font-size: 36px;
-	}
-	.card {
-		margin: 5rem 3% 5rem 3%;
-	}
-	.toggle-arrow {
-		width: 23px;
-		height: 23px;
-	}
 }
 
 @media only screen and (max-width: 1145px) {
-	.role {
-		font-size: 26px;
-	}
-	.secondary-header {
-		font-size: 34px;
-	}
-	.teacher-arrow {
-		top: -15rem;
-		height: 20rem;
-		margin-left: 22.5%;
-	}
-	.student-arrow {
-		top: -12.75rem;
-		height: 18rem;
-		width: 110%;
-	}
-	.developer-arrow {
-		top: -12.5rem;
-		height: 18rem;
-		width: 24%;
-	}
 }
 
 @media only screen and (max-width: 992px) {
 	.apply .body {
-		padding-top: 7vh;
+		padding-top: 3rem;
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
 	}
-	.role {
-		font-size: 28px;
-	}
-	.secondary-header {
-		font-size: 24px;
-	}
-	.timeline-text {
-		font-size: 16px;
-	}
-	.arrowhead {
-		transform: rotate(180deg);
-		margin-bottom: 0.5rem;
-		margin-top: 0.5rem;
-	}
-	.card {
-		margin: 2rem 3% 0 3%;
-	}
-	.apply {
+	.recruitment-timeline {
 		display: none;
 	}
-	.apply-mobile {
+
+	.recruitment-timeline-mobile {
+		width: 100%;
+		margin: 40px 0 50px 0;
 		display: block;
+	}
+	.apply-button {
+		font-size: 24px;
+		width: 350px;
+	}
+	.recruitment-card-row {
+		flex-direction: column;
 	}
 }
 
 @media only screen and (max-width: 350px) {
-	.role {
-		font-size: 22px;
-	}
-	.toggle-arrow {
-		width: 17px;
-		height: 17px;
-	}
 }
