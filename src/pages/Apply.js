@@ -34,7 +34,14 @@ const Apply = () => {
 						className="recruitment-timeline-mobile"
 					/>
 
-					<div class="apply-button">Applications open 8/26!</div>
+					<a
+						class="apply-button"
+						href="https://forms.gle/6jgPPnBKctE5BMGk9"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Apply today!
+					</a>
 					<div className="recruitment-info">
 						<h5 className="what-to-expect">WHAT TO EXPECT</h5>
 						<div className="recruitment-card-row">
