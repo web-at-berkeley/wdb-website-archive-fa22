@@ -6,9 +6,6 @@
 .development {
 	padding-bottom: 20%;
 }
-.partnerships {
-	padding-bottom: 23%;
-}
 
 .education .body {
 	padding-top: 11rem;
@@ -60,38 +57,6 @@
 }
 .development .bottom-description {
 	margin-bottom: 5rem;
-}
-
-/* Partnerships */
-.partnerships .blobs {
-	position: absolute;
-	width: 100%;
-	top: 13rem;
-	z-index: -1;
-	left: 0;
-}
-.partnerships .partner {
-	max-width: 100%;
-	padding: 1rem;
-	transition: 1s ease;
-	border-radius: 50%;
-	min-width: 80%;
-	pointer-events: auto;
-}
-.partner-col {
-	pointer-events: none;
-	transition: 1.5s ease;
-}
-.partnerships .partner:hover {
-	transform: scale(1.1);
-}
-.partnerships .partner-col:hover {
-	margin: 0 3%;
-}
-
-.partnerships .cloud,
-.partnerships .grotech {
-	margin-top: 7rem;
 }
 
 @media only screen and (max-width: 1800px) {

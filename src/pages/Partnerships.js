@@ -14,6 +14,9 @@ import Grotech from '../img/about/partnerships/grotech.png';
 import Formula from '../img/about/partnerships/formula.png';
 import Cloud from '../img/about/partnerships/cloud.png';
 import Tbf from '../img/about/partnerships/tbf.png';
+import Stac from '../img/about/partnerships/stac.png';
+
+import '../css/Partnerships.css';
 
 const Partnerships = () => {
 	return (
@@ -100,6 +103,39 @@ const Partnerships = () => {
 								src={Grotech}
 								alt="grotech"
 								className="partner grotech selectDisable"
+								draggable="false"
+							/>
+						</a>
+					</Col>
+				</Row>
+				<Row className="justify-content-center">
+					<Col xs={12} md={4} lg={3} className="text-center partner-col">
+						<a
+							href="https://stac.berkeley.edu/"
+							title="STAC"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={Stac}
+								alt="STAC"
+								className="partner stac selectDisable"
+								draggable="false"
+							/>
+						</a>
+					</Col>
+					<Col xs={12} md={4} lg={3} className="text-center partner-col">
+						<a
+							href="https://berkeleyforum.org/"
+							title="TBF"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={Tbf}
+								alt="TBF"
+								className="partner tbf selectDisable"
 								draggable="false"
 							/>
 						</a>

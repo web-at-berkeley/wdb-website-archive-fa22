@@ -154,3 +154,12 @@
 		left: 14rem;
 	}
 }
+
+@media only screen and (max-width: 450px) {
+	.footer .social.instagram {
+		display: none;
+	}
+	.footer .social.facebook {
+		left: 10rem;
+	}
+}
