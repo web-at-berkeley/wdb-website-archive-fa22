@@ -33,7 +33,7 @@
 	width: 350px;
 	display: flex;
 	justify-content: center;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	transition: all 0.5s ease;
 }
 
@@ -41,6 +41,12 @@
 	color: white;
 	transform: scale(1.05);
 	text-decoration: none;
+}
+
+.infosession-button {
+	margin-bottom: 2rem;
+	background-image: linear-gradient(to right, #9f5ef4, #5f60ff);
+	opacity: 0.77;
 }
 
 .recruitment-info {
@@ -97,24 +103,6 @@
 	font-family: 'Rubik';
 	font-weight: 500;
 	margin-top: 15px;
-}
-
-@media only screen and (max-width: 2200px) {
-}
-
-@media only screen and (max-width: 2000px) {
-}
-
-@media only screen and (max-width: 1700px) {
-}
-
-@media only screen and (max-width: 1500px) {
-}
-
-@media only screen and (max-width: 1346px) {
-}
-
-@media only screen and (max-width: 1145px) {
 }
 
 @media only screen and (max-width: 992px) {
@@ -174,5 +162,12 @@
 		font-size: 20px;
 
 		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.apply-button {
+		font-size: 20px;
+		width: 220px;
 	}
 }

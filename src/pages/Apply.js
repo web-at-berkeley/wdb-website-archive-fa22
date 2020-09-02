@@ -33,9 +33,35 @@ const Apply = () => {
 						alt="Recruitment Timeline"
 						className="recruitment-timeline-mobile"
 					/>
-
+					<Row
+						style={{
+							display: 'flex',
+							justifyContent: 'center',
+						}}
+					>
+						<Col>
+							<a
+								className="apply-button infosession-button"
+								href="https://www.facebook.com/events/311960566720957/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Infosession 1
+							</a>
+						</Col>
+						<Col>
+							<a
+								className="apply-button infosession-button"
+								href="https://www.facebook.com/events/322447795505867/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Infosession 2
+							</a>
+						</Col>
+					</Row>
 					<a
-						class="apply-button"
+						className="apply-button"
 						href="https://forms.gle/6jgPPnBKctE5BMGk9"
 						target="_blank"
 						rel="noopener noreferrer"
