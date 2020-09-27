@@ -42,7 +42,7 @@ const Apply = () => {
 						<Col>
 							<a
 								className="apply-button infosession-button"
-								href="https://www.facebook.com/events/311960566720957/"
+								href="https://www.youtube.com/watch?v=-HqtdED4E14"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -52,7 +52,7 @@ const Apply = () => {
 						<Col>
 							<a
 								className="apply-button infosession-button"
-								href="https://www.facebook.com/events/322447795505867/"
+								href="https://www.youtube.com/watch?v=kMWpmDW799s"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
