@@ -21,6 +21,8 @@ import Ansari from '../img/projects/ansari.png';
 import Netic from '../img/projects/netic.png';
 import TitanRig from '../img/projects/titanrig.png';
 import Carepath from '../img/projects/carepath.png';
+import SouthAsianCenter from '../img/projects/cal-south-asia-center.png';
+import CMES from '../img/projects/cmes.png';
 
 import '../css/Projects.css';
 
@@ -286,7 +288,7 @@ const Projects = () => {
 					<Col xs={12} xl={6} className="partner">
 						<a
 							href="https://cloudatcal.org/"
-							title="Formula Electric at Berkeley"
+							title="Cloud at California"
 							className="screenshot"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -307,14 +309,45 @@ const Projects = () => {
 							</div>
 							<div className="text-overlay">
 								<h3 className="overlay-header formula-header">
-									Cloud At Berkeley
+									Cloud At California
 								</h3>
 								<p className="overlay-text">BUILT USING REACT</p>
 							</div>
 						</a>
 						<div className="description-container">
-							<h3 className="description-header">Cloud at Berkeley</h3>
+							<h3 className="description-header">Cloud at California</h3>
 							<p className="description-text">Built using React</p>
+						</div>
+					</Col>
+					<Col xs={12} xl={6} className="partner">
+						<img
+							src={Ansari}
+							alt="frio"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+
+						<div class="overlay overlay-rotated">
+							<img
+								src={Overlay}
+								alt="overlay"
+								className="overlay-image-rotated selectDisable"
+								draggable="false"
+							/>
+						</div>
+						<div className="text-overlay text-overlay-rotated">
+							<p className="overlay-text overlay-text-rotated">
+								Built with AWS and React
+							</p>
+							<h3 className="overlay-header overlay-header-rotated selectDisable">
+								ANSARI MATH
+							</h3>
+						</div>
+						<div className="description-container">
+							<h3 className="description-header">Ansari Math</h3>
+							<p className="description-text">
+								Built using AWS, Node, Express, and React
+							</p>
 						</div>
 					</Col>
 				</Row>
@@ -353,39 +386,6 @@ const Projects = () => {
 					</Col>
 					<Col xs={12} xl={6} className="partner">
 						<img
-							src={Ansari}
-							alt="frio"
-							className="screenshot selectDisable"
-							draggable="false"
-						/>
-
-						<div class="overlay overlay-rotated">
-							<img
-								src={Overlay}
-								alt="overlay"
-								className="overlay-image-rotated selectDisable"
-								draggable="false"
-							/>
-						</div>
-						<div className="text-overlay text-overlay-rotated">
-							<p className="overlay-text overlay-text-rotated">
-								Built with AWS and React
-							</p>
-							<h3 className="overlay-header overlay-header-rotated selectDisable">
-								ANSARI MATH
-							</h3>
-						</div>
-						<div className="description-container">
-							<h3 className="description-header">Ansari Math</h3>
-							<p className="description-text">
-								Built using AWS, Node, Express, and React
-							</p>
-						</div>
-					</Col>
-				</Row>
-				<Row className="align-items-center">
-					<Col xs={12} xl={6} className="partner">
-						<img
 							src={Carepath}
 							alt="Carepath"
 							className="screenshot selectDisable"
@@ -412,6 +412,85 @@ const Projects = () => {
 							<h3 className="description-header">Carepath</h3>
 							<p className="description-text">
 								Built using React and Bootstrap
+							</p>
+						</div>
+					</Col>
+				</Row>
+				<Row className="align-items-center">
+					<Col xs={12} xl={6} className="partner">
+						<a
+							href="https://ieas.berkeley.edu/centers/cseas"
+							title="Cal Center for Southeast Asia Studies"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={SouthAsianCenter}
+								alt="UC Berkeley Center for Southeast Asia Studies"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
+
+							<div class="overlay">
+								<img
+									src={Overlay}
+									alt="overlay"
+									className="overlay-image selectDisable"
+									draggable="false"
+								/>
+							</div>
+							<div className="text-overlay">
+								<h3 className="overlay-header">
+									UC Berkeley Center for Southeast Asia Studies
+								</h3>
+								<p className="overlay-text">Built using React and Figma</p>
+							</div>
+						</a>
+						<div className="description-container">
+							<h3 className="description-header">
+								UC Berkeley Center for Southeast Asia Studies
+							</h3>
+							<p className="description-text">Built using React and Figma</p>
+						</div>
+					</Col>
+					<Col xs={12} xl={6} className="partner">
+						<a
+							href="https://cmes.berkeley.edu/"
+							title="UC Berkeley Center for Middle Eastern Studies"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={CMES}
+								alt="formula"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
+							<div class="overlay">
+								<img
+									src={OverlayRotated}
+									alt="overlay"
+									className="overlay-image selectDisable"
+									draggable="false"
+								/>
+							</div>
+							<div className="text-overlay">
+								<h3 className="overlay-header formula-header">
+									UC Berkeley Center for Middle Eastern Studies
+								</h3>
+								<p className="overlay-text">
+									Built using Figma, Illustrator and Droople
+								</p>
+							</div>
+						</a>
+						<div className="description-container">
+							<h3 className="description-header">
+								UC Berkeley Center for Middle Eastern Studies
+							</h3>
+							<p className="description-text">
+								Built using Figma, Illustrator and Droople
 							</p>
 						</div>
 					</Col>
