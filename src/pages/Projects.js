@@ -418,13 +418,6 @@ const Projects = () => {
 				</Row>
 				<Row className="align-items-center">
 					<Col xs={12} xl={6} className="partner">
-						<a
-							href="https://ieas.berkeley.edu/centers/cseas"
-							title="Cal Center for Southeast Asia Studies"
-							className="screenshot"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
 							<img
 								src={SouthAsianCenter}
 								alt="UC Berkeley Center for Southeast Asia Studies"
@@ -446,7 +439,6 @@ const Projects = () => {
 								</h3>
 								<p className="overlay-text">Built using React and Figma</p>
 							</div>
-						</a>
 						<div className="description-container">
 							<h3 className="description-header">
 								UC Berkeley Center for Southeast Asia Studies
@@ -455,13 +447,6 @@ const Projects = () => {
 						</div>
 					</Col>
 					<Col xs={12} xl={6} className="partner">
-						<a
-							href="https://cmes.berkeley.edu/"
-							title="UC Berkeley Center for Middle Eastern Studies"
-							className="screenshot"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
 							<img
 								src={CMES}
 								alt="formula"
@@ -484,7 +469,6 @@ const Projects = () => {
 									Built using Figma, Illustrator and Droople
 								</p>
 							</div>
-						</a>
 						<div className="description-container">
 							<h3 className="description-header">
 								UC Berkeley Center for Middle Eastern Studies
