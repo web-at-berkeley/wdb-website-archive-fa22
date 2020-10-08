@@ -11,6 +11,18 @@
 	padding-right: 0 !important;
 }
 
+.subtitle {
+	font-size: 32px;
+	line-height: 136%;
+	text-align: center;
+	letter-spacing: 0.14em;
+	color: #000000;
+	padding-right: 3rem;
+	padding-left: 3rem;
+	margin: 40px auto 0 auto;
+	width: 60%;
+}
+
 .recruitment-timeline {
 	width: 100%;
 	margin: 0;
@@ -54,7 +66,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .what-to-expect {
