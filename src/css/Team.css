@@ -150,6 +150,9 @@
 	.team .role {
 		font-size: 19px;
 	}
+	.exec-description {
+		font-size: 21px;
+	}
 	.team .description {
 		font-size: 21px;
 		line-height: 25px;
@@ -205,6 +208,9 @@
 		margin-bottom: 1rem;
 		margin-top: 0.2rem;
 	}
+	.exec-description {
+		font-size: 18px;
+	}
 	.team .description {
 		font-size: 18px;
 	}
@@ -238,6 +244,9 @@
 		margin-top: 0.2rem;
 		padding-right: 1.5rem;
 		padding-left: 1.5rem;
+	}
+	.exec-description {
+		font-size: 16px;
 	}
 	.member-modal .description {
 		font-size: 16px;
