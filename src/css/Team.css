@@ -43,12 +43,21 @@
 	color: #5f60ff;
 	margin-bottom: 1.5rem;
 }
+.team .exec-description {
+	font-size: 33px;
+	line-height: 36px;
+	letter-spacing: 0.07em;
+	color: #000000;
+	margin-bottom: 2rem;
+}
 .team .description {
 	font-size: 33px;
 	line-height: 36px;
 	letter-spacing: 0.07em;
 	color: #000000;
 	margin-bottom: 2rem;
+	width: 80%;
+	margin: 0 auto 2rem auto;
 }
 
 .team .social-row {

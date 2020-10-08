@@ -34,7 +34,7 @@ export const execData = {
 		name: 'Vicky Li',
 		role: 'Co-President and VP Marketing and Design',
 		description:
-			'Hi everyone, I am a second-year at UC Berkeley studying Computer Science with a minor in Data Science. I recently got into Web Development after attending a hackathon, and I believe that it is an extremely valuable topic that is not extensively covered in Berkeley’s current CS curriculum. I am also very passionate about UI/UX Design, and I am excited to teach others these skills as well. Outside of coding and staring at screens, I am an avid photographer, videographer, and dancer. I enjoy making Youtube videos in my free time, so as they say, like and subscribe, and go bears!',
+			'Hi everyone, I am a second-year at UC Berkeley majoring in Computer Science. I first got into web dev after attending a hackathon, and I believe that it is an extremely rewarding field that is not extensively covered in Berkeley’s CS curriculum. I am also very passionate about UI/UX Design, and I am excited to teach others these skills as well. Outside of coding and staring at screens, I am an avid photographer, videographer, and dancer. I enjoy making Youtube videos in my free time, so as they say, like and subscribe, and go bears!',
 		linkedin: 'https://www.linkedin.com/in/victoriayli/',
 		mail: 'mailto: victoria.li@berkeley.edu',
 	},

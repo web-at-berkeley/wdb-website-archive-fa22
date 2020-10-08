@@ -194,10 +194,3 @@
 		width: 300px;
 	}
 }
-
-@media only screen and (max-width: 600px) {
-	.apply-button {
-		font-size: 20px;
-		width: 220px;
-	}
-}
