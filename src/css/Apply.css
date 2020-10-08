@@ -123,6 +123,9 @@
 		padding-left: 5rem !important;
 		padding-right: 5rem !important;
 	}
+	.subtitle {
+		width: 100%;
+	}
 	.recruitment-timeline {
 		display: none;
 	}
@@ -160,12 +163,27 @@
 		padding-left: 3rem !important;
 		padding-right: 3rem !important;
 	}
+	.subtitle {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	.recruitment-info {
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
 	.what-to-expect {
 		font-size: 25px;
 		margin-bottom: 0;
 	}
+	.recruitment-card {
+		border-radius: 20px;
+		width: 80%;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 	.card {
 		font-size: 15px;
+		width: 90%;
 	}
 	.card.role {
 		font-size: 23px;
