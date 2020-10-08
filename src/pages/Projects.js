@@ -418,27 +418,27 @@ const Projects = () => {
 				</Row>
 				<Row className="align-items-center">
 					<Col xs={12} xl={6} className="partner">
+						<img
+							src={SouthAsianCenter}
+							alt="UC Berkeley Center for Southeast Asia Studies"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+
+						<div class="overlay">
 							<img
-								src={SouthAsianCenter}
-								alt="UC Berkeley Center for Southeast Asia Studies"
-								className="screenshot selectDisable"
+								src={Overlay}
+								alt="overlay"
+								className="overlay-image selectDisable"
 								draggable="false"
 							/>
-
-							<div class="overlay">
-								<img
-									src={Overlay}
-									alt="overlay"
-									className="overlay-image selectDisable"
-									draggable="false"
-								/>
-							</div>
-							<div className="text-overlay">
-								<h3 className="overlay-header">
-									UC Berkeley Center for Southeast Asia Studies
-								</h3>
-								<p className="overlay-text">Built using React and Figma</p>
-							</div>
+						</div>
+						<div className="text-overlay">
+							<h3 className="overlay-header">
+								UC Berkeley Center for Southeast Asia Studies
+							</h3>
+							<p className="overlay-text">Built using React and Figma</p>
+						</div>
 						<div className="description-container">
 							<h3 className="description-header">
 								UC Berkeley Center for Southeast Asia Studies
@@ -447,34 +447,34 @@ const Projects = () => {
 						</div>
 					</Col>
 					<Col xs={12} xl={6} className="partner">
+						<img
+							src={CMES}
+							alt="formula"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+						<div class="overlay">
 							<img
-								src={CMES}
-								alt="formula"
-								className="screenshot selectDisable"
+								src={OverlayRotated}
+								alt="overlay"
+								className="overlay-image selectDisable"
 								draggable="false"
 							/>
-							<div class="overlay">
-								<img
-									src={OverlayRotated}
-									alt="overlay"
-									className="overlay-image selectDisable"
-									draggable="false"
-								/>
-							</div>
-							<div className="text-overlay">
-								<h3 className="overlay-header formula-header">
-									UC Berkeley Center for Middle Eastern Studies
-								</h3>
-								<p className="overlay-text">
-									Built using Figma, Illustrator and Droople
-								</p>
-							</div>
+						</div>
+						<div className="text-overlay">
+							<h3 className="overlay-header formula-header">
+								UC Berkeley Center for Middle Eastern Studies
+							</h3>
+							<p className="overlay-text">
+								Built using Figma, Illustrator and Drupal
+							</p>
+						</div>
 						<div className="description-container">
 							<h3 className="description-header">
 								UC Berkeley Center for Middle Eastern Studies
 							</h3>
 							<p className="description-text">
-								Built using Figma, Illustrator and Droople
+								Built using Figma, Illustrator and Drupal
 							</p>
 						</div>
 					</Col>

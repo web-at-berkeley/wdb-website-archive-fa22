@@ -126,7 +126,7 @@ const Partnerships = () => {
 					</Col>
 					<Col xs={12} md={4} lg={3} className="text-center partner-col">
 						<a
-							href="https://berkeleyforum.org/"
+							href="#"
 							title="TBF"
 							className="screenshot"
 							target="_blank"
