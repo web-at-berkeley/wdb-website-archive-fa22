@@ -1,5 +1,5 @@
 # website
-The Website for Web Developers at Berkeley
+The Website for Web Development at Berkeley (WDB)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
