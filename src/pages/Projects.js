@@ -23,6 +23,9 @@ import TitanRig from '../img/projects/titanrig.png';
 import Carepath from '../img/projects/carepath.png';
 import SouthAsianCenter from '../img/projects/cal-south-asia-center.png';
 import CMES from '../img/projects/cmes.png';
+import UDoItLegal from '../img/projects/u-do-it-legal.png'
+import BPT from '../img/projects/bpt.png'
+import Barracuda from '../img/projects/barracuda.png'
 
 import '../css/Projects.css';
 
@@ -66,7 +69,7 @@ const Projects = () => {
 								draggable="false"
 							/>
 
-							<div class="overlay">
+							<div className="overlay">
 								<img
 									src={Overlay}
 									alt="overlay"
@@ -103,7 +106,7 @@ const Projects = () => {
 								draggable="false"
 							/>
 
-							<div class="overlay overlay-rotated">
+							<div className="overlay overlay-rotated">
 								<img
 									src={OverlayRotated}
 									alt="overlay"
@@ -145,7 +148,7 @@ const Projects = () => {
 								draggable="false"
 							/>
 
-							<div class="overlay">
+							<div className="overlay">
 								<img
 									src={Overlay}
 									alt="overlay"
@@ -156,57 +159,57 @@ const Projects = () => {
 							<div className="text-overlay">
 								<h3 className="overlay-header">Resource 19</h3>
 								<p className="overlay-text">
-									Built using React, JQuery, Bootstrap, Sass, and Firebase
+									Built using React, JQuery, Sass, and Firebase
 								</p>
 							</div>
 						</a>
 						<div className="description-container">
 							<h3 className="description-header">Resource 19</h3>
 							<p className="description-text">
-								Built using React, JQuery, Bootstrap, Sass, and Firebase
+								Built using React, JQuery, Sass, and Firebase
 							</p>
 						</div>
 					</Col>
 					<Col xs={12} xl={6} className="partner">
 						<a
-							href="https://www.ocf.berkeley.edu/~grotech/"
-							title="GroTech @ Berkeley"
+							href="https://www.ucberkeley-saai-artistsresidency.com/"
+							title="UC Berkeley SAAI Artists Residency"
 							className="screenshot"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<img
-								src={GroTech}
-								alt="grotech"
+								src={SouthAsianCenter}
+								alt="UC Berkeley SAAI Artists Residency"
 								className="screenshot selectDisable"
 								draggable="false"
 							/>
 
-							<div class="overlay overlay-rotated">
+							<div className="overlay">
 								<img
-									src={OverlayRotated}
+									src={Overlay}
 									alt="overlay"
-									className="overlay-image-rotated selectDisable"
+									className="overlay-image selectDisable"
 									draggable="false"
 								/>
 							</div>
-							<div className="text-overlay text-overlay-rotated">
-								<p className="overlay-text overlay-text-rotated">
-									BUILT USING HTML, CSS, AND PHP
-								</p>
-								<h3 className="overlay-header overlay-header-rotated">
-									GROTECH @BERKELEY
+							<div className="text-overlay">
+								<h3 className="overlay-header">
+									UC Berkeley SAAI Artists Residency
 								</h3>
+								<p className="overlay-text">Built using React and Figma</p>
 							</div>
 						</a>
 						<div className="description-container">
-							<h3 className="description-header">Grotech @ Berkeley</h3>
-							<p className="description-text">Built using HTML, CSS, and PHP</p>
+							<h3 className="description-header">
+								UC Berkeley SAAI Artists Residency
+							</h3>
+							<p className="description-text">Built using React and Figma</p>
 						</div>
 					</Col>
 				</Row>
 				<Row className="align-items-center">
-					<Col xs={12} xl={6} className="partner">
+				<Col xs={12} xl={6} className="partner">
 						<a
 							href="https://devpost.com/software/frio"
 							title="Frio"
@@ -221,7 +224,7 @@ const Projects = () => {
 								draggable="false"
 							/>
 
-							<div class="overlay overlay-rotated">
+							<div className="overlay overlay-rotated">
 								<img
 									src={Overlay}
 									alt="overlay"
@@ -247,6 +250,46 @@ const Projects = () => {
 					</Col>
 					<Col xs={12} xl={6} className="partner">
 						<a
+							href="https://forum.berkeley.edu/"
+							title="The Berkeley Forum"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={Tbf}
+								alt="The Berkeley Forum"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
+							<div className="overlay overlay-rotated">
+								<img
+									src={Overlay}
+									alt="overlay"
+									className="overlay-image-rotated selectDisable"
+									draggable="false"
+								/>
+							</div>
+							<div className="text-overlay text-overlay-rotated">
+								<p className="overlay-text overlay-text-rotated">
+									BUILT USING REACT, AWS, AND BOOTSTRAP
+								</p>
+								<h3 className="overlay-header overlay-header-rotated selectDisable">
+									THE BERKELEY FORUM
+								</h3>
+							</div>
+						</a>
+						<div className="description-container">
+							<h3 className="description-header">The Berkeley Forum</h3>
+							<p className="description-text">
+								Built using React, AWS, and Bootstrap
+							</p>
+						</div>
+					</Col>
+				</Row>
+				<Row className="align-items-center">
+					<Col xs={12} xl={6} className="partner">
+						<a
 							href="https://ev.berkeley.edu/"
 							title="Formula Electric at Berkeley"
 							className="screenshot"
@@ -255,11 +298,11 @@ const Projects = () => {
 						>
 							<img
 								src={Formula}
-								alt="formula"
+								alt="Formula Electric at Berkeley"
 								className="screenshot selectDisable"
 								draggable="false"
 							/>
-							<div class="overlay">
+							<div className="overlay">
 								<img
 									src={OverlayRotated}
 									alt="overlay"
@@ -283,6 +326,44 @@ const Projects = () => {
 							</p>
 						</div>
 					</Col>
+				
+					<Col xs={12} xl={6} className="partner">
+						<a
+							href="https://www.ocf.berkeley.edu/~grotech/"
+							title="GroTech at Berkeley"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={GroTech}
+								alt="GroTech at Berkeley"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
+
+							<div className="overlay overlay-rotated">
+								<img
+									src={OverlayRotated}
+									alt="overlay"
+									className="overlay-image-rotated selectDisable"
+									draggable="false"
+								/>
+							</div>
+							<div className="text-overlay text-overlay-rotated">
+								<p className="overlay-text overlay-text-rotated">
+									BUILT USING HTML, CSS, AND PHP
+								</p>
+								<h3 className="overlay-header overlay-header-rotated">
+									GROTECH @BERKELEY
+								</h3>
+							</div>
+						</a>
+						<div className="description-container">
+							<h3 className="description-header">Grotech @ Berkeley</h3>
+							<p className="description-text">Built using HTML, CSS, and PHP</p>
+						</div>
+					</Col>
 				</Row>
 				<Row className="align-items-center">
 					<Col xs={12} xl={6} className="partner">
@@ -295,11 +376,11 @@ const Projects = () => {
 						>
 							<img
 								src={Cloud}
-								alt="formula"
+								alt="Cloud at California"
 								className="screenshot selectDisable"
 								draggable="false"
 							/>
-							<div class="overlay">
+							<div className="overlay">
 								<img
 									src={OverlayRotated}
 									alt="overlay"
@@ -320,29 +401,37 @@ const Projects = () => {
 						</div>
 					</Col>
 					<Col xs={12} xl={6} className="partner">
-						<img
-							src={Ansari}
-							alt="frio"
-							className="screenshot selectDisable"
-							draggable="false"
-						/>
-
-						<div class="overlay overlay-rotated">
+						<a
+							href="https://www.ansarimath.com/"
+							title="Ansari Math"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img
-								src={Overlay}
-								alt="overlay"
-								className="overlay-image-rotated selectDisable"
+								src={Ansari}
+								alt="Ansari Math"
+								className="screenshot selectDisable"
 								draggable="false"
 							/>
-						</div>
-						<div className="text-overlay text-overlay-rotated">
-							<p className="overlay-text overlay-text-rotated">
-								Built with AWS and React
-							</p>
-							<h3 className="overlay-header overlay-header-rotated selectDisable">
-								ANSARI MATH
-							</h3>
-						</div>
+
+							<div className="overlay overlay-rotated">
+								<img
+									src={Overlay}
+									alt="overlay"
+									className="overlay-image-rotated selectDisable"
+									draggable="false"
+								/>
+							</div>
+							<div className="text-overlay text-overlay-rotated">
+								<p className="overlay-text overlay-text-rotated">
+									Built using AWS, Node, Express, and React
+								</p>
+								<h3 className="overlay-header overlay-header-rotated selectDisable">
+									ANSARI MATH
+								</h3>
+							</div>
+						</a>
 						<div className="description-container">
 							<h3 className="description-header">Ansari Math</h3>
 							<p className="description-text">
@@ -355,44 +444,12 @@ const Projects = () => {
 				<Row className="align-items-center">
 					<Col xs={12} xl={6} className="partner">
 						<img
-							src={Tbf}
-							alt="TBF"
-							className="screenshot selectDisable"
-							draggable="false"
-						/>
-
-						<div class="overlay overlay-rotated">
-							<img
-								src={Overlay}
-								alt="overlay"
-								className="overlay-image-rotated selectDisable"
-								draggable="false"
-							/>
-						</div>
-						<div className="text-overlay text-overlay-rotated">
-							<p className="overlay-text overlay-text-rotated">
-								BUILT USING REACT AND BOOTSTRAP
-							</p>
-							<h3 className="overlay-header overlay-header-rotated selectDisable">
-								THE BERKELEY FORUM
-							</h3>
-						</div>
-						<div className="description-container">
-							<h3 className="description-header">The Berkeley Forum</h3>
-							<p className="description-text">
-								Built using React and Bootstrap
-							</p>
-						</div>
-					</Col>
-					<Col xs={12} xl={6} className="partner">
-						<img
 							src={Carepath}
 							alt="Carepath"
 							className="screenshot selectDisable"
 							draggable="false"
 						/>
-
-						<div class="overlay overlay-rotated">
+						<div className="overlay overlay-rotated">
 							<img
 								src={Overlay}
 								alt="overlay"
@@ -402,7 +459,7 @@ const Projects = () => {
 						</div>
 						<div className="text-overlay text-overlay-rotated">
 							<p className="overlay-text overlay-text-rotated">
-								BUILT USING REACT AND BOOTSTRAP
+								Built using React, Django, and Heroku
 							</p>
 							<h3 className="overlay-header overlay-header-rotated selectDisable">
 								CAREPATH
@@ -411,28 +468,18 @@ const Projects = () => {
 						<div className="description-container">
 							<h3 className="description-header">Carepath</h3>
 							<p className="description-text">
-								Built using React and Bootstrap
+								Built using React, Django, and Heroku
 							</p>
 						</div>
 					</Col>
-				</Row>
-				<Row className="align-items-center">
 					<Col xs={12} xl={6} className="partner">
-						<a
-							href="https://ieas.berkeley.edu/centers/cseas"
-							title="Cal Center for Southeast Asia Studies"
-							className="screenshot"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								src={SouthAsianCenter}
-								alt="UC Berkeley Center for Southeast Asia Studies"
-								className="screenshot selectDisable"
-								draggable="false"
-							/>
-
-							<div class="overlay">
+						<img
+							src={UDoItLegal}
+							alt="U-Do-It-Legal"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+						<div className="overlay">
 								<img
 									src={Overlay}
 									alt="overlay"
@@ -441,56 +488,112 @@ const Projects = () => {
 								/>
 							</div>
 							<div className="text-overlay">
-								<h3 className="overlay-header">
-									UC Berkeley Center for Southeast Asia Studies
-								</h3>
-								<p className="overlay-text">Built using React and Figma</p>
+								<h3 className="overlay-header">U-Do-It Legal</h3>
+								<p className="overlay-text">
+									Built using React and AWS
+								</p>
 							</div>
-						</a>
 						<div className="description-container">
-							<h3 className="description-header">
-								UC Berkeley Center for Southeast Asia Studies
+							<h3 className="description-header">U-Do-It Legal</h3>
+							<p className="description-text">
+								Built using React and AWS
+							</p>
+						</div>
+					</Col>
+				</Row>
+				<Row className="align-items-center">
+					<Col xs={12} xl={6} className="partner">
+						<img
+							src={BPT}
+							alt="Best Path Transit"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+
+						<div className="overlay overlay-rotated">
+							<img
+								src={OverlayRotated}
+								alt="overlay"
+								className="overlay-image-rotated selectDisable"
+								draggable="false"
+							/>
+						</div>
+						<div className="text-overlay text-overlay-rotated">
+							<p className="overlay-text overlay-text-rotated">
+								Built using Google Cloud and React
+							</p>
+							<h3 className="overlay-header overlay-header-rotated">
+								Best Path Transit
 							</h3>
-							<p className="description-text">Built using React and Figma</p>
+						</div>
+						<div className="description-container">
+							<h3 className="description-header">Best Path Transit</h3>
+							<p className="description-text">Built using Google Cloud and React</p>
 						</div>
 					</Col>
 					<Col xs={12} xl={6} className="partner">
-						<a
-							href="https://cmes.berkeley.edu/"
-							title="UC Berkeley Center for Middle Eastern Studies"
-							className="screenshot"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+						<img
+							src={CMES}
+							alt="UC Berkeley Center for Middle Eastern Studies"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+						<div className="overlay">
 							<img
-								src={CMES}
-								alt="formula"
-								className="screenshot selectDisable"
+								src={OverlayRotated}
+								alt="overlay"
+								className="overlay-image selectDisable"
 								draggable="false"
 							/>
-							<div class="overlay">
-								<img
-									src={OverlayRotated}
-									alt="overlay"
-									className="overlay-image selectDisable"
-									draggable="false"
-								/>
-							</div>
-							<div className="text-overlay">
-								<h3 className="overlay-header formula-header">
-									UC Berkeley Center for Middle Eastern Studies
-								</h3>
-								<p className="overlay-text">
-									Built using Figma, Illustrator and Droople
-								</p>
-							</div>
-						</a>
+						</div>
+						<div className="text-overlay">
+							<h3 className="overlay-header formula-header">
+								UC Berkeley Center for Middle Eastern Studies
+							</h3>
+							<p className="overlay-text">
+								Built using Figma, Illustrator and Droople
+							</p>
+						</div>
 						<div className="description-container">
 							<h3 className="description-header">
 								UC Berkeley Center for Middle Eastern Studies
 							</h3>
 							<p className="description-text">
 								Built using Figma, Illustrator and Droople
+							</p>
+						</div>
+					</Col>
+				</Row>
+				<Row className="align-items-center">
+					<Col xs={12} xl={6} className="partner">
+						<img
+							src={Barracuda}
+							alt="Barracuda Technologies"
+							className="screenshot selectDisable"
+							draggable="false"
+						/>
+						<div className="overlay">
+							<img
+								src={OverlayRotated}
+								alt="overlay"
+								className="overlay-image selectDisable"
+								draggable="false"
+							/>
+						</div>
+						<div className="text-overlay">
+							<h3 className="overlay-header formula-header">
+								Barracuda Technologies
+							</h3>
+							<p className="overlay-text">
+								Built using Figma and React
+							</p>
+						</div>
+						<div className="description-container">
+							<h3 className="description-header">
+								Barracuda Technologies
+							</h3>
+							<p className="description-text">
+								Built using Figma and React
 							</p>
 						</div>
 					</Col>
