@@ -7,8 +7,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Timeline from '../img/apply/timeline.png';
-import MobileTimeline from '../img/apply/mobile-timeline.png';
+// import Timeline from '../img/apply/timeline.png';
+// import MobileTimeline from '../img/apply/mobile-timeline.png';
 
 import '../css/Apply.css';
 
@@ -23,7 +23,11 @@ const Apply = () => {
 							<h1 className="header">Join The Team.</h1>
 						</Col>
 					</Row>
-					<img
+					<p className="subtitle">
+						Our applications for Fall 2020 are now closed. Keep an eye out for
+						our Spring 2021 applications!
+					</p>
+					{/* <img
 						src={Timeline}
 						alt="Recruitment Timeline"
 						className="recruitment-timeline"
@@ -59,7 +63,15 @@ const Apply = () => {
 								Infosession 2
 							</a>
 						</Col>
-					</Row>
+					</Row> */}
+					{/* <a
+						className="apply-button"
+						href="https://forms.gle/6jgPPnBKctE5BMGk9"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Apply today!
+					</a> */}
 					<div className="recruitment-info">
 						<h5 className="what-to-expect">WHAT TO EXPECT</h5>
 						<div className="recruitment-card-row">

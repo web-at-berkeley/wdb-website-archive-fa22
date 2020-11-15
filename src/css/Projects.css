@@ -21,8 +21,9 @@
 	color: #000000;
 	padding-right: 3rem;
 	padding-left: 3rem;
-	margin-top: 1rem;
-	margin-bottom: 3rem;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	width: 90%;
 }
 
 .project-header {

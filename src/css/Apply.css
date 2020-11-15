@@ -11,6 +11,18 @@
 	padding-right: 0 !important;
 }
 
+.subtitle {
+	font-size: 32px;
+	line-height: 136%;
+	text-align: center;
+	letter-spacing: 0.14em;
+	color: #000000;
+	padding-right: 3rem;
+	padding-left: 3rem;
+	margin: 40px auto 0 auto;
+	width: 60%;
+}
+
 .recruitment-timeline {
 	width: 100%;
 	margin: 0;
@@ -54,7 +66,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .what-to-expect {
@@ -111,6 +123,9 @@
 		padding-left: 5rem !important;
 		padding-right: 5rem !important;
 	}
+	.subtitle {
+		width: 100%;
+	}
 	.recruitment-timeline {
 		display: none;
 	}
@@ -148,12 +163,27 @@
 		padding-left: 3rem !important;
 		padding-right: 3rem !important;
 	}
+	.subtitle {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	.recruitment-info {
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
 	.what-to-expect {
 		font-size: 25px;
 		margin-bottom: 0;
 	}
+	.recruitment-card {
+		border-radius: 20px;
+		width: 80%;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 	.card {
 		font-size: 15px;
+		width: 90%;
 	}
 	.card.role {
 		font-size: 23px;
@@ -162,12 +192,5 @@
 		font-size: 20px;
 
 		width: 300px;
-	}
-}
-
-@media only screen and (max-width: 600px) {
-	.apply-button {
-		font-size: 20px;
-		width: 220px;
 	}
 }
