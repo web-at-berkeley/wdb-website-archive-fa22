@@ -551,7 +551,7 @@ const Projects = () => {
 								UC Berkeley Center for Middle Eastern Studies
 							</h3>
 							<p className="overlay-text">
-								Built using Figma, Illustrator and Droople
+								Built using Figma, Illustrator and Drupal
 							</p>
 						</div>
 						<div className="description-container">
