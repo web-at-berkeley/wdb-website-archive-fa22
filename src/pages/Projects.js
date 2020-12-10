@@ -352,7 +352,7 @@ const Projects = () => {
 							</div>
 							<div className="text-overlay text-overlay-rotated">
 								<p className="overlay-text overlay-text-rotated">
-									BUILT USING HTML, CSS, AND PHP
+									BUILT USING HTML, CSS, AND JS
 								</p>
 								<h3 className="overlay-header overlay-header-rotated">
 									GROTECH @BERKELEY
