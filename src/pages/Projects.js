@@ -361,7 +361,7 @@ const Projects = () => {
 						</a>
 						<div className="description-container">
 							<h3 className="description-header">Grotech @ Berkeley</h3>
-							<p className="description-text">Built using HTML, CSS, and PHP</p>
+							<p className="description-text">Built using HTML, CSS, and JS</p>
 						</div>
 					</Col>
 				</Row>
@@ -548,7 +548,7 @@ const Projects = () => {
 						</div>
 						<div className="text-overlay">
 							<h3 className="overlay-header formula-header">
-								UC Berkeley Center for Middle Eastern Studies
+								UC Berkeley CMES
 							</h3>
 							<p className="overlay-text">
 								Built using Figma, Illustrator and Drupal
@@ -556,10 +556,10 @@ const Projects = () => {
 						</div>
 						<div className="description-container">
 							<h3 className="description-header">
-								UC Berkeley Center for Middle Eastern Studies
+								UC Berkeley CMES
 							</h3>
 							<p className="description-text">
-								Built using Figma, Illustrator and Droople
+								Built using Figma, Illustrator and Drupal
 							</p>
 						</div>
 					</Col>
