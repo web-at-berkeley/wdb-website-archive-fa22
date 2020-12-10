@@ -25,7 +25,7 @@ import SouthAsianCenter from '../img/projects/cal-south-asia-center.png';
 import CMES from '../img/projects/cmes.png';
 import UDoItLegal from '../img/projects/u-do-it-legal.png'
 import BPT from '../img/projects/bpt.png'
-import Barracuda from '../img/projects/barracuda.png'
+import Barracuda from '../img/projects/barra.png'
 
 import '../css/Projects.css';
 
