@@ -17,15 +17,15 @@ import Frio from '../img/projects/frio.png';
 import Formula from '../img/projects/formula.png';
 import Tbf from '../img/projects/tbf.png';
 import Cloud from '../img/projects/cloud.png';
-import Ansari from '../img/projects/ansari.png';
-import Netic from '../img/projects/netic.png';
+import Ansari from '../img/projects/AnsariPage.png';
+import Netic from '../img/projects/NeticPage.png';
 import TitanRig from '../img/projects/titanrig.png';
 import Carepath from '../img/projects/carepath.png';
-import SouthAsianCenter from '../img/projects/cal-south-asia-center.png';
-import CMES from '../img/projects/cmes.png';
-import UDoItLegal from '../img/projects/u-do-it-legal.png'
+import SouthAsianCenter from '../img/projects/artist.png';
+import CMES from '../img/projects/CMES.png';
+import UDoItLegal from '../img/projects/legal.png'
 import BPT from '../img/projects/bpt.png'
-import Barracuda from '../img/projects/barra.png'
+import Barracuda from '../img/projects/barracudaPage.png'
 
 import '../css/Projects.css';
 
@@ -54,6 +54,46 @@ const Projects = () => {
 					</Col>
 				</Row>
 				<Row className="align-items-center">
+					<Col xs={12} xl={6} className="partner">
+						<a
+							href="https://www.barra-labs.com/"
+							title="Barracude Labs"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={Barracuda}
+								alt="Barracuda Technologies"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
+							<div className="overlay">
+								<img
+									src={OverlayRotated}
+									alt="overlay"
+									className="overlay-image selectDisable"
+									draggable="false"
+								/>
+							</div>
+							<div className="text-overlay">
+								<h3 className="overlay-header formula-header">
+									Barracuda Technologies
+								</h3>
+								<p className="overlay-text">
+									Built using Figma and React
+								</p>
+							</div>
+							<div className="description-container">
+								<h3 className="description-header">
+									Barracuda Technologies
+								</h3>
+								<p className="description-text">
+									Built using Figma and React
+								</p>
+							</div>
+						</a>
+					</Col>
 					<Col xs={12} xl={6} className="partner">
 						<a
 							href="https://www.netic.health/"
@@ -88,46 +128,6 @@ const Projects = () => {
 							<h3 className="description-header">Netic Health</h3>
 							<p className="description-text">
 								Built with React Native and AWS Amplify
-							</p>
-						</div>
-					</Col>
-					<Col xs={12} xl={6} className="partner">
-						<a
-							href="https://www.titanrig.com/"
-							title="Titan Rig"
-							className="screenshot"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								src={TitanRig}
-								alt="Titan Rig"
-								className="screenshot selectDisable"
-								draggable="false"
-							/>
-
-							<div className="overlay overlay-rotated">
-								<img
-									src={OverlayRotated}
-									alt="overlay"
-									className="overlay-image-rotated selectDisable"
-									draggable="false"
-								/>
-							</div>
-							<div className="text-overlay text-overlay-rotated">
-								<p className="overlay-text overlay-text-rotated">
-									worked with AWS and Python
-								</p>
-								<h3 className="overlay-header overlay-header-rotated">
-									Titan Rig
-								</h3>
-							</div>
-						</a>
-						<div className="description-container">
-							<h3 className="description-header">Titan Rig</h3>
-							<p className="description-text">
-								Worked with AWS (EC2, API Gateway, DynamoDB, Redshift, and
-								Lambda) and Python
 							</p>
 						</div>
 					</Col>
@@ -209,17 +209,17 @@ const Projects = () => {
 					</Col>
 				</Row>
 				<Row className="align-items-center">
-				<Col xs={12} xl={6} className="partner">
+					<Col xs={12} xl={6} className="partner">
 						<a
-							href="https://devpost.com/software/frio"
-							title="Frio"
+							href="https://www.ansarimath.com/"
+							title="Ansari Math"
 							className="screenshot"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<img
-								src={Frio}
-								alt="frio"
+								src={Ansari}
+								alt="Ansari Math"
 								className="screenshot selectDisable"
 								draggable="false"
 							/>
@@ -234,17 +234,17 @@ const Projects = () => {
 							</div>
 							<div className="text-overlay text-overlay-rotated">
 								<p className="overlay-text overlay-text-rotated">
-									BUILT USING JS, FLASK, AND SQLITE3
+									Built using AWS, Node, Express, and React
 								</p>
 								<h3 className="overlay-header overlay-header-rotated selectDisable">
-									FRIO
+									ANSARI MATH
 								</h3>
 							</div>
 						</a>
 						<div className="description-container">
-							<h3 className="description-header">Frio</h3>
+							<h3 className="description-header">Ansari Math</h3>
 							<p className="description-text">
-								Built using Javascript, Flask, and SQLite3
+								Built using AWS, Node, Express, and React
 							</p>
 						</div>
 					</Col>
@@ -402,15 +402,15 @@ const Projects = () => {
 					</Col>
 					<Col xs={12} xl={6} className="partner">
 						<a
-							href="https://www.ansarimath.com/"
-							title="Ansari Math"
+							href="https://devpost.com/software/frio"
+							title="Frio"
 							className="screenshot"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<img
-								src={Ansari}
-								alt="Ansari Math"
+								src={Frio}
+								alt="frio"
 								className="screenshot selectDisable"
 								draggable="false"
 							/>
@@ -425,17 +425,59 @@ const Projects = () => {
 							</div>
 							<div className="text-overlay text-overlay-rotated">
 								<p className="overlay-text overlay-text-rotated">
-									Built using AWS, Node, Express, and React
+									BUILT USING JS, FLASK, AND SQLITE3
 								</p>
 								<h3 className="overlay-header overlay-header-rotated selectDisable">
-									ANSARI MATH
+									FRIO
 								</h3>
 							</div>
 						</a>
 						<div className="description-container">
-							<h3 className="description-header">Ansari Math</h3>
+							<h3 className="description-header">Frio</h3>
 							<p className="description-text">
-								Built using AWS, Node, Express, and React
+								Built using Javascript, Flask, and SQLite3
+							</p>
+						</div>
+					</Col>
+				</Row>
+				<Row className="align-items-center">
+					<Col xs={12} xl={6} className="partner">
+						<a
+							href="https://www.titanrig.com/"
+							title="Titan Rig"
+							className="screenshot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src={TitanRig}
+								alt="Titan Rig"
+								className="screenshot selectDisable"
+								draggable="false"
+							/>
+
+							<div className="overlay overlay-rotated">
+								<img
+									src={OverlayRotated}
+									alt="overlay"
+									className="overlay-image-rotated selectDisable"
+									draggable="false"
+								/>
+							</div>
+							<div className="text-overlay text-overlay-rotated">
+								<p className="overlay-text overlay-text-rotated">
+									worked with AWS and Python
+								</p>
+								<h3 className="overlay-header overlay-header-rotated">
+									Titan Rig
+								</h3>
+							</div>
+						</a>
+						<div className="description-container">
+							<h3 className="description-header">Titan Rig</h3>
+							<p className="description-text">
+								Worked with AWS (EC2, API Gateway, DynamoDB, Redshift, and
+								Lambda) and Python
 							</p>
 						</div>
 					</Col>
@@ -560,40 +602,6 @@ const Projects = () => {
 							</h3>
 							<p className="description-text">
 								Built using Figma, Illustrator and Drupal
-							</p>
-						</div>
-					</Col>
-				</Row>
-				<Row className="align-items-center">
-					<Col xs={12} xl={6} className="partner">
-						<img
-							src={Barracuda}
-							alt="Barracuda Technologies"
-							className="screenshot selectDisable"
-							draggable="false"
-						/>
-						<div className="overlay">
-							<img
-								src={OverlayRotated}
-								alt="overlay"
-								className="overlay-image selectDisable"
-								draggable="false"
-							/>
-						</div>
-						<div className="text-overlay">
-							<h3 className="overlay-header formula-header">
-								Barracuda Technologies
-							</h3>
-							<p className="overlay-text">
-								Built using Figma and React
-							</p>
-						</div>
-						<div className="description-container">
-							<h3 className="description-header">
-								Barracuda Technologies
-							</h3>
-							<p className="description-text">
-								Built using Figma and React
 							</p>
 						</div>
 					</Col>
