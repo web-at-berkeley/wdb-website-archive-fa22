@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from '@reach/router';
 
+import ContactModal from './ContactModal';
+
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Modal from 'react-bootstrap/Modal';
-
-import ContactModal from './ContactModal';
 
 import LogoWhite from '../img/site-nav/logo-white.png';
 
@@ -16,6 +16,7 @@ const LandingNavbar = () => {
 
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
+
 	return (
 		<div>
 			<Navbar

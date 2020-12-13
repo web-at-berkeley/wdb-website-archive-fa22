@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigate } from '@reach/router';
+import { Link } from '@reach/router';
 
 import SiteNavbar from '../components/SiteNavbar';
 import Footer from '../components/Footer';
@@ -33,18 +33,8 @@ const About = () => {
 							community, centralizing the scattered web education opportunities
 							and resources offered by current campus organizations.
 						</p>
-						<img
-							src={Line1}
-							alt="line"
-							className="line-1 selectDisable"
-							draggable="false"
-						/>
-						<img
-							src={Line2}
-							alt="line"
-							className="line-2 selectDisable"
-							draggable="false"
-						/>
+						<img src={Line1} alt="line" className="line-1" draggable="false" />
+						<img src={Line2} alt="line" className="line-2" draggable="false" />
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
@@ -54,11 +44,7 @@ const About = () => {
 				</Row>
 				<Row className="justify-content-center">
 					<Col xs={12} md={4} className="relative-container left-container">
-						<div
-							className="inner-container"
-							onClick={() => navigate('/about/education')}
-							title="Education"
-						>
+						<Link to="/about/education" className="inner-container">
 							<h3 className="subject-header">Education</h3>
 							<p className="subject-text">
 								With Berkeley's scattered web development education
@@ -67,21 +53,17 @@ const About = () => {
 								for students to master these skills and web developers to apply
 								their knowledge.
 							</p>
-						</div>
+						</Link>
 						<img
 							src={LeftRings}
-							alt="left rings"
-							className="left-rings selectDisable"
+							alt="Education"
+							className="left-rings"
 							draggable="false"
 						/>
 					</Col>
 
 					<Col xs={12} md={4} className="relative-container right-container">
-						<div
-							className="inner-container"
-							onClick={() => navigate('/about/development')}
-							title="Development"
-						>
+						<Link to="/about/development" className="inner-container">
 							<h3 className="subject-header">Development</h3>
 							<p className="subject-text">
 								Learning has its true payoff when given the chance to apply
@@ -89,31 +71,31 @@ const About = () => {
 								develop for real startups in the Bay Area, where students will
 								experience every step of the software development process.
 							</p>
-						</div>
+						</Link>
 						<img
 							src={RightRings}
-							alt="right rings"
-							className="right-rings selectDisable"
+							alt="Development"
+							className="right-rings"
 							draggable="false"
 						/>
 					</Col>
 				</Row>
 				<Row className="justify-content-center">
-					<Col
-						xs={12}
-						md={9}
-						className="relative-container partner-container"
-						onClick={() => navigate('/about/partnerships')}
-						title="Partnerships"
-					>
-						<h3 className="subject-header">partnerships</h3>
-						<p className="subject-text">
-							As a member of the Berkeley tech community, part of our mission is
-							to provide web development services to fellow UC Berkeley
-							organizations and associated non-profits, giving back to the
-							community and prioritizing tech for social good.
-						</p>
-					</Col>
+					<Link to="/about/partnerships" className="partner-link">
+						<Col
+							xs={12}
+							md={9}
+							className="relative-container partner-container"
+						>
+							<h3 className="subject-header">partnerships</h3>
+							<p className="subject-text">
+								As a member of the Berkeley tech community, part of our mission
+								is to provide web development services to fellow UC Berkeley
+								organizations and associated non-profits, giving back to the
+								community and prioritizing tech for social good.
+							</p>
+						</Col>
+					</Link>
 				</Row>
 			</Container>
 			<Footer />

@@ -16,7 +16,7 @@ const Footer = () => {
 				src={FooterBackground}
 				alt="footer background"
 				draggable="false"
-				className="bg-image selectDisable"
+				className="bg-image"
 			/>
 			<a
 				href="https://www.linkedin.com/company/web-dev-at-berkeley/"

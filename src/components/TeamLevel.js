@@ -30,7 +30,7 @@ const TeamLevel = (props) => {
 						<img
 							src={teamImages[person]}
 							alt={person}
-							className="team-image selectDisable"
+							className="team-image"
 							draggable="false"
 							onMouseEnter={() => updateInfo(person)}
 							key={person}

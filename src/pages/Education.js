@@ -24,7 +24,7 @@ const Education = () => {
 				<img
 					src={RightNav}
 					alt="right nav"
-					className="right-nav selectDisable"
+					className="right-nav"
 					draggable="false"
 				/>
 				<Row>
@@ -51,9 +51,8 @@ const Education = () => {
 					<Col xs={12} className="text-center" style={{ padding: '0' }}>
 						<img
 							src={GraphicVersion}
-							alt="graphic"
+							alt="WDB Education Graphic"
 							style={{ width: '100%' }}
-							className="selectDisable"
 							draggable="false"
 						/>
 					</Col>

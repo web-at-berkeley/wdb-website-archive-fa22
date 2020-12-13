@@ -58,6 +58,7 @@
 	padding: 2.5rem 4rem 3rem 4rem;
 	z-index: 3;
 	transition: 0.4s ease;
+	text-decoration: none;
 }
 .about .inner-container:hover {
 	transform: scale(1.1);
@@ -108,6 +109,13 @@
 	transform: scale(1.1);
 	cursor: pointer;
 	box-shadow: 8px 3px 23px rgba(0, 0, 0, 0.2);
+}
+
+.about .partner-link {
+	text-decoration: none;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .about .subject-header {

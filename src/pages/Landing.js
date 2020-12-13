@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from '@reach/router';
 
 import LandingNavbar from '../components/LandingNavbar';
 
@@ -17,36 +18,31 @@ const Landing = () => {
 	return (
 		<div className="landing">
 			<LandingNavbar />
-			<img
-				src={MetaImage}
-				alt="meta"
-				className="selectDisable"
-				style={{ display: 'none' }}
-			/>
+			<img src={MetaImage} alt="WDB Landing Page" style={{ display: 'none' }} />
 			<Container fluid className="align-items-center">
 				<Row>
-					<Col xs={12} lg={6} className="text">
-						<h1 className="landing-text">
+					<Col xs={12} lg={6} className="text-col">
+						<h1>
 							Web Development
 							<br />
 							at Berkeley
 						</h1>
-						<a href="/about" className="landing-link">
+						<Link to="/about" className="landing-link">
 							<Button className="landing-button">
-								<p className="button-text">Learn More</p>
+								<p>Learn More</p>
 							</Button>
-						</a>
+						</Link>
 					</Col>
-					<Col xs={12} lg={6} className="image">
+					<Col xs={12} lg={6} className="image-col">
 						<img
 							src={LandingDesign}
-							alt="landing design"
-							className="landing-design large-graphic selectDisable"
+							alt="Web Development at Berkeley"
+							className="landing-design large-graphic"
 						/>
 						<img
 							src={LandingDesignMobile}
-							alt="landing design"
-							className="landing-design small-graphic selectDisable"
+							alt="Web Development at Berkeley"
+							className="landing-design small-graphic"
 						/>
 					</Col>
 				</Row>

@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 
-import Modal from 'react-bootstrap/Modal';
-
 import ContactModal from './ContactModal';
+
+import Modal from 'react-bootstrap/Modal';
 
 const Contact = () => {
 	const [show, setShow] = useState(false);
 
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
+
 	return (
 		<div>
 			<div style={style.Container}>
