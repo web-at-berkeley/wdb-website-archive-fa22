@@ -10,19 +10,11 @@ import Partnerships from './pages/Partnerships';
 import Team from './pages/Team';
 import Projects from './pages/Projects';
 import Apply from './pages/Apply';
-import TeamMobile from './pages/mobile/TeamMobile';
 import ErrorPage from './pages/404';
 
 import './css/App.css';
 
-function App() {
-	const NotFound = ErrorPage;
-	const team = matchMedia('(max-width: 640px)');
-	let TeamPage = Team;
-	let ApplyPage = Apply;
-	if (team.matches) {
-		TeamPage = TeamMobile;
-	}
+const App = () => {
 	return (
 		<div className="App">
 			<Router>
@@ -31,13 +23,13 @@ function App() {
 				<Education path="/about/education" />
 				<Development path="/about/development" />
 				<Partnerships path="/about/partnerships" />
-				<TeamPage path="/team" />
+				<Team path="/team" />
 				<Projects path="/projects" />
-				<ApplyPage path="/apply" />
-				<NotFound default />
+				<Apply path="/apply" />
+				<ErrorPage default />
 			</Router>
 		</div>
 	);
-}
+};
 
 export default App;

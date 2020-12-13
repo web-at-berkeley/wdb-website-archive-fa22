@@ -5,6 +5,14 @@
 	padding-bottom: 20%;
 }
 
+.team-desktop {
+	display: block;
+}
+
+.team-mobile {
+	display: none;
+}
+
 .team .body {
 	padding: 11rem 5% 5vh 5%;
 }
@@ -216,7 +224,13 @@
 	}
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 740px) {
+	.team-desktop {
+		display: none;
+	}
+	.team-mobile {
+		display: block;
+	}
 	.team .body {
 		padding: 7vh 5% 0 5%;
 	}

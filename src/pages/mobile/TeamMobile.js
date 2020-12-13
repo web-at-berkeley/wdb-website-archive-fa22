@@ -17,6 +17,7 @@ import '../../css/Team.css';
 
 const Team = () => {
 	const [showMember, setShowMember] = useState(false);
+
 	const handleCloseMember = () => setShowMember(false);
 	const handleShowMember = () => setShowMember(true);
 
@@ -46,7 +47,7 @@ const Team = () => {
 	];
 
 	return (
-		<div className="team">
+		<div className="team team-mobile">
 			<Navbar />
 			<Container fluid className="body">
 				<Row>
@@ -61,7 +62,7 @@ const Team = () => {
 				</Row>
 				<Row>
 					{members.map((person) => (
-						<Col xs={6} className="image-col">
+						<Col xs={6} className="image-col" key={person}>
 							<img
 								src={teamImages[person]}
 								alt={person}

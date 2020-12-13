@@ -33,6 +33,7 @@ const TeamLevel = (props) => {
 							className="team-image selectDisable"
 							draggable="false"
 							onMouseEnter={() => updateInfo(person)}
+							key={person}
 						/>
 					);
 				})}
