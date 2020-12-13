@@ -11,7 +11,7 @@ import LandingDesign from '../img/landing/landing-design.png';
 import LandingDesignMobile from '../img/landing/landing-design-mobile.png';
 import MetaImage from '../img/meta-image.png';
 
-import '../css/Landing.css';
+import '../css/Landing.scss';
 
 const Landing = () => {
 	return (

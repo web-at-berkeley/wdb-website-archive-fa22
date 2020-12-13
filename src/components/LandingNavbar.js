@@ -9,7 +9,7 @@ import ContactModal from './ContactModal';
 
 import LogoWhite from '../img/site-nav/logo-white.png';
 
-import '../css/LandingNavbar.css';
+import '../css/LandingNavbar.scss';
 
 const LandingNavbar = () => {
 	const [show, setShow] = useState(false);

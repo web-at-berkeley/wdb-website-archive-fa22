@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import Navbar from '../../components/SiteNavbar';
 import Footer from '../../components/Footer';
-import { execData, leadershipData } from '../data/TeamData';
+import { execData, leadershipData } from '../../data/TeamData';
 
 import Modal from 'react-bootstrap/Modal';
 import Container from 'react-bootstrap/Container';
@@ -13,7 +13,7 @@ import Bubbles from '../../img/team/bubbles.png';
 import Linkedin from '../../img/team/linkedin.png';
 import Mail from '../../img/team/mail.png';
 
-import '../../css/Team.css';
+import '../../css/Team.scss';
 
 const Team = () => {
 	const [showMember, setShowMember] = useState(false);

@@ -16,7 +16,7 @@ import Cloud from '../img/about/partnerships/cloud.png';
 import Tbf from '../img/about/partnerships/tbf.png';
 import Stac from '../img/about/partnerships/stac.png';
 
-import '../css/Partnerships.css';
+import '../css/Partnerships.scss';
 
 const Partnerships = () => {
 	return (

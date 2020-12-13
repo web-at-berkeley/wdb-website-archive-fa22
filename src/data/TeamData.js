@@ -1,17 +1,17 @@
-import Samarth from '../../img/team/samring.jpg';
-import Vicky from '../../img/team/vickyring.jpg';
-import Aditya from '../../img/team/aditring.jpg';
-import Justin from '../../img/team/justinring.jpg';
-import Ervin from '../../img/team/ervinring.jpg';
-import Spider from '../../img/team/spider.jpg';
+import Samarth from '../img/team/samring.jpg';
+import Vicky from '../img/team/vickyring.jpg';
+import Aditya from '../img/team/aditring.jpg';
+import Justin from '../img/team/justinring.jpg';
+import Ervin from '../img/team/ervinring.jpg';
+import Spider from '../img/team/spider.jpg';
 
-import Tijmen from '../../img/team/tijmen.png';
-import April from '../../img/team/april.png';
-import Aman from '../../img/team/aman.png';
-import Emily from '../../img/team/emily.png';
-import Neha from '../../img/team/neha.png';
-import Arushi from '../../img/team/arushi.png';
-import Alex from '../../img/team/alex.png';
+import Tijmen from '../img/team/tijmen.png';
+import April from '../img/team/april.png';
+import Aman from '../img/team/aman.png';
+import Emily from '../img/team/emily.png';
+import Neha from '../img/team/neha.png';
+import Arushi from '../img/team/arushi.png';
+import Alex from '../img/team/alex.png';
 
 export const execData = {
 	Samarth: {

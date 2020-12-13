@@ -13,7 +13,7 @@ import Line2 from '../img/about/line-2.png';
 import LeftRings from '../img/about/leftrings.png';
 import RightRings from '../img/about/rightrings.png';
 
-import '../css/About.css';
+import '../css/About.scss';
 
 const About = () => {
 	return (

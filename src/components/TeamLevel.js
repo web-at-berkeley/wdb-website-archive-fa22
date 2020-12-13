@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { leadershipData } from '../pages/data/TeamData';
+import { leadershipData } from '../data/TeamData';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

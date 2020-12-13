@@ -27,7 +27,7 @@ import UDoItLegal from '../img/projects/legal.png';
 import BPT from '../img/projects/bpt.png';
 import Barracuda from '../img/projects/barracudaPage.png';
 
-import '../css/Projects.css';
+import '../css/Projects.scss';
 
 const Projects = () => {
 	return (

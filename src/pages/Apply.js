@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 // import Timeline from '../img/apply/timeline.png';
 // import MobileTimeline from '../img/apply/mobile-timeline.png';
 
-import '../css/Apply.css';
+import '../css/Apply.scss';
 
 const Apply = () => {
 	return (

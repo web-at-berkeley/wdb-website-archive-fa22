@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import SiteNavbar from '../components/SiteNavbar';
 import Footer from '../components/Footer';
 import TeamLevel from '../components/TeamLevel';
-import { execData } from './data/TeamData';
+import { execData } from '../data/TeamData';
 import TeamMobile from './mobile/TeamMobile';
 
 import Container from 'react-bootstrap/Container';
@@ -14,7 +14,7 @@ import Bubbles from '../img/team/bubbles.png';
 import Linkedin from '../img/team/linkedin.png';
 import Mail from '../img/team/mail.png';
 
-import '../css/Team.css';
+import '../css/Team.scss';
 
 const Team = () => {
 	const initInfo = execData['Samarth'];

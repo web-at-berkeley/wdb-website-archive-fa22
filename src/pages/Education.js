@@ -10,7 +10,7 @@ import Graphic from '../img/about/education/graphic.png';
 import GraphicMobile from '../img/about/education/graphic-mobile.png';
 import RightNav from '../img/right-nav.png';
 
-import '../css/Education.css';
+import '../css/Education.scss';
 
 const Education = () => {
 	let GraphicVersion = Graphic;
