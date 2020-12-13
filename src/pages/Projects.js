@@ -18,14 +18,14 @@ import Formula from '../img/projects/formula.png';
 import Tbf from '../img/projects/tbf.png';
 import Cloud from '../img/projects/cloud.png';
 import Ansari from '../img/projects/AnsariPage.png';
-import Netic from '../img/projects/NeticPage.png';
+import Netic from '../img/projects/neticpage.png';
 import TitanRig from '../img/projects/titanrig.png';
 import Carepath from '../img/projects/carepath.png';
 import SouthAsianCenter from '../img/projects/artist.png';
-import CMES from '../img/projects/CMES.png';
-import UDoItLegal from '../img/projects/legal.png'
-import BPT from '../img/projects/bpt.png'
-import Barracuda from '../img/projects/barracudaPage.png'
+import CMES from '../img/projects/cmes.png';
+import UDoItLegal from '../img/projects/legal.png';
+import BPT from '../img/projects/bpt.png';
+import Barracuda from '../img/projects/barracudaPage.png';
 
 import '../css/Projects.css';
 
@@ -80,17 +80,11 @@ const Projects = () => {
 								<h3 className="overlay-header formula-header">
 									Barracuda Technologies
 								</h3>
-								<p className="overlay-text">
-									Built using Figma and React
-								</p>
+								<p className="overlay-text">Built using Figma and React</p>
 							</div>
 							<div className="description-container">
-								<h3 className="description-header">
-									Barracuda Technologies
-								</h3>
-								<p className="description-text">
-									Built using Figma and React
-								</p>
+								<h3 className="description-header">Barracuda Technologies</h3>
+								<p className="description-text">Built using Figma and React</p>
 							</div>
 						</a>
 					</Col>
@@ -326,7 +320,7 @@ const Projects = () => {
 							</p>
 						</div>
 					</Col>
-				
+
 					<Col xs={12} xl={6} className="partner">
 						<a
 							href="https://www.ocf.berkeley.edu/~grotech/"
@@ -522,24 +516,20 @@ const Projects = () => {
 							draggable="false"
 						/>
 						<div className="overlay">
-								<img
-									src={Overlay}
-									alt="overlay"
-									className="overlay-image selectDisable"
-									draggable="false"
-								/>
-							</div>
-							<div className="text-overlay">
-								<h3 className="overlay-header">U-Do-It Legal</h3>
-								<p className="overlay-text">
-									Built using React and AWS
-								</p>
-							</div>
+							<img
+								src={Overlay}
+								alt="overlay"
+								className="overlay-image selectDisable"
+								draggable="false"
+							/>
+						</div>
+						<div className="text-overlay">
+							<h3 className="overlay-header">U-Do-It Legal</h3>
+							<p className="overlay-text">Built using React and AWS</p>
+						</div>
 						<div className="description-container">
 							<h3 className="description-header">U-Do-It Legal</h3>
-							<p className="description-text">
-								Built using React and AWS
-							</p>
+							<p className="description-text">Built using React and AWS</p>
 						</div>
 					</Col>
 				</Row>
@@ -570,7 +560,9 @@ const Projects = () => {
 						</div>
 						<div className="description-container">
 							<h3 className="description-header">Best Path Transit</h3>
-							<p className="description-text">Built using Google Cloud and React</p>
+							<p className="description-text">
+								Built using Google Cloud and React
+							</p>
 						</div>
 					</Col>
 					<Col xs={12} xl={6} className="partner">
@@ -597,9 +589,7 @@ const Projects = () => {
 							</p>
 						</div>
 						<div className="description-container">
-							<h3 className="description-header">
-								UC Berkeley CMES
-							</h3>
+							<h3 className="description-header">UC Berkeley CMES</h3>
 							<p className="description-text">
 								Built using Figma, Illustrator and Drupal
 							</p>
