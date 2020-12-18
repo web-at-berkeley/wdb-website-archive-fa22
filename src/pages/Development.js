@@ -20,14 +20,14 @@ const Development = () => {
 			<img
 				src={Blobs}
 				alt="blobs"
-				className="blobs selectDisable"
+				className="blobs"
 				draggable="false"
 			/>
 			<Container fluid className="body">
 				<img
 					src={RightNav}
 					alt="right nav"
-					className="right-nav selectDisable"
+					className="right-nav"
 					draggable="false"
 				/>
 				<Row>

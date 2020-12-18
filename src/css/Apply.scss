@@ -3,194 +3,187 @@
 	position: relative;
 	min-height: 100vh;
 	padding-bottom: 20%;
-}
-
-.apply .body {
-	padding-top: 9rem;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-}
-
-.subtitle {
-	font-size: 32px;
-	line-height: 136%;
-	text-align: center;
-	letter-spacing: 0.14em;
-	color: #000000;
-	padding-right: 3rem;
-	padding-left: 3rem;
-	margin: 40px auto 0 auto;
-	width: 60%;
-}
-
-.recruitment-timeline {
-	width: 100%;
-	margin: 0;
-}
-
-.recruitment-timeline-mobile {
-	width: 100%;
-	margin: 0;
-	display: none;
-}
-
-.apply-button {
-	color: white;
-	background-image: linear-gradient(to right, #51f4f9, #55c9fb);
-	padding: 12px;
-	padding-left: 35px;
-	padding-right: 35px;
-	font-size: 30px;
-	border-radius: 300px;
-	width: 350px;
-	display: flex;
-	justify-content: center;
-	margin: 0 auto;
-	transition: all 0.5s ease;
-}
-
-.apply-button:hover {
-	color: white;
-	transform: scale(1.05);
-	text-decoration: none;
-}
-
-.infosession-button {
-	margin-bottom: 2rem;
-	background-image: linear-gradient(to right, #9f5ef4, #5f60ff);
-	opacity: 0.77;
-}
-
-.recruitment-info {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-top: 50px;
-}
-
-.what-to-expect {
-	font-family: 'Raleway';
-	font-weight: 700;
-	font-size: 45px;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
-	color: #5f60ff;
-	margin-bottom: 1.5rem;
-}
-
-.recruitment-card-row {
-	display: flex;
-	justify-content: center;
-}
-.recruitment-card {
-	background: #ffffff;
-	box-shadow: 3px 2px 29px rgba(95, 96, 255, 0.15);
-	border-radius: 32px;
-	width: 600px;
-	margin: 40px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding: 40px;
-}
-
-.card {
-	box-shadow: none;
-	border: none;
-	font-size: 25px;
-	margin-bottom: 15px;
-	width: 70%;
-}
-.card.role {
-	box-shadow: none;
-	font-family: 'Raleway';
-	font-weight: 600;
-	font-size: 37px;
-	color: #5f60ff;
-}
-
-.card.bold {
-	font-family: 'Rubik';
-	font-weight: 500;
-	margin-top: 15px;
-}
-
-@media only screen and (max-width: 992px) {
-	.apply .body {
-		padding-top: 3rem;
-		padding-left: 5rem !important;
-		padding-right: 5rem !important;
+	.body {
+		padding-top: 9rem;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 	.subtitle {
-		width: 100%;
+		font-size: 32px;
+		line-height: 136%;
+		text-align: center;
+		letter-spacing: 0.14em;
+		color: #000000;
+		padding-right: 3rem;
+		padding-left: 3rem;
+		margin: 40px auto 0 auto;
+		width: 60%;
 	}
+
 	.recruitment-timeline {
-		display: none;
+		width: 100%;
+		margin: 0;
 	}
 
 	.recruitment-timeline-mobile {
 		width: 100%;
-		margin: 40px 0 50px 0;
-		display: block;
+		margin: 0;
+		display: none;
 	}
-	.what-to-expect {
-		font-size: 45px;
-	}
+
 	.apply-button {
-		font-size: 24px;
+		color: white;
+		background-image: linear-gradient(to right, #51f4f9, #55c9fb);
+		padding: 12px;
+		padding-left: 35px;
+		padding-right: 35px;
+		font-size: 30px;
+		border-radius: 300px;
 		width: 350px;
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		transition: all 0.5s ease;
+		&:hover {
+			color: white;
+			transform: scale(1.05);
+			text-decoration: none;
+		}
+	}
+	.infosession-button {
+		margin-bottom: 2rem;
+		background-image: linear-gradient(to right, #9f5ef4, #5f60ff);
+		opacity: 0.77;
+	}
+
+	.recruitment-info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 50px;
+	}
+
+	.what-to-expect {
+		font-family: 'Raleway';
+		font-weight: 700;
+		font-size: 45px;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: #5f60ff;
+		margin-bottom: 1.5rem;
 	}
 	.recruitment-card-row {
+		display: flex;
+		justify-content: center;
+	}
+	.recruitment-card {
+		background: #ffffff;
+		box-shadow: 3px 2px 29px rgba(95, 96, 255, 0.15);
+		border-radius: 32px;
+		width: 600px;
+		margin: 40px;
+		display: flex;
 		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 40px;
 	}
 
 	.card {
-		font-size: 19px;
+		box-shadow: none;
+		border: none;
+		font-size: 25px;
+		margin-bottom: 15px;
+		width: 70%;
+		&.role {
+			box-shadow: none;
+			font-family: 'Raleway';
+			font-weight: 600;
+			font-size: 37px;
+			color: #5f60ff;
+		}
+		&.bold {
+			font-family: 'Rubik';
+			font-weight: 500;
+			margin-top: 15px;
+		}
 	}
-	.card.role {
-		font-size: 32px;
+}
+
+@media only screen and (max-width: 992px) {
+	.apply {
+		.body {
+			padding-top: 3rem;
+			padding-left: 5rem !important;
+			padding-right: 5rem !important;
+		}
+		.subtitle {
+			width: 100%;
+		}
+		.recruitment-timeline {
+			display: none;
+		}
+
+		.recruitment-timeline-mobile {
+			width: 100%;
+			margin: 40px 0 50px 0;
+			display: block;
+		}
+		.what-to-expect {
+			font-size: 45px;
+		}
+		.apply-button {
+			font-size: 24px;
+			width: 350px;
+		}
+		.recruitment-card-row {
+			flex-direction: column;
+		}
+		.card {
+			font-size: 19px;
+			&.role {
+				font-size: 32px;
+			}
+		}
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	.recruitment-card {
-		width: 300px;
-	}
-	.apply .body {
-		padding-top: 3rem;
-		padding-left: 3rem !important;
-		padding-right: 3rem !important;
-	}
-	.subtitle {
-		font-size: 20px;
-		margin-top: 20px;
-	}
-	.recruitment-info {
-		margin-top: 20px;
-		margin-bottom: 50px;
-	}
-	.what-to-expect {
-		font-size: 25px;
-		margin-bottom: 0;
-	}
-	.recruitment-card {
-		border-radius: 20px;
-		width: 80%;
-		padding-right: 10px;
-		padding-left: 10px;
-	}
-	.card {
-		font-size: 15px;
-		width: 90%;
-	}
-	.card.role {
-		font-size: 23px;
-	}
-	.apply-button {
-		font-size: 20px;
-
-		width: 300px;
+	.apply {
+		.body {
+			padding-top: 3rem;
+			padding-left: 3rem !important;
+			padding-right: 3rem !important;
+		}
+		.subtitle {
+			font-size: 20px;
+			margin-top: 20px;
+		}
+		.recruitment-info {
+			margin-top: 20px;
+			margin-bottom: 50px;
+		}
+		.what-to-expect {
+			font-size: 25px;
+			margin-bottom: 0;
+		}
+		.recruitment-card {
+			border-radius: 20px;
+			width: 80%;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+		.card {
+			font-size: 15px;
+			width: 90%;
+			&.role {
+				font-size: 23px;
+			}
+		}
+		.apply-button {
+			font-size: 20px;
+			width: 300px;
+		}
 	}
 }
