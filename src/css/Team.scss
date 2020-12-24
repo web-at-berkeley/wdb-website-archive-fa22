@@ -18,7 +18,7 @@
 }
 
 .team .title-col {
-	margin-bottom: 5vh;
+	margin-bottom: 5rem;
 }
 .team .subtitle {
 	font-size: 32px;
@@ -28,7 +28,7 @@
 	color: #000000;
 	padding-right: 3rem;
 	padding-left: 3rem;
-	margin-top: 1rem;
+	margin: 2rem auto auto auto;
 	width: 80%;
 }
 
@@ -40,27 +40,27 @@
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 900;
-	font-size: 72px;
+	font-size: 40px;
 	text-align: left;
 	letter-spacing: 0.22em;
 	text-transform: uppercase;
 }
 .team .role {
-	font-size: 35px;
+	font-size: 27px;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	color: #5f60ff;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 .team .exec-description {
-	font-size: 33px;
+	font-size: 25px;
 	line-height: 36px;
 	letter-spacing: 0.07em;
 	color: #000000;
 	margin-bottom: 2rem;
 }
 .team .description {
-	font-size: 33px;
+	font-size: 25px;
 	line-height: 36px;
 	letter-spacing: 0.07em;
 	color: #000000;
@@ -80,13 +80,13 @@
 	transform: scale(1.1);
 }
 #linkedin {
-	margin-right: 45px;
+	margin-right: 20px;
 }
 .linkedin-icon {
-	height: 60px;
+	height: 40px;
 }
 .mail-icon {
-	height: 60px;
+	height: 40px;
 }
 .team .social-row a:hover {
 	text-decoration: none;
@@ -109,7 +109,7 @@
 }
 
 .team .team-image {
-	max-width: 100%;
+	max-width: 85%;
 	transition: 0.5s ease;
 	border-radius: 50%;
 }
@@ -150,16 +150,15 @@
 	}
 	.team .subtitle {
 		font-size: 23px;
-		margin-top: 0;
 	}
 	.team .name {
-		font-size: 43px;
+		font-size: 35px;
 	}
 	.team .role {
 		font-size: 19px;
 	}
 	.team .exec-description {
-		font-size: 21px;
+		font-size: 19px;
 	}
 	.team .description {
 		font-size: 21px;
@@ -276,11 +275,11 @@
 		margin-left: 1.5rem;
 	}
 	.linkedin-icon {
-		height: 40px;
+		height: 30px;
 		margin: 0.6rem 0 0.8rem 0;
 	}
 	.mail-icon {
-		height: 40px;
+		height: 30px;
 		margin: 0.6rem 0 0.8rem 0;
 	}
 	.team .bubbles {
