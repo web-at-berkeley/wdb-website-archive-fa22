@@ -159,7 +159,7 @@ const Team = () => {
 				</Container>
 				<TeamLevel title="leadership" data={['April', 'Jessica', 'Izzie', 'Cindy', 'Noor']} />
 				<TeamLevel title="course staff" data={['Arushi', 'Hector']} />
-				<TeamLevel title="team leads" data={['Neha', 'Emily', 'Caelin', 'Alina', 'Albert']} />
+				<TeamLevel title="team leads" data={['Neha', 'Emily', 'Caelin', 'Alina', 'Albert', 'Ansa']} />
 				<Footer />
 			</div>
 			<TeamMobile />

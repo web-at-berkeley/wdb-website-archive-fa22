@@ -16,6 +16,7 @@ import Neha from '../img/team/neha.png';
 import Caelin from '../img/team/caelin.png';
 import Alina from '../img/team/alina.png';
 import Albert from '../img/team/albert.png';
+import Ansa from '../img/team/ansa.png';
 import Arushi from '../img/team/arushi.png';
 import Hector from '../img/team/hector.png';
 
@@ -167,6 +168,14 @@ export const leadershipData = {
 		linkedin: 'https://www.linkedin.com/in/albert-tian-9a894b196/',
 		mail: 'mailto: atian@berkeley.edu',
 	},
+	Ansa: {
+		name: 'Ansa Schmulbach',
+		role: 'Project Manager',
+		description:
+			'',
+		linkedin: 'https://www.linkedin.com/in/viansa-schmulbach-74b055167/',
+		mail: 'mailto: ansa@berkeley.edu',
+	},
 	Arushi: {
 		name: 'Arushi Somani',
 		role: 'Frontend Educator',
@@ -194,6 +203,7 @@ export const leadershipData = {
 		Caelin: Caelin,
 		Alina: Alina,
 		Albert: Albert,
+		Ansa: Ansa,
 		Arushi: Arushi,
 		Hector: Hector,
 	},
