@@ -100,7 +100,7 @@ export const leadershipData = {
 		role: 'Head of Finance',
 		description:
 			'',
-		linkedin: '#',
+		linkedin: 'https://www.linkedin.com/in/jessica-wu1/',
 		mail: 'mailto: ',
 	},
 	Izzie: {
@@ -108,15 +108,15 @@ export const leadershipData = {
 		role: 'Head of Marketing',
 		description:
 			'',
-		linkedin: '#',
-		mail: 'mailto: ',
+		linkedin: 'https://www.linkedin.com/in/izzielau/',
+		mail: 'mailto: isabellalau@berkeley.edu',
 	},
 	Cindy: {
 		name: 'Cindy Liu',
 		role: 'Head of Projects - Design',
 		description:
 			'',
-		linkedin: '#',
+		linkedin: 'https://www.linkedin.com/in/cindy-liu-a52a0a194/',
 		mail: 'mailto: ',
 	},
 	Noor: {
@@ -124,8 +124,8 @@ export const leadershipData = {
 		role: 'Head of Projects - Dev',
 		description:
 			'',
-		linkedin: '#',
-		mail: 'mailto: ',
+		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
+		mail: 'mailto: nmahini@berkeley.edu',
 	},
 	Emily: {
 		name: 'Emily Su',
@@ -148,15 +148,15 @@ export const leadershipData = {
 		role: 'Product Manager',
 		description:
 			'',
-		linkedin: '#',
-		mail: 'mailto: ',
+		linkedin: 'https://www.linkedin.com/in/caelinsutch/',
+		mail: 'mailto: caelinsutch@berkeley.edu',
 	},
 	Alina: {
 		name: 'Alina Wang',
 		role: 'Project Manager',
 		description:
 			'',
-		linkedin: '#',
+		linkedin: 'https://www.linkedin.com/in/wangerful/',
 		mail: 'mailto: ',
 	},
 	Albert: {
@@ -164,8 +164,8 @@ export const leadershipData = {
 		role: 'Project Manager',
 		description:
 			'',
-		linkedin: '#',
-		mail: 'mailto: ',
+		linkedin: 'https://www.linkedin.com/in/albert-tian-9a894b196/',
+		mail: 'mailto: atian@berkeley.edu',
 	},
 	Arushi: {
 		name: 'Arushi Somani',
@@ -180,8 +180,8 @@ export const leadershipData = {
 		role: 'Reader/Tutor',
 		description:
 			'',
-		linkedin: '#',
-		mail: 'mailto: ',
+		linkedin: 'https://www.linkedin.com/in/hector-ramos-/',
+		mail: 'mailto: hector.ramos@berkeley.edu',
 	},
 	images: {
 		April: April,
