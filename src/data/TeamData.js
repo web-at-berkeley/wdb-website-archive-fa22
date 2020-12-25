@@ -1,40 +1,45 @@
-import Samarth from '../img/team/samring.jpg';
-import Vicky from '../img/team/vickyring.jpg';
-import Aditya from '../img/team/aditring.jpg';
-import Justin from '../img/team/justinring.jpg';
-import Ervin from '../img/team/ervinring.jpg';
-import Spider from '../img/team/spider.jpg';
-
+import Samarth from '../img/team/samarth.png';
+import Vicky from '../img/team/vicky.png';
+import Aditya from '../img/team/aditya.png';
+import Justin from '../img/team/justin.png';
 import Tijmen from '../img/team/tijmen.png';
+import Alex from '../img/team/alex.png';
+import Jasmine from '../img/team/jasmine.png';
+
 import April from '../img/team/april.png';
-import Aman from '../img/team/aman.png';
+import Jessica from '../img/team/jessica.png';
+import Izzie from '../img/team/izzie.png';
+import Cindy from '../img/team/cindy.png';
+import Noor from '../img/team/noor.png';
 import Emily from '../img/team/emily.png';
 import Neha from '../img/team/neha.png';
+import Caelin from '../img/team/caelin.png';
+import Alina from '../img/team/alina.png';
+import Albert from '../img/team/albert.png';
 import Arushi from '../img/team/arushi.png';
-import Alex from '../img/team/alex.png';
+import Hector from '../img/team/hector.png';
 
 export const execData = {
 	Samarth: {
 		name: 'Samarth Goel',
-		role: 'Co-President and VP Finance',
+		role: 'Co-President',
 		description:
 			'Hey there! My name is Samarth and I am studying Computer Science and Business Administration. Web Development has been a huge passion of mine, and the lack of advanced web dev education on Berkeley’s campus is a problem I’ve long wanted to solve, and I hope to do so with Web Dev @ Berkeley! Besides coding, I practice martial arts, practice guitar, and play the drums in the cal band.',
 		linkedin: 'https://www.linkedin.com/in/samarth-goel-07',
 		mail: 'mailto: sgoel9@berkeley.edu',
 	},
-	Ervin: {
-		name: 'Ervin Baccay',
+	Alex: {
+		name: 'Alex Wu',
 		role: 'VP Education',
-		description:
-			'Hi! I’m Ervin Baccay and I study Bioengineering and EECS. After four years of teaching a technical field, I’ve grown passionate about educating the future generation of engineers and computer scientists. When I’m not busy teaching backend web development, cloud technologies, data structures, data science, or bioengineering, you can catch me at marching band performances or drinking boba somewhere!',
-		linkedin: 'https://www.linkedin.com/in/ebaccay/',
-		mail: 'mailto: ebaccay@berkeley.edu',
+		description: 'Engineer & startup founder who likes udon.',
+		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
+		mail: 'mailto: jialin_wu@berkeley.edu',
 	},
 	Vicky: {
 		name: 'Vicky Li',
-		role: 'Co-President and VP Marketing and Design',
+		role: 'Co-President',
 		description:
-			'Hi everyone, I am a second-year at UC Berkeley majoring in Computer Science. I first got into web dev after attending a hackathon, and I believe that it is an extremely rewarding field that is not extensively covered in Berkeley’s CS curriculum. I am also very passionate about UI/UX Design, and I am excited to teach others these skills as well. Outside of coding and staring at screens, I am an avid photographer, videographer, and dancer. I enjoy making Youtube videos in my free time, so as they say, like and subscribe, and go bears!',
+			'Hi everyone, I am a second-year Computer Science major. I first encountered the wonderful world of web dev when cluelessly attending a hackathon and being bombarded with a bunch of stuff I didn’t know. I believe it’s a super rewarding and important topic that’s not extensively covered in Berkeley’s curriculum. I especially love web design and making sites look sexy. Outside of coding and staring at screens, I am an avid photographer and dancer. I enjoy making Youtube videos in my free time, so as they say, like and subscribe, and go bears!',
 		linkedin: 'https://www.linkedin.com/in/victoriayli/',
 		mail: 'mailto: victoria.li@berkeley.edu',
 	},
@@ -54,32 +59,34 @@ export const execData = {
 		linkedin: 'https://www.linkedin.com/in/justinshawnchen/',
 		mail: 'mailto: justinshawnchen@berkeley.edu',
 	},
-	Spider: {
-		name: 'A Spider',
-		role: 'Not quite sure yet',
-		description: "why is this spider here? Don't ask me!",
-		linkedin: 'https://www.linkedin.com/company/web-dev-at-berkeley/',
-		mail: 'mailto: webatberkeley@gmail.edu',
-	},
-	images: {
-		Samarth: Samarth,
-		Vicky: Vicky,
-		Ervin: Ervin,
-		Aditya: Aditya,
-		Justin: Justin,
-		Spider: Spider,
-	},
-};
-
-export const leadershipData = {
 	Tijmen: {
 		name: 'Tijmen Sep',
-		role: 'Head of Design',
+		role: 'Co-VP Design',
 		description:
 			'I’m a second year and I enjoy both artistic and mechanical design. I enjoy WDB because I get to work with a diverse group of skilled people to create beautiful websites.',
 		linkedin: 'https://www.linkedin.com/in/tijmen-sep-582469175/',
 		mail: 'mailto: tijmensep@berkeley.edu',
 	},
+	Jasmine: {
+		name: 'Jasmine Chen',
+		role: 'Co-VP Design',
+		description:
+			'',
+		linkedin: '#',
+		mail: 'mailto: ',
+	},
+	images: {
+		Samarth: Samarth,
+		Vicky: Vicky,
+		Alex: Alex,
+		Aditya: Aditya,
+		Justin: Justin,
+		Tijmen: Tijmen,
+		Jasmine: Jasmine,
+	},
+};
+
+export const leadershipData = {
 	April: {
 		name: 'April Ma',
 		role: 'Head of Legal',
@@ -88,13 +95,37 @@ export const leadershipData = {
 		linkedin: 'https://www.linkedin.com/in/april-ma',
 		mail: 'mailto: aprilma@berkeley.edu',
 	},
-	Aman: {
-		name: 'Aman Sidhant',
-		role: 'Product Manager',
+	Jessica: {
+		name: 'Jessica Wu',
+		role: 'Head of Finance',
 		description:
-			'I’m a rising senior studying Electrical Engineering and Computer Science at UC Berkeley. I’m passionate about technology and its impact on the world. My hobbies include reading books, coding, playing guitar and video games. During quarantine I have also discovered several secret spots across campus, so hmu for some suggestions!',
-		linkedin: 'linkedin.com/in/amansidhant',
-		mail: 'mailto: amansidhant@berkeley.edu',
+			'',
+		linkedin: '#',
+		mail: 'mailto: ',
+	},
+	Izzie: {
+		name: 'Izzie Lau',
+		role: 'Head of Marketing',
+		description:
+			'',
+		linkedin: '#',
+		mail: 'mailto: ',
+	},
+	Cindy: {
+		name: 'Cindy Liu',
+		role: 'Head of Projects - Design',
+		description:
+			'',
+		linkedin: '#',
+		mail: 'mailto: ',
+	},
+	Noor: {
+		name: 'Noor Mahini',
+		role: 'Head of Projects - Dev',
+		description:
+			'',
+		linkedin: '#',
+		mail: 'mailto: ',
 	},
 	Emily: {
 		name: 'Emily Su',
@@ -112,28 +143,58 @@ export const leadershipData = {
 		linkedin: 'https://www.linkedin.com/in/neha-haq/',
 		mail: 'mailto: nwhaq1@berkeley.edu',
 	},
-	Alex: {
-		name: 'Alex Wu',
-		role: 'Educator',
-		description: 'Engineer & startup founder who likes udon.',
-		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
-		mail: 'mailto: jialin_wu@berkeley.edu',
+	Caelin: {
+		name: 'Caelin Sutch',
+		role: 'Product Manager',
+		description:
+			'',
+		linkedin: '#',
+		mail: 'mailto: ',
+	},
+	Alina: {
+		name: 'Alina Wang',
+		role: 'Project Manager',
+		description:
+			'',
+		linkedin: '#',
+		mail: 'mailto: ',
+	},
+	Albert: {
+		name: 'Albert Tian',
+		role: 'Project Manager',
+		description:
+			'',
+		linkedin: '#',
+		mail: 'mailto: ',
 	},
 	Arushi: {
 		name: 'Arushi Somani',
-		role: 'Educator',
+		role: 'Frontend Educator',
 		description:
 			'Hey! I’m a sophomore studying CS with an interest in econ and philosophy who’s mildly addicted to pav bhaji, acoustic music, and random astronomy facts. I love talking about all things CS and Berkeley and life and finding internships and starting companies and whatever! I wanna help you out however I can. Email me, let’s chat!',
 		linkedin: 'https://www.linkedin.com/in/arushisomani',
 		mail: 'mailto: arushisomani@berkeley.edu',
 	},
+	Hector: {
+		name: 'Hector Ramos',
+		role: 'Reader/Tutor',
+		description:
+			'',
+		linkedin: '#',
+		mail: 'mailto: ',
+	},
 	images: {
-		Tijmen: Tijmen,
 		April: April,
-		Aman: Aman,
+		Jessica: Jessica,
+		Izzie: Izzie,
+		Cindy: Cindy,
+		Noor: Noor,
 		Neha: Neha,
 		Emily: Emily,
-		Alex: Alex,
+		Caelin: Caelin,
+		Alina: Alina,
+		Albert: Albert,
 		Arushi: Arushi,
+		Hector: Hector,
 	},
 };

@@ -38,12 +38,13 @@ const Education = () => {
 				<Row>
 					<Col xs={12} className="text-center">
 						<p className="subtitle">
-							In our Education track, we offer students the unique opportunity
-							to gain a comprehensive web development education in both frontend
-							and backend. Students will receive interactive lessons taught by
-							Berkeley students experienced in Web Development. Students will be
-							learning alongside a small cohort of other club members, meaning
-							lessons will be highly personalized to each individual.
+							In our Education Branch, we offer students the unique opportunity
+							to gain a comprehensive web development education in both frontend, 
+							UI/UX design, and backend. 
+							Students will receive interactive lessons taught by experienced Berkeley 
+							students as well as hands-on project experiences.
+							Students will be learning alongside a small cohort of other club members, 
+							meaning lessons will be highly personalized to each individual.
 						</p>
 					</Col>
 				</Row>

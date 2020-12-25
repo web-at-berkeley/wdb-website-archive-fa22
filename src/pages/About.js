@@ -28,10 +28,10 @@ const About = () => {
 				<Row className="justify-content-center">
 					<Col xs={12} sm={11} className="text-center">
 						<p className="subtitle">
-							Web Development at Berkeley aims to increase awareness of web
-							development education and technologies within the Berkeley
-							community, centralizing the scattered web education opportunities
-							and resources offered by current campus organizations.
+							Web Development at Berkeley is UC Berkeley's first web 
+							development-focused organization, bringing full-stack web 
+							development education and hands-on industry development experience 
+							to UC Berkeley students.
 						</p>
 						<img src={Line1} alt="line" className="line-1" draggable="false" />
 						<img src={Line2} alt="line" className="line-2" draggable="false" />

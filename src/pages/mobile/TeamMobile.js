@@ -36,14 +36,23 @@ const Team = () => {
 	const members = [
 		'Samarth',
 		'Vicky',
-		'Ervin',
-		'Justin',
-		'Aditya',
-		'Aman',
 		'Alex',
-		'Emily',
+		'Justin',
+		'Tijmen',
+		'Aditya',
+		'Jasmine',
+		'April',
+		'Jessica',
+		'Izzie',
+		'Cindy',
+		'Noor',
 		'Arushi',
+		'Hector',
+		'Emily',
 		'Neha',
+		'Caelin',
+		'Alina',
+		'Albert',
 	];
 
 	return (

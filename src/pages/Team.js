@@ -103,11 +103,11 @@ const Team = () => {
 								onMouseEnter={() => updateInfo('Samarth')}
 							/>
 							<img
-								src={teamImages.Spider}
-								alt="spider"
+								src={teamImages.Tijmen}
+								alt="tijmen"
 								className="team-image member-2 selectDisable"
 								draggable="false"
-								onMouseEnter={() => updateInfo('Spider')}
+								onMouseEnter={() => updateInfo('Tijmen')}
 							/>
 						</Col>
 						<Col xs={2} className="image-col">
@@ -119,11 +119,18 @@ const Team = () => {
 								onMouseEnter={() => updateInfo('Vicky')}
 							/>
 							<img
-								src={teamImages.Ervin}
-								alt="ervin"
+								src={teamImages.Alex}
+								alt="alex"
 								className="team-image member-4 selectDisable"
 								draggable="false"
-								onMouseEnter={() => updateInfo('Ervin')}
+								onMouseEnter={() => updateInfo('Alex')}
+							/>
+							<img
+								src={teamImages.Jasmine}
+								alt="jasmine"
+								className="team-image member-4 selectDisable"
+								draggable="false"
+								onMouseEnter={() => updateInfo('Jasmine')}
 							/>
 						</Col>
 						<Col xs={2} className="image-col">
@@ -150,9 +157,9 @@ const Team = () => {
 						/>
 					</Row>
 				</Container>
-				<TeamLevel title="extended leadership" data={['Tijmen', 'April']} />
-				<TeamLevel title="educators" data={['Arushi', 'Alex']} />
-				<TeamLevel title="product managers" data={['Neha', 'Aman', 'Emily']} />
+				<TeamLevel title="leadership" data={['April', 'Jessica', 'Izzie', 'Cindy', 'Noor']} />
+				<TeamLevel title="course staff" data={['Arushi', 'Hector']} />
+				<TeamLevel title="team leads" data={['Neha', 'Emily', 'Caelin', 'Alina', 'Albert']} />
 				<Footer />
 			</div>
 			<TeamMobile />
