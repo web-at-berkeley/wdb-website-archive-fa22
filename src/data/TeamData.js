@@ -108,7 +108,7 @@ export const leadershipData = {
 		name: 'Izzie Lau',
 		role: 'Head of Marketing',
 		description:
-			'',
+			"Hey! I'm Izzie and I'm a junior at Berkeley! I love applying the intersection of computer science and design to real-world projects-- I'm a super hands-on learner! I especially love creating beautiful and intuitive websites, so I'm really excited to join WDB in its early stages ( ᵘ ꒳ ᵘ ✼)!",
 		linkedin: 'https://www.linkedin.com/in/izzielau/',
 		mail: 'mailto: isabellalau@berkeley.edu',
 	},
@@ -132,7 +132,7 @@ export const leadershipData = {
 		name: 'Emily Su',
 		role: 'Product Manager',
 		description:
-			'Hi! My name is Emily and I’m a sophomore studying CS & ORMS. I love working with others to create cool technologies and web development is no exception! In my free time, I like to try new recipes, swim, and listen to French pop.',
+			"Hi! I'm Emily and I’m a sophomore studying CS & ORMS. I love working with others to create cool technologies and web development is no exception! I love swimming, French pop, and green tea!",
 		linkedin: 'https://www.linkedin.com/in/emily-su/',
 		mail: 'mailto: emilysu@berkeley.edu',
 	},
@@ -148,7 +148,7 @@ export const leadershipData = {
 		name: 'Caelin Sutch',
 		role: 'Product Manager',
 		description:
-			'',
+			"Hey there! I'm Caelin, a first-year student in the MET program studying EECS and Business. I'm really passionate about product development and human-centric design. When not working on various projects, you'll find me listening to music, playing the sax, or going for long runs in Berkeley",
 		linkedin: 'https://www.linkedin.com/in/caelinsutch/',
 		mail: 'mailto: caelinsutch@berkeley.edu',
 	},
