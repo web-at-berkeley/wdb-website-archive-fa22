@@ -11,21 +11,21 @@ import Col from 'react-bootstrap/Col';
 import Overlay from '../img/projects/overlay.png';
 import OverlayRotated from '../img/projects/overlay-rotated.png';
 
-import Resource19 from '../img/projects/resource19.png';
-import GroTech from '../img/projects/grotech.png';
-import Frio from '../img/projects/frio.png';
-import Formula from '../img/projects/formula.png';
-import Tbf from '../img/projects/tbf.png';
-import Cloud from '../img/projects/cloud.png';
-import Ansari from '../img/projects/AnsariPage.png';
-import Netic from '../img/projects/neticpage.png';
-import TitanRig from '../img/projects/titanrig.png';
-import Carepath from '../img/projects/carepath.png';
-import SouthAsianCenter from '../img/projects/artist.png';
-import CMES from '../img/projects/cmes.png';
-import UDoItLegal from '../img/projects/legal.png';
+import Resource19 from '../img/projects/Resource19.png';
+import GroTech from '../img/projects/GroTech.png';
+import Frio from '../img/projects/Frio.png';
+import FormulaElectric from '../img/projects/FormulaElectric.png';
+import TBF from '../img/projects/TBF.png';
+import CloudAtCal from '../img/projects/CloudAtCal.png';
+import Ansari from '../img/projects/Ansari.png';
+import Netic from '../img/projects/Netic.png';
+import TitanRig from '../img/projects/TitanRig.png';
+import Carepath from '../img/projects/Carepath.png';
+import SAAI from '../img/projects/SAAI.png';
+import CMES from '../img/projects/CMES.png';
+import UDoItLegal from '../img/projects/UDoItLegal.png';
 import BPT from '../img/projects/BPT.png';
-import Barracuda from '../img/projects/BarracudaTechnologies.png';
+import BarracudaTechnologies from '../img/projects/BarracudaTechnologies.png';
 
 import '../css/Projects.scss';
 
@@ -63,7 +63,7 @@ const Projects = () => {
 							rel="noopener noreferrer"
 						>
 							<img
-								src={Barracuda}
+								src={BarracudaTechnologies}
 								alt="Barracuda Technologies"
 								className="screenshot selectDisable"
 								draggable="false"
@@ -173,7 +173,7 @@ const Projects = () => {
 							rel="noopener noreferrer"
 						>
 							<img
-								src={SouthAsianCenter}
+								src={SAAI}
 								alt="UC Berkeley SAAI Artists Residency"
 								className="screenshot selectDisable"
 								draggable="false"
@@ -251,7 +251,7 @@ const Projects = () => {
 							rel="noopener noreferrer"
 						>
 							<img
-								src={Tbf}
+								src={TBF}
 								alt="The Berkeley Forum"
 								className="screenshot selectDisable"
 								draggable="false"
@@ -291,7 +291,7 @@ const Projects = () => {
 							rel="noopener noreferrer"
 						>
 							<img
-								src={Formula}
+								src={FormulaElectric}
 								alt="Formula Electric at Berkeley"
 								className="screenshot selectDisable"
 								draggable="false"
@@ -369,7 +369,7 @@ const Projects = () => {
 							rel="noopener noreferrer"
 						>
 							<img
-								src={Cloud}
+								src={CloudAtCal}
 								alt="Cloud at California"
 								className="screenshot selectDisable"
 								draggable="false"
