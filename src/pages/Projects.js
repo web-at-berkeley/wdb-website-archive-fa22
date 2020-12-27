@@ -24,8 +24,8 @@ import Carepath from '../img/projects/carepath.png';
 import SouthAsianCenter from '../img/projects/artist.png';
 import CMES from '../img/projects/cmes.png';
 import UDoItLegal from '../img/projects/legal.png';
-import BPT from '../img/projects/bpt.png';
-import Barracuda from '../img/projects/barracudaPage.png';
+import BPT from '../img/projects/BPT.png';
+import Barracuda from '../img/projects/BarracudaTechnologies.png';
 
 import '../css/Projects.scss';
 

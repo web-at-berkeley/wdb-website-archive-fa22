@@ -9,8 +9,8 @@ import Netic from '../img/projects/neticpage.png';
 import TitanRig from '../img/projects/titanrig.png';
 import Carepath from '../img/projects/carepath.png';
 import SouthAsianCenter from '../img/projects/artist.png';
-import CMES from '../img/projects/cmes.png';
-import UDoItLegal from '../img/projects/legal.png';
+import CMES from '../img/projects/CMES.png';
+import UDoItLegal from '../img/projects/UDoItLegal.png';
 import BPT from '../img/projects/BPT.png';
 import BarracudaTechnologies from '../img/projects/BarracudaTechnologies.png';
 
@@ -18,8 +18,20 @@ export const CurrentProjectData = [
 	{
 		name: 'Best Path Projects',
 		cover: BPT,
-		link: 'https://www.barra-labs.com/',
-		technologies: ['Figma', 'Google Cloud', 'React'],
+		link: '',
+		technologies: ['Google Cloud', 'React'],
+	},
+	{
+		name: 'U-Do-It Legal',
+		cover: UDoItLegal,
+		link: '',
+		technologies: ['Amazon Web Services', 'React'],
+	},
+	{
+		name: 'UC Berkeley CMES',
+		cover: CMES,
+		link: '',
+		technologies: ['Figma', 'Adobe Illustrator'],
 	},
 ];
 
