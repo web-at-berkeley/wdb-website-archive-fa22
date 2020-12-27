@@ -6,17 +6,17 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Graphic from '../img/about/education/graphic.png';
-import GraphicMobile from '../img/about/education/graphic-mobile.png';
+// import Graphic from '../img/about/education/graphic.png';
+// import GraphicMobile from '../img/about/education/graphic-mobile.png';
 import RightNav from '../img/right-nav.png';
 
 import '../css/Education.scss';
 
 const Education = () => {
-	let GraphicVersion = Graphic;
-	if (matchMedia('(max-width: 992px)').matches) {
-		GraphicVersion = GraphicMobile;
-	}
+	// let GraphicVersion = Graphic;
+	// if (matchMedia('(max-width: 992px)').matches) {
+	// 	GraphicVersion = GraphicMobile;
+	// }
 	return (
 		<div className="education">
 			<SiteNavbar />
@@ -27,7 +27,7 @@ const Education = () => {
 					className="right-nav"
 					draggable="false"
 				/>
-				<Row>
+				{/* <Row>
 					<Col xs={12} className="text-center">
 						<h1 className="header">
 							Education
@@ -57,7 +57,7 @@ const Education = () => {
 							draggable="false"
 						/>
 					</Col>
-				</Row>
+				</Row> */}
 			</Container>
 		</div>
 	);

@@ -68,6 +68,7 @@ const LandingNavbar = () => {
 								</Link>
 							</div>
 						</div>
+
 						<Link to="/team" className="link-tag">
 							<p className="nav-text">Team</p>
 						</Link>

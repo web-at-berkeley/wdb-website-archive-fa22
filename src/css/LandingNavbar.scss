@@ -1,112 +1,122 @@
 .landing-navbar {
 	padding: 10vh 0 0 7%;
-}
 
-.landing-navbar .logo {
-	margin-right: 1.2rem;
-	width: 120px;
-}
+	.logo {
+		margin-right: 1.2rem;
+		width: 120px;
+	}
 
-.landing-navbar .link-tag:hover {
-	text-decoration: none;
-}
+	.link-tag {
+		&:hover {
+			text-decoration: none;
+		}
+	}
 
-.landing-navbar .nav-text {
-	font-size: 29px;
-	color: white;
-	padding: 0;
-	margin: 0 0.9rem;
-	letter-spacing: 0.11em;
-	text-transform: uppercase;
-}
+	.nav-text {
+		font-size: 29px;
+		color: white;
+		padding: 0;
+		margin: 0 0.9rem;
+		letter-spacing: 0.11em;
+		text-transform: uppercase;
+	}
 
-.landing-navbar p:after {
-	display: block;
-	content: '';
-	border-bottom: solid 1px #ffffff;
-	transform: scaleX(0);
-	transition: transform 350ms ease-in-out;
-}
-.landing-navbar p:hover:after {
-	transform: scaleX(1);
-}
-.landing-navbar p.nav-text:after {
-	transform-origin: 0% 50%;
-}
+	p {
+		&:after {
+			display: block;
+			content: '';
+			border-bottom: solid 1px #ffffff;
+			transform: scaleX(0);
+			transition: transform 350ms ease-in-out;
+		}
+		&:hover:after {
+			transform: scaleX(1);
+		}
+		&.nav-text:after {
+			transform-origin: 0% 50%;
+		}
+	}
 
-.landing-navbar .tab-text {
-	padding-left: 1.5rem;
-}
-.landing-navbar .tab-text-container {
-	display: none;
-}
+	.dropdown {
+		position: relative;
+		display: block;
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: transparent;
+			min-width: 160px;
+			padding-top: 0.5rem;
+			z-index: 1;
+			transition: 0.5s ease;
+			.link-tag {
+				padding-bottom: 0.5rem;
+				display: block;
+			}
+		}
+		&:hover .dropdown-content {
+			display: block;
+		}
+	}
 
-.landing-navbar .about-nav-phone {
-	display: none;
-}
-.landing-navbar .dropdown {
-	position: relative;
-	display: block;
-}
-.landing-navbar .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: transparent;
-	min-width: 160px;
-	padding-top: 0.5rem;
-	z-index: 1;
-	transition: 0.5s ease;
-}
-.landing-navbar .dropdown-content .link-tag {
-	padding-bottom: 0.5rem;
-	display: block;
-}
-.landing-navbar .dropdown:hover .dropdown-content {
-	display: block;
+	.about-nav-phone {
+		display: none;
+		.tab-text-container {
+			display: none;
+			.tab-text {
+				padding-left: 1.5rem;
+			}
+		}
+	}
 }
 
 @media only screen and (max-width: 1700px) {
-	.landing-navbar .nav-text {
-		font-size: 25px;
-	}
-	.logo {
-		width: 100px;
+	.landing-navbar {
+		.logo {
+			width: 100px;
+		}
+		.nav-text {
+			font-size: 25px;
+		}
 	}
 }
 
 @media only screen and (max-width: 1400px) {
-	.landing-navbar .nav-text {
-		font-size: 20px;
+	.landing-navbar {
+		.nav-text {
+			font-size: 20px;
+		}
 	}
 }
 @media only screen and (max-width: 1000px) {
-	.landing-navbar .about-nav-phone {
-		display: block;
+	.landing-navbar {
+		padding: 5vh 10% 0 7%;
+		.about-nav-phone {
+			display: block;
+		}
+		.dropdown {
+			display: none;
+		}
+
+		p:after {
+			display: none;
+			content: '';
+			border-bottom: none;
+		}
+		.tab-text-container {
+			display: inline;
+		}
+		.logo {
+			margin-right: 1.5rem;
+			width: 100px;
+		}
+		.nav-text {
+			margin: 0;
+			margin-left: 3.15%;
+		}
 	}
-	.landing-navbar .dropdown {
-		display: none;
-	}
+
 	#basic-navbar-nav {
 		padding-top: 1vh;
 		margin-left: -3%;
-	}
-	.landing-navbar {
-		padding: 5vh 10% 0 7%;
-	}
-	.landing-navbar p:after {
-		display: none;
-		content: '';
-		border-bottom: none;
-	}
-	.landing-navbar .tab-text-container {
-		display: inline;
-	}
-	.landing-navbar .logo {
-		margin-right: 1.5rem;
-		width: 100px;
-	}
-	.landing-navbar .nav-text {
-		margin: 0;
-		margin-left: 3.15%;
 	}
 }

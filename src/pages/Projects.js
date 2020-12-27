@@ -57,7 +57,7 @@ const Projects = () => {
 					<Col xs={12} xl={6} className="partner">
 						<a
 							href="https://www.barra-labs.com/"
-							title="Barracude Labs"
+							title="Barracuda Labs"
 							className="screenshot"
 							target="_blank"
 							rel="noopener noreferrer"
