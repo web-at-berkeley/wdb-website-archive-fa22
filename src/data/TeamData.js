@@ -32,7 +32,7 @@ export const execData = {
 	Alex: {
 		name: 'Alex Wu',
 		role: 'VP Education',
-		description: 'Engineer & startup founder who likes udon.',
+		description: 'Hi everyone! My name is Alex, and I am a third-year computer science major. Besides web development, I love drawing prototypes on Figma and building startups. In my free time, I practice magic & cardistry and play chess & hearthstone.',
 		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
 		mail: 'mailto: jialin_wu@berkeley.edu',
 	},
@@ -92,7 +92,7 @@ export const leadershipData = {
 		name: 'April Ma',
 		role: 'Head of Legal',
 		description:
-			"I'm a second year student at UC Berkeley studying Political Science and minoring in History and Global Studies. I am the head of the Legal Department for Web Dev @ Berkeley and make sure our project contracts work smoothly for both our PM's and clients. When I'm not preventing the club from committing tax fraud, I teach debate at a local high school and take scenic bus rides to Trader Joe's. I am unofficially the club's token Humanities student. Go bears?",
+			"I am the Head of the Legal Department at WDB and handle the paperwork side of client-contractor relationships. I'm a second year from Kansas who, when not preventing WDB fraud incidents, enjoys the chaos of Twitter and short walks in the deep end of the woods. I use they/them pronouns.",
 		linkedin: 'https://www.linkedin.com/in/april-ma',
 		mail: 'mailto: aprilma@berkeley.edu',
 	},
@@ -116,15 +116,15 @@ export const leadershipData = {
 		name: 'Cindy Liu',
 		role: 'Head of Projects - Design',
 		description:
-			'',
+			"Hi! My name is Cindy, and I'm a sophomore studying English and Public Health. I became passionate about web design after attending my first hackathon last year, and I love learning about UX design/writing. In my free time, you can find me dogspotting or doing calligraphy!",
 		linkedin: 'https://www.linkedin.com/in/cindy-liu-a52a0a194/',
-		mail: 'mailto: ',
+		mail: 'mailto: liu.cindy@berkeley.edu',
 	},
 	Noor: {
 		name: 'Noor Mahini',
 		role: 'Head of Projects - Dev',
 		description:
-			'',
+			"Hello there! I'm Noor and I'm a sophomore majoring in EECS. In my free time, I like to play video games (mostly Nintendo), piano, viola, and tennis. If you ever want to talk about any of the above or Avatar The Last Airbender and what type of bender you'd want to be, hit me up!",
 		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
 		mail: 'mailto: nmahini@berkeley.edu',
 	},
@@ -172,7 +172,7 @@ export const leadershipData = {
 		name: 'Ansa Schmulbach',
 		role: 'Project Manager',
 		description:
-			'',
+			"I'm Ansa Schmulbach, a first year studying EECS, and outside of web development, I'm super excited about developing and occasionally playing video games. I'm also passionate about making technology more accessible and learning about assistive technologies currently being developed. Other hobbies of mine include baking, cooking, and painting!",
 		linkedin: 'https://www.linkedin.com/in/viansa-schmulbach-74b055167/',
 		mail: 'mailto: ansa@berkeley.edu',
 	},
