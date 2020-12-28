@@ -12,7 +12,7 @@ import Projects from './pages/Projects';
 import Apply from './pages/Apply';
 import ErrorPage from './pages/404';
 
-import './css/App.css';
+import './App.css';
 
 const App = () => {
 	return (
@@ -20,7 +20,7 @@ const App = () => {
 			<Router>
 				<Landing path="/" />
 				<About path="/about" />
-				{/* <Education path="/about/education" /> */}
+				<Education path="/about/education" />
 				<Development path="/about/development" />
 				<Partnerships path="/about/partnerships" />
 				<Team path="/team" />

@@ -1,0 +1,64 @@
+.member-modal {
+	text-align: center;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.11);
+	border-radius: 10px;
+	.modal-content {
+		box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.11);
+		border-radius: 15px;
+		.modal-header {
+			border-bottom: none;
+		}
+		.modal-body {
+			padding: 10% 5%;
+			padding-top: 0;
+		}
+	}
+
+	.social-row {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		.social-icon {
+			transition: 0.2s ease;
+			width: 100%;
+		}
+		.social-icon:hover {
+			transform: scale(1);
+		}
+		a:hover {
+			text-decoration: none;
+		}
+
+		img {
+			width: 50%;
+		}
+	}
+
+	.name {
+		font-family: Raleway;
+		font-weight: 900;
+		font-size: 35px;
+		letter-spacing: 0.22em;
+		text-transform: uppercase;
+		color: #000000;
+		margin-top: 5%;
+	}
+
+	.role {
+		font-family: Rubik;
+		font-weight: 500;
+		font-size: 25px;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: #5f60ff;
+		margin-bottom: 3%;
+	}
+
+	.description {
+		font-family: Rubik;
+		font-size: 21px;
+		line-height: 1.3;
+		letter-spacing: 0.1em;
+		color: #000000;
+	}
+}

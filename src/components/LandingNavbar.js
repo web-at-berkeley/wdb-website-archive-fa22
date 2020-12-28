@@ -9,7 +9,7 @@ import Modal from 'react-bootstrap/Modal';
 
 import LogoWhite from '../img/site-nav/logo-white.png';
 
-import '../css/LandingNavbar.scss';
+import './css/LandingNavbar.scss';
 
 const LandingNavbar = () => {
 	const [show, setShow] = useState(false);

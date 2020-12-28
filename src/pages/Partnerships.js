@@ -16,11 +16,11 @@ import Cloud from '../img/about/partnerships/cloud.png';
 import Tbf from '../img/about/partnerships/tbf.png';
 import Stac from '../img/about/partnerships/stac.png';
 
-import '../css/Partnerships.scss';
+import './css/Partnerships.scss';
 
 const Partnerships = () => {
 	return (
-		<div className="partnerships education">
+		<div className="about-page partnerships">
 			<SiteNavbar />
 			<Container fluid className="body">
 				<img
@@ -29,17 +29,13 @@ const Partnerships = () => {
 					className="right-nav selectDisable"
 					draggable="false"
 				/>
-				<img
+				{/* <img
 					src={Blobs}
 					alt="blobs"
 					className="blobs selectDisable"
 					draggable="false"
-				/>
-				<Row>
-					<Col xs={12} className="text-center">
-						<h1 className="header">Giving Back</h1>
-					</Col>
-				</Row>
+				/> */}
+				<h1 className="header">Giving Back</h1>
 				<Row>
 					<Col xs={12} className="text-center">
 						<p className="subtitle">
@@ -50,15 +46,10 @@ const Partnerships = () => {
 							development.
 						</p>
 						<Contact />
-						<hr style={{ width: '60%', borderTop: '2px solid #5F60FF' }} />
 					</Col>
 				</Row>
 
-				<Row>
-					<Col xs={12} className="text-center">
-						<h3 className="sub-subtitle">Our Partners</h3>
-					</Col>
-				</Row>
+				<h3 className="sub-subtitle">Our Partners</h3>
 
 				<Row className="justify-content-center">
 					<Col xs={12} md={4} lg={3} className="text-center partner-col">

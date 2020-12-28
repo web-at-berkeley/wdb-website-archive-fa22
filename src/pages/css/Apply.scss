@@ -1,0 +1,239 @@
+.apply {
+	overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 20%;
+
+	.body {
+		padding: 9rem 3%;
+	}
+
+	.recruitment-timeline {
+		width: 100%;
+		margin: 0;
+	}
+
+	.recruitment-timeline-mobile {
+		width: 100%;
+		margin: 0;
+		display: none;
+	}
+
+	.apply-button {
+		color: white;
+		background-image: linear-gradient(to right, #51f4f9, #55c9fb);
+		padding: 12px;
+		padding-left: 35px;
+		padding-right: 35px;
+		font-size: 30px;
+		border-radius: 300px;
+		width: 350px;
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		transition: all 0.5s ease;
+		&:hover {
+			color: white;
+			transform: scale(1.05);
+			text-decoration: none;
+		}
+	}
+	.infosession-button {
+		margin-bottom: 2rem;
+		background-image: linear-gradient(to right, #9f5ef4, #5f60ff);
+		opacity: 0.77;
+	}
+
+	.recruitment-info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 3%;
+
+		.what-to-expect {
+			font-family: 'Raleway';
+			font-weight: 700;
+			font-size: 3.2vw;
+			letter-spacing: 0.12em;
+			text-transform: uppercase;
+			color: #5f60ff;
+			margin-bottom: 2.5%;
+		}
+
+		.recruitment-card-row {
+			display: flex;
+			justify-content: center;
+
+			.recruitment-card {
+				background: #ffffff;
+				box-shadow: 3px 2px 29px rgba(95, 96, 255, 0.15);
+				border-radius: 32px;
+				width: 43%;
+				margin: 3vw;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+				padding: 3%;
+			}
+		}
+	}
+
+	.card {
+		box-shadow: none;
+		border: none;
+		font-size: 1.75vw;
+		margin-bottom: 3%;
+		width: 70%;
+		&.role {
+			font-family: 'Raleway';
+			font-weight: 600;
+			font-size: 3.2vw;
+			color: #5f60ff;
+		}
+		&.bold {
+			font-family: 'Rubik';
+			font-weight: 500;
+			margin-top: 3%;
+		}
+	}
+
+	@media only screen and (max-width: 992px) {
+		.body {
+			padding: 0 5%;
+			padding-bottom: 10%;
+		}
+
+		.recruitment-info {
+			margin-top: 3%;
+
+			.what-to-expect {
+				font-size: 4.8vw;
+				margin-bottom: 2.5%;
+			}
+
+			.recruitment-card-row {
+				flex-direction: column;
+
+				.recruitment-card {
+					width: 100%;
+					margin: 0;
+					margin-bottom: 10%;
+					padding: 5% 2%;
+				}
+			}
+		}
+
+		.card {
+			font-size: 3vw;
+			margin-bottom: 2%;
+			&.role {
+				font-size: 5vw;
+				margin-bottom: 1%;
+			}
+			&.bold {
+				margin-top: 2.5%;
+			}
+		}
+	}
+
+	@media only screen and (max-width: 576px) {
+		.recruitment-info {
+			.what-to-expect {
+				font-size: 7vw;
+				margin-bottom: 10%;
+			}
+
+			.recruitment-card-row {
+				.recruitment-card {
+					padding: 9% 0;
+				}
+			}
+		}
+
+		.card {
+			font-size: 5vw;
+			margin-bottom: 2%;
+			&.role {
+				font-size: 9vw;
+				margin-bottom: 3%;
+			}
+			&.bold {
+				margin-top: 2.5%;
+			}
+		}
+	}
+}
+
+// @media only screen and (max-width: 992px) {
+// 	.apply {
+// 		.body {
+// 			padding-top: 3rem;
+// 			padding-left: 5rem !important;
+// 			padding-right: 5rem !important;
+// 		}
+
+// 		.recruitment-timeline {
+// 			display: none;
+// 		}
+
+// 		.recruitment-timeline-mobile {
+// 			width: 100%;
+// 			margin: 40px 0 50px 0;
+// 			display: block;
+// 		}
+// 		.what-to-expect {
+// 			font-size: 45px;
+// 		}
+// 		.apply-button {
+// 			font-size: 24px;
+// 			width: 350px;
+// 		}
+// 		.recruitment-card-row {
+// 			flex-direction: column;
+// 		}
+// 		.card {
+// 			font-size: 19px;
+// 			&.role {
+// 				font-size: 32px;
+// 			}
+// 		}
+// 	}
+// }
+
+// @media only screen and (max-width: 600px) {
+// 	.apply {
+// 		.body {
+// 			padding-top: 3rem;
+// 			padding-left: 3rem !important;
+// 			padding-right: 3rem !important;
+// 		}
+
+// 		.recruitment-info {
+// 			margin-top: 20px;
+// 			margin-bottom: 50px;
+// 		}
+// 		.what-to-expect {
+// 			font-size: 25px;
+// 			margin-bottom: 0;
+// 		}
+// 		.recruitment-card {
+// 			border-radius: 20px;
+// 			width: 80%;
+// 			padding-right: 10px;
+// 			padding-left: 10px;
+// 		}
+// 		.card {
+// 			font-size: 15px;
+// 			width: 90%;
+// 			&.role {
+// 				font-size: 23px;
+// 			}
+// 		}
+// 		.apply-button {
+// 			font-size: 20px;
+// 			width: 300px;
+// 		}
+// 	}
+// }

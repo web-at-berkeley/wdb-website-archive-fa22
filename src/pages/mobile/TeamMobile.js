@@ -2,18 +2,16 @@ import React, { useState } from 'react';
 
 import Navbar from '../../components/SiteNavbar';
 import Footer from '../../components/Footer';
-import { execData, leadershipData } from '../../data/TeamData';
+import MemberModal from '../../components/MemberModal';
+import { ExecData, LeadershipData } from '../../data/TeamData';
 
-import Modal from 'react-bootstrap/Modal';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Bubbles from '../../img/team/bubbles.png';
-import Linkedin from '../../img/team/linkedin.png';
-import Mail from '../../img/team/mail.png';
 
-import '../../css/Team.scss';
+import '../css/Team.scss';
 
 const Team = () => {
 	const [showMember, setShowMember] = useState(false);
@@ -23,24 +21,17 @@ const Team = () => {
 
 	const [data, setData] = useState({});
 
-	const updateInfo = (name) => {
-		if (execData.hasOwnProperty(name)) {
-			setData(execData[name]);
-		} else {
-			setData(leadershipData[name]);
-		}
+	const updateExecInfo = (index) => {
+		setData(ExecData[index]);
 		handleShowMember();
 	};
 
-	const teamImages = { ...execData.images, ...leadershipData.images };
+	const updateInfo = (name) => {
+		setData(LeadershipData[name]);
+		handleShowMember();
+	};
+
 	const members = [
-		'Samarth',
-		'Vicky',
-		'Alex',
-		'Justin',
-		'Tijmen',
-		'Aditya',
-		'Jasmine',
 		'April',
 		'Jessica',
 		'Izzie',
@@ -53,7 +44,7 @@ const Team = () => {
 		'Caelin',
 		'Alina',
 		'Albert',
-		'Ansa'
+		'Ansa',
 	];
 
 	return (
@@ -61,7 +52,7 @@ const Team = () => {
 			<Navbar />
 			<Container fluid className="body">
 				<Row>
-					<Col xs={12} className="text-center title-col">
+					<Col xs={12} className="title-col">
 						<h1 className="header">Meet The Team.</h1>
 						<p className="subtitle">
 							We are a team of UC Berkeley Students who are passionate about
@@ -71,12 +62,24 @@ const Team = () => {
 					</Col>
 				</Row>
 				<Row>
+					{ExecData.map((person, index) => (
+						<Col xs={6} className="image-col" key={person.name}>
+							<img
+								src={person.image}
+								alt={person.name}
+								className="team-image"
+								draggable="false"
+								onClick={() => updateExecInfo(index)}
+							/>
+						</Col>
+					))}
+
 					{members.map((person) => (
 						<Col xs={6} className="image-col" key={person}>
 							<img
-								src={teamImages[person]}
+								src={LeadershipData[person].image}
 								alt={person}
-								className="team-image selectDisable"
+								className="team-image"
 								draggable="false"
 								onClick={() => updateInfo(person)}
 							/>
@@ -86,51 +89,14 @@ const Team = () => {
 					<img
 						src={Bubbles}
 						alt="bubbles"
-						className="bubbles selectDisable"
+						className="bubbles"
 						draggable="false"
 					/>
 				</Row>
 			</Container>
-			<Modal
-				show={showMember}
-				onHide={handleCloseMember}
-				className="member-modal"
-				centered
-			>
-				<Modal.Header
-					closeButton
-					style={{
-						border: 'none',
-						paddingBottom: '0',
-					}}
-				>
-					<div style={{ display: 'flex', flexDirection: 'column' }}>
-						<h2 className="name" id="name">
-							{data.name}
-						</h2>
-						<h3 className="role" id="role">
-							{data.role}
-						</h3>
-					</div>
-				</Modal.Header>
-				<Modal.Body>
-					<p className="description" id="description">
-						{data.description}
-					</p>
-					<div className="social-row">
-						<a href={data.linkedin} id="linkedin">
-							<img
-								src={Linkedin}
-								alt="linkedin"
-								className="social-icon linkedin-icon"
-							/>
-						</a>
-						<a href={data.mail} id="mail">
-							<img src={Mail} alt="mail" className="social-icon mail-icon" />
-						</a>
-					</div>
-				</Modal.Body>
-			</Modal>
+
+			<MemberModal show={showMember} close={handleCloseMember} data={data} />
+
 			<Footer />
 		</div>
 	);

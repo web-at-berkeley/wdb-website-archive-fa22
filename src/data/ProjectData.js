@@ -14,7 +14,7 @@ import UDoItLegal from '../img/projects/UDoItLegal.png';
 import BPT from '../img/projects/BPT.png';
 import BarracudaTechnologies from '../img/projects/BarracudaTechnologies.png';
 
-export const CurrentProjectData = [
+export const Fall2020ProjectData = [
 	{
 		name: 'Best Path Transit',
 		cover: BPT,
@@ -38,16 +38,22 @@ export const CurrentProjectData = [
 		cover: Carepath,
 		link: '',
 		technologies: ['React', 'Django', 'Heroku'],
-	}
-];
-
-export const FinishedProjectData = [
+	},
 	{
 		name: 'Barracuda Technologies',
 		cover: BarracudaTechnologies,
 		link: 'https://www.barra-labs.com/',
 		technologies: ['Figma', 'React'],
 	},
+	{
+		name: 'UC Berkeley SAAI Artists Residency',
+		cover: SAAI,
+		link: 'https://www.ucberkeley-saai-artistsresidency.com/',
+		technologies: ['React', 'Figma'],
+	},
+];
+
+export const PastProjectData = [
 	{
 		name: 'Netic Health',
 		cover: Netic,
@@ -59,12 +65,6 @@ export const FinishedProjectData = [
 		cover: Resource19,
 		link: 'https://resource19.org/',
 		technologies: ['React', 'JQuery', 'Sass', 'Firebase'],
-	},
-	{
-		name: 'UC Berkeley SAAI Artists Residency',
-		cover: SAAI,
-		link: 'https://www.ucberkeley-saai-artistsresidency.com/',
-		technologies: ['React', 'Figma' ],
 	},
 	{
 		name: 'Ansari Math',
@@ -83,12 +83,6 @@ export const FinishedProjectData = [
 		cover: FormulaElectric,
 		link: 'https://ev.berkeley.edu/',
 		technologies: ['React', 'Bootstrap'],
-	},
-	{
-		name: 'Barracuda Technologies',
-		cover: BarracudaTechnologies,
-		link: 'https://www.barra-labs.com/',
-		technologies: ['Figma', 'React'],
 	},
 	{
 		name: 'GroTech @Berkeley',

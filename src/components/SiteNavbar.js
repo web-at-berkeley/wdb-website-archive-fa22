@@ -10,8 +10,8 @@ import Modal from 'react-bootstrap/Modal';
 import NavBackground from '../img/site-nav/site-nav-background.png';
 import LogoRainbow from '../img/site-nav/logo-rainbow.png';
 
-import '../css/SiteNavbar.scss';
-import '../css/LandingNavbar.scss';
+import './css/SiteNavbar.scss';
+import './css/LandingNavbar.scss';
 
 const SiteNavbar = (props) => {
 	const [show, setShow] = useState(false);

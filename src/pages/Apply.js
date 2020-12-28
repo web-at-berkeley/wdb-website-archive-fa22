@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 // import Timeline from '../img/apply/timeline.png';
 // import MobileTimeline from '../img/apply/mobile-timeline.png';
 
-import '../css/Apply.scss';
+import './css/Apply.scss';
 
 const Apply = () => {
 	return (
@@ -18,11 +18,7 @@ const Apply = () => {
 			<div className="apply">
 				<SiteNavbar />
 				<Container fluid className="body">
-					<Row>
-						<Col xs={12} className="text-center title-col">
-							<h1 className="header">Join The Team.</h1>
-						</Col>
-					</Row>
+					<h1 className="header">Join The Team.</h1>
 					<p className="subtitle">
 						Our applications for Fall 2020 are now closed. Keep an eye out for
 						our Spring 2021 applications!

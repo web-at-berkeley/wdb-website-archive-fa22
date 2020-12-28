@@ -10,7 +10,7 @@ import Graphic from '../img/about/education/graphic.png';
 import GraphicMobile from '../img/about/education/graphic-mobile.png';
 import RightNav from '../img/right-nav.png';
 
-import '../css/Education.scss';
+import './css/AboutPages.scss';
 
 const Education = () => {
 	let GraphicVersion = Graphic;
@@ -18,7 +18,7 @@ const Education = () => {
 		GraphicVersion = GraphicMobile;
 	}
 	return (
-		<div className="education">
+		<div className="about-page education">
 			<SiteNavbar />
 			<Container fluid className="body">
 				<img

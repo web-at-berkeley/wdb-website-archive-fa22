@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import SiteNavbar from '../components/SiteNavbar';
 import Footer from '../components/Footer';
 import TeamLevel from '../components/TeamLevel';
-import { execData } from '../data/TeamData';
+import { ExecData } from '../data/TeamData';
 import TeamMobile from './mobile/TeamMobile';
 
 import Container from 'react-bootstrap/Container';
@@ -14,18 +14,19 @@ import Bubbles from '../img/team/bubbles.png';
 import Linkedin from '../img/team/linkedin.png';
 import Mail from '../img/team/mail.png';
 
-import '../css/Team.scss';
+import './css/Team.scss';
 
 const Team = () => {
-	const initInfo = execData['Samarth'];
+	const initInfo = ExecData[0];
+
 	const [name, setName] = useState(initInfo.name);
 	const [role, setRole] = useState(initInfo.role);
 	const [description, setDescription] = useState(initInfo.description);
 	const [linkedin, setLinkedin] = useState(initInfo.linkedin);
 	const [mail, setMail] = useState(initInfo.mail);
 
-	const updateInfo = (name) => {
-		const info = execData[name];
+	const updateInfo = (index) => {
+		const info = ExecData[index];
 		setName(info.name);
 		setRole(info.role);
 		setDescription(info.description);
@@ -33,30 +34,25 @@ const Team = () => {
 		setMail(info.mail);
 	};
 
-	const teamImages = execData.images;
-
 	return (
 		<>
 			<div className="team team-desktop">
 				<SiteNavbar />
 				<Container fluid className="body">
 					<Row>
-						<Col xs={12} className="text-center title-col">
+						<Col xs={12} className="title-col">
 							<h1 className="header">Meet The Team.</h1>
 							<p className="subtitle">
 								We are a team of UC Berkeley Students who are passionate about
 								providing education and support in our community for web
 								development.
 							</p>
-							<p
-								className="subtitle"
-								style={{ fontWeight: 500, marginTop: 2 + 'rem' }}
-							>
+							<p className="subtitle bold">
 								Hover over or tap on our photos to learn more about us.
 							</p>
 						</Col>
 					</Row>
-					<Row>
+					<Row className="exec-container">
 						<Col xs={6} className="text-col">
 							<h2 className="name" id="name">
 								{name}
@@ -76,8 +72,8 @@ const Team = () => {
 								>
 									<img
 										src={Linkedin}
-										alt="linkedin"
-										className=" social-icon linkedin-icon selectDisable"
+										alt="Linkedin"
+										className=" social-icon linkedin"
 									/>
 								</a>
 								<a
@@ -86,68 +82,42 @@ const Team = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<img
-										src={Mail}
-										alt="mail"
-										className="social-icon mail-icon selectDisable"
-									/>
+									<img src={Mail} alt="E-Mail" className="social-icon mail" />
 								</a>
 							</div>
 						</Col>
 						<Col xs={2} className="image-col">
-							<img
-								src={teamImages.Samarth}
-								alt="samarth"
-								className="team-image member-1 selectDisable"
-								draggable="false"
-								onMouseEnter={() => updateInfo('Samarth')}
-							/>
-							<img
-								src={teamImages.Tijmen}
-								alt="tijmen"
-								className="team-image member-2 selectDisable"
-								draggable="false"
-								onMouseEnter={() => updateInfo('Tijmen')}
-							/>
+							{ExecData.slice(0, 2).map((exec, index) => (
+								<img
+									src={exec.image}
+									alt={exec.name}
+									className={`team-image member-${index + 1} selectDisable`}
+									draggable="false"
+									onMouseEnter={() => updateInfo(index)}
+								/>
+							))}
 						</Col>
 						<Col xs={2} className="image-col">
-							<img
-								src={teamImages.Vicky}
-								alt="vicky"
-								className="team-image member-3 selectDisable"
-								draggable="false"
-								onMouseEnter={() => updateInfo('Vicky')}
-							/>
-							<img
-								src={teamImages.Alex}
-								alt="alex"
-								className="team-image member-4 selectDisable"
-								draggable="false"
-								onMouseEnter={() => updateInfo('Alex')}
-							/>
-							<img
-								src={teamImages.Jasmine}
-								alt="jasmine"
-								className="team-image member-4 selectDisable"
-								draggable="false"
-								onMouseEnter={() => updateInfo('Jasmine')}
-							/>
+							{ExecData.slice(2, 5).map((exec, index) => (
+								<img
+									src={exec.image}
+									alt={exec.name}
+									className={`team-image member-${index + 3} selectDisable`}
+									draggable="false"
+									onMouseEnter={() => updateInfo(index + 2)}
+								/>
+							))}
 						</Col>
 						<Col xs={2} className="image-col">
-							<img
-								src={teamImages.Aditya}
-								alt="aditya"
-								className="team-image member-5 selectDisable"
-								draggable="false"
-								onMouseEnter={() => updateInfo('Aditya')}
-							/>
-							<img
-								src={teamImages.Justin}
-								alt="justin"
-								className="team-image member-6 selectDisable"
-								draggable="false"
-								onMouseEnter={() => updateInfo('Justin')}
-							/>
+							{ExecData.slice(5, 7).map((exec, index) => (
+								<img
+									src={exec.image}
+									alt={exec.name}
+									className={`team-image member-${index + 6} selectDisable`}
+									draggable="false"
+									onMouseEnter={() => updateInfo(index + 5)}
+								/>
+							))}
 						</Col>
 						<img
 							src={Bubbles}
@@ -157,9 +127,19 @@ const Team = () => {
 						/>
 					</Row>
 				</Container>
-				<TeamLevel title="leadership" data={['April', 'Jessica', 'Izzie', 'Cindy', 'Noor']} />
+				<TeamLevel
+					title="leadership"
+					data={['April', 'Jessica', 'Izzie', 'Cindy', 'Noor']}
+				/>
 				<TeamLevel title="course staff" data={['Arushi', 'Hector']} />
-				<TeamLevel title="team leads" data={['Neha', 'Emily', 'Caelin', 'Alina', 'Albert', 'Ansa']} />
+				<TeamLevel
+					title="product managers"
+					data={['Neha', 'Emily', 'Caelin']}
+				/>
+				<TeamLevel
+					title="project managers"
+					data={['Alina', 'Albert', 'Ansa']}
+				/>
 				<Footer />
 			</div>
 			<TeamMobile />

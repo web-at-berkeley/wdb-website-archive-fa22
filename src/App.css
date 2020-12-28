@@ -1,0 +1,82 @@
+html,
+body {
+	min-height: 100vh;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.header {
+	padding: 0 5%;
+	font-family: Raleway;
+	font-size: 4.43vw;
+	letter-spacing: 0.22em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #00f8f9, 4px 4px #5f60ff;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.subtitle {
+	font-size: 1.8vw;
+	line-height: 1.25;
+	letter-spacing: 0.14em;
+	color: #000000;
+	margin: 3.5% 0;
+	padding: 0 4%;
+	width: 100%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+	.header {
+		font-size: 4.43vw;
+	}
+
+	.subtitle {
+		font-size: 2.2vw;
+		line-height: 1.25;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.header {
+		font-size: 9vw;
+	}
+	.subtitle {
+		font-size: 5vw;
+		line-height: 1.25;
+		margin: 10% 0;
+		padding: 0 2%;
+	}
+}
+
+.purple-gradient {
+	background: -webkit-linear-gradient(left, #5f60ff, #9f5ef4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.modal-open {
+	overflow: scroll;
+}
+
+.landing .modal-open {
+	overflow: hidden;
+}

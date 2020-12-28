@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { leadershipData } from '../data/TeamData';
+import { LeadershipData } from '../data/TeamData';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -8,16 +8,14 @@ import Row from 'react-bootstrap/Row';
 import Linkedin from '../img/team/linkedin.png';
 import Mail from '../img/team/mail.png';
 
-import '../css/TeamLevel.scss';
+import './css/TeamLevel.scss';
 
 const TeamLevel = (props) => {
-	const [info, setInfo] = useState(leadershipData[props.data[0]]);
+	const [info, setInfo] = useState(LeadershipData[props.data[0]]);
 
 	const updateInfo = (name) => {
-		setInfo(leadershipData[name]);
+		setInfo(LeadershipData[name]);
 	};
-
-	const teamImages = leadershipData.images;
 
 	return (
 		<Container fluid className="level">
@@ -28,7 +26,7 @@ const TeamLevel = (props) => {
 				{props.data.map((person) => {
 					return (
 						<img
-							src={teamImages[person]}
+							src={LeadershipData[person].image}
 							alt={person}
 							className="team-image"
 							draggable="false"
@@ -48,14 +46,14 @@ const TeamLevel = (props) => {
 					>
 						<img
 							src={Linkedin}
-							alt="linkedin"
+							alt="Linkedin"
 							className=" social-icon linkedin-icon selectDisable"
 						/>
 					</a>
 					<p className="name">{info.name}</p>
 					<a
 						href={info.mail}
-						id="mail"
+						id="E-mail"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

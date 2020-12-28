@@ -13,24 +13,20 @@ import Line2 from '../img/about/line-2.png';
 import LeftRings from '../img/about/leftrings.png';
 import RightRings from '../img/about/rightrings.png';
 
-import '../css/About.scss';
+import './css/About.scss';
 
 const About = () => {
 	return (
 		<div className="about">
 			<SiteNavbar />
 			<Container fluid className="body">
-				<Row>
-					<Col xs={12} className="text-center">
-						<h1 className="header">What We're all about.</h1>
-					</Col>
-				</Row>
+				<h1 className="header">What We're all about.</h1>
 				<Row className="justify-content-center">
-					<Col xs={12} sm={11} className="text-center">
+					<Col xs={12} sm={11}>
 						<p className="subtitle">
-							Web Development at Berkeley is UC Berkeley's first web 
-							development-focused organization, bringing full-stack web 
-							development education and hands-on industry development experience 
+							Web Development at Berkeley is UC Berkeley's first web
+							development-focused organization, bringing full-stack web
+							development education and hands-on industry development experience
 							to UC Berkeley students.
 						</p>
 						<img src={Line1} alt="line" className="line-1" draggable="false" />

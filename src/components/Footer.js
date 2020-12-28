@@ -7,7 +7,7 @@ import Instagram from '../img/instagram.png';
 import Mail from '../img/Mail.png';
 import Badge from '../img/badge.png';
 
-import '../css/Footer.scss';
+import './css/Footer.scss';
 
 const Footer = () => {
 	return (
