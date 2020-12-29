@@ -4,6 +4,7 @@ import SiteNavbar from '../components/SiteNavbar';
 import Footer from '../components/Footer';
 
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -54,6 +55,9 @@ const Apply = () => {
 								</div>
 							</div>
 						</div>
+						<Button href="https://forms.gle/EpLGmyr6Aj7snQnu8" target="_blank">
+							<p className="contact-text">Apply</p>
+						</Button>
 					</div>
 				</Container>
 				<Footer />

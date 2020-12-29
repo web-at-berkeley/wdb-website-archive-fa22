@@ -138,6 +138,33 @@
 		}
 	}
 
+	.btn {
+		max-width: 100%;
+		width: 20vw;
+		height: 3.5vw;
+		border-radius: 1.9vw;
+		border: none;
+		outline: none !important;
+		box-shadow: none !important;
+		background: linear-gradient(to left, #55c8fb 0%, #51f5f9 100%);
+		margin-top: 1.8%;
+		padding: 0.2%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		p {
+			font-family: Rubik;
+			font-weight: 500;
+			font-size: 1.7vw;
+			text-align: center;
+			letter-spacing: 0.12em;
+			color: #ffffff;
+			text-transform: uppercase;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
 	@media only screen and (max-width: 992px) {
 		.body {
 			padding: 0 5%;
@@ -191,6 +218,13 @@
 			}
 			&.bold {
 				margin-top: 2.5%;
+			}
+		}
+		.btn {
+			width: 25vw;
+			height: 4vw;
+			p {
+				font-size: 2vw;
 			}
 		}
 	}
@@ -250,6 +284,16 @@
 			}
 			&.bold {
 				margin-top: 2.5%;
+			}
+		}
+
+		.btn {
+			width: 40vw;
+			height: 7vw;
+			border-radius: 10vw;
+			margin-top: 8%;
+			p {
+				font-size: 4vw;
 			}
 		}
 	}
