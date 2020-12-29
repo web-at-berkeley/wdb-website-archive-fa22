@@ -20,83 +20,38 @@ const Apply = () => {
 				<Container fluid className="body">
 					<h1 className="header">Join The Team.</h1>
 					<p className="subtitle">
-						Our applications for Fall 2020 are now closed. Keep an eye out for
-						our Spring 2021 applications!
+					Our general Spring 2021 recruitment cycle will begin at the start of the semester. Check back soon!
 					</p>
-					{/* <img
-						src={Timeline}
-						alt="Recruitment Timeline"
-						className="recruitment-timeline"
-					/>
-					<img
-						src={MobileTimeline}
-						alt="Recruitment Timeline"
-						className="recruitment-timeline-mobile"
-					/>
-					<Row
-						style={{
-							display: 'flex',
-							justifyContent: 'center',
-						}}
-					>
-						<Col>
-							<a
-								className="apply-button infosession-button"
-								href="https://www.youtube.com/watch?v=-HqtdED4E14"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Infosession 1
-							</a>
-						</Col>
-						<Col>
-							<a
-								className="apply-button infosession-button"
-								href="https://www.youtube.com/watch?v=kMWpmDW799s"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Infosession 2
-							</a>
-						</Col>
-					</Row> */}
-					{/* <a
-						className="apply-button"
-						href="https://forms.gle/6jgPPnBKctE5BMGk9"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Apply today!
-					</a> */}
+					
 					<div className="recruitment-info">
-						<h5 className="what-to-expect">WHAT TO EXPECT</h5>
-						<div className="recruitment-card-row">
-							<div className="recruitment-card">
-								<p className="card role">STUDENTS</p>
-								<p className="card bold">What we look for:</p>
-								<p className="card regular">
-									No previous CS experience required
-								</p>
-								<p className="card regular">
-									Excitement and dedication to understanding the concepts
-								</p>
-								<p className="card bold">Application Process:</p>
-								<p className="card regular">Written Application</p>
-								<p className="card regular">Behavorial Interview</p>
+						<h5 className="interested">INTERESTED IN JOINING LEADERSHIP?</h5>
+						<p className="subtitle">Here are our open roles:</p>
+						<div className="open-roles">
+							<div className="type-col">
+								<h5 className="role-type">COURSE STAFF</h5>
+								<div className="role-card">
+									<h6 className="role-title">FRONTEND EDUCATOR (3)</h6>
+									<p className="role-description">Work in a team of 3 other frontend educators to teach concepts like HTML/CSS/JS, UI/UX Design, React.js, React Native, Sass, and more.</p>
+								</div>
+								<div className="role-card">
+									<h6 className="role-title">BACKEND EDUCATOR (4)</h6>
+									<p className="role-description">Work in a team of 3 other backend educators to teach concepts like Django, REST, Databases, AWS, Node.js, and more.</p>
+								</div>
+								<div className="role-card">
+									<h6 className="role-title">READER/TUTOR (3)</h6>
+									<p className="role-description">Assist in grading web dev homework assignments and projects and hold office hours for students in our education branch.</p>
+								</div>
 							</div>
-							<div className="recruitment-card">
-								<p className="card role">DEVELOPERS</p>
-								<p className="card bold">What we look for:</p>
-								<p className="card regular">
-									Experience in design or a frontend or backend stack
-								</p>
-								<p className="card regular">
-									Ability to communicate and teamwork
-								</p>
-								<p className="card bold">Application Process:</p>
-								<p className="card regular">Written Application</p>
-								<p className="card regular">Behavorial Interview</p>
-								<p className="card regular">Short Project + Presentation</p>
+							<div className="type-col">
+								<h5 className="role-type management">MANAGEMENT</h5>
+								<div className="role-card">
+									<h6 className="role-title management">PROJECT MANAGER (2)</h6>
+									<p className="role-description">Lead a team of 5-6 developers and designers in building a full-stack web application for WDB internal use or a Berkeley organization/startup.</p>
+								</div>
+								<div className="role-card">
+									<h6 className="role-title management">PRODUCT MANAGER (2)</h6>
+									<p className="role-description">Lead a team of 5-6 developers and designers in building a full-stack web application for an external industry client.</p>
+								</div>
 							</div>
 						</div>
 					</div>

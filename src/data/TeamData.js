@@ -99,9 +99,9 @@ export const LeadershipData = {
 	Jessica: {
 		name: 'Jessica Wu',
 		role: 'Head of Finance',
-		description: '',
+		description: "Hi there! I'm Jessica, a senior studying data science and economics. In my free time, I really enjoy hiking, doodling in a sketchpad, and learning random skills from the internet. I love being a part of the WDB family and I'm excited to see it continue to grow!",
 		linkedin: 'https://www.linkedin.com/in/jessica-wu1/',
-		mail: '#',
+		mail: 'http://github.com/jwu191',
 		image: Jessica,
 	},
 	Izzie: {
@@ -161,7 +161,7 @@ export const LeadershipData = {
 	Alina: {
 		name: 'Alina Wang',
 		role: 'Project Manager',
-		description: '',
+		description: "Sup!! I'm Alina - a third year studying Computer Science with a passion for Web Development. When I'm not grinding a CS project, you can catch me snowboarding or hibernating in Arizona. Looking forward to an exciting semester building cool things as a team!!",
 		linkedin: 'https://www.linkedin.com/in/wangerful/',
 		mail: 'https://github.com/aliner-wang',
 		image: Alina,
@@ -169,7 +169,7 @@ export const LeadershipData = {
 	Albert: {
 		name: 'Albert Tian',
 		role: 'Project Manager',
-		description: '',
+		description: "I'm Albert, an eager student studying EECS at UC Berkeley. I love working on side projects that challenge me and meeting new people to pick their brains. Currently working on an AI fencing referee. Let's chat!",
 		linkedin: 'https://www.linkedin.com/in/albert-tian-9a894b196/',
 		mail: 'https://github.com/albTian',
 		image: Albert,

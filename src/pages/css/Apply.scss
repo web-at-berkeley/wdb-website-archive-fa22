@@ -8,6 +8,10 @@
 		padding: 9rem 3%;
 	}
 
+	.subtitle {
+		width: 60%;
+	}
+
 	.recruitment-timeline {
 		width: 100%;
 		margin: 0;
@@ -51,31 +55,66 @@
 		align-items: center;
 		margin-top: 3%;
 
-		.what-to-expect {
+		.subtitle {
+			margin-top: 0%;
+			margin-bottom: 3%;
+		}
+
+		.interested {
 			font-family: 'Raleway';
 			font-weight: 700;
-			font-size: 3.2vw;
+			font-size: 2.5vw;
 			letter-spacing: 0.12em;
 			text-transform: uppercase;
 			color: #5f60ff;
-			margin-bottom: 2.5%;
+			margin-bottom: 1%;
 		}
 
-		.recruitment-card-row {
+		.open-roles {
 			display: flex;
 			justify-content: center;
 
-			.recruitment-card {
-				background: #ffffff;
-				box-shadow: 3px 2px 29px rgba(95, 96, 255, 0.15);
-				border-radius: 32px;
-				width: 43%;
-				margin: 3vw;
+			.type-col {
 				display: flex;
 				flex-direction: column;
-				align-items: center;
-				text-align: center;
-				padding: 3%;
+				align-items: start;
+				width: 40%;
+				margin: 0 2%;
+				.role-type {
+					font-family: 'Raleway';
+					font-weight: 700;
+					font-size: 2vw;
+					letter-spacing: 0.12em;
+					text-transform: uppercase;
+					color: #b15df3;
+					margin-bottom: 2%;
+				}
+				.role-type.management {
+					color: #0ad3ff;
+				}
+				.role-card {
+					background-color: white;
+					box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.11);
+					border-radius: 10px;
+					padding: 30px;
+					display: flex;
+					flex-direction: column;
+					align-items: start;
+					margin-bottom: 3%;
+					.role-title {
+						font-family: 'Raleway';
+						font-weight: 700;
+						font-size: 1.3vw;
+						color: #b15df3;
+						margin-bottom: 0.5%;
+					}
+					.role-title.management {
+						color: #0ad3ff;
+					}
+					.role-description {
+						font-size: 1vw;
+					}
+				}
 			}
 		}
 	}
@@ -105,22 +144,40 @@
 			padding-bottom: 10%;
 		}
 
+		.subtitle {
+			font-size: 2.5vw;
+		}
+
 		.recruitment-info {
 			margin-top: 3%;
 
-			.what-to-expect {
-				font-size: 4.8vw;
+			.interested {
 				margin-bottom: 2.5%;
 			}
 
-			.recruitment-card-row {
+			.open-roles {
 				flex-direction: column;
+				align-items: center;
 
-				.recruitment-card {
-					width: 100%;
-					margin: 0;
-					margin-bottom: 10%;
-					padding: 5% 2%;
+				.type-col {
+					flex-direction: column;
+					align-items: center;
+					width: 70%;
+					margin: 0 4%;
+					.role-type {
+						font-size: 2.5vw;
+					}
+					.role-type.management {
+						margin-top: 5%;
+					}
+					.role-card {
+						.role-title {
+							font-size: 1.9vw;
+						}
+						.role-description {
+							font-size: 1.6vw;
+						}
+					}
 				}
 			}
 		}
@@ -139,15 +196,47 @@
 	}
 
 	@media only screen and (max-width: 576px) {
+		.subtitle {
+			font-size: 4vw;
+			width: 90%;
+			margin: 4% auto;
+		}
+
 		.recruitment-info {
-			.what-to-expect {
-				font-size: 7vw;
-				margin-bottom: 10%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			.interested {
+				text-align: center;
+				font-size: 5vw;
+				margin: 5% auto;
+				margin-top: 2%;
 			}
 
-			.recruitment-card-row {
-				.recruitment-card {
-					padding: 9% 0;
+			.open-roles {
+				flex-direction: column;
+				align-items: center;
+
+				.type-col {
+					flex-direction: column;
+					align-items: center;
+					width: 80%;
+					margin: 0 4%;
+					.role-type {
+						font-size: 4vw;
+					}
+					.role-type.management {
+						margin-top: 8%;
+					}
+					.role-card {
+						.role-title {
+							font-size: 3.5vw;
+						}
+						.role-description {
+							font-size: 2.5vw;
+						}
+					}
 				}
 			}
 		}
@@ -183,14 +272,14 @@
 // 			margin: 40px 0 50px 0;
 // 			display: block;
 // 		}
-// 		.what-to-expect {
+// 		.interested {
 // 			font-size: 45px;
 // 		}
 // 		.apply-button {
 // 			font-size: 24px;
 // 			width: 350px;
 // 		}
-// 		.recruitment-card-row {
+// 		.open-roles {
 // 			flex-direction: column;
 // 		}
 // 		.card {
@@ -214,11 +303,11 @@
 // 			margin-top: 20px;
 // 			margin-bottom: 50px;
 // 		}
-// 		.what-to-expect {
+// 		.interested {
 // 			font-size: 25px;
 // 			margin-bottom: 0;
 // 		}
-// 		.recruitment-card {
+// 		.type-col {
 // 			border-radius: 20px;
 // 			width: 80%;
 // 			padding-right: 10px;
