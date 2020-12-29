@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import Linkedin from '../img/team/linkedin.png';
-import Mail from '../img/team/mail.png';
+import Github from '../img/team/github.svg';
 
 import './css/TeamLevel.scss';
 
@@ -58,8 +58,8 @@ const TeamLevel = (props) => {
 						rel="noopener noreferrer"
 					>
 						<img
-							src={Mail}
-							alt="mail"
+							src={Github}
+							alt="github"
 							className="social-icon mail-icon selectDisable"
 						/>
 					</a>

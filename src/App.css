@@ -24,7 +24,7 @@ img {
 .header {
 	padding: 0 5%;
 	font-family: Raleway;
-	font-size: 4.43vw;
+	font-size: 3.5vw;
 	letter-spacing: 0.22em;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -34,13 +34,13 @@ img {
 }
 
 .subtitle {
-	font-size: 1.8vw;
+	font-size: 1.5vw;
 	line-height: 1.25;
 	letter-spacing: 0.14em;
 	color: #000000;
-	margin: 3.5% 0;
+	margin: 1.5% auto;
 	padding: 0 4%;
-	width: 100%;
+	width: 90%;
 	text-align: center;
 }
 

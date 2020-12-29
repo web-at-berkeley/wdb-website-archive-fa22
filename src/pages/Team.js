@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col';
 
 import Bubbles from '../img/team/bubbles.png';
 import Linkedin from '../img/team/linkedin.png';
-import Mail from '../img/team/mail.png';
+import Github from '../img/team/github.svg';
 
 import './css/Team.scss';
 
@@ -78,11 +78,11 @@ const Team = () => {
 								</a>
 								<a
 									href={mail}
-									id="mail"
+									id="github"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<img src={Mail} alt="E-Mail" className="social-icon mail" />
+									<img src={Github} alt="github" className="social-icon mail" />
 								</a>
 							</div>
 						</Col>

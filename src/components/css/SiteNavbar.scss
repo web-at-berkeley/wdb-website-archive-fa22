@@ -29,10 +29,10 @@
 }
 .site-navbar .nav-text {
 	color: white;
-	font-size: 22px;
+	font-size: 19px;
 	text-transform: uppercase;
 	letter-spacing: 0.11em;
-	margin-left: 1.1rem;
+	margin-left: 2.5rem;
 }
 .site-navbar .link-tag:hover {
 	text-decoration: none;
@@ -104,10 +104,10 @@
 @media only screen and (max-width: 1900px) {
 	.site-navbar .nav-text {
 		color: white;
-		font-size: 20px;
+		font-size: 18px;
 		text-transform: uppercase;
 		letter-spacing: 0.11em;
-		margin-left: 1rem;
+		margin-left: 1.5rem;
 	}
 	.site-navbar .nav-background {
 		width: 780px;
@@ -116,7 +116,7 @@
 
 @media only screen and (max-width: 1500px) {
 	.site-navbar .nav-text {
-		margin-left: 0.9rem;
+		margin-left: 1.5rem;
 	}
 	.site-navbar .text {
 		top: 3rem;
@@ -129,10 +129,10 @@
 @media only screen and (max-width: 1150px) {
 	.site-navbar .nav-text {
 		color: white;
-		font-size: 18px;
+		font-size: 16px;
 		text-transform: uppercase;
 		letter-spacing: 0.11em;
-		margin-left: 0.9rem;
+		margin-left: 1.5rem;
 	}
 	.site-navbar .nav-background {
 		width: 690px;
