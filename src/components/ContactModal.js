@@ -157,7 +157,7 @@ let style = {
 	},
 	FormBox: {
 		boxShadow: '4px 4px 30px rgba(0, 0, 0, 0.1)',
-		borderRadius: '11px',
+		borderRadius: '9px',
 		border: 'none',
 	},
 };

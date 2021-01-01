@@ -61,7 +61,8 @@ export const ExecData = [
 	{
 		name: 'Jasmine Chen',
 		role: 'Co-VP Design',
-		description: "Hi friends! I'm Jasmine, a second year majoring in Cognitive Science. Since coming to Cal, I've had the opportunity to evolve my interest in UI/UX design through various projects, and I hope that I can be a helpful resource for the WDB community! In my free time, I enjoy illustrating and running my small business :)",
+		description:
+			"Hi friends! I'm Jasmine, a second year majoring in Cognitive Science. Since coming to Cal, I've had the opportunity to evolve my interest in UI/UX design through various projects, and I hope that I can be a helpful resource for the WDB community! In my free time, I enjoy illustrating and running my small business :)",
 		linkedin: 'webatberkeley.org',
 		mail: '#',
 		image: Jasmine,
@@ -99,7 +100,8 @@ export const LeadershipData = {
 	Jessica: {
 		name: 'Jessica Wu',
 		role: 'Head of Finance',
-		description: "Hi there! I'm Jessica, a senior studying data science and economics. In my free time, I really enjoy hiking, doodling in a sketchpad, and learning random skills from the internet. I love being a part of the WDB family and I'm excited to see it continue to grow!",
+		description:
+			"Hi there! I'm Jessica, a senior studying data science and economics. In my free time, I really enjoy hiking, doodling in a sketchpad, and learning random skills from the internet. I love being a part of the WDB family and I'm excited to see it continue to grow!",
 		linkedin: 'https://www.linkedin.com/in/jessica-wu1/',
 		mail: 'http://github.com/jwu191',
 		image: Jessica,
@@ -161,7 +163,8 @@ export const LeadershipData = {
 	Alina: {
 		name: 'Alina Wang',
 		role: 'Project Manager',
-		description: "Sup!! I'm Alina - a third year studying Computer Science with a passion for Web Development. When I'm not grinding a CS project, you can catch me snowboarding or hibernating in Arizona. Looking forward to an exciting semester building cool things as a team!!",
+		description:
+			"Sup!! I'm Alina - a third year studying Computer Science with a passion for Web Development. When I'm not grinding a CS project, you can catch me snowboarding or hibernating in Arizona. Looking forward to an exciting semester building cool things as a team!!",
 		linkedin: 'https://www.linkedin.com/in/wangerful/',
 		mail: 'https://github.com/aliner-wang',
 		image: Alina,
@@ -169,7 +172,8 @@ export const LeadershipData = {
 	Albert: {
 		name: 'Albert Tian',
 		role: 'Project Manager',
-		description: "I'm Albert, an eager student studying EECS at UC Berkeley. I love working on side projects that challenge me and meeting new people to pick their brains. Currently working on an AI fencing referee. Let's chat!",
+		description:
+			"I'm Albert, an eager student studying EECS at UC Berkeley. I love working on side projects that challenge me and meeting new people to pick their brains. Currently working on an AI fencing referee. Let's chat!",
 		linkedin: 'https://www.linkedin.com/in/albert-tian-9a894b196/',
 		mail: 'https://github.com/albTian',
 		image: Albert,
@@ -195,9 +199,10 @@ export const LeadershipData = {
 	Hector: {
 		name: 'Hector Ramos',
 		role: 'Reader/Tutor',
-		description: '',
+		description:
+			"Hey! I'm currently a sophomore majoring in EECS, and minoring in Data Science. I love anything related to design, which why I got into web development in the first place! On my free time I enjoy skating, remixing songs, working on cars, and shooting videos for my youtube channel.",
 		linkedin: 'https://www.linkedin.com/in/hector-ramos-/',
-		mail: '#',
+		mail: 'https://github.com/hexaramgon',
 		image: Hector,
 	},
 };
