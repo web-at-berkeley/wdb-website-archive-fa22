@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fall2020ProjectData } from '../data/ProjectData';
+import { Fall2020ProjectData } from '../data/projects/Fall2020Projects';
 
 import SiteNavbar from '../components/SiteNavbar';
 import Footer from '../components/Footer';

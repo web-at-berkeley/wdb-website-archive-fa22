@@ -1,5 +1,9 @@
 import React from 'react';
-import { Fall2020ProjectData, PastProjectData } from '../data/ProjectData';
+import {
+	PastProjects,
+	CurrentProjects,
+	StudentProjects,
+} from '../data/ProjectData';
 
 import SiteNavbar from '../components/SiteNavbar';
 import Footer from '../components/Footer';
@@ -34,15 +38,21 @@ const Projects = () => {
 						<Contact />
 					</Col>
 				</Row>
-				<h1 className="project-header">Current Projects</h1>
+				<h3 className="project-header">Current Projects</h3>
 				<Row>
-					{Fall2020ProjectData.map((project) => (
+					{CurrentProjects.map((project) => (
 						<Project project={project} />
 					))}
 				</Row>
-				<h1 className="project-header">Past Projects</h1>
+				<h3 className="project-header">Past Projects</h3>
 				<Row>
-					{PastProjectData.map((project) => (
+					{PastProjects.map((project) => (
+						<Project project={project} />
+					))}
+				</Row>
+				<h3 className="project-header">Student Projects</h3>
+				<Row>
+					{StudentProjects.map((project) => (
 						<Project project={project} />
 					))}
 				</Row>
