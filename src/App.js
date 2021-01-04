@@ -8,6 +8,7 @@ import Development from './pages/Development';
 import Partnerships from './pages/Partnerships';
 
 import Team from './pages/Team';
+import Alumni from './pages/Alumni';
 import Projects from './pages/Projects';
 import Apply from './pages/Apply';
 import ErrorPage from './pages/404';
@@ -23,7 +24,8 @@ const App = () => {
 				<Education path="/about/education" />
 				<Development path="/about/development" />
 				<Partnerships path="/about/partnerships" />
-				<Team path="/team" />
+				<Alumni path="/team/alumni" />
+				<Team path="/team/*" />
 				<Projects path="/projects" />
 				<Apply path="/apply" />
 				<ErrorPage default />

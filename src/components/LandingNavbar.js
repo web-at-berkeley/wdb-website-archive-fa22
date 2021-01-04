@@ -69,9 +69,34 @@ const LandingNavbar = () => {
 							</div>
 						</div>
 
-						<Link to="/team" className="link-tag">
-							<p className="nav-text">Team</p>
-						</Link>
+						<div className="dropdown">
+							<Link to="/team" className="link-tag dropbtn">
+								<p className="nav-text">Team</p>
+							</Link>
+							<div className="dropdown-content">
+								<Link to="/team/leadership" className="link-tag">
+									<p className="nav-text">Leadership</p>
+								</Link>
+								<Link to="/team/alumni" className="link-tag">
+									<p className="nav-text">Alumni</p>
+								</Link>
+							</div>
+						</div>
+
+						<div className="about-nav-phone">
+							<Link to="/team" className="link-tag">
+								<p className="nav-text">Team</p>
+							</Link>
+							<div className="tab-text-container">
+								<Link to="/team/leadership" className="link-tag">
+									<p className="nav-text">Leadership</p>
+								</Link>
+								<Link to="/team/alumni" className="link-tag">
+									<p className="nav-text">Alumni</p>
+								</Link>
+							</div>
+						</div>
+
 						<Link to="/projects" className="link-tag">
 							<p className="nav-text">Projects</p>
 						</Link>

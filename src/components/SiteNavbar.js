@@ -63,9 +63,24 @@ const SiteNavbar = (props) => {
 							</Link>
 						</div>
 					</div>
-					<Link to="/team" className="link-tag">
-						<p className="nav-text">Team</p>
-					</Link>
+
+					<div className="dropdown">
+						<Link to="/team" className="link-tag dropbtn">
+							<p className="nav-text">Team</p>
+						</Link>
+						<div className="dropdown-content">
+							<Link to="/team/leadership" className="link-tag">
+								<p className="nav-text">
+									<mark>Leadership</mark>
+								</p>
+							</Link>
+							<Link to="/team/alumni" className="link-tag">
+								<p className="nav-text">
+									<mark>Alumni</mark>
+								</p>
+							</Link>
+						</div>
+					</div>
 					<Link to="/projects" className="link-tag">
 						<p className="nav-text">Projects</p>
 					</Link>

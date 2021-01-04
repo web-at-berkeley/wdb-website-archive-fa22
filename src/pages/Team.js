@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-
+import { Exec, Leadership } from '../data/team';
 import SiteNavbar from '../components/SiteNavbar';
 import Footer from '../components/Footer';
 import TeamLevel from '../components/TeamLevel';
-import { ExecData } from '../data/TeamData';
 import TeamMobile from './mobile/TeamMobile';
 
 import Container from 'react-bootstrap/Container';
@@ -17,7 +16,7 @@ import Github from '../img/team/github.svg';
 import './css/Team.scss';
 
 const Team = () => {
-	const initInfo = ExecData[0];
+	const initInfo = Exec[0];
 
 	const [name, setName] = useState(initInfo.name);
 	const [role, setRole] = useState(initInfo.role);
@@ -26,7 +25,7 @@ const Team = () => {
 	const [mail, setMail] = useState(initInfo.mail);
 
 	const updateInfo = (index) => {
-		const info = ExecData[index];
+		const info = Exec[index];
 		setName(info.name);
 		setRole(info.role);
 		setDescription(info.description);
@@ -87,7 +86,7 @@ const Team = () => {
 							</div>
 						</Col>
 						<Col xs={2} className="image-col">
-							{ExecData.slice(0, 2).map((exec, index) => (
+							{Exec.slice(0, 2).map((exec, index) => (
 								<img
 									src={exec.image}
 									alt={exec.name}
@@ -98,7 +97,7 @@ const Team = () => {
 							))}
 						</Col>
 						<Col xs={2} className="image-col">
-							{ExecData.slice(2, 5).map((exec, index) => (
+							{Exec.slice(2, 5).map((exec, index) => (
 								<img
 									src={exec.image}
 									alt={exec.name}
@@ -109,7 +108,7 @@ const Team = () => {
 							))}
 						</Col>
 						<Col xs={2} className="image-col">
-							{ExecData.slice(5, 7).map((exec, index) => (
+							{Exec.slice(5, 7).map((exec, index) => (
 								<img
 									src={exec.image}
 									alt={exec.name}
@@ -129,16 +128,23 @@ const Team = () => {
 				</Container>
 				<TeamLevel
 					title="leadership"
-					data={['April', 'Jessica', 'Izzie', 'Cindy', 'Noor']}
+					data={Leadership}
+					names={['April', 'Jessica', 'Izzie', 'Cindy', 'Noor']}
 				/>
-				<TeamLevel title="course staff" data={['Arushi', 'Hector']} />
+				<TeamLevel
+					title="course staff"
+					data={Leadership}
+					names={['Arushi', 'Hector']}
+				/>
 				<TeamLevel
 					title="product managers"
-					data={['Neha', 'Emily', 'Caelin']}
+					data={Leadership}
+					names={['Neha', 'Emily', 'Caelin']}
 				/>
 				<TeamLevel
 					title="project managers"
-					data={['Alina', 'Albert', 'Ansa']}
+					data={Leadership}
+					names={['Alina', 'Albert', 'Ansa']}
 				/>
 				<Footer />
 			</div>

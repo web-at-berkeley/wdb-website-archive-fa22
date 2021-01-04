@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-
+import { Exec, Leadership } from '../../data/team';
 import Navbar from '../../components/SiteNavbar';
 import Footer from '../../components/Footer';
 import MemberModal from '../../components/MemberModal';
-import { ExecData, LeadershipData } from '../../data/TeamData';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -22,12 +21,12 @@ const Team = () => {
 	const [data, setData] = useState({});
 
 	const updateExecInfo = (index) => {
-		setData(ExecData[index]);
+		setData(Exec[index]);
 		handleShowMember();
 	};
 
 	const updateInfo = (name) => {
-		setData(LeadershipData[name]);
+		setData(Leadership[name]);
 		handleShowMember();
 	};
 
@@ -62,7 +61,7 @@ const Team = () => {
 					</Col>
 				</Row>
 				<Row>
-					{ExecData.map((person, index) => (
+					{Exec.map((person, index) => (
 						<Col xs={6} className="image-col" key={person.name}>
 							<img
 								src={person.image}
@@ -77,7 +76,7 @@ const Team = () => {
 					{members.map((person) => (
 						<Col xs={6} className="image-col" key={person}>
 							<img
-								src={LeadershipData[person].image}
+								src={Leadership[person].image}
 								alt={person}
 								className="team-image"
 								draggable="false"

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Col from 'react-bootstrap/Col';
 
-import Overlay from '../img/projects/overlay.png';
+import Overlay from '../data/projects/img/overlay.png';
 
 import './css/Project.scss';
 
