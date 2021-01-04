@@ -1,7 +1,6 @@
 import React from 'react';
+import { LandingNavbar } from '../components';
 import { Link } from '@reach/router';
-
-import LandingNavbar from '../components/LandingNavbar';
 
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';

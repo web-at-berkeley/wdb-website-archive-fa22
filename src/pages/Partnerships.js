@@ -1,8 +1,5 @@
 import React from 'react';
-
-import SiteNavbar from '../components/SiteNavbar';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
+import { SiteNavbar, Footer, Contact } from '../components';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

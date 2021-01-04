@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Exec, Leadership } from '../../data/team';
-import Navbar from '../../components/SiteNavbar';
-import Footer from '../../components/Footer';
-import MemberModal from '../../components/MemberModal';
+import { SiteNavbar, Footer, MemberModal } from '../../components';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -48,7 +46,7 @@ const Team = () => {
 
 	return (
 		<div className="team team-mobile">
-			<Navbar />
+			<SiteNavbar />
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="title-col">

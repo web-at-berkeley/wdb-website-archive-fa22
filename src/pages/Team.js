@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Exec, Leadership } from '../data/team';
-import SiteNavbar from '../components/SiteNavbar';
-import Footer from '../components/Footer';
-import TeamLevel from '../components/TeamLevel';
+import { SiteNavbar, Footer, TeamLevel } from '../components';
 import TeamMobile from './mobile/TeamMobile';
 
 import Container from 'react-bootstrap/Container';

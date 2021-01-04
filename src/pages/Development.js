@@ -1,10 +1,6 @@
 import React from 'react';
-import { Fall2020ProjectData } from '../data/projects/Fall2020Projects';
-
-import SiteNavbar from '../components/SiteNavbar';
-import Footer from '../components/Footer';
-import Contact from '../components/Contact';
-import Project from '../components/Project';
+import { Fall2020Projects } from '../data/projects';
+import { SiteNavbar, Footer, Contact, Project } from '../components';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -48,7 +44,7 @@ const Development = () => {
 				</h3>
 
 				<Row>
-					{Fall2020ProjectData.map((project) => (
+					{Fall2020Projects.map((project) => (
 						<Project project={project} />
 					))}
 				</Row>

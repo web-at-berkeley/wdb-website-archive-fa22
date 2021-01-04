@@ -1,8 +1,6 @@
 import React from 'react';
+import { SiteNavbar, Footer } from '../components';
 import { Link } from '@reach/router';
-
-import SiteNavbar from '../components/SiteNavbar';
-import Footer from '../components/Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

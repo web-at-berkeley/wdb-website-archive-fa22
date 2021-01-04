@@ -1,9 +1,6 @@
 import React from 'react';
 import { Alumni } from '../data/team';
-
-import SiteNavbar from '../components/SiteNavbar';
-import Footer from '../components/Footer';
-import TeamLevel from '../components/TeamLevel';
+import { SiteNavbar, Footer, TeamLevel } from '../components';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

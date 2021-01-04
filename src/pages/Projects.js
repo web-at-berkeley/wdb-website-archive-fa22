@@ -3,12 +3,8 @@ import {
 	PastProjects,
 	CurrentProjects,
 	StudentProjects,
-} from '../data/ProjectData';
-
-import SiteNavbar from '../components/SiteNavbar';
-import Footer from '../components/Footer';
-import Contact from '../components/Contact';
-import Project from '../components/Project';
+} from '../data/projects';
+import { SiteNavbar, Footer, Contact, Project } from '../components';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
