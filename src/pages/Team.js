@@ -9,9 +9,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Bubbles from '../img/team/bubbles.png';
-import Linkedin from '../img/team/linkedin.png';
-import Github from '../img/team/github.svg';
+import Bubbles from '../data/team/img/bubbles.png';
+import Linkedin from '../data/team/img/linkedin.png';
+import Github from '../data/team/img/github.svg';
 
 import './css/Team.scss';
 

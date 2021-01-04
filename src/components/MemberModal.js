@@ -2,8 +2,8 @@ import React from 'react';
 
 import Modal from 'react-bootstrap/Modal';
 
-import Linkedin from '../img/team/linkedin.svg';
-import Github from '../img/team/github.svg';
+import Linkedin from '../data/team/img/linkedin.png';
+import Github from '../data/team/img/github.svg';
 
 import './css/MemberModal.scss';
 
