@@ -15,7 +15,7 @@ export const Fall2020ProjectData = [
 	{
 		name: 'Best Path Transit',
 		cover: BPT,
-		link: '',
+		link: 'https://bestpathtransit.com/',
 		technologies: ['Google Cloud', 'React'],
 	},
 	{
