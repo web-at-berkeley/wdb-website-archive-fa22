@@ -7,8 +7,29 @@ import CloudAtCal from './img/MemberProjects/CloudAtCal.png';
 import Ansari from './img/MemberProjects/ansari.png';
 import Netic from './img/MemberProjects/netic.png';
 import TitanRig from './img/MemberProjects/titanrig.png';
+import SAAI from './img/Fall2020Projects/SAAI.png';
+import CMES from './img/Fall2020Projects/cmes.png';
+import BarracudaTechnologies from './img/Fall2020Projects/BarracudaTechnologies.png';
 
 export const MemberProjects = [
+	{
+		name: 'UC Berkeley CMES',
+		cover: CMES,
+		link: '',
+		technologies: ['Figma', 'Adobe Illustrator', 'Drupal'],
+	},
+	{
+		name: 'Barracuda Technologies',
+		cover: BarracudaTechnologies,
+		link: 'https://www.barra-labs.com/',
+		technologies: ['Figma', 'React'],
+	},
+	{
+		name: 'UC Berkeley SAAI Artists Residency',
+		cover: SAAI,
+		link: 'https://www.ucberkeley-saai-artistsresidency.com/',
+		technologies: ['React', 'Figma'],
+	},
 	{
 		name: 'Netic Health',
 		cover: Netic,
