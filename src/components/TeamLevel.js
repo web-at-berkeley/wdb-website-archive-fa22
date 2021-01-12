@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import Linkedin from '../data/team/img/linkedin.png';
-import Github from '../data/team/img/github.svg';
+import { ReactComponent as Linkedin } from '../data/team/img/linkedin.svg';
+import { ReactComponent as Github } from '../data/team/img/github.svg';
 
 import './css/TeamLevel.scss';
 
@@ -42,11 +42,7 @@ const TeamLevel = ({ title, data, names }) => {
 						rel="noopener noreferrer"
 						id="linkedin"
 					>
-						<img
-							src={Linkedin}
-							alt="Linkedin"
-							className=" social-icon linkedin-icon selectDisable"
-						/>
+						<Linkedin alt="Linkedin" className=" social-icon linkedin-icon " />
 					</a>
 					<p className="name">{info.name}</p>
 					{info.mail ? (
@@ -56,18 +52,10 @@ const TeamLevel = ({ title, data, names }) => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img
-								src={Github}
-								alt="Github"
-								className="social-icon mail-icon selectDisable"
-							/>
+							<Github alt="Github" className="social-icon mail-icon " />
 						</a>
 					) : (
-						<img
-							src={Github}
-							alt="Github"
-							className="social-icon mail-icon selectDisable"
-						/>
+						<Github alt="Github" className="social-icon mail-icon " />
 					)}
 				</div>
 				<h5 className="role">{info.role}</h5>
