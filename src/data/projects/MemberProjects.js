@@ -11,13 +11,11 @@ import SAAI from './img/Fall2020Projects/SAAI.png';
 import CMES from './img/Fall2020Projects/cmes.png';
 import BarracudaTechnologies from './img/Fall2020Projects/BarracudaTechnologies.png';
 
+import Carepath from './img/Fall2020Projects/carepath.png';
+import UDoItLegal from './img/Fall2020Projects/UDoItLegal.png';
+import BPT from './img/Fall2020Projects/bpt.png';
+
 export const MemberProjects = [
-	{
-		name: 'UC Berkeley CMES',
-		cover: CMES,
-		link: '',
-		technologies: ['Figma', 'Adobe Illustrator', 'Drupal'],
-	},
 	{
 		name: 'Barracuda Technologies',
 		cover: BarracudaTechnologies,
@@ -84,4 +82,25 @@ export const MemberProjects = [
 		link: 'https://www.titanrig.com/',
 		technologies: ['Amazon Web Services', 'Python'],
 	},
+];
+
+export const CurrentProjects = [
+	{
+		name: 'Best Path Transit',
+		cover: BPT,
+		link: 'https://bestpathtransit.com/',
+		technologies: ['Google Cloud', 'React'],
+	},
+	{
+		name: 'U-Do-It Legal',
+		cover: UDoItLegal,
+		link: '',
+		technologies: ['Amazon Web Services', 'React'],
+	},
+	{
+		name: 'Carepath',
+		cover: Carepath,
+		link: '',
+		technologies: ['React', 'Django', 'Heroku'],
+	},	
 ];
