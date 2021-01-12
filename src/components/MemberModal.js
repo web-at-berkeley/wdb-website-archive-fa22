@@ -2,8 +2,8 @@ import React from 'react';
 
 import Modal from 'react-bootstrap/Modal';
 
-import Linkedin from '../data/team/img/linkedin.png';
-import Github from '../data/team/img/github.svg';
+import { ReactComponent as Linkedin } from '../data/team/img/linkedin.svg';
+import { ReactComponent as Github } from '../data/team/img/github.svg';
 
 import './css/MemberModal.scss';
 
@@ -19,15 +19,11 @@ const MemberModal = ({ data, ...props }) => {
 			<Modal.Body>
 				<div className="social-row">
 					<a href={data.linkedin} id="linkedin">
-						<img
-							src={Linkedin}
-							alt="Linkedin"
-							className="social-icon linkedin"
-						/>
+						<Linkedin alt="Linkedin" className="social-icon linkedin" />
 					</a>
 					<img src={data.image} alt={data.name} />
 					<a href={data.mail} id="github">
-						<img src={Github} alt="Github" className="social-icon github" />
+						<Github alt="Github" className="social-icon github" />
 					</a>
 				</div>
 				<h5 className="name" id="name">

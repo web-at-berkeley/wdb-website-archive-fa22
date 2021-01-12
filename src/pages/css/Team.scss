@@ -49,10 +49,10 @@
 			margin-top: 3%;
 			.social-icon {
 				transition: 0.2s ease;
-				height: 3vw;
-			}
-			.social-icon:hover {
-				transform: scale(1.02);
+				height: 2.6rem;
+				&:hover {
+					transform: scale(1.02);
+				}
 			}
 			#linkedin {
 				margin-right: 4%;

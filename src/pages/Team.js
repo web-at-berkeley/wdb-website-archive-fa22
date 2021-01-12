@@ -8,8 +8,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Bubbles from '../data/team/img/bubbles.png';
-import Linkedin from '../data/team/img/linkedin.png';
-import Github from '../data/team/img/github.svg';
+import { ReactComponent as Linkedin } from '../data/team/img/linkedin.svg';
+import { ReactComponent as Github } from '../data/team/img/github.svg';
 
 import './css/Team.scss';
 
@@ -67,11 +67,7 @@ const Team = () => {
 									rel="noopener noreferrer"
 									id="linkedin"
 								>
-									<img
-										src={Linkedin}
-										alt="Linkedin"
-										className=" social-icon linkedin"
-									/>
+									<Linkedin alt="Linkedin" className=" social-icon linkedin" />
 								</a>
 								<a
 									href={mail}
@@ -79,7 +75,7 @@ const Team = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<img src={Github} alt="github" className="social-icon mail" />
+									<Github alt="github" className="social-icon mail" />
 								</a>
 							</div>
 						</Col>
