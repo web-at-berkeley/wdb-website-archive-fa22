@@ -18,12 +18,7 @@ const Team = () => {
 						<Col xs={12} className="title-col">
 							<h1 className="header">Our Alumni.</h1>
 							<p className="subtitle">
-								We are a team of UC Berkeley Students who are passionate about
-								providing education and support in our community for web
-								development.
-							</p>
-							<p className="subtitle bold">
-								Hover over or tap on our photos to learn more about us.
+								We love our alumni!
 							</p>
 						</Col>
 					</Row>
