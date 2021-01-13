@@ -17,16 +17,14 @@ const Team = () => {
 					<Row>
 						<Col xs={12} className="title-col">
 							<h1 className="header">Our Alumni.</h1>
-							<p className="subtitle">
-								We love our alumni!
-							</p>
+							<p className="subtitle">We love our alumni!</p>
 						</Col>
 					</Row>
 				</Container>
 				<TeamLevel
 					title="Fall 2020"
 					data={Alumni}
-					names={['Ervin', 'Melody']}
+					names={['Melody', 'Ervin', 'Jerrick']}
 				/>
 
 				<Footer />

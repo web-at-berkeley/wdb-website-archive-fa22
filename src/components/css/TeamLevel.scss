@@ -20,6 +20,7 @@
 		margin: 0 2rem;
 		margin-bottom: 1rem;
 		transition: 0.5s ease;
+		border-radius: 50%;
 		&:hover {
 			transform: scale(1.1);
 		}
@@ -40,6 +41,7 @@
 			.social-icon {
 				transition: 0.2s ease;
 				height: 2.2rem;
+				width: 2.2rem;
 				&:hover {
 					transform: scale(1.02);
 				}

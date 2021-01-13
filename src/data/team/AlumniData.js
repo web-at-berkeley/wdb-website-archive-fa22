@@ -1,11 +1,13 @@
 import Ervin from './img/ervin.png';
 import Melody from './img/melody.png';
+import Jerrick from './img/jerrick.png';
 
 export const AlumniData = {
 	Ervin: {
 		name: 'Ervin Baccay',
 		role: 'Software Engineer at Embark',
-		description: "Sometimes I like to go in my bathtub, fill it with milk, and pretend I'm boba.",
+		description:
+			"Sometimes I like to go in my bathtub, fill it with milk, and pretend I'm boba.",
 		linkedin: 'https://www.linkedin.com/in/ebaccay/',
 		mail: 'https://github.com/ebaccay',
 		image: Ervin,
@@ -17,5 +19,13 @@ export const AlumniData = {
 		linkedin: 'https://www.linkedin.com/in/melodysyan/',
 		mail: '',
 		image: Melody,
+	},
+	Jerrick: {
+		name: 'Jerrick Zhu',
+		role: 'Former WDB Course Staff',
+		description: 'Currently in a relationship with margarita pizza.',
+		linkedin: 'https://www.linkedin.com/in/jerrickzhu/',
+		mail: '',
+		image: Jerrick,
 	},
 };
