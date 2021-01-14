@@ -11,6 +11,7 @@ import Albert from './img/albert.png';
 import Ansa from './img/ansa.png';
 import Arushi from './img/arushi.png';
 import Hector from './img/hector.png';
+import Jerrick from './img/jerrick.png';
 
 export const LeadershipData = {
 	April: {
@@ -129,5 +130,13 @@ export const LeadershipData = {
 		linkedin: 'https://www.linkedin.com/in/hector-ramos-/',
 		mail: 'https://github.com/hexaramgon',
 		image: Hector,
+	},
+	Jerrick: {
+		name: 'Jerrick Zhu',
+		role: 'Reader/Tutor',
+		description: 'Currently in a relationship with margarita pizza.',
+		linkedin: 'https://www.linkedin.com/in/jerrickzhu/',
+		mail: '',
+		image: Jerrick,
 	},
 };
