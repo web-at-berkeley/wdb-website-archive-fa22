@@ -36,15 +36,6 @@ export const ExecData = [
 		image: Vicky,
 	},
 	{
-		name: 'Alex Wu',
-		role: 'VP Education',
-		description:
-			'Hi everyone! My name is Alex, and I am a third-year computer science major. Besides web development, I love drawing prototypes on Figma and building startups. In my free time, I practice magic & cardistry and play chess & hearthstone.',
-		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
-		mail: 'http://github.com/jialin-wu-02/',
-		image: Alex,
-	},
-	{
 		name: 'Jasmine Chen',
 		role: 'Co-VP Design',
 		description:
@@ -52,6 +43,15 @@ export const ExecData = [
 		linkedin: 'https://www.linkedin.com/company/web-dev-at-berkeley/',
 		mail: '#',
 		image: Jasmine,
+	},
+	{
+		name: 'Alex Wu',
+		role: 'VP Education',
+		description:
+			'Hi everyone! My name is Alex, and I am a third-year computer science major. Besides web development, I love drawing prototypes on Figma and building startups. In my free time, I practice magic & cardistry and play chess & hearthstone.',
+		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
+		mail: 'http://github.com/jialin-wu-02/',
+		image: Alex,
 	},
 	{
 		name: 'Aditya Bhawal',
