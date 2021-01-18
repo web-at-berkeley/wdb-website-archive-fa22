@@ -17,61 +17,75 @@ const Apply = () => {
 				<Container fluid className="body">
 					<h1 className="header">Join The Team.</h1>
 					<p className="subtitle">
-						Our general Spring 2021 recruitment cycle will begin at the start of
-						the semester. Check back soon!
+						Interested in joining a group of passionate developers, designers,
+						entreprenuers as either a student, designer, or developer? If so,
+						you're in the right place! Our Sping 2021 applications are open and
+						due Febraury 1st by midnight pacific time, so make sure to apply
+						below!
 					</p>
 
 					<div className="recruitment-info">
-						<h5 className="interested">INTERESTED IN JOINING LEADERSHIP?</h5>
+						<h5 className="interested">ready to join?</h5>
 						<p className="subtitle">Here are our open roles:</p>
 						<div className="open-roles">
 							<div className="type-col">
-								<h5 className="role-type">COURSE STAFF</h5>
+								<h5 className="role-type">Education Branch</h5>
 								<div className="role-card">
-									<h6 className="role-title">FRONTEND EDUCATOR (3)</h6>
+									<h6 className="role-title">Student</h6>
 									<p className="role-description">
-										Work in a team of 3 other frontend educators to teach
-										concepts like HTML/CSS/JS, UI/UX Design, React.js, React
-										Native, Sass, and more.
+										Join our education branch as a student to learn full-stack
+										development and gain applicable programming skills. No
+										experience is required, just a passion for learning web
+										development and willingness to learn!
 									</p>
 								</div>
 								<div className="role-card">
-									<h6 className="role-title">BACKEND EDUCATOR (4)</h6>
+									<h6 className="role-title">FRONTEND EDUCATOR</h6>
+									<p className="role-description">
+										Work in a team of 3 other frontend educators to teach
+										concepts like HTML/CSS/JS, UI/UX Design, React.js, Sass, and
+										more.
+									</p>
+								</div>
+								<div className="role-card">
+									<h6 className="role-title">BACKEND EDUCATOR</h6>
 									<p className="role-description">
 										Work in a team of 3 other backend educators to teach
 										concepts like Django, REST, Databases, AWS, Node.js, and
 										more.
 									</p>
 								</div>
-								<div className="role-card">
-									<h6 className="role-title">READER/TUTOR (3)</h6>
-									<p className="role-description">
-										Assist in grading web dev homework assignments and projects
-										and hold office hours for students in our education branch.
-									</p>
-								</div>
 							</div>
 							<div className="type-col">
-								<h5 className="role-type management">MANAGEMENT</h5>
+								<h5 className="role-type management">Development Branch</h5>
 								<div className="role-card">
-									<h6 className="role-title management">PROJECT MANAGER (2)</h6>
+									<h6 className="role-title management">Developer</h6>
 									<p className="role-description">
-										Lead a team of 5-6 developers and designers in building a
-										full-stack web application for WDB internal use or a
-										Berkeley organization/startup.
+										Work in teams of 5-6 to create an amazing product for either
+										a high-growth startup or nonprofit organization. If you're
+										interested in frontend, proficiency with a frontend
+										framework such as React, Angular, or Vue is recommended.If
+										you're interested in backend, proficiency with at least one
+										of Django, Node, AWS, or GCP is recommended. Database
+										Knowledge with MongoDB, PostgreSQL, etc... is a plus.
 									</p>
 								</div>
 								<div className="role-card">
-									<h6 className="role-title management">PRODUCT MANAGER (2)</h6>
+									<h6 className="role-title management">Designer</h6>
 									<p className="role-description">
-										Lead a team of 5-6 developers and designers in building a
-										full-stack web application for an external industry client.
+										Work in teams of 5-6 to design an amazing product for either
+										a high-growth startup or nonprofit organization from start
+										to finish. Proficiency with Adobe tools and/or Figma is
+										recommended.
 									</p>
 								</div>
 							</div>
 						</div>
-						<Button href="https://forms.gle/EpLGmyr6Aj7snQnu8" target="_blank">
-							<p className="contact-text">Apply</p>
+						<Button href="https://forms.gle/BaVcxm1x41S2br5C7" target="_blank">
+							<p className="contact-text">Application</p>
+						</Button>
+						<Button href="https://forms.gle/DA8yiV7NZ8hUUy6U9" target="_blank">
+							<p className="contact-text">Interest Form</p>
 						</Button>
 					</div>
 				</Container>
