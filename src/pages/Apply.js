@@ -3,8 +3,6 @@ import { SiteNavbar, Footer } from '../components';
 
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 // import Timeline from '../img/apply/timeline.png';
 // import MobileTimeline from '../img/apply/mobile-timeline.png';

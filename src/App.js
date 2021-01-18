@@ -7,6 +7,7 @@ import Education from './pages/Education';
 import Development from './pages/Development';
 import Partnerships from './pages/Partnerships';
 
+import Members from './pages/Members';
 import Team from './pages/Team';
 import Alumni from './pages/Alumni';
 import Projects from './pages/Projects';
@@ -25,6 +26,7 @@ const App = () => {
 				<Development path="/about/development" />
 				<Partnerships path="/about/partnerships" />
 				<Alumni path="/team/alumni" />
+				{/* <Members path="team/members" /> */}
 				<Team path="/team/*" />
 				<Projects path="/projects" />
 				<Apply path="/apply" />
