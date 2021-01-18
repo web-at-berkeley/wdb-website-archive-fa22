@@ -69,11 +69,11 @@ const SiteNavbar = (props) => {
 							<p className="nav-text">Team</p>
 						</Link>
 						<div className="dropdown-content">
-							<Link to="/team/members" className="link-tag">
+							{/* <Link to="/team/members" className="link-tag">
 								<p className="nav-text">
 									<mark>Members</mark>
 								</p>
-							</Link>
+							</Link> */}
 							<Link to="/team/leadership" className="link-tag">
 								<p className="nav-text">
 									<mark>Leadership</mark>
