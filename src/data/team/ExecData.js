@@ -1,10 +1,10 @@
-import Samarth from './img/samarth.png';
-import Vicky from './img/vicky.png';
-import Aditya from './img/aditya.png';
-import Justin from './img/justin.png';
-import Tijmen from './img/tijmen.png';
-import Alex from './img/alex.png';
-import Jasmine from './img/jasmine.png';
+import Samarth from './img/exec/samarth.png';
+import Vicky from './img/exec/vicky.png';
+import Aditya from './img/exec/aditya.png';
+import Justin from './img/exec/justin.png';
+import Tijmen from './img/exec/tijmen.png';
+import Alex from './img/exec/alex.png';
+import Jasmine from './img/exec/jasmine.png';
 
 export const ExecData = [
 	{

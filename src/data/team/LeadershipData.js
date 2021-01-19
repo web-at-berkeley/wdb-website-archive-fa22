@@ -1,17 +1,17 @@
-import April from './img/april.png';
-import Jessica from './img/jessica.png';
-import Izzie from './img/izzie.png';
-import Cindy from './img/cindy.png';
-import Noor from './img/noor.png';
-import Emily from './img/emily.png';
-import Neha from './img/neha.png';
-import Caelin from './img/caelin.png';
-import Alina from './img/alina.png';
-import Albert from './img/albert.png';
-import Ansa from './img/ansa.png';
-import Arushi from './img/arushi.png';
-import Hector from './img/hector.png';
-import Jerrick from './img/jerrick.png';
+import April from './img/leadership/april.png';
+import Jessica from './img/leadership/jessica.png';
+import Izzie from './img/leadership/izzie.png';
+import Cindy from './img/leadership/cindy.png';
+import Noor from './img/leadership/noor.png';
+import Emily from './img/leadership/emily.png';
+import Neha from './img/leadership/neha.png';
+import Caelin from './img/leadership/caelin.png';
+import Alina from './img/leadership/alina.png';
+import Albert from './img/leadership/albert.png';
+import Ansa from './img/leadership/ansa.png';
+import Arushi from './img/leadership/arushi.png';
+import Hector from './img/leadership/hector.png';
+import Jerrick from './img/leadership/jerrick.png';
 
 export const LeadershipData = {
 	April: {

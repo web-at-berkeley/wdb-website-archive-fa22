@@ -1,6 +1,6 @@
-import Ervin from './img/ervin.png';
-import Melody from './img/melody.png';
-import Jerrick from './img/jerrick.png';
+import Ervin from './img/alumni/ervin.png';
+import Melody from './img/alumni/melody.png';
+import Jerrick from './img/alumni/jerrick.png';
 
 export const AlumniData = {
 	Ervin: {
