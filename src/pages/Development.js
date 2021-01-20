@@ -43,7 +43,7 @@ const Development = () => {
 					Fall <span>2020</span> Clients
 				</h3>
 
-				<Row style={{justifyContent:"center"}}>
+				<Row style={{ justifyContent: 'center' }}>
 					{Fall2020Projects.map((project) => (
 						<Project project={project} />
 					))}

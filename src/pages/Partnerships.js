@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import RightNav from '../img/right-nav.png';
-import Blobs from '../img/about/partnerships/blobs.png';
+// import Blobs from '../img/about/partnerships/blobs.png';
 import Grotech from '../img/about/partnerships/grotech.png';
 import Formula from '../img/about/partnerships/formula.png';
 import Cloud from '../img/about/partnerships/cloud.png';
