@@ -26,7 +26,17 @@ const Apply = () => {
 
 					<div className="recruitment-info">
 						<h5 className="interested">ready to join?</h5>
-						<p className="subtitle">Here are our open roles:</p>
+						<Button href="https://forms.gle/BaVcxm1x41S2br5C7" target="_blank">
+							<p className="contact-text">Application</p>
+						</Button>
+						<Button href="https://forms.gle/DA8yiV7NZ8hUUy6U9" target="_blank">
+							<p className="contact-text">Interest Form</p>
+						</Button>
+						<h5 className="interested mt-5">want to learn more?</h5>
+						<Button href="https://linktr.ee/webdevatberkeley" target="_blank">
+							<p className="contact-text">WDB Linktree</p>
+						</Button>
+						<p className="subtitle mt-5">Here are our open roles:</p>
 						<div className="open-roles">
 							<div className="type-col">
 								<h5 className="role-type">Education Branch</h5>
@@ -81,12 +91,6 @@ const Apply = () => {
 								</div>
 							</div>
 						</div>
-						<Button href="https://forms.gle/BaVcxm1x41S2br5C7" target="_blank">
-							<p className="contact-text">Application</p>
-						</Button>
-						<Button href="https://forms.gle/DA8yiV7NZ8hUUy6U9" target="_blank">
-							<p className="contact-text">Interest Form</p>
-						</Button>
 					</div>
 				</Container>
 				<Footer />
