@@ -8,7 +8,7 @@ import Ansari from './img/MemberProjects/ansari.png';
 import Netic from './img/MemberProjects/netic.png';
 import TitanRig from './img/MemberProjects/titanrig.png';
 import SAAI from './img/Fall2020Projects/SAAI.png';
-import CMES from './img/Fall2020Projects/cmes.png';
+import CMES from './img/MemberProjects/cmes.png';
 import BarracudaTechnologies from './img/Fall2020Projects/BarracudaTechnologies.png';
 
 import Carepath from './img/Fall2020Projects/carepath.png';
@@ -71,10 +71,10 @@ export const MemberProjects = [
 		technologies: ['React'],
 	},
 	{
-		name: 'Frio',
-		cover: Frio,
-		link: 'https://devpost.com/software/frio',
-		technologies: ['JavaScript', 'Flask', 'SQLite3'],
+		name: 'UC Berkeley CMES',
+		cover: CMES,
+		link: '',
+		technologies: ['Figma', 'Adobe Illustrator', 'Drupal'],
 	},
 	{
 		name: 'Titan Rig',
@@ -102,5 +102,5 @@ export const CurrentProjects = [
 		cover: Carepath,
 		link: '',
 		technologies: ['React', 'Django', 'Heroku'],
-	},	
+	},
 ];

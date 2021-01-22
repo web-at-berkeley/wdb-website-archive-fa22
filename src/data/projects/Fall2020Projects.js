@@ -1,13 +1,13 @@
 import Carepath from './img/Fall2020Projects/carepath.png';
 import UDoItLegal from './img/Fall2020Projects/UDoItLegal.png';
 import BPT from './img/Fall2020Projects/bpt.png';
+import CMES from './img/Fall2020Projects/cmes.png';
+import BarracudaTechnologies from './img/Fall2020Projects/barracudaLogo.png';
 
 import Indecisive from './img/Fall2020Projects/Indecisive.png';
 import WatsonSpotify from './img/Fall2020Projects/WatsonSpotify.png';
 import Daycation from './img/Fall2020Projects/Daycation.png';
 import UpAndComing from './img/Fall2020Projects/UpAndComing.png';
-import CMES from './img/Fall2020Projects/cmes.png';
-import BarracudaTechnologies from './img/Fall2020Projects/barracudaLogo.png';
 import Planner from './img/Fall2020Projects/Planner.png';
 
 export const Fall2020ProjectData = [
@@ -28,7 +28,7 @@ export const Fall2020ProjectData = [
 		cover: Carepath,
 		link: '',
 		technologies: ['React', 'Django', 'Heroku'],
-	},	
+	},
 	{
 		name: 'UC Berkeley CMES',
 		cover: CMES,
@@ -41,7 +41,6 @@ export const Fall2020ProjectData = [
 		link: 'https://www.barra-labs.com/',
 		technologies: ['Figma', 'React'],
 	},
-	
 ];
 
 export const Fall2020StudentProjectData = [
