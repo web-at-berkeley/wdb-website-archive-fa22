@@ -1,7 +1,7 @@
 import Carepath from './img/Fall2020Projects/carepath.png';
 import UDoItLegal from './img/Fall2020Projects/UDoItLegal.png';
 import BPT from './img/Fall2020Projects/bpt.png';
-import CMES from './img/Fall2020Projects/cmes.png';
+import CSAS from './img/Fall2020Projects/CSAS.png';
 import BarracudaTechnologies from './img/Fall2020Projects/barracudaLogo.png';
 
 import Indecisive from './img/Fall2020Projects/Indecisive.png';
@@ -30,10 +30,10 @@ export const Fall2020ProjectData = [
 		technologies: ['React', 'Django', 'Heroku'],
 	},
 	{
-		name: 'UC Berkeley CMES',
-		cover: CMES,
+		name: 'UC Berkeley CSAS',
+		cover: CSAS,
 		link: '',
-		technologies: ['Figma', 'Adobe Illustrator', 'Drupal'],
+		technologies: ['Figma', 'React'],
 	},
 	{
 		name: 'Barracuda Technologies',
