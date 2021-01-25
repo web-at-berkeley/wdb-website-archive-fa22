@@ -1,6 +1,7 @@
 import React from 'react';
 import { Alumni } from '../data/team';
 import { SiteNavbar, Footer, TeamLevel } from '../components';
+import AlummniMobile from './mobile/AlumniMobile';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -8,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 import './css/Team.scss';
 
-const Team = () => {
+const Alumnis = () => {
 	return (
 		<>
 			<div className="team team-desktop">
@@ -29,8 +30,9 @@ const Team = () => {
 
 				<Footer />
 			</div>
+			<AlummniMobile />
 		</>
 	);
 };
 
-export default Team;
+export default Alumnis;
