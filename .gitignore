@@ -1,8 +1,16 @@
 # Ignore Metafiles
 .DS_Store
 .idea
+.next
 
 # Ignore Security Files
 wdb-private-key.pem
 
 node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.env
+.env.build
