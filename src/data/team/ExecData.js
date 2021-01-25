@@ -11,7 +11,7 @@ export const ExecData = [
 		name: 'Samarth Goel',
 		role: 'Co-President',
 		description:
-			'Hey there! My name is Samarth, and I am a student at UC Berkeley from the Chicago area studying Computer Science and Business Administration. Web Development has been a huge passion of mine, and the lack of advanced web dev education on Berkeley’s campus is a problem I’ve long wanted to solve, and I hope to do so with Web Dev @ Berkeley! Besides coding, I practice martial arts, practice guitar, and play the drums in the cal band.',
+			"Hey there! My name is Samarth, and I'm a student at UC Berkeley from the Chicago area studying Computer Science and Business Administration. Web Development has been a huge passion of mine, and the lack of advanced web dev education on Berkeley’s campus is a problem I’ve long wanted to solve, and I hope to do so with Web Dev @ Berkeley! Besides coding, I practice martial arts, practice guitar, and play the drums in the cal band.",
 		linkedin: 'https://www.linkedin.com/in/samarth-goel-07',
 		mail: 'https://github.com/sgoel97',
 		image: Samarth,
