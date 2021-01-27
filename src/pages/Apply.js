@@ -27,19 +27,41 @@ const Apply = () => {
 					<div className="recruitment-info">
 						<h5 className="interested">ready to join?</h5>
 						<div className="button-row">
-							<Button href="https://forms.gle/BaVcxm1x41S2br5C7" className="form-button" target="_blank">
-							<p className="button-text">Application</p>
-							</Button>
-							<Button href="https://forms.gle/DA8yiV7NZ8hUUy6U9" className="form-button" target="_blank">
-								<p className="button-text">Interest Form</p>
-							</Button>
+							<div>
+								<h5 className="text-center mb-3">To join WDB!</h5>
+								<Button
+									href="https://forms.gle/BaVcxm1x41S2br5C7"
+									className="form-button"
+									target="_blank"
+								>
+									<p className="button-text">Application</p>
+								</Button>
+							</div>
+							<div>
+								<h5 className="text-center mb-3">To stay informed!</h5>
+								<Button
+									href="https://forms.gle/DA8yiV7NZ8hUUy6U9"
+									className="form-button"
+									target="_blank"
+								>
+									<p className="button-text">Interest Form</p>
+								</Button>
+							</div>
 						</div>
 						<h5 className="interested">want to learn more?</h5>
 						<div className="button-row">
-							<Button href="https://linktr.ee/webdevatberkeley" className="learn-button" target="_blank">
+							<Button
+								href="https://linktr.ee/webdevatberkeley"
+								className="learn-button"
+								target="_blank"
+							>
 								<p className="button-text">WDB Linktree</p>
 							</Button>
-							<Button href="https://youtu.be/zYRDOvGxbc8" className="learn-button" target="_blank">
+							<Button
+								href="https://youtu.be/zYRDOvGxbc8"
+								className="learn-button"
+								target="_blank"
+							>
 								<p className="button-text">WDB Infosession</p>
 							</Button>
 						</div>
