@@ -12,7 +12,8 @@ import Team from './pages/Team';
 import Alumni from './pages/Alumni';
 import Projects from './pages/Projects';
 import Apply from './pages/Apply';
-import ErrorPage from './pages/404';
+import Error404 from './pages/404';
+import ErrorPage from './pages/Error';
 
 import './App.css';
 
@@ -30,7 +31,8 @@ const App = () => {
 				<Team path="/team/*" />
 				<Projects path="/projects" />
 				<Apply path="/apply" />
-				<ErrorPage default />
+				<ErrorPage path="/error" />
+				<Error404 default />
 			</Router>
 		</div>
 	);

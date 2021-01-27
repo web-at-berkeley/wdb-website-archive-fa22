@@ -1,28 +1,31 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
-import ErrorImage from '../img/error.png';
+import Logo from '../img/site-nav/logo-rainbow.png';
 
-const ErrorPage = () => {
+const Error404 = () => {
 	return (
 		<Link to="/">
 			<div
 				style={{
 					display: 'flex',
-					flexDirection: 'column',
+					alignItems: 'center',
+					justifyContent: 'center',
 					height: '100vh',
 				}}
 			>
 				<img
-					src={ErrorImage}
-					alt="error"
-					style={{ width: '50%', marginLeft: '1%', marginTop: '.5rem' }}
-					className="selectDisable"
-					draggable="false"
+					src={Logo}
+					alt="Web Development at Berkeley"
+					style={{ width: '20%', marginRight: '5rem' }}
 				/>
+				<div>
+					<h1>404</h1>
+					<p>Click anywhere to go back!</p>
+				</div>
 			</div>
 		</Link>
 	);
 };
 
-export default ErrorPage;
+export default Error404;
