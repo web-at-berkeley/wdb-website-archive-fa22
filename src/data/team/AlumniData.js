@@ -15,7 +15,7 @@ export const AlumniData = {
 	Melody: {
 		name: 'Melody Yan',
 		role: 'Software Engineer at Twitter',
-		description: '',
+		description: 'Addicted to Boba.',
 		linkedin: 'https://www.linkedin.com/in/melodysyan/',
 		mail: '',
 		image: Melody,
