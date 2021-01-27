@@ -53,23 +53,49 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 3%;
+		margin-top: 1%;
 
 		.subtitle {
 			margin-top: 0%;
 			margin-bottom: 3%;
 		}
 
+		.button-row {
+			display: flex;
+			flex-direction: row;
+
+			.form-button {
+				margin: 0px 2vw;
+			}
+			.button-text {
+				font-size: 1.4vw;
+			}
+		}
+
 		.interested {
 			font-family: 'Raleway';
 			font-weight: 700;
-			font-size: 2.5vw;
+			font-size: 2.2vw;
 			letter-spacing: 0.12em;
 			text-transform: uppercase;
 			color: #5f60ff;
-			margin-bottom: 1%;
+			margin-top: 4vw;
+			margin-bottom: 2vw;
 		}
-
+		.learn-button {
+			margin: 0px 2vw;
+			margin-bottom: 70px;
+		}
+		.open-role-title {
+			font-family: 'Raleway';
+			font-weight: 700;
+			font-size: 2.2vw;
+			letter-spacing: 0.12em;
+			text-transform: uppercase;
+			color: #5f60ff;
+			margin-bottom: 3vw;
+			margin-top: 50px;
+		}
 		.open-roles {
 			display: flex;
 			justify-content: center;
@@ -204,7 +230,26 @@
 			margin-top: 3%;
 
 			.interested {
+				font-size: 3vw;
 				margin-bottom: 2.5%;
+			}
+			.button-row {
+				.button-text {
+					font-size: 2vw;
+				}
+				.form-button {
+					margin: 0px 2vw;
+					height: 6vw;
+					width: 27vw;
+					border-radius: 40vw;
+				}
+			}
+			.learn-button {
+				margin: 0px 2vw;
+				margin-bottom: 70px;
+				height: 6vw;
+				width: 27vw;
+				border-radius: 40vw;
 			}
 
 			.open-roles {
@@ -269,10 +314,30 @@
 			.interested {
 				text-align: center;
 				font-size: 5vw;
-				margin: 5% auto;
-				margin-top: 2%;
+				margin: 0% auto;
+				margin-bottom: 2vw;
+				margin-top: 5vw;
 			}
-
+			.button-row {
+				flex-direction: column;
+				.form-button {
+					margin-bottom: 3vw;
+					width: 50vw;
+					height: 11vw;
+				}
+				.button-text {
+					font-size: 4vw;
+				}
+			}
+			.learn-button {
+				margin-bottom: 3vw;
+				width: 50vw;
+				height: 11vw;
+			}
+			.open-role-title {
+				margin: 10vw auto 4vw auto;
+				font-size: 5vw;
+			}
 			.open-roles {
 				flex-direction: column;
 				align-items: center;
@@ -293,7 +358,7 @@
 							font-size: 3.5vw;
 						}
 						.role-description {
-							font-size: 2.5vw;
+							font-size: 3vw;
 						}
 					}
 				}

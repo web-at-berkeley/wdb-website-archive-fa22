@@ -139,27 +139,36 @@
 		padding: 0;
 	}
 	.footer .social {
-		width: 40px;
+		width: 30px;
 	}
 	.footer .social.linkedin {
 		left: 2rem;
 	}
 	.footer .social.mail {
-		left: 6rem;
+		left: 5rem;
 	}
 	.footer .social.instagram {
-		left: 10rem;
+		left: 8rem;
 	}
 	.footer .social.facebook {
-		left: 14rem;
+		left: 11rem;
 	}
 }
 
 @media only screen and (max-width: 450px) {
+	.footer .social {
+		width: 28px;
+	}
+	.footer .social.linkedin {
+		left: 1rem;
+	}
+	.footer .social.mail {
+		left: 3.5rem;
+	}
 	.footer .social.instagram {
-		display: none;
+		left: 6rem;
 	}
 	.footer .social.facebook {
-		left: 10rem;
+		left: 8.5rem;
 	}
 }
