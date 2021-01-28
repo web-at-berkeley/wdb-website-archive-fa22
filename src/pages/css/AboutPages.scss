@@ -53,11 +53,13 @@
 		padding-bottom: 0;
 	}
 	.graphic {
-		margin-top: 2rem;
+		margin: 5vw auto;
+		width: 60vw !important;
 	}
 
 	.graphic-desktop {
 		display: flex;
+		width: 60vw !important;
 	}
 	.graphic-mobile {
 		display: none;
@@ -71,6 +73,11 @@
 		padding: 0 4%;
 		width: 90%;
 		text-align: center;
+
+		a {
+			color: #5f60ff;
+			text-decoration: none;
+		}
 	}
 	@media only screen and (max-width: 992px) {
 		.body {
@@ -86,6 +93,7 @@
 		}
 		.graphic-mobile {
 			display: flex;
+			width: 80vw !important;
 		}
 	}
 	@media only screen and (max-width: 576px) {

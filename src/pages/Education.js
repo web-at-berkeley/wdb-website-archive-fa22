@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Graphic from '../img/about/education/graphic.png';
+import Graphic from '../img/about/education/edu-timeline.png';
 import GraphicMobile from '../img/about/education/graphic-mobile.png';
 import RightNav from '../img/right-nav.png';
 
@@ -37,17 +37,10 @@ const Education = () => {
 							to gain a comprehensive web dev education in both
 							UI/UX Design and Full-Stack Development. Students will receive
 							interactive lessons taught by experienced Berkeley students as
-							well as hands-on projects.
+							well as hands-on projects. At the end of the semester, students will build a full stack project of their choosing with a team.
 						</p>
 						<p className="edu-subtitle">
-							All students go through our "basic stack", which consists of of HTML/CSS/JS and basic networking protocols. <br/><br/>
-							From here, students choose a specialization in frontend or backend
-							(all materials and lectures from
-							both branches are open to all students). <br/><br/>The frontend track covers
-							React.js, UI/UX design, SASS, and Typescript, and more. The backend track covers
-							Node.js, Django, AWS, MongoDB, PostgreSQL, and more. <br/><br/>We aim to offer a
-							full-stack education, so both tracks contain 3 lessons pulled from
-							the other track.
+							We also offer a variety of public workshops and give back to the community through providing all of our education lectures through our <a href="https://www.youtube.com/channel/UCGpukPda1pJ8Ei20e02oR0w?view_as=subscriber">Youtube</a>.
 						</p>
 					</Col>
 				</Row>
@@ -61,7 +54,7 @@ const Education = () => {
 							className="graphic graphic-desktop"
 						/>
 						<img
-							src={GraphicMobile}
+							src={Graphic}
 							alt="WDB Education Graphic"
 							style={{ width: '100%' }}
 							draggable="false"

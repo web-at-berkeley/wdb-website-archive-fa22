@@ -65,10 +65,10 @@
 			flex-direction: row;
 
 			.form-button {
-				margin: 0px 2vw;
+				margin: 0px 1vw;
 			}
 			.button-text {
-				font-size: 1.4vw;
+				font-size: 1.5vw;
 			}
 		}
 
@@ -79,7 +79,7 @@
 			letter-spacing: 0.12em;
 			text-transform: uppercase;
 			color: #5f60ff;
-			margin-top: 4vw;
+			margin-top: 6vw;
 			margin-bottom: 2vw;
 		}
 		.learn-button {
@@ -94,7 +94,7 @@
 			text-transform: uppercase;
 			color: #5f60ff;
 			margin-bottom: 3vw;
-			margin-top: 50px;
+			margin-top: 9vw;
 		}
 		.open-roles {
 			display: flex;
@@ -321,12 +321,18 @@
 			.button-row {
 				flex-direction: column;
 				.form-button {
+					margin: 0 auto;
 					margin-bottom: 3vw;
 					width: 50vw;
 					height: 11vw;
 				}
 				.button-text {
 					font-size: 4vw;
+				}
+				.text-center {
+					font-size: 5vw;
+					margin-top: 10px;
+					margin-bottom: 10px !important;
 				}
 			}
 			.learn-button {

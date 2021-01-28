@@ -19,7 +19,7 @@ const Apply = () => {
 					<p className="subtitle">
 						Interested in joining a group of passionate developers, designers,
 						entreprenuers as either a student, designer, or developer? If so,
-						you're in the right place! Our Sping 2021 applications are open and
+						you're in the right place! <br/><br/>Our Sping 2021 applications are open and
 						due Febraury 1st by midnight pacific time, so make sure to apply
 						below!
 					</p>
@@ -47,23 +47,26 @@ const Apply = () => {
 									<p className="button-text">Interest Form</p>
 								</Button>
 							</div>
-						</div>
-						<h5 className="interested">want to learn more?</h5>
-						<div className="button-row">
-							<Button
-								href="https://linktr.ee/webdevatberkeley"
-								className="learn-button"
-								target="_blank"
-							>
-								<p className="button-text">WDB Linktree</p>
-							</Button>
-							<Button
-								href="https://youtu.be/zYRDOvGxbc8"
-								className="learn-button"
-								target="_blank"
-							>
-								<p className="button-text">WDB Infosession</p>
-							</Button>
+							<div>
+								<h5 className="text-center mb-3">Events & important links</h5>
+								<Button
+									href="https://linktr.ee/webdevatberkeley"
+									className="form-button"
+									target="_blank"
+								>
+									<p className="button-text">WDB Linktree</p>
+								</Button>
+							</div>
+							<div>
+								<h5 className="text-center mb-3">If you missed it!</h5>
+								<Button
+									href="https://youtu.be/zYRDOvGxbc8"
+									className="form-button"
+									target="_blank"
+								>
+									<p className="button-text">WDB Infosession</p>
+								</Button>
+							</div>
 						</div>
 						<p className="open-role-title">Here are our open roles:</p>
 						<div className="open-roles">
