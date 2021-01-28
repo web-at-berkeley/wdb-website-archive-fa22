@@ -133,12 +133,12 @@ const Team = () => {
 				<TeamLevel
 					title="product managers"
 					data={Leadership}
-					names={['Neha', 'Emily', 'Caelin']}
+					names={['Neha', 'Emily', 'Caelin', 'Andy']}
 				/>
 				<TeamLevel
 					title="project managers"
 					data={Leadership}
-					names={['Alina', 'Albert', 'Ansa']}
+					names={['Alina', 'Albert', 'Ansa', 'Maanav']}
 				/>
 				<Footer />
 			</div>

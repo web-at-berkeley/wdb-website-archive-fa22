@@ -34,22 +34,18 @@ const Education = () => {
 					<Col xs={12} className="text-center">
 						<p className="edu-subtitle">
 							In our Education Branch, we offer students the unique opportunity
-							to gain a comprehensive web development education in both
-							frontend, UI/UX design, and backend. Students will receive
+							to gain a comprehensive web dev education in both
+							UI/UX Design and Full-Stack Development. Students will receive
 							interactive lessons taught by experienced Berkeley students as
-							well as hands-on project experiences. Students will be learning
-							alongside a small cohort of other club members, meaning lessons
-							will be highly personalized to each individual.
+							well as hands-on projects.
 						</p>
 						<p className="edu-subtitle">
-							All students go through our "basic stack", which consists of 3.5
-							weeks of HTML, CSS, JavaScript, and basic networking protocols.
-							From these students choose a specialization in frontend or backend
-							(mostly for logistical purposes, all materials and lectures from
-							both branches are open to all students). The frontend track covers
-							React.js, UI/UX design, along with other miscellaneous frontend
-							technologies such as SASS and Typescript. The backend track covers
-							Node.js, Django, AWS, MongoDB, and PostgreSQL. We aim to offer a
+							All students go through our "basic stack", which consists of of HTML/CSS/JS and basic networking protocols. <br/><br/>
+							From here, students choose a specialization in frontend or backend
+							(all materials and lectures from
+							both branches are open to all students). <br/><br/>The frontend track covers
+							React.js, UI/UX design, SASS, and Typescript, and more. The backend track covers
+							Node.js, Django, AWS, MongoDB, PostgreSQL, and more. <br/><br/>We aim to offer a
 							full-stack education, so both tracks contain 3 lessons pulled from
 							the other track.
 						</p>

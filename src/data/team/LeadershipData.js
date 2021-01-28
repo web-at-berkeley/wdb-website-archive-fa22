@@ -6,7 +6,9 @@ import Noor from './img/leadership/noor.png';
 import Emily from './img/leadership/emily.png';
 import Neha from './img/leadership/neha.png';
 import Caelin from './img/leadership/caelin.png';
+import Andy from './img/leadership/andy.png';
 import Alina from './img/leadership/alina.png';
+import Maanav from './img/leadership/maanav.png';
 import Albert from './img/leadership/albert.png';
 import Ansa from './img/leadership/ansa.png';
 import Arushi from './img/leadership/arushi.png';
@@ -86,6 +88,15 @@ export const LeadershipData = {
 		mail: 'http://github.com/caelinsutch',
 		image: Caelin,
 	},
+	Andy: {
+		name: 'Andy Jiang',
+		role: 'Product Manager',
+		description:
+			"Hello! I’m Andy, a 2nd year computer science major from Vancouver Canada and a product manager for WDB. I spend my spare time failing to have a functional sleep schedule and watching esports, probably directly causing the former point. I’m currently reading A Promised Land, and my favourite movie is Inglourious Basterds.",
+		linkedin: 'https://www.linkedin.com/in/andybojiang',
+		mail: 'http://github.com/andybojiang',
+		image: Andy,
+	},
 	Alina: {
 		name: 'Alina Wang',
 		role: 'Project Manager',
@@ -112,6 +123,15 @@ export const LeadershipData = {
 		linkedin: 'https://www.linkedin.com/in/viansa-schmulbach-74b055167/',
 		mail: 'https://github.com/ansaschmulbach',
 		image: Ansa,
+	},
+	Maanav: {
+		name: 'Maanav Khaitan',
+		role: 'Project Manager',
+		description:
+			"",
+		linkedin: 'https://www.linkedin.com/in/maanav-khaitan/',
+		mail: 'https://github.com/MaanavKhaitan',
+		image: Maanav,
 	},
 	Arushi: {
 		name: 'Arushi Somani',

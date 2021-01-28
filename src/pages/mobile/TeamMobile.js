@@ -39,9 +39,11 @@ const Team = () => {
 		'Emily',
 		'Neha',
 		'Caelin',
+		'Andy',
 		'Alina',
 		'Albert',
 		'Ansa',
+		'Maanav'
 	];
 
 	return (
