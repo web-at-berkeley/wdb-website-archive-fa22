@@ -4,8 +4,8 @@ import { SiteNavbar, Footer } from '../components';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
-// import Timeline from '../img/apply/timeline.png';
-// import MobileTimeline from '../img/apply/mobile-timeline.png';
+import Timeline from '../img/apply/timeline.png';
+import MobileTimeline from '../img/apply/mobile-timeline.png';
 
 import './css/Apply.scss';
 
@@ -20,7 +20,7 @@ const Apply = () => {
 						Interested in joining a group of passionate developers, designers,
 						entreprenuers as either a student, designer, or developer? If so,
 						you're in the right place! <br/><br/>Our Sping 2021 applications are open and
-						due Febraury 1st by midnight pacific time, so make sure to apply
+						due February 1st by midnight pacific time, so make sure to apply
 						below!
 					</p>
 
@@ -68,6 +68,8 @@ const Apply = () => {
 								</Button>
 							</div>
 						</div>
+						<img src={Timeline} className="timeline" alt="timeline"/>
+						<img src={MobileTimeline} className="mobile-timeline" alt="timeline"/>
 						<p className="open-role-title">Here are our open roles:</p>
 						<div className="open-roles">
 							<div className="type-col">

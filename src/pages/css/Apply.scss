@@ -12,11 +12,13 @@
 		width: 80%;
 	}
 
-	.recruitment-timeline {
-		width: 100%;
-		margin: 0;
+	.timeline {
+		width: 80%;
+		margin: 6vw 2vw 0 2vw;
 	}
-
+	.mobile-timeline {
+		display: none;
+	}
 	.recruitment-timeline-mobile {
 		width: 100%;
 		margin: 0;
@@ -79,7 +81,7 @@
 			letter-spacing: 0.12em;
 			text-transform: uppercase;
 			color: #5f60ff;
-			margin-top: 6vw;
+			margin-top: 3vw;
 			margin-bottom: 2vw;
 		}
 		.learn-button {
@@ -225,7 +227,14 @@
 		.subtitle {
 			font-size: 2.5vw;
 		}
-
+		.mobile-timeline {
+			width: 80%;
+			display: inline;
+			margin: 6vw 2vw 0 2vw;
+		}
+		.timeline {
+			display: none;
+		}
 		.recruitment-info {
 			margin-top: 3%;
 
@@ -234,11 +243,12 @@
 				margin-bottom: 2.5%;
 			}
 			.button-row {
+				flex-direction: column;
 				.button-text {
 					font-size: 2vw;
 				}
 				.form-button {
-					margin: 0px 2vw;
+					margin: 0px auto 2vw auto;
 					height: 6vw;
 					width: 27vw;
 					border-radius: 40vw;
