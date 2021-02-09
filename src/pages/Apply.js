@@ -19,12 +19,10 @@ const Apply = () => {
 					<p className="subtitle">
 						Interested in joining a group of passionate developers, designers,
 						entreprenuers as either a student, designer, or developer? If so,
-						you're in the right place! <br/><br/>Our Sping 2021 applications are open and
-						due February 1st by midnight pacific time, so make sure to apply
-						below!
+						you're in the right place! <br/><br/>Our applications for Spring 2021 are now closed. Check back next semester for a chance to join the team!
 					</p>
 
-					<div className="recruitment-info">
+					{/* <div className="recruitment-info">
 						<h5 className="interested">ready to join?</h5>
 						<div className="button-row">
 							<div>
@@ -125,7 +123,7 @@ const Apply = () => {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</Container>
 				<Footer />
 			</div>

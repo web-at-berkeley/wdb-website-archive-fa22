@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fall2020Projects } from '../data/projects';
+import { Spring2021Projects } from '../data/projects';
 import { SiteNavbar, Footer, Contact, Project } from '../components';
 
 import Container from 'react-bootstrap/Container';
@@ -40,11 +40,11 @@ const Development = () => {
 				</Row>
 
 				<h3 className="sub-subtitle">
-					Fall <span>2020</span> Clients
+					Spring <span>2021</span> Clients
 				</h3>
 
 				<Row style={{ justifyContent: 'center' }}>
-					{Fall2020Projects.map((project) => (
+					{Spring2021Projects.map((project) => (
 						<Project project={project} />
 					))}
 				</Row>

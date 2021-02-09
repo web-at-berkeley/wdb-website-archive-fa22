@@ -7,7 +7,7 @@ import Overlay from '../data/projects/img/overlay.png';
 import './css/Project.scss';
 
 const Project = ({ project }) => {
-	const { name, cover, link, technologies } = project;
+	const { name, cover, link, technologies, lead } = project;
 
 	const determineDescription = () => {
 		if (technologies.length === 1) {
@@ -43,6 +43,7 @@ const Project = ({ project }) => {
 					<div className="overlay text">
 						<h3>{name}</h3>
 						<p>Created using {description}</p>
+						{lead ? (<p>Lead(s): {lead}</p>) : (<div></div>)}
 					</div>
 				</a>
 			) : (
@@ -55,6 +56,7 @@ const Project = ({ project }) => {
 					<div className="overlay text">
 						<h3>{name}</h3>
 						<p>Created using {description}</p>
+						{lead? (<p>Lead(s): {lead}</p>) : (<div></div>)}
 					</div>
 				</div>
 			)}
@@ -63,6 +65,7 @@ const Project = ({ project }) => {
 				<h3>{name}</h3>
 				<p>Created using {description}</p>
 			</div>
+			
 		</Col>
 	);
 };

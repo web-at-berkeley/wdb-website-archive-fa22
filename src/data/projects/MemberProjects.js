@@ -10,12 +10,24 @@ import TitanRig from './img/MemberProjects/titanrig.png';
 import SAAI from './img/Fall2020Projects/SAAI.png';
 import CMES from './img/MemberProjects/cmes.png';
 import BarracudaTechnologies from './img/Fall2020Projects/BarracudaTechnologies.png';
-
 import Carepath from './img/Fall2020Projects/carepath.png';
-import UDoItLegal from './img/Fall2020Projects/UDoItLegal.png';
 import BPT from './img/Fall2020Projects/bpt.png';
 
+import AnsariSpring from './img/Spring2021Projects/ansari.png';
+import CivHacks from './img/Spring2021Projects/civhacks.png';
+import Nexus from './img/Spring2021Projects/nexus.png';
+import LaunchParty from './img/Spring2021Projects/launchparty.png';
+import Clicked from './img/Spring2021Projects/clicked.png';
+import ScholarHub from './img/Spring2021Projects/scholarhub.png';
+import UDoIt from './img/Spring2021Projects/uDoIt.png';
+
 export const MemberProjects = [
+	{
+		name: 'Best Path Transit',
+		cover: BPT,
+		link: 'https://bestpathtransit.com/',
+		technologies: ['Google Cloud', 'React'],
+	},
 	{
 		name: 'Barracuda Technologies',
 		cover: BarracudaTechnologies,
@@ -39,6 +51,12 @@ export const MemberProjects = [
 		cover: Resource19,
 		link: 'https://resource19.org/',
 		technologies: ['React', 'JQuery', 'Sass', 'Firebase'],
+	},
+	{
+		name: 'Carepath',
+		cover: Carepath,
+		link: '',
+		technologies: ['React', 'Django', 'Heroku'],
 	},
 	{
 		name: 'Ansari Math',
@@ -74,7 +92,7 @@ export const MemberProjects = [
 		name: 'UC Berkeley CMES',
 		cover: CMES,
 		link: '',
-		technologies: ['Figma', 'Adobe Illustrator', 'Drupal'],
+		technologies: ['Figma', 'Adobe Illustrator'],
 	},
 	{
 		name: 'Titan Rig',
@@ -86,21 +104,50 @@ export const MemberProjects = [
 
 export const CurrentProjects = [
 	{
-		name: 'Best Path Transit',
-		cover: BPT,
-		link: 'https://bestpathtransit.com/',
-		technologies: ['Google Cloud', 'React'],
+		name: 'Launch Party',
+		cover: LaunchParty,
+		link: '',
+		technologies: ['Figma', 'Vercel', 'AWS', 'Next.JS'],
+		lead:'Neha Haq'
 	},
 	{
+		name: 'Clicked',
+		cover: Clicked,
+		link: 'https://www.clicked.com/',
+		technologies: ['TBD'],
+		lead:'Caelin Sutch'
+    },
+    {
+		name: 'Scholarhub',
+		cover: ScholarHub,
+		link: '',
+		technologies: ['Figma', 'MongoDB', 'Express', 'React.js', 'Node.js'],
+		lead:'Emily Su, Andy Jiang'
+    },
+    {
 		name: 'U-Do-It Legal',
-		cover: UDoItLegal,
+		cover: UDoIt,
 		link: '',
-		technologies: ['Amazon Web Services', 'React'],
+		technologies: ['Figma', 'React'],
+		lead:'Alina Wang'
 	},
 	{
-		name: 'Carepath',
-		cover: Carepath,
+		name: 'Ansari Math',
+		cover: Ansari,
 		link: '',
-		technologies: ['React', 'Django', 'Heroku'],
+		technologies: ['AWS', 'React'],
+		lead:'Viansa Schmulbach'
+	},
+	{
+		name: 'ASUC civ.hacks',
+		cover: CivHacks,
+		link: '',
+		technologies: ['Figma', 'React'],
+	},
+	{
+		name: 'Nexus',
+		cover: Nexus,
+		link: '',
+		technologies: ['React', 'Figma'],
 	},
 ];

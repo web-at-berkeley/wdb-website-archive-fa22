@@ -138,7 +138,7 @@ const Team = () => {
 				<TeamLevel
 					title="project managers"
 					data={Leadership}
-					names={['Alina', 'Albert', 'Ansa', 'Maanav']}
+					names={['Alina', 'Albert', 'Ansa']}
 				/>
 				<Footer />
 			</div>

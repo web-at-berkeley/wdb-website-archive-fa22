@@ -8,7 +8,6 @@ import Neha from './img/leadership/neha.png';
 import Caelin from './img/leadership/caelin.png';
 import Andy from './img/leadership/andy.png';
 import Alina from './img/leadership/alina.png';
-import Maanav from './img/leadership/maanav.png';
 import Albert from './img/leadership/albert.png';
 import Ansa from './img/leadership/ansa.png';
 import Arushi from './img/leadership/arushi.png';
@@ -124,15 +123,7 @@ export const LeadershipData = {
 		mail: 'https://github.com/ansaschmulbach',
 		image: Ansa,
 	},
-	Maanav: {
-		name: 'Maanav Khaitan',
-		role: 'Project Manager',
-		description:
-			"",
-		linkedin: 'https://www.linkedin.com/in/maanav-khaitan/',
-		mail: 'https://github.com/MaanavKhaitan',
-		image: Maanav,
-	},
+	
 	Arushi: {
 		name: 'Arushi Somani',
 		role: 'Frontend Educator',

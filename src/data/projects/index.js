@@ -6,3 +6,6 @@ export {
 	MemberProjects as PastProjects,
 	CurrentProjects as CurrentProjects	 
 } from './MemberProjects';
+export {	
+	Spring2021ProjectData as Spring2021Projects
+} from './Spring2021Projects'
