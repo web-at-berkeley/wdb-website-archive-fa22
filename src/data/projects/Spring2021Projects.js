@@ -12,35 +12,35 @@ export const Spring2021ProjectData = [
 		cover: LaunchParty,
 		link: '',
 		technologies: ['Figma', 'Vercel', 'AWS', 'Next.JS'],
-		lead:'Neha Haq'
+		lead: 'Neha Haq',
 	},
 	{
 		name: 'Clicked',
 		cover: Clicked,
 		link: 'https://www.clicked.com/',
-		technologies: ['TBD'],
-		lead:'Caelin Sutch'
-    },
-    {
+		technologies: ['React, Node, MongoDB, Express'],
+		lead: 'Caelin Sutch',
+	},
+	{
 		name: 'Scholarhub',
 		cover: ScholarHub,
 		link: '',
 		technologies: ['Figma', 'MongoDB', 'Express', 'React.js', 'Node.js'],
-		lead:'Emily Su, Andy Jiang'
-    },
-    {
+		lead: 'Emily Su, Andy Jiang',
+	},
+	{
 		name: 'U-Do-It Legal',
 		cover: UDoIt,
 		link: '',
 		technologies: ['Figma', 'React'],
-		lead:'Alina Wang'
+		lead: 'Alina Wang',
 	},
 	{
 		name: 'Ansari Math',
 		cover: Ansari,
 		link: '',
 		technologies: ['AWS', 'React'],
-		lead:'Viansa Schmulbach'
+		lead: 'Viansa Schmulbach',
 	},
 	{
 		name: 'ASUC civ.hacks',
