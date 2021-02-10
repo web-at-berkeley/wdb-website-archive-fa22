@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button';
 
 import Logo from '../img/site-nav/logo-rainbow.png';
 
+import './css/Resources.scss';
+
 const Resources = (props) => {
 	const type = props.page;
 	useEffect(() => {
@@ -21,21 +23,8 @@ const Resources = (props) => {
 
 	if (props.page) {
 		return (
-			<div
-				style={{
-					width: '100%',
-					height: '100vh',
-					display: 'flex',
-					flexDirection: 'column',
-					alignItems: 'center',
-					justifyContent: 'center',
-				}}
-			>
-				<img
-					src={Logo}
-					alt="Web Development at Berkeley"
-					style={{ width: '40%', marginBottom: '2rem' }}
-				/>
+			<div id="redirecting">
+				<img src={Logo} alt="Web Development at Berkeley" />
 				<h1>redirecting...</h1>
 			</div>
 		);
@@ -51,12 +40,9 @@ const Resources = (props) => {
 				alignItems: 'center',
 				justifyContent: 'center',
 			}}
+			id="resources"
 		>
-			<img
-				src={Logo}
-				alt="Web Development at Berkeley"
-				style={{ width: '40%', marginBottom: '2rem' }}
-			/>
+			<img src={Logo} alt="Web Development at Berkeley" />
 			<Link to="startup" style={{ marginBottom: '1rem' }}>
 				<Button>
 					<p>Startup Resources</p>
