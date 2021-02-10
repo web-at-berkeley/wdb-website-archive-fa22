@@ -38,14 +38,14 @@ export const Spring2021ProjectData = [
 	{
 		name: 'Ansari Math',
 		cover: Ansari,
-		link: '',
-		technologies: ['AWS', 'React'],
+		link: 'https://ansarimath.com/',
+		technologies: ['AWS', 'React', 'Node', 'Express'],
 		lead: 'Viansa Schmulbach',
 	},
 	{
 		name: 'ASUC civ.hacks',
 		cover: CivHacks,
-		link: '',
+		link: 'https://civhacks.com/',
 		technologies: ['Figma', 'React'],
 	},
 	{

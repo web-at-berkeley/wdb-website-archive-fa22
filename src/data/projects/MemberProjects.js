@@ -53,18 +53,6 @@ export const MemberProjects = [
 		technologies: ['React', 'JQuery', 'Sass', 'Firebase'],
 	},
 	{
-		name: 'Carepath',
-		cover: Carepath,
-		link: '',
-		technologies: ['React', 'Django', 'Heroku'],
-	},
-	{
-		name: 'Ansari Math',
-		cover: Ansari,
-		link: 'https://www.ansarimath.com/',
-		technologies: ['React', 'Amazon Web Services', 'Node', 'Express'],
-	},
-	{
 		name: 'The Berkeley Forum',
 		cover: TBF,
 		link: 'https://forum.berkeley.edu/',
@@ -91,7 +79,7 @@ export const MemberProjects = [
 	{
 		name: 'UC Berkeley CMES',
 		cover: CMES,
-		link: '',
+		link: 'https://cmes.berkeley.edu/',
 		technologies: ['Figma', 'Adobe Illustrator'],
 	},
 	{
@@ -108,40 +96,40 @@ export const CurrentProjects = [
 		cover: LaunchParty,
 		link: '',
 		technologies: ['Figma', 'Vercel', 'AWS', 'Next.JS'],
-		lead:'Neha Haq'
+		lead: 'Neha Haq',
 	},
 	{
 		name: 'Clicked',
 		cover: Clicked,
 		link: 'https://www.clicked.com/',
 		technologies: ['TBD'],
-		lead:'Caelin Sutch'
-    },
-    {
+		lead: 'Caelin Sutch',
+	},
+	{
 		name: 'Scholarhub',
 		cover: ScholarHub,
 		link: '',
 		technologies: ['Figma', 'MongoDB', 'Express', 'React.js', 'Node.js'],
-		lead:'Emily Su, Andy Jiang'
-    },
-    {
+		lead: 'Emily Su, Andy Jiang',
+	},
+	{
 		name: 'U-Do-It Legal',
 		cover: UDoIt,
 		link: '',
 		technologies: ['Figma', 'React'],
-		lead:'Alina Wang'
+		lead: 'Alina Wang',
 	},
 	{
 		name: 'Ansari Math',
 		cover: Ansari,
-		link: '',
-		technologies: ['AWS', 'React'],
-		lead:'Viansa Schmulbach'
+		link: 'https://ansarimath.com/',
+		technologies: ['React', 'Amazon Web Services', 'Node', 'Express'],
+		lead: 'Viansa Schmulbach',
 	},
 	{
 		name: 'ASUC civ.hacks',
 		cover: CivHacks,
-		link: '',
+		link: 'https://civhacks.com/',
 		technologies: ['Figma', 'React'],
 	},
 	{
@@ -149,5 +137,11 @@ export const CurrentProjects = [
 		cover: Nexus,
 		link: '',
 		technologies: ['React', 'Figma'],
+	},
+	{
+		name: 'Carepath',
+		cover: Carepath,
+		link: '',
+		technologies: ['React', 'Django', 'AWS'],
 	},
 ];
