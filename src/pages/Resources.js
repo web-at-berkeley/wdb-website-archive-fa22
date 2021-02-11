@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
+import { SiteNavbar, Footer } from '../components';
 import { navigate, Link } from '@reach/router';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
 import Logo from '../img/site-nav/logo-rainbow.png';
@@ -35,33 +39,40 @@ const Resources = (props) => {
 	}
 
 	return (
-		<div
-			style={{
-				width: '100%',
-				height: '100vh',
-				display: 'flex',
-				flexDirection: 'column',
-				alignItems: 'center',
-				justifyContent: 'center',
-			}}
-			id="resources"
-		>
-			<img src={Logo} alt="Web Development at Berkeley" />
-			<Link to="startup" style={{ marginBottom: '1rem' }}>
-				<Button>
-					<p>Startup Resources</p>
-				</Button>
-			</Link>
-			<Link to="development">
-				<Button>
-					<p>Web Development and Design Resources</p>
-				</Button>
-			</Link>
-			<Link to="finance">
-				<Button>
-					<p>Personal Finance Resources</p>
-				</Button>
-			</Link>
+		<div className="resources">
+			<SiteNavbar />
+			<Container fluid className="body">
+				<Row>
+					<Col xs={12} className="title-col">
+						<h1 className="header">Resources.</h1>
+						<p className="subtitle">
+							Part of our mission is giving back to our community, and to that
+							end we regularly compile relevent and often timeless resources
+							from our collective pool of knowledge in order to create
+							collections to be used by entreprenuers, developers, designers,
+							and college students in general.
+						</p>
+					</Col>
+				</Row>
+				<div className="btn-group">
+					<Link to="startup" className="link-tag">
+						<Button>
+							<p>Startup Resources</p>
+						</Button>
+					</Link>
+					<Link to="development" className="link-tag">
+						<Button>
+							<p>Web Development and Design Resources</p>
+						</Button>
+					</Link>
+					<Link to="finance" className="link-tag">
+						<Button>
+							<p>Personal Finance Resources</p>
+						</Button>
+					</Link>
+				</div>
+			</Container>
+			<Footer />
 		</div>
 	);
 };
