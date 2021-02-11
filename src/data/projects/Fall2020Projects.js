@@ -1,14 +1,14 @@
-import Carepath from './img/Fall2020Projects/carepath.png';
-import UDoItLegal from './img/Fall2020Projects/UDoItLegal.png';
 import BPT from './img/Fall2020Projects/bpt.png';
-import CSAS from './img/Fall2020Projects/CSAS.png';
 import BarracudaTechnologies from './img/Fall2020Projects/barracudaLogo.png';
+import SAAI from './img/Fall2020Projects/SAAI.png';
+import CMES from './img/Fall2020Projects/cmes.png';
+import Carepath from './img/Fall2020Projects/carepath.png';
+import UDoIt from './img/Fall2020Projects/UDoItLegal.png';
 
 import Indecisive from './img/Fall2020Projects/Indecisive.png';
 import WatsonSpotify from './img/Fall2020Projects/WatsonSpotify.png';
 import Daycation from './img/Fall2020Projects/Daycation.png';
 import UpAndComing from './img/Fall2020Projects/UpAndComing.png';
-import Planner from './img/Fall2020Projects/Planner.png';
 
 export const Fall2020ProjectData = [
 	{
@@ -18,28 +18,34 @@ export const Fall2020ProjectData = [
 		technologies: ['Google Cloud', 'React'],
 	},
 	{
+		name: 'Barracuda Technologies',
+		cover: BarracudaTechnologies,
+		link: 'https://www.barra-labs.com/',
+		technologies: ['Figma', 'React'],
+	},
+	{
 		name: 'U-Do-It Legal',
-		cover: UDoItLegal,
+		cover: UDoIt,
 		link: '',
-		technologies: ['Amazon Web Services', 'React'],
+		technologies: ['React', 'AWS', 'Figma'],
+	},
+	{
+		name: 'UC Berkeley SAAI Artists Residency',
+		cover: SAAI,
+		link: 'https://www.ucberkeley-saai-artistsresidency.com/',
+		technologies: ['React', 'Figma'],
+	},
+	{
+		name: 'UC Berkeley CMES',
+		cover: CMES,
+		link: 'https://cmes.berkeley.edu/',
+		technologies: ['Figma', 'Adobe Illustrator'],
 	},
 	{
 		name: 'Carepath',
 		cover: Carepath,
 		link: '',
-		technologies: ['React', 'Django', 'Heroku'],
-	},
-	{
-		name: 'UC Berkeley CSAS',
-		cover: CSAS,
-		link: '',
-		technologies: ['Figma', 'React'],
-	},
-	{
-		name: 'Barracuda Technologies',
-		cover: BarracudaTechnologies,
-		link: 'https://www.barra-labs.com/',
-		technologies: ['Figma', 'React'],
+		technologies: ['React', 'Django', 'AWS'],
 	},
 ];
 
@@ -68,10 +74,4 @@ export const Fall2020StudentProjectData = [
 		link: 'http://upandcoming.herokuapp.com/home',
 		technologies: ['Amazon Web Services', 'Node', 'React'],
 	},
-	// {
-	// 	name: 'ToDo List',
-	// 	cover: Planner,
-	// 	link: 'https://github.com/aliner-wang/PlannerEarth',
-	// 	technologies: ['Django', 'React', 'MongoDB'],
-	// },
 ];

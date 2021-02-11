@@ -1,7 +1,7 @@
 import React from 'react';
 import {
 	PastProjects,
-	CurrentProjects,
+	Spring2021Projects,
 	StudentProjects,
 } from '../data/projects';
 import { SiteNavbar, Footer, Contact, Project } from '../components';
@@ -36,7 +36,7 @@ const Projects = () => {
 				</Row>
 				<h3 className="project-header">Current Projects</h3>
 				<Row>
-					{CurrentProjects.map((project) => (
+					{Spring2021Projects.map((project) => (
 						<Project project={project} />
 					))}
 				</Row>

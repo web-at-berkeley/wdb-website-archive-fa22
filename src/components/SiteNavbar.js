@@ -117,13 +117,19 @@ const SiteNavbar = (props) => {
 							<p className="nav-text">What We Offer</p>
 						</Link>
 						<Link to="/about/education" className="link-tag">
-							<p className="nav-text tab-text">Education</p>
+							<p className="nav-text" style={{ paddingLeft: '5%' }}>
+								Education
+							</p>
 						</Link>
 						<Link to="/about/development" className="link-tag">
-							<p className="nav-text tab-text">Development</p>
+							<p className="nav-text" style={{ paddingLeft: '5%' }}>
+								Development
+							</p>
 						</Link>
 						<Link to="/about/partnerships" className="link-tag">
-							<p className="nav-text tab-text">Partnerships</p>
+							<p className="nav-text" style={{ paddingLeft: '5%' }}>
+								Partnerships
+							</p>
 						</Link>
 						<Link to="/team" className="link-tag">
 							<p className="nav-text">Team</p>
