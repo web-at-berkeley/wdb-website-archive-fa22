@@ -18,6 +18,10 @@ const Resources = (props) => {
 			navigate(
 				'https://www.notion.so/WDB-Dev-Design-Resources-b6d91c1b96834a8d8c86614e3c70bd74'
 			);
+		} else if (type === 'finance') {
+			navigate(
+				'https://www.notion.so/Financial-Resources-2ca6a1d1ee9e4ae98c5ab325c0eed5e2'
+			);
 		}
 	}, []);
 
@@ -51,6 +55,11 @@ const Resources = (props) => {
 			<Link to="development">
 				<Button>
 					<p>Web Development and Design Resources</p>
+				</Button>
+			</Link>
+			<Link to="finance">
+				<Button>
+					<p>Personal Finance Resources</p>
 				</Button>
 			</Link>
 		</div>
