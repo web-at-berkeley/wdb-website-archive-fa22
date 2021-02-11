@@ -102,7 +102,7 @@ export const CurrentProjects = [
 		name: 'Clicked',
 		cover: Clicked,
 		link: 'https://www.clicked.com/',
-		technologies: ['TBD'],
+		technologies: ['React, Node, MongoDB, Express'],
 		lead: 'Caelin Sutch',
 	},
 	{
