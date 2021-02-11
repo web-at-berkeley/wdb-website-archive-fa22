@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spring2021Projects } from '../data/projects';
+import { Spring2021Projects, Fall2020Projects } from '../data/projects';
 import { SiteNavbar, Footer, Contact, Project } from '../components';
 
 import Container from 'react-bootstrap/Container';
@@ -45,6 +45,16 @@ const Development = () => {
 
 				<Row style={{ justifyContent: 'center' }}>
 					{Spring2021Projects.map((project) => (
+						<Project project={project} />
+					))}
+				</Row>
+
+				<h3 className="sub-subtitle">
+					Fall <span>2020</span> Clients
+				</h3>
+
+				<Row style={{ justifyContent: 'center' }}>
+					{Fall2020Projects.map((project) => (
 						<Project project={project} />
 					))}
 				</Row>
