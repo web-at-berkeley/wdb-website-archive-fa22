@@ -147,7 +147,7 @@ export const LeadershipData = {
 		role: 'Reader/Tutor',
 		description: 'Currently in a relationship with margarita pizza.',
 		linkedin: 'https://www.linkedin.com/in/jerrickzhu/',
-		mail: '',
+		mail: 'https://www.linkedin.com/in/jerrickzhu/',
 		image: Jerrick,
 	},
 };

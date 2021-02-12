@@ -41,7 +41,7 @@ export const ExecData = [
 		description:
 			"Hi friends! I'm Jasmine, a second year majoring in Cognitive Science. Since coming to Cal, I've had the opportunity to evolve my interest in UI/UX design through various projects, and I hope that I can be a helpful resource for the WDB community! In my free time, I enjoy illustrating and running my small business :)",
 		linkedin: 'https://www.linkedin.com/company/web-dev-at-berkeley/',
-		mail: '#',
+		mail: '',
 		image: Jasmine,
 	},
 	{
