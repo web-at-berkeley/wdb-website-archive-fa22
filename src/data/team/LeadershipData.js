@@ -75,7 +75,7 @@ export const LeadershipData = {
 		description:
 			'Heyy! I am Neha Haq, a third year student double majoring in Statistics and Data Science. In my free time - if I get any (sighh) - I love to bake and temporarily enjoy being bored, which I get bored of and always end up putting too much on my plate hahah. I love watching random YouTube content and anything chocolate is always nice and the best stress reliever (imo).',
 		linkedin: 'https://www.linkedin.com/in/neha-haq/',
-		mail: '',
+		mail: 'https://github.com/nwhaq1',
 		image: Neha,
 	},
 	Caelin: {
@@ -91,7 +91,7 @@ export const LeadershipData = {
 		name: 'Andy Jiang',
 		role: 'Product Manager',
 		description:
-			"Hello! I’m Andy, a 2nd year computer science major from Vancouver Canada and a product manager for WDB. I spend my spare time failing to have a functional sleep schedule and watching esports, probably directly causing the former point. I’m currently reading A Promised Land, and my favourite movie is Inglourious Basterds.",
+			'Hello! I’m Andy, a 2nd year computer science major from Vancouver Canada and a product manager for WDB. I spend my spare time failing to have a functional sleep schedule and watching esports, probably directly causing the former point. I’m currently reading A Promised Land, and my favourite movie is Inglourious Basterds.',
 		linkedin: 'https://www.linkedin.com/in/andybojiang',
 		mail: 'http://github.com/andybojiang',
 		image: Andy,
@@ -123,7 +123,7 @@ export const LeadershipData = {
 		mail: 'https://github.com/ansaschmulbach',
 		image: Ansa,
 	},
-	
+
 	Arushi: {
 		name: 'Arushi Somani',
 		role: 'Frontend Educator',

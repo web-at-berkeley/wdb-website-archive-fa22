@@ -17,7 +17,7 @@ export const AlumniData = {
 		role: 'Software Engineer at Twitter',
 		description: 'Addicted to Boba.',
 		linkedin: 'https://www.linkedin.com/in/melodysyan/',
-		mail: '',
+		mail: 'https://github.com/itsmelodious',
 		image: Melody,
 	},
 	Jerrick: {
