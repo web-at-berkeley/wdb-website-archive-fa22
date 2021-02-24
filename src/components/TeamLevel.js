@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import { ReactComponent as Linkedin } from '../data/team/img/linkedin.svg';
-import { ReactComponent as Github } from '../data/team/img/github.svg';
+import { ReactComponent as Linkedin } from '../img/team/linkedin.svg';
+import { ReactComponent as Github } from '../img/team/github.svg';
 
 import './css/TeamLevel.scss';
 

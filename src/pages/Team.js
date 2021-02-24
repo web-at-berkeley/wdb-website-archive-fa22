@@ -7,9 +7,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Bubbles from '../data/team/img/bubbles.png';
-import { ReactComponent as Linkedin } from '../data/team/img/linkedin.svg';
-import { ReactComponent as Github } from '../data/team/img/github.svg';
+import Bubbles from '../img/team/bubbles.png';
+import { ReactComponent as Linkedin } from '../img/team/linkedin.svg';
+import { ReactComponent as Github } from '../img/team/github.svg';
 
 import './css/Team.scss';
 
