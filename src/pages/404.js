@@ -1,30 +1,26 @@
 import React from 'react';
-import { Link } from '@reach/router';
+import { SiteNavbar, Footer } from '../components';
+// import { Link } from '@reach/router';
 
-import Logo from '../img/site-nav/logo-rainbow.png';
+import Error from '../img/404.png';
+
+import styles from './css/Error.module.scss';
 
 const Error404 = () => {
 	return (
-		<Link to="/">
-			<div
-				style={{
-					display: 'flex',
-					alignItems: 'center',
-					justifyContent: 'center',
-					height: '100vh',
-				}}
-			>
+		<div className={styles['error']}>
+			<SiteNavbar />
+
+			<div className={styles['body']}>
 				<img
-					src={Logo}
-					alt="Web Development at Berkeley"
-					style={{ width: '20%', marginRight: '5rem' }}
+					src={Error}
+					alt="404 Page Not Found"
+					className={styles['message']}
 				/>
-				<div>
-					<h1>404</h1>
-					<p>Click anywhere to go back!</p>
-				</div>
 			</div>
-		</Link>
+
+			<Footer />
+		</div>
 	);
 };
 

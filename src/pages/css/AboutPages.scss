@@ -10,6 +10,7 @@
 	overflow: hidden;
 	position: relative;
 	min-height: 100vh;
+
 	.body {
 		padding: 9rem 5%;
 		padding-bottom: 30%;
@@ -50,8 +51,9 @@
 .education {
 	.body {
 		padding: 9rem 0;
-		padding-bottom: 0;
+		padding-bottom: 20%;
 	}
+
 	.graphic {
 		margin: 5vw auto;
 		width: 60vw !important;
@@ -61,9 +63,11 @@
 		display: flex;
 		width: 60vw !important;
 	}
+
 	.graphic-mobile {
 		display: none;
 	}
+
 	.edu-subtitle {
 		font-size: 1.5vw;
 		line-height: 1.25;
@@ -79,10 +83,13 @@
 			text-decoration: none;
 		}
 	}
+
 	@media only screen and (max-width: 992px) {
 		.body {
 			padding-top: 0;
+			padding-bottom: 20%;
 		}
+
 		.edu-subtitle {
 			font-size: 2.2vw;
 			line-height: 1.25;
@@ -96,7 +103,12 @@
 			width: 80vw !important;
 		}
 	}
+
 	@media only screen and (max-width: 576px) {
+		.body {
+			padding-bottom: 30%;
+		}
+
 		.edu-subtitle {
 			font-size: 5vw;
 			line-height: 1.25;
