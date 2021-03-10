@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Bubbles from '../../img/team/bubbles.png';
+import Destinations from '../../img/team/destinations.jpg';
 
 import '../css/Team.scss';
 
@@ -30,6 +31,18 @@ const Team = () => {
 			<SiteNavbar />
 			<Container fluid className="body">
 				<Row>
+					<Col xs={12} className="title-col">
+						<h1 className="header">Our Destinations.</h1>
+						<p className="subtitle">
+							Our members have worked at companies and organizations across the
+							spectrum of both industries and level of establishment.
+						</p>
+						<img
+							src={Destinations}
+							alt="Our Destinations"
+							className="destinations"
+						/>
+					</Col>
 					<Col xs={12} className="title-col">
 						<h1 className="header">Our Alumni.</h1>
 						<p className="subtitle">We love our alumni!</p>

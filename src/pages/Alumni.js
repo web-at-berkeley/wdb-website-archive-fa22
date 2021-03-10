@@ -7,6 +7,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Destinations from '../img/team/destinations.jpg';
+
 import './css/Team.scss';
 
 const Alumnis = () => {
@@ -16,6 +18,18 @@ const Alumnis = () => {
 				<SiteNavbar />
 				<Container className="body" style={{ paddingBottom: '0' }}>
 					<Row>
+						<Col xs={12} className="title-col">
+							<h1 className="header">Our Destinations.</h1>
+							<p className="subtitle">
+								Our members have worked at companies and organizations across
+								the spectrum of both industries and level of establishment.
+							</p>
+							<img
+								src={Destinations}
+								alt="Our Destinations"
+								className="destinations"
+							/>
+						</Col>
 						<Col xs={12} className="title-col">
 							<h1 className="header">Our Alumni.</h1>
 							<p className="subtitle">We love our alumni!</p>
