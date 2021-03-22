@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Destinations from '../img/team/destinations.jpg';
+import Destinations from '../img/team/destinations.png';
 
 import './css/Team.scss';
 
