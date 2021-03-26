@@ -1,21 +1,22 @@
 import React from 'react';
 import { Router } from '@reach/router';
 
-import Landing from './pages/Landing';
-import About from './pages/About';
-import Education from './pages/Education';
-import Development from './pages/Development';
-import Partnerships from './pages/Partnerships';
+import Landing from './pages/Landing/Landing';
 
-import Members from './pages/Members';
-import Team from './pages/Team';
-import Alumni from './pages/Alumni';
-import Projects from './pages/Projects';
-import Apply from './pages/Apply';
-import Error404 from './pages/404';
-import ErrorPage from './pages/Error';
+import About from './pages/About/About';
+import Education from './pages/About/Education';
+import Development from './pages/About/Development';
+import Partnerships from './pages/About/Partnerships';
 
-import Resources from './pages/Resources';
+import Team from './pages/Team/Team';
+// import Members from './pages/Team/Members';
+import Alumni from './pages/Team/Alumni';
+
+import Projects from './pages/Projects/Projects';
+import Apply from './pages/Apply/Apply';
+import Error404 from './pages/Error/404';
+import ErrorPage from './pages/Error/Error';
+import Resources from './pages/Resources/Resources';
 
 import './App.css';
 
