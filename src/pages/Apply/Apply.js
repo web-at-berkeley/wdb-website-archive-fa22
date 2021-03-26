@@ -5,27 +5,26 @@ import Container from 'react-bootstrap/Container';
 // import Button from 'react-bootstrap/Button';
 
 // import Timeline from './img/timeline.png';
-// import MobileTimeline from './img/mobile-timeline.png';
+// import TimelineMobile from './img/timeline-mobile.png';
 
 import './css/Apply.scss';
 
 const Apply = () => {
 	return (
-		<div>
-			<div className="apply">
-				<SiteNavbar />
-				<Container fluid className="body">
-					<h1 className="header">Join The Team.</h1>
-					<p className="subtitle">
-						Interested in joining a group of passionate developers, designers,
-						entreprenuers as either a student, designer, or developer? If so,
-						you're in the right place! <br />
-						<br />
-						Our applications for Spring 2021 are now closed. Check back next
-						semester for a chance to join the team!
-					</p>
+		<div className="apply">
+			<SiteNavbar />
+			<Container fluid className="body">
+				<h1 className="header">Join The Team.</h1>
+				<p className="subtitle">
+					Interested in joining a group of passionate developers, designers,
+					entreprenuers as either a student, designer, or developer? If so,
+					you're in the right place! <br />
+					<br />
+					Our applications for Spring 2021 are now closed. Check back next
+					semester for a chance to join the team!
+				</p>
 
-					{/* <div className="recruitment-info">
+				{/* <div className="recruitment-info">
 						<h5 className="interested">ready to join?</h5>
 						<div className="button-row">
 							<div>
@@ -70,7 +69,7 @@ const Apply = () => {
 							</div>
 						</div>
 						<img src={Timeline} className="timeline" alt="timeline"/>
-						<img src={MobileTimeline} className="mobile-timeline" alt="timeline"/>
+						<img src={TimelineMobile} className="timeline-mobile" alt="timeline"/>
 						<p className="open-role-title">Here are our open roles:</p>
 						<div className="open-roles">
 							<div className="type-col">
@@ -127,9 +126,8 @@ const Apply = () => {
 							</div>
 						</div>
 					</div> */}
-				</Container>
-				<Footer />
-			</div>
+			</Container>
+			<Footer />
 		</div>
 	);
 };

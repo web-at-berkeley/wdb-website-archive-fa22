@@ -32,7 +32,7 @@ const Team = () => {
 			<Container fluid className="body">
 				<Row>
 					<Col xs={12} className="title-col">
-						<h1 className="header">Our Destinations.</h1>
+						<h1 className="header">Where We Go.</h1>
 						<p className="subtitle">
 							Our members have worked at companies and organizations across the
 							spectrum of both industries and level of establishment.

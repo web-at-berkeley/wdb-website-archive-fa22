@@ -1,10 +1,12 @@
 import React from 'react';
 
 import Col from 'react-bootstrap/Col';
+import { Flex, Spacer } from '@chakra-ui/react';
 
-import Overlay from '../../data/projects/img/overlay.png';
+import Overlay from './img/overlay.png';
 
-import './css/Project.scss';
+import styles from './css/Project.module.scss';
+import classnames from 'classnames';
 
 const Project = ({ project }) => {
 	const { name, cover, link, technologies, lead } = project;
@@ -26,45 +28,41 @@ const Project = ({ project }) => {
 	const description = determineDescription();
 
 	return (
-		<Col sm={12} md={6} lg={4} className="project">
-			{link ? (
-				<a
-					href={link}
-					title={name}
-					className="cover-link"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<img src={cover} alt={name} className="cover" draggable="false" />
+		<Col sm={12} md={6} lg={4} className={styles['project']}>
+			<a
+				href={link ? link : null}
+				title={name}
+				className={styles['link']}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img
+					src={cover}
+					alt={name}
+					className={styles['cover']}
+					draggable="false"
+				/>
 
-					<div className="overlay image">
-						<img src={Overlay} alt="overlay" draggable="false" />
-					</div>
-					<div className="overlay text">
-						<h3>{name}</h3>
-						<p>Created using {description}</p>
-						{lead ? <p>Lead(s): {lead}</p> : <div></div>}
-					</div>
-				</a>
-			) : (
-				<div className="cover-link">
-					<img src={cover} alt={name} className="cover" draggable="false" />
-
-					<div className="overlay image">
-						<img src={Overlay} alt="overlay" draggable="false" />
-					</div>
-					<div className="overlay text">
-						<h3>{name}</h3>
-						<p>Created using {description}</p>
-						{lead ? <p>Lead(s): {lead}</p> : <div></div>}
-					</div>
+				<div className={classnames(styles['overlay'], styles['image'])}>
+					<img src={Overlay} alt="overlay" draggable="false" />
 				</div>
-			)}
+				<div className={classnames(styles['overlay'], styles['text'])}>
+					<h3>{name}</h3>
+					<p>Created using {description}</p>
+					{lead ? <p>Lead(s): {lead}</p> : <div></div>}
+				</div>
+			</a>
 
-			<div className="description">
+			<Flex
+				direction="column"
+				align="center"
+				w="95%"
+				mx="2.5%"
+				className={styles['description']}
+			>
 				<h3>{name}</h3>
 				<p>Created using {description}</p>
-			</div>
+			</Flex>
 		</Col>
 	);
 };

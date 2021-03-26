@@ -5,7 +5,7 @@
 	padding: 0;
 	margin-top: 2%;
 
-	.cover-link {
+	.link {
 		width: 95%;
 		height: 100%;
 		margin: 0 2.5%;
@@ -83,11 +83,7 @@
 
 	.description {
 		display: none;
-		flex-direction: column;
-		align-items: center;
 		min-height: 50%;
-		width: 95%;
-		margin: 0 2.5%;
 
 		h3,
 		p {
@@ -113,7 +109,7 @@
 	}
 
 	@media only screen and (max-width: 992px) {
-		.cover-link {
+		.link {
 			.overlay {
 				display: none;
 			}
