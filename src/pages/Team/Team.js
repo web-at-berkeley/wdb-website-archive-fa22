@@ -128,7 +128,7 @@ const Team = () => {
 				<TeamLevel
 					title="course staff"
 					data={Leadership}
-					names={['Arushi', 'Hector', 'Jerrick']}
+					names={['Arushi', 'Hector', 'Jerrick', 'Justin']}
 				/>
 				<TeamLevel
 					title="product managers"
