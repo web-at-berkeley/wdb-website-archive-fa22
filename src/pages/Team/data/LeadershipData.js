@@ -13,7 +13,6 @@ import Ansa from './img/leadership/ansa.png';
 import Arushi from './img/leadership/arushi.png';
 import Hector from './img/leadership/hector.png';
 import Jerrick from './img/leadership/jerrick.png';
-import Justin from './img/exec/justin.png'
 
 export const LeadershipData = {
 	April: {
@@ -150,15 +149,5 @@ export const LeadershipData = {
 		linkedin: 'https://www.linkedin.com/in/jerrickzhu/',
 		github: 'https://www.linkedin.com/in/jerrickzhu/',
 		image: Jerrick,
-	},
-	
-	Justin: {
-		name: 'Justin Chen',
-		role: 'Development Educator',
-		description:'Hey everyone! I am a second-year at Berkeley studying Computer Science and Applied Math. Currently teaching devs in the dev branch! I am also the External VP here at WDB!',
-		linkedin: 'https://www.linkedin.com/in/justinshawnchen/',
-		github: 'https://github.com/justschen',
-		mail: 'justinshawnchen@berkeley.edu',
-		image: Justin,
 	},
 };

@@ -43,7 +43,6 @@ const Team = () => {
 		'Alina',
 		'Albert',
 		'Ansa',
-		'Justin',
 	];
 
 	return (
