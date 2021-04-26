@@ -24,7 +24,7 @@ const Resources = (props) => {
 			);
 		} else if (type === 'finance') {
 			navigate(
-				'https://www.notion.so/Financial-Resources-2ca6a1d1ee9e4ae98c5ab325c0eed5e2'
+				'https://www.notion.so/webatberkeley/Recruiting-Resources-2ca6a1d1ee9e4ae98c5ab325c0eed5e2'
 			);
 		}
 	}, []);
@@ -67,7 +67,7 @@ const Resources = (props) => {
 					</Link>
 					<Link to="finance" className="link-tag">
 						<Button>
-							<p>Personal Finance Resources</p>
+							<p>Recruiting Resources</p>
 						</Button>
 					</Link>
 				</div>
