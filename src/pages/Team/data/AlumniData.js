@@ -22,7 +22,7 @@ export const AlumniData = {
 	},
 	Jerrick: {
 		name: 'Jerrick Zhu',
-		role: 'Former WDB Course Staff',
+		role: 'Developer Integrity Specialist at Facebook',
 		description: 'Currently in a relationship with margarita pizza.',
 		linkedin: 'https://www.linkedin.com/in/jerrickzhu/',
 		github: '',
