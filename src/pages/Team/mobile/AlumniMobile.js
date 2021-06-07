@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Bubbles from '../../../img/team/bubbles.png';
-import Destinations from '../../../img/team/destinations.png';
+import Destinations from '../../../img/team/destinations-mobile.png';
 
 import '../css/Team.scss';
 
