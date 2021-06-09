@@ -31,7 +31,7 @@ const Apply = () => {
 						<p className="button-text">In-Depth Role Descriptions</p>
 					</a>
 					<a
-						href="https://docs.google.com/document/d/1S2-mebd4HIYPVG7FidbNDkOhgW54HUKKwNZrx45ko1k/edit?usp=sharing"
+						href="https://www.figma.com/file/4SdrCavwrafxPIjz9UHXIL/WDB-Organization-Chart?node-id=0%3A1"
 						className="role-desc-button"
 						target="_blank"
 					>
