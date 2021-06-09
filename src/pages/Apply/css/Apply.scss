@@ -24,26 +24,33 @@
 		margin: 0;
 		display: none;
 	}
-	.role-desc-button {
-		margin: 70px auto;
-		color: white;
-		text-align: center;
-		background-image: linear-gradient(to right, #ad51f9, #7355fb);
-		padding: 12px;
-		font-size: 1.3vw;
-		border-radius: 300px;
-		width: 500px;
+	.info-buttons {
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		transition: all 0.5s ease;
-		&:hover {
+		width: 70%;
+		justify-content: space-between;
+		margin: 40px auto;
+		.role-desc-button {
+			margin: 70px auto;
 			color: white;
-			transform: scale(1.05);
-			text-decoration: none;
+			text-align: center;
+			background-image: linear-gradient(to right, #ad51f9, #7355fb);
+			padding: 12px;
+			font-size: 1.3vw;
+			border-radius: 300px;
+			width: 40%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: all 0.5s ease;
+			&:hover {
+				color: white;
+				transform: scale(1.05);
+				text-decoration: none;
+			}
+			border: none;
 		}
-		border: none;
 	}
+
 	.leadership-buttons {
 		display: flex;
 		width: 85%;
@@ -278,12 +285,22 @@
 			margin-top: 50px;
 
 			.lead-button {
-				font-size: 2.5vw;
+				font-size: 2.8vw;
 				width: 60%;
 				margin: 10px auto;
 			}
 		}
-
+		.info-buttons {
+			display: flex;
+			flex-direction: column;
+			width: 80%;
+			margin: 20px auto;
+			.role-desc-button {
+				font-size: 2.3vw;
+				width: 60%;
+				margin: 10px auto;
+			}
+		}
 		.timeline-mobile {
 			width: 80%;
 			display: inline;
@@ -381,7 +398,16 @@
 				width: 80%;
 			}
 		}
-
+		.info-buttons {
+			display: flex;
+			flex-direction: column;
+			margin: 10px auto;
+			.role-desc-button {
+				font-size: 3.6vw;
+				width: 85%;
+				margin: 10px auto;
+			}
+		}
 		.recruitment-info {
 			display: flex;
 			flex-direction: column;

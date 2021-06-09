@@ -22,13 +22,23 @@ const Apply = () => {
 					We are recruiting for our Fall 2021 leadership positions, and would
 					love to have you join our team! Check out our positions below.
 				</p>
-				<a
-					href="https://docs.google.com/document/d/1S2-mebd4HIYPVG7FidbNDkOhgW54HUKKwNZrx45ko1k/edit?usp=sharing"
-					className="role-desc-button"
-					target="_blank"
-				>
-					<p className="button-text">In-Depth Role Descriptions</p>
-				</a>
+				<div className="info-buttons">
+					<a
+						href="https://docs.google.com/document/d/1S2-mebd4HIYPVG7FidbNDkOhgW54HUKKwNZrx45ko1k/edit?usp=sharing"
+						className="role-desc-button"
+						target="_blank"
+					>
+						<p className="button-text">In-Depth Role Descriptions</p>
+					</a>
+					<a
+						href="https://docs.google.com/document/d/1S2-mebd4HIYPVG7FidbNDkOhgW54HUKKwNZrx45ko1k/edit?usp=sharing"
+						className="role-desc-button"
+						target="_blank"
+					>
+						<p className="button-text">Organization Chart</p>
+					</a>
+				</div>
+
 				<div className="leadership-buttons">
 					<a
 						href="https://forms.gle/FT8RRiCBjTQmBbN46"
