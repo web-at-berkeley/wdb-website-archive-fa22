@@ -2,7 +2,7 @@ import React from 'react';
 import { SiteNavbar, Footer } from '../../components';
 
 import Container from 'react-bootstrap/Container';
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 
 // import Timeline from './img/timeline.png';
 // import TimelineMobile from './img/timeline-mobile.png';
@@ -16,13 +16,56 @@ const Apply = () => {
 			<Container fluid className="body">
 				<h1 className="header">Join The Team.</h1>
 				<p className="subtitle">
-					Interested in joining a group of passionate developers, designers,
-					entreprenuers as either a student, designer, or developer? If so,
-					you're in the right place! <br />
+					Interested in joining an amazing group of energetic and dedicated
+					developers and designers? If so, you're in the right place! <br />
 					<br />
-					Our applications for Spring 2021 are now closed. Check back next
-					semester for a chance to join the team!
+					We are recruiting for our Fall 2021 leadership positions, and would
+					love to have you join our team! Check out our positions below.
 				</p>
+				<a
+					href="https://docs.google.com/document/d/1S2-mebd4HIYPVG7FidbNDkOhgW54HUKKwNZrx45ko1k/edit?usp=sharing"
+					className="role-desc-button"
+					target="_blank"
+				>
+					<p className="button-text">In-Depth Role Descriptions</p>
+				</a>
+				<div className="leadership-buttons">
+					<a
+						href="https://forms.gle/FT8RRiCBjTQmBbN46"
+						className="lead-button"
+						target="_blank"
+					>
+						<p className="button-text">Product Manager</p>
+					</a>
+					<a
+						href="https://forms.gle/gVEf9X1XGo8gLocL8"
+						className="lead-button"
+						target="_blank"
+					>
+						<p className="button-text">VP Design</p>
+					</a>
+					<a
+						href="https://forms.gle/uZxpE7rNygLf1nz7A"
+						className="lead-button"
+						target="_blank"
+					>
+						<p className="button-text">Design Team</p>
+					</a>
+					<a
+						href="https://forms.gle/XUzZQpAg6xXka4x67"
+						className="lead-button"
+						target="_blank"
+					>
+						<p className="button-text">Training Team</p>
+					</a>
+					<a
+						href="https://forms.gle/5sGBvp38QZdss6uj9"
+						className="lead-button"
+						target="_blank"
+					>
+						<p className="button-text">DeCal Staff</p>
+					</a>
+				</div>
 
 				{/* <div className="recruitment-info">
 						<h5 className="interested">ready to join?</h5>
