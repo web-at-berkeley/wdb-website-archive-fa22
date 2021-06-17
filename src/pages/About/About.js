@@ -39,13 +39,12 @@ const About = () => {
 				<Row className="justify-content-center">
 					<Col xs={12} md={4} className="relative-container left-container">
 						<Link to="/about/education" className="inner-container">
-							<h3 className="subject-header">Education</h3>
+							<h3 className="subject-header">DeCal</h3>
 							<p className="subject-text">
 								With Berkeley's scattered web development education
 								opportunities, it can be difficult to know where to start
-								pursuing this knowledge. Web Developers of Berkeley is the place
-								for students to master these skills and web developers to apply
-								their knowledge.
+								pursuing this knowledge. WDB's Full Stack DeCal is the place for
+								students to master these skills and apply their knowledge.
 							</p>
 						</Link>
 						<img

@@ -48,7 +48,7 @@ const SiteNavbar = (props) => {
 						<div className="dropdown-content">
 							<Link to="/about/education" className="link-tag">
 								<p className="nav-text">
-									<mark>Education</mark>
+									<mark>DeCal</mark>
 								</p>
 							</Link>
 							<Link to="/about/development" className="link-tag">
@@ -118,7 +118,7 @@ const SiteNavbar = (props) => {
 						</Link>
 						<Link to="/about/education" className="link-tag">
 							<p className="nav-text" style={{ paddingLeft: '5%' }}>
-								Education
+								DeCal
 							</p>
 						</Link>
 						<Link to="/about/development" className="link-tag">

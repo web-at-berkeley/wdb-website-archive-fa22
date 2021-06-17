@@ -41,7 +41,7 @@ const LandingNavbar = () => {
 							</Link>
 							<div className="dropdown-content">
 								<Link to="/about/education" className="link-tag">
-									<p className="nav-text">Education</p>
+									<p className="nav-text">DeCal</p>
 								</Link>
 								<Link to="/about/development" className="link-tag">
 									<p className="nav-text">Development</p>
@@ -58,7 +58,7 @@ const LandingNavbar = () => {
 							</Link>
 							<div className="tab-text-container">
 								<Link to="/about/education" className="link-tag">
-									<p className="nav-text tab-text">Education</p>
+									<p className="nav-text tab-text">DeCal</p>
 								</Link>
 								<Link to="/about/development" className="link-tag">
 									<p className="nav-text tab-text">Development</p>
