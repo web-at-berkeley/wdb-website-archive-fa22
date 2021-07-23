@@ -48,13 +48,6 @@ const Apply = () => {
 						<p className="button-text">Product Manager</p>
 					</a>
 					<a
-						href="https://forms.gle/gVEf9X1XGo8gLocL8"
-						className="lead-button"
-						target="_blank"
-					>
-						<p className="button-text">VP Design</p>
-					</a>
-					<a
 						href="https://forms.gle/uZxpE7rNygLf1nz7A"
 						className="lead-button"
 						target="_blank"
