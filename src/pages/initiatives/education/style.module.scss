@@ -1,0 +1,236 @@
+@import '../../../_mixins';
+
+.blobs {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 110%;
+	height: 106.5%;
+	margin-left: -10%;
+	margin-top: -6.5%;
+	@include mobile {
+		width: 230%;
+	}
+}
+
+.decal {
+	@include box;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 8% auto 0px 5%;
+	margin-bottom: 10%;
+	padding: 4% 5%;
+	z-index: 2;
+	width: 90% !important;
+	@include mobile {
+		padding: 5% 7%;
+	}
+
+	h3 {
+		@include subtitle;
+		margin-bottom: 1.5rem;
+		@include mobile {
+			margin-top: 0.5rem;
+			margin-bottom: 0.5rem;
+		}
+	}
+
+	.content {
+		display: flex;
+		@include mobile {
+			flex-direction: column-reverse;
+		}
+
+		.col {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 30%;
+			@include mobile {
+				margin-top: 1rem;
+				width: 100%;
+			}
+
+			img {
+				height: 7rem;
+				margin-bottom: 0.8rem;
+				@include mobile {
+					display: none;
+				}
+			}
+		}
+
+		.text-col {
+			display: flex;
+			align-items: center;
+			width: 90%;
+			padding-left: 2.5%;
+			@include mobile {
+				padding-left: 0;
+				width: 100%;
+			}
+
+			p {
+				@include text;
+			}
+		}
+	}
+}
+
+.resources {
+	@include box;
+	width: 90% !important;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin: 2% auto 0px 5%;
+	padding: 4% 5%;
+	z-index: 2;
+	@include mobile {
+		flex-direction: column;
+	}
+
+	.notion {
+		width: 55.5%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		@include mobile {
+			width: 100%;
+		}
+
+		h3 {
+			@include subtitle;
+			margin-bottom: 1rem;
+			@include mobile {
+				margin-top: 1rem;
+			}
+		}
+
+		.card {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			background: #ffffff;
+			box-shadow: 4px 4px 35px rgba(0, 0, 0, 0.1);
+			border-radius: 0.5rem;
+			margin-top: 1rem;
+			padding: 5%;
+			text-decoration: none;
+			@include mobile {
+				margin-top: 0rem;
+				margin-bottom: 1rem;
+			}
+
+			img {
+				height: 3rem;
+			}
+
+			.content {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding-left: 5%;
+				text-decoration: none;
+
+				h5 {
+					@include text-two;
+					font-size: 20px;
+					color: black;
+				}
+
+				p {
+					@include text;
+					color: black;
+				}
+			}
+		}
+	}
+
+	.youtube {
+		width: 38.5%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		@include mobile {
+			margin-top: 1.5rem;
+			width: 100%;
+		}
+
+		.youtube-logo {
+			height: 3rem;
+			margin-bottom: 2rem;
+			@include mobile {
+				margin-bottom: 1rem;
+			}
+		}
+
+		.card {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			background: #ffffff;
+			box-shadow: 4px 4px 35px rgba(0, 0, 0, 0.1);
+			border-radius: 0.5rem;
+			padding: 12% 8%;
+			text-decoration: none;
+
+			img {
+				width: 22%;
+			}
+
+			.content {
+				width: 78%;
+				display: flex;
+				flex-direction: column;
+				padding-left: 5%;
+				text-decoration: none;
+
+				h3 {
+					@include text-two;
+					text-decoration: none;
+				}
+
+				.subscribers {
+					@include text;
+					margin-bottom: 0.3rem;
+					text-decoration: none;
+					color: black;
+				}
+
+				.subscribe {
+					@include text;
+					width: fit-content;
+					font-weight: 500;
+					color: #ffffff;
+					background: #e02d2d;
+					padding: 0.3rem 1rem;
+					border-radius: 0.2rem;
+					text-decoration: none;
+					transition: 0.25s ease;
+
+					&:hover {
+						background: darken(#e02d2d, 5%);
+					}
+				}
+			}
+		}
+
+		.description {
+			@include text;
+			margin-top: 1.8rem;
+			text-align: center;
+		}
+	}
+}
+
+.blog {
+	margin: 0 -4%;
+	margin-top: 10%;
+	@include mobile {
+		display: none;
+	}
+}

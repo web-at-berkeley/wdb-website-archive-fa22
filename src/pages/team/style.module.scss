@@ -1,0 +1,47 @@
+@import '../../mixins';
+
+.divider-header {
+	@include subtitle;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	z-index: 2;
+}
+
+.blobs {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	margin-left: -10vw;
+}
+
+.side-1 {
+	width: 100vw;
+	top: 28%;
+	right: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.side-2 {
+	width: 100vw;
+	top: 220%;
+	right: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.side-3 {
+	width: 100vw;
+	top: 300%;
+	right: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.container {
+	width: 80% !important;
+	margin-left: 5%;
+}

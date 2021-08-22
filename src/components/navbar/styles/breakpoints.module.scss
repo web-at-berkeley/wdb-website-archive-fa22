@@ -1,0 +1,23 @@
+.desktop {
+	display: block;
+}
+
+.mobile {
+	display: none;
+}
+
+@media only screen and (max-width: 800px) {
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+		position: relative;
+		height: 4.5vh;
+		width: 100%;
+		right: -3.5px;
+		top: 1rem;
+		z-index: 5;
+	}
+}

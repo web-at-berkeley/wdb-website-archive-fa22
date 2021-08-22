@@ -1,0 +1,47 @@
+@import '../../variables';
+
+.dark-button {
+	background: $purple;
+	border: none;
+	padding: 0.6rem 2rem;
+	border-radius: 0.5rem;
+	transition: 0.25s ease;
+	z-index: 100;
+
+	&:hover {
+		background: darken($purple, 5%);
+	}
+
+	.text {
+		color: white;
+		font-family: Cocogoose;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+}
+
+.light-button {
+	background: white;
+	border: 2px solid $dark-purple;
+	padding: 0.3rem 1rem;
+	border-radius: 0.5rem;
+	transition: 0.25s ease;
+	z-index: 100;
+
+	&:hover {
+		border: 2px solid darken($dark-purple, 5%);
+
+		.text {
+			color: darken($dark-purple, 5%);
+		}
+	}
+
+	.text {
+		color: $dark-purple;
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		transition: 0.25s ease;
+	}
+}
