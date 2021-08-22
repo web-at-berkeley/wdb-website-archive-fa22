@@ -6,18 +6,15 @@ import Header from '../../components/header';
 import Button from '../../components/button';
 import Instagram from '../../components/instagram';
 
-
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
-import Form from 'react-bootstrap/Form';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
 import ServiceBlobs from './img/service-blobs.png';
 import FormBlobs from './img/form-blobs.png';
 
+import Row from 'react-bootstrap/Row';
 
 import styles from './style.module.scss';
 import classnames from 'classnames';
@@ -136,157 +133,7 @@ const WorkWithUs = () => {
 					>
 						<Button text="Contact Us" />
 					</a>
-					<form 
-					action='https://docs.google.com/forms/d/e/1FAIpQLSf_HkQ06zaYExGMX8LTSvyPbApQ90wvfbW6_MUYFct-jH_1ow/viewform'
-					target='_self'
-					method='post'
-					id='asdf'
-					className={styles['form']}>
-						<div className={classnames(styles['row'], styles['top-row'])}>
-							<div className={classnames(styles['field'], styles['name'])}>
-							<Form.Group className={styles['form_group']} >
-								
-								<Form.Control
-									placeholder="Full Name"
-									type="text"
-									required
-									name="entry.453885916"
-									id="first"
-									style={style.FormBox}
-								/>
-							</Form.Group>
-							</div>
-							<div className={classnames(styles['field'], styles['company'])}>
-								<Form.Group className={styles['form_group']}>
-									
-									<Form.Control
-										placeholder="Organization/Company"
-										type="text"
-										required
-										name="entry.453885916"
-										id="first"
-										style={style.FormBox}
-									/>
-								</Form.Group>
-							</div>
-							<div className={classnames(styles['field'], styles['email'])}>
-							<Form.Group className={styles['form_group']}>
-									
-									<Form.Control
-										placeholder="Email Address"
-										type="text"
-										required
-										name="entry.453885916"
-										id="first"
-										style={style.FormBox}
-									/>
-								</Form.Group>
-							</div>
-						</div>
-
-						<div
-							className={classnames(
-								styles['row'],
-								styles['field'],
-								styles['org-description']
-							)}
-						>
-							<Form.Group className={styles['form_group_area']}>
-								<Form.Control
-									as="textarea"
-									rows="6"
-									type="text"
-									required
-									name="entry.1252965523"
-									id="first"
-									placeholder="Tell us about your organization/company."
-									class="big"
-									style={style.FormBox}
-								/>
-							</Form.Group>
-						</div>
-
-						<div
-							className={classnames(
-								styles['row'],
-								styles['field'],
-								styles['request']
-							)}
-						>
-							<Form.Group className={styles['form_group_area']}>
-								<Form.Control
-									as="textarea"
-									rows="6"
-									type="text"
-									required
-									name="entry.1252965523"
-									id="first"
-									placeholder="What can we do for you?"
-									class="big"
-									style={style.FormBox}
-								/>
-							</Form.Group>
-						</div>
-
-						<div
-							className={classnames(
-								styles['row'],
-								styles['field'],
-								styles['comments']
-							)}
-						>
-							<Form.Group className={styles['form_group_area']}>
-								<Form.Control
-									as="textarea"
-									rows="6"
-									type="text"
-									required
-									name="entry.1252965523"
-									id="first"
-									placeholder="Any other comments or questions for us?"
-									class="big"
-									style={style.FormBox}
-								/>
-							</Form.Group>
-						</div>
-
-						{error.length ? (
-							<p className={styles['error']}>
-								Error: please enter your {errorText()}.
-							</p>
-						) : null}
-
-						<div className={styles['submit']}>
-							<Button text="Submit" onClick={submit} />
-						</div>
-					</form>
-				</div>
-
-
-				{/* <div className={styles['contact']} id="contact">
-					<h4 className={styles['title']}>
-						Looking to build something great?
-						<br /> Let’s get to{' '}
-						<span style={{ textDecoration: 'underline' }}>work.</span>
-					</h4>
-					<p className={styles['subtitle']}>
-						Fill out this form with some basic information about your
-						organization or startup, and we’ll reach out to schedule a time to
-						chat.
-					</p>
-					<a
-						href="https://forms.gle/tDLdLqd8psNfNTbo8"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<Button text="Contact Us" />
-					</a>
-					<Form 
-					action='https://docs.google.com/forms/d/e/1FAIpQLSf_HkQ06zaYExGMX8LTSvyPbApQ90wvfbW6_MUYFct-jH_1ow/viewform'
-					target='_self'
-					method='post'
-					id='asdf'
-					className={styles['form']}>
+					{/* <form className={styles['form']}>
 						<div className={classnames(styles['row'], styles['top-row'])}>
 							<div className={classnames(styles['field'], styles['name'])}>
 								<input
@@ -365,176 +212,14 @@ const WorkWithUs = () => {
 						<div className={styles['submit']}>
 							<Button text="Submit" onClick={submit} />
 						</div>
-					</Form>
+					</form> */}
 				</div>
-				<Form
-					action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfIhjGYVPkR5ds6lp4-BD2veVE8lVHBCGths4Hl140pQLVIqg/formResponse"
-					target="_self"
-					method="POST"
-					id="mG61Hd"
-				>
-					<Row className="name"  med={1} xs={3} sm={3}>
-						<Col xs={3} sm={3}>
-							<Form.Group className={styles['form_group']}>
-								<Form.Label
-									htmlFor="full-name"
-									style={style.FormBox}
-									className="purple-gradient"
-								>
-									First Name
-								</Form.Label>
-								<Form.Control
-									placeholder="First Name"
-									type="text"
-									required
-									name="entry.453885916"
-									id="first"
-									style={style.FormBox}
-								/>
-							</Form.Group>
-						</Col>
-						<Col xs={3} sm={3}>
-							<Form.Group className="organization-name">
-								<Form.Label
-									htmlFor="last"
-									style={styles.FormText}
-									className="purple-gradient"
-								>
-									Last Name
-								</Form.Label>
-								<Form.Control
-									type="text"
-									required
-									name="entry.424415708"
-									id="first"
-									style={style.FormBox}
-								/>
-							</Form.Group>
-						</Col>
-						<Col xs={3} sm={3}>
-							<Form.Group className={styles['form_group']}>
-								<Form.Label
-									htmlFor="email"
-									style={styles.FormText}
-									className="purple-gradient"
-								>
-									First Name
-								</Form.Label>
-								<Form.Control
-									type="text"
-									required
-									name="entry.453885916"
-									id="first"
-									style={style.FormBox}
-								/>
-							</Form.Group>
-						</Col>
-					</Row>
-					<Row>
-						<Col>
-							<Form.Group className="organization">
-								<Form.Label
-									htmlFor="organization"
-									style={styles.FormText}
-									className="purple-gradient"
-								>
-									Organization Name
-								</Form.Label>
-								<Form.Control
-									type="text"
-									required
-									name="entry.108998585"
-									id="first"
-									style={style.FormBox}
-								/>
-							</Form.Group>
-						</Col>
-					</Row>
-					<Row>
-						<Col>
-							<Form.Group className="email">
-								<Form.Label
-									htmlFor="email"
-									style={styles.FormText}
-									className="purple-gradient"
-								>
-									EMAIL ADDRESS
-								</Form.Label>
-								<Form.Control
-									type="text"
-									required
-									name="entry.1510521009"
-									id="first"
-									style={style.FormBox}
-								/>
-							</Form.Group>
-						</Col>
-					</Row>
-					<Row>
-						<Col>
-							<Form.Group style={styles.Field}>
-								<Form.Label
-									htmlFor="body"
-									style={styles.FormText}
-									className="purple-gradient"
-								>
-									COMMENTS, QUESTIONS, FEEDBACK?
-								</Form.Label>
-								<Form.Control
-									as="textarea"
-									rows="4"
-									type="text"
-									required
-									name="entry.1252965523"
-									id="first"
-									style={style.FormBox}
-									class="big"
-								/>
-							</Form.Group>
-						</Col>
-					</Row>
-					<Button
-						variant="secondary"
-						type="submit"
-						id="submit"
-						value="Send message"
-						style={{
-							width: '100%',
-							marginTop: '1.5rem',
-							background: 'transparent',
-							fontSize: '18px',
-							padding: '.7rem',
-							border: '1px solid #dee2e6',
-						}}
-						className="text-center"
-					>
-						<p className="purple-gradient text-center">Submit</p>
-					</Button>
-				</Form> */}
-
-
 				<div className={styles['instagram']}>
 					<Instagram />
 				</div>
 			</Container>
 		</main>
 	);
-};
-
-let style = {
-	FormText: {
-		fontSize: '22px',
-		letterSpacing: '0.14em',
-		textTransform: 'uppercase',
-		fontFamily: 'Raleway',
-		fontWeight: '700',
-		marginBottom: '6px',
-	},
-	FormBox: {
-		boxShadow: '4px 4px 30px rgba(0, 0, 0, 0.1)',
-		borderRadius: '9px',
-		border: 'none',
-	},
 };
 
 export default WorkWithUs;
