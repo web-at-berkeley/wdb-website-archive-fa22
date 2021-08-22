@@ -10,6 +10,7 @@
 
 	&:hover {
 		background: darken($purple, 5%);
+		
 	}
 
 	.text {
@@ -21,20 +22,43 @@
 }
 
 .light-button {
-	background: white;
+	
 	border: 2px solid $dark-purple;
 	padding: 0.3rem 1rem;
 	border-radius: 0.5rem;
-	transition: 0.25s ease;
+	// transform: scaleX(0);
+	// transform-origin: 0% 50%;
+	transition: 0.25s ease-in-out;
+	// background: linear-gradient(90deg, white 50%, $dark-purple 50%);
+	background: white;
+	color: white;
+	position: relative;
+	// -webkit-background-clip: text;
+  	// -webkit-text-fill-color: transparent;
 	z-index: 100;
 
-	&:hover {
-		border: 2px solid darken($dark-purple, 5%);
+	// &:after {
+	// 	content: "";
+	// 	position: absolute;
+	// 	top: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	right: 0;
+	// 	background: linear-gradient(45deg, white 50%, transparent 50%);
+	// 	z-index: -1;
+	// }
 
+	&:hover {
+		// border: 2px solid darken($dark-purple, 5%);
+		// background-position:0;
+		background: $dark-purple;
+		color:  $dark-purple;
 		.text {
-			color: darken($dark-purple, 5%);
+			// color: darken($dark-purple, 5%);
+			color: white;
 		}
 	}
+	
 
 	.text {
 		color: $dark-purple;
@@ -42,6 +66,6 @@
 		font-style: normal;
 		font-weight: 500;
 		font-size: 18px;
-		transition: 0.25s ease;
+		transition: 0.25s ease-in-out;
 	}
 }

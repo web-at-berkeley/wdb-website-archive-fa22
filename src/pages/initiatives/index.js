@@ -33,7 +33,7 @@ const Initiatives = () => {
 									<p className={styles['description']}>{description}</p>
 								</div>
 								<Link to={`/${link}`}>
-									<Button text="Learn More" variant="light" />
+									<Button  text="Learn More" variant="light" />
 								</Link>
 							</div>
 						))}

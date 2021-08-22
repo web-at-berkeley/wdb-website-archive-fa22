@@ -61,7 +61,7 @@ const WorkWithUs = () => {
 				title="Work with us"
 				subtitle="we’re open for work!"
 				description="Interested in working with us? Want to ask questions about our past projects or see our 
-design portfolios? Feel free to reach out and contact us!"
+							design portfolios? Feel free to reach out and contact us!"
 			/>
 			<Container className={styles['container']}>
 				<div className={styles['buttons']}>
