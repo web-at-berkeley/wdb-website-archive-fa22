@@ -78,6 +78,12 @@
 		display: flex;
 		justify-content: space-evenly;
 		margin-right: 4vw;
+		@include tablet{
+			display: none;
+		}
+		@include mobile{
+			display: none;
+		}
 
 		.col {
 			display: flex;
