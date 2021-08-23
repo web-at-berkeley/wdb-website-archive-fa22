@@ -136,8 +136,8 @@ const WorkWithUs = () => {
 					>
 						<Button text="Contact Us" />
 					</a>
-					<form 
-					action='https://docs.google.com/forms/d/e/1FAIpQLSf_HkQ06zaYExGMX8LTSvyPbApQ90wvfbW6_MUYFct-jH_1ow/viewform'
+					{/* <form 
+					action='https://docs.google.com/forms/d/e/1FAIpQLSf_HkQ06zaYExGMX8LTSvyPbApQ90wvfbW6_MUYFct-jH_1ow/formResponse'
 					target='_self'
 					method='post'
 					id='asdf'
@@ -150,7 +150,7 @@ const WorkWithUs = () => {
 									placeholder="Full Name"
 									type="text"
 									required
-									name="entry.453885916"
+									name="entry.194553479"
 									id="first"
 									style={style.FormBox}
 								/>
@@ -161,9 +161,9 @@ const WorkWithUs = () => {
 									
 									<Form.Control
 										placeholder="Organization/Company"
-										type="text"
+										type="text" 
 										required
-										name="entry.453885916"
+										name="entry.1946864254"
 										id="first"
 										style={style.FormBox}
 									/>
@@ -176,7 +176,7 @@ const WorkWithUs = () => {
 										placeholder="Email Address"
 										type="text"
 										required
-										name="entry.453885916"
+										name="entry.1287541880"
 										id="first"
 										style={style.FormBox}
 									/>
@@ -197,7 +197,7 @@ const WorkWithUs = () => {
 									rows="6"
 									type="text"
 									required
-									name="entry.1252965523"
+									name="entry.634684828"
 									id="first"
 									placeholder="Tell us about your organization/company."
 									class="big"
@@ -219,7 +219,7 @@ const WorkWithUs = () => {
 									rows="6"
 									type="text"
 									required
-									name="entry.1252965523"
+									name="entry.554707180"
 									id="first"
 									placeholder="What can we do for you?"
 									class="big"
@@ -241,7 +241,7 @@ const WorkWithUs = () => {
 									rows="6"
 									type="text"
 									required
-									name="entry.1252965523"
+									name="entry.1974357149"
 									id="first"
 									placeholder="Any other comments or questions for us?"
 									class="big"
@@ -257,9 +257,26 @@ const WorkWithUs = () => {
 						) : null}
 
 						<div className={styles['submit']}>
-							<Button text="Submit" onClick={submit} />
+						<Button
+						text="Submit"
+						type="submit"
+						id="submit"
+						value="Send message"
+						// style={{
+						// 	width: '100%',
+						// 	marginTop: '1.5rem',
+						// 	background: 'transparent',
+						// 	fontSize: '18px',
+						// 	padding: '.7rem',
+						// 	border: '1px solid #dee2e6',
+						// }}
+						// className="text-center"
+					>
+						
+					</Button>
+							
 						</div>
-					</form>
+					</form> */}
 				</div>
 
 
