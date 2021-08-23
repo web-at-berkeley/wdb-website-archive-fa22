@@ -181,7 +181,7 @@
 
 		.blurb {
 			@include text;
-			font-size: 20px;
+			font-size: 17px;
 			text-align: left;
 			margin-top: 1rem;
 			margin-bottom: 1rem;
@@ -224,6 +224,7 @@
 
 		.subtext {
 			@include text;
+			
 			height: 1rem;
 			color: $dark-purple;
 			margin-top: 0.7rem;
