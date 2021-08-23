@@ -25,7 +25,7 @@
 		@include mobile {
 			margin-top: 10px;
 			justify-content: center;
-			width: 90%;
+			width: 80%;
 		}
 		margin-right: auto;
 		margin-left: auto;
@@ -75,6 +75,12 @@
 
 .blobs {
 	position: absolute;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;	
+	pointer-events: none;
+	overflow: hidden;
+	-webkit-user-drag: none;
 	z-index: 0;
 	top: 0;
 	left: 50%;
@@ -94,8 +100,9 @@
 
 .tenant-card {
 	@include box;
-	width: 100%;
+	width: 90%;
 	position: relative;
+	margin: auto;
 	margin-bottom: 1rem;
 	z-index: 2;
 	display: flex;
@@ -169,7 +176,8 @@
 	margin-bottom: 3rem;
 
 	@include mobile {
-		margin-top: 35%;
+		margin-top: 15%;
+		margin-bottom: 10rem;
 	}
 
 	img {
@@ -237,5 +245,5 @@
 		margin-bottom: 1.5rem;
 	}
 }
-	
+
 

@@ -8,6 +8,7 @@
 	-webkit-user-select: none;	
 	pointer-events: none;
 	overflow: hidden;
+	-webkit-user-drag: none;
 	z-index: 0;
 	top: 0;
 	left: 0;
@@ -26,11 +27,12 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	margin: 8% auto 0px 5%;
+	// margin: 8% auto 0px 5%;
+	margin-top: 8%;
 	margin-bottom: 10%;
 	padding: 4% 5%;
 	z-index: 2;
-	width: 90% !important;
+	width: 100% !important;
 	@include mobile {
 		padding: 5% 7%;
 	}
@@ -38,6 +40,7 @@
 	h3 {
 		@include subtitle;
 		margin-bottom: 1.5rem;
+		font-size: 26px;
 		@include mobile {
 			margin-top: 0.5rem;
 			margin-bottom: 0.5rem;
@@ -88,11 +91,11 @@
 
 .resources {
 	@include box;
-	width: 90% !important;
+	width: 100% !important;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	margin: 2% auto 0px 5%;
+	// margin: 2% auto 0px 5%;
 	padding: 4% 5%;
 	z-index: 2;
 	@include mobile {
@@ -240,4 +243,9 @@
 	@include mobile {
 		display: none;
 	}
+}
+
+.container {
+	// width: 100% !important;
+	margin-bottom: 10rem;
 }

@@ -24,7 +24,7 @@ const Education = () => {
 				subtitle="giving back to the community"
 				description="WDB strives to share our knowledge and resources to allow everyone to experience web development education. From hosting UC Berkeley’s first full stack web development course, to providing public resources and workshops, we are always looking for new ways to share the joys of web development and design."
 			/>
-			<Container>
+			<Container className={styles['container']}>
 				<img src={Blobs} alt="" className={styles['blobs']} />
 				<div className={styles['decal']}>
 					<h3>Introduction to Full Stack Development Decal</h3>

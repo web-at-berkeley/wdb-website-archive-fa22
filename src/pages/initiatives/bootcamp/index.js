@@ -61,7 +61,8 @@ const Bootcamp = () => {
 					</div>
 				</div>
 				{/* Mobile */}
-				<div className={breakpoints['mobile']} style={{marginTop: '2.5rem'}}>
+				<div className={breakpoints['mobile']} style={{marginTop: '2.5rem',
+				 width: '10% !important',}}>
 					{tenants.map(({ name, data }) => (
 						<div className={styles['tenant-card']}>
 							<h5 className={styles['active']}>{name}</h5>

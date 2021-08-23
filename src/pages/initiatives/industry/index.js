@@ -22,7 +22,7 @@ const Industry = () => {
 				subtitle="building the next generation of Developers & Designers"
 				description="In our development initiative, we allow experienced developers to gain hands-on experience working with industry clients. Students will partake in the software engineering lifecycle, leading the design, build, and deployment stages of the client's website."
 			/>
-			<Container>
+			<Container className={styles['container']}>
 				<div className={styles['roles']}>
 					<h3>who we are</h3>
 					<div className={styles['row']}>
