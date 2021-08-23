@@ -6,15 +6,18 @@ import Header from '../../components/header';
 import Button from '../../components/button';
 import Instagram from '../../components/instagram';
 
+
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
 import ServiceBlobs from './img/service-blobs.png';
 import FormBlobs from './img/form-blobs.png';
 
-import Row from 'react-bootstrap/Row';
 
 import styles from './style.module.scss';
 import classnames from 'classnames';
@@ -274,119 +277,34 @@ const WorkWithUs = () => {
 							
 						</div>
 					</form> */}
-				{/* </div> */}
-
-
-				{/* <div className={styles['contact']} id="contact">
-					<h4 className={styles['title']}>
-						Looking to build something great?
-						<br /> Let’s get to{' '}
-						<span style={{ textDecoration: 'underline' }}>work.</span>
-					</h4>
-					<p className={styles['subtitle']}>
-						Fill out this form with some basic information about your
-						organization or startup, and we’ll reach out to schedule a time to
-						chat.
-					</p>
-					<a
-						href="https://forms.gle/tDLdLqd8psNfNTbo8"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<Button text="Contact Us" />
-					</a>
-					<Form 
-					action='https://docs.google.com/forms/d/e/1FAIpQLSf_HkQ06zaYExGMX8LTSvyPbApQ90wvfbW6_MUYFct-jH_1ow/viewform'
-					target='_self'
-					method='post'
-					id='asdf'
-					className={styles['form']}>
-						<div className={classnames(styles['row'], styles['top-row'])}>
-							<div className={classnames(styles['field'], styles['name'])}>
-								<input
-									placeholder="Full Name"
-									value={name}
-									onChange={(e) => setName(e.target.value)}
-								/>
-							</div>
-							<div className={classnames(styles['field'], styles['company'])}>
-								<input
-									placeholder="Company Name"
-									value={company}
-									onChange={(e) => setCompany(e.target.value)}
-								/>
-							</div>
-							<div className={classnames(styles['field'], styles['email'])}>
-								<input
-									placeholder="Email Address"
-									value={email}
-									onChange={(e) => setEmail(e.target.value)}
-								/>
-							</div>
-						</div>
-
-						<div
-							className={classnames(
-								styles['row'],
-								styles['field'],
-								styles['org-description']
-							)}
-						>
-							<textarea
-								placeholder="Tell us about your organization."
-								rows="7"
-								value={orgDescription}
-								onChange={(e) => setOrgDescription(e.target.value)}
-							></textarea>
-						</div>
-
-						<div
-							className={classnames(
-								styles['row'],
-								styles['field'],
-								styles['request']
-							)}
-						>
-							<textarea
-								placeholder="What can we do for you?"
-								rows="6"
-								value={request}
-								onChange={(e) => setRequest(e.target.value)}
-							></textarea>
-						</div>
-
-						<div
-							className={classnames(
-								styles['row'],
-								styles['field'],
-								styles['comments']
-							)}
-						>
-							<textarea
-								placeholder="Any other comments or questions for us?"
-								rows="5"
-								value={comments}
-								onChange={(e) => setComments(e.target.value)}
-							></textarea>
-						</div>
-
-						{error.length ? (
-							<p className={styles['error']}>
-								Error: please enter your {errorText()}.
-							</p>
-						) : null}
-
-						<div className={styles['submit']}>
-							<Button text="Submit" onClick={submit} />
-						</div>
-					</form> */}
 				</div>
+
+
+			
+
+
 				<div className={styles['instagram']}>
 					<Instagram />
 				</div>
 			</Container>
 		</main>
 	);
+};
+
+let style = {
+	FormText: {
+		fontSize: '22px',
+		letterSpacing: '0.14em',
+		textTransform: 'uppercase',
+		fontFamily: 'Raleway',
+		fontWeight: '700',
+		marginBottom: '6px',
+	},
+	FormBox: {
+		boxShadow: '4px 4px 30px rgba(0, 0, 0, 0.1)',
+		borderRadius: '9px',
+		border: 'none',
+	},
 };
 
 export default WorkWithUs;
