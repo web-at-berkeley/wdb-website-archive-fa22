@@ -23,6 +23,21 @@ import styles from './style.module.scss';
 import classnames from 'classnames';
 
 const WorkWithUs = () => {
+	const ToggleForm = () => {
+		const oldClassName = document.getElementById('test1').className;
+		const newClassName =
+			oldClassName === 'not-hidden-text' ? 'hidden-text' : 'not-hidden-text';
+		document.getElementById('test1').className = newClassName;
+	};
+
+	const ToggleDestroy = () => {
+		const oldClassName = document.getElementById('test2').className;
+		const newClassName =
+			oldClassName === 'hidden-form' ? 'non-hidden-form' : 'hidden-form';
+		document.getElementById('test2').className = newClassName;
+	};
+
+
 	const [name, setName] = useState('');
 	const [company, setCompany] = useState('');
 	const [email, setEmail] = useState('');
@@ -129,18 +144,24 @@ const WorkWithUs = () => {
 						organization or startup, and we’ll reach out to schedule a time to
 						chat.
 					</p>
-					<a
+					{/* <a
 						href="https://forms.gle/tDLdLqd8psNfNTbo8"
 						target="_blank"
 						rel="noreferrer"
 					>
 						<Button text="Contact Us" />
-					</a>
-					{/* <form 
+					</a> */}
+
+
+
+					
+
+
+					<form 
 					action='https://docs.google.com/forms/d/e/1FAIpQLSf_HkQ06zaYExGMX8LTSvyPbApQ90wvfbW6_MUYFct-jH_1ow/formResponse'
 					target='_self'
-					method='post'
-					id='asdf'
+					method='POST'
+					id='mG61Hd'
 					className={styles['form']}>
 						<div className={classnames(styles['row'], styles['top-row'])}>
 							<div className={classnames(styles['field'], styles['name'])}>
@@ -276,7 +297,7 @@ const WorkWithUs = () => {
 					</Button>
 							
 						</div>
-					</form> */}
+					</form>
 				</div>
 
 
