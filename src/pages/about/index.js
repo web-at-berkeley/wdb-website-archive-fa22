@@ -27,7 +27,7 @@ const About = () => {
 				subtitle="Who we are and what we do"
 				description="Web Development @ Berkeley (WDB) is UC Berkeley’s Premier Web Design and Development organization. We’re a group of students focusing on building the web development and design community."
 			/>
-			<Container>
+			<Container className={styles['container']}>
 				<img src={Team} alt="Our WDB Team" className={styles['team']} />
 
 				<div className={styles['culture']}>

@@ -6,9 +6,15 @@
 	top: 0;
 	width: 100%;
 	@include mobile {
-		left: -15px;
-		width: 105%;
+		// left: -15px;
+		// width: 105%;
+		display: none;
 	}
+}
+
+.container {
+	width: 80% !important;
+	margin-bottom: 7rem;
 }
 
 .team {
@@ -84,7 +90,12 @@
 
 .blobs {
 	position: absolute;
-	z-index: 1;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;	
+	pointer-events: none;
+	overflow: hidden;
+	z-index: 0;
 	top: 0;
 	left: 0;
 	width: 110%;
@@ -92,7 +103,7 @@
 	margin-top: -3%;
 	margin-left: -5%;
 	@include mobile {
-		width: 160%;
+		width: 250%;
 	}
 }
 
@@ -161,3 +172,4 @@
 	position: relative;
 	z-index: 2;
 }
+

@@ -23,7 +23,7 @@ const SiteNavbar = ({ landing }) => {
 	return (
 		<div className={styles['container']}>
 			{!landing && (
-				<Link to="/" onClick={clearState}>
+				<Link to="/">
 					<img
 						className={styles['logo']}
 						src={RainbowLogo}

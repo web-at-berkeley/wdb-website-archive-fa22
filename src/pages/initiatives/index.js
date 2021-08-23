@@ -22,7 +22,7 @@ const Initiatives = () => {
 			/>
 			<img src={Frame} alt="" className={styles['frame']} />
 
-			<Container>
+			<Container className={styles['container']}>
 				<div className={styles['content']}>
 					<Row lg="3" med="1" sm="1">
 						{initiatives.map(({ title, description, image, link }) => (
@@ -48,6 +48,7 @@ const Initiatives = () => {
 					description="Applications to join Web Development at Berkeley open in August 2021 for the Fall 2021 semester! Check back here or on our “Join Us” page to fill out our application! We welcome all experience levels and encourage you to apply to learn new skills and hone your existing ones!"
 					buttonText="Apply Here"
 					linkTo="/join"
+					
 				/>
 			</div>
 		</main>
