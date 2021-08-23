@@ -70,7 +70,7 @@
 		position: relative;
 
 		@include mobile {
-			margin-top: 7.7vh;
+			margin-top: 5vh;
 		}
 
 		a {
@@ -117,13 +117,11 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 90%;
+	margin-top: 2rem;
 
-	@media only screen and (max-width: 600px) {
-		margin-top: 8rem;
-	}
-
-	@media only screen and (max-width: 300px) {
-		margin-top: 5rem;
+	@include tablet {
+		margin-top: 3rem;
 	}
 
 	@include mobile {
@@ -144,7 +142,7 @@
 		font-size: 17px;
 		line-height: 1.4;
 		margin-bottom: 15%;
-		margin-top: 4rem;
+		margin-top: 0rem;
 	}
 }
 
