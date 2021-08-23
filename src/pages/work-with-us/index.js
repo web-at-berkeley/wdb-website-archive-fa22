@@ -133,7 +133,174 @@ const WorkWithUs = () => {
 					>
 						<Button text="Contact Us" />
 					</a>
-					{/* <form className={styles['form']}>
+					{/* <form 
+					action='https://docs.google.com/forms/d/e/1FAIpQLSf_HkQ06zaYExGMX8LTSvyPbApQ90wvfbW6_MUYFct-jH_1ow/formResponse'
+					target='_self'
+					method='post'
+					id='asdf'
+					className={styles['form']}>
+						<div className={classnames(styles['row'], styles['top-row'])}>
+							<div className={classnames(styles['field'], styles['name'])}>
+							<Form.Group className={styles['form_group']} >
+								
+								<Form.Control
+									placeholder="Full Name"
+									type="text"
+									required
+									name="entry.194553479"
+									id="first"
+									style={style.FormBox}
+								/>
+							</Form.Group>
+							</div>
+							<div className={classnames(styles['field'], styles['company'])}>
+								<Form.Group className={styles['form_group']}>
+									
+									<Form.Control
+										placeholder="Organization/Company"
+										type="text" 
+										required
+										name="entry.1946864254"
+										id="first"
+										style={style.FormBox}
+									/>
+								</Form.Group>
+							</div>
+							<div className={classnames(styles['field'], styles['email'])}>
+							<Form.Group className={styles['form_group']}>
+									
+									<Form.Control
+										placeholder="Email Address"
+										type="text"
+										required
+										name="entry.1287541880"
+										id="first"
+										style={style.FormBox}
+									/>
+								</Form.Group>
+							</div>
+						</div>
+
+						<div
+							className={classnames(
+								styles['row'],
+								styles['field'],
+								styles['org-description']
+							)}
+						>
+							<Form.Group className={styles['form_group_area']}>
+								<Form.Control
+									as="textarea"
+									rows="6"
+									type="text"
+									required
+									name="entry.634684828"
+									id="first"
+									placeholder="Tell us about your organization/company."
+									class="big"
+									style={style.FormBox}
+								/>
+							</Form.Group>
+						</div>
+
+						<div
+							className={classnames(
+								styles['row'],
+								styles['field'],
+								styles['request']
+							)}
+						>
+							<Form.Group className={styles['form_group_area']}>
+								<Form.Control
+									as="textarea"
+									rows="6"
+									type="text"
+									required
+									name="entry.554707180"
+									id="first"
+									placeholder="What can we do for you?"
+									class="big"
+									style={style.FormBox}
+								/>
+							</Form.Group>
+						</div>
+
+						<div
+							className={classnames(
+								styles['row'],
+								styles['field'],
+								styles['comments']
+							)}
+						>
+							<Form.Group className={styles['form_group_area']}>
+								<Form.Control
+									as="textarea"
+									rows="6"
+									type="text"
+									required
+									name="entry.1974357149"
+									id="first"
+									placeholder="Any other comments or questions for us?"
+									class="big"
+									style={style.FormBox}
+								/>
+							</Form.Group>
+						</div>
+
+						{error.length ? (
+							<p className={styles['error']}>
+								Error: please enter your {errorText()}.
+							</p>
+						) : null}
+
+						<div className={styles['submit']}>
+						<Button
+						text="Submit"
+						type="submit"
+						id="submit"
+						value="Send message"
+						// style={{
+						// 	width: '100%',
+						// 	marginTop: '1.5rem',
+						// 	background: 'transparent',
+						// 	fontSize: '18px',
+						// 	padding: '.7rem',
+						// 	border: '1px solid #dee2e6',
+						// }}
+						// className="text-center"
+					>
+						
+					</Button>
+							
+						</div>
+					</form> */}
+				{/* </div> */}
+
+
+				{/* <div className={styles['contact']} id="contact">
+					<h4 className={styles['title']}>
+						Looking to build something great?
+						<br /> Let’s get to{' '}
+						<span style={{ textDecoration: 'underline' }}>work.</span>
+					</h4>
+					<p className={styles['subtitle']}>
+						Fill out this form with some basic information about your
+						organization or startup, and we’ll reach out to schedule a time to
+						chat.
+					</p>
+					<a
+						href="https://forms.gle/tDLdLqd8psNfNTbo8"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<Button text="Contact Us" />
+					</a>
+					<Form 
+					action='https://docs.google.com/forms/d/e/1FAIpQLSf_HkQ06zaYExGMX8LTSvyPbApQ90wvfbW6_MUYFct-jH_1ow/viewform'
+					target='_self'
+					method='post'
+					id='asdf'
+					className={styles['form']}>
 						<div className={classnames(styles['row'], styles['top-row'])}>
 							<div className={classnames(styles['field'], styles['name'])}>
 								<input
