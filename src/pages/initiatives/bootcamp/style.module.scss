@@ -93,8 +93,9 @@
 	
 	@include box;
 	position: relative;
-	margin: 5% auto 2% 5%;
-	width: 90% !important;
+	margin: auto;
+	margin: 5% auto 2% auto;
+	width: 100% !important;
 	z-index: 2;
 }
 
