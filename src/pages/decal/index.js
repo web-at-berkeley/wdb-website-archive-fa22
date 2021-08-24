@@ -69,7 +69,7 @@ const Decal = () => {
 							style={{ color: 'black' }}
 						>
 							{' '}
-							<h5>CS 198 099</h5>
+							<h5>CCN: 33390</h5>
 						</a>
 					</div>
 				</div>
@@ -110,7 +110,7 @@ const Decal = () => {
 								style={{ color: 'black' }}
 							>
 								{' '}
-								<h5>CS 198 099</h5>
+								<h5>CCN: 33390</h5>
 							</a>
 						</div>
 					</Row>
