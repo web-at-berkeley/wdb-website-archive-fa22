@@ -23,6 +23,21 @@ const Header = (props) => {
 			</Container>
 		);
 	}
+	if (props.linkheader) {
+		return (
+			<Container className={styles['sub-header']}>
+				<h3 className={styles['title']}>{props.title}</h3>
+				{props.description && (
+					<p className={styles['description']}>{props.description}</p>
+				)}
+				{props.buttonText && (
+					<a href={props.linkTo}>
+						<Button text={props.buttonText} style={{fontSize:'10px'}}/>
+					</a>
+				)}
+			</Container>
+		);
+	}
 
 	return (
 		<Container className={styles['header']}>

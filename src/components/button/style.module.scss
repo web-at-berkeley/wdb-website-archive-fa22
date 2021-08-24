@@ -1,4 +1,5 @@
 @import '../../variables';
+@import '../../mixins';
 @font-face {
 	font-family: Rubiks;
 	src: url('../../fonts/Rubik-SemiBold.ttf');
@@ -22,6 +23,9 @@
 		font-family: Cocogoose;
 		font-size: 18px;
 		text-transform: uppercase;
+		@include mobile {
+			font-size: 15px;
+		}
 	}
 }
 

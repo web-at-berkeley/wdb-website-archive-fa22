@@ -4,8 +4,20 @@ import Leadership from '../team/members/data/leadership';
 import Profile from '../../components/profile';
 import Header from '../../components/header';
 
+import Timeline from './constants/Timeline.js';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+
+
+
+import Carousel, {
+	slidesToShowPlugin,
+	arrowsPlugin,
+} from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
+import left from './img/leftarrow.png';
+import right from './img/rightarrow.png';
 
 import Calender from './img/calender.png';
 import Clock from './img/clock.png';
@@ -133,6 +145,90 @@ const Decal = () => {
 				/>
 			</div>
 
+			<div className={styles['decal-header']}>
+				<Header
+					linkheader
+					title="Course Schedule"
+					description="Check out the decal course schedule here, or go to our decal Notion for more details!"
+					buttonText="fullstackdecal.com"
+					linkTo="https://www.fullstackdecal.com"
+					
+				/>
+			</div>
+
+
+			{/* <Carousel
+				className={styles['carousel']}
+				breakpoints={{
+					770: {
+						plugins: [
+							{
+								resolve: slidesToShowPlugin,
+								options: {
+									numberOfSlides: 1,
+								},
+							},
+						],
+					},
+					900: {
+						plugins: [
+							{
+								resolve: slidesToShowPlugin,
+								options: {
+									numberOfSlides: 2,
+								},
+							},
+						],
+					},
+					1200: {
+						plugins: [
+							{
+								resolve: slidesToShowPlugin,
+								options: {
+									numberOfSlides: 3,
+								},
+							},
+						],
+					},
+				}}
+				plugins={[
+					// 'infinite',
+					{
+						resolve: arrowsPlugin,
+						options: {
+							arrowLeft: (
+								<img className={styles['carousel-arrow']} src={left}></img>
+							),
+							arrowLeftDisabled: (
+								<img className={styles['carousel-arrow']} src={left}></img>
+							),
+							arrowRight: (
+								<img className={styles['carousel-arrow']} src={right}></img>
+							),
+							arrowRightDisabled: (
+								<img className={styles['carousel-arrow']} src={left}></img>
+							),
+							addArrowClickHandler: true,
+						},
+					},
+					{
+						resolve: slidesToShowPlugin,
+						options: {
+							numberOfSlides: 4,
+						},
+					},
+				]}
+			>
+				{Timeline.map(({ date, lecture, topic, topic2}) => (
+					<div className={styles['col']}>
+						<h6>{date}</h6>
+						<p>Lecture #{lecture}</p>
+						<p>{topic}</p>
+						<p>{topic2}</p>
+					</div>
+				))}
+			</Carousel> */}
+
 			<Container className={styles['container']}>
 				<div className={styles['technologies']}>
 					<img src={Blobs} alt="" className={styles['blobs']} />
@@ -158,6 +254,8 @@ const Decal = () => {
 					</div>
 				</div>
 			</Container>
+
+			
 
 			<Container className={styles['staff']}>
 				<h4>Education Team</h4>
