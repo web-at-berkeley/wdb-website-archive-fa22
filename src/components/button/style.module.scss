@@ -1,4 +1,8 @@
 @import '../../variables';
+@font-face {
+	font-family: Rubiks;
+	src: url('../../fonts/Rubik-SemiBold.ttf');
+}
 
 .dark-button {
 	background: $purple;
@@ -62,7 +66,7 @@
 
 	.text {
 		color: $dark-purple;
-		font-family: Rubik;
+		font-family: Rubiks;
 		font-style: normal;
 		font-weight: 500;
 		font-size: 18px;

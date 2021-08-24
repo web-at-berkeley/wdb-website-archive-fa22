@@ -1,4 +1,8 @@
 @import '../../mixins';
+@font-face {
+	font-family: Rubiks;
+	src: url('../../fonts/Rubik-SemiBold.ttf');
+}
 
 .container,
 .join,
@@ -33,7 +37,7 @@
 		}
 
 		h5 {
-			font-family: Rubik;
+			font-family: Rubiks;
 			font-weight: 500;
 			font-size: 20px;
 			text-transform: uppercase;
@@ -67,7 +71,7 @@
 		}
 
 		h5 {
-			font-family: Rubik;
+			font-family: Rubiks;
 			font-weight: 500;
 			font-size: 20px;
 			text-transform: uppercase;

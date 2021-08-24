@@ -1,6 +1,11 @@
 @import '../../mixins';
 @import '../../variables';
 
+@font-face {
+	font-family: Rubiks;
+	src: url('../../fonts/Rubik-SemiBold.ttf');
+}
+
 .container {
 	overflow-x: hidden;
 }
@@ -270,7 +275,7 @@
 			}
 
 			h6 {
-				font-family: Rubik;
+				font-family: Rubiks;
 				font-size: 50px;
 				line-height: 37px;
 				font-weight: 700;
