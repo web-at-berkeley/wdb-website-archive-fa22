@@ -19,6 +19,7 @@ import Clients from './img/clients.png';
 import Partners from './img/partners.png';
 import LandingBlobs from './img/landing-blobs.png';
 import LogoBlack from './img/logo-black.png';
+import Meta from './img/meta.png';
 
 import BlobsMobile from './img/landing-blobs-mobile.png';
 import NewsletterBlobMobile from './img/newsletter-blob-mobile.png';
@@ -64,6 +65,7 @@ const Landing = () => {
 	return (
 		<div className={styles['container']}>
 			{/* Splash page */}
+			<img src={Meta} alt="" style={{ display: 'none' }} />
 			<div className={styles['hero']}>
 				<img src={Bg} alt="" className={styles['bg']} />
 				{/* Desktop top graphics */}
@@ -118,11 +120,11 @@ const Landing = () => {
 					/>
 					<div className={styles['input']}>
 						<p className={styles['blurb'] + ' ' + breakpoints['desktop']}>
-						📫 Sign up for our email list for updates, resources, and more!
+							📫 Sign up for our email list for updates, resources, and more!
 						</p>
 
 						<p className={styles['blurb'] + ' ' + breakpoints['mobile']}>
-						📫 Sign up for our email list!
+							📫 Sign up for our email list!
 						</p>
 
 						<div className={styles['form']}>
