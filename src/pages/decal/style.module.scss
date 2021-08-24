@@ -14,6 +14,7 @@
 
 
 .carousel {
+	margin-top: 2rem;
 	margin-left: 6rem;
 	margin-right: 6rem;
 	z-index: 100;
@@ -29,7 +30,7 @@
 		align-items: flex-start;
 		padding: 5%;
 		width: 90%;
-		height: 20rem;
+		height: 14rem;
 		@include mobile {
 			margin-top: 10px;
 			justify-content: center;
@@ -49,19 +50,35 @@
 		}
 		h6 {
 			@include text;
-			font-size: 17px;
+			font-size: 24px;
 			line-height: 1.2rem;
 			font-weight: 800;
 			text-align: left;
 			width: 90%;
+			margin-top: 5%;
 			margin-left: 7%;
-			margin-bottom: 0.5rem;
+			margin-bottom: 1rem;
 		}
+
+		h5 {
+			@include text;
+			color: #5f60ff;
+			font-size: 18px;
+			font-weight: bold;
+			text-align: left;
+			line-height: 1.2rem;
+			margin-bottom: 5%;
+			width: 90%;
+			margin-left: 7%;
+		}
+
+
 		p {
 			@include text;
 			font-size: 15px;
 			text-align: left;
 			line-height: 1.2rem;
+			margin-bottom: 3%;
 			width: 90%;
 			margin-left: 7%;
 		}

@@ -157,7 +157,7 @@ const Decal = () => {
 			</div>
 
 
-			{/* <Carousel
+			<Carousel
 				className={styles['carousel']}
 				breakpoints={{
 					770: {
@@ -222,12 +222,12 @@ const Decal = () => {
 				{Timeline.map(({ date, lecture, topic, topic2}) => (
 					<div className={styles['col']}>
 						<h6>{date}</h6>
-						<p>Lecture #{lecture}</p>
+						<h5>Lecture #{lecture}</h5>
 						<p>{topic}</p>
 						<p>{topic2}</p>
 					</div>
 				))}
-			</Carousel> */}
+			</Carousel>
 
 			<Container className={styles['container']}>
 				<div className={styles['technologies']}>
