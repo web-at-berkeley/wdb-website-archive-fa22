@@ -11,10 +11,17 @@ import Arushi from './img/arushi.png';
 import Kimberley from './img/kimberley.png';
 import Dhruv from './img/dhruv.png';
 import Alina from './img/alina.png';
-import Neha from './img/neha.png';
-import Emily from './img/emily-1.png';
-import Noor from './img/noor.png';
+import Stephen from './img/stephen.png';
+import Anjan from './img/anjan.png';
+import William from './img/william.png';
+import Gabriel from './img/gabriel.png';
+import Ani from './img/ani.png';
+import Isabel from './img/isabel.png';
+import Nerissa from './img/nerissa.png';
+import Sophia from './img/sophia.png';
+import Daniel from './img/daniel.png';
 import Cindy from './img/cindy.png';
+
 
 const data = [
 	{
@@ -118,30 +125,70 @@ const data = [
 		personal: 'https://github.com/aliner-wang',
 	},
 	{
-		name: 'Neha Haq',
-		image: Neha,
+		name: 'Stephen Krider',
+		image: Stephen,
 		role: 'Product Manager',
-		linkedin: 'https://www.linkedin.com/in/neha-haq/',
-		personal: 'https://github.com/nwhaq1',
+		linkedin: 'https://www.linkedin.com/in/skrider/',
+		personal: 'https://github.com/skrider',
 	},
 	{
-		name: 'Emily Su',
-		image: Emily,
+		name: 'Anjan Bharadwaj',
+		image: Anjan,
 		role: 'Product Manager',
-		linkedin: 'https://www.linkedin.com/in/emily-su/',
-		personal: 'https://github.com/emilysu01',
+		linkedin: 'https://www.linkedin.com/in/anjanbharadwaj/',
+		personal: 'http://anjanbharadwaj.me/',
 	},
 	{
-		name: 'Noor Mahani',
-		image: Noor,
-		role: 'Head of Projects',
-		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
-		personal: 'https://github.com/noortor',
+		name: 'William Louis',
+		image: William,
+		role: 'Training Team',
+		linkedin: 'https://www.linkedin.com/in/william-l-549860132/',
+	},
+	{
+		name: 'Gabriel Meng',
+		image: Gabriel,
+		role: 'Member Experience Team',
+		linkedin: 'https://www.linkedin.com/in/gabrielmeng',
+		personal: 'https://github.com/gabemeng',
+	},
+	{
+		name: 'Aniruddha Vangala',
+		image: Ani,
+		role: 'Product Manager & Training Team',
+		linkedin: 'https://www.linkedin.com/in/aniruddhavangala/',
+		personal: 'https://github.com/aniruddha98',
+	},
+	{
+		name: 'Isabel Zheng',
+		image: Isabel,
+		role: 'Design Team',
+		linkedin: 'https://www.linkedin.com/in/isabel-zheng-24003b1b2/',
+		personal:
+			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
+	},
+	{
+		name: 'Nerissa Hsieh',
+		image: Nerissa,
+		role: 'Design Team',
+		linkedin: 'https://www.linkedin.com/in/nerissahsieh/',
+		personal: 'https://www.nerissahsieh.com/',
+	},
+	{
+		name: 'Sophia guo',
+		image: Sophia,
+		role: 'Design Team',
+		linkedin: 'https://www.linkedin.com/in/sophia-guo-957844149/',
+	},
+	{
+		name: 'Daniel Won',
+		image: Daniel,
+		role: 'Design Team',
+		linkedin: 'https://www.linkedin.com/in/danielw23/',
 	},
 	{
 		name: 'Cindy Liu',
 		image: Cindy,
-		role: 'Head of Projects',
+		role: 'Design Team',
 		linkedin: 'https://www.linkedin.com/in/cindy-liu-a52a0a194/',
 	},
 ];
