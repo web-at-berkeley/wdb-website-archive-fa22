@@ -16,21 +16,24 @@
 .recruitment {
 	// margin: auto -2%;
 	margin-top: 5%;
+	position: relative;
+	z-index: 2;
 
 	img {
 		position: absolute;
-		z-index: 1;
+		z-index: 0;
 		width: 110vw;
 		margin-left: -30%;
 		margin-top: -10%;
 		@include mobile {
+			display: none;
 			width: 200vw;
 		}
 	}
 
 	h3 {
 		@include subtitle;
-
+		z-index: 2;
 		// font-weight: bold;
 		// font-size: 25px;
 		margin-bottom: 0.5rem;
@@ -43,6 +46,7 @@
 	.descrip {
 		@include text;
 		margin-bottom: 1rem;
+		z-index: 2;
 	}
 
 	.button-interest {

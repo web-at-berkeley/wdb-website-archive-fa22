@@ -152,7 +152,7 @@ const Join = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<Button text="Full-Stack DeCal Infosession One" />
+								<Button text="Full-Stack DeCal Infosession Two" />
 							</a>
 						</div>
 					</div>
