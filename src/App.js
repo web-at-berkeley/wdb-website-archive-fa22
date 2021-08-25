@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/navbar';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 
 import ScrollToTop from './ScrollToTop';
 
