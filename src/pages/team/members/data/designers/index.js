@@ -5,6 +5,7 @@ import Daniel from './img/daniel.png';
 import Mohini from './img/mohini.png';
 import Jessica from './img/jessica-1.png';
 import Laura from './img/laura.png';
+import Nerissa from './img/nerissa.png';
 
 const data = [
 	{
@@ -55,6 +56,12 @@ const data = [
 		role: 'Product Designer',
 		linkedin: 'https://www.linkedin.com/in/mohini-rye/',
 		personal: 'https://github.com/mkrye',
+	},{
+		name: 'Nerissa Hsieh',
+		image: Nerissa,
+		role: 'Product Designer',
+		linkedin: 'https://www.linkedin.com/in/nerissahsieh/',
+		personal: 'https://www.nerissahsieh.com/',
 	},
 	
 ];

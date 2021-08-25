@@ -17,7 +17,6 @@ import William from './img/william.png';
 import Gabriel from './img/gabriel.png';
 import Ani from './img/ani.png';
 import Isabel from './img/isabel.png';
-import Nerissa from './img/nerissa.png';
 import Sophia from './img/sophia.png';
 import Daniel from './img/daniel.png';
 import Cindy from './img/cindy.png';
@@ -166,13 +165,7 @@ const data = [
 		personal:
 			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
 	},
-	{
-		name: 'Nerissa Hsieh',
-		image: Nerissa,
-		role: 'Design Team',
-		linkedin: 'https://www.linkedin.com/in/nerissahsieh/',
-		personal: 'https://www.nerissahsieh.com/',
-	},
+	
 	{
 		name: 'Sophia guo',
 		image: Sophia,
