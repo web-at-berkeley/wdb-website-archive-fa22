@@ -1,12 +1,10 @@
 import Isabel from './img/isabel.png';
-import Nerissa from './img/nerissa.png';
 import Sooyeon from './img/sooyeon.png';
 import Emily from './img/emily.png';
 import Daniel from './img/daniel.png';
 import Mohini from './img/mohini.png';
 import Jessica from './img/jessica-1.png';
 import Laura from './img/laura.png';
-import Sophia from './img/sophia.png';
 
 const data = [
 	{
@@ -17,13 +15,7 @@ const data = [
 		personal:
 			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
 	},
-	{
-		name: 'Nerissa Hsieh',
-		image: Nerissa,
-		role: 'Product Designer',
-		linkedin: 'https://www.linkedin.com/in/nerissahsieh/',
-		personal: 'https://www.nerissahsieh.com/',
-	},
+	
 	{
 		name: 'Sooyeon Oh',
 		image: Sooyeon,
@@ -50,12 +42,7 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/laurapei/',
 		personal: 'https://laurapei.carrd.co/',
 	},
-	{
-		name: 'Sophia guo',
-		image: Sophia,
-		role: 'Product Designer',
-		linkedin: 'https://www.linkedin.com/in/sophia-guo-957844149/',
-	},
+	
 	{
 		name: 'Daniel Won',
 		image: Daniel,
@@ -69,6 +56,9 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/mohini-rye/',
 		personal: 'https://github.com/mkrye',
 	},
+	
 ];
 
 export default data;
+
+	
