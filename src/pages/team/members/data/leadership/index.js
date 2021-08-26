@@ -21,7 +21,6 @@ import Sophia from './img/sophia.png';
 import Daniel from './img/daniel.png';
 import Cindy from './img/cindy.png';
 
-
 const data = [
 	{
 		name: 'Vicky Li',
@@ -103,7 +102,7 @@ const data = [
 		personal: 'http://amks.me',
 	},
 	{
-		name: 'Kimberly Fan',
+		name: 'Kimberley Fan',
 		image: Kimberley,
 		role: 'DeCal TA',
 		linkedin: 'https://www.linkedin.com/in/kimberleyfan/',
@@ -165,7 +164,7 @@ const data = [
 		personal:
 			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
 	},
-	
+
 	{
 		name: 'Sophia guo',
 		image: Sophia,

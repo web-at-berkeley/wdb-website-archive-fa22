@@ -27,8 +27,7 @@ const data = [
 		personal: 'https://github.com/rachelngjiemin',
 		spotify: 'https://open.spotify.com/user/ra8cnjm',
 	},
-	
-	
+
 	{
 		name: 'James Shin',
 		image: James,
@@ -48,9 +47,9 @@ const data = [
 		role: 'Frontend Developer',
 		linkedin: 'https://www.linkedin.com/in/vincent-le-ucb/',
 	},
-	
+
 	{
-		name: 'Kimberly Fan',
+		name: 'Kimberley Fan',
 		image: Kimberley,
 		role: 'Front End Developer',
 		linkedin: 'https://www.linkedin.com/in/kimberleyfan/',
@@ -62,7 +61,6 @@ const data = [
 		role: 'Front End Developer',
 		linkedin: 'https://www.linkedin.com/in/henryychiu/',
 	},
-	
 
 	{
 		name: 'Rohan Marthur',
@@ -70,10 +68,7 @@ const data = [
 		role: 'Back End Developer',
 		linkedin: 'https://www.linkedin.com/in/rohan-mathur-78584118b/',
 	},
-	
-	
-	
-	
+
 	{
 		name: 'Rex Liu',
 		image: Rex,
@@ -97,7 +92,6 @@ const data = [
 		personal: 'https://github.com/awang193',
 	},
 
-	
 	{
 		name: 'Noor Mahani',
 		image: Noor,
