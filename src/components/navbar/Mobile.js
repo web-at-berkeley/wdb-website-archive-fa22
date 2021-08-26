@@ -17,8 +17,7 @@ const SiteNavbar = ({ landing }) => {
 
 	const clearState = () => {
 		setShow(!show);
-	}
-
+	};
 
 	return (
 		<div className={styles['container']}>
@@ -40,10 +39,18 @@ const SiteNavbar = ({ landing }) => {
 				{show && (
 					<div className={styles['nav-container']}>
 						<div className={styles['nav']}>
-							<Link to="/about"  onClick={clearState} className={styles['nav-link']}>
+							<Link
+								to="/about"
+								onClick={clearState}
+								className={styles['nav-link']}
+							>
 								About Us
 							</Link>
-							<Link to="/initiatives"  onClick={clearState} className={styles['nav-link']}>
+							<Link
+								to="/initiatives"
+								onClick={clearState}
+								className={styles['nav-link']}
+							>
 								Our Initiatives
 								<img src={BlackArrow} alt="" className={styles['arrow']} />
 							</Link>
@@ -77,9 +84,22 @@ const SiteNavbar = ({ landing }) => {
 							>
 								Industry
 							</Link>
-							<Link to="/members"  onClick={clearState} className={styles['nav-link']}>
+							<Link
+								to="/members"
+								onClick={clearState}
+								className={styles['nav-link']}
+							>
 								Team
 								<img src={BlackArrow} alt="" className={styles['arrow']} />
+							</Link>
+							<Link
+								to="/members"
+								onClick={clearState}
+								className={classnames(
+									classnames(styles['nav-link'], styles['dropdown-link'])
+								)}
+							>
+								Members
 							</Link>
 							<Link
 								to="/alumni"
@@ -90,16 +110,32 @@ const SiteNavbar = ({ landing }) => {
 							>
 								Alumni
 							</Link>
-							<Link to="/decal"  onClick={clearState} className={styles['nav-link']}>
+							<Link
+								to="/decal"
+								onClick={clearState}
+								className={styles['nav-link']}
+							>
 								DeCal
 							</Link>
-							<Link to="/projects"  onClick={clearState} className={styles['nav-link']}>
+							<Link
+								to="/projects"
+								onClick={clearState}
+								className={styles['nav-link']}
+							>
 								Projects
 							</Link>
-							<Link to="/join"  onClick={clearState} className={styles['nav-link']}>
+							<Link
+								to="/join"
+								onClick={clearState}
+								className={styles['nav-link']}
+							>
 								Join Us
 							</Link>
-							<Link to="/work-with-us"  onClick={clearState} className={styles['nav-link']}>
+							<Link
+								to="/work-with-us"
+								onClick={clearState}
+								className={styles['nav-link']}
+							>
 								Work With Us
 							</Link>
 						</div>
