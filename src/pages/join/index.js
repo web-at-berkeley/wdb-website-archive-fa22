@@ -93,7 +93,7 @@ const Join = () => {
 								Aug 30, 7PM pst - 9PM PST
 							</span>
 						</p>
-						<p className={styles['location']}>📍 TBD</p>
+						<p className={styles['location']}>📍 Moffit Library 101</p>
 						<p className={styles['text']}>
 							Come to our infosession to learn more about the Introduction to
 							Full-Stack Development DeCal.
@@ -113,10 +113,10 @@ const Join = () => {
 						<p className={styles['title']}>
 							WDB Infosession #1 -{' '}
 							<span className={styles['date-time']}>
-								Aug 31, 7PM pst - 9PM PST
+								Aug 31, 8PM pst - 10PM PST
 							</span>
 						</p>
-						<p className={styles['location']}>📍 TBD</p>
+						<p className={styles['location']}>📍 Moffit Library 101</p>
 						<p className={styles['text']}>
 							Come to our infosession to meet our members, listen to what we’re
 							all about, and hear about exciting plans for the upcoming
@@ -140,7 +140,7 @@ const Join = () => {
 								Sept 1, 7PM pst - 9PM PST
 							</span>
 						</p>
-						<p className={styles['location']}>📍 TBD</p>
+						<a href='https://berkeley.zoom.us/j/99322659636' className={styles['location']}>📍 Zoom (Click here for link)</a>
 						<p className={styles['text']}>
 							Come to our infosession to learn more about the Introduction to
 							Full-Stack Development DeCal. This infosession will cover the same
