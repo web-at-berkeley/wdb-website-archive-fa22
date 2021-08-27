@@ -5,6 +5,9 @@ import Albert from './img/albert.png';
 import Andy from './img/andy.png';
 import Neha from './img/neha.png';
 import Emily from './img/emily-1.png';
+import James from './img/james.png';
+import Henry from './img/henry.png';
+import Nerissa from './img/nerissa.png';
 
 const data = [
 	{
@@ -55,6 +58,25 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/emily-su/',
 		personal: 'https://github.com/emilysu01',
+	},
+	{
+		name: 'James Shin',
+		image: James,
+		role: 'Developer',
+		linkedin: 'https://www.linkedin.com/in/jamesjungmin',
+	},
+	{
+		name: 'Henry Chiu',
+		image: Henry,
+		role: 'Developer',
+		linkedin: 'https://www.linkedin.com/in/henryychiu/',
+	},
+	{
+		name: 'Nerissa Hsieh',
+		image: Nerissa,
+		role: 'Designer',
+		linkedin: 'https://www.linkedin.com/in/nerissahsieh/',
+		personal: 'https://www.nerissahsieh.com/',
 	},
 ];
 

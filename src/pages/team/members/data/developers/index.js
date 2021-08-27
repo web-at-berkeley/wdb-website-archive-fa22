@@ -1,8 +1,6 @@
 import Neil from './img/neil.png';
-import James from './img/james.png';
 import Ansa from './img/ansa.png';
 import Kimberley from './img/kimberley.png';
-import Henry from './img/henry.png';
 import Rohan from './img/rohan.png';
 import Rachel from './img/rachel.png';
 import Rex from './img/rex.png';
@@ -27,13 +25,6 @@ const data = [
 		personal: 'https://github.com/rachelngjiemin',
 		spotify: 'https://open.spotify.com/user/ra8cnjm',
 	},
-
-	{
-		name: 'James Shin',
-		image: James,
-		role: 'Front End Developer',
-		linkedin: 'https://www.linkedin.com/in/jamesjungmin',
-	},
 	{
 		name: 'Ansa Schmulbach',
 		image: Ansa,
@@ -55,13 +46,6 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/kimberleyfan/',
 		personal: 'www.github.com/kimberleyfan',
 	},
-	{
-		name: 'Henry Chiu',
-		image: Henry,
-		role: 'Front End Developer',
-		linkedin: 'https://www.linkedin.com/in/henryychiu/',
-	},
-
 	{
 		name: 'Rohan Marthur',
 		image: Rohan,
