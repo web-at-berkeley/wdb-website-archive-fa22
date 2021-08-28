@@ -7,7 +7,6 @@ import Rex from './img/rex.png';
 import Joshua from './img/joshua.png';
 import Andrew from './img/andrew.png';
 import Vincent from './img/vincent.png';
-import Noor from './img/noor.png';
 
 const data = [
 	{
@@ -74,14 +73,6 @@ const data = [
 		role: 'Back End Developer',
 		linkedin: 'https://www.linkedin.com/in/andrew-wang-b3308a101/',
 		personal: 'https://github.com/awang193',
-	},
-
-	{
-		name: 'Noor Mahani',
-		image: Noor,
-		role: 'Full Stack Developer',
-		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
-		personal: 'https://github.com/noortor',
 	},
 ];
 

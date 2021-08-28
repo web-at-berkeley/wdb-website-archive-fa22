@@ -20,6 +20,7 @@ import Isabel from './img/isabel.png';
 import Sophia from './img/sophia.png';
 import Daniel from './img/daniel.png';
 import Cindy from './img/cindy.png';
+import Noor from './img/noor.png';
 
 const data = [
 	{
@@ -135,6 +136,13 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/anjanbharadwaj/',
 		personal: 'http://anjanbharadwaj.me/',
+	},
+	{
+		name: 'Noor Mahani',
+		image: Noor,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
+		personal: 'https://github.com/noortor',
 	},
 	{
 		name: 'William Louis',
