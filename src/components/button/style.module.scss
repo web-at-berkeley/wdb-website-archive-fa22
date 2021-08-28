@@ -12,6 +12,9 @@
 	border-radius: 0.5rem;
 	transition: 0.25s ease;
 	z-index: 100;
+	@include mobile {
+		padding: 0.5rem 2rem;
+	}
 
 	&:hover {
 		background: darken($purple, 5%);
@@ -24,7 +27,7 @@
 		font-size: 18px;
 		text-transform: uppercase;
 		@include mobile {
-			font-size: 15px;
+			font-size: 13px;
 		}
 	}
 }

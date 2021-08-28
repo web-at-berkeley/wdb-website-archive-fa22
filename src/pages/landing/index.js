@@ -95,6 +95,15 @@ const Landing = () => {
 						<br />
 						and development organization.
 					</h2>
+					<div className={styles['button-temp']} >
+							<a
+								href="/join"
+								// target="_blank"
+								// rel="noreferrer"
+							>
+								<Button text="Join Us!" />
+							</a>
+						</div>
 				</div>
 			</div>
 

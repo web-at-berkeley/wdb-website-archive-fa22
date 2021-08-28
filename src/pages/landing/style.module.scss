@@ -78,6 +78,14 @@
 			margin-top: 5vh;
 		}
 
+		.button-temp {
+			margin-top: 2rem;
+			@include mobile {
+				margin-top: 0rem;
+					
+			}
+		}
+
 		a {
 			z-index: 1;
 			width: 50%;
