@@ -21,6 +21,7 @@ import Sophia from './img/sophia.png';
 import Daniel from './img/daniel.png';
 import Cindy from './img/cindy.png';
 import Noor from './img/noor.png';
+import Atharva from './img/atharva.png';
 
 const data = [
 	{
@@ -143,6 +144,13 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
 		personal: 'https://github.com/noortor',
+	},
+	{
+		name: 'Atharva Mehendale',
+		image: Atharva,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/atharvamehendale/',
+		email: 'mailto:atharva@berkeley.edu',
 	},
 	{
 		name: 'William Louis',
