@@ -90,7 +90,7 @@ const Join = () => {
 						<p className={styles['title']}>
 							Full-Stack DeCal Infosession #1 -{' '}
 							<span className={styles['date-time']}>
-								Aug 30, 7PM pst - 9PM PST
+								Aug 30, 8PM pst - 10PM PST
 							</span>
 						</p>
 						<p className={styles['location']}>📍 Moffit Library 101</p>
@@ -137,7 +137,7 @@ const Join = () => {
 						<p className={styles['title']}>
 							Full-Stack DeCal Infosession #2 -{' '}
 							<span className={styles['date-time']}>
-								Sept 1, 8PM pst - 10PM PST
+								Sept 1, 7PM pst - 9PM PST
 							</span>
 						</p>
 						<a href='https://berkeley.zoom.us/j/99322659636' className={styles['location']}>📍 Zoom (Click here for link)</a>
