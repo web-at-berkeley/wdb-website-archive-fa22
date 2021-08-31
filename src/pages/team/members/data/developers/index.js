@@ -5,7 +5,6 @@ import Rohan from './img/rohan.png';
 import Rachel from './img/rachel.png';
 import Rex from './img/rex.png';
 import Joshua from './img/joshua.png';
-import Andrew from './img/andrew.png';
 import Vincent from './img/vincent.png';
 
 const data = [
@@ -66,13 +65,6 @@ const data = [
 		role: 'Back End Developer',
 		linkedin: 'https://www.linkedin.com/in/joshua-tsai-022b841a4/',
 		personal: 'https://github.com/potatohash78',
-	},
-	{
-		name: 'Andrew Wang',
-		image: Andrew,
-		role: 'Back End Developer',
-		linkedin: 'https://www.linkedin.com/in/andrew-wang-b3308a101/',
-		personal: 'https://github.com/awang193',
 	},
 ];
 
