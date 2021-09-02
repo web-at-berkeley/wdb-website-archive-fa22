@@ -100,11 +100,11 @@ const Join = () => {
 						</p>
 						<div className={styles['button-temp']}>
 							<a
-								href="https://fb.me/e/1Gb6KeEuU"
+								href="https://drive.google.com/file/d/1JiWvTpjV7bVq4gTJtB3P62Pn-BP8m7pO/view?usp=sharing"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<Button text="Full-Stack DeCal Infosession One" />
+								<Button text="Full-Stack DeCal Infosession Recording" />
 							</a>
 						</div>
 					</div>
@@ -140,7 +140,12 @@ const Join = () => {
 								Sept 1, 7PM pst - 9PM PST
 							</span>
 						</p>
-						<a href='https://berkeley.zoom.us/j/99322659636' className={styles['location']}>📍 Zoom (Click here for link)</a>
+						<a
+							href="https://berkeley.zoom.us/j/99322659636"
+							className={styles['location']}
+						>
+							📍 Zoom (Click here for link)
+						</a>
 						<p className={styles['text']}>
 							Come to our infosession to learn more about the Introduction to
 							Full-Stack Development DeCal. This infosession will cover the same
@@ -148,11 +153,11 @@ const Join = () => {
 						</p>
 						<div className={styles['button-temp']}>
 							<a
-								href="https://fb.me/e/1FA1KEDbk"
+								href="https://drive.google.com/file/d/1JiWvTpjV7bVq4gTJtB3P62Pn-BP8m7pO/view?usp=sharing"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<Button text="Full-Stack DeCal Infosession Two" />
+								<Button text="Full-Stack DeCal Infosession Recording" />
 							</a>
 						</div>
 					</div>
