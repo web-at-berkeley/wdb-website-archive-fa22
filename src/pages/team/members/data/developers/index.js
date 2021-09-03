@@ -32,7 +32,7 @@ const data = [
 		personal: 'https://github.com/ansaschmulbach',
 	},
 	{
-		name: 'Vincent Li',
+		name: 'Vincent Le',
 		image: Vincent,
 		role: 'Frontend Developer',
 		linkedin: 'https://www.linkedin.com/in/vincent-le-ucb/',
