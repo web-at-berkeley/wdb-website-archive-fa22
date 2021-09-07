@@ -11,6 +11,7 @@ import Showcase from '../../components/showcase';
 import axios from 'axios';
 
 import Container from 'react-bootstrap/Container';
+// import { animated, useSpring } from 'react-spring';
 
 import Bg from './img/bg.png';
 import NewsletterBlob from './img/newsletter-blob.png';
@@ -29,11 +30,40 @@ import PartnersMobile from './img/partners-mobile.png';
 import styles from './style.module.scss';
 import classnames from 'classnames';
 import breakpoints from '../../breakpoints.module.scss';
+import { Fade } from 'react-bootstrap';
+import './temp.scss';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 const Landing = () => {
 	const [emailAddress, setEmailAddress] = useState('');
 	const [emailError, setEmailError] = useState(false);
 	const [emailSuccess, setEmailSuccess] = useState(false);
+
+	// const props = useSpring({
+	// 	opacity: 1,
+	// 	transform: "translate(0px, 0px)",
+	// 	from: { opacity: 0, transform: "translate(-20px, -20px)" }
+	//   });
+
+	  function FadeInSection(props) {
+		const [isVisible, setVisible] = React.useState(true);
+		const domRef = React.useRef();
+		React.useEffect(() => {
+		  const observer = new IntersectionObserver(entries => {
+			entries.forEach(entry => setVisible(entry.isIntersecting));
+		  });
+		  observer.observe(domRef.current);
+		  //return () => observer.unobserve(domRef.current);
+		}, []);
+		return (
+		  <div
+			className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+			ref={domRef}
+		  >
+			{props.children}
+		  </div>
+		);
+	  }
 
 	function submitEmail(e) {
 		const re =
@@ -75,45 +105,75 @@ const Landing = () => {
 					className={`${styles['landing-blobs']} ${breakpoints['desktop']}`}
 				/>
 				{/* Mobile top graphics */}
+				
 				<img
 					src={BlobsMobile}
 					alt=""
 					className={`${styles['landing-blobs']} ${breakpoints['mobile']}`}
 				/>
+				
+						<div className={styles['text']}>
+							<ReactCSSTransitionGroup  
+								transitionName="example" 
+								transitionAppear={true}
+  								transitionAppearTimeout={700}>
+									<Link to="/" className={breakpoints['mobile']}>
+										<img src={LogoBlack} alt="Web Development at Berkeley" />
+									</Link>
+							
+							</ReactCSSTransitionGroup>
+							
+							
+							{/* <FadeInSection> */}
+							
 
-				<div className={styles['text']}>
-					<Link to="/" className={breakpoints['mobile']}>
-						<img src={LogoBlack} alt="Web Development at Berkeley" />
-					</Link>
-					<h3>
-						Builders, Creatives,
-						<br />
-						and entrepreneurs
-					</h3>
-					<h2 className={breakpoints['desktop']}>
-						UC Berkeley’s premier web design
-						<br />
-						and development organization.
-					</h2>
-					<div className={styles['button-temp']} >
-							<a
-								href="/join"
-								// target="_blank"
-								// rel="noreferrer"
-							>
-								<Button text="Join Us!" />
-							</a>
+								
+							
+							<ReactCSSTransitionGroup  
+								transitionName="example" 
+								transitionAppear={true}
+  								transitionAppearTimeout={700}>
+								<h3>
+									Builders, Creatives,
+									<br />
+									and entrepreneurs
+								</h3>
+								<h2 className={breakpoints['desktop']}>
+									UC Berkeley’s premier web design
+									<br />
+									and development organization.
+								</h2>
+
+
+
+							</ReactCSSTransitionGroup>
+						
+							{/* <div className={styles['button-temp']} >
+									<a
+										href="/join"
+										// target="_blank"
+										// rel="noreferrer"
+									>
+										<Button text="Join Us!" />
+									</a>
+								</div> */}
+							{/* </FadeInSection> */}
 						</div>
-				</div>
+					
+				
 			</div>
 
+
+	
 			<Container className={styles['content']}>
+				
 				<h6 className={styles['blurb']}>
-					<span style={{ fontWeight: 800 }}>Web Development at Berkeley</span>{' '}
-					is UC Berkeley's first web development-focused organization, bringing
-					full-stack web development education and hands-on industry development
-					experience to UC Berkeley students.
-				</h6>
+						<FadeInSection><span style={{ fontWeight: 800 }}>Web Development at Berkeley</span>{' '}
+						is UC Berkeley's first web development-focused organization, bringing
+						full-stack web development education and hands-on industry development
+						experience to UC Berkeley students.
+					</FadeInSection></h6>
+				
 
 				{/* Newsletter */}
 				<div className={styles['newsletter']}>
@@ -158,6 +218,7 @@ const Landing = () => {
 					</div>
 				</div>
 
+
 				{/* Club Statistics */}
 				<div className={styles['stats']}>
 					{stats.map(({ title, description, image }) => (
@@ -193,6 +254,7 @@ const Landing = () => {
 				</div>
 				<Instagram />
 			</Container>
+		
 		</div>
 	);
 };

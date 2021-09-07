@@ -57,24 +57,24 @@ const Join = () => {
 					))} */}
 					<div className={styles['timeline']}>
 						<p className={styles['title']}>
-							Applications open -{' '}
+							Applications Open -{' '}
 							<span className={styles['date-time']}>Aug 24, 11:59 PM</span>
 						</p>
 						<p className={styles['location']}>📍 Remote</p>
 						<p className={styles['text']}>
-							In the application you will find information about roles, time
+							Club appliations are now closed, but decal applications are still open! In the application you will find information about roles, time
 							commitments, organization structure and more.
 						</p>
 
 						<div className={styles['button-temp']}>
-							<a
+							{/* <a
 								href="https://forms.gle/CA9pykbRcRNizEQz7"
 								target="_blank"
 								rel="noreferrer"
 								style={{ marginBottom: '1.5rem' }}
 							>
 								<Button text="Developer + Designer Application" />
-							</a>
+							</a> */}
 
 							<a
 								href="https://forms.gle/6YdV44MgbN8PfsFt6"
@@ -215,7 +215,7 @@ const Join = () => {
 							Behaviorial Interviews (invite only) -{' '}
 							<span className={styles['date-time']}>Sept 7 - Sept 8</span>
 						</p>
-						<p className={styles['location']}>📍 TBD</p>
+						<p className={styles['location']}>📍 Cafe Think (Chou Hall)</p>
 						<p className={styles['text']}>
 							Interviews for WDB Product Bootcamp and Industry Initiatives
 						</p>
