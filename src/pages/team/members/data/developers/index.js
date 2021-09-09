@@ -5,7 +5,7 @@ import Rohan from './img/rohan.png';
 import Rachel from './img/rachel.png';
 import Rex from './img/rex.png';
 import Joshua from './img/joshua.png';
-import Vincent from './img/vincent.png';
+import Stephen from './img/stephen.png';
 
 const data = [
 	{
@@ -31,18 +31,18 @@ const data = [
 		personal: 'https://github.com/ansaschmulbach',
 	},
 	{
-		name: 'Vincent Le',
-		image: Vincent,
-		role: 'Frontend Developer',
-		linkedin: 'https://www.linkedin.com/in/vincent-le-ucb/',
-	},
-
-	{
 		name: 'Kimberley Fan',
 		image: Kimberley,
 		role: 'Front End Developer',
 		linkedin: 'https://www.linkedin.com/in/kimberleyfan/',
 		personal: 'www.github.com/kimberleyfan',
+	},
+	{
+		name: 'Stephen Krider',
+		image: Stephen,
+		role: 'Full Stack Developer',
+		linkedin: 'https://www.linkedin.com/in/skrider/',
+		personal: 'https://github.com/skrider',
 	},
 	{
 		name: 'Rohan Marthur',

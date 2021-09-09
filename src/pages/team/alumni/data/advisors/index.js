@@ -70,6 +70,7 @@ const data = [
 		image: Henry,
 		role: 'Developer',
 		linkedin: 'https://www.linkedin.com/in/henryychiu/',
+		personal: 'http://henrychiu.me',
 	},
 	{
 		name: 'Nerissa Hsieh',

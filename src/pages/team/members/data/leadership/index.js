@@ -11,7 +11,6 @@ import Arushi from './img/arushi.png';
 import Kimberley from './img/kimberley.png';
 import Dhruv from './img/dhruv.png';
 import Alina from './img/alina.png';
-import Stephen from './img/stephen.png';
 import Anjan from './img/anjan.png';
 import William from './img/william.png';
 import Gabriel from './img/gabriel.png';
@@ -123,13 +122,6 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/wangerful/',
 		personal: 'https://github.com/aliner-wang',
-	},
-	{
-		name: 'Stephen Krider',
-		image: Stephen,
-		role: 'Product Manager',
-		linkedin: 'https://www.linkedin.com/in/skrider/',
-		personal: 'https://github.com/skrider',
 	},
 	{
 		name: 'Anjan Bharadwaj',
