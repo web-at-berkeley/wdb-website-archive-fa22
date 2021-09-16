@@ -13,7 +13,6 @@ export const data = [
 		technologies: ['Django', 'PostgreSQL', 'React', 'Plot.ly'],
 		semester: 'Spring 2021',
 	},
-
 	{
 		name: 'Truth',
 		cover: Truth,

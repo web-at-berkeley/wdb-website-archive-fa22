@@ -1,6 +1,5 @@
 import CivHacks from './img/civhacks.png';
 import Stac from './img/stac.png';
-import Big from './img/big.png';
 import Carepath from './img/carepath.png';
 import Resource19 from './img/resource19.png';
 import FreeVentures from './img/freeventures.png';
@@ -59,16 +58,6 @@ export const data = [
 		link: 'https://stac.berkeley.edu/',
 		technologies: ['Figma', 'Flask'],
 		semester: 'Fall 2020',
-	},
-	{
-		name: 'Berkeley Investment Group',
-		cover: Big,
-		subtitle: 'investment club',
-		label: 'berkeley-investment-group',
-		color: 'rgba(68, 95, 142, 0.29)',
-		link: 'https://stac.berkeley.edu/',
-		technologies: ['Figma', 'React'],
-		semester: 'Fall 2021',
 	},
 	{
 		name: 'Resource 19',
