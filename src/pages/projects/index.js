@@ -13,6 +13,12 @@ import Col from 'react-bootstrap/Col';
 import styles from './style.module.scss';
 
 const Projects = () => {
+	const currentProjects = clientProjects
+		.filter((project) => project.semester === 'Fall 2021')
+		.concat(
+			nonprofitProjects.filter((project) => project.semester === 'Fall 2021')
+		);
+
 	return (
 		<main>
 			<Header
@@ -26,17 +32,27 @@ const Projects = () => {
 				transparent pricing schemes for your specific needs."
 			/>
 			<Container className={styles['container']}>
-				<h3 className={styles['header']}>Industry Clients</h3>
+				<h3 className={styles['header']}>Current Clients</h3>
 				<Row>
-					{clientProjects.map((project) => (
+					{currentProjects.map((project) => (
 						<Project project={project} />
 					))}
 				</Row>
+				<h3 className={styles['header']}>Industry Clients</h3>
+				<Row>
+					{clientProjects
+						.filter((project) => project.semester !== 'Fall 2021')
+						.map((project) => (
+							<Project project={project} />
+						))}
+				</Row>
 				<h3 className={styles['header']}>Nonprofit Clients</h3>
 				<Row>
-					{nonprofitProjects.map((project) => (
-						<Project project={project} />
-					))}
+					{nonprofitProjects
+						.filter((project) => project.semester !== 'Fall 2021')
+						.map((project) => (
+							<Project project={project} />
+						))}
 				</Row>
 				{/* <h3 className={styles['header']}>Student Projects</h3>
 				<Row>

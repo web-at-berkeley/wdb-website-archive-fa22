@@ -131,7 +131,7 @@ export const data = [
 		link: 'https://www.barra-labs.com/',
 		technologies: ['Figma', 'React'],
 		lead: ['Justin Chen', 'Tijmen Sep'],
-		semester: 'Fall 2021',
+		semester: 'Fall 2020',
 	},
 	{
 		name: 'UC Berkeley SAAI Artists Residency',
@@ -163,7 +163,7 @@ export const data = [
 		link: 'https://bestpathtransit.com/',
 		technologies: ['Google Cloud', 'React'],
 		lead: ['Neha Haq'],
-		semester: 'Fall 2021',
+		semester: 'Fall 2020',
 	},
 ];
 
