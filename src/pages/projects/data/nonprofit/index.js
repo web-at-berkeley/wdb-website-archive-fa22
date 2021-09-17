@@ -1,14 +1,43 @@
-import CivHacks from './img/civhacks.png';
-import Stac from './img/stac.png';
-import Carepath from './img/carepath.png';
-import Resource19 from './img/resource19.png';
+//Fall 2021
+import Big from './img/big.png';
 import FreeVentures from './img/freeventures.png';
+
+//Spring 2021
+import CivHacks from './img/civhacks.png';
+import Carepath from './img/carepath.png';
+import TBF from './img/tbf.png';
+
+//Fall 2020
+import Stac from './img/stac.png';
+import Resource19 from './img/resource19.png';
 import GroTech from './img/grotech.png';
 import FormulaElectric from './img/formula.png';
-import TBF from './img/tbf.png';
 import CloudAtCal from './img/cloud.png';
 
 export const data = [
+	//Fall 2021
+	{
+		name: 'Berkeley Investment Group',
+		cover: Big,
+		subtitle: 'UC Berkeley Investment Group',
+		label: 'big',
+		color: 'rgba(68, 95, 142, 0.29)',
+		link: 'https://www.berkeleyinvestment.group/',
+		technologies: ['React', 'Figma', 'Node'],
+		semester: 'Fall 2021',
+	},
+	{
+		name: 'Free Ventures',
+		cover: FreeVentures,
+		subtitle: 'VC nonprofit',
+		label: 'free-ventures',
+		color: 'rgba(85, 38, 112, 0.24)',
+		link: 'https://www.freeventures.org/',
+		technologies: ['Figma', 'React'],
+		semester: 'Fall 2021',
+	},
+
+	//Spring 2021
 	{
 		name: 'Carepath',
 		cover: Carepath,
@@ -30,16 +59,6 @@ export const data = [
 		semester: 'Spring 2021',
 	},
 	{
-		name: 'Free Ventures',
-		cover: FreeVentures,
-		subtitle: 'VC nonprofit',
-		label: 'free-ventures',
-		color: 'rgba(85, 38, 112, 0.24)',
-		link: 'https://www.freeventures.org/',
-		technologies: ['Figma', 'React'],
-		semester: 'Fall 2021',
-	},
-	{
 		name: 'The Berkeley Forum',
 		cover: TBF,
 		subtitle: 'discussion club',
@@ -49,6 +68,8 @@ export const data = [
 		technologies: ['React', 'Amazon Web Services', 'Bootstrap'],
 		semester: 'Spring 2021',
 	},
+
+	//Fall 2020
 	{
 		name: 'Space Technologies at Cal',
 		cover: Stac,

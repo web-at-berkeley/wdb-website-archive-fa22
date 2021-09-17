@@ -5,9 +5,11 @@ import Albert from './img/albert.png';
 import Andy from './img/andy.png';
 import Neha from './img/neha.png';
 import Emily from './img/emily-1.png';
+import Ethan from './img/ethan.png';
 import James from './img/james.png';
 import Henry from './img/henry.png';
 import Nerissa from './img/nerissa.png';
+import Sooyeon from './img/sooyeon.png';
 
 const data = [
 	{
@@ -60,6 +62,13 @@ const data = [
 		personal: 'https://github.com/emilysu01',
 	},
 	{
+		name: 'Ethan Wu',
+		image: Ethan,
+		role: 'Developer',
+		linkedin: 'https://www.linkedin.com/in/ethan-wu/',
+		personal: 'https://github.com/ethan-wu366',
+	},
+	{
 		name: 'James Shin',
 		image: James,
 		role: 'Developer',
@@ -78,6 +87,12 @@ const data = [
 		role: 'Designer',
 		linkedin: 'https://www.linkedin.com/in/nerissahsieh/',
 		personal: 'https://www.nerissahsieh.com/',
+	},
+	{
+		name: 'Sooyeon Oh',
+		image: Sooyeon,
+		role: 'Product Designer',
+		linkedin: 'https://www.linkedin.com/in/sooyeonoh',
 	},
 ];
 

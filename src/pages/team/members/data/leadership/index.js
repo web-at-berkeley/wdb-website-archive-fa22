@@ -21,6 +21,7 @@ import Daniel from './img/daniel.png';
 import Cindy from './img/cindy.png';
 import Noor from './img/noor.png';
 import Atharva from './img/atharva.png';
+import Alexis from './img/alexis.png';
 
 const data = [
 	{
@@ -172,7 +173,6 @@ const data = [
 		personal:
 			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
 	},
-
 	{
 		name: 'Sophia guo',
 		image: Sophia,
@@ -190,6 +190,14 @@ const data = [
 		image: Cindy,
 		role: 'Design Team',
 		linkedin: 'https://www.linkedin.com/in/cindy-liu-a52a0a194/',
+	},
+	{
+		name: 'Alexis Kim',
+		image: Alexis,
+		role: 'Design Team',
+		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
+		personal:
+			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
 	},
 ];
 
