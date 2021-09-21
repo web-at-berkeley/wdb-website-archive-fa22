@@ -10,7 +10,7 @@ import Row from 'react-bootstrap/Row';
 
 import Frame from './img/frame.png';
 import Blobs from './img/blobs.png';
-import Team from './img/team.png';
+import Team from './img/aboutus.png';
 import HackSC from './img/hacksc.png';
 import HackSCFlowers from './img/hacksc-flowers.png';
 import Startups from './img/startups.png';
