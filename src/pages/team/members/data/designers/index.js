@@ -17,13 +17,20 @@ import Danielle from './img/danielle.png';
 
 const data = [
 	//Industry
+
 	{
-		name: 'Isabel Zheng',
-		image: Isabel,
+		name: 'Alexis Kim',
+		image: Alexis,
 		role: 'Product Designer',
-		linkedin: 'https://www.linkedin.com/in/isabel-zheng-24003b1b2/',
+		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
 		personal:
-			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
+			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
+	},
+	{
+		name: 'Daniel Won',
+		image: Daniel,
+		role: 'Product Designer',
+		linkedin: 'https://www.linkedin.com/in/danielw23/',
 	},
 	{
 		name: 'Emily Wu',
@@ -31,6 +38,14 @@ const data = [
 		role: 'Product Designer',
 		linkedin: 'https://www.linkedin.com/in/emily-wu-5b121a162/',
 		personal: 'https://github.com/emilyjw98',
+	},
+	{
+		name: 'Isabel Zheng',
+		image: Isabel,
+		role: 'Product Designer',
+		linkedin: 'https://www.linkedin.com/in/isabel-zheng-24003b1b2/',
+		personal:
+			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
 	},
 	{
 		name: 'Jessica Hwang',
@@ -46,48 +61,14 @@ const data = [
 		personal: 'https://laurapei.carrd.co/',
 	},
 	{
-		name: 'Daniel Won',
-		image: Daniel,
-		role: 'Product Designer',
-		linkedin: 'https://www.linkedin.com/in/danielw23/',
-	},
-	{
 		name: 'Mohini Rye',
 		image: Mohini,
 		role: 'Product Designer',
 		linkedin: 'https://www.linkedin.com/in/mohini-rye/',
 		personal: 'https://github.com/mkrye',
 	},
-	{
-		name: 'Alexis Kim',
-		image: Alexis,
-		role: 'Product Designer',
-		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
-		personal:
-			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
-	},
 
 	//Bootcamp
-	{
-		name: 'Edward Luna',
-		image: Edward,
-		role: 'Bootcamp Designer',
-		linkedin: 'https://www.linkedin.com/in/edwardlunacs/',
-		personal: 'https://misterluna.myportfolio.com/',
-	},
-	{
-		name: 'Connor Harrington',
-		image: Connor,
-		role: 'Bootcamp Designer',
-		linkedin: 'https://www.linkedin.com/in/charrington03/',
-	},
-	{
-		name: 'Lian Ting',
-		image: Lian,
-		role: 'Bootcamp Designer',
-		linkedin: 'https://www.linkedin.com/in/lianting/',
-		personal: 'https://github.com/lian-ting',
-	},
 	{
 		name: 'Cass Li',
 		image: Cass,
@@ -96,12 +77,35 @@ const data = [
 		personal: 'https://chengyinli.godaddysites.com',
 	},
 	{
+		name: 'Connor Harrington',
+		image: Connor,
+		role: 'Bootcamp Designer',
+		linkedin: 'https://www.linkedin.com/in/charrington03/',
+	},
+	{
 		name: 'Danielle Wong',
 		image: Danielle,
 		role: 'Bootcamp Designer',
 		linkedin: 'www.linkedin.com/in/danielle-n-wong',
 		personal: 'https://github.com/daniellenwong',
 	},
+	{
+		name: 'Edward Luna',
+		image: Edward,
+		role: 'Bootcamp Designer',
+		linkedin: 'https://www.linkedin.com/in/edwardlunacs/',
+		personal: 'https://misterluna.myportfolio.com/',
+	},
+	
+	{
+		name: 'Lian Ting',
+		image: Lian,
+		role: 'Bootcamp Designer',
+		linkedin: 'https://www.linkedin.com/in/lianting/',
+		personal: 'https://github.com/lian-ting',
+	},
+	
+
 ];
 
 export default data;

@@ -23,6 +23,12 @@ import Noor from './img/noor.png';
 import Atharva from './img/atharva.png';
 import Alexis from './img/alexis.png';
 
+import Gabe from './img/gabe.png';
+import Meiqi from './img/meiqi.png';
+import Dominic from './img/dominic.png';
+import Edward from './img/edward.png';
+import Rick from './img/rick.png';
+
 const data = [
 	{
 		name: 'Vicky Li',
@@ -52,7 +58,7 @@ const data = [
 	{
 		name: 'Caelin Sutch',
 		image: Caelin,
-		role: 'Training VP',
+		role: 'Product Bootcamp VP',
 		linkedin: 'https://www.linkedin.com/in/caelinsutch/',
 		personal: 'https://www.caelinsutch.com/',
 		email: 'caelinsutch@berkeley.edu',
@@ -82,88 +88,69 @@ const data = [
 		email: 'adbhawal@berkeley.edu',
 	},
 	{
-		name: 'Hector Ramos',
-		image: Hector,
-		role: 'DeCal TA',
-		linkedin: 'https://www.linkedin.com/in/hector-ramos-/#',
-		email: 'hector.ramos@berkeley.edu',
-	},
-	{
-		name: 'Abhi Wadekar',
-		image: Abhi,
-		role: 'DeCal TA',
-		linkedin: 'https://www.linkedin.com/in/abhiraam-wadekar/',
-		email: 'abhi1@berkeley.edu',
-	},
-	{
-		name: 'Arushi Somani',
-		image: Arushi,
-		role: 'DeCal TA',
-		linkedin: 'https://www.linkedin.com/in/arushisomani/',
-		email: 'arushisomani@berkeley.edu',
-		personal: 'http://amks.me',
-	},
-	{
-		name: 'Kimberley Fan',
-		image: Kimberley,
-		role: 'DeCal TA',
-		linkedin: 'https://www.linkedin.com/in/kimberleyfan/',
-		personal: 'www.github.com/kimberleyfan',
-		email: 'kimberley.fan123@berkeley.edu',
-	},
-	{
-		name: 'Dhruv Vaish',
-		image: Dhruv,
-		role: 'DeCal TA',
-		linkedin: 'https://www.linkedin.com/in/dhruv-vaish/',
-	},
-	{
 		name: 'Alina Wang',
 		image: Alina,
-		role: 'Product Manager',
+		role: 'Product Manager @ Provecho',
 		linkedin: 'https://www.linkedin.com/in/wangerful/',
 		personal: 'https://github.com/aliner-wang',
 	},
 	{
+		name: 'Atharva Mehendale',
+		image: Atharva,
+		role: 'Product Manager @ Provecho',
+		linkedin: 'https://www.linkedin.com/in/atharvamehendale/',
+		email: 'mailto:atharva@berkeley.edu',
+	},
+	{
 		name: 'Anjan Bharadwaj',
 		image: Anjan,
-		role: 'Product Manager',
+		role: 'Product Manager @ Politiq',
 		linkedin: 'https://www.linkedin.com/in/anjanbharadwaj/',
 		personal: 'http://anjanbharadwaj.me/',
 	},
 	{
 		name: 'Noor Mahani',
 		image: Noor,
-		role: 'Product Manager',
+		role: 'Product Manager @ Politiq',
 		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
 		personal: 'https://github.com/noortor',
 	},
+
 	{
-		name: 'Atharva Mehendale',
-		image: Atharva,
-		role: 'Product Manager',
-		linkedin: 'https://www.linkedin.com/in/atharvamehendale/',
-		email: 'mailto:atharva@berkeley.edu',
+		name: 'Ani Vangala',
+		image: Ani,
+		role: 'Product Manager @ Traders and Product Bootcamp Counselor',
+		linkedin: 'https://www.linkedin.com/in/aniruddhavangala/',
+		personal: 'https://github.com/aniruddha98',
 	},
+	
+	
 	{
 		name: 'William Louis',
 		image: William,
-		role: 'Training Team',
+		role: 'Product Bootcamp Counselor',
 		linkedin: 'https://www.linkedin.com/in/william-l-549860132/',
 	},
+
 	{
-		name: 'Gabriel Meng',
-		image: Gabriel,
-		role: 'Member Experience Team',
-		linkedin: 'https://www.linkedin.com/in/gabrielmeng',
-		personal: 'https://github.com/gabemeng',
+		name: 'Alexis Kim',
+		image: Alexis,
+		role: 'Design Team',
+		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
+		personal:
+			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
 	},
 	{
-		name: 'Aniruddha Vangala',
-		image: Ani,
-		role: 'Product Manager & Training Team',
-		linkedin: 'https://www.linkedin.com/in/aniruddhavangala/',
-		personal: 'https://github.com/aniruddha98',
+		name: 'Cindy Liu',
+		image: Cindy,
+		role: 'Design Team',
+		linkedin: 'https://www.linkedin.com/in/cindy-liu-a52a0a194/',
+	},
+	{
+		name: 'Daniel Won',
+		image: Daniel,
+		role: 'Design Team',
+		linkedin: 'https://www.linkedin.com/in/danielw23/',
 	},
 	{
 		name: 'Isabel Zheng',
@@ -174,31 +161,44 @@ const data = [
 			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
 	},
 	{
-		name: 'Sophia guo',
+		name: 'Sophia Guo',
 		image: Sophia,
 		role: 'Design Team',
 		linkedin: 'https://www.linkedin.com/in/sophia-guo-957844149/',
 	},
+	
 	{
-		name: 'Daniel Won',
-		image: Daniel,
-		role: 'Design Team',
-		linkedin: 'https://www.linkedin.com/in/danielw23/',
+		name: 'Dominic de Bettencourt',
+		image: Dominic,
+		role: 'Member Experience',
+		linkedin: 'https://www.linkedin.com/in/ddebettencourt/',
 	},
 	{
-		name: 'Cindy Liu',
-		image: Cindy,
-		role: 'Design Team',
-		linkedin: 'https://www.linkedin.com/in/cindy-liu-a52a0a194/',
+		name: 'Edward Luna',
+		image: Edward,
+		role: 'Member Experience',
+		linkedin: 'https://www.linkedin.com/in/edwardlunacs/',
 	},
 	{
-		name: 'Alexis Kim',
-		image: Alexis,
-		role: 'Design Team',
-		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
-		personal:
-			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
+		name: 'Gabriel Meng',
+		image: Gabe,
+		role: 'Member Experience',
+		linkedin: 'https://www.linkedin.com/in/gabrielmeng/',
 	},
+	{
+		name: 'Meiqi Liang',
+		image: Meiqi,
+		role: 'Member Experience',
+		linkedin: 'https://www.linkedin.com/in/meiqi-liang/',
+	},
+
+	{
+		name: 'Rick Zhou',
+		image: Rick,
+		role: 'Member Experience',
+		linkedin: 'https://www.linkedin.com/in/rick-zhou-a35208169//',
+	}
+
 ];
 
 export default data;

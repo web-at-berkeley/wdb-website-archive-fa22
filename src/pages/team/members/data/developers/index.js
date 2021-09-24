@@ -41,7 +41,7 @@ const data = [
     {
         "name": "Adam Goldstein",
         "image": Adam,
-        "role": "Full Stack Developer",
+        "role": "Front End Developer",
         "linkedin": "https://www.linkedin.com/in/adam-j-goldstein/",
         "personal": "https://github.com/agoldstein03"
     },
@@ -69,7 +69,7 @@ const data = [
     {
         "name": "Avinash Rao",
         "image": Avinash,
-        "role": "Full Stack Developer",
+        "role": "Back End Developer",
         "linkedin": "https://www.linkedin.com/in/avinashrao2002",
         "personal": "https://www.avinashrao.me/"
     },
@@ -90,7 +90,7 @@ const data = [
     {
         "name": "Isaac Ong",
         "image": Isaac,
-        "role": "Front End Developer",
+        "role": "Back End Developer",
         "linkedin": "https://www.linkedin.com/in/isaacong",
         "personal": "https://isaacong.me"
     },
@@ -104,7 +104,7 @@ const data = [
     {
         "name": "Joshua Tsai",
         "image": Joshua,
-        "role": "Front End Developer",
+        "role": "Back End Developer",
         "linkedin": "https://www.linkedin.com/in/joshua-tsai-022b841a4/",
         "personal": "https://github.com/potatohash78"
     },
@@ -125,14 +125,14 @@ const data = [
     {
         "name": "Matthew Lee",
         "image": Matthew,
-        "role": "Full Stack Developer",
+        "role":"Front End Developer",
         "linkedin": "https://www.linkedin.com/in/matthewlee626/",
         "personal": "https://www.matthewlee.xyz"
     },
     {
         "name": "Neil Kamdar",
         "image": Neil,
-        "role": "Back End Developer",
+        "role": "Front End Developer",
         "linkedin": "http://linkedin.com/in/neil-kamdar",
         "personal": "http://neilkamdar.com"
     },
@@ -196,82 +196,82 @@ const data = [
     {
         "name": "Violet Luo",
         "image": Violet,
-        "role": "Full Stack Developer",
+        "role": "Front End Developer",
         "linkedin": "https://www.linkedin.com/in/violet-luo/",
         "personal": "https://github.com/violet-luo"
     },
     {
         "name": "Aadhiti  Ghankota",
         "image": Aadhiti,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "www.linkedin.com/in/aghankota",
         "personal": "https://github.com/aadhitig"
     },
     {
         "name": "Aniruddh Chennapragada",
         "image": Aniruddh,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "https://www.linkedin.com/in/aniruddh-chennapragada-976278179/"
     },
     {
         "name": "Chanel Zeng",
         "image": Chanel,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "https://www.linkedin.com/in/chanelzeng/",
         "personal": "https://github.com/zengchanel"
     },
     {
         "name": "Jazem Siddiqui",
         "image": Jazem,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "https://www.linkedin.com/in/jazems/",
         "personal": "https://jazems.github.io/"
     },
     {
         "name": "Nitya Krishnakumar",
         "image": Nitya,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "https://www.linkedin.com/in/nitya-krish/",
         "personal": "https://github.com/nitya-krish"
     },
     {
         "name": "Rishi Khare",
         "image": Rishi,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "https://www.linkedin.com/in/rishi-khare-112b0018b/"
     },
     {
         "name": "Saketh Panchumarthy",
         "image": Saketh,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "https://www.linkedin.com/in/sakethpanchumarthy/",
         "personal": "https://github.com/spanch2"
     },
     {
         "name": "Sebastiaan Szafir",
         "image": Sebi,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "https://www.linkedin.com/in/sebastiaan-szafir-fridman",
         "personal": "https://zubatomic.com"
     },
     {
         "name": "Sophia Sharifi",
         "image": Sophia,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "https://www.linkedin.com/in/sophiasharifi/",
         "personal": "https://github.com/sophiasharifi"
     },
     {
         "name": "Vaikundh Jagannathan",
         "image": Vaik,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "http://linkedin.com/in/vaikundh",
         "personal": "http://github.com/vaikundh"
     },
     {
         "name": "Vincent Le",
         "image": Vincent,
-        "role": "Dev Bootcamp Camper",
+        "role": "Developer Bootcamp Camper",
         "linkedin": "https://www.linkedin.com/in/vincent-le-ucb/"
     }
 ];

@@ -9,7 +9,10 @@ import Hector from './img/hector.png';
 import Abhi from './img/abhi.png';
 import Arushi from './img/arushi.png';
 import Kimberley from './img/kimberley.png';
-import Dhruv from './img/dhruv.png';
+import Dhruv from './img/druhv.png';
+import Waleed from './img/waleed.png';
+import Leo from './img/leo.png';
+import Sanjeev from './img/sanjeev.png';
 import Alina from './img/alina.png';
 import Anjan from './img/anjan.png';
 import William from './img/william.png';
@@ -30,21 +33,21 @@ const data = [
 		image: Hector,
 		role: 'DeCal TA',
 		linkedin: 'https://www.linkedin.com/in/hector-ramos-/#',
-		email: 'hector.ramos@berkeley.edu',
+		email: 'mailto: hector.ramos@berkeley.edu',
 	},
 	{
 		name: 'Abhi Wadekar',
 		image: Abhi,
 		role: 'DeCal TA',
 		linkedin: 'https://www.linkedin.com/in/abhiraam-wadekar/',
-		email: 'abhi1@berkeley.edu',
+		email: 'mailto: abhi1@berkeley.edu',
 	},
 	{
 		name: 'Arushi Somani',
 		image: Arushi,
 		role: 'DeCal TA',
 		linkedin: 'https://www.linkedin.com/in/arushisomani/',
-		email: 'arushisomani@berkeley.edu',
+		email: 'mailto: arushisomani@berkeley.edu',
 		personal: 'http://amks.me',
 	},
 	{
@@ -53,13 +56,35 @@ const data = [
 		role: 'DeCal TA',
 		linkedin: 'https://www.linkedin.com/in/kimberleyfan/',
 		personal: 'www.github.com/kimberleyfan',
-		email: 'kimberley.fan123@berkeley.edu',
+		email: 'mailto: kimberley.fan123@berkeley.edu',
 	},
 	{
 		name: 'Dhruv Vaish',
 		image: Dhruv,
 		role: 'DeCal TA',
 		linkedin: 'https://www.linkedin.com/in/dhruv-vaish/',
+		email: 'mailto: dvaish@berkeley.edu'
+	},
+	{
+		name: 'Waleed Latif',
+		image: Waleed,
+		role: 'DeCal TA',
+		linkedin: 'https://www.linkedin.com/in/waleedlatif/',
+		email: 'mailto: waleedlatif@berkeley.edu'
+	},
+	{
+		name: 'Sanjeev Thurgam',
+		image: Sanjeev,
+		role: 'DeCal TA',
+		linkedin: 'https://www.linkedin.com/in/sanjeev-thurgam-1188b0196//',
+		email:'mailto:sanjeevt@berkeley.edu'
+	},
+	{
+		name: 'Leo Kao',
+		image: Leo,
+		role: 'DeCal TA',
+		linkedin: 'https://www.linkedin.com/in/leo-k-745071170/',
+		email: 'mailto: leok@berkeley.edu'
 	},
 ];
 

@@ -3,6 +3,7 @@ import React from 'react';
 import leadership from './data/leadership';
 import developers from './data/developers';
 import designers from './data/designers';
+import coursestaff from './data/coursestaff';
 import Profile from '../../../components/profile';
 import Header from '../../../components/header';
 
@@ -30,6 +31,13 @@ const Members = () => {
 				<Row lg="5" sm="3" xs="2">
 					{leadership.map((data, i) => (
 						<Profile data={data} key={i} />
+					))}
+				</Row>
+
+				<h4 className={styles['divider-header']}>Course Staff</h4>
+				<Row lg="5" sm="3" xs="2">
+					{coursestaff.sort((a, b) => a.name.localeCompare(b.name)).map((data, i) => (
+						<Profile data={data} k ey={i} />
 					))}
 				</Row>
 
