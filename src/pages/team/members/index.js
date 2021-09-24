@@ -41,14 +41,14 @@ const Members = () => {
 					))}
 				</Row>
 
-				<h4 className={styles['divider-header']}>Product Developers</h4>
+				<h4 className={styles['divider-header']}>Developers</h4>
 				<Row lg="5" sm="3" xs="2">
 					{developers.map((data, i) => (
 						<Profile data={data} k ey={i} />
 					))}
 				</Row>
 
-				<h4 className={styles['divider-header']}>Product Designers</h4>
+				<h4 className={styles['divider-header']}>Designers</h4>
 				<Row lg="5" sm="3" xs="2">
 					{designers.map((data, i) => (
 						<Profile data={data} key={i} />
