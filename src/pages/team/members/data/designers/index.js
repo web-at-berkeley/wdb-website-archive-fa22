@@ -11,8 +11,9 @@ import Alexis from './img/alexis.png';
 import Edward from './img/edward.png';
 import Connor from './img/connor.png';
 import Lian from './img/lian.png';
-import Cass from './img/cass.png';
+import Cass from './img/chengyin.png';
 import Danielle from './img/danielle.png';
+
 
 const data = [
 	//Industry
