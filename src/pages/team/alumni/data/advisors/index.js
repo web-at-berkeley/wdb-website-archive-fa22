@@ -10,6 +10,7 @@ import James from './img/james.png';
 import Henry from './img/henry.png';
 import Nerissa from './img/nerissa.png';
 import Sooyeon from './img/sooyeon.png';
+import Armaan from './img/armaan.png';
 
 const data = [
 	{
@@ -34,6 +35,13 @@ const data = [
 		personal: 'https://izzielau.github.io/',
 	},
 	{
+		name: 'Armaan Goel',
+		image: Armaan,
+		role: 'Senior Advisor',
+		linkedin: 'https://www.linkedin.com/in/armaangoel/',
+		personal: 'https://waiting-ixora-7ae.notion.site/Armaan-s-Portfolio-53ab609870ad4397916149ff3273b7be',
+	},
+	{
 		name: 'Albert Tian',
 		image: Albert,
 		role: 'Product Manager',
@@ -47,6 +55,7 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/andybojiang/',
 		personal: 'http://github.com/andybojiang',
 	},
+	
 	{
 		name: 'Neha Haq',
 		image: Neha,
