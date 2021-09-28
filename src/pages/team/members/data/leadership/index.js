@@ -36,7 +36,7 @@ const data = [
 		role: 'Co-President',
 		linkedin: 'https://www.linkedin.com/in/victoriayli/',
 		personal: 'https://vickyli248.github.io/',
-		email: 'mailto:victoria.li@berkeley.edu',
+		email: 'mailto: victoria.li@berkeley.edu',
 	},
 	{
 		name: 'Samarth Goel',
@@ -44,7 +44,7 @@ const data = [
 		role: 'Co-President',
 		linkedin: 'https://www.linkedin.com/in/samarth-goel-07/',
 		personal: 'https://www.notion.so/3dffd695ef42483ca5fa13338eeb1190',
-		email: 'sgoel9@berkeley.edu',
+		email: 'mailto: sgoel9@berkeley.edu',
 	},
 	{
 		name: 'Justin Chen',
@@ -53,7 +53,7 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/justinshawnchen/',
 		personal: 'https://www.itsjustchen.com',
 		applemusic: 'https://music.apple.com/profile/jch3nx',
-		email: 'justinshawnchen@berkeley.edu',
+		email: 'mailto: justinshawnchen@berkeley.edu',
 	},
 	{
 		name: 'Caelin Sutch',
@@ -61,7 +61,7 @@ const data = [
 		role: 'Product Bootcamp VP',
 		linkedin: 'https://www.linkedin.com/in/caelinsutch/',
 		personal: 'https://www.caelinsutch.com/',
-		email: 'caelinsutch@berkeley.edu',
+		email: 'mailto: caelinsutch@berkeley.edu',
 	},
 	{
 		name: 'Alex Wu',
@@ -70,7 +70,7 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
 		personal:
 			'https://jialin-wu.com/Hi-I-am-Alex-Wu-e214ae8665244ef8b086d669f2d21800',
-		email: 'justinshawnchen@berkeley.edu',
+		email: 'mailto: jialin_wu@berkeley.edu',
 	},
 	{
 		name: 'Lizzie Lau',
@@ -78,14 +78,14 @@ const data = [
 		role: 'Design VP',
 		linkedin: 'https://www.linkedin.com/in/lizzie-lau/',
 		personal: 'https://github.com/lizzielau',
-		email: 'lizzielau@berkeley.edu',
+		email: 'mailto: lizzielau@berkeley.edu',
 	},
 	{
 		name: 'Aditya Bhawal',
 		image: Aditya,
 		role: 'Internal VP',
 		linkedin: 'https://www.linkedin.com/in/adityabhawal/',
-		email: 'adbhawal@berkeley.edu',
+		email: 'mailto: adbhawal@berkeley.edu',
 	},
 	{
 		name: 'Alina Wang',
@@ -123,8 +123,7 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/aniruddhavangala/',
 		personal: 'https://github.com/aniruddha98',
 	},
-	
-	
+
 	{
 		name: 'William Louis',
 		image: William,
@@ -166,7 +165,7 @@ const data = [
 		role: 'Design Team',
 		linkedin: 'https://www.linkedin.com/in/sophia-guo-957844149/',
 	},
-	
+
 	{
 		name: 'Dominic de Bettencourt',
 		image: Dominic,
@@ -197,8 +196,7 @@ const data = [
 		image: Rick,
 		role: 'Member Experience',
 		linkedin: 'https://www.linkedin.com/in/rick-zhou-a35208169//',
-	}
-
+	},
 ];
 
 export default data;

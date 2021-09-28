@@ -8,16 +8,13 @@ import Laura from './img/laura.png';
 import Alexis from './img/alexis.png';
 
 //Bootcamp
-import Edward from './img/edward.png';
 import Connor from './img/connor.png';
 import Lian from './img/lian.png';
 import Cass from './img/chengyin.png';
 import Danielle from './img/danielle.png';
 
-
 const data = [
 	//Industry
-
 	{
 		name: 'Alexis Kim',
 		image: Alexis,
@@ -90,22 +87,12 @@ const data = [
 		personal: 'https://github.com/daniellenwong',
 	},
 	{
-		name: 'Edward Luna',
-		image: Edward,
-		role: 'Bootcamp Designer',
-		linkedin: 'https://www.linkedin.com/in/edwardlunacs/',
-		personal: 'https://misterluna.myportfolio.com/',
-	},
-	
-	{
 		name: 'Lian Ting',
 		image: Lian,
 		role: 'Bootcamp Designer',
 		linkedin: 'https://www.linkedin.com/in/lianting/',
 		personal: 'https://github.com/lian-ting',
 	},
-	
-
 ];
 
 export default data;

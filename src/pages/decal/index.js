@@ -9,8 +9,6 @@ import Timeline from './constants/Timeline.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-
-
 import Carousel, {
 	slidesToShowPlugin,
 	arrowsPlugin,
@@ -152,10 +150,8 @@ const Decal = () => {
 					description="Check out the decal course schedule here, or go to our decal Notion for more details!"
 					buttonText="fullstackdecal.com"
 					linkTo="https://www.fullstackdecal.com"
-					
 				/>
 			</div>
-
 
 			<Carousel
 				className={styles['carousel']}
@@ -219,7 +215,7 @@ const Decal = () => {
 					},
 				]}
 			>
-				{Timeline.map(({ date, lecture, topic, topic2}) => (
+				{Timeline.map(({ date, lecture, topic, topic2 }) => (
 					<div className={styles['col']}>
 						<h6>{date}</h6>
 						<h5>Lecture #{lecture}</h5>
@@ -254,8 +250,6 @@ const Decal = () => {
 					</div>
 				</div>
 			</Container>
-
-			
 
 			<Container className={styles['staff']}>
 				<h4>Education Team</h4>
