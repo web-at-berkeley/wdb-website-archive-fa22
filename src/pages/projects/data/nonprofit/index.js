@@ -1,6 +1,8 @@
 //Fall 2021
 import Big from './img/big.png';
 import FreeVentures from './img/freeventures.png';
+import BC from './img/bc.png';
+import BVC from './img/bvc.png';
 
 //Spring 2021
 import CivHacks from './img/civhacks.png';
@@ -34,6 +36,26 @@ export const data = [
 		color: 'rgba(85, 38, 112, 0.24)',
 		link: 'https://www.freeventures.org/',
 		technologies: ['Figma', 'React'],
+		semester: 'Fall 2021',
+	},
+	{
+		name: 'Berkeley Venture Capital',
+		cover: BVC,
+		subtitle: 'VC student organization',
+		label: 'bvc',
+		color: 'rgba(252, 196, 28, 0.25)',
+		link: 'https://www.berkeleyventurecapital.org/',
+		technologies: ['Figma', 'React'],
+		semester: 'Fall 2021',
+	},
+	{
+		name: 'Berkeley Consulting',
+		cover: BC,
+		subtitle: 'Premier Student Consulting Organization',
+		label: 'bc',
+		color: 'rgba(171, 171, 171, 0.3)',
+		link: 'https://bc.berkeley.edu/',
+		technologies: ['Figma', 'React', 'Node', 'Express'],
 		semester: 'Fall 2021',
 	},
 
