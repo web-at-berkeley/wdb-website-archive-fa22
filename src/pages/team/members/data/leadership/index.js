@@ -119,7 +119,7 @@ const data = [
 	{
 		name: 'Ani Vangala',
 		image: Ani,
-		role: 'Product Manager @ Traders and Product Bootcamp Counselor',
+		role: 'Product Manager @ Traders',
 		linkedin: 'https://www.linkedin.com/in/aniruddhavangala/',
 		personal: 'https://github.com/aniruddha98',
 	},
