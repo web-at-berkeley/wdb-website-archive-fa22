@@ -15,7 +15,7 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 // import { animated, useSpring } from 'react-spring';
 
-import Bg from './img/bg.png';
+import Bg from './img/bg-min.png';
 import NewsletterBlob from './img/newsletter-blob.png';
 import Blobs from './img/blobs.png';
 import Clients from './img/clients.png';
