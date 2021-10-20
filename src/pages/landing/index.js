@@ -11,6 +11,8 @@ import Showcase from '../../components/showcase';
 import axios from 'axios';
 
 import Container from 'react-bootstrap/Container';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 // import { animated, useSpring } from 'react-spring';
 
 import Bg from './img/bg.png';
@@ -116,7 +118,7 @@ const Landing = () => {
 							<ReactCSSTransitionGroup  
 								transitionName="example" 
 								transitionAppear={true}
-  								transitionAppearTimeout={700}>
+  								transitionAppearTimeout={2100}>
 									<Link to="/" className={breakpoints['mobile']}>
 										<img src={LogoBlack} alt="Web Development at Berkeley" />
 									</Link>
@@ -132,7 +134,9 @@ const Landing = () => {
 							<ReactCSSTransitionGroup  
 								transitionName="example" 
 								transitionAppear={true}
-  								transitionAppearTimeout={700}>
+  								transitionAppearTimeout={2100}>
+								
+									
 								<h3>
 									Builders, Creatives,
 									<br />
@@ -143,9 +147,6 @@ const Landing = () => {
 									<br />
 									and development organization.
 								</h2>
-
-
-
 							</ReactCSSTransitionGroup>
 						
 							{/* <div className={styles['button-temp']} >
@@ -221,12 +222,45 @@ const Landing = () => {
 
 				{/* Club Statistics */}
 				<div className={styles['stats']}>
-					{stats.map(({ title, description, image }) => (
+					
+		
+
+
+
+					{stats.map(({ title, description, image, end, plus }) => (
+
 						<div className={styles['stat']}>
+							<CountUp
+								start={0}
+								end={end}
+								duration={2}
+								separator=" "
+								decimals={0}
+								// delay={0}
+								onEnd={() => console.log('Ended! 👏')}
+								onStart={() => console.log('Started! 💨')}
+								>
+								{({ countUpRef, start }) => (
+									<div className={styles['number']} onScroll={start}>
+										<img src={image} alt="" />
+										<VisibilitySensor onChange={start} delayedCall>
+											<h6 ref={countUpRef}></h6>
+										
+										</VisibilitySensor>	
+										
+										{plus == true ? <h6>+</h6> : null}
+										
+											
+									</div>
+								)}
+							</CountUp>
+{/* 
 							<div className={styles['number']}>
 								<img src={image} alt="" />
 								<h6>{title}</h6>
 							</div>
+
+ */}
 							<p>{description}</p>
 						</div>
 					))}
