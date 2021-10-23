@@ -66,7 +66,7 @@ const Landing = () => {
 		  </div>
 		);
 	  }
-
+	  
 	function submitEmail(e) {
 		const re =
 			/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -130,7 +130,6 @@ const Landing = () => {
 							
 
 								
-							
 							<ReactCSSTransitionGroup  
 								transitionName="example" 
 								transitionAppear={true}
@@ -223,10 +222,6 @@ const Landing = () => {
 				{/* Club Statistics */}
 				<div className={styles['stats']}>
 					
-		
-
-
-
 					{stats.map(({ title, description, image, end, plus }) => (
 
 						<div className={styles['stat']}>

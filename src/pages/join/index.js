@@ -57,13 +57,12 @@ const Join = () => {
 					))} */}
 					<div className={styles['timeline']}>
 						<p className={styles['title']}>
-							Applications Open -{' '}
-							<span className={styles['date-time']}>Aug 24, 11:59 PM</span>
+							Applications Now Closed -{' '}
+							<span className={styles['date-time']}>Check back in Spring 2022</span>
 						</p>
-						<p className={styles['location']}>📍 Remote</p>
+						<p className={styles['location']}>📍 TBD!</p>
 						<p className={styles['text']}>
-							Club appliations are now closed, but decal applications are still open! In the application you will find information about roles, time
-							commitments, organization structure and more.
+							Club appliations are now closed. Feel free to email us if you're still interested and keep an eye out for our Spring 2022 recruitment events!
 						</p>
 
 						<div className={styles['button-temp']}>
@@ -76,17 +75,17 @@ const Join = () => {
 								<Button text="Developer + Designer Application" />
 							</a> */}
 
-							<a
+							{/* <a
 								href="https://forms.gle/6YdV44MgbN8PfsFt6"
 								target="_blank"
 								rel="noreferrer"
 							>
 								<Button text="Full-Stack DeCal Application" />
-							</a>
+							</a> */}
 						</div>
 					</div>
 
-					<div className={styles['timeline']}>
+					{/* <div className={styles['timeline']}>
 						<p className={styles['title']}>
 							Full-Stack DeCal Infosession #1 -{' '}
 							<span className={styles['date-time']}>
@@ -241,7 +240,7 @@ const Join = () => {
 						<p className={styles['text']}>
 							Our first all-team meeting with new and returning members.
 						</p>
-					</div>
+					</div> */}
 				</div>
 				{/* <div className={styles['interested']}>
 					<img src={Bg} alt="" />
@@ -296,6 +295,8 @@ const Join = () => {
 							</p>
 							<p className={styles['title']}>Anjan ‘24, Full Stack Developer</p>
 						</div>
+
+						
 						<div className={styles['testimonial1']}>
 							<img src={caelin} alt="{role.title}" />
 

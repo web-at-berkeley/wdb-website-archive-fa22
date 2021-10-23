@@ -26,6 +26,7 @@ function App() {
 	return (
 		<Router>
 			<ScrollToTop />
+			
 			<Switch>
 				<Route exact path="/">
 					<Navbar landing />
