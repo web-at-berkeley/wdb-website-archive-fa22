@@ -134,14 +134,6 @@ const data = [
 		personal: 'https://nico-galin.github.io/',
 	},
 	{
-		name: 'Rachel Ng',
-		image: Rachel,
-		role: 'Back End Developer',
-		linkedin: 'https://www.linkedin.com/in/rachel-ngjiemin/',
-		personal: 'rachelngjiemin.github.io',
-		spotify: 'https://open.spotify.com/user/ra8cnjm',
-	},
-	{
 		name: 'Rex Liu',
 		image: Rex,
 		role: 'Back End Developer',

@@ -22,7 +22,7 @@ import Cindy from './img/cindy.png';
 import Noor from './img/noor.png';
 import Atharva from './img/atharva.png';
 import Alexis from './img/alexis.png';
-
+import Rachel from './img/rachel.png';
 import Gabe from './img/gabe.png';
 import Meiqi from './img/meiqi.png';
 import Dominic from './img/dominic.png';
@@ -122,6 +122,14 @@ const data = [
 		role: 'Product Manager @ Traders',
 		linkedin: 'https://www.linkedin.com/in/aniruddhavangala/',
 		personal: 'https://github.com/aniruddha98',
+	},
+	{
+		name: 'Rachel Ng',
+		image: Rachel,
+		role: 'Product Manager @ Traders',
+		linkedin: 'https://www.linkedin.com/in/rachel-ngjiemin/',
+		personal: 'rachelngjiemin.github.io',
+		spotify: 'https://open.spotify.com/user/ra8cnjm',
 	},
 
 	{

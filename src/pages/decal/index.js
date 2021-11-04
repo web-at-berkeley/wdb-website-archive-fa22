@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Leadership from '../team/members/data/leadership';
+import CourseStaff from '../team/members/data/coursestaff';
 import Profile from '../../components/profile';
 import Header from '../../components/header';
 
@@ -254,7 +255,7 @@ const Decal = () => {
 			<Container className={styles['staff']}>
 				<h4>Education Team</h4>
 				<Row lg="5" sm="3" xs="2">
-					{courseStaff.map((data, i) => (
+					{CourseStaff.map((data, i) => (
 						<Profile data={data} key={i} />
 					))}
 				</Row>
