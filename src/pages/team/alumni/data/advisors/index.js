@@ -10,6 +10,7 @@ import James from './img/james.png';
 import Henry from './img/henry.png';
 import Nerissa from './img/nerissa.png';
 import Sooyeon from './img/sooyeon.png';
+import EmilyWu from './img/emily.png';
 
 const data = [
 	{
@@ -94,6 +95,13 @@ const data = [
 		image: Sooyeon,
 		role: 'Designer',
 		linkedin: 'https://www.linkedin.com/in/sooyeonoh',
+	},
+	{
+		name: 'Emily Wu',
+		image: EmilyWu,
+		role: 'Designer',
+		linkedin: 'https://www.linkedin.com/in/emily-wu-5b121a162/',
+		personal: 'https://github.com/emilyjw98',
 	},
 ];
 

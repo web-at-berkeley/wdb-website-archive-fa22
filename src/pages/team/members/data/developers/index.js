@@ -12,7 +12,6 @@ import Vincent from './img/vincent.png';
 
 import Edward from './img/edward.png';
 import Adam from './img/adam.png';
-import Allison from './img/allison.png';
 import Andrew from './img/andrew.png';
 import Anish from './img/anish.png';
 import Ansa from './img/ansa.png';
@@ -41,13 +40,6 @@ const data = [
 		role: 'Front End Developer',
 		linkedin: 'https://www.linkedin.com/in/adam-j-goldstein/',
 		personal: 'https://github.com/agoldstein03',
-	},
-	{
-		name: 'Allison Jung',
-		image: Allison,
-		role: 'Front End Developer',
-		linkedin: 'https://linkedin.com/in/allisonjung29',
-		personal: 'https://github.com/allisonjung29',
 	},
 	{
 		name: 'Andrew Tom',

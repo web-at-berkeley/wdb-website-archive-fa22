@@ -1,6 +1,5 @@
 //Industry
 import Isabel from './img/isabel.png';
-import Emily from './img/emily.png';
 import Daniel from './img/daniel.png';
 import Mohini from './img/mohini.png';
 import Jessica from './img/jessica-1.png';
@@ -28,13 +27,6 @@ const data = [
 		image: Daniel,
 		role: 'Product Designer',
 		linkedin: 'https://www.linkedin.com/in/danielw23/',
-	},
-	{
-		name: 'Emily Wu',
-		image: Emily,
-		role: 'Product Designer',
-		linkedin: 'https://www.linkedin.com/in/emily-wu-5b121a162/',
-		personal: 'https://github.com/emilyjw98',
 	},
 	{
 		name: 'Isabel Zheng',
