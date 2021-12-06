@@ -22,13 +22,13 @@ const data = [
 		image: LinkedIn,
 	},
 	{
-		name: 'YouTube',
-		link: 'https://www.instagram.com/webatberkeley',
+		name: 'Youtube',
+		link: 'https://www.youtube.com/channel/UCGpukPda1pJ8Ei20e02oR0w',
 		image: YouTube,
 	},
 	{
 		name: 'Medium',
-		link: 'https://www.instagram.com/webatberkeley',
+		link: 'https://medium.com',
 		image: Medium,
 	},
 	{ name: 'Email', link: 'mailto: webatberkeley@gmail.com', image: Mail },

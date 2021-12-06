@@ -6,7 +6,6 @@
 	src: url('../../fonts/Rubik-SemiBold.ttf');
 }
 
-
 .container {
 	overflow-x: hidden;
 }
@@ -83,7 +82,6 @@
 			margin-top: 2rem;
 			@include mobile {
 				margin-top: 0rem;
-					
 			}
 		}
 
@@ -238,7 +236,7 @@
 
 		.subtext {
 			@include text;
-			
+
 			height: 1rem;
 			color: $dark-purple;
 			margin-top: 0.7rem;

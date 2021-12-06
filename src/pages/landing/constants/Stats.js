@@ -5,31 +5,31 @@ import Apple from '../img/apple.png';
 
 const data = [
 	{
-		title: '50+',
+		title: '90+',
 		description: 'Students who have completed our curriculum',
 		image: Hat,
-		end: 50,
+		end: 90,
 		plus: true,
 	},
 	{
-		title: '7',
+		title: '10',
 		description: 'Websites built for other Berkeley organizations',
 		image: School,
-		end: 7,
+		end: 10,
 		plus: false,
 	},
 	{
-		title: '16',
+		title: '19',
 		description: 'Web apps built for companies and rising startups',
 		image: Briefcase,
-		end: 16,
+		end: 19,
 		plus: false,
 	},
 	{
-		title: '20+',
+		title: '25+',
 		description: 'Public workshops held for the Berkeley community',
 		image: Apple,
-		end: 20,
+		end: 25,
 		plus: true,
 	},
 ];

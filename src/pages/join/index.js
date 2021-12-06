@@ -58,11 +58,15 @@ const Join = () => {
 					<div className={styles['timeline']}>
 						<p className={styles['title']}>
 							Applications Now Closed -{' '}
-							<span className={styles['date-time']}>Check back in Spring 2022</span>
+							<span className={styles['date-time']}>
+								Check back in Spring 2022
+							</span>
 						</p>
 						<p className={styles['location']}>📍 TBD!</p>
 						<p className={styles['text']}>
-							Club appliations are now closed. Feel free to email us if you're still interested and keep an eye out for our Spring 2022 recruitment events!
+							Club appliations are now closed. Feel free to email us if you're
+							still interested and keep an eye out for our Spring 2022
+							recruitment events!
 						</p>
 
 						<div className={styles['button-temp']}>
@@ -296,7 +300,6 @@ const Join = () => {
 							<p className={styles['title']}>Anjan ‘24, Full Stack Developer</p>
 						</div>
 
-						
 						<div className={styles['testimonial1']}>
 							<img src={caelin} alt="{role.title}" />
 

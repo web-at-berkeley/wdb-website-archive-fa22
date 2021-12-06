@@ -9,10 +9,11 @@ import Event from '../../components/event';
 import Showcase from '../../components/showcase';
 
 import axios from 'axios';
+import VisibilitySensor from 'react-visibility-sensor';
 
 import Container from 'react-bootstrap/Container';
 import CountUp from 'react-countup';
-import VisibilitySensor from 'react-visibility-sensor';
+
 // import { animated, useSpring } from 'react-spring';
 
 import Bg from './img/bg-min.png';
@@ -30,9 +31,7 @@ import ClientsMobile from './img/clients-mobile.png';
 import PartnersMobile from './img/partners-mobile.png';
 
 import styles from './style.module.scss';
-import classnames from 'classnames';
 import breakpoints from '../../breakpoints.module.scss';
-import { Fade } from 'react-bootstrap';
 import './temp.scss';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
@@ -47,26 +46,26 @@ const Landing = () => {
 	// 	from: { opacity: 0, transform: "translate(-20px, -20px)" }
 	//   });
 
-	  function FadeInSection(props) {
+	function FadeInSection(props) {
 		const [isVisible, setVisible] = React.useState(true);
 		const domRef = React.useRef();
 		React.useEffect(() => {
-		  const observer = new IntersectionObserver(entries => {
-			entries.forEach(entry => setVisible(entry.isIntersecting));
-		  });
-		  observer.observe(domRef.current);
-		  //return () => observer.unobserve(domRef.current);
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach((entry) => setVisible(entry.isIntersecting));
+			});
+			observer.observe(domRef.current);
+			//return () => observer.unobserve(domRef.current);
 		}, []);
 		return (
-		  <div
-			className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
-			ref={domRef}
-		  >
-			{props.children}
-		  </div>
+			<div
+				className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+				ref={domRef}
+			>
+				{props.children}
+			</div>
 		);
-	  }
-	  
+	}
+
 	function submitEmail(e) {
 		const re =
 			/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -106,49 +105,44 @@ const Landing = () => {
 					alt=""
 					className={`${styles['landing-blobs']} ${breakpoints['desktop']}`}
 				/>
+
 				{/* Mobile top graphics */}
-				
 				<img
 					src={BlobsMobile}
 					alt=""
 					className={`${styles['landing-blobs']} ${breakpoints['mobile']}`}
 				/>
-				
-						<div className={styles['text']}>
-							<ReactCSSTransitionGroup  
-								transitionName="example" 
-								transitionAppear={true}
-  								transitionAppearTimeout={2100}>
-									<Link to="/" className={breakpoints['mobile']}>
-										<img src={LogoBlack} alt="Web Development at Berkeley" />
-									</Link>
-							
-							</ReactCSSTransitionGroup>
-							
-							
-							{/* <FadeInSection> */}
-							
 
-								
-							<ReactCSSTransitionGroup  
-								transitionName="example" 
-								transitionAppear={true}
-  								transitionAppearTimeout={2100}>
-								
-									
-								<h3>
-									Builders, Creatives,
-									<br />
-									and entrepreneurs
-								</h3>
-								<h2 className={breakpoints['desktop']}>
-									UC Berkeley’s premier web design
-									<br />
-									and development organization.
-								</h2>
-							</ReactCSSTransitionGroup>
-						
-							{/* <div className={styles['button-temp']} >
+				<div className={styles['text']}>
+					<ReactCSSTransitionGroup
+						transitionName="example"
+						transitionAppear={true}
+						transitionAppearTimeout={2100}
+					>
+						<Link to="/" className={breakpoints['mobile']}>
+							<img src={LogoBlack} alt="Web Development at Berkeley" />
+						</Link>
+					</ReactCSSTransitionGroup>
+
+					{/* <FadeInSection> */}
+					<ReactCSSTransitionGroup
+						transitionName="example"
+						transitionAppear={true}
+						transitionAppearTimeout={2100}
+					>
+						<h3>
+							Builders, Creatives,
+							<br />
+							and entrepreneurs
+						</h3>
+						<h2 className={breakpoints['desktop']}>
+							UC Berkeley’s premier web design
+							<br />
+							and development organization.
+						</h2>
+					</ReactCSSTransitionGroup>
+
+					{/* <div className={styles['button-temp']} >
 									<a
 										href="/join"
 										// target="_blank"
@@ -157,23 +151,19 @@ const Landing = () => {
 										<Button text="Join Us!" />
 									</a>
 								</div> */}
-							{/* </FadeInSection> */}
-						</div>
-					
-				
+					{/* </FadeInSection> */}
+				</div>
 			</div>
 
-
-	
 			<Container className={styles['content']}>
-				
 				<h6 className={styles['blurb']}>
-						<FadeInSection><span style={{ fontWeight: 800 }}>Web Development at Berkeley</span>{' '}
-						is UC Berkeley's first web development-focused organization, bringing
-						full-stack web development education and hands-on industry development
-						experience to UC Berkeley students.
-					</FadeInSection></h6>
-				
+					<FadeInSection>
+						<span style={{ fontWeight: 800 }}>Web Development at Berkeley</span>{' '}
+						is UC Berkeley's first web development-focused organization,
+						bringing full-stack web development education and hands-on industry
+						development experience to UC Berkeley students.
+					</FadeInSection>
+				</h6>
 
 				{/* Newsletter */}
 				<div className={styles['newsletter']}>
@@ -218,12 +208,9 @@ const Landing = () => {
 					</div>
 				</div>
 
-
 				{/* Club Statistics */}
 				<div className={styles['stats']}>
-					
 					{stats.map(({ title, description, image, end, plus }) => (
-
 						<div className={styles['stat']}>
 							<CountUp
 								start={0}
@@ -234,22 +221,19 @@ const Landing = () => {
 								// delay={0}
 								onEnd={() => console.log('Ended! 👏')}
 								onStart={() => console.log('Started! 💨')}
-								>
+							>
 								{({ countUpRef, start }) => (
 									<div className={styles['number']} onScroll={start}>
 										<img src={image} alt="" />
 										<VisibilitySensor onChange={start} delayedCall>
 											<h6 ref={countUpRef}></h6>
-										
-										</VisibilitySensor>	
-										
-										{plus == true ? <h6>+</h6> : null}
-										
-											
+										</VisibilitySensor>
+
+										{plus === true ? <h6>+</h6> : null}
 									</div>
 								)}
 							</CountUp>
-{/* 
+							{/* 
 							<div className={styles['number']}>
 								<img src={image} alt="" />
 								<h6>{title}</h6>
@@ -283,7 +267,6 @@ const Landing = () => {
 				</div>
 				<Instagram />
 			</Container>
-		
 		</div>
 	);
 };
