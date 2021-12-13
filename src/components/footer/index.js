@@ -47,8 +47,8 @@ const Footer = () => {
 						<Link to="/education" className={styles['link']}>
 							Education
 						</Link>
-						<Link to="/training" className={styles['link']}>
-							Training
+						<Link to="/bootcamp" className={styles['link']}>
+							Bootcamp
 						</Link>
 						<Link to="/industry" className={styles['link']}>
 							Industry
