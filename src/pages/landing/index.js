@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 
-import { Link } from 'react-router-dom';
-
 import stats from './constants/Stats';
 import Instagram from '../../components/instagram';
 import Button from '../../components/button';
@@ -9,14 +7,14 @@ import Event from '../../components/event';
 import Showcase from '../../components/showcase';
 
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import VisibilitySensor from 'react-visibility-sensor';
+import Fade from 'react-reveal/Fade';
 
 import Container from 'react-bootstrap/Container';
 import CountUp from 'react-countup';
 
-// import { animated, useSpring } from 'react-spring';
-
-import Bg from './img/bg-min.png';
+import Bg from './img/bg.png';
 import NewsletterBlob from './img/newsletter-blob.png';
 import Blobs from './img/blobs.png';
 import Clients from './img/clients.png';
@@ -32,39 +30,12 @@ import PartnersMobile from './img/partners-mobile.png';
 
 import styles from './style.module.scss';
 import breakpoints from '../../breakpoints.module.scss';
-import './temp.scss';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import classnames from 'classnames';
 
 const Landing = () => {
 	const [emailAddress, setEmailAddress] = useState('');
 	const [emailError, setEmailError] = useState(false);
 	const [emailSuccess, setEmailSuccess] = useState(false);
-
-	// const props = useSpring({
-	// 	opacity: 1,
-	// 	transform: "translate(0px, 0px)",
-	// 	from: { opacity: 0, transform: "translate(-20px, -20px)" }
-	//   });
-
-	function FadeInSection(props) {
-		const [isVisible, setVisible] = React.useState(true);
-		const domRef = React.useRef();
-		React.useEffect(() => {
-			const observer = new IntersectionObserver((entries) => {
-				entries.forEach((entry) => setVisible(entry.isIntersecting));
-			});
-			observer.observe(domRef.current);
-			//return () => observer.unobserve(domRef.current);
-		}, []);
-		return (
-			<div
-				className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
-				ref={domRef}
-			>
-				{props.children}
-			</div>
-		);
-	}
 
 	function submitEmail(e) {
 		const re =
@@ -95,10 +66,13 @@ const Landing = () => {
 
 	return (
 		<div className={styles['container']}>
-			{/* Splash page */}
+			{/* Meta Image */}
 			<img src={Meta} alt="" style={{ display: 'none' }} />
+
+			{/* Splash Page */}
 			<div className={styles['hero']}>
 				<img src={Bg} alt="" className={styles['bg']} />
+
 				{/* Desktop top graphics */}
 				<img
 					src={LandingBlobs}
@@ -114,99 +88,92 @@ const Landing = () => {
 				/>
 
 				<div className={styles['text']}>
-					<ReactCSSTransitionGroup
-						transitionName="example"
-						transitionAppear={true}
-						transitionAppearTimeout={2100}
-					>
-						<Link to="/" className={breakpoints['mobile']}>
-							<img src={LogoBlack} alt="Web Development at Berkeley" />
-						</Link>
-					</ReactCSSTransitionGroup>
-
-					{/* <FadeInSection> */}
-					<ReactCSSTransitionGroup
-						transitionName="example"
-						transitionAppear={true}
-						transitionAppearTimeout={2100}
-					>
+					<Link to="/" className={breakpoints['mobile']}>
+						<img src={LogoBlack} alt="Web Development at Berkeley" />
+					</Link>
+					<Fade up>
 						<h3>
 							Builders, Creatives,
 							<br />
 							and entrepreneurs
 						</h3>
+					</Fade>
+					<Fade up delay={500}>
 						<h2 className={breakpoints['desktop']}>
 							UC Berkeley’s premier web design
 							<br />
 							and development organization.
 						</h2>
-					</ReactCSSTransitionGroup>
+					</Fade>
 
 					{/* <div className={styles['button-temp']} >
-									<a
-										href="/join"
-										// target="_blank"
-										// rel="noreferrer"
-									>
-										<Button text="Join Us!" />
-									</a>
-								</div> */}
-					{/* </FadeInSection> */}
+							<a
+								href="/join"
+								// target="_blank"
+								// rel="noreferrer"
+							>
+								<Button text="Join Us!" />
+							</a>
+						</div> */}
 				</div>
 			</div>
 
 			<Container className={styles['content']}>
-				<h6 className={styles['blurb']}>
-					<FadeInSection>
+				<Fade up>
+					<h6 className={styles['blurb']}>
 						<span style={{ fontWeight: 800 }}>Web Development at Berkeley</span>{' '}
 						is UC Berkeley's first web development-focused organization,
 						bringing full-stack web development education and hands-on industry
 						development experience to UC Berkeley students.
-					</FadeInSection>
-				</h6>
+					</h6>
+				</Fade>
 
 				{/* Newsletter */}
-				<div className={styles['newsletter']}>
-					<img
-						src={NewsletterBlob}
-						alt=""
-						className={styles['blob'] + ' ' + breakpoints['desktop']}
-					/>
-					<img
-						src={NewsletterBlobMobile}
-						alt=""
-						className={styles['blob'] + ' ' + breakpoints['mobile']}
-					/>
-					<div className={styles['input']}>
-						<p className={styles['blurb'] + ' ' + breakpoints['desktop']}>
-							📫 Sign up for our email list for updates, resources, and more!
-						</p>
+				<Fade up>
+					<div className={styles['newsletter']}>
+						<img
+							src={NewsletterBlob}
+							alt=""
+							className={classnames(styles['blob'], breakpoints['desktop'])}
+						/>
+						<img
+							src={NewsletterBlobMobile}
+							alt=""
+							className={classnames(styles['blob'], breakpoints['mobile'])}
+						/>
+						<div className={styles['input']}>
+							<p
+								className={classnames(styles['blurb'], breakpoints['desktop'])}
+							>
+								📫 Sign up for our email list for updates, resources, and more!
+							</p>
 
-						<p className={styles['blurb'] + ' ' + breakpoints['mobile']}>
-							📫 Sign up for our email list!
-						</p>
+							<p className={classnames(styles['blurb'], breakpoints['mobile'])}>
+								📫 Sign up for our email list!
+							</p>
 
-						<div className={styles['form']}>
-							<input
-								id="emailField"
-								className={styles['emailField']}
-								type="text"
-								placeholder="Email Address"
-								onChange={(event) => setEmailAddress(event.target.value)}
-							/>
-							<div className={styles['button-container']}>
-								<Button
-									text="Gimme the news!"
-									onClick={() => submitEmail(emailAddress)}
+							<div className={styles['form']}>
+								<input
+									id="emailField"
+									className={styles['emailField']}
+									type="text"
+									placeholder="Email Address"
+									onChange={(event) => setEmailAddress(event.target.value)}
 								/>
+								<div className={styles['button-container']}>
+									<Button
+										text="Gimme the news!"
+										onClick={() => submitEmail(emailAddress)}
+									/>
+								</div>
+							</div>
+							<div className={styles['subtext']}>
+								{emailError && 'Please enter a valid email.'}
+								{emailSuccess && 'Thanks for subscribing!'}
 							</div>
 						</div>
-						<div className={styles['subtext']}>
-							{emailError && 'Please enter a valid email.'}
-							{emailSuccess && 'Thanks for subscribing!'}
-						</div>
 					</div>
-				</div>
+				</Fade>
 
 				{/* Club Statistics */}
 				<div className={styles['stats']}>
@@ -226,7 +193,7 @@ const Landing = () => {
 									<div className={styles['number']} onScroll={start}>
 										<img src={image} alt="" />
 										<VisibilitySensor onChange={start} delayedCall>
-											<h6 ref={countUpRef}></h6>
+											<h6 ref={countUpRef} />
 										</VisibilitySensor>
 
 										{plus === true ? <h6>+</h6> : null}
@@ -249,21 +216,24 @@ const Landing = () => {
 				{/* Desktop */}
 				<div className={styles['graphics']}>
 					<img src={Blobs} alt="" className={styles['blobs']} />
-					<div className={styles['clients']}>
-						<Showcase
-							title="Past Clients"
-							image={Clients}
-							imageMobile={ClientsMobile}
-						/>
-					</div>
-
-					<div className={styles['partners']}>
-						<Showcase
-							title="Partners + Sponsors"
-							image={Partners}
-							imageMobile={PartnersMobile}
-						/>
-					</div>
+					<Fade up>
+						<div className={styles['clients']}>
+							<Showcase
+								title="Past Clients"
+								image={Clients}
+								imageMobile={ClientsMobile}
+							/>
+						</div>
+					</Fade>
+					<Fade up>
+						<div className={styles['partners']}>
+							<Showcase
+								title="Partners + Sponsors"
+								image={Partners}
+								imageMobile={PartnersMobile}
+							/>
+						</div>
+					</Fade>
 				</div>
 				<Instagram />
 			</Container>

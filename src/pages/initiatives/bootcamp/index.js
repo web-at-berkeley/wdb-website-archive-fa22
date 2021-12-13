@@ -5,7 +5,6 @@ import Header from '../../../components/header';
 import Button from '../../../components/button';
 import timeline from './constants/Timeline';
 
-// import Carousel from '../../../components/carousel';
 import Carousel, {
 	slidesToShowPlugin,
 	arrowsPlugin,
@@ -23,6 +22,7 @@ import Bg from './img/bg.png';
 
 import styles from './style.module.scss';
 import breakpoints from '../../../breakpoints.module.scss';
+import classnames from 'classnames';
 
 const Bootcamp = () => {
 	const [category, setCategory] = useState('Mentorship');
@@ -44,7 +44,7 @@ const Bootcamp = () => {
 			<Container className={styles['product-cont']}>
 				<img src={Blobs} alt="" className={styles['blobs']} />
 				{/* Desktop */}
-				<div className={styles['tenants'] + ' ' + breakpoints['desktop']}>
+				<div className={classnames(styles['tenants'], breakpoints['desktop'])}>
 					<div className={styles['categories']}>
 						{tenants.map(({ name, data }) => (
 							<h5

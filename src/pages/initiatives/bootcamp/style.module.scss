@@ -1,14 +1,11 @@
 @import '../../../mixins';
 @import '../../../variables';
-@font-face {
-	font-family: Monsterrat;
-	src: url('../../../fonts/Montserrat-ExtraBold.ttf');
-}
+
 .blobs {
 	position: absolute;
 	user-select: none;
 	-moz-user-select: none;
-	-webkit-user-select: none;	
+	-webkit-user-select: none;
 	pointer-events: none;
 	overflow: hidden;
 	-webkit-user-drag: none;
@@ -19,6 +16,7 @@
 	margin-left: -50vw;
 	margin-top: -40%;
 }
+
 .carousel {
 	margin-left: 10rem;
 	margin-right: 10rem;
@@ -29,6 +27,7 @@
 		margin-left: 1rem;
 		margin-right: 1rem;
 	}
+
 	.col {
 		@include box;
 		display: flex;
@@ -37,23 +36,26 @@
 		padding: 5%;
 		width: 90%;
 		height: 20rem;
+		margin-right: auto;
+		margin-left: auto;
+
 		@include mobile {
 			margin-top: 10px;
 			justify-content: center;
 			width: 80%;
 		}
-		margin-right: auto;
-		margin-left: auto;
 
 		img {
 			height: 4rem;
 			margin-bottom: 1rem;
 			margin-top: 15%;
 			margin-left: 7%;
+
 			@include mobile {
 				height: 4rem;
 			}
 		}
+
 		h6 {
 			@include text;
 			font-size: 17px;
@@ -64,6 +66,7 @@
 			margin-left: 7%;
 			margin-bottom: 0.5rem;
 		}
+
 		p {
 			@include text;
 			font-size: 15px;
@@ -87,11 +90,7 @@
 	}
 }
 
-
-
-
 .tenants {
-	
 	@include box;
 	position: relative;
 	margin: auto;
@@ -117,14 +116,13 @@
 	}
 
 	p {
-
 		margin: 1rem 0 2rem 0;
 		@include text;
-			text-align: center;
-			margin-bottom: 2rem;
-			@include mobile {
-				margin-bottom: 1rem;
-			}
+		text-align: center;
+		margin-bottom: 2rem;
+		@include mobile {
+			margin-bottom: 1rem;
+		}
 	}
 }
 
@@ -216,7 +214,7 @@
 
 		.blurb {
 			@include text-three;
-			
+
 			padding: 0 5%;
 			margin-bottom: 1rem;
 			z-index: 2;
@@ -247,9 +245,7 @@
 		display: block;
 		font-size: 14px;
 		text-align: center;
-		margin-top: .5rem;
+		margin-top: 0.5rem;
 		margin-bottom: 1.5rem;
 	}
 }
-
-

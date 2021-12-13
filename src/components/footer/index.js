@@ -41,7 +41,7 @@ const Footer = () => {
 				</div>
 				<div className={styles['right']}>
 					<div className={styles['col']}>
-						<Link to="/" className={styles['link']}>
+						<Link to="/about" className={styles['link']}>
 							About Us
 						</Link>
 						<Link to="/education" className={styles['link']}>

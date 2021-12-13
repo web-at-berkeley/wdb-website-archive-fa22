@@ -1,9 +1,5 @@
 @import '../../variables';
 @import '../../mixins';
-@font-face {
-	font-family: Rubiks;
-	src: url('../../fonts/Rubik-SemiBold.ttf');
-}
 
 .dark-button {
 	background: $purple;
@@ -18,7 +14,6 @@
 
 	&:hover {
 		background: darken($purple, 5%);
-		
 	}
 
 	.text {
@@ -33,7 +28,6 @@
 }
 
 .light-button {
-	
 	border: 2px solid $dark-purple;
 	padding: 0.3rem 1rem;
 	border-radius: 0.5rem;
@@ -45,7 +39,7 @@
 	color: white;
 	position: relative;
 	// -webkit-background-clip: text;
-  	// -webkit-text-fill-color: transparent;
+	// -webkit-text-fill-color: transparent;
 	z-index: 100;
 
 	// &:after {
@@ -63,13 +57,12 @@
 		// border: 2px solid darken($dark-purple, 5%);
 		// background-position:0;
 		background: $dark-purple;
-		color:  $dark-purple;
+		color: $dark-purple;
 		.text {
 			// color: darken($dark-purple, 5%);
 			color: white;
 		}
 	}
-	
 
 	.text {
 		color: $dark-purple;

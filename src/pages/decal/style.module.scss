@@ -1,17 +1,11 @@
 @import '../../mixins';
-@font-face {
-	font-family: Rubiks;
-	src: url('../../fonts/Rubik-SemiBold.ttf');
-}
 
 .container,
 .join,
 .staff {
 	width: 80% !important;
 	margin-left: 10%;
-
 }
-
 
 .carousel {
 	margin-top: 2rem;
@@ -72,7 +66,6 @@
 			margin-left: 7%;
 		}
 
-
 		p {
 			@include text;
 			font-size: 15px;
@@ -97,8 +90,7 @@
 	}
 }
 
-
-.staff{
+.staff {
 	margin-bottom: 10rem;
 }
 
@@ -225,7 +217,6 @@
 	}
 }
 
-
 .staff {
 	position: relative;
 	margin-top: 9.5%;
@@ -238,7 +229,7 @@
 }
 
 .decal-header {
-	margin-top:2.5%;
+	margin-top: 2.5%;
 	margin-bottom: 5rem;
 	width: 80% !important;
 	margin: auto;
