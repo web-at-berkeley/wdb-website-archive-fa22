@@ -24,7 +24,6 @@ import Kenzie from './img/kenzie.png';
 import Kimberley from './img/kimberley.png';
 import Matthew from './img/matthew.png';
 import Neil from './img/neil.png';
-import Nico from './img/nico.png';
 import Rachel from './img/rachel.png';
 import Rex from './img/rex.png';
 import RichardX from './img/richard x.png';
@@ -118,13 +117,7 @@ const data = [
 		linkedin: 'http://linkedin.com/in/neil-kamdar',
 		personal: 'http://neilkamdar.com',
 	},
-	{
-		name: 'Nico Galin',
-		image: Nico,
-		role: 'Front End Developer',
-		linkedin: 'https://www.linkedin.com/in/nicholas-galin',
-		personal: 'https://nico-galin.github.io/',
-	},
+	
 	{
 		name: 'Rex Liu',
 		image: Rex,

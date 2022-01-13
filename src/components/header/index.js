@@ -7,25 +7,33 @@ import Container from 'react-bootstrap/Container';
 
 import styles from './style.module.scss';
 
+import Fade from 'react-reveal/Fade';
+
 const Header = (props) => {
 	if (props.subheader) {
 		return (
 			<Container className={styles['sub-header']}>
-				<h3 className={styles['title']}>{props.title}</h3>
-				{props.description && (
-					<p className={styles['description']}>{props.description}</p>
-				)}
-				{props.buttonText && (
-					<Link to={props.linkTo}>
-						<Button text={props.buttonText} />
-					</Link>
-				)}
+				<Fade bottom>
+					<h3 className={styles['title']}>{props.title}</h3>
+					{props.description && (
+						<p className={styles['description']}>{props.description}</p>
+					)}
+					{props.buttonText && (
+						<Link to={props.linkTo}>
+							<Button text={props.buttonText} />
+						</Link>
+					)}
+				</Fade>
 			</Container>
 		);
 	}
 	if (props.linkheader) {
 		return (
 			<Container className={styles['sub-header']}>
+				<Fade up>
+					<h3 className={styles['title']}>{props.className}</h3>
+					
+				</Fade>
 				<h3 className={styles['title']}>{props.title}</h3>
 				{props.description && (
 					<p className={styles['description']}>{props.description}</p>

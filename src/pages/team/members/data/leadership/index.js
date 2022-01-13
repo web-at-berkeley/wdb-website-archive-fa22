@@ -1,10 +1,7 @@
-import Vicky from './img/vicky.png';
-import Samarth from './img/samarth.png';
+
 import Justin from './img/justin.png';
 import Caelin from './img/caelin.png';
-import Alex from './img/alex.png';
-import Aditya from './img/aditya.png';
-import Lizzie from './img/lizzie.png';
+import Nico from './img/nico.png';
 import Hector from './img/hector.png';
 import Abhi from './img/abhi.png';
 import Arushi from './img/arushi.png';
@@ -31,68 +28,62 @@ import Rick from './img/rick.png';
 
 const data = [
 	{
-		name: 'Vicky Li',
-		image: Vicky,
+		name: 'Alina Wang',
+		image: Alina,
 		role: 'Co-President',
-		linkedin: 'https://www.linkedin.com/in/victoriayli/',
-		personal: 'https://vickyli248.github.io/',
-		email: 'mailto: victoria.li@berkeley.edu',
+		linkedin: 'https://www.linkedin.com/in/wangerful/',
+		personal: 'https://github.com/aliner-wang',
 	},
 	{
-		name: 'Samarth Goel',
-		image: Samarth,
+		name: 'Anjan Bharadwaj',
+		image: Anjan,
 		role: 'Co-President',
-		linkedin: 'https://www.linkedin.com/in/samarth-goel-07/',
-		personal: 'https://www.notion.so/3dffd695ef42483ca5fa13338eeb1190',
-		email: 'mailto: sgoel9@berkeley.edu',
+		linkedin: 'https://www.linkedin.com/in/anjanbharadwaj/',
+		personal: 'http://anjanbharadwaj.me/',
 	},
 	{
 		name: 'Justin Chen',
 		image: Justin,
-		role: 'External VP',
+		role: 'Co-External VP',
 		linkedin: 'https://www.linkedin.com/in/justinshawnchen/',
 		personal: 'https://www.itsjustchen.com',
 		applemusic: 'https://music.apple.com/profile/jch3nx',
 		email: 'mailto: justinshawnchen@berkeley.edu',
 	},
 	{
+		name: 'Nico Galin',
+		image: Nico,
+		role: 'Co-Exernal VP',
+		linkedin: 'https://www.linkedin.com/in/nicholas-galin',
+		personal: 'https://nico-galin.github.io/',
+	},
+	{
 		name: 'Caelin Sutch',
 		image: Caelin,
-		role: 'Product Bootcamp VP',
+		role: 'Education VP',
 		linkedin: 'https://www.linkedin.com/in/caelinsutch/',
 		personal: 'https://www.caelinsutch.com/',
 		email: 'mailto: caelinsutch@berkeley.edu',
 	},
 	{
-		name: 'Alex Wu',
-		image: Alex,
-		role: 'Education VP',
-		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
-		personal:
-			'https://jialin-wu.com/Hi-I-am-Alex-Wu-e214ae8665244ef8b086d669f2d21800',
-		email: 'mailto: jialin_wu@berkeley.edu',
-	},
-	{
-		name: 'Lizzie Lau',
-		image: Lizzie,
+		name: 'Alexis Kim',
+		image: Alexis,
 		role: 'Design VP',
-		linkedin: 'https://www.linkedin.com/in/lizzie-lau/',
-		personal: 'https://github.com/lizzielau',
-		email: 'mailto: lizzielau@berkeley.edu',
+		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
+		personal:
+			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
 	},
 	{
-		name: 'Aditya Bhawal',
-		image: Aditya,
+		name: 'Dominic de Bettencourt',
+		image: Dominic,
 		role: 'Internal VP',
-		linkedin: 'https://www.linkedin.com/in/adityabhawal/',
-		email: 'mailto: adbhawal@berkeley.edu',
+		linkedin: 'https://www.linkedin.com/in/ddebettencourt/',
 	},
 	{
-		name: 'Alina Wang',
-		image: Alina,
-		role: 'Product Manager @ Provecho',
-		linkedin: 'https://www.linkedin.com/in/wangerful/',
-		personal: 'https://github.com/aliner-wang',
+		name: 'Edward Luna',
+		image: Edward,
+		role: 'Product Bootcamp VP',
+		linkedin: 'https://www.linkedin.com/in/edwardlunacs/',
 	},
 	{
 		name: 'Atharva Mehendale',
@@ -101,13 +92,7 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/atharvamehendale/',
 		email: 'mailto:atharva@berkeley.edu',
 	},
-	{
-		name: 'Anjan Bharadwaj',
-		image: Anjan,
-		role: 'Product Manager @ Politiq',
-		linkedin: 'https://www.linkedin.com/in/anjanbharadwaj/',
-		personal: 'http://anjanbharadwaj.me/',
-	},
+	
 	{
 		name: 'Noor Mahani',
 		image: Noor,
@@ -140,14 +125,6 @@ const data = [
 	},
 
 	{
-		name: 'Alexis Kim',
-		image: Alexis,
-		role: 'Design Team',
-		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
-		personal:
-			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
-	},
-	{
 		name: 'Cindy Liu',
 		image: Cindy,
 		role: 'Design Team',
@@ -174,18 +151,7 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/sophia-guo-957844149/',
 	},
 
-	{
-		name: 'Dominic de Bettencourt',
-		image: Dominic,
-		role: 'Member Experience',
-		linkedin: 'https://www.linkedin.com/in/ddebettencourt/',
-	},
-	{
-		name: 'Edward Luna',
-		image: Edward,
-		role: 'Member Experience',
-		linkedin: 'https://www.linkedin.com/in/edwardlunacs/',
-	},
+
 	{
 		name: 'Gabriel Meng',
 		image: Gabe,
