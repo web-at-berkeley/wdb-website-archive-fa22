@@ -62,12 +62,12 @@ const Join = () => {
 							<p className={styles['title']}>
 								Applications and Coffee Chats Open -{' '}
 								<span className={styles['date-time']}>
-									Jan 22, 12PM PT
+									Jan 18, 12PM PT
 								</span>
 							</p>
 							<p className={styles['location']}>📍 Remote </p>
 							<p className={styles['text']}>
-								Club appliations will be open soon. Feel free to fill out our interest form and keep an eye out for our Spring 2022
+								Club applications will be open soon. Feel free to fill out our interest form and keep an eye out for our Spring 2022
 								recruitment events!
 							</p>
 
