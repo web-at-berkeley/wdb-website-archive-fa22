@@ -14,15 +14,17 @@ const Header = (props) => {
 		return (
 			<Container className={styles['sub-header']}>
 				<Fade bottom>
-					<h3 className={styles['title']}>{props.title}</h3>
-					{props.description && (
-						<p className={styles['description']}>{props.description}</p>
-					)}
-					{props.buttonText && (
-						<Link to={props.linkTo}>
-							<Button text={props.buttonText} />
-						</Link>
-					)}
+					<>
+						<h3 className={styles['title']}>{props.title}</h3>
+						{props.description && (
+							<p className={styles['description']}>{props.description}</p>
+						)}
+						{props.buttonText && (
+							<Link to={props.linkTo}>
+								<Button text={props.buttonText} />
+							</Link>
+						)}
+					</>
 				</Fade>
 			</Container>
 		);
@@ -32,7 +34,6 @@ const Header = (props) => {
 			<Container className={styles['sub-header']}>
 				<Fade up>
 					<h3 className={styles['title']}>{props.className}</h3>
-					
 				</Fade>
 				<h3 className={styles['title']}>{props.title}</h3>
 				{props.description && (
@@ -40,7 +41,7 @@ const Header = (props) => {
 				)}
 				{props.buttonText && (
 					<a href={props.linkTo}>
-						<Button text={props.buttonText} style={{fontSize:'10px'}}/>
+						<Button text={props.buttonText} style={{ fontSize: '10px' }} />
 					</a>
 				)}
 			</Container>

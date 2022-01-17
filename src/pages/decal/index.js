@@ -140,7 +140,7 @@ const Decal = () => {
 				<Header
 					subheader
 					title="Interested?"
-					description="The applications for the DeCal will open in August 2021 for the Fall 2021 semester! Check back here or on our “Join Us” page to fill out our application when applications open!"
+					description="The applications for the DeCal will open on January 18th, 2022 for the Spring 2022 semester! Check back here or on our “Join Us” page to fill out our application when applications open!"
 				/>
 			</div>
 
@@ -154,7 +154,7 @@ const Decal = () => {
 				/>
 			</div>
 
-			<Carousel
+			{/* <Carousel
 				className={styles['carousel']}
 				breakpoints={{
 					770: {
@@ -194,16 +194,16 @@ const Decal = () => {
 						resolve: arrowsPlugin,
 						options: {
 							arrowLeft: (
-								<img className={styles['carousel-arrow']} src={left}></img>
+								<img className={styles['carousel-arrow']} src={left} alt="" />
 							),
 							arrowLeftDisabled: (
-								<img className={styles['carousel-arrow']} src={left}></img>
+								<img className={styles['carousel-arrow']} src={left} alt="" />
 							),
 							arrowRight: (
-								<img className={styles['carousel-arrow']} src={right}></img>
+								<img className={styles['carousel-arrow']} src={right} alt="" />
 							),
 							arrowRightDisabled: (
-								<img className={styles['carousel-arrow']} src={left}></img>
+								<img className={styles['carousel-arrow']} src={left} alt="" />
 							),
 							addArrowClickHandler: true,
 						},
@@ -217,14 +217,14 @@ const Decal = () => {
 				]}
 			>
 				{Timeline.map(({ date, lecture, topic, topic2 }) => (
-					<div className={styles['col']}>
+					<div className={styles['col']} key={date}>
 						<h6>{date}</h6>
 						<h5>Lecture #{lecture}</h5>
 						<p>{topic}</p>
 						<p>{topic2}</p>
 					</div>
 				))}
-			</Carousel>
+			</Carousel> */}
 
 			<Container className={styles['container']}>
 				<div className={styles['technologies']}>
