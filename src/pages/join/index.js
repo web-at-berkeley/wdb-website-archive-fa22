@@ -33,22 +33,30 @@ const Join = () => {
 			<Container className={styles['container']}>
 				<div className={styles['recruitment']}>
 					<img src={Blobs2} alt="" />
-					<h3>Recruitment Timeline</h3>
+					<h3>Applications are Out!</h3>
 					<p className={styles['descrip']}>
-						Fill out our interest form to stay up-to-date with our recruitment
-						process! You can find links to our infosession facebook events for
+						Fill out our application to get started with our recruitment
+						process! You can find links to our infosession Facebook events for
 						both the Introduction to Full-Stack DeCal and Web Development at
-						Berkley below. You can also find links to the official applications
-						below.
+						Berkley below.
 					</p>
 					<div className={styles['button-interest']}>
-						<a
-							href="https://www.google.com/url?q=https://forms.gle/iJwvbKG523sdRPCR8&sa=D&source=editors&ust=1642102748451447&usg=AOvVaw0OryXxC4guG3zbVuBjAS-N"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<Button text="Club + DeCal Interest Form" />
-						</a>
+							<a
+									href="https://forms.gle/4fWFUVuifTqu4hYj7"
+									target="_blank"
+									rel="noreferrer"
+									style={{ marginBottom: '1.5rem', marginRight: '1rem'}}
+								>
+									<Button text="Dev + Designer Application" />
+								</a> 
+								<a
+									href="https://forms.gle/uw6P28m7eicTeDm47"
+									target="_blank"
+									rel="noreferrer"
+									style={{ marginTop: '1.5rem'}}
+								>
+									<Button text="Full-Stack DeCal Application" style={{ marginTop: '1rem'}}/>
+								</a>
 					</div>
 					{/* {recruitment.map(({ title, location, description }) => (
 						<div className={styles['timeline']}>
@@ -60,34 +68,59 @@ const Join = () => {
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
-								Applications and Coffee Chats Open -{' '}
+								Applications Open -{' '}
 								<span className={styles['date-time']}>
 									Jan 18, 12PM PT
 								</span>
 							</p>
 							<p className={styles['location']}>📍 Remote </p>
 							<p className={styles['text']}>
-								Club applications will be open soon. Feel free to fill out our interest form and keep an eye out for our Spring 2022
+								Club applications have been released! Feel free to fill out our app and keep an eye out for more of our Spring 2022
 								recruitment events!
 							</p>
-
+{/* 
 							<div className={styles['button-temp']}>
-								{/* <a
-									href="https://forms.gle/CA9pykbRcRNizEQz7"
+								<a
+									href="https://forms.gle/4fWFUVuifTqu4hYj7"
 									target="_blank"
 									rel="noreferrer"
-									style={{ marginBottom: '1.5rem' }}
+									style={{ marginBottom: '1.5rem', marginRight: '1rem' }}
 								>
-									<Button text="Developer + Designer Application" />
-								</a> */}
-
-								{/* <a
-									href="https://forms.gle/6YdV44MgbN8PfsFt6"
+									<Button text="Dev + Designer Application" />
+								</a> 
+								<a
+									href="https://forms.gle/uw6P28m7eicTeDm47"
 									target="_blank"
 									rel="noreferrer"
 								>
 									<Button text="Full-Stack DeCal Application" />
-								</a> */}
+								</a>
+							</div> */}
+						</div>
+					</Fade>
+					<Fade up delay={169}>
+						<div className={styles['timeline']}>
+							<p className={styles['title']}>
+								Sign Up for Coffee Chats -{' '}
+								<span className={styles['date-time']}>
+									Jan 19 - Jan 28
+								</span>
+							</p>
+							<p className={styles['location']}>📍 Remote </p>
+							<p className={styles['text']}>
+								Sign up for coffee chats with members and leadership from WDB! This is a great way to 
+								get to know each other and learn more about the club.
+							</p>
+
+							<div className={styles['button-temp']}>
+								<a
+									href="https://calendly.com/wdb-interviews-2022/wdb-coffee-chats-spring-2022?month=2022-01"
+									target="_blank"
+									rel="noreferrer"
+									style={{ marginBottom: '1.5rem', marginRight: '1rem' }}
+								>
+									<Button text="Calendly Sign Up Here" />
+								</a> 
 							</div>
 						</div>
 					</Fade>
@@ -99,20 +132,26 @@ const Join = () => {
 									Jan 24, 7pm - 8pm PT
 								</span>
 							</p>
-							<p className={styles['location']}>📍 TBD</p>
+							<p className={styles['location']}>
+								<a
+									href="https://berkeley.zoom.us/j/99426827053"
+									className={styles['location']}
+								>
+									📍 Zoom (Click here for link)
+								</a></p>
 							<p className={styles['text']}>
 								Come to our infosession to learn more about the Introduction to
 								Full-Stack Development DeCal.
 							</p>
-							{/* <div className={styles['button-temp']}>
+							<div className={styles['button-temp']}>
 								<a
-									href="https://drive.google.com/file/d/1JiWvTpjV7bVq4gTJtB3P62Pn-BP8m7pO/view?usp=sharing"
+									href="https://www.facebook.com/events/348063700170538/"
 									target="_blank"
 									rel="noreferrer"
 								>
-									<Button text="Full-Stack DeCal Infosession Recording" />
+									<Button text="Full-Stack DeCal Infosession One (Facebook Event)" />
 								</a>
-							</div> */}
+							</div>
 						</div>
 					</Fade>
 					
@@ -124,20 +163,25 @@ const Join = () => {
 									Jan 25, 7pm - 8pm PT
 								</span>
 							</p>
-							<p className={styles['location']}>📍 TBD</p>
+							<p className={styles['location']}><a
+								href="https://berkeley.zoom.us/j/98546969949"
+								className={styles['location']}
+							>
+								📍 Zoom (Click here for link)
+							</a></p>
 							<p className={styles['text']}>
 								Come to our infosession to meet our members, listen to what we’re
 								all about, and hear about exciting plans for the upcoming
 								semester! This will be recorded as well.
 							</p>
 							<div className={styles['button-temp']}>
-								{/* <a
-									href="https://fb.me/e/1ed4MKUgl"
+								<a
+									href="https://www.facebook.com/events/597356954695918/"
 									target="_blank"
 									rel="noreferrer"
 								>
-									<Button text="WDB Infosession One" />
-								</a> */}
+									<Button text="WDB Club Infosession One (Facebook Event)" />
+								</a>
 							</div>
 						</div>
 					</Fade>
@@ -150,26 +194,27 @@ const Join = () => {
 									Jan 26, 7pm - 8pm PT
 								</span>
 							</p>
-							<p className={styles['location']}>📍 TBD</p>
-							{/* <a
-								href="https://berkeley.zoom.us/j/99322659636"
-								className={styles['location']}
-							>
-								📍 Zoom (Click here for link)
-							</a> */}
+							<p className={styles['location']}>
+								<a
+									href="https://berkeley.zoom.us/j/91338863388"
+									className={styles['location']}
+								>
+									📍 Zoom (Click here for link)
+								</a>
+							</p>
 							<p className={styles['text']}>
 								Come to our infosession to learn more about the Introduction to
 								Full-Stack Development DeCal. This infosession will cover the same
 								content as the first one, so no need to come to both!
 							</p>
 							<div className={styles['button-temp']}>
-								{/* <a
-									href="https://drive.google.com/file/d/1JiWvTpjV7bVq4gTJtB3P62Pn-BP8m7pO/view?usp=sharing"
+								<a
+									href="https://www.facebook.com/events/224636553192406/"
 									target="_blank"
 									rel="noreferrer"
 								>
-									<Button text="Full-Stack DeCal Infosession Recording" />
-								</a> */}
+									<Button text="Full-Stack DeCal Infosession Two (Facebook Event)" />
+								</a>
 							</div>
 						</div>
 					</Fade>
@@ -181,7 +226,14 @@ const Join = () => {
 									Jan 27, 7pm - 8pm PT
 								</span>
 							</p>
-							<p className={styles['location']}>📍 TBD </p>
+							<p className={styles['location']}>
+								<a
+									href="https://berkeley.zoom.us/j/98546969949"
+									className={styles['location']}
+								>
+									📍 Zoom (Click here for link)
+								</a>
+							</p>
 							<p className={styles['text']}>
 								Come to our second infosession to meet our members, listen to what
 								we’re all about, and hear about exciting plans for the upcoming
@@ -190,13 +242,13 @@ const Join = () => {
 								both!
 							</p>
 							<div className={styles['button-temp']}>
-								{/* <a
-									href="https://fb.me/e/1ed4MKUgl"
+								<a
+									href="https://www.facebook.com/events/615374379693168"
 									target="_blank"
 									rel="noreferrer"
 								>
-									<Button text="WDB Infosession Two" />
-								</a> */}
+									<Button text="WDB Club Infosession Two (Facebook Event)" />
+								</a>
 							</div>
 						</div>
 					</Fade>
