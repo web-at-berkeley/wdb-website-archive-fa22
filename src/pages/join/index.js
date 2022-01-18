@@ -219,7 +219,7 @@ const Join = () => {
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
 								Full Stack DeCal Applications Close -{' '}
-								<span className={styles['date-time']}>Feb 1, 11:59 PM</span>
+								<span className={styles['date-time']}>Jan 30, 11:59 PM</span>
 							</p>
 							<p className={styles['location']}>📍 Remote</p>
 							<p className={styles['text']}>
