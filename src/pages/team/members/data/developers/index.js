@@ -26,7 +26,6 @@ import Matthew from './img/matthew.png';
 import Neil from './img/neil.png';
 import Rachel from './img/rachel.png';
 import Rex from './img/rex.png';
-import RichardX from './img/richard x.png';
 import Rohan from './img/rohan.png';
 import Stephen from './img/stephen.png';
 import Tony from './img/tony.png';
@@ -117,7 +116,7 @@ const data = [
 		linkedin: 'http://linkedin.com/in/neil-kamdar',
 		personal: 'http://neilkamdar.com',
 	},
-	
+
 	{
 		name: 'Rex Liu',
 		image: Rex,
@@ -125,13 +124,6 @@ const data = [
 		linkedin: 'https://linkedIn.com/in/rexliu3',
 		personal: 'https://www.rexliu.dev',
 		spotify: 'https://open.spotify.com/user/rexliu3?si=35272561ae24429b',
-	},
-	{
-		name: 'Richard Xue',
-		image: RichardX,
-		role: 'Back End Developer',
-		linkedin: 'https://www.linkedin.com/in/richrichard/',
-		personal: 'https://github.com/mauveofwhite',
 	},
 	{
 		name: 'Rohan Mathur',

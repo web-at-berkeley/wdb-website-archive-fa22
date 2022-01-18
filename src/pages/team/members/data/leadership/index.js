@@ -1,4 +1,3 @@
-
 import Justin from './img/justin.png';
 import Caelin from './img/caelin.png';
 import Nico from './img/nico.png';
@@ -11,7 +10,6 @@ import Alina from './img/alina.png';
 import Anjan from './img/anjan.png';
 import William from './img/william.png';
 import Gabriel from './img/gabriel.png';
-import Ani from './img/ani.png';
 import Isabel from './img/isabel.png';
 import Sophia from './img/sophia.png';
 import Daniel from './img/daniel.png';
@@ -33,6 +31,7 @@ const data = [
 		role: 'Co-President',
 		linkedin: 'https://www.linkedin.com/in/wangerful/',
 		personal: 'https://github.com/aliner-wang',
+		email: 'mailto: alina.wang@berkeley.edu',
 	},
 	{
 		name: 'Anjan Bharadwaj',
@@ -40,6 +39,7 @@ const data = [
 		role: 'Co-President',
 		linkedin: 'https://www.linkedin.com/in/anjanbharadwaj/',
 		personal: 'http://anjanbharadwaj.me/',
+		email: 'mailto: anjanb@berkeley.edu',
 	},
 	{
 		name: 'Justin Chen',
@@ -56,6 +56,7 @@ const data = [
 		role: 'Co-Exernal VP',
 		linkedin: 'https://www.linkedin.com/in/nicholas-galin',
 		personal: 'https://nico-galin.github.io/',
+		email: 'mailto: nicholas.galin@berkeley.edu',
 	},
 	{
 		name: 'Caelin Sutch',
@@ -72,18 +73,21 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
 		personal:
 			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
+		email: 'mailto: alexis-kim@berkeley.edu',
 	},
 	{
 		name: 'Dominic de Bettencourt',
 		image: Dominic,
 		role: 'Internal VP',
 		linkedin: 'https://www.linkedin.com/in/ddebettencourt/',
+		email: 'mailto: dominicd@berkeley.edu',
 	},
 	{
 		name: 'Edward Luna',
 		image: Edward,
 		role: 'Product Bootcamp VP',
 		linkedin: 'https://www.linkedin.com/in/edwardlunacs/',
+		email: 'mailto: mister.luna@berkeley.edu',
 	},
 	{
 		name: 'Atharva Mehendale',
@@ -92,21 +96,13 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/atharvamehendale/',
 		email: 'mailto:atharva@berkeley.edu',
 	},
-	
+
 	{
 		name: 'Noor Mahani',
 		image: Noor,
 		role: 'Product Manager @ Politiq',
 		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
 		personal: 'https://github.com/noortor',
-	},
-
-	{
-		name: 'Ani Vangala',
-		image: Ani,
-		role: 'Product Manager @ Traders',
-		linkedin: 'https://www.linkedin.com/in/aniruddhavangala/',
-		personal: 'https://github.com/aniruddha98',
 	},
 	{
 		name: 'Rachel Ng',
@@ -150,7 +146,6 @@ const data = [
 		role: 'Design Team',
 		linkedin: 'https://www.linkedin.com/in/sophia-guo-957844149/',
 	},
-
 
 	{
 		name: 'Gabriel Meng',

@@ -41,7 +41,6 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
 		personal:
 			'https://jialin-wu.com/Hi-I-am-Alex-Wu-e214ae8665244ef8b086d669f2d21800',
-		email: 'mailto: jialin_wu@berkeley.edu',
 	},
 	{
 		name: 'Lizzie Lau',
@@ -49,14 +48,12 @@ const data = [
 		role: 'Design VP and Recruitment Chair',
 		linkedin: 'https://www.linkedin.com/in/lizzie-lau/',
 		personal: 'https://github.com/lizzielau',
-		email: 'mailto: lizzielau@berkeley.edu',
 	},
 	{
 		name: 'Aditya Bhawal',
 		image: Aditya,
 		role: 'Internal VP and Co-Founder',
 		linkedin: 'https://www.linkedin.com/in/adityabhawal/',
-		email: 'mailto: adbhawal@berkeley.edu',
 	},
 	{
 		name: 'Jasmine Chen',
