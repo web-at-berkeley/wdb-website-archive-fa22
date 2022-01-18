@@ -6,6 +6,9 @@ import Lizzie from './img/lizzie.png';
 import Jasmine from './img/jasmine.png';
 import Tijmen from './img/tijmen.png';
 import Izzie from './img/izzie.png';
+import Hector from './img/hector.png';
+import Abhi from './img/abhi.png';
+import Arushi from './img/arushi.png';
 import Albert from './img/albert.png';
 import Andy from './img/andy.png';
 import Neha from './img/neha.png';
@@ -75,6 +78,25 @@ const data = [
 		role: 'Head of Marketing',
 		linkedin: 'https://www.linkedin.com/in/izzielau/',
 		personal: 'https://izzielau.github.io/',
+	},
+	{
+		name: 'Arushi Somani',
+		image: Arushi,
+		role: 'Course Staff',
+		linkedin: 'https://www.linkedin.com/in/arushisomani/',
+		personal: 'http://amks.me',
+	},
+	{
+		name: 'Abhi Wadekar',
+		image: Abhi,
+		role: 'Course Staff',
+		linkedin: 'https://www.linkedin.com/in/abhiraam-wadekar/',
+	},
+	{
+		name: 'Hector Ramos',
+		image: Hector,
+		role: 'Course Staff',
+		linkedin: 'https://www.linkedin.com/in/hector-ramos-/#',
 	},
 	{
 		name: 'Albert Tian',

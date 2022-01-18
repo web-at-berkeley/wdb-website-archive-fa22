@@ -8,7 +8,6 @@ import Col from 'react-bootstrap/Col';
 import styles from './style.module.scss';
 
 const Profile = ({ data }) => {
-	console.log(data);
 	return (
 		<Col className={styles['profile']}>
 			<img className={styles['photo']} src={data.image} alt={data.name} />
@@ -20,6 +19,12 @@ const Profile = ({ data }) => {
 			<h6 className={styles['role']} id="role">
 				{data.role}
 			</h6>
+
+			{data.at && (
+				<h6 className={styles['role']} style={{ marginTop: '.3rem' }} id="at">
+					{data.at}
+				</h6>
+			)}
 
 			<div className={styles['socials']}>
 				{socials.map(({ name, id }) => {
