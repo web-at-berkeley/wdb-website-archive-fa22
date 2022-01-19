@@ -103,7 +103,7 @@ const Join = () => {
 							<p className={styles['title']}>
 								Sign Up for Coffee Chats -{' '}
 								<span className={styles['date-time']}>
-									Jan 19 - Jan 28
+									Jan 24 - Jan 28
 								</span>
 							</p>
 							<p className={styles['location']}>📍 Remote </p>
