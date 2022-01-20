@@ -4,7 +4,6 @@ import Daniel from './img/daniel.png';
 import Mohini from './img/mohini.png';
 import Jessica from './img/jessica-1.png';
 import Laura from './img/laura.png';
-import Alexis from './img/alexis.png';
 
 //Bootcamp
 import Connor from './img/connor.png';
@@ -14,14 +13,6 @@ import Danielle from './img/danielle.png';
 
 const data = [
 	//Industry
-	{
-		name: 'Alexis Kim',
-		image: Alexis,
-		role: 'Product Designer',
-		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
-		personal:
-			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
-	},
 	{
 		name: 'Daniel Won',
 		image: Daniel,

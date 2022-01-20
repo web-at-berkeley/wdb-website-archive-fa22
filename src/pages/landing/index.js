@@ -105,16 +105,16 @@ const Landing = () => {
 							and development organization.
 						</h2>
 					</Fade>
-
-					{/* <div className={styles['button-temp']} >
-							<a
-								href="/join"
-								// target="_blank"
-								// rel="noreferrer"
-							>
-								<Button text="Join Us!" />
-							</a>
-						</div> */}
+					<Fade up delay={1000}>
+						<div className={styles['button-temp']}>
+							<Link to="/join">
+								<Button
+									text="Join Us!"
+									style={{ width: '20rem', padding: '1rem' }}
+								/>
+							</Link>
+						</div>
+					</Fade>
 				</div>
 			</div>
 

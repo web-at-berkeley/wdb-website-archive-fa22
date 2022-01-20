@@ -1,23 +1,19 @@
 import Justin from './img/justin.png';
 import Caelin from './img/caelin.png';
 import Nico from './img/nico.png';
-import Hector from './img/hector.png';
-import Abhi from './img/abhi.png';
-import Arushi from './img/arushi.png';
-import Kimberley from './img/kimberley.png';
-import Dhruv from './img/dhruv.png';
 import Alina from './img/alina.png';
 import Anjan from './img/anjan.png';
 import William from './img/william.png';
-import Gabriel from './img/gabriel.png';
 import Isabel from './img/isabel.png';
 import Sophia from './img/sophia.png';
 import Daniel from './img/daniel.png';
 import Cindy from './img/cindy.png';
-import Noor from './img/noor.png';
-import Atharva from './img/atharva.png';
 import Alexis from './img/alexis.png';
-import Rachel from './img/rachel.png';
+import Avinash from './img/avinash.png';
+import Tony from './img/tony.png';
+import Vaikundh from './img/vaikundh.png';
+import Stephen from './img/stephen.png';
+import Rex from './img/rex.png';
 import Gabe from './img/gabe.png';
 import Meiqi from './img/meiqi.png';
 import Dominic from './img/dominic.png';
@@ -90,36 +86,47 @@ const data = [
 		email: 'mailto: mister.luna@berkeley.edu',
 	},
 	{
-		name: 'Atharva Mehendale',
-		image: Atharva,
-		role: 'Product Manager @ Provecho',
-		linkedin: 'https://www.linkedin.com/in/atharvamehendale/',
-		email: 'mailto:atharva@berkeley.edu',
-	},
-
-	{
-		name: 'Noor Mahani',
-		image: Noor,
-		role: 'Product Manager @ Politiq',
-		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
-		personal: 'https://github.com/noortor',
+		name: 'Avinash Rao',
+		image: Avinash,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/avinashrao2002',
+		personal: 'https://www.avinashrao.me/',
 	},
 	{
-		name: 'Rachel Ng',
-		image: Rachel,
-		role: 'Product Manager @ Traders',
-		linkedin: 'https://www.linkedin.com/in/rachel-ngjiemin/',
-		personal: 'rachelngjiemin.github.io',
-		spotify: 'https://open.spotify.com/user/ra8cnjm',
+		name: 'Tony Xin',
+		image: Tony,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/tony-xin-041985174/',
+		personal: 'https://tonyxin.com',
 	},
-
+	{
+		name: 'Vaikundh Jaganathan',
+		image: Vaikundh,
+		role: 'Product Manager',
+		linkedin: 'http://linkedin.com/in/vaikundh',
+		personal: 'http://github.com/vaikundh',
+	},
 	{
 		name: 'William Louis',
 		image: William,
-		role: 'Product Bootcamp Counselor',
+		role: 'Bootcamp Counselor',
 		linkedin: 'https://www.linkedin.com/in/william-l-549860132/',
 	},
-
+	{
+		name: 'Stephen Krider',
+		image: Stephen,
+		role: 'Bootcamp Counselor',
+		linkedin: 'https://www.linkedin.com/in/skrider/',
+		personal: 'https://www.skrider.dendron.wiki',
+	},
+	{
+		name: 'Rex Liu',
+		image: Rex,
+		role: 'Bootcamp Counselor',
+		linkedin: 'https://linkedIn.com/in/rexliu3',
+		personal: 'https://www.rexliu.dev',
+		spotify: 'https://open.spotify.com/user/rexliu3?si=35272561ae24429b',
+	},
 	{
 		name: 'Cindy Liu',
 		image: Cindy,

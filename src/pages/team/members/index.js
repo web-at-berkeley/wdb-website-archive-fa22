@@ -36,7 +36,7 @@ const Members = () => {
 
 				<h4 className={styles['divider-header']}>Course Staff</h4>
 				<Row lg="5" sm="3" xs="2">
-					{coursestaff.sort((a, b) => a.name.localeCompare(b.name)).map((data, i) => (
+					{coursestaff.map((data, i) => (
 						<Profile data={data} k ey={i} />
 					))}
 				</Row>

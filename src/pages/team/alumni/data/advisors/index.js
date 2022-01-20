@@ -19,6 +19,8 @@ import Henry from './img/henry.png';
 import Nerissa from './img/nerissa.png';
 import Sooyeon from './img/sooyeon.png';
 import EmilyWu from './img/emily.png';
+import Noor from './img/noor.png';
+import Atharva from './img/atharva.png';
 
 const data = [
 	{
@@ -104,6 +106,20 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/albert-tian/',
 		personal: 'https://github.com/albTian',
+	},
+	{
+		name: 'Atharva Mehendale',
+		image: Atharva,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/atharvamehendale/',
+	},
+
+	{
+		name: 'Noor Mahani',
+		image: Noor,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
+		personal: 'https://github.com/noortor',
 	},
 	{
 		name: 'Andy Jiang',
