@@ -58,9 +58,9 @@ export const data = [
 		subtitle: 'Political Engagement startup',
 		label: 'politiq',
 		color: 'rgba(217, 14, 93, 0.3)',
-		link: 'https://www.politiq.org/',
+		link: 'https://www.politiq.app/',
 		technologies: ['React, Node, MongoDB, Express'],
-		lead: ['Anjan Bharadwaj', 'Noor Mahini'],
+		lead: ['Anjan Bharadwaj', 'Noor Mahani'],
 		semester: 'Fall 2021',
 	},
 
