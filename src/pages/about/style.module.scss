@@ -1,0 +1,180 @@
+@import '../../mixins';
+
+.frame {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	@include mobile {
+		// left: -15px;
+		// width: 105%;
+		display: none;
+	}
+}
+
+.container {
+	width: 80% !important;
+	margin-bottom: 7rem;
+}
+
+.team {
+	width: 90%;
+	margin: 6% auto 0px 5%;
+	@include mobile {
+		display: none;
+	}
+}
+
+.culture {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin-top: 6%;
+	padding: 5% 0;
+
+
+	.title {
+		@include subtitle;
+		margin-bottom: 2rem;
+		@include mobile {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.values {
+		display: flex;
+		justify-content: center;
+
+		.col {
+			@include box;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 2.7%;
+			max-width: 30%;
+			@include mobile {
+				// margin-top: 10px;
+				justify-content: center;
+				max-width: 90%;
+				margin-bottom: 1rem;
+				z-index: 1;
+			}
+			margin-right: auto;
+			margin-left: auto;
+
+			img {
+				height: 5rem;
+				margin-bottom: 1rem;
+				@include mobile {
+					height: 4rem;
+					
+				}
+			}
+			h6 {
+				@include text-two;
+				text-align: center;
+				margin-bottom: 0.4rem;
+			}
+			p {
+				@include text;
+				text-align: center;
+				width: 80%;
+			}
+		}
+	}
+}
+
+.blob-container {
+	position: relative;
+}
+
+.blobs {
+	position: absolute;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;	
+	pointer-events: none;
+	overflow: hidden;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	width: 110%;
+	height: 112%;
+	margin-top: -3%;
+	margin-left: -5%;
+	@include mobile {
+		width: 250%;
+	}
+}
+
+.roots {
+	@include box;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	// margin: 5%;
+	margin-top: 5%;
+	padding: 5% 3%;
+	padding-top: 3.5%;
+	position: relative;
+	z-index: 2;
+	@include mobile {
+		width: 100%;
+		margin: 0;
+		padding: 6% 0%;
+	}
+
+	.flowers {
+		width: 20%;
+		margin-bottom: 1rem;
+		@include mobile {
+			display: none;
+		}
+	}
+
+	.story {
+		display: flex;
+		justify-content: space-between;
+		@include mobile {
+			justify-content: center;
+		}
+
+		.usc {
+			width: 35%;
+			@include mobile {
+				display: none;
+			}
+		}
+
+		.text {
+			width: 60%;
+			left: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			@include mobile {
+				width: 70%;
+			}
+
+			h3 {
+				@include subtitle;
+				margin-bottom: 0.5rem;
+			}
+
+			p {
+				@include text;
+			}
+		}
+	}
+}
+
+.showcase {
+	width: 100%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	position: relative;
+	z-index: 2;
+}
+

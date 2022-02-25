@@ -1,56 +1,56 @@
 @import '~bootstrap/scss/bootstrap';
 
-// @font-face {
-//   font-family: Rubik;
-//   src: url('./fonts/Rubik-Medium.ttf');
-// }
 @font-face {
-  font-family: cocogoose;
-  src: url('./fonts/cocogoose.ttf');
+	font-family: Rubiks;
+	src: url('./fonts/Rubik-SemiBold.ttf');
 }
 @font-face {
-  font-family: Monsterrat;
-  src: url('./fonts/Montserrat-ExtraBold.ttf');
+	font-family: cocogoose;
+	src: url('./fonts/cocogoose.ttf');
+}
+@font-face {
+	font-family: Monsterrat;
+	src: url('./fonts/Montserrat-ExtraBold.ttf');
 }
 
 .container {
-  position: relative;
+	position: relative;
 }
 
 @media only screen and (max-width: 700px) {
-  .container,
-  .container-md,
-  .container-sm,
-  .container-lg,
-  .container-xl {
-    max-width: 340px !important;
-  }
+	.container,
+	.container-md,
+	.container-sm,
+	.container-lg,
+	.container-xl {
+		max-width: 340px !important;
+	}
 }
 
 @media (min-width: 1300px) {
-  .container,
-  .container-md,
-  .container-sm,
-  .container-lg,
-  .container-xl {
-    max-width: 900px !important;
-  }
+	.container,
+	.container-md,
+	.container-sm,
+	.container-lg,
+	.container-xl {
+		max-width: 900px !important;
+	}
 }
 @media (min-width: 1800px) {
-  .container,
-  .container-md,
-  .container-sm,
-  .container-lg,
-  .container-xl {
-    max-width: 1000px !important;
-  }
+	.container,
+	.container-md,
+	.container-sm,
+	.container-lg,
+	.container-xl {
+		max-width: 1000px !important;
+	}
 }
 
 html,
 body {
-  overflow-x: hidden;
-  // overflow-y: hidden;
-  background-color: #f7f7f7;
+	overflow-x: hidden;
+	// overflow-y: hidden;
+	background-color: #f7f7f7;
 }
 
 h1,
@@ -60,20 +60,20 @@ h4,
 h5,
 h6,
 p {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 img {
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 main {
-  margin-top: 1.5rem;
-  width: 100%;
+	margin-top: 1.5rem;
+	width: 100%;
 }

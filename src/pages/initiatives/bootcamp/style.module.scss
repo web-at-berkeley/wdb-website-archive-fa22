@@ -2,250 +2,250 @@
 @import '../../../variables';
 
 .blobs {
-  position: absolute;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  pointer-events: none;
-  overflow: hidden;
-  -webkit-user-drag: none;
-  z-index: 0;
-  top: 0;
-  left: 50%;
-  width: 100vw;
-  margin-left: -50vw;
-  margin-top: -40%;
+	position: absolute;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	pointer-events: none;
+	overflow: hidden;
+	-webkit-user-drag: none;
+	z-index: 0;
+	top: 0;
+	left: 50%;
+	width: 100vw;
+	margin-left: -50vw;
+	margin-top: -40%;
 }
 
 .carousel {
-  // margin-left: 3rem;
-  // margin-right: 3rem;
-  position: relative;
-  z-index: 100;
+	margin-left: 10rem;
+	margin-right: 10rem;
+	position: relative;
+	z-index: 100;
 
-  @include mobile {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+	@include mobile {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
 
-  .col {
-    @include box;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 5%;
-    width: 90%;
-    height: 20rem;
-    margin-right: auto;
-    margin-left: auto;
+	.col {
+		@include box;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 5%;
+		width: 90%;
+		height: 20rem;
+		margin-right: auto;
+		margin-left: auto;
 
-    @include mobile {
-      margin-top: 10px;
-      justify-content: center;
-      width: 80%;
-    }
+		@include mobile {
+			margin-top: 10px;
+			justify-content: center;
+			width: 80%;
+		}
 
-    img {
-      height: 4rem;
-      margin-bottom: 1rem;
-      margin-top: 15%;
-      margin-left: 7%;
+		img {
+			height: 4rem;
+			margin-bottom: 1rem;
+			margin-top: 15%;
+			margin-left: 7%;
 
-      @include mobile {
-        height: 4rem;
-      }
-    }
+			@include mobile {
+				height: 4rem;
+			}
+		}
 
-    h6 {
-      @include text;
-      font-size: 17px;
-      line-height: 1.2rem;
-      font-weight: 800;
-      text-align: left;
-      width: 90%;
-      margin-left: 7%;
-      margin-bottom: 0.5rem;
-    }
+		h6 {
+			@include text;
+			font-size: 17px;
+			line-height: 1.2rem;
+			font-weight: 800;
+			text-align: left;
+			width: 90%;
+			margin-left: 7%;
+			margin-bottom: 0.5rem;
+		}
 
-    p {
-      @include text;
-      font-size: 15px;
-      text-align: left;
-      line-height: 1.2rem;
-      width: 90%;
-      margin-left: 7%;
-    }
-  }
+		p {
+			@include text;
+			font-size: 15px;
+			text-align: left;
+			line-height: 1.2rem;
+			width: 90%;
+			margin-left: 7%;
+		}
+	}
 
-  .carousel-arrow {
-    margin-left: 20px;
-    margin-right: 20px;
-    // z-index: 100;
-    height: 50px;
-  }
+	.carousel-arrow {
+		margin-left: 20px;
+		margin-right: 20px;
+		// z-index: 100;
+		height: 50px;
+	}
 
-  .carousel-arrow:hover {
-    cursor: pointer;
-    filter: brightness(70%);
-  }
+	.carousel-arrow:hover {
+		cursor: pointer;
+		filter: brightness(70%);
+	}
 }
 
 .tenants {
-  @include box;
-  position: relative;
-  margin: auto;
-  margin: 5% auto 2% auto;
-  width: 100% !important;
-  z-index: 2;
+	@include box;
+	position: relative;
+	margin: auto;
+	margin: 5% auto 2% auto;
+	width: 100% !important;
+	z-index: 2;
 }
 
 .tenant-card {
-  @include box;
-  width: 90%;
-  position: relative;
-  margin: auto;
-  margin-bottom: 1rem;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
+	@include box;
+	width: 90%;
+	position: relative;
+	margin: auto;
+	margin-bottom: 1rem;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
 
-  img {
-    width: 50%;
-  }
+	img {
+		width: 50%;
+	}
 
-  p {
-    margin: 1rem 0 2rem 0;
-    @include text;
-    text-align: center;
-    margin-bottom: 2rem;
-    @include mobile {
-      margin-bottom: 1rem;
-    }
-  }
+	p {
+		margin: 1rem 0 2rem 0;
+		@include text;
+		text-align: center;
+		margin-bottom: 2rem;
+		@include mobile {
+			margin-bottom: 1rem;
+		}
+	}
 }
 
 .categories {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2.5rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2.5rem;
 
-  h5 {
-    @include text-two;
-    cursor: pointer;
-  }
+	h5 {
+		@include text-two;
+		cursor: pointer;
+	}
 
-  .active {
-    border-bottom: 3px solid $dark-purple;
-  }
+	.active {
+		border-bottom: 3px solid $dark-purple;
+	}
 }
 
 .category-data {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 10rem;
 
-  @include mobile {
-    flex-direction: column;
-    justify-content: space-around;
-  }
+	@include mobile {
+		flex-direction: column;
+		justify-content: space-around;
+	}
 
-  img {
-    width: 30%;
-  }
+	img {
+		width: 30%;
+	}
 
-  p {
-    @include text;
-    width: 64%;
-    @include mobile {
-      font-size: 0.7rem;
-      // font-size: 20px;
-      line-height: 15px;
-      width: 80%;
-    }
-  }
+	p {
+		@include text;
+		width: 64%;
+		@include mobile {
+			font-size: 0.7rem;
+			// font-size: 20px;
+			line-height: 15px;
+			width: 80%;
+		}
+	}
 }
 
 .interested {
-  width: 80%;
-  margin: 0 10%;
-  position: relative;
-  margin-top: 12.5%;
-  margin-bottom: 3rem;
+	width: 80%;
+	margin: 0 10%;
+	position: relative;
+	margin-top: 12.5%;
+	margin-bottom: 3rem;
 
-  @include mobile {
-    margin-top: 15%;
-    margin-bottom: 10rem;
-  }
+	@include mobile {
+		margin-top: 15%;
+		margin-bottom: 10rem;
+	}
 
-  img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
+	img {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 1;
 
-    @include mobile {
-      width: 150vw;
-      height: auto;
-      left: 50%;
-      margin-left: -75vw;
-      margin-top: -25%;
-      display: none;
-    }
-  }
+		@include mobile {
+			width: 150vw;
+			height: auto;
+			left: 50%;
+			margin-left: -75vw;
+			margin-top: -25%;
+			display: none;
+		}
+	}
 
-  .text {
-    position: relative;
-    padding: 14.5rem 10rem 15rem 10rem;
-    text-align: center;
-    z-index: 2;
+	.text {
+		position: relative;
+		padding: 14.5rem 10rem 15rem 10rem;
+		text-align: center;
+		z-index: 2;
 
-    @include mobile {
-      padding: 0;
-    }
+		@include mobile {
+			padding: 0;
+		}
 
-    h3 {
-      @include subtitle;
-      margin-bottom: 1rem;
-      z-index: 2;
-    }
+		h3 {
+			@include subtitle;
+			margin-bottom: 1rem;
+			z-index: 2;
+		}
 
-    .blurb {
-      @include text-three;
+		.blurb {
+			@include text-three;
 
-      padding: 0 5%;
-      margin-bottom: 1rem;
-      z-index: 2;
-    }
-  }
+			padding: 0 5%;
+			margin-bottom: 1rem;
+			z-index: 2;
+		}
+	}
 }
 
 .title {
-  margin-top: 12%;
-  margin-bottom: 2rem;
-  @include subtitle;
+	margin-top: 12%;
+	margin-bottom: 2rem;
+	@include subtitle;
 
-  text-align: center;
-  @include mobile {
-    margin-top: 3rem;
-    margin-bottom: 0rem;
-  }
+	text-align: center;
+	@include mobile {
+		margin-top: 3rem;
+		margin-bottom: 0rem;
+	}
 }
 
 .product-cont {
-  z-index: 0;
+	z-index: 0;
 }
 
 .sub-mobile {
-  // margin-top: -0.5rem;
-  display: none;
-  @include mobile {
-    display: block;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
+	// margin-top: -0.5rem;
+	display: none;
+	@include mobile {
+		display: block;
+		font-size: 14px;
+		text-align: center;
+		margin-top: 0.5rem;
+		margin-bottom: 1.5rem;
+	}
 }

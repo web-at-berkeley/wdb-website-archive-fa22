@@ -1,31 +1,28 @@
 import React from 'react';
-import { Box, Text } from '@chakra-ui/react';
+
+import styles from './style.module.scss';
+
+import breakpoints from '../../breakpoints.module.scss';
 
 const Showcase = ({ title, subtitle, image, imageMobile }) => {
-  return (
-    <Box layerStyle="glassy">
-      <Text textStyle="subtitle1" textAlign="left">
-        {title}
-      </Text>
-      <Text textStyle="body3" textAlign="left">
-        {subtitle}
-      </Text>
-      <Box mt={subtitle ? 4 : 6}>
-        {imageMobile ? (
-          <>
-            <Box display={['none', null, 'block']}>
-              <img src={image} alt={title} />
-            </Box>
-            <Box display={['block', null, 'none']}>
-              <img src={imageMobile} alt={title} />
-            </Box>
-          </>
-        ) : (
-          <img src={image} alt={title} />
-        )}
-      </Box>
-    </Box>
-  );
+	return (
+		<div className={styles['container']}>
+			<h5 style={subtitle ? { marginBottom: '.5rem' } : null}>{title}</h5>
+			<h6>{subtitle}</h6>
+			{imageMobile ? (
+				<>
+					<img src={image} alt={title} className={breakpoints['desktop']} />
+					<img
+						src={imageMobile}
+						alt={title}
+						className={breakpoints['mobile']}
+					/>
+				</>
+			) : (
+				<img src={image} alt={title} />
+			)}
+		</div>
+	);
 };
 
 export default Showcase;

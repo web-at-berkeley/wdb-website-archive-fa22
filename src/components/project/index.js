@@ -1,40 +1,33 @@
 import React from 'react';
-import { Box } from '@chakra-ui/react';
+
+// import { Link } from 'react-router-dom';
+
+import Col from 'react-bootstrap/Col';
+
+import styles from './styles.module.scss';
 
 const Project = ({ project }) => {
-  const { name, cover, color, link } = project;
+	const { name, cover, color, link } = project;
 
-  return (
-    <Box>
-      {link ? (
-        <a href={link} target="_blank" rel="noreferrer">
-          <Box>
-            <img
-              src={cover}
-              alt={name}
-              width="100%"
-              style={{
-                boxShadow: `4px 4px 21px ${color}`,
-                borderRadius: '.35rem',
-              }}
-            />
-          </Box>
-        </a>
-      ) : (
-        <Box>
-          <img
-            src={cover}
-            alt={name}
-            width="100%"
-            style={{
-              boxShadow: `4px 4px 21px ${color}`,
-              borderRadius: '.35rem',
-            }}
-          />
-        </Box>
-      )}
-    </Box>
-  );
+	return (
+		<Col sm={12} md={6} lg={4} className={styles['project']}>
+			{link ? (
+				<a href={link} target="_blank" rel="noreferrer">
+					<img
+						src={cover}
+						alt={name}
+						style={{ boxShadow: `4px 4px 21px ${color}` }}
+					/>
+				</a>
+			) : (
+				<img
+					src={cover}
+					alt={name}
+					style={{ boxShadow: `4px 4px 21px ${color}` }}
+				/>
+			)}
+		</Col>
+	);
 };
 
 export default Project;

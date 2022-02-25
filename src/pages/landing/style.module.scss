@@ -2,121 +2,341 @@
 @import '../../variables';
 
 .container {
-  overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 .hero {
-  height: 92vh;
-  border: 1px solid transparent;
+	height: 92vh;
+	border: 1px solid transparent;
 
-  @include tablet {
-    height: 80vh;
-  }
-  @include mobile {
-    height: 35vh;
-  }
-  @media only screen and (min-width: 1024px) {
-    height: 70vh;
-  }
+	@include tablet {
+		height: 80vh;
+	}
+	@include mobile {
+		height: 35vh;
+	}
+	@media only screen and (min-width: 1024px) {
+		height: 70vh;
+	}
 
-  .bg {
-    position: absolute;
-    width: 100%;
-    height: 112vh;
-    top: 0;
-    left: 0;
-    z-index: 1;
+	.bg {
+		position: absolute;
+		width: 100%;
+		height: 112vh;
+		top: 0;
+		left: 0;
+		z-index: 1;
 
-    @include tablet {
-      height: 80vh;
-    }
-    @include mobile {
-      width: 100%;
-      height: auto;
-    }
+		@include tablet {
+			height: 80vh;
+		}
+		@include mobile {
+			width: 100%;
+			height: auto;
+		}
 
-    @media only screen and (max-width: 375px) {
-      height: 40vh;
-    }
-    @media only screen and (max-width: 300px) {
-      height: 40vh;
-    }
-  }
+		@media only screen and (max-width: 375px) {
+			height: 40vh;
+		}
+		@media only screen and (max-width: 300px) {
+			height: 40vh;
+		}
+	}
 
-  .landing-blobs {
-    position: absolute;
-    z-index: 1;
-    top: 8vh;
-    max-width: 100vw;
+	.landing-blobs {
+		position: absolute;
+		z-index: 1;
+		top: 8vh;
+		max-width: 100vw;
 
-    @include tablet {
-      top: 13vh;
-    }
+		@include tablet {
+			top: 13vh;
+		}
 
-    @include mobile {
-      width: 101vw;
-      left: 0;
-      top: 0;
-    }
-  }
+		@include mobile {
+			width: 101vw;
+			left: 0;
+			top: 0;
+		}
+	}
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    margin-top: 11vh;
-    margin-left: 30px;
-    padding-left: 5vw;
-    z-index: 2;
-    position: relative;
+	.text {
+		display: flex;
+		flex-direction: column;
+		margin-top: 11vh;
+		margin-left: 30px;
+		padding-left: 5vw;
+		z-index: 2;
+		position: relative;
 
-    @include mobile {
-      margin-top: 5vh;
-    }
+		@include mobile {
+			margin-top: 5vh;
+		}
 
-    .button-temp {
-      margin-top: 2rem;
+		.button-temp {
+			margin-top: 2rem;
 
-      @include mobile {
-        margin-top: 0rem;
-      }
-    }
+			@include mobile {
+				margin-top: 0rem;
+			}
+		}
 
-    a {
-      z-index: 1;
-      width: 50%;
+		a {
+			z-index: 1;
+			width: 50%;
 
-      img {
-        width: 100%;
-      }
-    }
+			img {
+				width: 100%;
+			}
+		}
 
-    h3 {
-      @include landing-page-heading;
-      margin-bottom: 1rem;
-      z-index: 2;
+		h3 {
+			@include landing-page-heading;
+			margin-bottom: 1rem;
+			z-index: 2;
 
-      @include mobile {
-        font-size: 1.1rem;
-        line-height: 1.3;
-        margin-top: 0.5rem;
-        position: relative;
-        z-index: 2;
-      }
+			@include mobile {
+				font-size: 1.1rem;
+				line-height: 1.3;
+				margin-top: 0.5rem;
+				position: relative;
+				z-index: 2;
+			}
 
-      @media only screen and (max-width: 320px) {
-        font-size: 0.8rem;
-        margin: 0.4rem 0;
-      }
-    }
+			@media only screen and (max-width: 320px) {
+				font-size: 0.8rem;
+				margin: 0.4rem 0;
+			}
+		}
 
-    h2 {
-      @include subtitle-two;
-      line-height: 1.2em;
-      z-index: 2;
+		h2 {
+			@include subtitle-two;
+			line-height: 1.2em;
+			z-index: 2;
 
-      @include mobile {
-        display: none;
-      }
-    }
-  }
+			@include mobile {
+				display: none;
+			}
+		}
+	}
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	margin-top: 2rem;
+
+	@include tablet {
+		margin-top: 3rem;
+	}
+
+	@include mobile {
+		margin-top: 4rem;
+	}
+}
+
+.blurb {
+	@include text;
+	font-size: 20px;
+	line-height: 1.4;
+	width: 80%;
+	text-align: center;
+	margin-top: 25%;
+	margin-bottom: 10%;
+
+	@include mobile {
+		font-size: 17px;
+		line-height: 1.4;
+		margin-bottom: 15%;
+		margin-top: 0rem;
+	}
+}
+
+.newsletter {
+	width: 100%;
+	position: relative;
+	margin-top: 2.5%;
+	margin-bottom: 5%;
+
+	@include mobile {
+		margin-bottom: 15%;
+		width: 90%;
+	}
+
+	.blob {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+
+		@include mobile {
+			width: 110vw;
+			left: 50%;
+			margin-left: -55vw;
+		}
+	}
+
+	.input {
+		position: relative;
+		padding: 4rem 15%;
+		z-index: 2;
+
+		@include mobile {
+			padding: 2rem 0;
+		}
+
+		.blurb {
+			@include text;
+			font-size: 17px;
+			text-align: left;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			z-index: 100;
+
+			@include mobile {
+				font-size: 1rem;
+				text-align: left;
+			}
+		}
+
+		.form {
+			display: flex;
+
+			@include mobile {
+				flex-wrap: wrap;
+			}
+
+			.emailField {
+				border: none;
+				padding: 10px 15px;
+				width: 150%;
+				border-radius: 0.5rem;
+				box-shadow: 1.7px 1.7px 7.5px rgba(0, 0, 0, 0.09);
+
+				@include mobile {
+					width: 100%;
+				}
+			}
+
+			.button-container {
+				padding-left: 1.3rem;
+				width: 100%;
+				@include mobile {
+					padding: 0;
+					margin-top: 1rem;
+				}
+			}
+		}
+
+		.subtext {
+			@include text;
+
+			height: 1rem;
+			color: $dark-purple;
+			margin-top: 0.7rem;
+		}
+	}
+}
+
+.stats {
+	display: flex;
+	margin: 5% 0;
+
+	@include mobile {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 15% 0;
+	}
+
+	.stat {
+		display: flex;
+		flex-direction: column;
+		justify-self: center;
+		align-items: center;
+		padding: 0 1rem;
+
+		@include mobile {
+			padding: 0;
+			width: 50%;
+			margin-bottom: 1.4rem;
+		}
+
+		.number {
+			display: flex;
+			align-items: flex-end;
+			margin-bottom: 1.3rem;
+
+			img {
+				height: 50px;
+				margin-right: 1.1rem;
+				@include mobile {
+					margin-right: 0.5rem;
+					height: 40px;
+				}
+			}
+
+			h6 {
+				font-family: Rubiks;
+				font-size: 50px;
+				line-height: 37px;
+				font-weight: 700;
+				color: rgba(95, 96, 255, 1);
+			}
+		}
+
+		p {
+			@include text;
+			text-align: center;
+			@include mobile {
+				padding: 0 0.3rem;
+			}
+		}
+	}
+}
+
+.graphics {
+	position: relative;
+	width: 100%;
+
+	.blobs {
+		position: absolute;
+		width: 100%;
+
+		top: 2%;
+		z-index: 1;
+
+		@include mobile {
+			width: 150%;
+			left: 50%;
+			margin-left: -75%;
+		}
+	}
+}
+
+.clients {
+	width: 90%;
+	position: relative;
+	margin: 5%;
+	margin-top: 12%;
+	z-index: 2;
+
+	@include mobile {
+		margin: 1rem 0;
+		width: 100%;
+	}
+}
+
+.partners {
+	width: 90%;
+	position: relative;
+	margin: 5%;
+	margin-bottom: 20%;
+	z-index: 2;
+
+	@include mobile {
+		margin: 1rem 0 5rem 0;
+		width: 100%;
+	}
 }

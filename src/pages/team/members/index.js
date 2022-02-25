@@ -1,54 +1,62 @@
 import React from 'react';
-import { SimpleGrid, Text } from '@chakra-ui/react';
-import Profile from '../../../components/profile';
-import Header from '../../../components/header';
-import PageWrapper from '../../../components/pageWrapper';
 
 import leadership from './data/leadership';
 import developers from './data/developers';
 import designers from './data/designers';
 import coursestaff from './data/coursestaff';
+import Profile from '../../../components/profile';
+import Header from '../../../components/header';
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 import Side1 from './img/side-1.png';
 import Side2 from './img/side-2.png';
+// import Side3 from './img/side-3.png';
+
+import styles from '../style.module.scss';
 
 const Members = () => {
-  const groups = [
-    { title: 'Leadership', data: leadership },
-    { title: 'DeCal Course Staff', data: coursestaff },
-    { title: 'Developers', data: developers },
-    { title: 'Designers', data: designers },
-  ];
+	return (
+		<main>
+			<Header
+				title="Meet the team"
+				subtitle="Students with a passion for building."
+			/>
+			<img src={Side1} alt="" className={styles['side-1']} />
+			<img src={Side2} alt="" className={styles['side-2']} />
+			{/* <img src={Side3} alt="" className={styles['side-3']} /> */}
+			<Container className={styles['container']}>
+				<h4 className={styles['divider-header']}>Leadership</h4>
+				<Row lg="5" sm="3" xs="2">
+					{leadership.map((data, i) => (
+						<Profile data={data} key={i} />
+					))}
+				</Row>
 
-  return (
-    <main>
-      {/* <img src={Side1} alt="" className={styles['side-1']} />
-      <img src={Side2} alt="" className={styles['side-2']} /> */}
-      <PageWrapper>
-        <Header
-          title="Meet the team"
-          subtitle="Students with a passion for building."
-        />
+				<h4 className={styles['divider-header']}>Course Staff</h4>
+				<Row lg="5" sm="3" xs="2">
+					{coursestaff.map((data, i) => (
+						<Profile data={data} k ey={i} />
+					))}
+				</Row>
 
-        {groups.map(({ title, data }) => (
-          <>
-            <Text textStyle="subtitle1" mt={12} mb={8}>
-              {title}
-            </Text>
-            <SimpleGrid
-              columns={[2, 3, 4, 5]}
-              spacing={10}
-              mb={[12, null, null, 20]}
-            >
-              {data.map((data, i) => (
-                <Profile data={data} key={i} />
-              ))}
-            </SimpleGrid>
-          </>
-        ))}
-      </PageWrapper>
-    </main>
-  );
+				<h4 className={styles['divider-header']}>Developers</h4>
+				<Row lg="5" sm="3" xs="2">
+					{developers.map((data, i) => (
+						<Profile data={data} k ey={i} />
+					))}
+				</Row>
+
+				<h4 className={styles['divider-header']}>Designers</h4>
+				<Row lg="5" sm="3" xs="2">
+					{designers.map((data, i) => (
+						<Profile data={data} key={i} />
+					))}
+				</Row>
+			</Container>
+		</main>
+	);
 };
 
 export default Members;

@@ -1,41 +1,40 @@
 import React from 'react';
-import { SimpleGrid, Text } from '@chakra-ui/react';
-import Profile from '../../../components/profile';
-import Header from '../../../components/header';
-import PageWrapper from '../../../components/pageWrapper';
 
 import alum from './data/alumni';
 import advisors from './data/advisors';
+import Profile from '../../../components/profile';
+import Header from '../../../components/header';
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+
+import Blobs from './img/blobs.png';
+
+import styles from '../style.module.scss';
 
 const Alumni = () => {
-  const groups = [
-    { title: 'UC Berkeley Graduates', data: alum },
-    { title: 'Senior Advisors', data: advisors },
-  ];
+	return (
+		<main>
+			<Header title="Our alumni" subtitle="we <3 our alumni!">
+				<h1>Alumni</h1>
+			</Header>
+			<Container className={styles['container']}>
+				<h4 className={styles['divider-header']}>UC Berkeley Graduates</h4>
+				<Row lg="5" sm="3" xs="2">
+					{alum.map((data, i) => (
+						<Profile data={data} key={i} />
+					))}
+				</Row>
 
-  return (
-    <main>
-      <PageWrapper>
-        <Header title="Our alumni" subtitle="we <3 our alumni!" />
-        {groups.map(({ title, data }) => (
-          <>
-            <Text textStyle="subtitle1" mt={12} mb={8}>
-              {title}
-            </Text>
-            <SimpleGrid
-              columns={[2, 3, 4, 5]}
-              spacing={10}
-              mb={[12, null, null, 20]}
-            >
-              {data.map((data, i) => (
-                <Profile data={data} key={i} />
-              ))}
-            </SimpleGrid>
-          </>
-        ))}
-      </PageWrapper>
-    </main>
-  );
+				<h4 className={styles['divider-header']}>Senior Advisors</h4>
+				<Row lg="5" sm="3" xs="2">
+					{advisors.map((data, i) => (
+						<Profile data={data} k ey={i} />
+					))}
+				</Row>
+			</Container>
+		</main>
+	);
 };
 
 export default Alumni;

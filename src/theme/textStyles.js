@@ -13,14 +13,13 @@ const textStyles = {
   },
   subtitle1: {
     fontFamily: 'Cocogoose',
-    fontSize: ['3xl', '4xl'],
+    fontSize: '4xl',
     textTransform: 'uppercase',
-    textAlign: ['center', null, null, 'left'],
     as: 'h3',
   },
   subtitle2: {
     fontFamily: 'Rubik',
-    fontSize: ['3xl', '4xl'],
+    fontSize: '4xl',
     textTransform: 'capitalize',
     as: 'h4',
   },
@@ -29,12 +28,6 @@ const textStyles = {
     fontSize: '1.75rem',
     textTransform: 'capitalize',
     as: 'h5',
-  },
-  subtitle4: {
-    fontFamily: 'Monsterrat',
-    fontSize: '2xl',
-    textTransform: 'capitalize',
-    as: 'h6',
   },
   body1: {
     fontFamily: 'Rubik',
@@ -49,7 +42,7 @@ const textStyles = {
   },
   body3: {
     fontFamily: 'Rubik',
-    fontSize: ['1rem', '1.125rem'],
+    fontSize: 'xl',
     as: 'p',
   },
   body4: {
@@ -58,15 +51,10 @@ const textStyles = {
     letterSpacing: '0.055em',
     as: 'p',
   },
-  body5: {
-    fontFamily: 'Overpass',
-    fontSize: '1.25rem',
-    as: 'p',
-  },
   number: {
     fontFamily: 'Rubik',
     fontWeight: 'bold',
-    fontSize: '5xl',
+    fontSize: '3xl',
     textTransform: 'uppercase',
     color: 'darkPurple',
     as: 'h6',

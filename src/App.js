@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 import ScrollToTop from './ScrollToTop';
 
@@ -12,6 +13,7 @@ import Bootcamp from './pages/initiatives/bootcamp';
 import Industry from './pages/initiatives/industry';
 import Members from './pages/team/members';
 import Alumni from './pages/team/alumni';
+import Decal from './pages/decal';
 import Projects from './pages/projects';
 import Project from './pages/projects/project';
 import WorkWithUs from './pages/work-with-us';
@@ -21,80 +23,87 @@ import Error from './pages/error';
 import './App.scss';
 
 function App() {
-  return (
-    <Router>
-      <ScrollToTop />
+	return (
+		<Router>
+			<ScrollToTop />
+			
+			<Switch>
+				<Route exact path="/">
+					<Navbar landing />
+				</Route>
+				<Route path="*">
+					<Navbar />
+				</Route>
+			</Switch>
 
-      <Switch>
-        <Route exact path="/">
-          <Navbar landing />
-        </Route>
-        <Route path="*">
-          <Navbar />
-        </Route>
-      </Switch>
+			<Switch>
+				{/* About Us */}
+				<Route path="/about">
+					<About />
+				</Route>
 
-      <Switch>
-        {/* About Us */}
-        <Route path="/about">
-          <About />
-        </Route>
+				{/* Initiatives */}
+				<Route path="/education">
+					<Education />
+				</Route>
+				<Route path="/bootcamp">
+					<Bootcamp />
+				</Route>
+				<Route path="/industry">
+					<Industry />
+				</Route>
+				<Route path="/initiatives">
+					<Initiatives />
+				</Route>
 
-        {/* Initiatives */}
-        <Route path="/education">
-          <Education />
-        </Route>
-        <Route path="/bootcamp">
-          <Bootcamp />
-        </Route>
-        <Route path="/industry">
-          <Industry />
-        </Route>
-        <Route path="/initiatives">
-          <Initiatives />
-        </Route>
-
-        {/* Members and Alumni */}
-        {/* <Route path="/team">
+				{/* Members and Alumni */}
+				{/* <Route path="/team">
 					<Team />
 				</Route> */}
-        <Route path="/members">
-          <Members />
-        </Route>
-        <Route path="/alumni">
-          <Alumni />
-        </Route>
+				<Route path="/members">
+					<Members />
+				</Route>
+				<Route path="/alumni">
+					<Alumni />
+				</Route>
 
-        {/* Projects */}
-        <Route path="/projects/:id">
-          <Project />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
+				{/* DeCal */}
+				<Route path="/decal">
+					<Decal />
+				</Route>
 
-        {/* Work With Us */}
-        <Route path="/work-with-us">
-          <WorkWithUs />
-        </Route>
+				{/* Projects */}
+				<Route path="/projects/:id">
+					<Project />
+				</Route>
+				<Route path="/projects">
+					<Projects />
+				</Route>
 
-        {/* Join Us */}
-        <Route path="/join">
-          <Join />
-        </Route>
+				{/* Work With Us */}
+				<Route path="/work-with-us">
+					<WorkWithUs />
+				</Route>
 
-        {/* Landing Page */}
-        <Route exact path="/">
-          <Landing />
-        </Route>
+				{/* Join Us */}
+				<Route path="/join">
+					<Join />
+				</Route>
 
-        {/* 404 no page found */}
-        <Route path="*">
-          <Error />
-        </Route>
-      </Switch>
-    </Router>
-  );
+				{/* Landing Page */}
+				<Route exact path="/">
+					<Landing />
+				</Route>
+
+				{/* 404 no page found */}
+				<Route path="*">
+					<Error />
+				</Route>
+			</Switch>
+
+			<Footer />
+		</Router>
+	);
 }
 
 export default App;

@@ -1,0 +1,46 @@
+@import '../../mixins';
+
+.profile {
+	position: relative;
+	margin-bottom: 40px;
+	z-index: 2;
+
+	.name {
+		@include profile-name;
+		margin-top: 10px;
+		margin-bottom: 4px;
+		font-size: 17px;
+	}
+
+	.role {
+		font-size:15px;
+	}
+
+	.photo {
+		max-width: 90%;
+	}
+
+	.socials {
+		a {
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+
+		img {
+			width: 13%;
+			margin-top: 9px;
+			max-width: 20%;
+			border-radius: 50%;
+		}
+	}
+
+	@media (max-width: 1200px) {
+		.name {
+			font-size: 15px;
+		}
+
+		.role {
+			font-size: 13px;
+		}
+	}
+}

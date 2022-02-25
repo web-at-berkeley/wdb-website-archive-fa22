@@ -1,0 +1,141 @@
+@import '../../../mixins';
+
+.roles {
+	margin: 7.5% auto 0 5%;
+	margin: auto;
+	width: 80% !important;
+
+	h3 {
+		@include subtitle;
+		text-align: center;
+		margin-bottom: 8%;
+		@include mobile {
+			margin-top: 3rem;
+		}
+	}
+
+	.row {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+	}
+	.blobs {
+		position: absolute;
+		z-index: 2;
+		bottom: 0;
+		left: 0;
+		height: 120%;
+		width: 120%;
+		margin-left: -5vw;
+		margin-bottom: -6%;
+		@include mobile {
+			width: 550%;
+		}
+	}
+
+	.role {
+		@include box;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 30%;
+		height: 25rem;
+		padding: 0 3%;
+		border-radius: 0.8rem;
+		margin-left: auto;
+		margin-right: auto;
+		@include mobile {
+			max-width: 100%;
+			margin-bottom: 1rem;
+			max-height: 12rem;
+		}
+
+		img {
+			width: 70%;
+			margin-top: -23%;
+			margin-bottom: 2rem;
+			border: 5px solid #ffffff;
+			border-radius: 50%;
+			@include mobile {
+				display: none;
+			}
+		}
+
+		h6 {
+			@include text-two;
+			text-align: center;
+			margin-top: -2.5%;
+			margin-bottom: 0.8rem;
+			@include mobile {
+				margin-top: 1.70rem;
+				margin-bottom: 0.5rem;
+			}
+		}
+
+		p {
+			@include text;
+			text-align: center;
+			margin-bottom: 2rem;
+			@include mobile {
+				margin-bottom: 1rem;
+			}
+		}
+	}
+}
+
+.clients {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15%;
+	text-align: center;
+	position: relative;
+	width: 80%;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 10rem;
+
+	.blobs {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		width: 95vw;
+		margin-left: -8vw;
+		@include mobile {
+			z-index: -1;
+			width: 120%;
+		}
+	}
+
+	.title {
+		@include subtitle;
+		margin-bottom: 1.2rem;
+		z-index: 2;
+	}
+	.subtitle {
+		@include text;
+		margin-bottom: 4.5%;
+		z-index: 2;
+	}
+
+	.graphic {
+		@include box;
+		z-index: 2;
+	}
+
+	img {
+		width: 100%;
+		z-index: -1;
+	}
+
+	.work-button {
+		margin-top: 2.5rem;
+		margin-bottom: 10%;
+		z-index: 2;
+	}
+}
+
+.container {
+	width: 90% !important;
+}

@@ -6,21 +6,33 @@ import nonprofitProjects from '../data/nonprofit';
 
 import { useParams } from 'react-router-dom';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+import styles from './style.module.scss';
+
 const Project = () => {
-  let { id } = useParams();
-  let data = clientProjects.filter((project) => project.label === id)[0];
-  if (!data) {
-    data = nonprofitProjects.filter((project) => project.label === id)[0];
-  }
+	let { id } = useParams();
 
-  const { name, subtitle, link, technologies, lead, semester } = data;
+	console.log(id);
 
-  return (
-    <main>
-      <Header title={name} subtitle={subtitle} />
-      <div></div>
-    </main>
-  );
+	let data = clientProjects.filter((project) => project.label === id)[0];
+
+	if (!data) {
+		data = nonprofitProjects.filter((project) => project.label === id)[0];
+	}
+
+	console.log(data);
+
+	const { name, subtitle, link, technologies, lead, semester } = data;
+
+	return (
+		<main>
+			<Header title={name} subtitle={subtitle} />
+			<Container></Container>
+		</main>
+	);
 };
 
 export default Project;
