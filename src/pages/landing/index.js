@@ -106,14 +106,14 @@ const Landing = () => {
 						</h2>
 					</Fade>
 					<Fade up delay={1000}>
-						<div className={styles['button-temp']}>
+						{/* <div className={styles['button-temp']}>
 							<Link to="/join">
 								<Button
 									text="Join Us!"
 									style={{ width: '20rem', padding: '1rem' }}
 								/>
 							</Link>
-						</div>
+						</div> */}
 					</Fade>
 				</div>
 			</div>
