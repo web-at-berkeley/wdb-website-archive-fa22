@@ -1,167 +1,169 @@
 @import '../../../mixins';
 
 .container {
-	width: 100%;
-	height: 20vh;
-	position: relative;
-	display: flex;
-	flex-direction: column;
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .blobs {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 59%;
-	z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 59%;
+  z-index: 2;
 }
 
 .bubble {
-	width: 25px;
-	height: 25px;
-	border-radius: 50%;
-	background: rgba(255, 255, 255, 0.5);
-	border: 2px solid rgba(255, 255, 255, 0.4);
-	margin-right: 0.2rem;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  margin-right: 0.2rem;
 }
 
 .top {
-	width: 100%;
-	height: 10vh;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-	margin-top: 4vh;
-	z-index: 1001;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 4vh;
+  z-index: 1001;
 
-	.logo {
-		width: fit-content;
-		z-index: 1000;
+  .logo {
+    width: fit-content;
+    z-index: 1000;
 
-		img {
-			height: 2.5rem;
-			margin-left: 5vw;
-		}
-	}
+    img {
+      height: 2.5rem;
+      margin-left: 5vw;
+    }
+  }
 
-	.navbar {
-		display: flex;
-		height: 100%;
-	}
+  .navbar {
+    display: flex;
+    height: 100%;
+  }
 
-	.nav {
-		position: relative;
-		display: flex;
-		height: fit-content;
-		justify-content: space-between;
-		align-items: center;
-		align-self: flex-end;
-		background: rgba(255, 255, 255, 0.7);
-		border: 2px solid rgba(255, 255, 255, 0.4);
-		backdrop-filter: blur(15px);
-		border-right: none;
-		border-top-left-radius: 1000px;
-		border-bottom-left-radius: 1000px;
-		padding: 0.9rem 3.5vw 0.9rem 1rem;
-	}
+  .nav {
+    position: relative;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+    border-right: none;
+    border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    padding: 0.9rem 3.5vw 0.9rem 1rem;
+  }
 
-	.nav-item {
-		display: flex;
-		flex-direction: column;
-		position: relative;
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
 
-		.arrow {
-			width: 8px;
-			height: 9px;
-			margin-left: 0.25rem;
-			margin-bottom: 2px;
-		}
+    .arrow {
+      width: 8px;
+      height: 9px;
+      margin-left: 0.25rem;
+      margin-bottom: 2px;
+      display: inline;
+    }
 
-		.trigger {
-			display: flex;
-			align-items: center;
-			cursor: pointer;
-		}
+    .trigger {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
 
-		.spacer {
-			display: none;
-		}
+    .spacer {
+      display: none;
+    }
 
-		&:hover {
-			.spacer {
-				display: flex;
-			}
-		}
+    &:hover {
+      .spacer {
+        display: flex;
+      }
+    }
 
-		.spacer {
-			position: absolute;
-			right: -0.5rem;
-		}
+    .spacer {
+      position: absolute;
+      right: -0.5rem;
+    }
 
-		.dropdown {
-			margin: 0.5rem;
-			margin-top: 6vh;
-			display: flex;
-			flex-direction: column;
-			align-items: flex-end;
-			padding: 0.75rem 1rem;
-			padding-left: 1.5rem;
-			background: rgba(255, 255, 255, 0.85);
-			border: 2px solid rgba(255, 255, 255, 0.4);
-			backdrop-filter: blur(10000000px);
-			border-radius: 0.5rem;
+    .dropdown {
+      margin: 0.5rem;
+      margin-top: 6vh;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 0.75rem 1rem;
+      padding-left: 1.5rem;
+      background: rgba(255, 255, 255, 0.85);
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(10000000px);
+      border-radius: 0.5rem;
 
-			.dropdown-link {
-				@include nav-item;
-				@include underline-on-hover($color: #000000);
-				width: fit-content;
-				margin-left: 1rem;
-				white-space: nowrap;
-			}
+      .dropdown-link {
+        @include nav-item;
+        @include underline-on-hover($color: #000000);
+        width: fit-content;
+        margin-left: 1rem;
+        white-space: nowrap;
+      }
 
-			hr {
-				width: 100%;
-				border: none;
-				border-bottom: 1px solid #000000;
-				margin: 0.45rem 0;
-			}
-		}
-	}
+      hr {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #000000;
+        margin: 0.45rem 0;
+      }
+    }
+  }
 
-	.nav-link {
-		@include nav-item;
-		@include underline-on-hover($color: #000000);
-		padding: 0.2rem;
-		margin-left: 1rem;
-		z-index: 2;
-	}
+  .nav-link {
+    @include nav-item;
+    @include underline-on-hover($color: #000000);
+    padding: 0.2rem;
+    margin-left: 1rem;
+    z-index: 2;
+    white-space: nowrap;
+  }
 }
 
 .bottom {
-	width: 100%;
-	height: 6vh;
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	z-index: 1000;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 1000;
 
-	.bar {
-		width: 30%;
-		height: 5vh;
-		background: rgba(255, 255, 255, 0.5);
-		border: 2px solid rgba(255, 255, 255, 0.4);
-		border-right: none;
-		border-top-left-radius: 1000px;
-		border-bottom-left-radius: 1000px;
-		margin-bottom: 1;
-		backdrop-filter: blur(15px);
-	}
-	.bubble {
-		margin-right: 1rem;
-		margin-bottom: -1.5vh;
-		backdrop-filter: blur(15px);
-	}
+  .bar {
+    width: 30%;
+    height: 5vh;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-right: none;
+    border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    margin-bottom: 1;
+    backdrop-filter: blur(15px);
+  }
+  .bubble {
+    margin-right: 1rem;
+    margin-bottom: -1.5vh;
+    backdrop-filter: blur(15px);
+  }
 }
 
 // @media only screen and (max-width: 1250px) {

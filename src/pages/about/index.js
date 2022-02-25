@@ -54,7 +54,7 @@ const About = () => {
           ))}
         </Flex>
 
-        <Box position="relative" mt={[24, null, 28, 32, 40]}>
+        <Box position="relative" mt={[24, null, 28, 32]}>
           {/* <img src={Blobs} alt="" className={styles['blobs']} /> */}
 
           <Box layerStyle="glassy">

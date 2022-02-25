@@ -7,9 +7,9 @@ const PageWrapper = ({ children, ...props }) => {
     <Flex minH="100vh" w="100vw" direction="column" justify="space-between">
       <Container
         maxW="container.lg"
-        {...props}
         px={[6, 8, 12, 12, 0]}
         pt={[6, null, 0]}
+        {...props}
       >
         {children}
       </Container>

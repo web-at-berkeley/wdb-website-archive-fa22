@@ -104,7 +104,7 @@ const Landing = () => {
           </Fade>
           <Fade up delay={1000}>
             <div className={styles['button-temp']}>
-              <Link to="/join">
+              <Link to="/join" style={{ textDecoration: 'none' }}>
                 <Button
                   variant="primary"
                   style={{ width: '20rem', maxWidth: '80vw', padding: '1rem' }}
