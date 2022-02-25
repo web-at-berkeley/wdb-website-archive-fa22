@@ -1,142 +1,158 @@
-import React, { useState } from 'react';
+import React from 'react';
+import {
+  SimpleGrid,
+  VStack,
+  Center,
+  Flex,
+  Button,
+  Box,
+  Text,
+} from '@chakra-ui/react';
+import Header from '../../components/header';
+import PageWrapper from '../../components/pageWrapper';
+import Instagram from '../../components/instagram';
 
 import services from './constants/Services';
 import sponsorships from './constants/Sponsorships';
-import Header from '../../components/header';
-import Button from '../../components/button';
-import Instagram from '../../components/instagram';
 
-
-import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
-import Form from 'react-bootstrap/Form';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-
-import ServiceBlobs from './img/service-blobs.png';
-import FormBlobs from './img/form-blobs.png';
-
-
-import styles from './style.module.scss';
-import classnames from 'classnames';
+// import ServiceBlobs from './img/service-blobs.png';
+// import FormBlobs from './img/form-blobs.png';
 
 const WorkWithUs = () => {
-	const [name, setName] = useState('');
-	const [company, setCompany] = useState('');
-	const [email, setEmail] = useState('');
-	const [orgDescription, setOrgDescription] = useState('');
-	const [request, setRequest] = useState('');
-	const [comments, setComments] = useState('');
-	const [error, setError] = useState([]);
-	const [submitted, setSubmitted] = useState(false);
+  // const [name, setName] = useState('');
+  // const [company, setCompany] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [orgDescription, setOrgDescription] = useState('');
+  // const [request, setRequest] = useState('');
+  // const [comments, setComments] = useState('');
+  // const [error, setError] = useState([]);
+  // const [submitted, setSubmitted] = useState(false);
 
-	const submit = () => {
-		const errors = [];
-		const fields = [
-			{ field: name, name: 'name' },
-			{ field: company, name: 'company' },
-			{ field: email, name: 'email' },
-			{ field: orgDescription, name: 'orgDescription' },
-			{ field: request, name: 'request' },
-		];
-		for (let i = 0; i < fields.length; i++) {
-			const current = fields[i];
-			if (!current.field) {
-				errors.push(current.name);
-			}
-		}
-		setError(error);
-		if (!errors.length) {
-			setSubmitted(true);
-		}
-	};
+  // const submit = () => {
+  //   const errors = [];
+  //   const fields = [
+  //     { field: name, name: 'name' },
+  //     { field: company, name: 'company' },
+  //     { field: email, name: 'email' },
+  //     { field: orgDescription, name: 'orgDescription' },
+  //     { field: request, name: 'request' },
+  //   ];
+  //   for (let i = 0; i < fields.length; i++) {
+  //     const current = fields[i];
+  //     if (!current.field) {
+  //       errors.push(current.name);
+  //     }
+  //   }
+  //   setError(error);
+  //   if (!errors.length) {
+  //     setSubmitted(true);
+  //   }
+  // };
 
-	const errorText = () => {
-		const text = error.map((message) => `${message}, `);
-		return text;
-	};
+  // const errorText = () => {
+  //   const text = error.map((message) => `${message}, `);
+  //   return text;
+  // };
 
-	return (
-		<main>
-			<Header
-				title="Work with us"
-				subtitle="we’re open for work!"
-				description="Interested in working with us? Want to ask questions about our past projects or see our 
+  return (
+    <main>
+      <PageWrapper>
+        <Header
+          title="Work with us"
+          subtitle="we're open for work!"
+          description="Interested in working with us? Want to ask questions about our past projects or see our 
 							design portfolios? Feel free to reach out and contact us!"
-			/>
-			<Container className={styles['container']}>
-				<div className={styles['buttons']}>
-					<span>
-						<a
-							href="https://forms.gle/tDLdLqd8psNfNTbo8"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<Button text="Fill out our form" />
-						</a>
-					</span>
-					<Link to="/projects">
-						<Button text="Check out our past work" />
-					</Link>
-				</div>
+        />
+        <Flex direction={['column', null, 'row']} gap={6} mt={5}>
+          <a
+            href="https://forms.gle/tDLdLqd8psNfNTbo8"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: 'none' }}
+          >
+            <Button variant="primary">Contact Us</Button>
+          </a>
+          <Link to="/projects" style={{ textDecoration: 'none' }}>
+            <Button variant="primary">Check out our past work</Button>
+          </Link>
+        </Flex>
 
-				<div className={styles['services']}>
-					<img src={ServiceBlobs} alt="" className={styles['blobs']} />
-					<h2>Services we offer</h2>
-					<div className={styles['cards']}>
-						<Row lg="4" med="2" sm="1">
-							{services.map(({ image, title, description }) => (
-								<div className={styles['card']}>
-									<img src={image} alt={title} />
-									<div className={styles['text']}>
-										<h3>{title}</h3>
-										<p>{description}</p>
-									</div>
-								</div>
-							))}
-						</Row>
-					</div>
+        {/* <img src={ServiceBlobs} alt="" className={styles['blobs']} /> */}
+        <Text textStyle="subtitle1" mt={12} mb={8}>
+          Services we offer
+        </Text>
 
-					<h2>Other ways you can work with us</h2>
-					<div className={styles['cards']}>
-						<Row lg="3" med="1" sm="1" xs="1">
-							{sponsorships.map(({ image, title, description }) => (
-								<div
-									className={classnames(styles['card'], styles['sponsor-card'])}
-								>
-									{' '}
-									<img src={image} alt={title} />
-									<div className={styles['text']}>
-										<h3>{title}</h3>
-										<p>{description}</p>
-									</div>
-								</div>
-							))}
-						</Row>
-					</div>
-				</div>
+        <SimpleGrid columns={[1, 2, 4]} spacing={6}>
+          {services.map(({ image, title, description }) => (
+            <VStack layerStyle="glassy" spacing={4} px={4}>
+              <Center h={24} w={24}>
+                <img src={image} alt={title} width="100%" />
+              </Center>
+              <Text textStyle="subtitle1" fontSize="2xl">
+                {title}
+              </Text>
+              <Text textStyle="body3" textAlign="center">
+                {description}
+              </Text>
+            </VStack>
+          ))}
+        </SimpleGrid>
 
-				<div className={styles['contact']} id="contact">
-					<h4 className={styles['title']}>
-						Looking to build something great?
-						<br /> Let’s get to{' '}
-						<span style={{ textDecoration: 'underline' }}>work.</span>
-					</h4>
-					<p className={styles['subtitle']}>
-						Fill out this form with some basic information about your
-						organization or startup, and we’ll reach out to schedule a time to
-						chat.
-					</p>
-					<a
-						href="https://forms.gle/tDLdLqd8psNfNTbo8"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<Button text="Contact Us" />
-					</a>
-					{/* <form 
+        <Text textStyle="subtitle1" mt={[12, 16, 24]} mb={8}>
+          Other ways you can work with us
+        </Text>
+        <SimpleGrid columns={[1, null, 3]} spacing={6}>
+          {sponsorships.map(({ image, title, description }) => (
+            <VStack layerStyle="glassy" spacing={4} px={6}>
+              <Center h={24} w={24}>
+                <img src={image} alt={title} width="100%" />
+              </Center>
+              <Text textStyle="subtitle1" fontSize="2xl">
+                {title}
+              </Text>
+              <Text textStyle="body3" textAlign="center">
+                {description}
+              </Text>
+            </VStack>
+          ))}
+        </SimpleGrid>
+
+        <Flex
+          layerStyle="glassy"
+          direction="column"
+          align="center"
+          mt={[12, 20]}
+          px={[6, 10]}
+        >
+          <Text
+            textStyle="subtitle1"
+            fontSize={['2xl', '3xl']}
+            textAlign="center"
+          >
+            Looking to build something great?
+            <br /> Let's get to{' '}
+            <Text as="span" textDecoration="underline">
+              work.
+            </Text>
+          </Text>
+          <Text textStyle="body3" textAlign="center" mt={4}>
+            Fill out the form below with some basic information about your
+            organization or startup, and we'll reach out to schedule a time to
+            chat.
+          </Text>
+          <a
+            href="https://forms.gle/tDLdLqd8psNfNTbo8"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: 'none' }}
+          >
+            <Button variant="primary" h={12} w={[60, 80]} mt={10}>
+              Contact Us
+            </Button>
+          </a>
+          {/* <form 
 					action='https://docs.google.com/forms/d/e/1FAIpQLSf_HkQ06zaYExGMX8LTSvyPbApQ90wvfbW6_MUYFct-jH_1ow/formResponse'
 					target='_self'
 					method='post'
@@ -277,34 +293,14 @@ const WorkWithUs = () => {
 							
 						</div>
 					</form> */}
-				</div>
+        </Flex>
 
-
-			
-
-
-				<div className={styles['instagram']}>
-					<Instagram />
-				</div>
-			</Container>
-		</main>
-	);
-};
-
-let style = {
-	FormText: {
-		fontSize: '22px',
-		letterSpacing: '0.14em',
-		textTransform: 'uppercase',
-		fontFamily: 'Raleway',
-		fontWeight: '700',
-		marginBottom: '6px',
-	},
-	FormBox: {
-		boxShadow: '4px 4px 30px rgba(0, 0, 0, 0.1)',
-		borderRadius: '9px',
-		border: 'none',
-	},
+        <Box mt={24} pt={3}>
+          <Instagram />
+        </Box>
+      </PageWrapper>
+    </main>
+  );
 };
 
 export default WorkWithUs;

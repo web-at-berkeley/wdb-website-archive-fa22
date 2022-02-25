@@ -2,13 +2,13 @@
 @import '../../variables';
 
 .container {
-	background-color: white;
-	width: 300px;
-	height: 350px;
-	.photo {
-		margin: 10px auto;
-		background-color: darkcyan;
-		width: 90%;
-		height: 45%;
-	}
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  .photo {
+    margin: 10px auto;
+    background-color: darkcyan;
+    width: 90%;
+    height: 45%;
+  }
 }

@@ -7,15 +7,13 @@ import ErrorImg from './404.png';
 import styles from './style.module.scss';
 
 const Error = () => {
-	return (
-		<div>
-			<Container className={styles['error-page']} >
-
-				<img className={styles['error-img']} src={ErrorImg}/>
-
-			</Container>
-		</div>
-	);
+  return (
+    <div>
+      <Container className={styles['error-page']}>
+        <img className={styles['error-img']} src={ErrorImg} alt="404" />
+      </Container>
+    </div>
+  );
 };
 
 export default Error;

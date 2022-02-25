@@ -1,50 +1,47 @@
 import React from 'react';
-
+import { Flex, Box, Text } from '@chakra-ui/react';
 import socials from './constants/Socials';
-import icons from './constants/Icons';
-
-import Col from 'react-bootstrap/Col';
-
-import styles from './style.module.scss';
 
 const Profile = ({ data }) => {
-	return (
-		<Col className={styles['profile']}>
-			<img className={styles['photo']} src={data.image} alt={data.name} />
+  return (
+    <Box>
+      <img src={data.image} alt={data.name} width="100%" />
 
-			<h5 className={styles['name']} id="name">
-				{data.name}
-			</h5>
+      <Text textStyle="body2" mt={2.5}>
+        {data.name}
+      </Text>
 
-			<h6 className={styles['role']} id="role">
-				{data.role}
-			</h6>
+      <Text textStyle="body3" fontSize="14px">
+        {data.role}
+      </Text>
 
-			{data.at && (
-				<h6 className={styles['role']} style={{ marginTop: '.3rem' }} id="at">
-					{data.at}
-				</h6>
-			)}
+      {data.at && (
+        <Text textStyle="body3" fontSize="14px" mt={0.5}>
+          {data.at}
+        </Text>
+      )}
 
-			<div className={styles['socials']}>
-				{socials.map(({ name, id }) => {
-					return (
-						data[id] && (
-							<a
-								href={data[id]}
-								id={id}
-								target="_blank"
-								rel="noopener noreferrer"
-								key={id}
-							>
-								<img src={icons[name]} alt={name} />
-							</a>
-						)
-					);
-				})}
-			</div>
-		</Col>
-	);
+      <Flex gap={3.5} mt={2}>
+        {socials.map(({ name, id, image }) => {
+          return (
+            data[id] && (
+              <a
+                href={data[id]}
+                id={id}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={id}
+              >
+                <Box w={6}>
+                  <img src={image} alt={name} width="100%" />
+                </Box>
+              </a>
+            )
+          );
+        })}
+      </Flex>
+    </Box>
+  );
 };
 
 export default Profile;
