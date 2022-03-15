@@ -153,10 +153,10 @@ const Bootcamp = () => {
 				<div className={styles['text']}>
 					<h3>Interested?</h3>
 					<p className={styles['blurb']}>
-						The applications for the training program will open in August 2021
-						for the Fall 2021 semester! Check back here or on our “Join Us” page
-						to fill out our application! Don’t miss your chance to join a
-						passionate team of builders, mentors, and creatives.
+						Applications for our Product Bootcamp have closed for the Spring
+						2022 semester. Be sure to check back here or on our “Join Us” page
+						next semester to fill out our application! Don’t miss your chance to
+						join a passionate team of builders, mentors, and creatives.
 					</p>
 					<Link to="/join">
 						<Button text="Apply Here" />

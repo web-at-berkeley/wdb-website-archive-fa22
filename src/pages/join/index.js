@@ -16,9 +16,9 @@ import Bg from './img/bg.png';
 import Blobs from './img/blobs.png';
 import Blobs2 from './img/blobs2.png';
 import Blobs3 from './img/blobs3.png';
-import anjan from './img/Anjan.png';
-import caelin from './img/caelin-test.png';
-import lizzie from './img/lizzie-test.png';
+import tony from '../team/members/data/leadership/img/tony.png';
+import aadhiti from '../team/members/data/developers/img/aadhiti.png';
+import danielle from '../team/members/data/designers/img/danielle.png';
 
 import styles from './style.module.scss';
 
@@ -35,9 +35,10 @@ const Join = () => {
 					<img src={Blobs2} alt="" />
 					<h3>Applications are now closed!</h3>
 					<p className={styles['descrip']}>
-						Thank you so much for your interest in joining WDB! We'd love to stay in
-            touch with you and answer any questions you may have. Feel free to reach out to us
-            if you'd liked to learn more, and check out our educational resources below!
+						Thank you so much for your interest in joining WDB! We'd love to
+						stay in touch with you and answer any questions you may have. Feel
+						free to reach out to us if you'd liked to learn more, and check out
+						our educational resources below!
 					</p>
 					{/* <div className={styles['button-interest']}>
 							<a
@@ -67,16 +68,14 @@ const Join = () => {
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
-								Applications now cosed -{' '}
-								<span className={styles['date-time']}>
-									Jan 18, 12PM PT
-								</span>
+								Applications now closed -{' '}
+								<span className={styles['date-time']}>Jan 28, 12PM PT</span>
 							</p>
 							<p className={styles['location']}>📍 Remote </p>
 							<p className={styles['text']}>
 								Club applications are now closed!
 							</p>
-{/* 
+							{/* 
 							<div className={styles['button-temp']}>
 								<a
 									href="https://forms.gle/4fWFUVuifTqu4hYj7"
@@ -99,14 +98,13 @@ const Join = () => {
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
-								Checkout our edcuational resources -{' '}
-								<span className={styles['date-time']}>
-									Anytime!
-								</span>
+								Check out our edcuational resources -{' '}
+								<span className={styles['date-time']}>Anytime!</span>
 							</p>
 							<p className={styles['location']}>📍 Remote </p>
 							<p className={styles['text']}>
-								Learn more about web development via our decal and our educational resources!
+								Learn more about web development via our DeCal and our
+								educational resources!
 							</p>
 
 							<div className={styles['button-temp']}>
@@ -117,24 +115,20 @@ const Join = () => {
 									style={{ marginBottom: '1.5rem', marginRight: '1rem' }}
 								>
 									<Button text="More info here!" />
-								</a> 
+								</a>
 							</div>
 						</div>
 					</Fade>
-          <Fade up delay={169}>
+					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
-								Fall 2022 Recruting -{' '}
-								<span className={styles['date-time']}>
-                    Coming soon!
-								</span>
+								Fall 2022 Recruiting -{' '}
+								<span className={styles['date-time']}>Coming soon!</span>
 							</p>
-							<p className={styles['location']}>
-							
-									📍 Remote
-							</p>
+							<p className={styles['location']}>📍 Remote</p>
 							<p className={styles['text']}>
-								Keep an eye out on our site and on social media to stay up to date on our upcoming events!
+								Keep an eye out on our site and on social media to stay up to
+								date on our upcoming events!
 							</p>
 						</div>
 					</Fade>
@@ -333,7 +327,6 @@ const Join = () => {
 							</p>
 						</div>
 					</Fade> */}
-					
 				</div>
 				{/* <div className={styles['interested']}>
 					<img src={Bg} alt="" />
@@ -363,43 +356,43 @@ const Join = () => {
 
 					<Row lg="3" med="1" sm="1" className={styles['experience-group']}>
 						<div className={styles['testimonial1']}>
-							<img src={lizzie} alt="{role.title}" />
-							<p className={styles['text']}>
-								"WDB has allowed me to become a design sponge! Exploring my
-								interests in front-end design was something I gathered the
-								courage to pursue thanks to WDB and the support from fellow
-								designers as well as the freedom to learn design freely has been
-								fire!"
-							</p>
-							<p className={styles['title']}>Lizzie ‘24, Designer</p>
-						</div>
-						<div className={styles['testimonial2']}>
-							<img src={anjan} alt="{role.title}" />
+							<img src={danielle} alt="{role.title}" />
 							{/* <p className={styles['title']}>Anjan</p> */}
 							<p className={styles['text']}>
-								"The main reason I wanted to join WDB at first was purely
-								because I had never really gotten the chance to dabble in web
-								development, and I thought this would be a great opportunity for
-								me to actually nail down the fundamentals and then transition
-								into working hands-on on projects, something that’s pretty
-								unique to WDB. Later on I realized a lot of the friends I’ve
-								made at Berkeley have been through this club, WDB has been a
-								really important part of my Berkeley experience thus far :)"
+								"Joining WDB has been one of the best decisions I’ve made at Cal
+								because it has provided me so many opportunities to learn and
+								grow alongside some of my closest friends and the most talented
+								people in the welcoming environment WDB creates. It has been so
+								rewarding to be around such a dedicated group of people who push
+								me to explore my interests in both design and development!"
 							</p>
-							<p className={styles['title']}>Anjan ‘24, Full Stack Developer</p>
+							<p className={styles['title']}>Danielle ‘25, Designer</p>
 						</div>
-
+						<div className={styles['testimonial2']}>
+							<img src={aadhiti} alt="{role.title}" />
+							<p className={styles['text']}>
+								"Web Development at Berkeley has possibly been my favorite part
+								about being a student at Cal thus far. Combining learning how to
+								be a better programming with the chance to meet incredible
+								members of the development and design community, WDB really
+								helped me hone my skills. Despite entering as a novice
+								programmer who really didn’t know much React, I can now
+								confidently say I love web development and I’m excited to learn
+								more! "
+							</p>
+							<p className={styles['title']}>Aadhiti ‘24, Developer</p>
+						</div>
 						<div className={styles['testimonial1']}>
-							<img src={caelin} alt="{role.title}" />
+							<img src={tony} alt="{role.title}" />
 
 							<p className={styles['text']}>
-								"The development branch has exposed me to awesome clients and
-								developers. It’s been a great opportunity to expand my personal
-								network and meet some incredible people. I’ve also had a great
-								time exploring new technology stacks and seeing how others
-								think."
+								"From spending hours and hours on end working with my team to
+								finalize a web page to spending the night in Murphy, California
+								during a retreat with 40 brilliant and passionate people, I am
+								forever grateful for the opportunities that WDB has given me and
+								the people that I've been able to meet."
 							</p>
-							<p className={styles['title']}>Caelin '24, Product Manager</p>
+							<p className={styles['title']}>Tony '24, Product Manager</p>
 						</div>
 					</Row>
 				</div>

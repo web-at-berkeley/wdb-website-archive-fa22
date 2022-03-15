@@ -140,7 +140,7 @@ const Decal = () => {
 				<Header
 					subheader
 					title="Interested?"
-					description="The applications for the DeCal will open on January 18th, 2022 for the Spring 2022 semester! Check back here or on our “Join Us” page to fill out our application when applications open!"
+					description="The applications for the DeCal have closed for the Spring 2022 semester. Check back here or on our “Join Us” page next semester to fill out our application when applications open!"
 				/>
 			</div>
 
@@ -148,7 +148,7 @@ const Decal = () => {
 				<Header
 					linkheader
 					title="Course Schedule"
-					description="Check out the decal course schedule here, or go to our decal Notion for more details!"
+					description="Check out the DeCal course schedule here, or go to our DeCal Notion for more details!"
 					buttonText="fullstackdecal.com"
 					linkTo="https://www.fullstackdecal.com"
 				/>
