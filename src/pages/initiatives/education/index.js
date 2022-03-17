@@ -40,13 +40,13 @@ const Education = () => {
 						</div>
 						<div className={styles['text-col']}>
 							<p>
-								WDB runs the Introduction to Full-Stack DeCal every semester
-								starting Fall 2021. We aim to take students with any level of
-								previous programming experience and equip them with the tools to
-								build whatever they put their mind to. In addition to attending
-								lecture twice a week, students participate in a weekend-long
-								hackathon and spend the last month developing a larger-scale
-								final project in groups.
+								WDB has been running the Introduction to Full-Stack DeCal every
+								semester, starting in Fall 2021. We aim to take students with
+								any level of previous programming experience and equip them with
+								the tools to build whatever they put their mind to. In addition
+								to attending lecture twice a week, students participate in a
+								weekend-long hackathon and spend the last month developing a
+								larger-scale final project in groups.
 							</p>
 						</div>
 					</div>

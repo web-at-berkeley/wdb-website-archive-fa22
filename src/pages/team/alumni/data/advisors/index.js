@@ -21,16 +21,10 @@ import Sooyeon from './img/sooyeon.png';
 import EmilyWu from './img/emily.png';
 import Noor from './img/noor.png';
 import Atharva from './img/atharva.png';
+import Caelin from './img/caelin.png';
+import Stephen from './img/stephen.png';
 
 const data = [
-	{
-		name: 'Vicky Li',
-		image: Vicky,
-		role: 'Co-President and Co-Founder',
-		linkedin: 'https://www.linkedin.com/in/victoriayli/',
-		personal: 'https://vickyli248.github.io/',
-		email: 'mailto: victoria.li@berkeley.edu',
-	},
 	{
 		name: 'Samarth Goel',
 		image: Samarth,
@@ -38,6 +32,23 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/samarth-goel-07/',
 		personal: 'https://www.notion.so/3dffd695ef42483ca5fa13338eeb1190',
 		email: 'mailto: sgoel9@berkeley.edu',
+		semester: 0
+	},
+	{
+		name: 'Vicky Li',
+		image: Vicky,
+		role: 'Co-President and Co-Founder',
+		linkedin: 'https://www.linkedin.com/in/victoriayli/',
+		personal: 'https://vickyli248.github.io/',
+		email: 'mailto: victoria.li@berkeley.edu',
+		semester: 0
+	},
+	{
+		name: 'Aditya Bhawal',
+		image: Aditya,
+		role: 'Internal VP and Co-Founder',
+		linkedin: 'https://www.linkedin.com/in/adityabhawal/',
+		semester: 0
 	},
 	{
 		name: 'Alex Wu',
@@ -46,19 +57,24 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
 		personal:
 			'https://jialin-wu.com/Hi-I-am-Alex-Wu-e214ae8665244ef8b086d669f2d21800',
+		semester: 0
+	},
+	{
+		name: 'Caelin Sutch',
+		image: Caelin,
+		role: 'Bootcamp VP',
+		linkedin: 'https://www.linkedin.com/in/caelinsutch/',
+		personal:
+			'https://www.caelinsutch.com/',
+		semester: 0
 	},
 	{
 		name: 'Lizzie Lau',
 		image: Lizzie,
-		role: 'Design VP and Recruitment Chair',
+		role: 'Design VP',
 		linkedin: 'https://www.linkedin.com/in/lizzie-lau/',
 		personal: 'https://github.com/lizzielau',
-	},
-	{
-		name: 'Aditya Bhawal',
-		image: Aditya,
-		role: 'Internal VP and Co-Founder',
-		linkedin: 'https://www.linkedin.com/in/adityabhawal/',
+		semester: 1
 	},
 	{
 		name: 'Jasmine Chen',
@@ -66,6 +82,7 @@ const data = [
 		role: 'Design VP',
 		linkedin: 'https://www.linkedin.com/in/jasminewschen/',
 		personal: 'https://www.jasminewschen.com/',
+		semester: 1
 	},
 	{
 		name: 'Tijmen Sep',
@@ -73,6 +90,7 @@ const data = [
 		role: 'Design VP',
 		linkedin: 'https://www.linkedin.com/in/jasminewschen/',
 		personal: 'https://github.com/tijmensep',
+		semester: 0
 	},
 	{
 		name: 'Izzie Lau',
@@ -80,6 +98,7 @@ const data = [
 		role: 'Head of Marketing',
 		linkedin: 'https://www.linkedin.com/in/izzielau/',
 		personal: 'https://izzielau.github.io/',
+		semester: 1
 	},
 	{
 		name: 'Arushi Somani',
@@ -87,18 +106,21 @@ const data = [
 		role: 'Course Staff',
 		linkedin: 'https://www.linkedin.com/in/arushisomani/',
 		personal: 'http://amks.me',
+		semester: 0
 	},
 	{
 		name: 'Abhi Wadekar',
 		image: Abhi,
 		role: 'Course Staff',
 		linkedin: 'https://www.linkedin.com/in/abhiraam-wadekar/',
+		semester: 1
 	},
 	{
 		name: 'Hector Ramos',
 		image: Hector,
 		role: 'Course Staff',
 		linkedin: 'https://www.linkedin.com/in/hector-ramos-/#',
+		semester: 0
 	},
 	{
 		name: 'Albert Tian',
@@ -106,12 +128,14 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/albert-tian/',
 		personal: 'https://github.com/albTian',
+		semester: 1
 	},
 	{
 		name: 'Atharva Mehendale',
 		image: Atharva,
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/atharvamehendale/',
+		semester: 1
 	},
 
 	{
@@ -120,6 +144,7 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/noor-mahini/',
 		personal: 'https://github.com/noortor',
+		semester: 0
 	},
 	{
 		name: 'Andy Jiang',
@@ -127,6 +152,7 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/andybojiang/',
 		personal: 'http://github.com/andybojiang',
+		semester: 1
 	},
 
 	{
@@ -135,6 +161,7 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/neha-haq/',
 		personal: 'https://github.com/nwhaq1',
+		semester: 0
 	},
 	{
 		name: 'Emily Su',
@@ -142,6 +169,7 @@ const data = [
 		role: 'Product Manager',
 		linkedin: 'https://www.linkedin.com/in/emily-su/',
 		personal: 'https://github.com/emilysu01',
+		semester: 0
 	},
 	{
 		name: 'Ethan Wu',
@@ -149,12 +177,21 @@ const data = [
 		role: 'Developer',
 		linkedin: 'https://www.linkedin.com/in/ethan-wu/',
 		personal: 'https://github.com/ethan-wu366',
+		semester: 0
 	},
+	// {
+	// 	name: 'Stephen Krider',
+	// 	image: Stephen,
+	// 	role: 'Developer',
+	// 	linkedin: 'https://www.linkedin.com/in/skrider/',
+	// 	semester: 1
+	// },
 	{
 		name: 'James Shin',
 		image: James,
 		role: 'Developer',
 		linkedin: 'https://www.linkedin.com/in/jamesjungmin',
+		semester: 0
 	},
 	{
 		name: 'Henry Chiu',
@@ -162,6 +199,7 @@ const data = [
 		role: 'Developer',
 		linkedin: 'https://www.linkedin.com/in/henryychiu/',
 		personal: 'http://henrychiu.me',
+		semester: 0
 	},
 	{
 		name: 'Nerissa Hsieh',
@@ -169,12 +207,14 @@ const data = [
 		role: 'Designer',
 		linkedin: 'https://www.linkedin.com/in/nerissahsieh/',
 		personal: 'https://www.nerissahsieh.com/',
+		semester: 1
 	},
 	{
 		name: 'Sooyeon Oh',
 		image: Sooyeon,
 		role: 'Designer',
 		linkedin: 'https://www.linkedin.com/in/sooyeonoh',
+		semester: 0
 	},
 	{
 		name: 'Emily Wu',
@@ -182,6 +222,7 @@ const data = [
 		role: 'Designer',
 		linkedin: 'https://www.linkedin.com/in/emily-wu-5b121a162/',
 		personal: 'https://github.com/emilyjw98',
+		semester: 1
 	},
 ];
 

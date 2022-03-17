@@ -4,6 +4,7 @@ import leadership from './data/leadership';
 import developers from './data/developers';
 import designers from './data/designers';
 import coursestaff from './data/coursestaff';
+import met from './data/met';
 import Profile from '../../../components/profile';
 import Header from '../../../components/header';
 
@@ -17,6 +18,13 @@ import Side2 from './img/side-2.png';
 import styles from '../style.module.scss';
 
 const Members = () => {
+	const compareNames = (a, b) => {
+		return a.name.localeCompare(b.name);
+	};
+	developers.sort(compareNames);
+	designers.sort(compareNames);
+	coursestaff.sort(compareNames);
+	met.sort(compareNames);
 	return (
 		<main>
 			<Header
@@ -30,6 +38,13 @@ const Members = () => {
 				<h4 className={styles['divider-header']}>Leadership</h4>
 				<Row lg="5" sm="3" xs="2">
 					{leadership.map((data, i) => (
+						<Profile data={data} key={i} />
+					))}
+				</Row>
+
+				<h4 className={styles['divider-header']}>Member Experience Team</h4>
+				<Row lg="5" sm="3" xs="2">
+					{met.map((data, i) => (
 						<Profile data={data} key={i} />
 					))}
 				</Row>
