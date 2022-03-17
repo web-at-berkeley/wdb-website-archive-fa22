@@ -13,6 +13,8 @@ import Blobs from './img/blobs.png';
 import styles from '../style.module.scss';
 
 const Alumni = () => {
+	advisors.sort((a, b) => a.semester - b.semester)
+
 	return (
 		<main>
 			<Header title="Our alumni" subtitle="we <3 our alumni!">
