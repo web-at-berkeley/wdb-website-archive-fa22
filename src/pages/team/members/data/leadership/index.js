@@ -172,26 +172,6 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/laurapei/',
 		personal: 'https://github.com/lauraspberry',
 	},
-
-	// {
-	// 	name: 'Gabriel Meng',
-	// 	image: Gabe,
-	// 	role: 'Member Experience',
-	// 	linkedin: 'https://www.linkedin.com/in/gabrielmeng/',
-	// },
-	// {
-	// 	name: 'Meiqi Liang',
-	// 	image: Meiqi,
-	// 	role: 'Member Experience',
-	// 	linkedin: 'https://www.linkedin.com/in/meiqi-liang/',
-	// },
-
-	// {
-	// 	name: 'Rick Zhou',
-	// 	image: Rick,
-	// 	role: 'Member Experience',
-	// 	linkedin: 'https://www.linkedin.com/in/rick-zhou-a35208169//',
-	// },
 ];
 
 export default data;
