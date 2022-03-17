@@ -13,19 +13,6 @@ import Rebecca from './img/rebecca.png';
 
 const data = [
 	{
-		name: 'Kimberley Fan',
-		image: Kimberley,
-		role: 'Facilitator',
-		linkedin: 'https://www.linkedin.com/in/kimberleyfan/',
-		personal: 'https://github.com/kimberleyfan/',
-	},
-	{
-		name: 'Dhruv Vaish',
-		image: Dhruv,
-		role: 'Backend TA',
-		linkedin: 'https://www.linkedin.com/in/dhruv-vaish/',
-	},
-	{
 		name: 'Alex Wu',
 		image: Alex,
 		role: 'Full Stack TA',

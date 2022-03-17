@@ -18,6 +18,13 @@ import Side2 from './img/side-2.png';
 import styles from '../style.module.scss';
 
 const Members = () => {
+	const compareNames = (a, b) => {
+		return a.name.localeCompare(b.name);
+	};
+	developers.sort(compareNames);
+	designers.sort(compareNames);
+	coursestaff.sort(compareNames);
+	met.sort(compareNames);
 	return (
 		<main>
 			<Header

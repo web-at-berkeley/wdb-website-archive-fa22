@@ -19,6 +19,8 @@ import Meiqi from './img/meiqi.png';
 import Dominic from './img/dominic.png';
 import Edward from './img/edward.png';
 import Rick from './img/rick.png';
+import Danielle from './img/danielle.png';
+import Laura from './img/laura.png';
 
 const data = [
 	{
@@ -113,7 +115,7 @@ const data = [
 		personal: 'https://tonyxin.com',
 	},
 	{
-		name: 'Vaikundh Jaganathan',
+		name: 'Vaikundh Jagannathan',
 		image: Vaikundh,
 		role: 'Product Manager',
 		linkedin: 'http://linkedin.com/in/vaikundh',
@@ -136,19 +138,19 @@ const data = [
 	{
 		name: 'Cindy Liu',
 		image: Cindy,
-		role: 'Design Team',
+		role: 'Industry Design Mentor',
 		linkedin: 'https://www.linkedin.com/in/cindy-liu-a52a0a194/',
 	},
 	{
 		name: 'Daniel Won',
 		image: Daniel,
-		role: 'Design Team',
+		role: 'Bootcamp Design Counselor & Marketing',
 		linkedin: 'https://www.linkedin.com/in/danielw23/',
 	},
 	{
 		name: 'Isabel Zheng',
 		image: Isabel,
-		role: 'Design Team',
+		role: 'Marketing Director',
 		linkedin: 'https://www.linkedin.com/in/isabel-zheng-24003b1b2/',
 		personal:
 			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
@@ -156,8 +158,22 @@ const data = [
 	{
 		name: 'Sophia Guo',
 		image: Sophia,
-		role: 'Design Team',
+		role: 'Industry Design Mentor',
 		linkedin: 'https://www.linkedin.com/in/sophia-guo-957844149/',
+	},
+	{
+		name: 'Danielle Wong',
+		image: Danielle,
+		role: 'Industry Design Mentor',
+		linkedin: 'https://www.linkedin.com/in/danielle-n-wong',
+		personal: 'https://github.com/daniellenwong',
+	},
+	{
+		name: 'Laura Pei',
+		image: Laura,
+		role: 'Industry Design Mentor & Marketing',
+		linkedin: 'https://www.linkedin.com/in/laurapei/',
+		personal: 'https://github.com/lauraspberry',
 	},
 
 	// {
