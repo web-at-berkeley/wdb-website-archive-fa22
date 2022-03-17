@@ -16,12 +16,8 @@ import Vaikundh from './img/vaikundh.png';
 import Rex from './img/rex.png';
 import Dominic from './img/dominic.png';
 import Edward from './img/edward.png';
-<<<<<<< HEAD
-import Rick from './img/rick.png';
 import Danielle from './img/danielle.png';
 import Laura from './img/laura.png';
-=======
->>>>>>> c4a83811a462f8b5137059b84c01daeb14e11a3b
 
 const data = [
 	{
