@@ -22,7 +22,7 @@ const data = [
 	{
 		name: 'Dhruv Vaish',
 		image: Dhruv,
-		role: 'Backend TA',
+		role: 'Facilitator',
 		linkedin: 'https://www.linkedin.com/in/dhruv-vaish/',
 	},
 	{

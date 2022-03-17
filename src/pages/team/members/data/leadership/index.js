@@ -14,11 +14,8 @@ import Avinash from './img/avinash.png';
 import Tony from './img/tony.png';
 import Vaikundh from './img/vaikundh.png';
 import Rex from './img/rex.png';
-import Gabe from './img/gabe.png';
-import Meiqi from './img/meiqi.png';
 import Dominic from './img/dominic.png';
 import Edward from './img/edward.png';
-import Rick from './img/rick.png';
 
 const data = [
 	{
