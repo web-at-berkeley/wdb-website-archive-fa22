@@ -2,11 +2,8 @@ import Alex from './img/alex.png';
 import Samarth from './img/samarth.png';
 import Vicky from './img/vicky.png';
 import Isabel from './img/isabel.png';
-import Kimberley from './img/kimberley.png';
-import Dhruv from './img/dhruv.png';
 import Nitya from './img/nitya.png';
 import Joshua from './img/joshua.png';
-import Emir from './img/emir.png';
 import Neil from './img/neil.png';
 import Rachel from './img/rachel.png';
 import Rebecca from './img/rebecca.png';
@@ -67,13 +64,6 @@ const data = [
 		role: 'Frontend TA',
 		linkedin: 'https://www.linkedin.com/in/neil-kamdar/',
 		personal: 'github.com/nvk518',
-	},
-	{
-		name: 'Emir Karabeg',
-		image: Emir,
-		role: 'Fullstack TA',
-		linkedin: 'https://www.linkedin.com/in/emir-karabeg-53ab52196/',
-		personal: 'https://github.com/emir-karabeg',
 	},
 	{
 		name: 'Rebecca Won',

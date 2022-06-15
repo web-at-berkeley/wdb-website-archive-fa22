@@ -22,7 +22,11 @@ import EmilyWu from './img/emily.png';
 import Noor from './img/noor.png';
 import Atharva from './img/atharva.png';
 import Caelin from './img/caelin.png';
+import Alexis from './img/alexis.png';
 import Stephen from './img/stephen.png';
+import Justin from './img/justin.png';
+import Rick from './img/rick.png';
+import Youngjun from './img/youngjun.png';
 
 const data = [
 	{
@@ -49,6 +53,15 @@ const data = [
 		role: 'Internal VP and Co-Founder',
 		linkedin: 'https://www.linkedin.com/in/adityabhawal/',
 		semester: 0
+	},
+	{
+		name: 'Justin Chen',
+		image: Justin,
+		role: 'Co-External VP and Co-Founder',
+		linkedin: 'https://www.linkedin.com/in/justinshawnchen/',
+		personal: 'https://www.itsjustchen.com',
+		applemusic: 'https://music.apple.com/profile/jch3nx',
+		email: 'mailto: justinshawnchen@berkeley.edu',
 	},
 	{
 		name: 'Alex Wu',
@@ -224,6 +237,28 @@ const data = [
 		personal: 'https://github.com/emilyjw98',
 		semester: 1
 	},
+	{
+		name: 'Alexis Kim',
+		image: Alexis,
+		role: 'Design VP',
+		linkedin: 'https://www.linkedin.com/in/alexis-kim-1348841b6',
+		personal:
+			'https://alexiskimdesign.notion.site/ALEXIS-KIM-9032da2c255d480bbfe37233620be503',
+		email: 'mailto: alexis-kim@berkeley.edu',
+	},
+	{
+		name: 'Rick Zhou',
+		image: Rick,
+		role: 'Member Experience',
+		linkedin: 'https://www.linkedin.com/in/rick-zhou-a35208169//',
+	},
+	{
+		name: 'Youngjun Seo',
+		image: Youngjun,
+		role: 'Member Experience',
+		linkedin: 'https://www.linkedin.com/in/youngjun-seo-9170a91a1/',
+	},
+	
 ];
 
 export default data;

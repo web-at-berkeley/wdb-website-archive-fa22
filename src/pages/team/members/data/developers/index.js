@@ -5,7 +5,6 @@ import Jazem from './img/jazem.png';
 import Rishi from './img/rishi.png';
 import Saketh from './img/saketh.png';
 import Sebi from './img/sebi.png';
-
 import Adam from './img/adam.png';
 import Andrew from './img/andrew.png';
 import Anish from './img/anish.png';
@@ -16,7 +15,6 @@ import Kenzie from './img/kenzie.png';
 import Matthew from './img/matthew.png';
 import Rohan_Mathur from './img/rohan_mathur.png';
 import Rohan_Taneja from './img/rohan_taneja.png';
-import Abdul from './img/abdul.png';
 import Ayaka from './img/ayaka.png';
 import Christopher from './img/christopher.png';
 import Ishan from './img/ishan.png';
@@ -144,13 +142,7 @@ const data = [
 	},
 
 	// new members
-	{
-		name: 'Abdul Karim',
-		image: Abdul,
-		role: 'Backend Developer',
-		linkedin: 'https://www.linkedin.com/in/abdulfk/',
-		personal: 'https://github.com/CCStudent1',
-	},
+	
 	{
 		name: 'Ayaka Chou',
 		image: Ayaka,

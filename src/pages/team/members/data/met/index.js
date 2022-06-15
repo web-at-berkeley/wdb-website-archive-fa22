@@ -1,9 +1,8 @@
 import Gabe from './img/gabe.png';
 import Meiqi from './img/meiqi.png';
-import Rick from './img/rick.png';
-import Michelle from './img/michelle.png';
-import Youngjun from './img/youngjun.png';
 import Justing from './img/justing.png';
+import Alina from './img/alina.png';
+import Edward from './img/edward.png';
 const data = [
 	{
 		name: 'Gabriel Meng',
@@ -18,29 +17,25 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/meiqi-liang/',
 	},
 	{
-		name: 'Rick Zhou',
-		image: Rick,
-		role: 'Member Experience',
-		linkedin: 'https://www.linkedin.com/in/rick-zhou-a35208169//',
-	},
-	{
-		name: 'Youngjun Seo',
-		image: Youngjun,
-		role: 'Member Experience',
-		linkedin: 'https://www.linkedin.com/in/youngjun-seo-9170a91a1/',
-	},
-	{
 		name: 'Justin Chen',
 		image: Justing,
 		role: 'Member Experience',
 		linkedin: 'https://www.linkedin.com/in/justindchen/',
 	},
 	{
-		name: 'Michelle Kroll',
-		image: Michelle,
+		name: 'Edward Luna',
+		image: Edward,
 		role: 'Member Experience',
-		linkedin: 'https://www.linkedin.com/in/michellekroll01/',
-		personal: 'https://github.com/michellekroll',
+		linkedin: 'https://www.linkedin.com/in/edwardlunacs/',
+		email: 'mailto: mister.luna@berkeley.edu',
+	},
+	{
+		name: 'Alina',
+		image: Alina,
+		role: 'Member Experience',
+		linkedin: 'https://www.linkedin.com/in/wangerful/',
+		personal: 'https://github.com/aliner-wang',
+		email: 'mailto: alina.wang@berkeley.edu',
 	},
 ];
 
