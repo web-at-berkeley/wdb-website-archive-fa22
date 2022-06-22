@@ -1,6 +1,7 @@
 import Rex from './img/rex.png';
 import Meiqi from './img/meiqi.png';
 import Ethan from './img/ethan_chng.png';
+import Nitya from './img/nitya.png';
 import Rohan_Taneja from './img/rohan_taneja.png';
 
 const data = [
@@ -31,6 +32,13 @@ const data = [
 		role: 'Frontend Counselor',
 		linkedin: 'https://www.linkedin.com/in/rohan-taneja/',
 		personal: 'https://www.rtaneja.com',
+	},
+	{
+		name: 'Nitya Krishnakumar',
+		image: Nitya,
+		role: 'Frontend Counselor',
+		linkedin: 'https://www.linkedin.com/in/nitya-krish/',
+		personal: 'https://github.com/nitya-krish',
 	},
 ];
 

@@ -2,11 +2,9 @@ import Aadhiti from './img/aadhiti.png';
 import Aniruddh from './img/aniruddh.png';
 import Jazem from './img/jazem.png';
 import Rishi from './img/rishi.png';
-import Saketh from './img/saketh.png';
 import Sebi from './img/sebi.png';
 import Andrew from './img/andrew.png';
 import Ansa from './img/ansa.png';
-import Ethan_Pang from './img/ethan_pang.png';
 import Kenzie from './img/kenzie.png';
 import Matthew from './img/matthew.png';
 import Rohan_Mathur from './img/rohan_mathur.png';
@@ -29,14 +27,6 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/andrewtomm',
 		personal: 'https://github.com/toma681',
 	},
-	{
-		name: 'Ethan Pang',
-		image: Ethan_Pang,
-		role: 'Frontend Developer',
-		linkedin: 'https://github.com/ethanpang5',
-		personal: 'https://ethanpang5.github.io/',
-	},
-	
 	{
 		name: 'Kenzie Tee',
 		image: Kenzie,
@@ -89,13 +79,6 @@ const data = [
 		image: Rishi,
 		role: 'Backend Developer',
 		linkedin: 'https://www.linkedin.com/in/rishi-khare-112b0018b/',
-	},
-	{
-		name: 'Saketh Panchumarthy',
-		image: Saketh,
-		role: 'Full-stack Developer',
-		linkedin: 'https://www.linkedin.com/in/sakethpanchumarthy/',
-		personal: 'https://github.com/spanch2',
 	},
 	{
 		name: 'Sebastiaan Szafir',

@@ -5,18 +5,18 @@ import CourseStaff from '../team/members/data/coursestaff';
 import Profile from '../../components/profile';
 import Header from '../../components/header';
 
-import Timeline from './constants/Timeline.js';
+// import Timeline from './constants/Timeline.js';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import Carousel, {
-	slidesToShowPlugin,
-	arrowsPlugin,
-} from '@brainhubeu/react-carousel';
+// import Carousel, {
+// 	slidesToShowPlugin,
+// 	arrowsPlugin,
+// } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
-import left from './img/leftarrow.png';
-import right from './img/rightarrow.png';
+// import left from './img/leftarrow.png';
+// import right from './img/rightarrow.png';
 
 import Calender from './img/calender.png';
 import Clock from './img/clock.png';

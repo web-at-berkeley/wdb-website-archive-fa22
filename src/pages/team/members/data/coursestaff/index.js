@@ -6,6 +6,7 @@ import Rebecca from './img/rebecca.png';
 import Isaac from './img/isaac.png';
 import Ethan from './img/ethan_chng.png';
 import William_Henderson from './img/william_henderson.png';
+import Ethan_Pang from './img/ethan_pang.png';
 
 const data = [
 	{
@@ -61,6 +62,13 @@ const data = [
 		role: 'Frontend TA',
 		linkedin: 'https://www.linkedin.com/in/william-b-henderson/',
 		personal: 'https://github.com/william-b-henderson',
+	},
+	{
+		name: 'Ethan Pang',
+		image: Ethan_Pang,
+		role: 'Frontend TA',
+		linkedin: 'https://github.com/ethanpang5',
+		personal: 'https://ethanpang5.github.io/',
 	},
 ];
 
