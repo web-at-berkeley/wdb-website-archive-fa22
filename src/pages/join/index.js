@@ -16,9 +16,9 @@ import Bg from './img/bg.png';
 import Blobs from './img/blobs.png';
 import Blobs2 from './img/blobs2.png';
 import Blobs3 from './img/blobs3.png';
-import tony from '../team/members/data/leadership/img/tony.png';
+import tony from '../team/members/data/Product/img/tony.png';
 import aadhiti from '../team/members/data/developers/img/aadhiti.png';
-import danielle from '../team/members/data/designers/img/danielle.png';
+import danielle from '../team/members/data/Exec/img/danielle.png';
 
 import styles from './style.module.scss';
 

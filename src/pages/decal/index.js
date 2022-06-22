@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Leadership from '../team/members/data/leadership';
+import Leadership from '../team/members/data/exec';
 import CourseStaff from '../team/members/data/coursestaff';
 import Profile from '../../components/profile';
 import Header from '../../components/header';
