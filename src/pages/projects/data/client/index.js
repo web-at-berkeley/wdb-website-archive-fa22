@@ -1,3 +1,7 @@
+// Spring 2022
+import NSF from './img/SMC.png';
+import Weekly from './img/weekly.png';
+
 // Fall 2021
 import Provecho from './img/provecho.png';
 import Goahead from './img/goahead.png';
@@ -18,6 +22,29 @@ import BarracudaTechnologies from './img/barracuda.png';
 import BPT from './img/bpt.png';
 
 export const data = [
+	// Spring 2022
+	{
+		name: 'National Science Foundation',
+		cover: NSF,
+		subtitle: 'Student Mission Control',
+		label: 'nsf',
+		color: 'rgba(241, 173, 145, 0.3)',
+		link: 'https://www.nsf.gov',
+		technologies: ['React, Node, GCP'],
+		lead: ['Vaikundh Jagannathan'],
+		semester: 'Spring 2022',
+	},
+	{
+		name: 'Weekly',
+		cover: Weekly,
+		subtitle: 'Digital Habits Tracker',
+		label: 'weekly',
+		color: 'rgba(241, 173, 145, 0.3)',
+		link: '/',
+		technologies: ['React, Node, DynamoDB'],
+		lead: ['Avinash Rao', 'Tony Xin'],
+		semester: 'Spring 2022',
+	},
 	// Fall 2021
 	{
 		name: 'Provecho',
