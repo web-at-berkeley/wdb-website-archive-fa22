@@ -13,11 +13,9 @@ import Col from 'react-bootstrap/Col';
 import styles from './style.module.scss';
 
 const Projects = () => {
-	const currentProjects = clientProjects
-		.filter((project) => project.semester === 'Fall 2021')
-		.concat(
-			nonprofitProjects.filter((project) => project.semester === 'Fall 2021')
-		);
+	const currentProjects = clientProjects.filter(
+		(project) => project.semester === 'Spring 2022'
+	);
 
 	return (
 		<main>
@@ -41,7 +39,7 @@ const Projects = () => {
 				<h3 className={styles['header']}>Industry Clients</h3>
 				<Row>
 					{clientProjects
-						.filter((project) => project.semester !== 'Fall 2021')
+						.filter((project) => project.semester !== 'Spring 2022')
 						.map((project) => (
 							<Project project={project} />
 						))}
