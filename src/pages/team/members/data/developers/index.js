@@ -18,6 +18,7 @@ import Taiga from './img/taiga.png';
 import Victor from './img/victor.png';
 import Vihan from './img/vihan.png';
 import Amy from './img/amy.png';
+import Sanjeev from './img/sanjeev.png';
 
 const data = [
 	{
@@ -89,7 +90,7 @@ const data = [
 	},
 
 	// new members
-	
+
 	{
 		name: 'Ayaka Chou',
 		image: Ayaka,
@@ -124,7 +125,7 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/priyavenugopal24/',
 		personal: 'https://github.com/priya0004',
 	},
-	
+
 	{
 		name: 'Ryan Huang',
 		image: Ryan,
@@ -159,6 +160,13 @@ const data = [
 		role: 'Bootcamp Developer',
 		linkedin: 'https://www.linkedin.com/in/amy-kwon-928872142',
 		personal: 'https://github.com/amygee1209',
+	},
+	{
+		name: 'Sanjeev Thurgam',
+		image: Sanjeev,
+		role: 'Bootcamp Developer',
+		linkedin: 'hhttps://www.linkedin.com/in/sanjeev-thurgam-1188b0196/',
+		personal: 'https://github.com/SanjeevThurgam',
 	},
 ];
 
