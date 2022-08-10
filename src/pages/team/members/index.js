@@ -26,9 +26,12 @@ const Members = () => {
 	const compareNames = (a, b) => {
 		return a.name.localeCompare(b.name);
 	};
+	Product.sort(compareNames);
+	external.sort(compareNames);
 	developers.sort(compareNames);
 	designers.sort(compareNames);
 	coursestaff.sort(compareNames);
+	counselors.sort(compareNames);
 	met.sort(compareNames);
 	return (
 		<main>
@@ -47,13 +50,6 @@ const Members = () => {
 					))}
 				</Row>
 
-				<h4 className={styles['divider-header']}>Design Team</h4>
-				<Row lg="5" sm="3" xs="2">
-					{designteam.map((data, i) => (
-						<Profile data={data} key={i} />
-					))}
-				</Row>
-
 				<h4 className={styles['divider-header']}>Product Managers</h4>
 				<Row lg="5" sm="3" xs="2">
 					{Product.map((data, i) => (
@@ -64,6 +60,13 @@ const Members = () => {
 				<h4 className={styles['divider-header']}>Bootcamp Counselors</h4>
 				<Row lg="5" sm="3" xs="2">
 					{counselors.map((data, i) => (
+						<Profile data={data} key={i} />
+					))}
+				</Row>
+
+				<h4 className={styles['divider-header']}>Design Team</h4>
+				<Row lg="5" sm="3" xs="2">
+					{designteam.map((data, i) => (
 						<Profile data={data} key={i} />
 					))}
 				</Row>
