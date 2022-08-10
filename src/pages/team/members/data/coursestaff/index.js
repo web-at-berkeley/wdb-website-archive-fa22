@@ -1,45 +1,20 @@
-import Alex from './img/alex.png';
-import Samarth from './img/samarth.png';
-import Vicky from './img/vicky.png';
 import Isabel from './img/isabel.png';
-import Kimberley from './img/kimberley.png';
-import Dhruv from './img/dhruv.png';
 import Nitya from './img/nitya.png';
 import Joshua from './img/joshua.png';
-import Emir from './img/emir.png';
-import Neil from './img/neil.png';
 import Rachel from './img/rachel.png';
 import Rebecca from './img/rebecca.png';
+import Isaac from './img/isaac.png';
+import Ethan from './img/ethan_chng.png';
+import William_Henderson from './img/william_henderson.png';
+import Ethan_Pang from './img/ethan_pang.png';
 
 const data = [
-	{
-		name: 'Alex Wu',
-		image: Alex,
-		role: 'Full Stack TA',
-		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
-		personal:
-			'https://jialin-wu.com/Hi-I-am-Alex-Wu-e214ae8665244ef8b086d669f2d21800',
-	},
-	{
-		name: 'Samarth Goel',
-		image: Samarth,
-		role: 'Full Stack TA',
-		linkedin: 'https://www.linkedin.com/in/samarth-goel-07/',
-		personal: 'https://www.notion.so/3dffd695ef42483ca5fa13338eeb1190',
-	},
 	{
 		name: 'Nitya Krishnakumar',
 		image: Nitya,
 		role: 'Frontend TA',
 		linkedin: 'https://www.linkedin.com/in/nitya-krish/',
 		personal: 'https://github.com/nitya-krish',
-	},
-	{
-		name: 'Vicky Li',
-		image: Vicky,
-		role: 'Design TA',
-		linkedin: 'https://www.linkedin.com/in/victoriayli/',
-		personal: 'https://vickyli248.github.io/',
 	},
 	{
 		name: 'Isabel Zheng',
@@ -62,92 +37,39 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/rachel-ngjiemin',
 	},
 	{
-		name: 'Neil Kamdar',
-		image: Neil,
-		role: 'Frontend TA',
-		linkedin: 'https://www.linkedin.com/in/neil-kamdar/',
-		personal: 'github.com/nvk518',
-	},
-	{
-		name: 'Emir Karabeg',
-		image: Emir,
-		role: 'Fullstack TA',
-		linkedin: 'https://www.linkedin.com/in/emir-karabeg-53ab52196/',
-		personal: 'https://github.com/emir-karabeg',
-	},
-	{
 		name: 'Rebecca Won',
 		image: Rebecca,
 		role: 'Frontend TA',
 		linkedin: 'https://www.linkedin.com/in/rebecca-won-1ba6191b5/',
 	},
+	{
+		name: 'Isaac Ong',
+		image: Isaac,
+		role: 'Backend TA',
+		linkedin: 'https://www.linkedin.com/in/isaacong',
+		personal: 'https://isaacong.me',
+	},
+	{
+		name: 'Ethan Chng',
+		image: Ethan,
+		role: 'Design TA',
+		linkedin: 'https://www.linkedin.com/in/ethanchng/',
+		personal: 'https://www.ethanchng.com/',
+	},
+	{
+		name: 'William Henderson',
+		image: William_Henderson,
+		role: 'Frontend TA',
+		linkedin: 'https://www.linkedin.com/in/william-b-henderson/',
+		personal: 'https://github.com/william-b-henderson',
+	},
+	{
+		name: 'Ethan Pang',
+		image: Ethan_Pang,
+		role: 'Frontend TA',
+		linkedin: 'https://github.com/ethanpang5',
+		personal: 'https://ethanpang5.github.io/',
+	},
 ];
-
-// const data = [
-// 	{
-// 		name: 'Caelin Sutch',
-// 		image: Caelin,
-// 		role: 'Facilitator',
-// 		linkedin: 'https://www.linkedin.com/in/caelinsutch/',
-// 		personal: 'https://www.caelinsutch.com/',
-// 		email: 'mailto: caelinsutch@berkeley.edu',
-// 	},
-// 	{
-// 		name: 'Alex Wu',
-// 		image: Alex,
-// 		role: 'Full Stack TA',
-// 		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
-// 		personal:
-// 			'https://jialin-wu.com/Hi-I-am-Alex-Wu-e214ae8665244ef8b086d669f2d21800',
-// 	},
-// 	{
-// 		name: 'Samarth Goel',
-// 		image: Samarth,
-// 		role: 'Full Stack TA',
-// 		linkedin: 'https://www.linkedin.com/in/samarth-goel-07/',
-// 		personal: 'https://www.notion.so/3dffd695ef42483ca5fa13338eeb1190',
-// 	},
-// 	{
-// 		name: 'Kimberley Fan',
-// 		image: Kimberley,
-// 		role: 'Frontend TA',
-// 		linkedin: 'https://www.linkedin.com/in/kimberleyfan/',
-// 		personal: 'www.github.com/kimberleyfan',
-// 	},
-// 	{
-// 		name: 'Nitya Krishnakumar',
-// 		image: Nitya,
-// 		role: 'Frontend TA',
-// 		linkedin: 'https://www.linkedin.com/in/nitya-krish/',
-// 		personal: 'https://github.com/nitya-krish',
-// 	},
-// 	{
-// 		name: 'Dhruv Vaish',
-// 		image: Dhruv,
-// 		role: 'Backend TA',
-// 		linkedin: 'https://www.linkedin.com/in/dhruv-vaish/',
-// 	},
-// 	{
-// 		name: 'Waleed Latif',
-// 		image: Waleed,
-// 		role: 'Backend TA',
-// 		linkedin: 'https://www.linkedin.com/in/waleedlatif/',
-// 	},
-// 	{
-// 		name: 'Vicky Li',
-// 		image: Vicky,
-// 		role: 'Design TA',
-// 		linkedin: 'https://www.linkedin.com/in/victoriayli/',
-// 		personal: 'https://vickyli248.github.io/',
-// 	},
-// 	{
-// 		name: 'Isabel Zheng',
-// 		image: Isabel,
-// 		role: 'Design TA',
-// 		linkedin: 'https://www.linkedin.com/in/isabel-zheng-24003b1b2/',
-// 		personal:
-// 			'https://www.notion.so/Welcome-to-Isabel-s-Space-b762d57ef4fb4c6bbc055a520bc2d28f',
-// 	},
-// ];
 
 export default data;

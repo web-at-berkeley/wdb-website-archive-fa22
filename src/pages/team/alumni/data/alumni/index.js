@@ -5,8 +5,68 @@ import Jessica from './img/jessica.png';
 import Raga from './img/raga.png';
 import Melody from './img/melody.png';
 import Ervin from './img/ervin.png';
+import Gabe from './img/gabe.png';
+import Alex from './img/alex.png';
+import Atharva from './img/atharva.png';
+import James from './img/james.png';
+import EmilySu from './img/emily_su.png';
+import Neha from './img/neha.png'
+import Izzie from './img/izzie.png';
 
 const data = [
+	// Spring 2022
+	{
+		name: 'Gabriel Meng',
+		image: Gabe,
+		role: 'Member Experience',
+		linkedin: 'https://www.linkedin.com/in/gabrielmeng/',
+	},
+	{
+		name: 'Alex Wu',
+		image: Alex,
+		role: 'Full Stack TA',
+		linkedin: 'https://www.linkedin.com/in/jialin-wu-658929185/',
+		personal:
+			'https://jialin-wu.com/Hi-I-am-Alex-Wu-e214ae8665244ef8b086d669f2d21800',
+	},
+	{
+		name: 'Atharva Mehendale',
+		image: Atharva,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/atharvamehendale/',
+		semester: 1
+	},
+	{
+		name: 'James Shin',
+		image: James,
+		role: 'Developer',
+		linkedin: 'https://www.linkedin.com/in/jamesjungmin',
+		semester: 0
+	},
+	{
+		name: 'Emily Su',
+		image: EmilySu,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/emily-su/',
+		personal: 'https://github.com/emilysu01',
+		semester: 0
+	},
+	{
+		name: 'Neha Haq',
+		image: Neha,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/neha-haq/',
+		personal: 'https://github.com/nwhaq1',
+		semester: 0
+	},
+	{
+		name: 'Izzie Lau',
+		image: Izzie,
+		role: 'Head of Marketing',
+		linkedin: 'https://www.linkedin.com/in/izzielau/',
+		personal: 'https://izzielau.github.io/',
+		semester: 1
+	},
 	// Fall 2021
 	{
 		name: 'Ani Vangala',

@@ -104,3 +104,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# yarn.lock created when running yarn
+.yarn.lock
