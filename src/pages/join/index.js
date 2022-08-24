@@ -33,7 +33,7 @@ const Join = () => {
 			<Container className={styles['container']}>
 				<div className={styles['recruitment']}>
 					<img src={Blobs2} alt="" />
-					<h3>Applications are now closed!</h3>
+					<h3>Applications are now open!</h3>
 					<p className={styles['descrip']}>
 						Thank you so much for your interest in joining WDB! We'd love to
 						stay in touch with you and answer any questions you may have. Feel
@@ -68,13 +68,14 @@ const Join = () => {
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
-								Applications now closed -{' '}
-								<span className={styles['date-time']}>Jan 28, 12PM PT</span>
+								Applications now open -{' '}
+								<span className={styles['date-time']}>August 22, 12PM PST</span>
 							</p>
-							<p className={styles['location']}>📍 Remote </p>
-							<p className={styles['text']}>
-								Club applications are now closed!
-							</p>
+							<p className={styles['location']}>📍 Berkeley, CA </p>
+							<div className={styles['apply-buttons']}>
+								<Button text="Club Application" onClick={() => window.location.replace("https://airtable.com/shrYd7lnwi2TAiRLM")}/>
+								<Button text="DeCal Application" onClick={() => window.location.replace("https://docs.google.com/forms/d/e/1FAIpQLSfZXAejR-KBRweoEROijabMJpwXhAIBtsp75RzgXp-y5oMQcQ/viewform")}/>
+							</div>
 							{/* 
 							<div className={styles['button-temp']}>
 								<a
@@ -119,7 +120,7 @@ const Join = () => {
 							</div>
 						</div>
 					</Fade>
-					<Fade up delay={169}>
+					{/*<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
 								Fall 2022 Recruiting -{' '}
@@ -131,7 +132,7 @@ const Join = () => {
 								date on our upcoming events!
 							</p>
 						</div>
-					</Fade>
+						</Fade>*/}
 					{/* <Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>

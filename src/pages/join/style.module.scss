@@ -295,3 +295,14 @@
 		}
 	}
 }
+
+.apply-buttons {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	> :not(:last-child) {
+		margin-right: 10px;
+	}
+}
