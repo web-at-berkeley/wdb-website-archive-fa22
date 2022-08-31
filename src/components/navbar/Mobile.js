@@ -110,13 +110,13 @@ const SiteNavbar = ({ landing }) => {
 							>
 								Alumni
 							</Link>
-							<Link
-								to="/decal"
+							<a
+								href="https://fullstackdecal.com/"
 								onClick={clearState}
 								className={styles['nav-link']}
 							>
 								DeCal
-							</Link>
+							</a>
 							<Link
 								to="/projects"
 								onClick={clearState}

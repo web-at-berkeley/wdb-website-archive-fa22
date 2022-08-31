@@ -73,9 +73,12 @@ const SiteNavbar = ({ landing }) => {
 								</div>
 							</div>
 						</div>
-						<Link to="/decal" className={styles['nav-link']}>
+						<a
+							href="https://fullstackdecal.com/"
+							className={styles['nav-link']}
+						>
 							DeCal
-						</Link>
+						</a>
 						<Link to="/projects" className={styles['nav-link']}>
 							Projects
 						</Link>
