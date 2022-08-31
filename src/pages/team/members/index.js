@@ -71,7 +71,7 @@ const Members = () => {
 					))}
 				</Row>
 
-				<h4 className={styles['divider-header']}>External</h4>
+				<h4 className={styles['divider-header']}>External Team</h4>
 				<Row lg="5" sm="3" xs="2">
 					{external.map((data, i) => (
 						<Profile data={data} key={i} />
@@ -91,6 +91,13 @@ const Members = () => {
 						<Profile data={data} k ey={i} />
 					))}
 				</Row>
+				
+				<h4 className={styles['divider-header']}>Designers</h4>
+				<Row lg="5" sm="3" xs="2">
+					{designers.map((data, i) => (
+						<Profile data={data} key={i} />
+					))}
+				</Row>
 
 				<h4 className={styles['divider-header']}>Developers</h4>
 				<Row lg="5" sm="3" xs="2">
@@ -99,12 +106,7 @@ const Members = () => {
 					))}
 				</Row>
 
-				<h4 className={styles['divider-header']}>Designers</h4>
-				<Row lg="5" sm="3" xs="2">
-					{designers.map((data, i) => (
-						<Profile data={data} key={i} />
-					))}
-				</Row>
+				
 			</Container>
 		</main>
 	);
