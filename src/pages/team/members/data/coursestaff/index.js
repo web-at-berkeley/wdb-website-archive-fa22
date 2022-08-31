@@ -1,7 +1,6 @@
 import Isabel from './img/isabel.png';
 import Nitya from './img/nitya.png';
 import Joshua from './img/joshua.png';
-import Rachel from './img/rachel.png';
 import Rebecca from './img/rebecca.png';
 import Isaac from './img/isaac.png';
 import Ethan from './img/ethan_chng.png';
@@ -29,12 +28,6 @@ const data = [
 		role: 'Backend TA',
 		linkedin: 'https://www.linkedin.com/in/joshua-tsai-01/',
 		personal: 'https://github.com/potatohash78',
-	},
-	{
-		name: 'Rachel Ng',
-		image: Rachel,
-		role: 'Backend TA',
-		linkedin: 'https://www.linkedin.com/in/rachel-ngjiemin',
 	},
 	{
 		name: 'Rebecca Won',

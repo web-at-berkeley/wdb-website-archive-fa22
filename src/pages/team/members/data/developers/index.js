@@ -3,7 +3,7 @@ import Aniruddh from './img/aniruddh.png';
 import Jazem from './img/jazem.png';
 import Rishi from './img/rishi.png';
 import Sebi from './img/sebi.png';
-import Andrew from './img/andrew.png';
+
 import Ansa from './img/ansa.png';
 import Kenzie from './img/kenzie.png';
 import Matthew from './img/matthew.png';
@@ -21,13 +21,6 @@ import Amy from './img/amy.png';
 import Sanjeev from './img/sanjeev.png';
 
 const data = [
-	{
-		name: 'Andrew Tom',
-		image: Andrew,
-		role: 'Backend Developer',
-		linkedin: 'https://www.linkedin.com/in/andrewtomm',
-		personal: 'https://github.com/toma681',
-	},
 	{
 		name: 'Kenzie Tee',
 		image: Kenzie,

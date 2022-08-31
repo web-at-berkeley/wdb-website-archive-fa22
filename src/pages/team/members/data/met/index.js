@@ -1,4 +1,3 @@
-import Justing from './img/justing.png';
 import Alina from './img/alina.png';
 import Edward from './img/edward.png';
 import Isaac from './img/isaac.png';
@@ -10,12 +9,6 @@ import Meiqi from './img/meiqi.png';
 
 
 const data = [
-	{
-		name: 'Justin Chen',
-		image: Justing,
-		role: 'Member Experience',
-		linkedin: 'https://www.linkedin.com/in/justindchen/',
-	},
 	{
 		name: 'Edward Luna',
 		image: Edward,
