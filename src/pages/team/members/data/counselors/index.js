@@ -1,8 +1,8 @@
 import Rex from './img/rex.png';
 import Meiqi from './img/meiqi.png';
-import Ethan from './img/ethan_chng.png';
 import Nitya from './img/nitya.png';
 import Rohan_Taneja from './img/rohan_taneja.png';
+import Jessica from './img/jessica.png';
 
 const data = [
 	{
@@ -20,11 +20,10 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/meiqi-liang/',
 	},
 	{
-		name: 'Ethan Chng',
-		image: Ethan,
-		role: 'Design Counselor',
-		linkedin: 'https://www.linkedin.com/in/ethanchng/',
-		personal: 'https://www.ethanchng.com/',
+		name: 'Jessica Hwang',
+		image: Jessica,
+		role: 'Product Designer',
+		personal: 'https://www.github.com/jyjhwang',
 	},
 	{
 		name: 'Rohan Taneja',

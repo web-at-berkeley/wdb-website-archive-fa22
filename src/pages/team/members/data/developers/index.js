@@ -1,11 +1,8 @@
 import Aadhiti from './img/aadhiti.png';
 import Aniruddh from './img/aniruddh.png';
-import Jazem from './img/jazem.png';
 import Rishi from './img/rishi.png';
 import Sebi from './img/sebi.png';
-
 import Ansa from './img/ansa.png';
-import Kenzie from './img/kenzie.png';
 import Matthew from './img/matthew.png';
 import Rohan_Mathur from './img/rohan_mathur.png';
 import Ayaka from './img/ayaka.png';
@@ -21,13 +18,6 @@ import Amy from './img/amy.png';
 import Sanjeev from './img/sanjeev.png';
 
 const data = [
-	{
-		name: 'Kenzie Tee',
-		image: Kenzie,
-		role: 'Backend Developer',
-		linkedin: 'https://www.linkedin.com/in/kenzie-tee/',
-		personal: 'https://github.com/teekenzie',
-	},
 	{
 		name: 'Matthew Lee',
 		image: Matthew,
@@ -62,13 +52,6 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/aniruddh-chennapragada-976278179/',
 	},
 	{
-		name: 'Jazem Siddiqui',
-		image: Jazem,
-		role: 'Frontend Developer',
-		linkedin: 'https://www.linkedin.com/in/jazems/',
-		personal: 'https://jazems.github.io/',
-	},
-	{
 		name: 'Rishi Khare',
 		image: Rishi,
 		role: 'Backend Developer',
@@ -81,9 +64,6 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/sebastiaan-szafir-fridman',
 		personal: 'https://zubatomic.com',
 	},
-
-	// new members
-
 	{
 		name: 'Ayaka Chou',
 		image: Ayaka,

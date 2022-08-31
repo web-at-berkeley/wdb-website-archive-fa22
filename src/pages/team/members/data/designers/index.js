@@ -1,20 +1,7 @@
-//Industry
-import Jessica from './img/jessica-1.png';
-
-//Bootcamp
 import Natalia from './img/natalia.png';
 import Leen from './img/leen.png';
 
 const data = [
-	//Industry
-	{
-		name: 'Jessica Hwang',
-		image: Jessica,
-		role: 'Product Designer',
-		personal: 'https://www.github.com/jyjhwang',
-	},
-
-	//Bootcamp
 	{
 		name: 'Natalia Shamoon',
 		image: Natalia,

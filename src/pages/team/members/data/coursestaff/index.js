@@ -3,7 +3,6 @@ import Nitya from './img/nitya.png';
 import Joshua from './img/joshua.png';
 import Rebecca from './img/rebecca.png';
 import Isaac from './img/isaac.png';
-import Ethan from './img/ethan_chng.png';
 import William_Henderson from './img/william_henderson.png';
 import Ethan_Pang from './img/ethan_pang.png';
 
@@ -41,13 +40,6 @@ const data = [
 		role: 'Backend TA',
 		linkedin: 'https://www.linkedin.com/in/isaacong',
 		personal: 'https://isaacong.me',
-	},
-	{
-		name: 'Ethan Chng',
-		image: Ethan,
-		role: 'Design TA',
-		linkedin: 'https://www.linkedin.com/in/ethanchng/',
-		personal: 'https://www.ethanchng.com/',
 	},
 	{
 		name: 'William Henderson',

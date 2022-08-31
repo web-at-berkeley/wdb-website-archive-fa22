@@ -22,8 +22,9 @@ import Rick from './img/rick.png';
 import Youngjun from './img/youngjun.png';
 import Laura from './img/laura.png';
 import Neil from './img/neil.png';
+import Daniel from './img/daniel.png';
 
-const data = [
+const data = [	
 	{
 		name: 'Samarth Goel',
 		image: Samarth,
@@ -220,6 +221,12 @@ const data = [
 		linkedin: 'https://www.linkedin.com/in/neil-kamdar/',
 		personal: 'github.com/nvk518',
 	},
+	{
+		name: 'Daniel Won',
+		image: Daniel,
+		role: 'Bootcamp Design Counselor & Marketing',
+		linkedin: 'https://www.linkedin.com/in/danielw23/',
+	}
 	
 ];
 
