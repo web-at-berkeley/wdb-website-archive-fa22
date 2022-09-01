@@ -2,7 +2,6 @@ import Meiqi from './img/meiqi.png';
 import Jessica from './img/jessica.png';
 
 const data = [
-
 	{
 		name: 'Jessica Hwang',
 		image: Jessica,

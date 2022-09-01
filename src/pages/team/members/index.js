@@ -91,7 +91,7 @@ const Members = () => {
 						<Profile data={data} k ey={i} />
 					))}
 				</Row>
-				
+
 				<h4 className={styles['divider-header']}>Designers</h4>
 				<Row lg="5" sm="3" xs="2">
 					{designers.map((data, i) => (
@@ -99,6 +99,7 @@ const Members = () => {
 					))}
 				</Row>
 
+				
 				<h4 className={styles['divider-header']}>Developers</h4>
 				<Row lg="5" sm="3" xs="2">
 					{developers.map((data, i) => (

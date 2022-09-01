@@ -9,7 +9,7 @@ import Gabe from './img/gabe.png';
 import Alex from './img/alex.png';
 import Atharva from './img/atharva.png';
 import James from './img/james.png';
-import EmilySu from './img/emily_su.png';
+
 import Neha from './img/neha.png'
 import Izzie from './img/izzie.png';
 
@@ -41,14 +41,6 @@ const data = [
 		image: James,
 		role: 'Developer',
 		linkedin: 'https://www.linkedin.com/in/jamesjungmin',
-		semester: 0
-	},
-	{
-		name: 'Emily Su',
-		image: EmilySu,
-		role: 'Product Manager',
-		linkedin: 'https://www.linkedin.com/in/emily-su/',
-		personal: 'https://github.com/emilysu01',
 		semester: 0
 	},
 	{

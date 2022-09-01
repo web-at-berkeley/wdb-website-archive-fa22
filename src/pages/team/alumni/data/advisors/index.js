@@ -23,6 +23,7 @@ import Youngjun from './img/youngjun.png';
 import Laura from './img/laura.png';
 import Neil from './img/neil.png';
 import Daniel from './img/daniel.png';
+import EmilySu from './img/emily_su.png';
 
 const data = [	
 	{
@@ -226,7 +227,15 @@ const data = [
 		image: Daniel,
 		role: 'Bootcamp Design Counselor & Marketing',
 		linkedin: 'https://www.linkedin.com/in/danielw23/',
-	}
+	}, 	
+	{
+		name: 'Emily Su',
+		image: EmilySu,
+		role: 'Product Manager',
+		linkedin: 'https://www.linkedin.com/in/emily-su/',
+		personal: 'https://github.com/emilysu01',
+		semester: 0
+	},
 	
 ];
 
