@@ -20,12 +20,6 @@ const Profile = ({ data }) => {
 				{data.role}
 			</h6>
 
-			{data.at && (
-				<h6 className={styles['role']} style={{ marginTop: '.3rem' }} id="at">
-					{data.at}
-				</h6>
-			)}
-
 			<div className={styles['socials']}>
 				{socials.map(({ name, id }) => {
 					return (
