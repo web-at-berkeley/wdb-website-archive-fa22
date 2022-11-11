@@ -8,7 +8,7 @@ import Logo from '../../assets/icons/logo-black.png';
 
 import styles from './Footer.module.scss';
 import classnames from 'classnames';
-import breakpoints from './style.module.scss';
+import breakpoints from './Footer.module.scss';
 
 const Footer = () => {
 	return (

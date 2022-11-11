@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 
 import styles from './style.module.scss';
 
-import Fade from 'react-reveal/Fade';
+const Fade = require('react-reveal/Fade');
 
 interface Header_Props {
 	subheader?: string;
@@ -17,6 +17,7 @@ interface Header_Props {
 	buttonText?: string;
 	linkHeader?: string;
 	className?: string;
+	children?: any;
 }
 
 const Header = ({
