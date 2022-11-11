@@ -1,19 +1,9 @@
-import React from 'react';
-
-// import testimonials from './constants/Testimonials';
-// import recruitment from './constants/Recruitment';
 import Header from '../../components/header';
 import Button from '../../components/button';
 
-// import { Link } from 'react-router-dom';
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-
 import Fade from 'react-reveal/Fade';
-
-// import Bg from './img/bg.png';
-// import Blobs from './img/blobs.png';
 import Blobs2 from './img/blobs2.png';
 import Blobs3 from './img/blobs3.png';
 import tony from '../../assets/pfps/tony-xin-0.jpg';
@@ -33,39 +23,14 @@ const Join = () => {
 			<Container className={styles['container']}>
 				<div className={styles['recruitment']}>
 					<img src={Blobs2} alt="" />
-					<h3>Applications are now open!</h3>
+					<h3>Applications are now closed.</h3>
 					<p className={styles['descrip']}>
 						Thank you so much for your interest in joining WDB! We'd love to
 						stay in touch with you and answer any questions you may have. Feel
 						free to reach out to us if you'd liked to learn more, and check out
 						our educational resources below!
 					</p>
-					{/* <div className={styles['button-interest']}>
-							<a
-									href="https://forms.gle/4fWFUVuifTqu4hYj7"
-									target="_blank"
-									rel="noreferrer"
-									style={{ marginBottom: '1.5rem', marginRight: '1rem'}}
-								>
-									<Button text="Dev + Designer Application" />
-								</a> 
-								<a
-									href="https://forms.gle/uw6P28m7eicTeDm47"
-									target="_blank"
-									rel="noreferrer"
-									style={{ marginTop: '1.5rem'}}
-								>
-									<Button text="Full-Stack DeCal Application" style={{ marginTop: '1rem'}}/>
-								</a>
-					</div> */}
-					{/* {recruitment.map(({ title, location, description }) => (
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>{title}</p>
-							<p className={styles['location']}>{location}</p>
-							<p className={styles['text']}>"{description}"</p>
-						</div>
-					))} */}
-					<Fade up delay={169}>
+					{/*<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
 								Applications now open -{' '}
@@ -90,26 +55,8 @@ const Join = () => {
 									}
 								/>
 							</div>
-							{/* 
-							<div className={styles['button-temp']}>
-								<a
-									href="https://forms.gle/4fWFUVuifTqu4hYj7"
-									target="_blank"
-									rel="noreferrer"
-									style={{ marginBottom: '1.5rem', marginRight: '1rem' }}
-								>
-									<Button text="Dev + Designer Application" />
-								</a> 
-								<a
-									href="https://forms.gle/uw6P28m7eicTeDm47"
-									target="_blank"
-									rel="noreferrer"
-								>
-									<Button text="Full-Stack DeCal Application" />
-								</a>
-							</div> */}
 						</div>
-					</Fade>
+					</Fade>*/}
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
