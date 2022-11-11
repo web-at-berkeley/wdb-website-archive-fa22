@@ -1,5 +1,6 @@
-import EmailIcon from './img/email.png';
-import LinkedInIcon from './img/linkedin.png';
+import MailIcon from '../../assets/icons/mail.svg';
+import GlobeIcon from '../../assets/icons/globe.svg';
+import LinkedInIcon from '../../assets/icons/linkedin-logo.svg';
 import WebsiteIcon from './img/personal.png';
 
 import Col from 'react-bootstrap/Col';
@@ -34,11 +35,34 @@ const MemberCard = ({ member }: MemberCard_Props) => {
 
 	return (
 		<Col className={styles['profile']}>
-			<img
-				className={styles['photo']}
-				src={!!image ? image : ''}
-				alt={`${member.firstName} Profile`}
-			/>
+			<div className={styles['container']}>
+				<img
+					className={styles['photo']}
+					src={!!image ? image : ''}
+					alt={`${member.firstName} Profile`}
+				/>
+				<div className={styles['socials']}>
+					{!!member.linkedIn && (
+						<a href={member.linkedIn} target="_blank" rel="noopener noreferrer">
+							<img src={LinkedInIcon} alt={`${member.firstName} LinkedIn`} />
+						</a>
+					)}
+					{!!member.website && (
+						<a href={member.website} target="_blank" rel="noopener noreferrer">
+							<img src={GlobeIcon} alt={`${member.firstName} Website`} />
+						</a>
+					)}
+					{!!member.email && (
+						<a
+							href={`mailto:${member.email}`}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img src={MailIcon} alt={`${member.firstName} Email`} />
+						</a>
+					)}
+				</div>
+			</div>
 
 			<h5 className={styles['name']} id="name">
 				{!!member.nickname
@@ -49,28 +73,6 @@ const MemberCard = ({ member }: MemberCard_Props) => {
 			<h6 className={styles['role']} id="role">
 				{member.roles.join(', ')}
 			</h6>
-
-			<div className={styles['socials']}>
-				{!!member.linkedIn && (
-					<a href={member.linkedIn} target="_blank" rel="noopener noreferrer">
-						<img src={LinkedInIcon} alt={`${member.firstName} LinkedIn`} />
-					</a>
-				)}
-				{!!member.website && (
-					<a href={member.website} target="_blank" rel="noopener noreferrer">
-						<img src={WebsiteIcon} alt={`${member.firstName} Website`} />
-					</a>
-				)}
-				{!!member.email && (
-					<a
-						href={`mailto:${member.email}`}
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img src={EmailIcon} alt={`${member.firstName} Email`} />
-					</a>
-				)}
-			</div>
 		</Col>
 	);
 };
