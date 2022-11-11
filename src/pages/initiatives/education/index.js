@@ -1,11 +1,6 @@
-import React from 'react';
-
 import notionResources from './constants/Notion';
-import Header from '../../../components/header';
-import Button from '../../../components/button';
-import Blog from '../../../components/blog';
-
-import { Link } from 'react-router-dom';
+import Header from '../../../components/Header';
+import Button from '../../../components/Button';
 
 import Container from 'react-bootstrap/Container';
 
@@ -35,7 +30,7 @@ const Education = () => {
 								alt="Introduction to Full Stack Development Decal Logo"
 							/>
 							<a href="https://fullstackdecal.com/">
-								<Button text="Learn More"/>
+								<Button text="Learn More" />
 							</a>
 						</div>
 						<div className={styles['text-col']}>
@@ -95,9 +90,6 @@ const Education = () => {
 						</p>
 					</div>
 				</div>
-				{/* <div className={styles['blog']}>
-					<Blog />
-				</div> */}
 			</Container>
 		</main>
 	);

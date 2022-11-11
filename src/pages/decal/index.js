@@ -1,5 +1,5 @@
 import Profile from '../../components/MemberCard';
-import Header from '../../components/header';
+import Header from '../../components/Header';
 
 // import Timeline from './constants/Timeline.js';
 

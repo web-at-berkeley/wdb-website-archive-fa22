@@ -1,8 +1,8 @@
 import React from 'react';
 
 import initiatives from './constants/Initiatives';
-import Header from '../../components/header';
-import Button from '../../components/button';
+import Header from '../../components/Header';
+import Button from '../../components/Button';
 
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
@@ -33,7 +33,7 @@ const Initiatives = () => {
 									<p className={styles['description']}>{description}</p>
 								</div>
 								<Link to={`/${link}`}>
-									<Button  text="Learn More" variant="light" />
+									<Button text="Learn More" variant="light" />
 								</Link>
 							</div>
 						))}
@@ -48,7 +48,6 @@ const Initiatives = () => {
 					description="Applications to join Web Development at Berkeley open in August 2021 for the Fall 2021 semester! Check back here or on our “Join Us” page to fill out our application! We welcome all experience levels and encourage you to apply to learn new skills and hone your existing ones!"
 					buttonText="Apply Here"
 					linkTo="/join"
-					
 				/>
 			</div>
 		</main>

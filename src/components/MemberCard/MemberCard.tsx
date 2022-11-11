@@ -1,7 +1,6 @@
 import MailIcon from '../../assets/icons/mail.svg';
 import GlobeIcon from '../../assets/icons/globe.svg';
 import LinkedInIcon from '../../assets/icons/linkedin-logo.svg';
-import WebsiteIcon from './img/personal.png';
 
 import Col from 'react-bootstrap/Col';
 

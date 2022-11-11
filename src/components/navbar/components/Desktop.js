@@ -1,13 +1,11 @@
-import React from 'react';
-
 import { Link } from 'react-router-dom';
 
-import Blobs from './img/blobs.png';
-import BlackArrow from '../../assets/icons/arrow-black.svg';
-import BlackLogo from '../../assets/icons/logo-black.png';
-import RainbowLogo from '../../assets/icons/logo-rainbow.png';
+import Blobs from '../img/blobs.png';
+import BlackArrow from '../../../assets/icons/arrow-black.svg';
+import BlackLogo from '../../../assets/icons/logo-black.png';
+import RainbowLogo from '../../../assets/icons/logo-rainbow.png';
 
-import styles from './styles/default.module.scss';
+import styles from '../styles/default.module.scss';
 
 const SiteNavbar = ({ landing }) => {
 	let Logo = RainbowLogo;

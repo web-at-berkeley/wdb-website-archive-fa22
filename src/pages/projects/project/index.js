@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../../../components/header';
+import Header from '../../../components/Header';
 import clientProjects from '../data/client';
 import nonprofitProjects from '../data/nonprofit';
 

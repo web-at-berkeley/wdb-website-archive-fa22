@@ -2,9 +2,8 @@ import { useState } from 'react';
 
 import stats from './constants/Stats';
 import Instagram from '../../components/instagram';
-import Button from '../../components/button';
-import Event from '../../components/event';
-import Showcase from '../../components/showcase';
+import Button from '../../components/Button';
+import Showcase from '../../components/Showcase';
 
 import axios from 'axios';
 import { Link } from 'react-router-dom';

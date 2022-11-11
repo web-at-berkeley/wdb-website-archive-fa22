@@ -1,7 +1,5 @@
-import React from 'react';
-
-import DesktopNavbar from './Desktop';
-import MobileNavbar from './Mobile';
+import DesktopNavbar from './components/Desktop';
+import MobileNavbar from './components/Mobile';
 
 import styles from './styles/breakpoints.module.scss';
 

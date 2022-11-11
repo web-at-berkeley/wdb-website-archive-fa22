@@ -1,5 +1,5 @@
-import Header from '../../components/header';
-import Button from '../../components/button';
+import Header from '../../components/Header';
+import Button from '../../components/Button';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
