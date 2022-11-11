@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 import tenants from './constants/Tenants';
-import Header from '../../../components/header';
-import Button from '../../../components/button';
+import Header from '../../../components/Header';
+import Button from '../../../components/Button';
 import timeline from './constants/Timeline';
 
 import Carousel, {

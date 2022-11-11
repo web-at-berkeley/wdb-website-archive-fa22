@@ -1,11 +1,8 @@
-import React from 'react';
-
-import values from './constants/Values';
-import Header from '../../components/header';
-import Showcase from '../../components/showcase';
+import values from './constants/values';
+import Header from '../../components/Header';
+import Showcase from '../../components/Showcase';
 
 import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 import Frame from './img/frame.png';
@@ -33,9 +30,9 @@ const About = () => {
 				<div className={styles['culture']}>
 					<h3 className={styles['title']}>Our values and culture</h3>
 					<div className={styles['values']}>
-						<Row lg="3" med="1" sm="1" xs="1">
-							{values.map(({ title, description, image }) => (
-								<div className={styles['col']}>
+						<Row lg="3" md="1" sm="1" xs="1">
+							{values.map(({ title, description, image }, ind) => (
+								<div className={styles['col']} key={ind}>
 									<img src={image} alt="inclusion & acceptance" />
 									<h6>{title}</h6>
 									<p>{description}</p>

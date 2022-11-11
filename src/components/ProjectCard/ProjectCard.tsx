@@ -1,12 +1,13 @@
-import React from 'react';
-
-// import { Link } from 'react-router-dom';
-
 import Col from 'react-bootstrap/Col';
+import { Project } from '../../models/Project';
 
-import styles from './styles.module.scss';
+import styles from './ProjectCard.module.scss';
 
-const Project = ({ project }) => {
+interface Project_Props {
+	project: Project;
+}
+
+const ProjectCard = ({ project }: Project_Props) => {
 	const { name, cover, color, link } = project;
 
 	return (
@@ -30,4 +31,4 @@ const Project = ({ project }) => {
 	);
 };
 
-export default Project;
+export default ProjectCard;

@@ -1,8 +1,8 @@
 import React from 'react';
 
 import roles from './constants/Roles';
-import Header from '../../../components/header';
-import Button from '../../../components/button';
+import Header from '../../../components/Header';
+import Button from '../../../components/Button';
 
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';

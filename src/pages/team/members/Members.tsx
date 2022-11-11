@@ -12,7 +12,7 @@ import {
 } from '../../../static/members';
 
 import MemberCard from '../../../components/MemberCard';
-import Header from '../../../components/header';
+import Header from '../../../components/Header';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

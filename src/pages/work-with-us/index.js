@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 
 import services from './constants/Services';
 import sponsorships from './constants/Sponsorships';
-import Header from '../../components/header';
-import Button from '../../components/button';
+import Header from '../../components/Header';
+import Button from '../../components/Button';
 import Instagram from '../../components/instagram';
-
 
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom';
@@ -17,7 +16,6 @@ import Container from 'react-bootstrap/Container';
 
 import ServiceBlobs from './img/service-blobs.png';
 import FormBlobs from './img/form-blobs.png';
-
 
 import styles from './style.module.scss';
 import classnames from 'classnames';
@@ -278,10 +276,6 @@ const WorkWithUs = () => {
 						</div>
 					</form> */}
 				</div>
-
-
-			
-
 
 				<div className={styles['instagram']}>
 					<Instagram />

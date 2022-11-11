@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Link } from 'react-router-dom';
 
 import Blobs from './img/blobs.png';

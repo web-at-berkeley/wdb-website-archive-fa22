@@ -1,6 +1,4 @@
-import React from 'react';
-
-import socials from './constants/Socials';
+import socials from './constants/socials';
 
 import { Link } from 'react-router-dom';
 
@@ -8,7 +6,7 @@ import Bg from './img/bg.png';
 import BgMobile from './img/bg-mobile.png';
 import Logo from '../../assets/icons/logo-black.png';
 
-import styles from './style.module.scss';
+import styles from './Footer.module.scss';
 import classnames from 'classnames';
 import breakpoints from './style.module.scss';
 
@@ -32,8 +30,8 @@ const Footer = () => {
 					</Link>
 
 					<div className={styles['socials']}>
-						{socials.map(({ name, link, image }) => (
-							<a href={link} target="_blank" rel="noreferrer">
+						{socials.map(({ name, link, image }, ind) => (
+							<a href={link} target="_blank" rel="noreferrer" key={ind}>
 								<img src={image} alt={name} />
 							</a>
 						))}
