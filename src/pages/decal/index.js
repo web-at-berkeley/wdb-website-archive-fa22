@@ -1,8 +1,4 @@
-import React from 'react';
-
-import Leadership from '../team/members/data/exec';
-import CourseStaff from '../team/members/data/coursestaff';
-import Profile from '../../components/profile';
+import Profile from '../../components/MemberCard';
 import Header from '../../components/header';
 
 // import Timeline from './constants/Timeline.js';
@@ -28,22 +24,9 @@ import Frontend from './img/frontend.png';
 import Backend from './img/backend.png';
 
 import styles from './style.module.scss';
+import { courseStaff } from '../../static/members';
 
 const Decal = () => {
-	const courseStaff = Leadership.filter((member) => {
-		const cond1 = member.role === 'DeCal TA';
-		const cond2 = member.role === 'Education VP';
-		const cond3 = member.role === 'Co-President';
-		const cond4 = member.role === 'Facilitator';
-		return cond1 || cond2 || cond3 || cond4;
-	});
-	courseStaff.map((member) => {
-		if (member.role === 'Co-President' || member.role === 'Education VP') {
-			member.role = 'Facilitator';
-		}
-		return member;
-	});
-
 	return (
 		<main>
 			<Header
@@ -255,7 +238,7 @@ const Decal = () => {
 			<Container className={styles['staff']}>
 				<h4>Education Team</h4>
 				<Row lg="5" sm="3" xs="2">
-					{CourseStaff.map((data, i) => (
+					{courseStaff.map((data, i) => (
 						<Profile data={data} key={i} />
 					))}
 				</Row>
