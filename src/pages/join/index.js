@@ -16,9 +16,9 @@ import Fade from 'react-reveal/Fade';
 // import Blobs from './img/blobs.png';
 import Blobs2 from './img/blobs2.png';
 import Blobs3 from './img/blobs3.png';
-import tony from '../team/members/data/product/img/tony.png';
-import aadhiti from '../team/members/data/developers/img/aadhiti.png';
-import danielle from '../team/members/data/exec/img/danielle.png';
+import tony from '../../assets/pfps/tony-xin-0.jpg';
+import aadhiti from '../../assets/pfps/aadhiti-ghankota-0.jpg';
+import danielle from '../../assets/pfps/danielle-wong-0.jpg';
 
 import styles from './style.module.scss';
 
@@ -73,8 +73,22 @@ const Join = () => {
 							</p>
 							<p className={styles['location']}>📍 Berkeley, CA </p>
 							<div className={styles['apply-buttons']}>
-								<Button text="Club Application" onClick={() => window.location.replace("https://airtable.com/shrYd7lnwi2TAiRLM")}/>
-								<Button text="DeCal Application" onClick={() => window.location.replace("https://docs.google.com/forms/d/e/1FAIpQLSfZXAejR-KBRweoEROijabMJpwXhAIBtsp75RzgXp-y5oMQcQ/viewform")}/>
+								<Button
+									text="Club Application"
+									onClick={() =>
+										window.location.replace(
+											'https://airtable.com/shrYd7lnwi2TAiRLM'
+										)
+									}
+								/>
+								<Button
+									text="DeCal Application"
+									onClick={() =>
+										window.location.replace(
+											'https://docs.google.com/forms/d/e/1FAIpQLSfZXAejR-KBRweoEROijabMJpwXhAIBtsp75RzgXp-y5oMQcQ/viewform'
+										)
+									}
+								/>
 							</div>
 							{/* 
 							<div className={styles['button-temp']}>

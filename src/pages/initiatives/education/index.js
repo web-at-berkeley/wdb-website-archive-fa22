@@ -34,9 +34,9 @@ const Education = () => {
 								src={CuteComputer}
 								alt="Introduction to Full Stack Development Decal Logo"
 							/>
-							<Link to="/decal">
-								<Button text="Learn More" />
-							</Link>
+							<a href="https://fullstackdecal.com/">
+								<Button text="Learn More"/>
+							</a>
 						</div>
 						<div className={styles['text-col']}>
 							<p>

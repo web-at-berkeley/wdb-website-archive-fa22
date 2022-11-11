@@ -1,9 +1,9 @@
-import LinkedIn from '../../../img/linkedin.png';
-import Mail from '../../../img/mail.png';
-import Facebook from '../../../img/facebook.png';
-import Instagram from '../../../img/instagram.png';
-import YouTube from '../../../img/youtube.png';
-import Medium from '../../../img/medium.png';
+import LinkedIn from '../../../assets/icons/linkedin.png';
+import Mail from '../../../assets/icons/mail.png';
+import Facebook from '../../../assets/icons/facebook.png';
+import Instagram from '../../../assets/icons/instagram.png';
+import YouTube from '../../../assets/icons/youtube.png';
+import Medium from '../../../assets/icons/medium.png';
 
 const data = [
 	{

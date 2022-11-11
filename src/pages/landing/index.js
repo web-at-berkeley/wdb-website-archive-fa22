@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import stats from './constants/Stats';
 import Instagram from '../../components/instagram';

@@ -3,9 +3,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Blobs from './img/blobs.png';
-import BlackArrow from './img/arrow-black.svg';
-import BlackLogo from '../../img/logo-black.png';
-import RainbowLogo from '../../img/logo-rainbow.png';
+import BlackArrow from '../../assets/icons/arrow-black.svg';
+import BlackLogo from '../../assets/icons/logo-black.png';
+import RainbowLogo from '../../assets/icons/logo-rainbow.png';
 
 import styles from './styles/default.module.scss';
 
@@ -41,7 +41,7 @@ const SiteNavbar = ({ landing }) => {
 							<div className={styles['spacer']}>
 								<div className={styles['dropdown']}>
 									<Link to="/education" className={styles['dropdown-link']}>
-										Education
+										DeCal
 									</Link>
 									<hr />
 									<Link to="/bootcamp" className={styles['dropdown-link']}>
@@ -73,12 +73,6 @@ const SiteNavbar = ({ landing }) => {
 								</div>
 							</div>
 						</div>
-						<a
-							href="https://fullstackdecal.com/"
-							className={styles['nav-link']}
-						>
-							DeCal
-						</a>
 						<Link to="/projects" className={styles['nav-link']}>
 							Projects
 						</Link>

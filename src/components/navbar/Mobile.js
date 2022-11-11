@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
 
-import BlackArrow from './img/arrow-black.svg';
+import BlackArrow from '../../assets/icons/arrow-black.svg';
 import Bars from './img/bars.svg';
-import RainbowLogo from '../../img/logo-rainbow.png';
+import RainbowLogo from '../../assets/icons/logo-rainbow.png';
 
 import styles from './styles/mobile.module.scss';
 import classnames from 'classnames';

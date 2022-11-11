@@ -1,8 +1,8 @@
-import Instagram from '../../../img/instagram.png';
-import Facebook from '../../../img/facebook.png';
-import LinkedIn from '../../../img/linkedin.png';
-import Youtube from '../../../img/youtube.png';
-import Medium from '../../../img/medium.png';
+import Instagram from '../../../assets/icons/instagram.png';
+import Facebook from '../../../assets/icons/facebook.png';
+import LinkedIn from '../../../assets/icons/linkedin.png';
+import Youtube from '../../../assets/icons/youtube.png';
+import Medium from '../../../assets/icons/medium.png';
 
 const data = [
 	{
