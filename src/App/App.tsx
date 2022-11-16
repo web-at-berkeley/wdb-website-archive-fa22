@@ -3,20 +3,20 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from '../components/Footer';
 
 import NavBar from '../components/NavBar';
-import Landing from '../pages/landing';
+import Landing from '../pages/Landing';
 import About from '../pages/About';
-import Initiatives from '../pages/initiatives';
-import Education from '../pages/initiatives/education';
-import Bootcamp from '../pages/initiatives/bootcamp';
-import Industry from '../pages/initiatives/industry';
-import Members from '../pages/team/Members';
-import Alumni from '../pages/team/Alumni';
-import Decal from '../pages/decal';
-import Projects from '../pages/projects';
-import Project from '../pages/projects/project';
-import WorkWithUs from '../pages/work-with-us';
-import Join from '../pages/join';
-import Error from '../pages/error';
+import Initiatives from '../pages/Initiatives';
+import Education from '../pages/Initiatives/education';
+import Bootcamp from '../pages/Initiatives/bootcamp';
+import Industry from '../pages/Initiatives/industry';
+import Members from '../pages/Team/Members';
+import Alumni from '../pages/Team/Alumni';
+import Decal from '../pages/DeCal';
+import Projects from '../pages/Projects';
+import Project from '../pages/Projects/project';
+import WorkWithUs from '../pages/Work-With-Us';
+import Join from '../pages/Join';
+import Error from '../pages/Error';
 
 import './App.scss';
 

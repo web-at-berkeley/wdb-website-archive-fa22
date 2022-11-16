@@ -1,0 +1,13 @@
+@import '../../mixins';
+
+.header {
+	@include subtitle;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+
+.container {
+	width: 80% !important;
+	margin-left: 10%;
+	margin-bottom: 10rem;
+}

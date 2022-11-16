@@ -1,0 +1,321 @@
+@import '../../mixins';
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80% !important;
+	margin-left: 10%;
+	margin-bottom: 10rem;
+}
+
+.recruitment {
+	// margin: auto -2%;
+	margin-top: 5%;
+	position: relative;
+	z-index: 2;
+
+	img {
+		position: absolute;
+		z-index: 0;
+		width: 110vw;
+		margin-left: -30%;
+		margin-top: -10%;
+		@include mobile {
+			display: none;
+			width: 200vw;
+		}
+	}
+
+	h3 {
+		@include subtitle;
+		z-index: 2;
+		// font-weight: bold;
+		// font-size: 25px;
+		margin-bottom: 0.5rem;
+		z-index: 2;
+		@include mobile {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.descrip {
+		@include text;
+		margin-bottom: 1rem;
+		z-index: 2;
+	}
+
+	.button-interest {
+		margin-bottom: 2rem;
+		z-index: 5;
+		position: relative;
+	}
+
+	.button-temp {
+		z-index: 2;
+		margin-top: 1.5rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.timeline {
+		@include box;
+		position: relative;
+		padding: 2.5% 3.3%;
+		margin-bottom: 1rem;
+		z-index: 2;
+		@include mobile {
+			padding: 5% 7%;
+			margin-bottom: 1rem;
+		}
+
+		.title {
+			@include subtitle;
+			font-family: Monsterrat;
+			font-size: 22px;
+			margin-bottom: 0rem;
+			@include mobile {
+				font-size: 16px;
+				margin-bottom: 0.5rem;
+				margin-top: 0.5rem;
+			}
+
+			.date-time {
+				color: #6c63ff;
+			}
+		}
+
+		.location {
+			margin-bottom: 0.5rem;
+			@include text;
+			font-weight: bold;
+		}
+		.text {
+			@include text;
+		}
+	}
+}
+
+.interested {
+	width: 60%;
+	position: relative;
+	margin-top: 6%;
+	@include mobile {
+		width: 100%;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 1;
+		@include mobile {
+			display: none;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.text {
+		position: relative;
+		padding: 10.5rem 10rem 13rem 10rem;
+		text-align: center;
+		z-index: 2;
+		@include mobile {
+			margin-top: 1rem;
+			padding: 0;
+		}
+
+		h3 {
+			@include subtitle;
+			margin-bottom: 1rem;
+			z-index: 2;
+			@include mobile {
+				margin-bottom: 0.5rem;
+			}
+		}
+		p {
+			@include text-three;
+			z-index: 2;
+		}
+	}
+}
+
+.experiences {
+	// margin: auto -2%;
+	margin-top: 10%;
+	width: 100%;
+	z-index: 100;
+
+	.blob {
+		position: absolute;
+		z-index: 1;
+		width: 115%;
+		margin-left: -7%;
+		margin-top: -20%;
+		@include mobile {
+			width: 290%;
+		}
+	}
+
+	h3 {
+		@include subtitle;
+		// font-weight: bold;
+		// font-size: 37px;
+		margin-top: 7rem;
+		margin-bottom: 2rem;
+		z-index: 2;
+		@include mobile {
+			margin-bottom: 0.5rem;
+		}
+	}
+
+	.experience-group {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 9rem;
+		max-width: 100%;
+
+		@include mobile {
+			margin-top: 1rem;
+			align-items: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.testimonial1 {
+			@include box;
+			position: relative;
+			padding: 2.5% 3.3%;
+			margin-bottom: 14rem;
+			max-width: 30%;
+			z-index: 2;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			@include tablet {
+				max-width: 25%;
+				// font-size: 19px;
+			}
+			@include mobile {
+				max-width: 100%;
+				padding: 3% 7%;
+				margin-bottom: 1rem;
+				margin-top: 0rem;
+			}
+
+			.title {
+				@include text;
+
+				font-size: 18px;
+				font-weight: bold;
+				margin-top: 1.1rem;
+
+				@include mobile {
+					margin-bottom: 0.5rem;
+					margin-top: 0.5rem;
+				}
+			}
+
+			img {
+				width: 55%;
+				margin-top: -45%;
+				// margin-bottom: 2rem;
+				border: 5px solid #ffffff;
+				border-radius: 50%;
+				@include mobile {
+					display: none;
+				}
+			}
+
+			.text {
+				@include text;
+				font-size: 15px !important;
+				margin-top: 1rem;
+			}
+		}
+
+		.testimonial2 {
+			@include box;
+			position: relative;
+			padding: 2.5% 3.3%;
+			margin-top: 4rem;
+			// margin-bottom: 3rem;
+			max-width: 50%;
+			z-index: 2;
+			margin-left: auto;
+			margin-right: auto;
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+
+			@include tablet {
+				max-width: 40%;
+				// font-size: 19px;
+			}
+			@include mobile {
+				max-width: 100%;
+				padding: 3% 7%;
+				margin-bottom: 1rem;
+				margin-top: 0rem;
+			}
+
+			.title {
+				@include text;
+
+				font-size: 20px;
+				font-weight: bold;
+				margin-top: 1.1rem;
+				@include mobile {
+					margin-bottom: 0.5rem;
+					margin-top: 0.5rem;
+				}
+			}
+
+			img {
+				width: 60%;
+				margin-top: -45%;
+				// margin-bottom: 2rem;
+				border: 5px solid #ffffff;
+				border-radius: 50%;
+				aspect-ratio: 1 / 1;
+				object-fit: cover;
+				@include mobile {
+					display: none;
+				}
+			}
+
+			.text {
+				@include text;
+				margin-top: 1rem;
+			}
+		}
+	}
+}
+
+.apply-buttons {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	> * {
+		white-space: nowrap;
+		flex: 1;
+		margin-right: 10px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.apply-buttons {
+		> * {
+			margin-bottom: 10px;
+			margin-right: 0;
+		}
+	}
+}
