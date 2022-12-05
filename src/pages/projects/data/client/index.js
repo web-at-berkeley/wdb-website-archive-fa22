@@ -1,3 +1,8 @@
+// Fall 2022
+import Convex from './img/convex.png';
+import MindAndMatch from './img/mindandmatch.png';
+import Vivid from './img/vivid.png';
+
 // Spring 2022
 import NSF from './img/SMC.png';
 import Weekly from './img/weekly.png';
@@ -22,6 +27,40 @@ import BarracudaTechnologies from './img/barracuda.png';
 import BPT from './img/bpt.png';
 
 export const data = [
+	// Fall 2022
+	{
+		name: 'Convex',
+		cover: Convex,
+		subtitle: 'Reactive backend-as-a-service',
+		label: 'convex',
+		color: 'rgba(241, 173, 145, 0.3)',
+		link: 'https://www.convex.dev/',
+		technologies: [],
+		lead: ['Anish Shanbhag'],
+		semester: 'Fall 2022',
+	},
+	{
+		name: 'Vivid',
+		cover: Vivid,
+		subtitle: '',
+		label: 'vivid',
+		color: 'rgba(209, 21, 203, 0.3)',
+		link: '',
+		technologies: [],
+		lead: ['Tony Xin', 'Adam Goldstein'],
+		semester: 'Fall 2022',
+	},
+	{
+		name: 'Mind and Match',
+		cover: MindAndMatch,
+		subtitle: '',
+		label: 'mindandmatch',
+		color: 'rgba(209, 178, 21, 0.3)',
+		link: 'https://www.mindandmatch.com/',
+		technologies: [],
+		lead: ['Cass Li', 'William Louis'],
+		semester: 'Fall 2022',
+	},
 	// Spring 2022
 	{
 		name: 'National Science Foundation',

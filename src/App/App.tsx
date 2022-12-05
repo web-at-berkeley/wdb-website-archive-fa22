@@ -46,8 +46,8 @@ function App() {
 				<Route path="/decal" element={<Decal />} />
 
 				{/* Projects */}
-				<Route path="/projects/:id" element={<Project />} />
-				<Route path="/projects" element={<Projects />} />
+				<Route path="/portfolio/:id" element={<Project />} />
+				<Route path="/portfolio" element={<Projects />} />
 
 				{/* Work With Us */}
 				<Route path="/work-with-us" element={<WorkWithUs />} />

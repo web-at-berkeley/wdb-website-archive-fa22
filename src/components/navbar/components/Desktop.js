@@ -71,8 +71,8 @@ const SiteNavbar = ({ landing }) => {
 								</div>
 							</div>
 						</div>
-						<Link to="/projects" className={styles['nav-link']}>
-							Projects
+						<Link to="/portfolio" className={styles['nav-link']}>
+							Portfolio
 						</Link>
 						<Link to="/join" className={styles['nav-link']}>
 							Join Us

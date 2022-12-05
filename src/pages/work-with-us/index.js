@@ -75,7 +75,7 @@ const WorkWithUs = () => {
 							<Button text="Fill out our form" />
 						</a>
 					</span>
-					<Link to="/projects">
+					<Link to="/portfolio">
 						<Button text="Check out our past work" />
 					</Link>
 				</div>

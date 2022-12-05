@@ -8,13 +8,12 @@ import Project from '../../components/ProjectCard';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import styles from './style.module.scss';
 
 const Projects = () => {
 	const currentProjects = clientProjects.filter(
-		(project) => project.semester === 'Spring 2022'
+		(project) => project.semester === 'Fall 2022'
 	);
 
 	return (
@@ -31,33 +30,27 @@ const Projects = () => {
 			/>
 			<Container className={styles['container']}>
 				<h3 className={styles['header']}>Current Clients</h3>
-				<Row>
+				<div className={styles['group']}>
 					{currentProjects.map((project, ind) => (
 						<Project project={project} key={ind} />
 					))}
-				</Row>
+				</div>
 				<h3 className={styles['header']}>Industry Clients</h3>
-				<Row>
+				<div className={styles['group']}>
 					{clientProjects
-						.filter((project) => project.semester !== 'Spring 2022')
+						.filter((project) => project.semester !== 'Fall 2022')
 						.map((project, ind) => (
 							<Project project={project} key={ind} />
 						))}
-				</Row>
+				</div>
 				<h3 className={styles['header']}>Nonprofit Clients</h3>
-				<Row>
+				<div className={styles['group']}>
 					{nonprofitProjects
 						.filter((project) => project.semester !== 'Fall 2021')
 						.map((project, ind) => (
 							<Project project={project} key={ind} />
 						))}
-				</Row>
-				{/* <h3 className={styles['header']}>Student Projects</h3>
-				<Row>
-					{studentProjects.map((project) => (
-						<Project project={project} />
-					))}
-				</Row> */}
+				</div>
 			</Container>
 		</main>
 	);

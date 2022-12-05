@@ -11,23 +11,18 @@ const ProjectCard = ({ project }: Project_Props) => {
 	const { name, cover, color, link } = project;
 
 	return (
-		<Col sm={12} md={6} lg={4} className={styles['project']}>
+		<div
+			className={styles['project']}
+			style={{ boxShadow: `4px 4px 21px ${color}` }}
+		>
 			{link ? (
 				<a href={link} target="_blank" rel="noreferrer">
-					<img
-						src={cover}
-						alt={name}
-						style={{ boxShadow: `4px 4px 21px ${color}` }}
-					/>
+					<img src={cover} alt={name} />
 				</a>
 			) : (
-				<img
-					src={cover}
-					alt={name}
-					style={{ boxShadow: `4px 4px 21px ${color}` }}
-				/>
+				<img src={cover} alt={name} />
 			)}
-		</Col>
+		</div>
 	);
 };
 

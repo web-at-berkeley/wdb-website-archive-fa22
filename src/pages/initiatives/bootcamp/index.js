@@ -38,7 +38,7 @@ const Bootcamp = () => {
 			<Header
 				title="Product Bootcamp"
 				subtitle="transforming students into professionals"
-				description="WDB’s Product Bootcamp bridges the gap between classroom-based education and industry-level design and development through the use of siloed projects, real-world experiences, best practices and industry standards, and personalized mentorship. Our goal it to transform eager and motivated students with the prerequisite knowledge into fully-fledges designers and developers. "
+				description="WDB's Product Bootcamp bridges the gap between classroom-based education and industry-level design and development through the use of siloed projects, real-world experiences, best practices and industry standards, and personalized mentorship. Our goal it to transform eager and motivated students with the prerequisite knowledge into fully-fledges designers and developers. "
 			/>
 
 			<Container className={styles['product-cont']}>
