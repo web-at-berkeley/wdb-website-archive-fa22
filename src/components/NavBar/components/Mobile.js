@@ -3,11 +3,11 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import BlackArrow from '../../../assets/icons/arrow-black.svg';
-import Bars from '../img/bars.svg';
 import RainbowLogo from '../../../assets/icons/logo-rainbow.png';
+import Bars from '../img/bars.svg';
 
-import styles from '../styles/mobile.module.scss';
 import classnames from 'classnames';
+import styles from '../styles/mobile.module.scss';
 
 const SiteNavbar = ({ landing }) => {
 	const [show, setShow] = useState(false);
@@ -118,11 +118,11 @@ const SiteNavbar = ({ landing }) => {
 								DeCal
 							</a>
 							<Link
-								to="/projects"
+								to="/portfolio"
 								onClick={clearState}
 								className={styles['nav-link']}
 							>
-								Projects
+								Portfolio
 							</Link>
 							<Link
 								to="/join"
@@ -143,28 +143,6 @@ const SiteNavbar = ({ landing }) => {
 				)}
 			</div>
 		</div>
-
-		// <Navbar bg="transparent" expand="lg" className={styles['navbar']}>
-		// 	<Navbar.Brand href="#home" className={styles['logo']}>
-		// 		{!landing && (
-		// 			<Link to="/">
-		// 				<img src={Logo} alt="Web Development at Berkeley" />
-		// 			</Link>
-		// 		)}
-		// 	</Navbar.Brand>
-		// 	<Navbar.Toggle aria-controls="basic-navbar-nav" />
-		// 	<Navbar.Collapse id="basic-navbar-nav">
-		// 		<Nav className={`${styles['nav']} ml-auto`}>
-		// 			<Link to="/about">About Us</Link>
-		// 			<Link to="/initiatives">Our Initiatives</Link>
-		// 			<Link to="/members">Team</Link>
-		// 			<Link to="/decal">DeCal</Link>
-		// 			<Link to="/projects">Projects</Link>
-		// 			<Link to="/join">Join Us</Link>
-		// 			<Link to="/work-with-us">Work With Us</Link>
-		// 		</Nav>
-		// 	</Navbar.Collapse>
-		// </Navbar>
 	);
 };
 

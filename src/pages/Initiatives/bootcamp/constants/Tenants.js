@@ -1,7 +1,7 @@
+import BestPractices from '../img/best-practices.png';
 import Mentorship from '../img/mentorship.png';
 import Portfolio from '../img/portfolio.png';
 import Teamwork from '../img/teamwork.png';
-import BestPractices from '../img/best-practices.png';
 
 export const data = [
 	{
@@ -17,7 +17,7 @@ export const data = [
 		data: {
 			image: Portfolio,
 			description:
-				'Through a variety of both pre-planned projects and working with external clients, trainees are able to build their portfolio and build skills that you can’t practice in a conventional classroom setting.',
+				"Through a variety of both pre-planned projects and working with external clients, trainees are able to build their portfolio and build skills that you can't practice in a conventional classroom setting.",
 		},
 	},
 	{

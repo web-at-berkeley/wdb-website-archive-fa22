@@ -56,8 +56,8 @@ const Footer = () => {
 						<Link to="/about" className={styles['link']}>
 							Our Work
 						</Link>
-						<Link to="/projects" className={styles['link']}>
-							Projects
+						<Link to="/portfolio" className={styles['link']}>
+							Portfolio
 						</Link>
 						<Link to="/decal" className={styles['link']}>
 							DeCal
