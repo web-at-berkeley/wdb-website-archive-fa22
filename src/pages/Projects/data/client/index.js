@@ -45,7 +45,7 @@ export const data = [
 		subtitle: '',
 		label: 'vivid',
 		color: 'rgba(209, 21, 203, 0.3)',
-		link: '',
+		link: 'https://vivid.lol/',
 		technologies: [],
 		lead: ['Tony Xin', 'Adam Goldstein'],
 		semester: 'Fall 2022',
