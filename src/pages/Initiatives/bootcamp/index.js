@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-import tenants from './constants/Tenants';
-import Header from '../../../components/Header';
 import Button from '../../../components/Button';
+import Header from '../../../components/Header';
+import tenants from './constants/Tenants';
 import timeline from './constants/Timeline';
 
 import Carousel, {
-	slidesToShowPlugin,
 	arrowsPlugin,
+	slidesToShowPlugin,
 } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import left from './img/leftarrow.png';
@@ -17,12 +17,12 @@ import { Link } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
 
-import Blobs from './img/blobs.png';
 import Bg from './img/bg.png';
+import Blobs from './img/blobs.png';
 
-import styles from './style.module.scss';
-import breakpoints from '../../../breakpoints.module.scss';
 import classnames from 'classnames';
+import breakpoints from '../../../breakpoints.module.scss';
+import styles from './style.module.scss';
 
 const Bootcamp = () => {
 	const [category, setCategory] = useState('Mentorship');
@@ -38,7 +38,7 @@ const Bootcamp = () => {
 			<Header
 				title="Product Bootcamp"
 				subtitle="transforming students into professionals"
-				description="WDB’s Product Bootcamp bridges the gap between classroom-based education and industry-level design and development through the use of siloed projects, real-world experiences, best practices and industry standards, and personalized mentorship. Our goal it to transform eager and motivated students with the prerequisite knowledge into fully-fledges designers and developers. "
+				description="WDB's Product Bootcamp bridges the gap between classroom-based education and industry-level design and development through the use of siloed projects, real-world experiences, best practices and industry standards, and personalized mentorship. Our goal it to transform eager and motivated students with the prerequisite knowledge into fully-fledges designers and developers. "
 			/>
 
 			<Container className={styles['product-cont']}>

@@ -1,24 +1,20 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
+import Button from '../../components/Button';
+import Header from '../../components/Header';
+import Instagram from '../../components/instagram';
 import services from './constants/Services';
 import sponsorships from './constants/Sponsorships';
-import Header from '../../components/Header';
-import Button from '../../components/Button';
-import Instagram from '../../components/instagram';
 
-import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
-import Form from 'react-bootstrap/Form';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 import ServiceBlobs from './img/service-blobs.png';
-import FormBlobs from './img/form-blobs.png';
 
-import styles from './style.module.scss';
 import classnames from 'classnames';
+import styles from './style.module.scss';
 
 const WorkWithUs = () => {
 	const [name, setName] = useState('');
@@ -75,7 +71,7 @@ const WorkWithUs = () => {
 							<Button text="Fill out our form" />
 						</a>
 					</span>
-					<Link to="/projects">
+					<Link to="/portfolio">
 						<Button text="Check out our past work" />
 					</Link>
 				</div>

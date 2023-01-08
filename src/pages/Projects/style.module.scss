@@ -7,7 +7,12 @@
 }
 
 .container {
-	width: 80% !important;
-	margin-left: 10%;
+	align-items: center;
 	margin-bottom: 10rem;
+}
+
+.group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
 }

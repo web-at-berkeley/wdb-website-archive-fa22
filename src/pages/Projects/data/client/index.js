@@ -1,27 +1,66 @@
+// Fall 2022
+import Convex from './img/convex.png';
+import MindAndMatch from './img/mindandmatch.png';
+import Vivid from './img/vivid.png';
+
 // Spring 2022
 import NSF from './img/SMC.png';
 import Weekly from './img/weekly.png';
 
 // Fall 2021
-import Provecho from './img/provecho.png';
 import Goahead from './img/goahead.png';
-import Traders from './img/traders.png';
 import Politiq from './img/politiq.png';
+import Provecho from './img/provecho.png';
+import Traders from './img/traders.png';
 
 // Spring 2021
-import LaunchParty from './img/launchparty.png';
-import Clicked from './img/clicked.png';
-import ScholarHub from './img/scholarhub.png';
 import Ansari from './img/ansari.png';
+import Clicked from './img/clicked.png';
+import LaunchParty from './img/launchparty.png';
 import UDoIt from './img/legal.png';
+import ScholarHub from './img/scholarhub.png';
 
 // Fall 2020
-import SAAI from './img/saai.png';
-import CMES from './img/cmes.png';
 import BarracudaTechnologies from './img/barracuda.png';
 import BPT from './img/bpt.png';
+import CMES from './img/cmes.png';
+import SAAI from './img/saai.png';
 
 export const data = [
+	// Fall 2022
+	{
+		name: 'Convex',
+		cover: Convex,
+		subtitle: 'Reactive backend-as-a-service',
+		label: 'convex',
+		color: 'rgba(241, 173, 145, 0.3)',
+		link: 'https://www.convex.dev/',
+		technologies: [],
+		lead: ['Anish Shanbhag'],
+		semester: 'Fall 2022',
+	},
+	{
+		name: 'Vivid',
+		cover: Vivid,
+		subtitle: '',
+		label: 'vivid',
+		color: 'rgba(209, 21, 203, 0.3)',
+		link: '',
+		technologies: [],
+		lead: ['Tony Xin', 'Adam Goldstein'],
+		semester: 'Fall 2022',
+	},
+	{
+		name: 'Mind and Match',
+		cover: MindAndMatch,
+		subtitle: '',
+		label: 'mindandmatch',
+		color: 'rgba(209, 178, 21, 0.3)',
+		link: 'https://www.mindandmatch.com/',
+		technologies: [],
+		lead: ['Cass Li', 'William Louis'],
+		semester: 'Fall 2022',
+	},
 	// Spring 2022
 	{
 		name: 'National Science Foundation',

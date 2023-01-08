@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 
-import Blobs from '../img/blobs.png';
 import BlackArrow from '../../../assets/icons/arrow-black.svg';
 import BlackLogo from '../../../assets/icons/logo-black.png';
 import RainbowLogo from '../../../assets/icons/logo-rainbow.png';
+import Blobs from '../img/blobs.png';
 
 import styles from '../styles/default.module.scss';
 
@@ -71,8 +71,8 @@ const SiteNavbar = ({ landing }) => {
 								</div>
 							</div>
 						</div>
-						<Link to="/projects" className={styles['nav-link']}>
-							Projects
+						<Link to="/portfolio" className={styles['nav-link']}>
+							Portfolio
 						</Link>
 						<Link to="/join" className={styles['nav-link']}>
 							Join Us
