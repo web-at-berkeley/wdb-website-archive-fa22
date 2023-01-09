@@ -1,6 +1,7 @@
 .DS_Store
 .yarn/cache
 .yarn/install-state.gz
+build
 
 # Logs
 logs
@@ -109,3 +110,5 @@ dist
 
 # yarn.lock created when running yarn
 .yarn.lock
+
+.vercel
