@@ -1,18 +1,16 @@
-import React from 'react';
-
 import {
-	execMembers,
-	productManagers,
-	industryMembers,
 	bootcampMembers,
 	courseStaff,
-	memExperienceTeam,
 	designTeam,
+	execMembers,
 	externalTeam,
+	industryMembers,
+	memExperienceTeam,
+	productManagers,
 } from '../../../static/members';
 
-import MemberCard from '../../../components/MemberCard';
 import Header from '../../../components/Header';
+import MemberCard from '../../../components/MemberCard';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -21,20 +19,13 @@ import Side1 from './img/side-1.png';
 import Side2 from './img/side-2.png';
 // import Side3 from './img/side-3.png';
 
-import styles from '../style.module.scss';
 import { Member } from '../../../models/Member';
+import styles from '../style.module.scss';
 
 const removePrefix = (role: string) => {
-	let res;
-
-	const splitRole = role.split(']');
-	if (splitRole.length > 1) {
-		res = splitRole[1].trim();
-	} else {
-		res = role.trim();
-	}
-
-	return res;
+	return role
+		.replace(/\[(Industry)|(Exec)|(DeCal)\]/, '')
+		.replace(/\[|\]/g, '');
 };
 
 const filterRoles = (member: Member, prefix: string) => {

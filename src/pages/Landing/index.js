@@ -1,35 +1,35 @@
 import { useState } from 'react';
 
-import stats from './constants/Stats';
-import Instagram from '../../components/instagram';
 import Button from '../../components/Button';
+import Instagram from '../../components/instagram';
 import Showcase from '../../components/Showcase';
+import stats from './constants/Stats';
 
 import axios from 'axios';
+import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import VisibilitySensor from 'react-visibility-sensor';
-import Fade from 'react-reveal/Fade';
 
 import Container from 'react-bootstrap/Container';
 import CountUp from 'react-countup';
 
 import Bg from './img/bg.png';
-import NewsletterBlob from './img/newsletter-blob.png';
 import Blobs from './img/blobs.png';
 import Clients from './img/clients.png';
-import Partners from './img/partners.png';
 import LandingBlobs from './img/landing-blobs.png';
 import LogoBlack from './img/logo-black.png';
 import Meta from './img/meta.png';
+import NewsletterBlob from './img/newsletter-blob.png';
+import Partners from './img/partners.png';
 
+import ClientsMobile from './img/clients-mobile.png';
 import BlobsMobile from './img/landing-blobs-mobile.png';
 import NewsletterBlobMobile from './img/newsletter-blob-mobile.png';
-import ClientsMobile from './img/clients-mobile.png';
 import PartnersMobile from './img/partners-mobile.png';
 
-import styles from './style.module.scss';
-import breakpoints from '../../breakpoints.module.scss';
 import classnames from 'classnames';
+import breakpoints from '../../breakpoints.module.scss';
+import styles from './style.module.scss';
 
 const Landing = () => {
 	const [emailAddress, setEmailAddress] = useState('');

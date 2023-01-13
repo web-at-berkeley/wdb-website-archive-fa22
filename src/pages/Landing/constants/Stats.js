@@ -1,14 +1,14 @@
+import Apple from '../../../assets/icons/apple.png';
+import Briefcase from '../../../assets/icons/briefcase.png';
 import Hat from '../../../assets/icons/hat.png';
 import School from '../../../assets/icons/school.png';
-import Briefcase from '../../../assets/icons/briefcase.png';
-import Apple from '../../../assets/icons/apple.png';
 
 const data = [
 	{
-		title: '90+',
+		title: '400+',
 		description: 'Students who have completed our curriculum',
 		image: Hat,
-		end: 90,
+		end: 400,
 		plus: true,
 	},
 	{
