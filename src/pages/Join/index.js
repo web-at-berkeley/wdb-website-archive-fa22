@@ -23,18 +23,20 @@ const Join = () => {
 			<Container className={styles['container']}>
 				<div className={styles['recruitment']}>
 					<img src={Blobs2} alt="" />
-					<h3>Applications are now closed.</h3>
+					<h3>Applications are now open!</h3>
 					<p className={styles['descrip']}>
 						Thank you so much for your interest in joining WDB! We'd love to
 						stay in touch with you and answer any questions you may have. Feel
 						free to reach out to us if you'd liked to learn more, and check out
 						our educational resources below!
 					</p>
-					{/*<Fade up delay={169}>
+					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
 								Applications now open -{' '}
-								<span className={styles['date-time']}>August 22, 12PM PST</span>
+								<span className={styles['date-time']}>
+									January 17, 12AM PST
+								</span>
 							</p>
 							<p className={styles['location']}>📍 Berkeley, CA </p>
 							<div className={styles['apply-buttons']}>
@@ -42,7 +44,7 @@ const Join = () => {
 									text="Club Application"
 									onClick={() =>
 										window.location.replace(
-											'https://airtable.com/shrYd7lnwi2TAiRLM'
+											'https://airtable.com/shra6vQUGoIVhmaKv'
 										)
 									}
 								/>
@@ -50,17 +52,17 @@ const Join = () => {
 									text="DeCal Application"
 									onClick={() =>
 										window.location.replace(
-											'https://docs.google.com/forms/d/e/1FAIpQLSfZXAejR-KBRweoEROijabMJpwXhAIBtsp75RzgXp-y5oMQcQ/viewform'
+											'https://docs.google.com/forms/d/e/1FAIpQLSfRWSvC72lGyvCWUZgczuYwICB2CMKVP1fwIznwmGH2qWfvhQ/viewform'
 										)
 									}
 								/>
 							</div>
 						</div>
-					</Fade>*/}
+					</Fade>
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
-								Check out our edcuational resources -{' '}
+								Check out our educational resources -{' '}
 								<span className={styles['date-time']}>Anytime!</span>
 							</p>
 							<p className={styles['location']}>📍 Remote </p>

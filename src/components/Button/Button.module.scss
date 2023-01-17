@@ -2,17 +2,19 @@
 @import '../../mixins';
 
 .dark-button {
-	background: $purple;
+	background-color: $purple;
 	border: none;
 	padding: 0.6rem 2rem;
 	border-radius: 0.5rem;
 	transition: 0.25s ease;
 	z-index: 100;
+
 	@include mobile {
 		padding: 0.5rem 2rem;
 	}
 
 	&:hover {
+		cursor: pointer;
 		background: darken($purple, 5%);
 	}
 
@@ -21,6 +23,7 @@
 		font-family: Cocogoose;
 		font-size: 15px;
 		text-transform: uppercase;
+
 		@include mobile {
 			font-size: 13px;
 		}
@@ -58,6 +61,7 @@
 		// background-position:0;
 		background: $dark-purple;
 		color: $dark-purple;
+
 		.text {
 			// color: darken($dark-purple, 5%);
 			color: white;

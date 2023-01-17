@@ -1,0 +1,53 @@
+.container {
+  --padding: 3px;
+  --border-rad: 20px;
+
+  z-index: 1;
+  position: relative;
+  padding: 12px 30px;
+  border-radius: var(--border-rad);
+  background: linear-gradient(to right, #F2AAFF, #977EF7, #0AD3FF);
+  transition: 0.3s ease-in-out;
+
+  &:focus,
+  &:hover,
+  &:link,
+  &:active {
+    text-decoration: none;
+  }
+
+  &::before {
+    content: "";
+    z-index: 2;
+    position: absolute;
+    top: var(--padding);
+    right: var(--padding);
+    bottom: var(--padding);
+    left: var(--padding);
+    border-radius: calc(var(--border-rad) - var(--padding));
+    background-color: white;
+    transition: 0.3s ease-in-out;
+  }
+
+  &::after {
+    position: relative;
+    content: attr(data);
+    font-weight: bold;
+    z-index: 3;
+    background: linear-gradient(to left, #F2AAFF, #977EF7, #0AD3FF);
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+  }
+
+  &:hover::before {
+    background-color: transparent;
+  }
+
+  &:hover::after {
+    color: white;
+    text-decoration: none;
+  }
+
+}
