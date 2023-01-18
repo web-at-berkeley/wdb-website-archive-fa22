@@ -32,14 +32,10 @@ const Join = () => {
 					</p>
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								Applications now open -{' '}
-								<span className={styles['date-time']}>
-									January 17, 12AM PST
-								</span>
-							</p>
-							<p className={styles['location']}>📍 Berkeley, CA </p>
-							<div className={styles['apply-buttons']}>
+							<p className={styles['title']}>Jan 17 - Applications open</p>
+							<div
+								className={`${styles['description']} ${styles['apply-buttons']}`}
+							>
 								<Button
 									text="Club Application"
 									onClick={() =>
@@ -57,6 +53,66 @@ const Join = () => {
 									}
 								/>
 							</div>
+							<p className={styles['title']}>Jan 22 - Coffee Chats Open</p>
+							<div className={styles['description']}>
+								<Button text="Chat with us!" onClick={() => {}} />
+							</div>
+							<p className={styles['title']}>JAN 23 - CLUBS AND COOKIES FAIR</p>
+							<div className={styles['description']}>
+								<p>
+									<b>VLSB 2050 @ 8PM</b>
+								</p>
+								<p>
+									New to the tech scene at Cal? Craving some yummy cookies? Come
+									join us at Clubs and Cookies, an event to learn about some of
+									the biggest tech clubs on campus. Launchpad, Codebase, Machine
+									Learning at Berkeley, Blockchain at Berkeley, Blueprint,
+									Codeology, and WDB all in one delicious event and chat
+									directly with current members!
+								</p>
+							</div>
+							<p className={styles['title']}>
+								JAN 24 - CLUB + DECAL INFOSESSION #1
+							</p>
+							<div className={styles['description']}>
+								<p>
+									<b>SOCS 20 @ 8PM</b>
+								</p>
+								<p>
+									Come to our infosession to learn more about WDB and the Intro
+									to Full Stack Decal!
+								</p>
+								<p>Club Infosession: 8-9PM</p>
+								<p>Decal Infosession: 9-10PM</p>
+							</div>
+							<p className={styles['title']}>
+								JAN 24 - CLUB + DECAL INFOSESSION #2
+							</p>
+							<div className={styles['description']}>
+								<p>
+									<b>SOCS 20 @ 8PM</b>
+								</p>
+								<p>
+									In case you missed infosession #1! All the information
+									presented will be the same so don't worry about attending
+									both.
+								</p>
+								<p>Club Infosession: 8-9PM</p>
+								<p>Decal Infosession: 9-10PM</p>
+							</div>
+							<p className={styles['title']}>
+								JAN 26 - DECAL APPLICATION DUE @ 11:59PM
+							</p>
+							<div className={styles['description']}></div>
+							<p className={styles['title']}>JAN 27 - CLUB APPLICATION DUE</p>
+							<div className={styles['description']}></div>
+							<p className={styles['title']}>
+								FEB 2/3 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
+							</p>
+							<div className={styles['description']}></div>
+							<p className={styles['title']}>
+								FEB 4/5 - CLUB FINAL INTERVIEWS (INVITE ONLY)
+							</p>
 						</div>
 					</Fade>
 					<Fade up delay={169}>
