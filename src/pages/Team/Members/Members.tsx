@@ -3,7 +3,6 @@ import {
 	courseStaff,
 	designTeam,
 	execMembers,
-	externalTeam,
 	industryMembers,
 	memExperienceTeam,
 	productManagers,
@@ -104,12 +103,12 @@ const Members = () => {
 					))}
 				</Row>
 
-				<h4 className={styles['divider-header']}>External Team</h4>
+				{/* <h4 className={styles['divider-header']}>External Team</h4>
 				<Row lg="5" sm="3" xs="2">
 					{externalTeam.map((data, i) => (
 						<MemberCard member={filterRoles(data, '[External Team]')} key={i} />
 					))}
-				</Row>
+				</Row> */}
 			</Container>
 		</main>
 	);
