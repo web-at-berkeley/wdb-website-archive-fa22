@@ -76,7 +76,7 @@ const Join = () => {
 							</p>
 							<div className={styles['description']}>
 								<p>
-									<b>SOCS 20 @ 8PM</b>
+									<b>Social Sciences (Barrows) 20 @ 8PM</b>
 								</p>
 								<p>
 									Come to our infosession to learn more about WDB and the Intro
@@ -86,11 +86,11 @@ const Join = () => {
 								<p>Decal Infosession: 9-10PM</p>
 							</div>
 							<p className={styles['title']}>
-								JAN 24 - CLUB + DECAL INFOSESSION #2
+								JAN 26 - CLUB + DECAL INFOSESSION #2
 							</p>
 							<div className={styles['description']}>
 								<p>
-									<b>SOCS 20 @ 8PM</b>
+									<b>Social Sciences (Barrows) 20 @ 8PM</b>
 								</p>
 								<p>
 									In case you missed infosession #1! All the information
