@@ -55,7 +55,14 @@ const Join = () => {
 							</div>
 							<p className={styles['title']}>Jan 22 - Coffee Chats Open</p>
 							<div className={styles['description']}>
-								<Button text="Chat with us!" onClick={() => {}} />
+								<Button
+									text="Chat with us!"
+									onClick={() =>
+										window.location.replace(
+											'https://webatberkeley.notion.site/de8d3f4260354263a7a216f566956994?v=ebb505020f1f4bbca6aa4080d8be6f1e'
+										)
+									}
+								/>
 							</div>
 							<p className={styles['title']}>JAN 23 - CLUBS AND COOKIES FAIR</p>
 							<div className={styles['description']}>
