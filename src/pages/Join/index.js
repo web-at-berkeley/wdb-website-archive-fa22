@@ -1,14 +1,14 @@
-import Header from '../../components/Header';
 import Button from '../../components/Button';
+import Header from '../../components/Header';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Fade from 'react-reveal/Fade';
-import Blobs2 from './img/blobs2.png';
-import Blobs3 from './img/blobs3.png';
-import tony from '../../assets/pfps/tony-xin-0.jpg';
 import aadhiti from '../../assets/pfps/aadhiti-ghankota-0.jpg';
 import danielle from '../../assets/pfps/danielle-wong-0.jpg';
+import tony from '../../assets/pfps/tony-xin-0.jpg';
+import Blobs2 from './img/blobs2.png';
+import Blobs3 from './img/blobs3.png';
 
 import styles from './style.module.scss';
 
@@ -114,11 +114,11 @@ const Join = () => {
 							<p className={styles['title']}>JAN 27 - CLUB APPLICATION DUE</p>
 							<div className={styles['description']}></div>
 							<p className={styles['title']}>
-								FEB 2/3 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
+								JAN 31 & FEB 1 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
 							</p>
 							<div className={styles['description']}></div>
 							<p className={styles['title']}>
-								FEB 4/5 - CLUB FINAL INTERVIEWS (INVITE ONLY)
+								FEB 2 & FEB 3 - CLUB FINAL INTERVIEWS (INVITE ONLY)
 							</p>
 						</div>
 					</Fade>
