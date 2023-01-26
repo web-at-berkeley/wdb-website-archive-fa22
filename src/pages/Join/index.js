@@ -89,8 +89,8 @@ const Join = () => {
 									Come to our infosession to learn more about WDB and the Intro
 									to Full Stack Decal!
 								</p>
-								<p>Club Infosession: 8-9PM</p>
-								<p>Decal Infosession: 9-10PM</p>
+								<p>DeCal Infosession: 8-9PM</p>
+								<p>Club Infosession: 9-10PM</p>
 							</div>
 							<p className={styles['title']}>
 								JAN 26 - CLUB + DECAL INFOSESSION #2
@@ -104,8 +104,8 @@ const Join = () => {
 									presented will be the same so don't worry about attending
 									both.
 								</p>
-								<p>Club Infosession: 8-9PM</p>
-								<p>Decal Infosession: 9-10PM</p>
+								<p>DeCal Infosession: 8-9PM</p>
+								<p>Club Infosession: 9-10PM</p>
 							</div>
 							<p className={styles['title']}>
 								JAN 26 - DECAL APPLICATION DUE @ 11:59PM
