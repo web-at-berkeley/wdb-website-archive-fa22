@@ -23,105 +23,13 @@ const Join = () => {
 			<Container className={styles['container']}>
 				<div className={styles['recruitment']}>
 					<img src={Blobs2} alt="" />
-					<h3>Applications are now open!</h3>
+					<h3>Applications are now closed.</h3>
 					<p className={styles['descrip']}>
 						Thank you so much for your interest in joining WDB! We'd love to
 						stay in touch with you and answer any questions you may have. Feel
 						free to reach out to us if you'd liked to learn more, and check out
 						our educational resources below!
 					</p>
-					<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>Jan 17 - Applications open</p>
-							<div
-								className={`${styles['description']} ${styles['apply-buttons']}`}
-							>
-								<Button
-									text="Club Application"
-									onClick={() =>
-										window.location.replace(
-											'https://airtable.com/shra6vQUGoIVhmaKv'
-										)
-									}
-								/>
-								<Button
-									text="DeCal Application"
-									onClick={() =>
-										window.location.replace(
-											'https://docs.google.com/forms/d/e/1FAIpQLSfRWSvC72lGyvCWUZgczuYwICB2CMKVP1fwIznwmGH2qWfvhQ/viewform'
-										)
-									}
-								/>
-							</div>
-							<p className={styles['title']}>Jan 22 - Coffee Chats Open</p>
-							<div className={styles['description']}>
-								<Button
-									text="Chat with us!"
-									onClick={() =>
-										window.location.replace(
-											'https://webatberkeley.notion.site/de8d3f4260354263a7a216f566956994?v=ebb505020f1f4bbca6aa4080d8be6f1e'
-										)
-									}
-								/>
-							</div>
-							<p className={styles['title']}>JAN 23 - CLUBS AND COOKIES FAIR</p>
-							<div className={styles['description']}>
-								<p>
-									<b>VLSB 2050 @ 8PM</b>
-								</p>
-								<p>
-									New to the tech scene at Cal? Craving some yummy cookies? Come
-									join us at Clubs and Cookies, an event to learn about some of
-									the biggest tech clubs on campus. Launchpad, Codebase, Machine
-									Learning at Berkeley, Blockchain at Berkeley, Blueprint,
-									Codeology, and WDB all in one delicious event and chat
-									directly with current members!
-								</p>
-							</div>
-							<p className={styles['title']}>
-								JAN 24 - CLUB + DECAL INFOSESSION #1
-							</p>
-							<div className={styles['description']}>
-								<p>
-									<b>Social Sciences (Barrows) 20 @ 8PM</b>
-								</p>
-								<p>
-									Come to our infosession to learn more about WDB and the Intro
-									to Full Stack Decal!
-								</p>
-								<p>DeCal Infosession: 8-9PM</p>
-								<p>Club Infosession: 9-10PM</p>
-							</div>
-							<p className={styles['title']}>
-								JAN 26 - CLUB + DECAL INFOSESSION #2
-							</p>
-							<div className={styles['description']}>
-								<p>
-									<b>Social Sciences (Barrows) 20 @ 8PM</b>
-								</p>
-								<p>
-									In case you missed infosession #1! All the information
-									presented will be the same so don't worry about attending
-									both.
-								</p>
-								<p>DeCal Infosession: 8-9PM</p>
-								<p>Club Infosession: 9-10PM</p>
-							</div>
-							<p className={styles['title']}>
-								JAN 26 - DECAL APPLICATION DUE @ 11:59PM
-							</p>
-							<div className={styles['description']}></div>
-							<p className={styles['title']}>JAN 27 - CLUB APPLICATION DUE</p>
-							<div className={styles['description']}></div>
-							<p className={styles['title']}>
-								JAN 31 & FEB 1 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
-							</p>
-							<div className={styles['description']}></div>
-							<p className={styles['title']}>
-								FEB 2 & FEB 3 - CLUB FINAL INTERVIEWS (INVITE ONLY)
-							</p>
-						</div>
-					</Fade>
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
