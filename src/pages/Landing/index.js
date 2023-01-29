@@ -30,7 +30,6 @@ import PartnersMobile from './img/partners-mobile.png';
 import classnames from 'classnames';
 import breakpoints from '../../breakpoints.module.scss';
 import styles from './style.module.scss';
-import ApplyButton from './components/ApplyButton';
 
 const Landing = () => {
 	const [emailAddress, setEmailAddress] = useState('');
@@ -105,11 +104,11 @@ const Landing = () => {
 							and development organization.
 						</h2>
 					</Fade>
-					<Fade up delay={1000}>
+					{/* <Fade up delay={1000}>
 						<div className={styles['button-temp']}>
 							<ApplyButton />
 						</div>
-					</Fade>
+					</Fade> */}
 				</div>
 			</div>
 

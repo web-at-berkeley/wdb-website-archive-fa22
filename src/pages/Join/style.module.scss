@@ -17,7 +17,7 @@
 
 	img {
 		position: absolute;
-		z-index: 0;
+		z-index: -1;
 		width: 110vw;
 		margin-left: -30%;
 		margin-top: -10%;
@@ -324,7 +324,7 @@
 }
 
 .apply-buttons {
-	>* {
+	> * {
 		white-space: nowrap;
 		flex: 1;
 		margin-right: 10px;
@@ -333,7 +333,7 @@
 
 @media only screen and (max-width: 700px) {
 	.apply-buttons {
-		>* {
+		> * {
 			margin-bottom: 10px;
 			margin-right: 0;
 		}
