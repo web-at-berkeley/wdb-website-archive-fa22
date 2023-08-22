@@ -32,7 +32,7 @@ const Join = () => {
 					</p>
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
-							<p className={styles['title']}>Aug 23 - Applications open</p>
+							<p className={styles['title']}>Aug 21 - Applications open</p>
 							<div
 								className={`${styles['description']} ${styles['apply-buttons']}`}
 							>
@@ -53,7 +53,7 @@ const Join = () => {
 									}
 								/>
 							</div>
-							<p className={styles['title']}>Aug 24 - Coffee Chats Open</p>
+							<p className={styles['title']}>Aug 23 - Coffee Chats Open</p>
 							<div className={styles['description']}>
 								<Button
 									text="Chat with us!"
