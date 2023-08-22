@@ -32,7 +32,7 @@ const Join = () => {
 					</p>
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
-							<p className={styles['title']}>Aug 23 - Applications open</p>
+							<p className={styles['title']}>Aug 21 - Applications open</p>
 							<div
 								className={`${styles['description']} ${styles['apply-buttons']}`}
 							>
@@ -53,7 +53,7 @@ const Join = () => {
 									}
 								/>
 							</div>
-							<p className={styles['title']}>Aug 24 - Coffee Chats Open</p>
+							<p className={styles['title']}>Aug 23 - Coffee Chats Open</p>
 							<div className={styles['description']}>
 								<Button
 									text="Chat with us!"
@@ -93,7 +93,7 @@ const Join = () => {
 							<p className={styles['title']}>Aug 30 - Tech Diversity Night</p>
 							<div className={styles['description']}>
 								<p>
-									<b>TBD @ 8PM-10PM</b>
+									<b>DWINELLE 209 @ 8PM-10PM</b>
 								</p>
 							</div>
 							<p className={styles['title']}>
@@ -112,17 +112,19 @@ const Join = () => {
 								<p>Club Infosession: 8:30-9:30PM</p>
 							</div>
 							<p className={styles['title']}>
-								Sep 2 - DECAL APPLICATION DUE @ 10AM
+								Sep 1 - CLUB APPLICATION DUE @ 11:59PM
 							</p>
 							<div className={styles['description']}></div>
-							<p className={styles['title']}>Sep 1 @ 11:59PM - CLUB APPLICATION DUE</p>
+							<p className={styles['title']}>
+								Sep 2 - DECAL APPLICATION DUE @ 10AM
+							</p>
 							<div className={styles['description']}></div>
 							<p className={styles['title']}>
 								Sep 4-6 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
 							</p>
 							<div className={styles['description']}></div>
 							<p className={styles['title']}>
-								Sep 6-8 - CLUB FINAL INTERVIEWS (INVITE ONLY)
+								Sep 7-8 - CLUB FINAL INTERVIEWS (INVITE ONLY)
 							</p>
 						</div>
 					</Fade>
@@ -150,224 +152,8 @@ const Join = () => {
 							</div>
 						</div>
 					</Fade>
-					{/* <Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								Full-Stack DeCal Infosession #1 -{' '}
-								<span className={styles['date-time']}>
-									Jan 24, 7pm - 8pm PT
-								</span>
-							</p>
-							<p className={styles['location']}>
-								<a
-									href="https://berkeley.zoom.us/j/99426827053"
-									className={styles['location']}
-								>
-									📍 Zoom (Click here for link)
-								</a></p>
-							<p className={styles['text']}>
-								Come to our infosession to learn more about the Introduction to
-								Full-Stack Development DeCal.
-							</p>
-							<div className={styles['button-temp']}>
-								<a
-									href="https://www.facebook.com/events/348063700170538/"
-									target="_blank"
-									rel="noreferrer"
-								>
-									<Button text="Full-Stack DeCal Infosession One (Facebook Event)" />
-								</a>
-							</div>
-						</div>
-					</Fade>
-					
-					<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								WDB Infosession #1 -{' '}
-								<span className={styles['date-time']}>
-									Jan 25, 7pm - 8pm PT
-								</span>
-							</p>
-							<p className={styles['location']}><a
-								href="https://berkeley.zoom.us/j/98546969949"
-								className={styles['location']}
-							>
-								📍 Zoom (Click here for link)
-							</a></p>
-							<p className={styles['text']}>
-								Come to our infosession to meet our members, listen to what we’re
-								all about, and hear about exciting plans for the upcoming
-								semester! This will be recorded as well.
-							</p>
-							<div className={styles['button-temp']}>
-								<a
-									href="https://www.facebook.com/events/597356954695918/"
-									target="_blank"
-									rel="noreferrer"
-								>
-									<Button text="WDB Club Infosession One (Facebook Event)" />
-								</a>
-							</div>
-						</div>
-					</Fade>
-				
-					<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								Full-Stack DeCal Infosession #2 -{' '}
-								<span className={styles['date-time']}>
-									Jan 26, 7pm - 8pm PT
-								</span>
-							</p>
-							<p className={styles['location']}>
-								<a
-									href="https://berkeley.zoom.us/j/91338863388"
-									className={styles['location']}
-								>
-									📍 Zoom (Click here for link)
-								</a>
-							</p>
-							<p className={styles['text']}>
-								Come to our infosession to learn more about the Introduction to
-								Full-Stack Development DeCal. This infosession will cover the same
-								content as the first one, so no need to come to both!
-							</p>
-							<div className={styles['button-temp']}>
-								<a
-									href="https://www.facebook.com/events/224636553192406/"
-									target="_blank"
-									rel="noreferrer"
-								>
-									<Button text="Full-Stack DeCal Infosession Two (Facebook Event)" />
-								</a>
-							</div>
-						</div>
-					</Fade>
-					<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								WDB Infosession #2 -{' '}
-								<span className={styles['date-time']}>
-									Jan 27, 7pm - 8pm PT
-								</span>
-							</p>
-							<p className={styles['location']}>
-								<a
-									href="https://berkeley.zoom.us/j/98546969949"
-									className={styles['location']}
-								>
-									📍 Zoom (Click here for link)
-								</a>
-							</p>
-							<p className={styles['text']}>
-								Come to our second infosession to meet our members, listen to what
-								we’re all about, and hear about exciting plans for the upcoming
-								semester! This will be recorded as well. This infosession will
-								cover the same content as the first one, so no need to come to
-								both!
-							</p>
-							<div className={styles['button-temp']}>
-								<a
-									href="https://www.facebook.com/events/615374379693168"
-									target="_blank"
-									rel="noreferrer"
-								>
-									<Button text="WDB Club Infosession Two (Facebook Event)" />
-								</a>
-							</div>
-						</div>
-					</Fade>
-					
-					<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								Developer + Designer Applications Close -{' '}
-								<span className={styles['date-time']}>Jan 28, 11:59 PM</span>
-							</p>
-							<p className={styles['location']}>📍 Remote</p>
-							<p className={styles['text']}>
-								Make sure you get it in before out 11:59 PM cutoff time in order
-								to secure your application to our organization.
-							</p>
-						</div>
-					</Fade>
-					
-					<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								Full Stack DeCal Applications Close -{' '}
-								<span className={styles['date-time']}>Jan 30, 11:59 PM</span>
-							</p>
-							<p className={styles['location']}>📍 Remote</p>
-							<p className={styles['text']}>
-								Make sure you get it in before out 11:59 PM cutoff time in order
-								to secure your application to the DeCal.
-							</p>
-						</div>
-					</Fade>
-					
-					<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								Technical Interviews (invite only) -{' '}
-								<span className={styles['date-time']}>Feb 2 - Feb 4</span>
-							</p>
-							<p className={styles['location']}>📍 Remote </p>
-							<p className={styles['text']}>
-								Interviews for WDB Product Bootcamp and Industry Initiatives, involving a techical project presentation.
-							</p>
-						</div>
-					</Fade>
-					<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								Final Interviews (invite only) -{' '}
-								<span className={styles['date-time']}>Feb 6</span>
-							</p>
-							<p className={styles['location']}>📍 TBD</p>
-							<p className={styles['text']}>
-								Final round interviews with WDB!
-							</p>
-						</div>
-					</Fade>
-					<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								First Meeting (invite only) -{' '}
-								<span className={styles['date-time']}>
-									Feb 8, 8pm PT
-								</span>
-							</p>
-							<p className={styles['location']}>📍 TBD</p>
-							<p className={styles['text']}>
-								Our first all-team meeting with new and returning members.
-							</p>
-						</div>
-					</Fade> */}
 				</div>
-				{/* <div className={styles['interested']}>
-					<img src={Bg} alt="" />
-					<div className={styles['text']}>
-						<h3>Interested?</h3>
-						<p>
-							Fall 2021 applications are now open! Please stay tuned for more updates to our Fall
-							2021 applications. Feel free to reach out to
-							webatberkeley@gmail.com if you have any questions.
-						</p>
-					</div>
-				</div> */}
-				{/* <div className={styles['testimonials']}>
-					<img src={Blobs} alt="" />
-					<h3>Member Experiences</h3>
-					{testimonials.map(({ title, testimonial }) => (
-						<div className={styles['testimonial']}>
-							<p className={styles['title']}>{title}</p>
-							<p className={styles['text']}>"{testimonial}"</p>
-						</div>
-					))}
-				</div> */}
-
+				
 				<div className={styles['experiences']}>
 					<img className={styles['blob']} src={Blobs3} alt="" />
 					<h3>Member Experiences</h3>
