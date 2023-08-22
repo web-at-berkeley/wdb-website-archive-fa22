@@ -23,13 +23,109 @@ const Join = () => {
 			<Container className={styles['container']}>
 				<div className={styles['recruitment']}>
 					<img src={Blobs2} alt="" />
-					<h3>Applications are now closed.</h3>
+					<h3>Applications are now open!</h3>
 					<p className={styles['descrip']}>
 						Thank you so much for your interest in joining WDB! We'd love to
 						stay in touch with you and answer any questions you may have. Feel
 						free to reach out to us if you'd liked to learn more, and check out
 						our educational resources below!
 					</p>
+					<Fade up delay={169}>
+						<div className={styles['timeline']}>
+							<p className={styles['title']}>Aug 23 - Applications open</p>
+							<div
+								className={`${styles['description']} ${styles['apply-buttons']}`}
+							>
+								<Button
+									text="Club Application"
+									onClick={() =>
+										window.location.replace(
+											'https://airtable.com/app9KytKyLJg5Nsvq/shrxn0L0lPosFnAZl'
+										)
+									}
+								/>
+								<Button
+									text="DeCal Application"
+									onClick={() =>
+										window.location.replace(
+											'https://airtable.com/app4DQfVs1iDSqn4b/shrFGkWU1iF8nLpgS'
+										)
+									}
+								/>
+							</div>
+							<p className={styles['title']}>Aug 24 - Coffee Chats Open</p>
+							<div className={styles['description']}>
+								<Button
+									text="Chat with us!"
+									onClick={() =>
+										window.location.replace(
+											'https://airtable.com/appWoOwHS7hIg7DNv/shrlDn8Zo9qYlfC7W'
+										)
+									}
+								/>
+							</div>
+							<p className={styles['title']}>Aug 28 - Clubs and Cookies</p>
+							<div className={styles['description']}>
+								<p>
+									<b>HEARST FIELD ANNEX A1 @ 8PM-10PM</b>
+								</p>
+								<p>
+									New to the tech scene at Cal? Craving some yummy cookies? Come
+									join us at Clubs and Cookies, an event to learn about some of
+									the biggest tech clubs on campus. Blueprint, Codebase, Codeology, Data Science Society, Girls Who Code,
+									Launchpad, SAAS, WDB, plus lightning presentations from more tech clubs all in one delicious event and chat directly with current members!
+								</p>
+							</div>
+							<p className={styles['title']}>
+								AUG 29 - CLUB + DECAL INFOSESSION #1
+							</p>
+							<div className={styles['description']}>
+								<p>
+									<b>DWINELLE 109 @ 8-9:30PM</b>
+								</p>
+								<p>
+									Come to our infosession to learn more about WDB and the Intro
+									to Full Stack Decal!
+								</p>
+								<p>DeCal Infosession: 8-8:30PM</p>
+								<p>Club Infosession: 8:30-9:30PM</p>
+							</div>
+							<p className={styles['title']}>Aug 30 - Tech Diversity Night</p>
+							<div className={styles['description']}>
+								<p>
+									<b>TBD @ 8PM-10PM</b>
+								</p>
+							</div>
+							<p className={styles['title']}>
+								AUG 31 - CLUB + DECAL INFOSESSION #2
+							</p>
+							<div className={styles['description']}>
+								<p>
+									<b>DWINELLE 109 @ 8-9:30PM</b>
+								</p>
+								<p>
+									In case you missed infosession #1! All the information
+									presented will be the same so don't worry about attending
+									both.
+								</p>
+								<p>DeCal Infosession: 8-8:30PM</p>
+								<p>Club Infosession: 8:30-9:30PM</p>
+							</div>
+							<p className={styles['title']}>
+								Sep 2 - DECAL APPLICATION DUE @ 10AM
+							</p>
+							<div className={styles['description']}></div>
+							<p className={styles['title']}>Sep 1 @ 11:59PM - CLUB APPLICATION DUE</p>
+							<div className={styles['description']}></div>
+							<p className={styles['title']}>
+								Sep 4-6 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
+							</p>
+							<div className={styles['description']}></div>
+							<p className={styles['title']}>
+								Sep 6-8 - CLUB FINAL INTERVIEWS (INVITE ONLY)
+							</p>
+						</div>
+					</Fade>
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
@@ -54,19 +150,6 @@ const Join = () => {
 							</div>
 						</div>
 					</Fade>
-					{/*<Fade up delay={169}>
-						<div className={styles['timeline']}>
-							<p className={styles['title']}>
-								Fall 2022 Recruiting -{' '}
-								<span className={styles['date-time']}>Coming soon!</span>
-							</p>
-							<p className={styles['location']}>📍 Remote</p>
-							<p className={styles['text']}>
-								Keep an eye out on our site and on social media to stay up to
-								date on our upcoming events!
-							</p>
-						</div>
-						</Fade>*/}
 					{/* <Fade up delay={169}>
 						<div className={styles['timeline']}>
 							<p className={styles['title']}>
