@@ -7766,6 +7766,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"heic2any@npm:^0.0.4":
+  version: 0.0.4
+  resolution: "heic2any@npm:0.0.4"
+  checksum: 3b7a064fb621ebf215559744436ef66bf4facf40f3fa6fe08f76aa96ff34d9539b616f62a3443b171094226b399966f8f17fc5f0fd73b49fdab70dc0661e307f
+  languageName: node
+  linkType: hard
+
 "hex-color-regex@npm:^1.1.0":
   version: 1.1.0
   resolution: "hex-color-regex@npm:1.1.0"
@@ -15478,6 +15485,7 @@ __metadata:
     "@testing-library/user-event": ^12.1.10
     axios: ^0.21.1
     bootstrap: 4.6.0
+    heic2any: ^0.0.4
     react: ^17.0.2
     react-bootstrap: ^1.6.1
     react-countup: ^6.0.0
