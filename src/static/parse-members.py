@@ -15,6 +15,31 @@ TO UPDATE TEAM PAGE:
 '''
 
 
+def correct_url(url):
+    """
+    Takes in a URL and returns a corrected URL by adding 'https://'
+    and 'www.' if they are missing, or returns the URL unchanged if it's already correct.
+
+    Parameters:
+    url (str): The URL to correct.
+
+    Returns:
+    str: The corrected URL.
+    """
+
+    # Check if the URL starts with 'http://' or 'https://'
+    if not url.startswith('http://') and not url.startswith('https://'):
+        # Prepend 'https://'
+        url = 'https://' + url
+
+    # Check if 'https://' is followed directly by 'www.'
+    if 'https://www.' not in url:
+        # Insert 'www.' after 'https://'
+        url = url.replace('https://', 'https://www.')
+
+    return url
+
+
 def extract_url_and_filetype(text):
     # Regular expression pattern to extract the file type
     filetype_pattern = r'\.\w+'
@@ -117,8 +142,8 @@ with open("roster.csv", encoding="utf8") as csv_file:
                     fN=firstName.lower(), lN=lastName.lower(), ind=index, file_type=("jpg")
                 ),
                 "roles": row[roleColIndex].split(","),
-                "linkedIn": row[linkedInColIndex],
-                "website": row[websiteColIndex],
+                "linkedIn": correct_url(row[linkedInColIndex]),
+                "website": correct_url(row[websiteColIndex]),
                 "email": row[emailColIndex],
             }
 
