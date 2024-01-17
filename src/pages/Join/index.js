@@ -24,15 +24,15 @@ const Join = () => {
 				<div className={styles['recruitment']}>
 					<img src={Blobs2} alt="" />
 					<h3>Applications are now open!</h3>
-					<p className={styles['descrip']}>
+					{/* <p className={styles['descrip']}>
 						Thank you so much for your interest in joining WDB! We'd love to
 						stay in touch with you and answer any questions you may have. Feel
 						free to reach out to us if you'd liked to learn more, and check out
 						our educational resources below!
-					</p>
+					</p> */}
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
-							<p className={styles['title']}>Aug 21 - Applications open</p>
+							<p className={styles['title']}>Jan 16 - Applications open</p>
 							<div
 								className={`${styles['description']} ${styles['apply-buttons']}`}
 							>
@@ -40,7 +40,7 @@ const Join = () => {
 									text="Club Application"
 									onClick={() =>
 										window.location.replace(
-											'https://airtable.com/app9KytKyLJg5Nsvq/shrxn0L0lPosFnAZl'
+											'https://airtable.com/appX15UWiN17hulFC/shr5G4iX1fbpuT8gG'
 										)
 									}
 								/>
@@ -48,12 +48,12 @@ const Join = () => {
 									text="DeCal Application"
 									onClick={() =>
 										window.location.replace(
-											'https://airtable.com/app4DQfVs1iDSqn4b/shrFGkWU1iF8nLpgS'
+											'https://docs.google.com/forms/d/e/1FAIpQLSfktrNEIJovVzKOTV2gJEpg30kK0SVKoXXur0boEhNwlJ-jpg/viewform'
 										)
 									}
 								/>
 							</div>
-							<p className={styles['title']}>Aug 23 - Coffee Chats Open</p>
+							<p className={styles['title']}>Jan 16 - Coffee Chats Open</p>
 							<div className={styles['description']}>
 								<Button
 									text="Chat with us!"
@@ -64,24 +64,39 @@ const Join = () => {
 									}
 								/>
 							</div>
-							<p className={styles['title']}>Aug 28 - Clubs and Cookies</p>
+							<p className={styles['title']}>Jan 19 - Design Fair</p>
 							<div className={styles['description']}>
 								<p>
-									<b>HEARST FIELD ANNEX A1 @ 8PM-10PM</b>
+									<b>Jacobs 310 @ 12PM-4PM</b>
+								</p>
+							</div>
+							<p className={styles['title']}>Jan 19 - Tech Diversity Night</p>
+							<div className={styles['description']}>
+								<p>
+									<b>Chou Hall N150 @ 8PM-10PM</b>
+								</p>
+							</div>
+							<p className={styles['title']}>Jan 22 - Clubs and Cookies</p>
+							<div className={styles['description']}>
+								<p>
+									<b>VLSB 2050 @ 8PM-10PM</b>
 								</p>
 								<p>
 									New to the tech scene at Cal? Craving some yummy cookies? Come
 									join us at Clubs and Cookies, an event to learn about some of
-									the biggest tech clubs on campus. Blueprint, Codebase, Codeology, Data Science Society, Girls Who Code,
-									Launchpad, SAAS, WDB, plus lightning presentations from more tech clubs all in one delicious event and chat directly with current members!
+									the biggest tech clubs on campus. WDB, Codeology, LaunchPad,
+									Blueprint, ML@B, Codebase, Anova, B@B, SAAS, DiversaTech,
+									CalHacks, IEEE, PlexTech plus lightning presentations from
+									more tech clubs all in one delicious event and chat directly
+									with current members!
 								</p>
 							</div>
 							<p className={styles['title']}>
-								AUG 29 - CLUB + DECAL INFOSESSION #1
+								JAN 23 - CLUB + DECAL INFOSESSION #1
 							</p>
 							<div className={styles['description']}>
 								<p>
-									<b>DWINELLE 109 @ 8-9:30PM</b>
+									<b>DWINELLE 234 @ 8-9:30PM</b>
 								</p>
 								<p>
 									Come to our infosession to learn more about WDB and the Intro
@@ -90,18 +105,13 @@ const Join = () => {
 								<p>DeCal Infosession: 8-8:30PM</p>
 								<p>Club Infosession: 8:30-9:30PM</p>
 							</div>
-							<p className={styles['title']}>Aug 30 - Tech Diversity Night</p>
-							<div className={styles['description']}>
-								<p>
-									<b>DWINELLE 209 @ 8PM-10PM</b>
-								</p>
-							</div>
+
 							<p className={styles['title']}>
-								AUG 31 - CLUB + DECAL INFOSESSION #2
+								JAN 25 - CLUB + DECAL INFOSESSION #2
 							</p>
 							<div className={styles['description']}>
 								<p>
-									<b>DWINELLE 109 @ 8-9:30PM</b>
+									<b>WHEELER 104 @ 8-9:30PM</b>
 								</p>
 								<p>
 									In case you missed infosession #1! All the information
@@ -112,19 +122,23 @@ const Join = () => {
 								<p>Club Infosession: 8:30-9:30PM</p>
 							</div>
 							<p className={styles['title']}>
-								Sep 1 - CLUB APPLICATION DUE @ 11:59PM
+								JAN 26 - CLUB APPLICATION DUE @ 11:59PM
 							</p>
 							<div className={styles['description']}></div>
 							<p className={styles['title']}>
-								Sep 2 - DECAL APPLICATION DUE @ 10AM
+								JAN 27 - DECAL APPLICATION DUE @ 11:59PM
 							</p>
 							<div className={styles['description']}></div>
 							<p className={styles['title']}>
-								Sep 4-6 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
+								JAN 30-31 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
 							</p>
 							<div className={styles['description']}></div>
 							<p className={styles['title']}>
-								Sep 7-8 - CLUB FINAL INTERVIEWS (INVITE ONLY)
+								FEB 1 - CLUB MEET AND GREET (INVITE ONLY)
+							</p>
+							<div className={styles['description']}></div>
+							<p className={styles['title']}>
+								FEB 1-2 - CLUB FINAL INTERVIEWS (INVITE ONLY)
 							</p>
 						</div>
 					</Fade>
@@ -153,7 +167,7 @@ const Join = () => {
 						</div>
 					</Fade>
 				</div>
-				
+
 				<div className={styles['experiences']}>
 					<img className={styles['blob']} src={Blobs3} alt="" />
 					<h3>Member Experiences</h3>
