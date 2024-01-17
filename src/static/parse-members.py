@@ -26,7 +26,8 @@ def correct_url(url):
     Returns:
     str: The corrected URL.
     """
-
+    if not url:
+        return url
     # Check if the URL starts with 'http://' or 'https://'
     if not url.startswith('http://') and not url.startswith('https://'):
         # Prepend 'https://'
@@ -132,7 +133,6 @@ with open("roster.csv", encoding="utf8") as csv_file:
             download_image(url, "{fN}-{lN}-{ind}.{file_type}".format(
                 fN=firstName.lower(), lN=lastName.lower(), ind=index, file_type="jpg" if file_type != "heic" and file_type != "HEIC" else file_type
             ))
-
             # Key users based on a UUIDpyt
             data[str(uuid.uuid4())] = {
                 "firstName": firstName,
