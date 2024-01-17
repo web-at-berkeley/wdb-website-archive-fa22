@@ -31,7 +31,6 @@ const MemberCard = ({ member }: MemberCard_Props) => {
 		};
 		init();
 	}, []);
-	console.log(member.linkedIn);
 
 	return (
 		<Col className={styles['profile']}>

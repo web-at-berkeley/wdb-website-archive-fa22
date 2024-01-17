@@ -38,10 +38,38 @@ const filterRoles = (member: Member, prefix: string) => {
 const alphabeticalRoleSort = (a: Member, b: Member) => {
 	const aRoles = a.roles.join('');
 	const bRoles = b.roles.join('');
-	return aRoles.localeCompare(bRoles) || b.firstName.localeCompare(a.firstName);
+	return aRoles.localeCompare(bRoles) || a.firstName.localeCompare(b.firstName);
 };
 
-execMembers.sort(alphabeticalRoleSort);
+const execSort = (a: Member, b: Member) => {
+	// Define the priority of the roles
+	const rolePriority: { [role: string]: number } = {
+		'[Exec] President': 1,
+		'[Exec] VP Internal': 2,
+	};
+
+	// Get the highest priority role for each member or default to a high number
+	const aMaxRole = a.roles.map((role) => rolePriority[role] || 1000).sort()[0];
+	const bMaxRole = b.roles.map((role) => rolePriority[role] || 1000).sort()[0];
+
+	// Compare based on role priority
+	if (aMaxRole !== bMaxRole) {
+		return aMaxRole - bMaxRole;
+	}
+
+	// If roles are the same, sort alphabetically by role
+	const aRoles = a.roles.join('');
+	const bRoles = b.roles.join('');
+	const roleComparison = aRoles.localeCompare(bRoles);
+	if (roleComparison !== 0) {
+		return roleComparison;
+	}
+
+	// If there is still a tie, sort by first name
+	return a.firstName.localeCompare(b.firstName);
+};
+
+execMembers.sort(execSort);
 industryMembers.sort(alphabeticalRoleSort);
 
 const Members = () => {
@@ -83,12 +111,12 @@ const Members = () => {
 					))}
 				</Row>
 
-				<h4 className={styles['divider-header']}>Product Bootcamp</h4>
+				{/* <h4 className={styles['divider-header']}>Product Bootcamp</h4>
 				<Row lg="5" sm="3" xs="2">
 					{bootcampMembers.map((data, i) => (
 						<MemberCard member={filterRoles(data, '[Bootcamp]')} key={i} />
 					))}
-				</Row>
+				</Row> */}
 				<h4 className={styles['divider-header']}>Design Team</h4>
 				<Row lg="5" sm="3" xs="2">
 					{designTeam.map((data, i) => (
