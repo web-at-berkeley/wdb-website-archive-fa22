@@ -10,7 +10,7 @@ TO UPDATE TEAM PAGE:
 - export a csv from the roster AirTable with old and current members, put it into roster.csv
 - must have these columns Name,First Name,Last Name,Nickname,Photo,Berkeley Email,LinkedIn,Personal Website,SP24 Role,Method of Leaving
 - run this script which generates members.json as well as downloads photos to src/assets/pfps
-- go and manually re save any photos with HEIC to jpeg
+- go and manually re save any photos with HEIC to jpg
 
 '''
 
@@ -105,7 +105,7 @@ with open("roster.csv", encoding="utf8") as csv_file:
             photo = row[photoIndex]
             file_type, url = extract_url_and_filetype(row[photoIndex])
             download_image(url, "{fN}-{lN}-{ind}.{file_type}".format(
-                fN=firstName.lower(), lN=lastName.lower(), ind=index, file_type=file_type
+                fN=firstName.lower(), lN=lastName.lower(), ind=index, file_type="jpg" if file_type != "heic" and file_type != "HEIC" else file_type
             ))
 
             # Key users based on a UUIDpyt
@@ -114,7 +114,7 @@ with open("roster.csv", encoding="utf8") as csv_file:
                 "lastName": lastName,
                 "nickname": nickname,
                 "image": "{fN}-{lN}-{ind}.{file_type}".format(
-                    fN=firstName.lower(), lN=lastName.lower(), ind=index, file_type=(file_type if file_type != "heic" and file_type != "HEIC" and file_type != "pdf" else "jpeg")
+                    fN=firstName.lower(), lN=lastName.lower(), ind=index, file_type=("jpg")
                 ),
                 "roles": row[roleColIndex].split(","),
                 "linkedIn": row[linkedInColIndex],

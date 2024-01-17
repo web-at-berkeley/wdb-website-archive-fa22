@@ -1,10 +1,10 @@
 {
   "allMembers": {
-    "cdfc007a-f842-49ed-8cce-1f098f922844": {
+    "b2fdfb8f-6fdd-4523-906b-c6e04eb70e78": {
       "firstName": "Aadhiti",
       "lastName": "Ghankota",
       "nickname": "",
-      "image": "aadhiti-ghankota-0.jpeg",
+      "image": "aadhiti-ghankota-0.jpg",
       "roles": [
         "Senior Advisor"
       ],
@@ -12,7 +12,7 @@
       "website": "",
       "email": "aadhitighankota@berkeley.edu"
     },
-    "bb7df553-680d-4e53-a8e0-af821e134174": {
+    "0402b3f8-16d8-4c09-86e8-253b87549ea9": {
       "firstName": "Abigail",
       "lastName": "Delgado",
       "nickname": "Abby",
@@ -24,7 +24,7 @@
       "website": "",
       "email": "abigaildelgado@berkeley.edu"
     },
-    "d594be07-b147-4f83-9e96-060928d26548": {
+    "3ca1aaec-9934-4da3-a2e1-0cf7489ab27d": {
       "firstName": "Abdul",
       "lastName": "Karim",
       "nickname": "",
@@ -36,11 +36,11 @@
       "website": "https://www.linkedin.com/in/abdulfk",
       "email": "afkarim@berkeley.edu"
     },
-    "50684652-5358-4414-acc5-2ca03af4e3fe": {
+    "5beba14e-cd18-4133-ac7a-5130311c01c7": {
       "firstName": "Adam",
       "lastName": "Goldstein",
       "nickname": "",
-      "image": "adam-goldstein-0.dfed90eb",
+      "image": "adam-goldstein-0.jpg",
       "roles": [
         "[DeCal] Fullstack TA"
       ],
@@ -48,7 +48,7 @@
       "website": "",
       "email": "adamgoldstein@berkeley.edu"
     },
-    "5a3cfc51-042a-46a1-af9a-61f6390e7e1d": {
+    "c279c54e-d766-4d47-9c24-96019bf7a1b7": {
       "firstName": "Aditya",
       "lastName": "Bhawal",
       "nickname": "",
@@ -60,11 +60,11 @@
       "website": "",
       "email": "adbhawal@berkeley.edu"
     },
-    "28714ac0-0ecd-4465-9dc3-c1709ed9ba6b": {
+    "6ab110c9-5cf7-431c-84ce-510698ccd517": {
       "firstName": "Albert",
       "lastName": "Tian",
       "nickname": "",
-      "image": "albert-tian-0.None",
+      "image": "albert-tian-0.jpg",
       "roles": [
         ""
       ],
@@ -72,11 +72,11 @@
       "website": "https://github.com/albTian",
       "email": ""
     },
-    "ad0b13d2-6ec6-47d1-92f6-b1644f32c610": {
+    "53ef4a1b-3083-441e-8c34-ec9feb41e892": {
       "firstName": "Alex",
       "lastName": "Wu",
       "nickname": "",
-      "image": "alex-wu-0.None",
+      "image": "alex-wu-0.jpg",
       "roles": [
         ""
       ],
@@ -84,11 +84,11 @@
       "website": "",
       "email": ""
     },
-    "fb4cac76-a68f-4958-9017-4b648d3e0662": {
+    "7a8fac5f-3a3b-453b-a376-264fb911d4f9": {
       "firstName": "Alexis",
       "lastName": "Kim",
       "nickname": "",
-      "image": "alexis-kim-0.jpeg",
+      "image": "alexis-kim-0.jpg",
       "roles": [
         ""
       ],
@@ -96,11 +96,11 @@
       "website": "alexiskim.me",
       "email": "alexis-kim@berkeley.edu"
     },
-    "a3d87ec3-7a41-497b-a1b2-6fbe051c38b8": {
+    "af37f60e-e230-47ca-ae45-c9c80c287759": {
       "firstName": "Ali",
       "lastName": "Ansari",
       "nickname": "",
-      "image": "ali-ansari-0.None",
+      "image": "ali-ansari-0.jpg",
       "roles": [
         ""
       ],
@@ -108,11 +108,11 @@
       "website": "",
       "email": ""
     },
-    "6526f7c6-7598-45f4-845e-6ff162c12352": {
+    "6d4c269b-38d3-4caf-8d41-0e6dfca1c0de": {
       "firstName": "Alina",
       "lastName": "Wang",
       "nickname": "",
-      "image": "alina-wang-0.png",
+      "image": "alina-wang-0.jpg",
       "roles": [
         ""
       ],
@@ -120,11 +120,11 @@
       "website": "",
       "email": "alina.wang@berkeley.edu"
     },
-    "8e9e2bac-3f28-41da-a7b4-94e17062e2c0": {
+    "1b2bd4c9-85ef-46ef-9b40-7ef9dd5d9eed": {
       "firstName": "Amish",
       "lastName": "Gupta",
       "nickname": "",
-      "image": "amish-gupta-0.png",
+      "image": "amish-gupta-0.jpg",
       "roles": [
         "[Exec] VP Bootcamp"
       ],
@@ -132,7 +132,7 @@
       "website": "",
       "email": "amish@berkeley.edu"
     },
-    "a0e1a075-3e49-4f4a-bea4-24887ffbf637": {
+    "d361b0e2-0b55-4e7a-80d7-110abf8c6060": {
       "firstName": "YeEun",
       "lastName": "Kwon",
       "nickname": "Amy",
@@ -144,7 +144,7 @@
       "website": "",
       "email": "amykwon@berkeley.edu"
     },
-    "c957644c-9260-49b2-a89a-0380d0e8d452": {
+    "818a2364-3410-4c30-bb72-8df101ea66d9": {
       "firstName": "Amy",
       "lastName": "Yang",
       "nickname": "",
@@ -156,11 +156,11 @@
       "website": "",
       "email": "ayang24@berkeley.edu"
     },
-    "39d68a98-4442-4881-9cd2-41e58acde58b": {
+    "d7ac099f-b75c-4ca7-9318-a0d7437e9245": {
       "firstName": "Andy",
       "lastName": "Ngo",
       "nickname": "",
-      "image": "andy-ngo-0.jpeg",
+      "image": "andy-ngo-0.jpg",
       "roles": [
         "[MET] Member"
       ],
@@ -168,7 +168,7 @@
       "website": "",
       "email": "ango9031@berkeley.edu"
     },
-    "ca82f8fa-15de-4461-bc72-80942a8c3648": {
+    "248bd2ae-6e75-4b16-a654-7a0295d4041a": {
       "firstName": "Angel",
       "lastName": "Mau",
       "nickname": "",
@@ -181,7 +181,7 @@
       "website": "",
       "email": "angelmau@berkeley.edu"
     },
-    "897ffd12-6e67-4115-8a41-449ded15a3d6": {
+    "e5b5081e-93f3-4c97-be68-fb8fbe94f487": {
       "firstName": "Angela",
       "lastName": "Li",
       "nickname": "",
@@ -193,7 +193,7 @@
       "website": "totalangela.github.io",
       "email": "totalangela@berkeley.edu"
     },
-    "c219fb3b-187c-4db3-a6b9-93e3047cf946": {
+    "d3061c92-293c-432d-bc84-076b25fb94f4": {
       "firstName": "Aniruddh",
       "lastName": "Chennapragada",
       "nickname": "Ani",
@@ -205,11 +205,11 @@
       "website": "",
       "email": "anic@berkeley.edu"
     },
-    "fd09e595-c2c1-432c-9a13-6e4586d3f4af": {
+    "3e1196eb-5aba-490a-978d-7a430f8616ba": {
       "firstName": "Aniruddha",
       "lastName": "Vangala",
       "nickname": "Ani",
-      "image": "aniruddha-vangala-0.None",
+      "image": "aniruddha-vangala-0.jpg",
       "roles": [
         ""
       ],
@@ -217,7 +217,7 @@
       "website": "",
       "email": ""
     },
-    "a125e32f-7b8f-4053-9486-92320ca00501": {
+    "55f60c8b-fcec-44a7-903e-99589c0dfaae": {
       "firstName": "Anish",
       "lastName": "Shanbhag",
       "nickname": "",
@@ -229,7 +229,7 @@
       "website": "",
       "email": "anish.shanbhag@berkeley.edu"
     },
-    "3e83c532-0f4d-4f74-82f8-42275e0ff016": {
+    "007a9a32-2d64-409d-909c-7eaf328472e4": {
       "firstName": "Anjan",
       "lastName": "Bharadwaj",
       "nickname": "",
@@ -241,11 +241,11 @@
       "website": "https://anjanbharadwaj.com/",
       "email": "anjanb@berkeley.edu"
     },
-    "192a06a9-f566-4ad7-a731-84a75ebf57cc": {
+    "6c16839f-a2c2-4ed7-955c-0080167df060": {
       "firstName": "Anna",
       "lastName": "Hagiwara",
       "nickname": "",
-      "image": "anna-hagiwara-0.jpeg",
+      "image": "anna-hagiwara-0.jpg",
       "roles": [
         "[Industry] Product Manager"
       ],
@@ -253,7 +253,7 @@
       "website": "",
       "email": "ahagiwara@berkeley.edu"
     },
-    "e3fc009a-4289-40a2-a7ac-4af3c71ada4c": {
+    "5455cea5-fb9c-4dd8-8988-273739687c4e": {
       "firstName": "Viansa",
       "lastName": "Schmulbach",
       "nickname": "Ansa",
@@ -265,11 +265,11 @@
       "website": "",
       "email": "ansa@berkeley.edu"
     },
-    "7023c6fe-0837-4d75-abb5-5a3c66ba3169": {
+    "34c18ef1-f88c-41ef-9c12-198ea099b258": {
       "firstName": "Artem",
       "lastName": "Tkachuk",
       "nickname": "Art",
-      "image": "artem-tkachuk-0.jpeg",
+      "image": "artem-tkachuk-0.jpg",
       "roles": [
         ""
       ],
@@ -277,11 +277,11 @@
       "website": "https://www.artemtkachuk.me",
       "email": "atkachuk@berkeley.edu"
     },
-    "6cfc71e2-d915-47b6-983a-d9096eb54c1d": {
+    "5d9691ec-19d2-46aa-b7bd-4fa175fe9cf8": {
       "firstName": "Arushi",
       "lastName": "Somani",
       "nickname": "",
-      "image": "arushi-somani-0.None",
+      "image": "arushi-somani-0.jpg",
       "roles": [
         ""
       ],
@@ -289,7 +289,7 @@
       "website": "http://amks.me",
       "email": ""
     },
-    "f046a37d-9ad2-42b1-9bc2-7cbaf04d6288": {
+    "0b192de0-3624-42d1-ab2a-62b47d0c312b": {
       "firstName": "Ashley",
       "lastName": "Zheng",
       "nickname": "",
@@ -301,11 +301,11 @@
       "website": "",
       "email": "ashley.zheng@berkeley.edu"
     },
-    "a1ba1f2e-4989-4717-b0bd-69dca765846b": {
+    "0d5d85d5-6fac-4267-bfbc-4b9a89fa7653": {
       "firstName": "Atharva",
       "lastName": "Mehendale",
       "nickname": "",
-      "image": "atharva-mehendale-0.None",
+      "image": "atharva-mehendale-0.jpg",
       "roles": [
         ""
       ],
@@ -313,7 +313,7 @@
       "website": "",
       "email": ""
     },
-    "db149023-c14a-4c0b-b496-d78f4ce43521": {
+    "8a97b21c-17c0-4cb9-aaeb-81e6253cbf08": {
       "firstName": "Avinash",
       "lastName": "Rao",
       "nickname": "",
@@ -325,7 +325,7 @@
       "website": "",
       "email": "avinashrao2002@berkeley.edu"
     },
-    "1cb5fcbf-33dc-40d7-baa0-075b4250a67e": {
+    "dff1ed86-544c-41fd-b802-8860bedfaefe": {
       "firstName": "Ayaka",
       "lastName": "Chou",
       "nickname": "",
@@ -337,11 +337,11 @@
       "website": "",
       "email": "ayakachou@berkeley.edu"
     },
-    "88f4e521-5a3d-4d1f-a1f0-de4cdc59615f": {
+    "cdcc8364-d954-4a9d-9c8f-f0d65dbb6387": {
       "firstName": "Caelin",
       "lastName": "Sutch",
       "nickname": "",
-      "image": "caelin-sutch-0.None",
+      "image": "caelin-sutch-0.jpg",
       "roles": [
         ""
       ],
@@ -349,11 +349,11 @@
       "website": "https://www.caelinsutch.com/",
       "email": ""
     },
-    "44d71c07-f637-48e6-94d3-26fe60c8e1e9": {
+    "39e251cb-b3a5-44d8-aba6-61e9dd043977": {
       "firstName": "Chengyin",
       "lastName": "Li",
       "nickname": "Cass",
-      "image": "chengyin-li-0.20",
+      "image": "chengyin-li-0.jpg",
       "roles": [
         "[MET] Member"
       ],
@@ -361,7 +361,7 @@
       "website": "https://cassli.webflow.io",
       "email": "chengyin@berkeley.edu"
     },
-    "2f8ed3ad-4d0c-4538-9e60-ddebbd3de164": {
+    "430e8890-badc-47be-bed4-71b10c879640": {
       "firstName": "Chanel",
       "lastName": "Zeng",
       "nickname": "",
@@ -373,7 +373,7 @@
       "website": "",
       "email": "zengchanel@berkeley.edu"
     },
-    "5369c703-e57b-4943-bf12-c431f9f8daf2": {
+    "32e46e07-648d-445a-bfbb-f3673922a1f9": {
       "firstName": "Cindy",
       "lastName": "Liu",
       "nickname": "",
@@ -385,11 +385,11 @@
       "website": "",
       "email": "liu.cindy@berkeley.edu"
     },
-    "5a9bdc90-75c3-4ee6-9341-078d27b41d21": {
+    "5f3f28fe-643e-4745-8721-37c2f051f2c0": {
       "firstName": "Daniel",
       "lastName": "Won",
       "nickname": "",
-      "image": "daniel-won-0.None",
+      "image": "daniel-won-0.jpg",
       "roles": [
         ""
       ],
@@ -397,11 +397,11 @@
       "website": "",
       "email": ""
     },
-    "7a186b36-97dc-4fc8-8e75-08f0cb1692a2": {
+    "fddb6ee5-a589-4521-8be4-5eb28a793032": {
       "firstName": "Danielle",
       "lastName": "Wong",
       "nickname": "",
-      "image": "danielle-wong-0.png",
+      "image": "danielle-wong-0.jpg",
       "roles": [
         "[DeCal] Design TA",
         "[MET] Member"
@@ -410,11 +410,11 @@
       "website": "",
       "email": "daniellenwong@berkeley.edu"
     },
-    "8b188206-de37-4e49-8cde-61b022568745": {
+    "e2ae69cc-9d2f-406e-8908-d08e00ad5300": {
       "firstName": "Deniz",
       "lastName": "Demirtas",
       "nickname": "DD",
-      "image": "deniz-demirtas-0.jpeg",
+      "image": "deniz-demirtas-0.jpg",
       "roles": [
         "[Industry] Product Manager",
         "[External Team] Member"
@@ -423,11 +423,11 @@
       "website": "",
       "email": "denizdemirtas@berkeley.edu"
     },
-    "882a8066-46c5-4d6b-b4d6-4fa08172bdae": {
+    "7143361d-d54d-4980-9bbd-40fc77fff32d": {
       "firstName": "Dhruv",
       "lastName": "Vaish",
       "nickname": "",
-      "image": "dhruv-vaish-0.jpeg",
+      "image": "dhruv-vaish-0.jpg",
       "roles": [
         "Senior Advisor"
       ],
@@ -435,7 +435,7 @@
       "website": "",
       "email": "dvaish@berkeley.edu"
     },
-    "7aaf7f7f-8fd4-47e9-9ba1-cb6a3c270e89": {
+    "0881e1b0-8862-4ed5-8cf5-effc825fe9f4": {
       "firstName": "Dominic",
       "lastName": "deBettencourt",
       "nickname": "",
@@ -447,11 +447,11 @@
       "website": "dominicd.me",
       "email": "dominicd@berkeley.edu"
     },
-    "42b90c5f-62a2-4ca9-912c-af8ce1bc0059": {
+    "3888175d-ac52-4f65-b36f-b8eb00cc86ae": {
       "firstName": "Dora",
       "lastName": "Fok",
       "nickname": "",
-      "image": "dora-fok-0.jpeg",
+      "image": "dora-fok-0.jpg",
       "roles": [
         "[Decal] Course Staff"
       ],
@@ -459,7 +459,7 @@
       "website": "",
       "email": "dorafok@berkeley.edu"
     },
-    "b737eb39-b2cd-4407-b240-3e30b404bd0f": {
+    "d1cc3a6b-a112-4c11-b5ee-005a5098a174": {
       "firstName": "Edward",
       "lastName": "Luna",
       "nickname": "",
@@ -471,7 +471,7 @@
       "website": "",
       "email": "mister.luna@berkeley.edu"
     },
-    "c4609099-2479-453f-9d62-9cf77eb047f8": {
+    "90dc7cf9-1a10-4e22-a212-9ab6e7f50a3c": {
       "firstName": "Emir",
       "lastName": "Karabeg",
       "nickname": "",
@@ -483,11 +483,11 @@
       "website": "",
       "email": "emirkarabeg@berkeley.edu"
     },
-    "dd4b72a1-4b96-4c41-a0f1-0930badd6cb2": {
+    "ab08e29c-611c-428e-af0d-56502131002f": {
       "firstName": "Ervin",
       "lastName": "Baccay",
       "nickname": "",
-      "image": "ervin-baccay-0.None",
+      "image": "ervin-baccay-0.jpg",
       "roles": [
         ""
       ],
@@ -495,7 +495,7 @@
       "website": "",
       "email": ""
     },
-    "da634e83-68bf-49b3-b905-67f270b3ad1a": {
+    "fe14e4d7-8e82-43cf-aeb6-d00eeeac18c5": {
       "firstName": "Ethan",
       "lastName": "Pang",
       "nickname": "",
@@ -507,11 +507,11 @@
       "website": "https://ethanpang5.github.io/",
       "email": "ethanp5@berkeley.edu"
     },
-    "d430b5e9-9a1d-4191-98df-7eb26e2b6463": {
+    "8ae8f57b-ab88-4ec3-a689-bc298e2e55de": {
       "firstName": "Ethan",
       "lastName": "Wu",
       "nickname": "",
-      "image": "ethan-wu-0.None",
+      "image": "ethan-wu-0.jpg",
       "roles": [
         ""
       ],
@@ -519,11 +519,11 @@
       "website": "",
       "email": ""
     },
-    "6daef960-a650-42a6-894b-d18565247f82": {
+    "a2f7a056-605b-4b2a-ae0a-de91094f84c9": {
       "firstName": "Evan",
       "lastName": "Quan",
       "nickname": "",
-      "image": "evan-quan-0.jpeg",
+      "image": "evan-quan-0.jpg",
       "roles": [
         ""
       ],
@@ -531,7 +531,7 @@
       "website": "evanq.studio",
       "email": "evan.quan@berkeley.edu"
     },
-    "b22e15ff-5c4a-4829-be00-6e79274c31f2": {
+    "4e7a6b24-51b9-48e9-98c2-c267f754919f": {
       "firstName": "Ezra",
       "lastName": "Apple",
       "nickname": "",
@@ -543,11 +543,11 @@
       "website": "",
       "email": "ezraapple@berkeley.edu"
     },
-    "a5210a8b-3fb5-4904-8407-853ded17b7d5": {
+    "95e6c7b3-800e-4de6-9ef0-f9ac4277942f": {
       "firstName": "Felix",
       "lastName": "Zhu",
       "nickname": "",
-      "image": "felix-zhu-0.jpeg",
+      "image": "felix-zhu-0.jpg",
       "roles": [
         "[Decal] Course Staff"
       ],
@@ -555,11 +555,11 @@
       "website": "",
       "email": "felixzhu@berkeley.edu"
     },
-    "d70dcd63-27e0-4d7c-95e6-8abe0b4e712b": {
+    "2d8e7487-e090-47f3-ad13-ee2b1349255e": {
       "firstName": "Gabriel",
       "lastName": "Meng",
       "nickname": "Gabe",
-      "image": "gabriel-meng-0.None",
+      "image": "gabriel-meng-0.jpg",
       "roles": [
         ""
       ],
@@ -567,11 +567,11 @@
       "website": "",
       "email": ""
     },
-    "759c877a-c16d-4724-bbd1-fc0014b1a94a": {
+    "7da0aecc-0333-4cb2-94a6-77130516ce1f": {
       "firstName": "Genna",
       "lastName": "Gams",
       "nickname": "",
-      "image": "genna-gams-0.jpeg",
+      "image": "genna-gams-0.jpg",
       "roles": [
         "[Exec] VP Bootcamp"
       ],
@@ -579,11 +579,11 @@
       "website": "ggams2020.github.io/site",
       "email": "ggams@berkeley.edu"
     },
-    "87d5bc03-0d57-4669-b31c-fae91e73d125": {
+    "271ac2e2-9093-4e66-9cd9-55a2e71ae596": {
       "firstName": "Hector",
       "lastName": "Ramos",
       "nickname": "",
-      "image": "hector-ramos-0.None",
+      "image": "hector-ramos-0.jpg",
       "roles": [
         ""
       ],
@@ -591,11 +591,11 @@
       "website": "",
       "email": ""
     },
-    "5126e400-4a1c-462b-8673-748d4f6382cc": {
+    "0aeabee4-b78d-42af-9312-4c7b1d07315e": {
       "firstName": "Henric",
       "lastName": "Zhang",
       "nickname": "",
-      "image": "henric-zhang-0.jpeg",
+      "image": "henric-zhang-0.jpg",
       "roles": [
         "[Decal] Course Staff"
       ],
@@ -603,11 +603,11 @@
       "website": "",
       "email": "henriczhang@berkeley.edu"
     },
-    "2e48a61c-0fe4-4546-8f2d-cb11e9992fe4": {
+    "dc11618d-1a73-4d55-b06b-53cecb15c600": {
       "firstName": "Henry",
       "lastName": "Chiu",
       "nickname": "",
-      "image": "henry-chiu-0.None",
+      "image": "henry-chiu-0.jpg",
       "roles": [
         ""
       ],
@@ -615,11 +615,11 @@
       "website": "http://henrychiu.me",
       "email": ""
     },
-    "046b54fb-f76f-4b9c-8863-07b88ce0d7b2": {
+    "5ecc9904-5c2b-4a5d-81b1-f1ff5c7ccba6": {
       "firstName": "Hunter",
       "lastName": "Harling",
       "nickname": "",
-      "image": "hunter-harling-0.jpeg",
+      "image": "hunter-harling-0.jpg",
       "roles": [
         "[Industry] Product Manager"
       ],
@@ -627,11 +627,11 @@
       "website": "",
       "email": "hunterharling@berkeley.edu"
     },
-    "efbc0ab3-5701-4e18-b359-970287ec566f": {
+    "4f5a7b30-a76d-4223-bfe9-518bab6ad553": {
       "firstName": "Ikshita",
       "lastName": "Puri",
       "nickname": "Iki",
-      "image": "ikshita-puri-0.JPG",
+      "image": "ikshita-puri-0.jpg",
       "roles": [
         ""
       ],
@@ -639,7 +639,7 @@
       "website": "",
       "email": "ikshitapuri@berkeley.edu"
     },
-    "e33d633f-5a1a-40a4-82c0-09605d9827e0": {
+    "69a196e5-2491-4b4d-80af-139e02cc27ee": {
       "firstName": "Isaac",
       "lastName": "Ong",
       "nickname": "",
@@ -651,7 +651,7 @@
       "website": "https://isaacong.me",
       "email": "isaacong@berkeley.edu"
     },
-    "d7437386-eeee-4e02-b9d5-1a7f802f80d6": {
+    "425c17b2-d20f-45c2-b68d-a6ae982d6e29": {
       "firstName": "Isabel",
       "lastName": "Zheng",
       "nickname": "",
@@ -663,7 +663,7 @@
       "website": "",
       "email": "izheng@berkeley.edu"
     },
-    "67acb5a2-a16d-4c1b-8602-60bd62e31b24": {
+    "ee00c0bb-b431-4484-ac06-a04df4b2540e": {
       "firstName": "Ishan",
       "lastName": "Amin",
       "nickname": "",
@@ -675,11 +675,11 @@
       "website": "",
       "email": "ishanthewizard@berkeley.edu"
     },
-    "51eefb90-e765-4573-86d0-3e0baa9501e4": {
+    "a42a7adf-d3e1-43c3-ac3b-ae6af17c51a9": {
       "firstName": "Izzie",
       "lastName": "Lau",
       "nickname": "",
-      "image": "izzie-lau-0.None",
+      "image": "izzie-lau-0.jpg",
       "roles": [
         ""
       ],
@@ -687,7 +687,7 @@
       "website": "",
       "email": ""
     },
-    "27992b25-101d-45c5-8e38-111596b8c8a3": {
+    "de24bddc-a497-4ead-a0d3-cff1c9abc4fd": {
       "firstName": "Jackson",
       "lastName": "Wong",
       "nickname": "",
@@ -700,11 +700,11 @@
       "website": "",
       "email": "wongjt@berkeley.edu"
     },
-    "161b8d9c-8f5a-44d7-b866-0c6f0cf63bf8": {
+    "8674efac-32dd-4840-a5b8-8928e6e86b92": {
       "firstName": "James",
       "lastName": "Shin",
       "nickname": "",
-      "image": "james-shin-0.None",
+      "image": "james-shin-0.jpg",
       "roles": [
         ""
       ],
@@ -712,11 +712,11 @@
       "website": "",
       "email": ""
     },
-    "6583250d-a865-45eb-9c6b-967e5bc26aa3": {
+    "eafdad1f-0e7c-413e-91eb-9f9dd5f59e9b": {
       "firstName": "Jasmine",
       "lastName": "Chen",
       "nickname": "",
-      "image": "jasmine-chen-0.None",
+      "image": "jasmine-chen-0.jpg",
       "roles": [
         ""
       ],
@@ -724,11 +724,11 @@
       "website": "https://www.jasminewschen.com/",
       "email": ""
     },
-    "6fc304b7-2d70-4a1a-ad83-e2b7213f77a7": {
+    "20652a92-86e3-4a45-b531-8f121986878f": {
       "firstName": "Jason",
       "lastName": "Duong",
       "nickname": "",
-      "image": "jason-duong-0.jpeg",
+      "image": "jason-duong-0.jpg",
       "roles": [
         "[Industry] Frontend Developer"
       ],
@@ -736,11 +736,11 @@
       "website": "jasonduongg.github.io/Personal/",
       "email": "jasonduong@berkeley.edu"
     },
-    "03e76990-c59d-481e-9d79-9f3420aa047a": {
+    "d37586e2-d412-462e-8962-074ce9b72def": {
       "firstName": "Jazem",
       "lastName": "Siddiqui",
       "nickname": "",
-      "image": "jazem-siddiqui-0.None",
+      "image": "jazem-siddiqui-0.jpg",
       "roles": [
         ""
       ],
@@ -748,11 +748,11 @@
       "website": "",
       "email": ""
     },
-    "24e100df-2774-4fa8-9ff3-d025241fede9": {
+    "e4ea17c8-5fa5-403a-81e2-687f73301c25": {
       "firstName": "Jeffrey",
       "lastName": "Huang",
       "nickname": "",
-      "image": "jeffrey-huang-0.JPEG",
+      "image": "jeffrey-huang-0.jpg",
       "roles": [
         ""
       ],
@@ -760,11 +760,11 @@
       "website": "https://jefforee.github.io/jeffreyhuang/",
       "email": "jeff0827@berkeley.edu"
     },
-    "36884f61-fc8c-47a6-b623-caf84841f3d9": {
+    "3a10c3d1-2cd8-489b-9322-82b1ceb08c44": {
       "firstName": "Jiahuang",
       "lastName": "Weng",
       "nickname": "Jenny",
-      "image": "jiahuang-weng-0.jpeg",
+      "image": "jiahuang-weng-0.jpg",
       "roles": [
         "[Exec] VP Design"
       ],
@@ -772,11 +772,11 @@
       "website": "jennyweng.com",
       "email": "jennyweng@berkeley.edu"
     },
-    "35fa24a7-718b-4b50-ae31-d83a868da48b": {
+    "e0828ed8-1ab5-4f87-bc17-bf57e2379995": {
       "firstName": "Jessica",
       "lastName": "Hwang",
       "nickname": "",
-      "image": "jessica-hwang-0.png",
+      "image": "jessica-hwang-0.jpg",
       "roles": [
         ""
       ],
@@ -784,11 +784,11 @@
       "website": "",
       "email": "jyjhwang@berkeley.edu"
     },
-    "a25aa221-5c21-40d6-a1e0-a83fad19a1f0": {
+    "97f8830a-3cbf-4bd3-99d5-f5d5619db36e": {
       "firstName": "Jessica",
       "lastName": "Wu",
       "nickname": "",
-      "image": "jessica-wu-0.None",
+      "image": "jessica-wu-0.jpg",
       "roles": [
         ""
       ],
@@ -796,11 +796,11 @@
       "website": "",
       "email": ""
     },
-    "81bf5f20-9f2d-43da-bb23-917d4fee8cbd": {
+    "1cf47cd9-40c7-4a5a-b4ab-0461ef2ff7db": {
       "firstName": "Jiro",
       "lastName": "Noor",
       "nickname": "",
-      "image": "jiro-noor-0.20",
+      "image": "jiro-noor-0.jpg",
       "roles": [
         "[Decal] Course Staff"
       ],
@@ -808,11 +808,11 @@
       "website": "",
       "email": "jiro.noor@berkeley.edu"
     },
-    "ef6aabe9-4c37-4e36-a2f5-02b72af4606b": {
+    "6fba1fb0-8288-4801-8b85-cbc68f22981a": {
       "firstName": "Jonathan",
       "lastName": "Sun",
       "nickname": "Jon",
-      "image": "jonathan-sun-0.jpeg",
+      "image": "jonathan-sun-0.jpg",
       "roles": [
         ""
       ],
@@ -820,11 +820,11 @@
       "website": "",
       "email": "jsun63@berkeley.edu"
     },
-    "c0e90eb7-ea9e-40d3-bd5e-601bcb0619cf": {
+    "0668d3bd-a971-43af-9113-2b3a1596e79c": {
       "firstName": "Joshua",
       "lastName": "Tsai",
       "nickname": "Josh",
-      "image": "joshua-tsai-0.JPEG",
+      "image": "joshua-tsai-0.jpg",
       "roles": [
         ""
       ],
@@ -832,7 +832,7 @@
       "website": "",
       "email": "jtsai24@berkeley.edu"
     },
-    "9b8fb032-ae21-4728-8596-905b3dbe3ef8": {
+    "1e7dab0f-2c92-4206-aca0-7c2d10a2d24b": {
       "firstName": "Zhuoying",
       "lastName": "Yang",
       "nickname": "Joying",
@@ -844,7 +844,7 @@
       "website": "",
       "email": "joying@berkeley.edu"
     },
-    "51432581-b507-4811-9f44-22742804aed2": {
+    "7a0bef66-d18f-410b-b65e-0cb103d7059a": {
       "firstName": "SuHyang",
       "lastName": "Kim",
       "nickname": "Juliet",
@@ -856,11 +856,11 @@
       "website": "",
       "email": "suhyang@berkeley.edu"
     },
-    "80608823-5075-4af5-95d7-5d17ca72230b": {
+    "283890b5-3c39-4d8a-a604-8a56b94b5014": {
       "firstName": "Kabir",
       "lastName": "Shah",
       "nickname": "",
-      "image": "kabir-shah-0.jpeg",
+      "image": "kabir-shah-0.jpg",
       "roles": [
         "[Exec] VP External"
       ],
@@ -868,7 +868,7 @@
       "website": "https://kabir.sh",
       "email": "kabirshah@berkeley.edu"
     },
-    "a5377ab2-f77a-4911-9e79-04ae62aff2d0": {
+    "b1bb05a8-895c-4e24-97e1-6923cbfca089": {
       "firstName": "Kartik",
       "lastName": "Aggarwal",
       "nickname": "",
@@ -881,11 +881,11 @@
       "website": "",
       "email": "kartikaggarwal@berkeley.edu"
     },
-    "f13de2f8-c41b-42b1-959e-1d2a377de1d4": {
+    "0eb99ace-a16f-4709-a4c4-d5b9408c5f85": {
       "firstName": "Kenzie",
       "lastName": "Tee",
       "nickname": "",
-      "image": "kenzie-tee-0.None",
+      "image": "kenzie-tee-0.jpg",
       "roles": [
         ""
       ],
@@ -893,7 +893,7 @@
       "website": "",
       "email": ""
     },
-    "44046459-4e98-42f0-8928-34868ffbb3a5": {
+    "0193009c-c4ed-464c-a5c8-76c09750d1db": {
       "firstName": "Kimberley",
       "lastName": "Fan",
       "nickname": "",
@@ -905,7 +905,7 @@
       "website": "",
       "email": "kimberley.fan123@berkeley.edu"
     },
-    "f0c48643-b848-403c-8827-e6f5d235b8a9": {
+    "e0afcef6-2f7a-4e38-a30b-edb78bd7f3e8": {
       "firstName": "Krish",
       "lastName": "Soni",
       "nickname": "",
@@ -917,11 +917,11 @@
       "website": "",
       "email": "krish_soni@berkeley.edu"
     },
-    "1e3a3d07-58e7-4183-b2ee-e444345ed110": {
+    "b44a59fe-a7aa-4f10-a17f-ac387e9c3945": {
       "firstName": "Kush",
       "lastName": "Garg",
       "nickname": "Kush",
-      "image": "kush-garg-0.jpeg",
+      "image": "kush-garg-0.jpg",
       "roles": [
         ""
       ],
@@ -929,7 +929,7 @@
       "website": "kushgarg.com",
       "email": "kush.garg@berkeley.edu"
     },
-    "f3ef7d0c-ca36-4c99-a703-f9fd56086b9a": {
+    "97b65ed4-7b81-4091-9627-18ebdf5ad45f": {
       "firstName": "Kyle",
       "lastName": "Kuwahara",
       "nickname": "",
@@ -942,11 +942,11 @@
       "website": "",
       "email": "kylekuwahara@berkeley.edu"
     },
-    "48451386-3b89-4015-afb5-3a72b9f793f1": {
+    "f85866de-35e3-4eda-a22a-1781c357d98b": {
       "firstName": "Laura",
       "lastName": "Pei",
       "nickname": "",
-      "image": "laura-pei-0.None",
+      "image": "laura-pei-0.jpg",
       "roles": [
         ""
       ],
@@ -954,11 +954,11 @@
       "website": "",
       "email": ""
     },
-    "83908a5c-53de-42c6-bbe2-1f577fa14b9a": {
+    "eaa8432c-e3d5-4df8-be27-999b90eb79f8": {
       "firstName": "Lauren",
       "lastName": "Kim",
       "nickname": "",
-      "image": "lauren-kim-0.jpeg",
+      "image": "lauren-kim-0.jpg",
       "roles": [
         "[Exec] VP Bootcamp"
       ],
@@ -966,7 +966,7 @@
       "website": "laurennayunkim.com",
       "email": "laurennayunkim@berkeley.edu"
     },
-    "d605a70b-faa8-4119-ac6b-2a502578c59e": {
+    "8cc57cc0-556d-4640-9fd3-5fa6d09a9ae6": {
       "firstName": "Leah",
       "lastName": "Hong",
       "nickname": "",
@@ -978,11 +978,11 @@
       "website": "",
       "email": "leah6519@berkeley.edu"
     },
-    "d2123644-7cf0-4210-a748-24c57624f1c1": {
+    "c998abf4-53db-4c1e-bdd7-37dfc0ec3a4a": {
       "firstName": "Leen",
       "lastName": "Armoush",
       "nickname": "",
-      "image": "leen-armoush-0.png",
+      "image": "leen-armoush-0.jpg",
       "roles": [
         ""
       ],
@@ -990,11 +990,11 @@
       "website": "",
       "email": "Larmoush@berkeley.edu"
     },
-    "0ba369ad-68d5-4152-ba7c-162abeaf9ba6": {
+    "15f9f01e-ab3e-4e3e-9495-1468d31ccb18": {
       "firstName": "Lizzie",
       "lastName": "Lau",
       "nickname": "",
-      "image": "lizzie-lau-0.None",
+      "image": "lizzie-lau-0.jpg",
       "roles": [
         ""
       ],
@@ -1002,7 +1002,7 @@
       "website": "",
       "email": ""
     },
-    "4a15e264-9c5a-4026-89e8-729468f0e0d5": {
+    "9c34dbd8-17a1-4aca-ba03-9851c3e842da": {
       "firstName": "ManuelDeJesus",
       "lastName": "Muñoz",
       "nickname": "Manuel",
@@ -1015,11 +1015,11 @@
       "website": "https://manuelmunoz.me/",
       "email": "mannymnz@berkeley.edu"
     },
-    "b7ef17d2-858f-4adf-9d0c-7e23baaf5f81": {
+    "f23aaf15-c568-4a50-9961-6765acaf9747": {
       "firstName": "Marin",
       "lastName": "Lau",
       "nickname": "Marin",
-      "image": "marin-lau-0.46",
+      "image": "marin-lau-0.jpg",
       "roles": [
         "[Industry] Product Manager"
       ],
@@ -1027,11 +1027,11 @@
       "website": "https://sites.google.com/berkeley.edu/marinlau/home",
       "email": "marinlau@berkeley.edu"
     },
-    "9a14ec83-4719-4b33-976c-fdd47c4794ba": {
+    "05328a4b-1310-4d2c-aced-66d9a14eb20c": {
       "firstName": "Matthew",
       "lastName": "Robillard",
       "nickname": "Matt",
-      "image": "matthew-robillard-0.jpeg",
+      "image": "matthew-robillard-0.jpg",
       "roles": [
         "[DeCal] Fullstack TA",
         "[Exec] VP Education"
@@ -1040,11 +1040,11 @@
       "website": "mjrobillard.com",
       "email": "Robillard.matthew22@berkeley.edu"
     },
-    "da6c4227-3ec6-42ef-a9b8-0e98a292e7fb": {
+    "f5b70569-4b4a-4b3b-9ff6-93426da7575f": {
       "firstName": "Matthew",
       "lastName": "Lee",
       "nickname": "",
-      "image": "matthew-lee-0.None",
+      "image": "matthew-lee-0.jpg",
       "roles": [
         ""
       ],
@@ -1052,11 +1052,11 @@
       "website": "",
       "email": ""
     },
-    "ad077591-cff8-491c-87fa-3775147f028c": {
+    "aadb7f9a-9fb7-4a17-947a-f440ffc28664": {
       "firstName": "Max",
       "lastName": "Ye",
       "nickname": "",
-      "image": "max-ye-0.JPEG",
+      "image": "max-ye-0.jpg",
       "roles": [
         ""
       ],
@@ -1064,11 +1064,11 @@
       "website": "maxye.net",
       "email": "maxye@berkeley.edu"
     },
-    "96aec21c-78b6-43b3-a749-9ec90e46330e": {
+    "e7434500-ce58-44fa-91d0-60e3610aad17": {
       "firstName": "Meiqi",
       "lastName": "Liang",
       "nickname": "",
-      "image": "meiqi-liang-0.png",
+      "image": "meiqi-liang-0.jpg",
       "roles": [
         ""
       ],
@@ -1076,11 +1076,11 @@
       "website": "",
       "email": "mliang21@berkeley.edu"
     },
-    "02ffcfe7-6e81-4fb1-9337-291207c624e4": {
+    "ec29dc41-0362-4e64-b313-0e7312b2a70b": {
       "firstName": "Melody",
       "lastName": "Yan",
       "nickname": "",
-      "image": "melody-yan-0.None",
+      "image": "melody-yan-0.jpg",
       "roles": [
         ""
       ],
@@ -1088,7 +1088,7 @@
       "website": "",
       "email": ""
     },
-    "0b3343c2-8f16-4718-8073-6607dd6063ed": {
+    "54747105-a75b-47ce-9178-8e40d41b173f": {
       "firstName": "Michelle",
       "lastName": "Wang",
       "nickname": "",
@@ -1100,11 +1100,11 @@
       "website": "",
       "email": "michelle.wang@berkeley.edu"
     },
-    "24be803b-41b0-432b-8697-990976b06d67": {
+    "61fffba8-a672-476a-8d09-bab95eaa2a98": {
       "firstName": "Minh",
       "lastName": "Nguyen",
       "nickname": "",
-      "image": "minh-nguyen-0.jpeg",
+      "image": "minh-nguyen-0.jpg",
       "roles": [
         ""
       ],
@@ -1112,11 +1112,11 @@
       "website": "https://minhnguy19.github.io/",
       "email": "minhnguy19@berkeley.edu"
     },
-    "5244a42d-04e7-46ea-932a-29335e9f9886": {
+    "c8fc2dd7-191c-471a-9018-8d70b7ddf3b2": {
       "firstName": "Naomi",
       "lastName": "Manuel",
       "nickname": "",
-      "image": "naomi-manuel-0.png",
+      "image": "naomi-manuel-0.jpg",
       "roles": [
         "[Exec] VP Marketing"
       ],
@@ -1124,7 +1124,7 @@
       "website": "",
       "email": "naomimanuel@berkeley.edu"
     },
-    "ac936814-11b2-4731-84fa-7d61ec2509f0": {
+    "eadedb6a-719a-4167-9c7f-0510d8156915": {
       "firstName": "Natalia",
       "lastName": "Shamoon",
       "nickname": "",
@@ -1136,11 +1136,11 @@
       "website": "",
       "email": "nataliashamoon@berkeley.edu"
     },
-    "3e514962-c742-4685-a1e7-3cb6b0aacb66": {
+    "4941df61-4491-461c-93a6-6f7b4c852831": {
       "firstName": "Neha",
       "lastName": "Haq",
       "nickname": "",
-      "image": "neha-haq-0.None",
+      "image": "neha-haq-0.jpg",
       "roles": [
         ""
       ],
@@ -1148,11 +1148,11 @@
       "website": "",
       "email": ""
     },
-    "99386982-9367-4682-9388-7b0e7bc6cfee": {
+    "fc218c41-6bf2-4add-857e-0d97adbad9d0": {
       "firstName": "Neil",
       "lastName": "Kamdar",
       "nickname": "",
-      "image": "neil-kamdar-0.None",
+      "image": "neil-kamdar-0.jpg",
       "roles": [
         ""
       ],
@@ -1160,11 +1160,11 @@
       "website": "",
       "email": ""
     },
-    "ca868627-74c0-4e3f-ad55-6929a310da50": {
+    "dfd87b5a-816f-4c5c-81e1-672b971db5c3": {
       "firstName": "Nemerjit",
       "lastName": "Singh",
       "nickname": "Nemer",
-      "image": "nemerjit-singh-0.jpeg",
+      "image": "nemerjit-singh-0.jpg",
       "roles": [
         "[Industry] Fullstack Developer"
       ],
@@ -1172,11 +1172,11 @@
       "website": "",
       "email": "nemerjitsingh@berkeley.edu"
     },
-    "f324b9c9-ac86-4a5c-8232-7c3853bbef71": {
+    "6c21aad8-be1d-4269-af8c-5020e712d9c8": {
       "firstName": "Nerissa",
       "lastName": "Hsieh",
       "nickname": "",
-      "image": "nerissa-hsieh-0.None",
+      "image": "nerissa-hsieh-0.jpg",
       "roles": [
         ""
       ],
@@ -1184,11 +1184,11 @@
       "website": "https://www.nerissahsieh.com/",
       "email": ""
     },
-    "37a448b9-1fe1-4ef6-86a1-c94b56f2ef56": {
+    "7f3d1c36-187c-4744-aca7-a508ab87fe0b": {
       "firstName": "Nicholas",
       "lastName": "Shin",
       "nickname": "Nick",
-      "image": "nicholas-shin-0.jpeg",
+      "image": "nicholas-shin-0.jpg",
       "roles": [
         "[Industry] Fullstack Developer",
         "[MET] Member"
@@ -1197,7 +1197,7 @@
       "website": "",
       "email": "nshin02@berkeley.edu"
     },
-    "3627aad3-1bf0-4698-8395-c9c6008c4caa": {
+    "04b9ddbe-ad45-437a-8d3f-10853fddcede": {
       "firstName": "Nicholas",
       "lastName": "Galin",
       "nickname": "Nico",
@@ -1209,11 +1209,11 @@
       "website": "https://nicogalin.com",
       "email": "nicholas.galin@berkeley.edu"
     },
-    "1d5eaaa4-a8d4-46bb-9ce1-a728016a9b1a": {
+    "d5d1ea1b-fe0f-48fe-afbf-7078d00125c3": {
       "firstName": "Nitya",
       "lastName": "Krishnakumar",
       "nickname": "",
-      "image": "nitya-krishnakumar-0.jpeg",
+      "image": "nitya-krishnakumar-0.jpg",
       "roles": [
         ""
       ],
@@ -1221,7 +1221,7 @@
       "website": "",
       "email": "nkrishnakumar@berkeley.edu"
     },
-    "fc17bd2f-ce50-42b0-8f2c-77f171f8f3fb": {
+    "6d65f123-0b68-4e77-9281-6573f77aa012": {
       "firstName": "Prabhas",
       "lastName": "Kurapati",
       "nickname": "",
@@ -1233,7 +1233,7 @@
       "website": "",
       "email": "prabhask@berkeley.edu"
     },
-    "8b116686-4144-4579-8807-dfb5708df4e7": {
+    "8315712e-6481-4fa1-bf0e-ce1b106ff163": {
       "firstName": "Pranav",
       "lastName": "Prasad",
       "nickname": "",
@@ -1246,11 +1246,11 @@
       "website": "",
       "email": "pranav.prasad@berkeley.edu"
     },
-    "35a21e3c-000a-4b03-aebd-5288b96680aa": {
+    "7943c9cd-da0f-4901-a354-01cf157a97e2": {
       "firstName": "Qianyi",
       "lastName": "Chen",
       "nickname": "",
-      "image": "qianyi-chen-0.None",
+      "image": "qianyi-chen-0.jpg",
       "roles": [
         ""
       ],
@@ -1258,11 +1258,11 @@
       "website": "",
       "email": ""
     },
-    "edd924be-0763-4ccf-a320-85f161326a01": {
+    "5e55249d-8584-4712-92f5-9ed70eca2159": {
       "firstName": "Rachel",
       "lastName": "Yun",
       "nickname": "Rachel",
-      "image": "rachel-yun-0.jpeg",
+      "image": "rachel-yun-0.jpg",
       "roles": [
         "[Industry] Product Designer"
       ],
@@ -1270,11 +1270,11 @@
       "website": "",
       "email": "ryun24@berkeley.edu"
     },
-    "8cb92022-286d-4730-867c-71cf9d18450a": {
+    "6e001642-3d3f-482f-a983-75f4e3078de0": {
       "firstName": "Rachel",
       "lastName": "Ng",
       "nickname": "",
-      "image": "rachel-ng-0.None",
+      "image": "rachel-ng-0.jpg",
       "roles": [
         ""
       ],
@@ -1282,7 +1282,7 @@
       "website": "",
       "email": ""
     },
-    "19ec0ab9-13ab-4d4f-92a0-e3dc52992d53": {
+    "a1d796e7-36ac-4d13-b766-980f1cc7ffad": {
       "firstName": "Rachel",
       "lastName": "Quach",
       "nickname": "",
@@ -1294,11 +1294,11 @@
       "website": "",
       "email": "racheljquach@berkeley.edu"
     },
-    "f7f68474-3e95-4c36-8a34-1004982cb5a6": {
+    "8b0f74e0-6d02-41cd-a38e-4219f7e8f0eb": {
       "firstName": "Raga",
       "lastName": "Kavari",
       "nickname": "",
-      "image": "raga-kavari-0.None",
+      "image": "raga-kavari-0.jpg",
       "roles": [
         ""
       ],
@@ -1306,7 +1306,7 @@
       "website": "",
       "email": ""
     },
-    "c15738b1-3f3b-4885-ad80-529d8263e25f": {
+    "4b39f97e-15aa-460f-9bbb-506a37524215": {
       "firstName": "Cheng-Jui",
       "lastName": "Wan",
       "nickname": "Ray",
@@ -1318,11 +1318,11 @@
       "website": "",
       "email": "raywan@berkeley.edu"
     },
-    "abdff138-7c21-4527-a502-3ed7b9ecb0e5": {
+    "ef233e79-05ed-4b86-8476-956f5a353c70": {
       "firstName": "YoonWha",
       "lastName": "Won",
       "nickname": "Rebecca",
-      "image": "yoonwha-won-0.jpeg",
+      "image": "yoonwha-won-0.jpg",
       "roles": [
         ""
       ],
@@ -1330,11 +1330,11 @@
       "website": "",
       "email": "wyh402@berkeley.edu"
     },
-    "c274cf25-f166-4f2d-9477-2fbfe373206b": {
+    "c8247948-a3e9-43db-ab73-6c68e906e526": {
       "firstName": "Rex",
       "lastName": "Liu",
       "nickname": "Rex",
-      "image": "rex-liu-0.jpeg",
+      "image": "rex-liu-0.jpg",
       "roles": [
         ""
       ],
@@ -1342,7 +1342,7 @@
       "website": "https://www.rexliu.dev",
       "email": "rexliu3@berkeley.edu"
     },
-    "6dca0bc7-e3d3-483c-8808-056ba1d3354b": {
+    "38b93d96-3614-46f5-b5f5-fb32305899be": {
       "firstName": "Richa",
       "lastName": "Jos",
       "nickname": "",
@@ -1354,11 +1354,11 @@
       "website": "",
       "email": "richajos34@berkeley.edu"
     },
-    "573e83fa-64b2-4486-a9b0-822f3a3dd9e7": {
+    "dc7edc76-9e6e-472e-8a08-4568e63ee986": {
       "firstName": "Richard",
       "lastName": "Xue",
       "nickname": "",
-      "image": "richard-xue-0.None",
+      "image": "richard-xue-0.jpg",
       "roles": [
         ""
       ],
@@ -1366,11 +1366,11 @@
       "website": "",
       "email": ""
     },
-    "47e9aaa3-fcf3-46b6-94d3-cddec7040141": {
+    "1f043a5d-9d42-4e64-ac9c-df6577e702b0": {
       "firstName": "Jerrick",
       "lastName": "Zhou",
       "nickname": "Rick",
-      "image": "jerrick-zhou-0.None",
+      "image": "jerrick-zhou-0.jpg",
       "roles": [
         ""
       ],
@@ -1378,7 +1378,7 @@
       "website": "",
       "email": ""
     },
-    "5019099d-92ce-4a60-927f-b7d362a934ae": {
+    "fe740283-5233-432a-9062-69b5f816ba6e": {
       "firstName": "Ridge",
       "lastName": "Huang",
       "nickname": "",
@@ -1391,7 +1391,7 @@
       "website": "",
       "email": "ridgeh5@berkeley.edu"
     },
-    "7f608475-5e98-487b-81f4-3dce41616c90": {
+    "ef92f1ae-f808-4114-87b3-088fb1cdc0b4": {
       "firstName": "Rishi",
       "lastName": "Khare",
       "nickname": "",
@@ -1403,7 +1403,7 @@
       "website": "",
       "email": "rishi.khare@berkeley.edu"
     },
-    "2e21bde8-1ee2-4a97-934a-41d10c46d641": {
+    "47cb6c99-8ee6-4e82-bfa0-c22afab76cc5": {
       "firstName": "Rohan",
       "lastName": "Taneja",
       "nickname": "",
@@ -1415,11 +1415,11 @@
       "website": "https://www.rtaneja.com",
       "email": "rohan.taneja@berkeley.edu"
     },
-    "93ee2f23-cadc-4fde-8954-5d8826cac662": {
+    "40971497-bd1a-468b-97cf-0ef1ad1ad39e": {
       "firstName": "Ryan",
       "lastName": "Huang",
       "nickname": "",
-      "image": "ryan-huang-0.jpeg",
+      "image": "ryan-huang-0.jpg",
       "roles": [
         ""
       ],
@@ -1427,7 +1427,7 @@
       "website": "",
       "email": "ryanhuang@berkeley.edu"
     },
-    "ec7b6e90-6a93-426b-8b89-e9461f27f9c3": {
+    "5fd8f73a-0a0e-462e-b3a1-a3012d371fbe": {
       "firstName": "Sajal",
       "lastName": "Ravish",
       "nickname": "",
@@ -1439,11 +1439,11 @@
       "website": "",
       "email": "sajal@berkeley.edu"
     },
-    "76c16fb7-21ff-413d-86a3-03bf92cbdf3a": {
+    "4ae24868-df79-4c56-be2b-38eb0bbd4a8a": {
       "firstName": "Saketh",
       "lastName": "Panchumarthy",
       "nickname": "",
-      "image": "saketh-panchumarthy-0.jpeg",
+      "image": "saketh-panchumarthy-0.jpg",
       "roles": [
         "[MET] Member"
       ],
@@ -1451,11 +1451,11 @@
       "website": "",
       "email": "saketh@berkeley.edu"
     },
-    "8a67acac-1b3d-43b8-b4d7-e838cd23f5c1": {
+    "85132fd6-e26e-440c-8a5f-deeea626d602": {
       "firstName": "Samarth",
       "lastName": "Goel",
       "nickname": "",
-      "image": "samarth-goel-0.JPG",
+      "image": "samarth-goel-0.jpg",
       "roles": [
         ""
       ],
@@ -1463,7 +1463,7 @@
       "website": "www.samarthgoel.com",
       "email": "sgoel9@berkeley.edu"
     },
-    "2fb68650-f82b-44ef-864c-5e4dcb79c23a": {
+    "f627c080-d2e7-4243-b7d7-8fb4fc3f63c1": {
       "firstName": "Sanjeev",
       "lastName": "Thurgam",
       "nickname": "",
@@ -1475,11 +1475,11 @@
       "website": "",
       "email": "sanjeevt@berkeley.edu"
     },
-    "09e076fb-fd39-4d1a-b73d-f7d177eac884": {
+    "e3879eee-e989-4ccb-96d7-3772e789ee5f": {
       "firstName": "Sarah",
       "lastName": "Suen",
       "nickname": "",
-      "image": "sarah-suen-0.jpeg",
+      "image": "sarah-suen-0.jpg",
       "roles": [
         "[Design Team] Member"
       ],
@@ -1487,11 +1487,11 @@
       "website": "",
       "email": "sarahsuen@berkeley.edu"
     },
-    "742e5daf-42cc-4395-8302-0bceac60b096": {
+    "b228a4d0-e4de-4531-a711-96800d178f8b": {
       "firstName": "Sebastiaan",
       "lastName": "Szafir",
       "nickname": "Sebi",
-      "image": "sebastiaan-szafir-0.jpeg",
+      "image": "sebastiaan-szafir-0.jpg",
       "roles": [
         "Senior Advisor"
       ],
@@ -1499,7 +1499,7 @@
       "website": "https://sebiszafir.com",
       "email": "sebastiaan@berkeley.edu"
     },
-    "814c6377-3e0e-4696-a073-e59fc16daf6f": {
+    "d6bd0739-a9f9-4fad-8abb-be7906fafdbe": {
       "firstName": "Seeun",
       "lastName": "Ahn",
       "nickname": "",
@@ -1511,11 +1511,11 @@
       "website": "",
       "email": "seeun@berkeley.edu"
     },
-    "a4fd3b4d-d680-420f-a1b7-265a4acfcd40": {
+    "28f4e10b-d3fa-49b4-a556-417f7eb2a948": {
       "firstName": "Siddhant",
       "lastName": "Sharma",
       "nickname": "Sid",
-      "image": "siddhant-sharma-0.35",
+      "image": "siddhant-sharma-0.jpg",
       "roles": [
         ""
       ],
@@ -1523,11 +1523,11 @@
       "website": "https://siddhantsharma.me",
       "email": "siddhantsharma@berkeley.edu"
     },
-    "49c013ca-396f-440f-89b4-4eeca3d5ab90": {
+    "8d11f849-8b94-4d42-9fd7-79a737aeb046": {
       "firstName": "Sinead",
       "lastName": "McCaffery",
       "nickname": "",
-      "image": "sinead-mccaffery-0.jpeg",
+      "image": "sinead-mccaffery-0.jpg",
       "roles": [
         "[Industry] Product Manager"
       ],
@@ -1535,11 +1535,11 @@
       "website": "",
       "email": "sineadmccaffery@berkeley.edu"
     },
-    "2494a9a9-0d7c-4342-b037-0ea5efa32878": {
+    "e88aa1c1-aeb8-4021-883c-24ffb954fb02": {
       "firstName": "ChloeSommer",
       "lastName": "Santilla",
       "nickname": "Sommie",
-      "image": "chloesommer-santilla-0.jpeg",
+      "image": "chloesommer-santilla-0.jpg",
       "roles": [
         "[MET] Member",
         "[Industry] Product Designer"
@@ -1548,11 +1548,11 @@
       "website": "",
       "email": "chlosomsantilla@berkeley.edu"
     },
-    "c0c165bc-d834-48b4-8561-5a153516f6cb": {
+    "b7b9f6a1-b0b3-4039-b102-f575d6037c32": {
       "firstName": "Sooyeon",
       "lastName": "Oh",
       "nickname": "",
-      "image": "sooyeon-oh-0.None",
+      "image": "sooyeon-oh-0.jpg",
       "roles": [
         ""
       ],
@@ -1560,7 +1560,7 @@
       "website": "",
       "email": ""
     },
-    "d4c80a00-a421-45b4-a7a7-190075c9fc30": {
+    "0265181e-d7fa-4935-97a1-538cff695ef1": {
       "firstName": "Sophia",
       "lastName": "Guo",
       "nickname": "",
@@ -1572,11 +1572,11 @@
       "website": "sophiaguo.com",
       "email": "sophia_guo555@berkeley.edu"
     },
-    "c7087029-6457-49c9-81b6-125a0fa54166": {
+    "9d9c5000-6ab8-4bb0-8bf5-e219d0ccfef7": {
       "firstName": "Sophia",
       "lastName": "Sharifi",
       "nickname": "",
-      "image": "sophia-sharifi-0.None",
+      "image": "sophia-sharifi-0.jpg",
       "roles": [
         ""
       ],
@@ -1584,7 +1584,7 @@
       "website": "",
       "email": ""
     },
-    "c0bd972d-9f00-4fa4-8bb6-00dd46bb844e": {
+    "7574b175-53c7-4ccf-b589-29229881be27": {
       "firstName": "Sophia",
       "lastName": "Sung",
       "nickname": "",
@@ -1597,11 +1597,11 @@
       "website": "",
       "email": "sophiasung@berkeley.edu"
     },
-    "a994b6bb-0818-4381-836e-40fc8ffca5d2": {
+    "d570f1e0-008c-4863-b9e7-e1a09e901f4f": {
       "firstName": "Stephen",
       "lastName": "Krider",
       "nickname": "",
-      "image": "stephen-krider-0.None",
+      "image": "stephen-krider-0.jpg",
       "roles": [
         ""
       ],
@@ -1609,11 +1609,11 @@
       "website": "",
       "email": ""
     },
-    "fe302942-7878-45ab-bad3-91aa6b2088ea": {
+    "6c08225d-33f2-4ef4-9bb7-0741e60b50d2": {
       "firstName": "Thien",
       "lastName": "Le",
       "nickname": "Thien",
-      "image": "thien-le-0.jpeg",
+      "image": "thien-le-0.jpg",
       "roles": [
         "[External Team] Member"
       ],
@@ -1621,11 +1621,11 @@
       "website": "",
       "email": "thienle1942@berkeley.edu"
     },
-    "d86ace89-c14e-429d-b4e2-e21c676c0b75": {
+    "9c0ed35c-7f07-4389-8c5a-ec26052917d8": {
       "firstName": "Tijmen",
       "lastName": "Sep",
       "nickname": "",
-      "image": "tijmen-sep-0.None",
+      "image": "tijmen-sep-0.jpg",
       "roles": [
         ""
       ],
@@ -1633,11 +1633,11 @@
       "website": "",
       "email": ""
     },
-    "dd5dbd14-2752-41b9-a914-fa5fe1e912c4": {
+    "9a4a6fc9-2d82-46c4-b314-d8df399f0e91": {
       "firstName": "Trevor",
       "lastName": "Trinh",
       "nickname": "",
-      "image": "trevor-trinh-0.jpeg",
+      "image": "trevor-trinh-0.jpg",
       "roles": [
         ""
       ],
@@ -1645,7 +1645,7 @@
       "website": "https://trevx.me",
       "email": "trevortrinh@berkeley.edu"
     },
-    "bb547255-e985-4009-a717-0a28c840ffaf": {
+    "f46c5fc9-5407-4450-a517-5be6d98d1008": {
       "firstName": "Trisha",
       "lastName": "Sathish",
       "nickname": "",
@@ -1658,7 +1658,7 @@
       "website": "",
       "email": "trishasathish@berkeley.edu"
     },
-    "5e3891b2-372f-4751-ab51-73b2382edcf9": {
+    "7352eab5-f448-43dd-bafb-1450cbc0f82b": {
       "firstName": "Vaikundh",
       "lastName": "Jagannathan",
       "nickname": "V",
@@ -1670,11 +1670,11 @@
       "website": "",
       "email": "vaikundh.j@berkeley.edu"
     },
-    "72a74c2b-1a05-41ac-9722-52ac2fd186b5": {
+    "1870889e-baf2-45a4-a8f8-41ed56fb335d": {
       "firstName": "Vanessa",
       "lastName": "Qiu",
       "nickname": "",
-      "image": "vanessa-qiu-0.jpeg",
+      "image": "vanessa-qiu-0.jpg",
       "roles": [
         ""
       ],
@@ -1682,11 +1682,11 @@
       "website": "",
       "email": "vanessaq@berkeley.edu"
     },
-    "6b7d2ca3-fcbd-42bc-a539-dbc59badf659": {
+    "5343dbae-593e-4194-9895-dd9d1c52ac0b": {
       "firstName": "Venezia",
       "lastName": "Hartanto",
       "nickname": "Venezia",
-      "image": "venezia-hartanto-0.jpeg",
+      "image": "venezia-hartanto-0.jpg",
       "roles": [
         ""
       ],
@@ -1694,11 +1694,11 @@
       "website": "",
       "email": "veneziangela@berkeley.edu"
     },
-    "18c484fb-0b24-4108-99c7-a4e59c43585e": {
+    "e7432ed2-40d8-47bb-a159-defc9c5b9621": {
       "firstName": "Victoria",
       "lastName": "Li",
       "nickname": "Vicky",
-      "image": "victoria-li-0.JPG",
+      "image": "victoria-li-0.jpg",
       "roles": [
         ""
       ],
@@ -1706,11 +1706,11 @@
       "website": "https://www.vickyli.me/",
       "email": "victoria.li@berkeley.edu"
     },
-    "4cc049aa-b143-4432-8540-b9c09d8b3d73": {
+    "0de50f51-3d8b-41ec-9632-d8d0f62125d4": {
       "firstName": "Victor",
       "lastName": "Shen",
       "nickname": "",
-      "image": "victor-shen-0.jpeg",
+      "image": "victor-shen-0.jpg",
       "roles": [
         "[Exec] VP Internal"
       ],
@@ -1718,11 +1718,11 @@
       "website": "vshen.me",
       "email": "vshen@berkeley.edu"
     },
-    "f90ffd62-7b8c-402a-aa4d-a654a7c39dea": {
+    "bd416d93-e352-4944-b3e6-250b8dbba733": {
       "firstName": "Vihan",
       "lastName": "Bhargava",
       "nickname": "",
-      "image": "vihan-bhargava-0.19",
+      "image": "vihan-bhargava-0.jpg",
       "roles": [
         "Senior Advisor"
       ],
@@ -1730,11 +1730,11 @@
       "website": "https://vihan.org",
       "email": "vihan@berkeley.edu"
     },
-    "c4f7abed-70b4-42a2-a161-a676651b1a4a": {
+    "833d9bd6-7895-4efd-8e75-28f521af9e72": {
       "firstName": "Vincent",
       "lastName": "Lin",
       "nickname": "",
-      "image": "vincent-lin-0.jpeg",
+      "image": "vincent-lin-0.jpg",
       "roles": [
         ""
       ],
@@ -1742,11 +1742,11 @@
       "website": "",
       "email": "vincentlin83@berkeley.edu"
     },
-    "aae8b9b1-5f29-4d9e-9339-96aa2c5a4527": {
+    "00bb277c-1092-4dac-9818-93873de030c7": {
       "firstName": "Violet",
       "lastName": "Luo",
       "nickname": "",
-      "image": "violet-luo-0.None",
+      "image": "violet-luo-0.jpg",
       "roles": [
         ""
       ],
@@ -1754,11 +1754,11 @@
       "website": "",
       "email": ""
     },
-    "eda727a1-861f-456b-803f-81b8219273f0": {
+    "808ddf0f-c12c-4943-8638-c16854d48269": {
       "firstName": "Waleed",
       "lastName": "Latif",
       "nickname": "",
-      "image": "waleed-latif-0.None",
+      "image": "waleed-latif-0.jpg",
       "roles": [
         ""
       ],
@@ -1766,11 +1766,11 @@
       "website": "",
       "email": ""
     },
-    "b012d88a-2c56-4fea-a2de-7a8bfdd67059": {
+    "201f8183-c8ee-4d9c-9db2-87ff7f19f345": {
       "firstName": "William",
       "lastName": "Henderson",
       "nickname": "Will",
-      "image": "william-henderson-0.JPEG",
+      "image": "william-henderson-0.jpg",
       "roles": [
         ""
       ],
@@ -1778,11 +1778,11 @@
       "website": "william-henderson.com",
       "email": "william_henderson@berkeley.edu"
     },
-    "9a64d4de-3325-42e9-9801-b28525949331": {
+    "600bdddb-deb9-4b22-8212-1c1adadaaf04": {
       "firstName": "William",
       "lastName": "Louis",
       "nickname": "Will",
-      "image": "william-louis-0.JPG",
+      "image": "william-louis-0.jpg",
       "roles": [
         ""
       ],
@@ -1790,11 +1790,11 @@
       "website": "",
       "email": "wlouis23@berkeley.edu"
     },
-    "a7695435-3732-4415-8a5a-74052cfe748f": {
+    "f2f33050-0737-45b0-8b55-fb3ba5cac188": {
       "firstName": "Youngjun",
       "lastName": "Seo",
       "nickname": "",
-      "image": "youngjun-seo-0.None",
+      "image": "youngjun-seo-0.jpg",
       "roles": [
         ""
       ],
@@ -1802,7 +1802,7 @@
       "website": "",
       "email": ""
     },
-    "70a6f15c-c8bf-48c1-bea6-31c6c0369f9d": {
+    "2f55bc23-fa2d-4107-8892-beb0b2901dfb": {
       "firstName": "Yu-Cian",
       "lastName": "Liu",
       "nickname": "Yucian",
@@ -1815,11 +1815,11 @@
       "website": "",
       "email": "yucianliu@berkeley.edu"
     },
-    "473e4813-ea50-47fd-9450-eb5421a4a2b9": {
+    "b9e73960-ac87-4d4a-b561-9cd7a35d58ba": {
       "firstName": "Yuto",
       "lastName": "Nishida",
       "nickname": "",
-      "image": "yuto-nishida-0.jpeg",
+      "image": "yuto-nishida-0.jpg",
       "roles": [
         "Senior Advisor"
       ],
@@ -1827,23 +1827,11 @@
       "website": "https://yart.me/",
       "email": "yuto@berkeley.edu"
     },
-    "9e7937cb-605f-4787-aa7c-72118b0ffa27": {
-      "firstName": "Yuto",
-      "lastName": "Nishida",
-      "nickname": "",
-      "image": "yuto-nishida-1.jpeg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/yuton/",
-      "website": "https://yart.me/",
-      "email": "yuto@berkeley.edu"
-    },
-    "47333020-1469-4b6a-a9c1-7290016bf265": {
+    "c7190b2d-a5e3-4be1-b211-ddc1710e1657": {
       "firstName": "Zayna",
       "lastName": "Lateef",
       "nickname": "",
-      "image": "zayna-lateef-0.jpeg",
+      "image": "zayna-lateef-0.jpg",
       "roles": [
         "[DeCal] Fullstack TA",
         "[Exec] VP Education"
@@ -1855,191 +1843,190 @@
   },
   "teams": {
     "seniorAdvisors": [
-      "cdfc007a-f842-49ed-8cce-1f098f922844",
-      "a125e32f-7b8f-4053-9486-92320ca00501",
-      "882a8066-46c5-4d6b-b4d6-4fa08172bdae",
-      "d7437386-eeee-4e02-b9d5-1a7f802f80d6",
-      "67acb5a2-a16d-4c1b-8602-60bd62e31b24",
-      "9b8fb032-ae21-4728-8596-905b3dbe3ef8",
-      "a5377ab2-f77a-4911-9e79-04ae62aff2d0",
-      "44046459-4e98-42f0-8928-34868ffbb3a5",
-      "2e21bde8-1ee2-4a97-934a-41d10c46d641",
-      "742e5daf-42cc-4395-8302-0bceac60b096",
-      "f90ffd62-7b8c-402a-aa4d-a654a7c39dea",
-      "473e4813-ea50-47fd-9450-eb5421a4a2b9"
+      "b2fdfb8f-6fdd-4523-906b-c6e04eb70e78",
+      "55f60c8b-fcec-44a7-903e-99589c0dfaae",
+      "7143361d-d54d-4980-9bbd-40fc77fff32d",
+      "425c17b2-d20f-45c2-b68d-a6ae982d6e29",
+      "ee00c0bb-b431-4484-ac06-a04df4b2540e",
+      "1e7dab0f-2c92-4206-aca0-7c2d10a2d24b",
+      "b1bb05a8-895c-4e24-97e1-6923cbfca089",
+      "0193009c-c4ed-464c-a5c8-76c09750d1db",
+      "47cb6c99-8ee6-4e82-bfa0-c22afab76cc5",
+      "b228a4d0-e4de-4531-a711-96800d178f8b",
+      "bd416d93-e352-4944-b3e6-250b8dbba733",
+      "b9e73960-ac87-4d4a-b561-9cd7a35d58ba"
     ],
     "alumni": [
-      "bb7df553-680d-4e53-a8e0-af821e134174",
-      "d594be07-b147-4f83-9e96-060928d26548",
-      "5a3cfc51-042a-46a1-af9a-61f6390e7e1d",
-      "28714ac0-0ecd-4465-9dc3-c1709ed9ba6b",
-      "ad0b13d2-6ec6-47d1-92f6-b1644f32c610",
-      "fb4cac76-a68f-4958-9017-4b648d3e0662",
-      "a3d87ec3-7a41-497b-a1b2-6fbe051c38b8",
-      "6526f7c6-7598-45f4-845e-6ff162c12352",
-      "a0e1a075-3e49-4f4a-bea4-24887ffbf637",
-      "c957644c-9260-49b2-a89a-0380d0e8d452",
-      "c219fb3b-187c-4db3-a6b9-93e3047cf946",
-      "fd09e595-c2c1-432c-9a13-6e4586d3f4af",
-      "e3fc009a-4289-40a2-a7ac-4af3c71ada4c",
-      "7023c6fe-0837-4d75-abb5-5a3c66ba3169",
-      "6cfc71e2-d915-47b6-983a-d9096eb54c1d",
-      "f046a37d-9ad2-42b1-9bc2-7cbaf04d6288",
-      "a1ba1f2e-4989-4717-b0bd-69dca765846b",
-      "db149023-c14a-4c0b-b496-d78f4ce43521",
-      "1cb5fcbf-33dc-40d7-baa0-075b4250a67e",
-      "88f4e521-5a3d-4d1f-a1f0-de4cdc59615f",
-      "2f8ed3ad-4d0c-4538-9e60-ddebbd3de164",
-      "5369c703-e57b-4943-bf12-c431f9f8daf2",
-      "5a9bdc90-75c3-4ee6-9341-078d27b41d21",
-      "b737eb39-b2cd-4407-b240-3e30b404bd0f",
-      "c4609099-2479-453f-9d62-9cf77eb047f8",
-      "dd4b72a1-4b96-4c41-a0f1-0930badd6cb2",
-      "da634e83-68bf-49b3-b905-67f270b3ad1a",
-      "d430b5e9-9a1d-4191-98df-7eb26e2b6463",
-      "6daef960-a650-42a6-894b-d18565247f82",
-      "d70dcd63-27e0-4d7c-95e6-8abe0b4e712b",
-      "87d5bc03-0d57-4669-b31c-fae91e73d125",
-      "2e48a61c-0fe4-4546-8f2d-cb11e9992fe4",
-      "efbc0ab3-5701-4e18-b359-970287ec566f",
-      "e33d633f-5a1a-40a4-82c0-09605d9827e0",
-      "51eefb90-e765-4573-86d0-3e0baa9501e4",
-      "161b8d9c-8f5a-44d7-b866-0c6f0cf63bf8",
-      "6583250d-a865-45eb-9c6b-967e5bc26aa3",
-      "03e76990-c59d-481e-9d79-9f3420aa047a",
-      "24e100df-2774-4fa8-9ff3-d025241fede9",
-      "35fa24a7-718b-4b50-ae31-d83a868da48b",
-      "a25aa221-5c21-40d6-a1e0-a83fad19a1f0",
-      "ef6aabe9-4c37-4e36-a2f5-02b72af4606b",
-      "c0e90eb7-ea9e-40d3-bd5e-601bcb0619cf",
-      "51432581-b507-4811-9f44-22742804aed2",
-      "f13de2f8-c41b-42b1-959e-1d2a377de1d4",
-      "1e3a3d07-58e7-4183-b2ee-e444345ed110",
-      "48451386-3b89-4015-afb5-3a72b9f793f1",
-      "d605a70b-faa8-4119-ac6b-2a502578c59e",
-      "d2123644-7cf0-4210-a748-24c57624f1c1",
-      "0ba369ad-68d5-4152-ba7c-162abeaf9ba6",
-      "da6c4227-3ec6-42ef-a9b8-0e98a292e7fb",
-      "ad077591-cff8-491c-87fa-3775147f028c",
-      "96aec21c-78b6-43b3-a749-9ec90e46330e",
-      "02ffcfe7-6e81-4fb1-9337-291207c624e4",
-      "0b3343c2-8f16-4718-8073-6607dd6063ed",
-      "24be803b-41b0-432b-8697-990976b06d67",
-      "3e514962-c742-4685-a1e7-3cb6b0aacb66",
-      "99386982-9367-4682-9388-7b0e7bc6cfee",
-      "f324b9c9-ac86-4a5c-8232-7c3853bbef71",
-      "3627aad3-1bf0-4698-8395-c9c6008c4caa",
-      "1d5eaaa4-a8d4-46bb-9ce1-a728016a9b1a",
-      "35a21e3c-000a-4b03-aebd-5288b96680aa",
-      "8cb92022-286d-4730-867c-71cf9d18450a",
-      "f7f68474-3e95-4c36-8a34-1004982cb5a6",
-      "abdff138-7c21-4527-a502-3ed7b9ecb0e5",
-      "c274cf25-f166-4f2d-9477-2fbfe373206b",
-      "573e83fa-64b2-4486-a9b0-822f3a3dd9e7",
-      "47e9aaa3-fcf3-46b6-94d3-cddec7040141",
-      "7f608475-5e98-487b-81f4-3dce41616c90",
-      "93ee2f23-cadc-4fde-8954-5d8826cac662",
-      "ec7b6e90-6a93-426b-8b89-e9461f27f9c3",
-      "8a67acac-1b3d-43b8-b4d7-e838cd23f5c1",
-      "2fb68650-f82b-44ef-864c-5e4dcb79c23a",
-      "a4fd3b4d-d680-420f-a1b7-265a4acfcd40",
-      "c0c165bc-d834-48b4-8561-5a153516f6cb",
-      "d4c80a00-a421-45b4-a7a7-190075c9fc30",
-      "c7087029-6457-49c9-81b6-125a0fa54166",
-      "a994b6bb-0818-4381-836e-40fc8ffca5d2",
-      "d86ace89-c14e-429d-b4e2-e21c676c0b75",
-      "dd5dbd14-2752-41b9-a914-fa5fe1e912c4",
-      "5e3891b2-372f-4751-ab51-73b2382edcf9",
-      "72a74c2b-1a05-41ac-9722-52ac2fd186b5",
-      "6b7d2ca3-fcbd-42bc-a539-dbc59badf659",
-      "18c484fb-0b24-4108-99c7-a4e59c43585e",
-      "c4f7abed-70b4-42a2-a161-a676651b1a4a",
-      "aae8b9b1-5f29-4d9e-9339-96aa2c5a4527",
-      "eda727a1-861f-456b-803f-81b8219273f0",
-      "b012d88a-2c56-4fea-a2de-7a8bfdd67059",
-      "9a64d4de-3325-42e9-9801-b28525949331",
-      "a7695435-3732-4415-8a5a-74052cfe748f",
-      "9e7937cb-605f-4787-aa7c-72118b0ffa27"
+      "0402b3f8-16d8-4c09-86e8-253b87549ea9",
+      "3ca1aaec-9934-4da3-a2e1-0cf7489ab27d",
+      "c279c54e-d766-4d47-9c24-96019bf7a1b7",
+      "6ab110c9-5cf7-431c-84ce-510698ccd517",
+      "53ef4a1b-3083-441e-8c34-ec9feb41e892",
+      "7a8fac5f-3a3b-453b-a376-264fb911d4f9",
+      "af37f60e-e230-47ca-ae45-c9c80c287759",
+      "6d4c269b-38d3-4caf-8d41-0e6dfca1c0de",
+      "d361b0e2-0b55-4e7a-80d7-110abf8c6060",
+      "818a2364-3410-4c30-bb72-8df101ea66d9",
+      "d3061c92-293c-432d-bc84-076b25fb94f4",
+      "3e1196eb-5aba-490a-978d-7a430f8616ba",
+      "5455cea5-fb9c-4dd8-8988-273739687c4e",
+      "34c18ef1-f88c-41ef-9c12-198ea099b258",
+      "5d9691ec-19d2-46aa-b7bd-4fa175fe9cf8",
+      "0b192de0-3624-42d1-ab2a-62b47d0c312b",
+      "0d5d85d5-6fac-4267-bfbc-4b9a89fa7653",
+      "8a97b21c-17c0-4cb9-aaeb-81e6253cbf08",
+      "dff1ed86-544c-41fd-b802-8860bedfaefe",
+      "cdcc8364-d954-4a9d-9c8f-f0d65dbb6387",
+      "430e8890-badc-47be-bed4-71b10c879640",
+      "32e46e07-648d-445a-bfbb-f3673922a1f9",
+      "5f3f28fe-643e-4745-8721-37c2f051f2c0",
+      "d1cc3a6b-a112-4c11-b5ee-005a5098a174",
+      "90dc7cf9-1a10-4e22-a212-9ab6e7f50a3c",
+      "ab08e29c-611c-428e-af0d-56502131002f",
+      "fe14e4d7-8e82-43cf-aeb6-d00eeeac18c5",
+      "8ae8f57b-ab88-4ec3-a689-bc298e2e55de",
+      "a2f7a056-605b-4b2a-ae0a-de91094f84c9",
+      "2d8e7487-e090-47f3-ad13-ee2b1349255e",
+      "271ac2e2-9093-4e66-9cd9-55a2e71ae596",
+      "dc11618d-1a73-4d55-b06b-53cecb15c600",
+      "4f5a7b30-a76d-4223-bfe9-518bab6ad553",
+      "69a196e5-2491-4b4d-80af-139e02cc27ee",
+      "a42a7adf-d3e1-43c3-ac3b-ae6af17c51a9",
+      "8674efac-32dd-4840-a5b8-8928e6e86b92",
+      "eafdad1f-0e7c-413e-91eb-9f9dd5f59e9b",
+      "d37586e2-d412-462e-8962-074ce9b72def",
+      "e4ea17c8-5fa5-403a-81e2-687f73301c25",
+      "e0828ed8-1ab5-4f87-bc17-bf57e2379995",
+      "97f8830a-3cbf-4bd3-99d5-f5d5619db36e",
+      "6fba1fb0-8288-4801-8b85-cbc68f22981a",
+      "0668d3bd-a971-43af-9113-2b3a1596e79c",
+      "7a0bef66-d18f-410b-b65e-0cb103d7059a",
+      "0eb99ace-a16f-4709-a4c4-d5b9408c5f85",
+      "b44a59fe-a7aa-4f10-a17f-ac387e9c3945",
+      "f85866de-35e3-4eda-a22a-1781c357d98b",
+      "8cc57cc0-556d-4640-9fd3-5fa6d09a9ae6",
+      "c998abf4-53db-4c1e-bdd7-37dfc0ec3a4a",
+      "15f9f01e-ab3e-4e3e-9495-1468d31ccb18",
+      "f5b70569-4b4a-4b3b-9ff6-93426da7575f",
+      "aadb7f9a-9fb7-4a17-947a-f440ffc28664",
+      "e7434500-ce58-44fa-91d0-60e3610aad17",
+      "ec29dc41-0362-4e64-b313-0e7312b2a70b",
+      "54747105-a75b-47ce-9178-8e40d41b173f",
+      "61fffba8-a672-476a-8d09-bab95eaa2a98",
+      "4941df61-4491-461c-93a6-6f7b4c852831",
+      "fc218c41-6bf2-4add-857e-0d97adbad9d0",
+      "6c21aad8-be1d-4269-af8c-5020e712d9c8",
+      "04b9ddbe-ad45-437a-8d3f-10853fddcede",
+      "d5d1ea1b-fe0f-48fe-afbf-7078d00125c3",
+      "7943c9cd-da0f-4901-a354-01cf157a97e2",
+      "6e001642-3d3f-482f-a983-75f4e3078de0",
+      "8b0f74e0-6d02-41cd-a38e-4219f7e8f0eb",
+      "ef233e79-05ed-4b86-8476-956f5a353c70",
+      "c8247948-a3e9-43db-ab73-6c68e906e526",
+      "dc7edc76-9e6e-472e-8a08-4568e63ee986",
+      "1f043a5d-9d42-4e64-ac9c-df6577e702b0",
+      "ef92f1ae-f808-4114-87b3-088fb1cdc0b4",
+      "40971497-bd1a-468b-97cf-0ef1ad1ad39e",
+      "5fd8f73a-0a0e-462e-b3a1-a3012d371fbe",
+      "85132fd6-e26e-440c-8a5f-deeea626d602",
+      "f627c080-d2e7-4243-b7d7-8fb4fc3f63c1",
+      "28f4e10b-d3fa-49b4-a556-417f7eb2a948",
+      "b7b9f6a1-b0b3-4039-b102-f575d6037c32",
+      "0265181e-d7fa-4935-97a1-538cff695ef1",
+      "9d9c5000-6ab8-4bb0-8bf5-e219d0ccfef7",
+      "d570f1e0-008c-4863-b9e7-e1a09e901f4f",
+      "9c0ed35c-7f07-4389-8c5a-ec26052917d8",
+      "9a4a6fc9-2d82-46c4-b314-d8df399f0e91",
+      "7352eab5-f448-43dd-bafb-1450cbc0f82b",
+      "1870889e-baf2-45a4-a8f8-41ed56fb335d",
+      "5343dbae-593e-4194-9895-dd9d1c52ac0b",
+      "e7432ed2-40d8-47bb-a159-defc9c5b9621",
+      "833d9bd6-7895-4efd-8e75-28f521af9e72",
+      "00bb277c-1092-4dac-9818-93873de030c7",
+      "808ddf0f-c12c-4943-8638-c16854d48269",
+      "201f8183-c8ee-4d9c-9db2-87ff7f19f345",
+      "600bdddb-deb9-4b22-8212-1c1adadaaf04",
+      "f2f33050-0737-45b0-8b55-fb3ba5cac188"
     ],
     "execMembers": [
-      "8e9e2bac-3f28-41da-a7b4-94e17062e2c0",
-      "897ffd12-6e67-4115-8a41-449ded15a3d6",
-      "759c877a-c16d-4724-bbd1-fc0014b1a94a",
-      "36884f61-fc8c-47a6-b623-caf84841f3d9",
-      "80608823-5075-4af5-95d7-5d17ca72230b",
-      "83908a5c-53de-42c6-bbe2-1f577fa14b9a",
-      "9a14ec83-4719-4b33-976c-fdd47c4794ba",
-      "5244a42d-04e7-46ea-932a-29335e9f9886",
-      "ac936814-11b2-4731-84fa-7d61ec2509f0",
-      "bb547255-e985-4009-a717-0a28c840ffaf",
-      "4cc049aa-b143-4432-8540-b9c09d8b3d73",
-      "70a6f15c-c8bf-48c1-bea6-31c6c0369f9d",
-      "47333020-1469-4b6a-a9c1-7290016bf265"
+      "1b2bd4c9-85ef-46ef-9b40-7ef9dd5d9eed",
+      "e5b5081e-93f3-4c97-be68-fb8fbe94f487",
+      "7da0aecc-0333-4cb2-94a6-77130516ce1f",
+      "3a10c3d1-2cd8-489b-9322-82b1ceb08c44",
+      "283890b5-3c39-4d8a-a604-8a56b94b5014",
+      "eaa8432c-e3d5-4df8-be27-999b90eb79f8",
+      "05328a4b-1310-4d2c-aced-66d9a14eb20c",
+      "c8fc2dd7-191c-471a-9018-8d70b7ddf3b2",
+      "eadedb6a-719a-4167-9c7f-0510d8156915",
+      "f46c5fc9-5407-4450-a517-5be6d98d1008",
+      "0de50f51-3d8b-41ec-9632-d8d0f62125d4",
+      "2f55bc23-fa2d-4107-8892-beb0b2901dfb",
+      "c7190b2d-a5e3-4be1-b211-ddc1710e1657"
     ],
     "productManagers": [
-      "192a06a9-f566-4ad7-a731-84a75ebf57cc",
-      "8b188206-de37-4e49-8cde-61b022568745",
-      "046b54fb-f76f-4b9c-8863-07b88ce0d7b2",
-      "27992b25-101d-45c5-8e38-111596b8c8a3",
-      "4a15e264-9c5a-4026-89e8-729468f0e0d5",
-      "b7ef17d2-858f-4adf-9d0c-7e23baaf5f81",
-      "49c013ca-396f-440f-89b4-4eeca3d5ab90"
+      "6c16839f-a2c2-4ed7-955c-0080167df060",
+      "e2ae69cc-9d2f-406e-8908-d08e00ad5300",
+      "5ecc9904-5c2b-4a5d-81b1-f1ff5c7ccba6",
+      "de24bddc-a497-4ead-a0d3-cff1c9abc4fd",
+      "9c34dbd8-17a1-4aca-ba03-9851c3e842da",
+      "f23aaf15-c568-4a50-9961-6765acaf9747",
+      "8d11f849-8b94-4d42-9fd7-79a737aeb046"
     ],
     "industryMembers": [
-      "6fc304b7-2d70-4a1a-ad83-e2b7213f77a7",
-      "f3ef7d0c-ca36-4c99-a703-f9fd56086b9a",
-      "ca868627-74c0-4e3f-ad55-6929a310da50",
-      "37a448b9-1fe1-4ef6-86a1-c94b56f2ef56",
-      "8b116686-4144-4579-8807-dfb5708df4e7",
-      "edd924be-0763-4ccf-a320-85f161326a01",
-      "19ec0ab9-13ab-4d4f-92a0-e3dc52992d53",
-      "6dca0bc7-e3d3-483c-8808-056ba1d3354b",
-      "5019099d-92ce-4a60-927f-b7d362a934ae",
-      "814c6377-3e0e-4696-a073-e59fc16daf6f",
-      "2494a9a9-0d7c-4342-b037-0ea5efa32878",
-      "c0bd972d-9f00-4fa4-8bb6-00dd46bb844e"
+      "20652a92-86e3-4a45-b531-8f121986878f",
+      "97b65ed4-7b81-4091-9627-18ebdf5ad45f",
+      "dfd87b5a-816f-4c5c-81e1-672b971db5c3",
+      "7f3d1c36-187c-4744-aca7-a508ab87fe0b",
+      "8315712e-6481-4fa1-bf0e-ce1b106ff163",
+      "5e55249d-8584-4712-92f5-9ed70eca2159",
+      "a1d796e7-36ac-4d13-b766-980f1cc7ffad",
+      "38b93d96-3614-46f5-b5f5-fb32305899be",
+      "fe740283-5233-432a-9062-69b5f816ba6e",
+      "d6bd0739-a9f9-4fad-8abb-be7906fafdbe",
+      "e88aa1c1-aeb8-4021-883c-24ffb954fb02",
+      "7574b175-53c7-4ccf-b589-29229881be27"
     ],
     "bootcampMembers": [],
     "courseStaff": [
-      "50684652-5358-4414-acc5-2ca03af4e3fe",
-      "ca82f8fa-15de-4461-bc72-80942a8c3648",
-      "7a186b36-97dc-4fc8-8e75-08f0cb1692a2",
-      "42b90c5f-62a2-4ca9-912c-af8ce1bc0059",
-      "b22e15ff-5c4a-4829-be00-6e79274c31f2",
-      "a5210a8b-3fb5-4904-8407-853ded17b7d5",
-      "5126e400-4a1c-462b-8673-748d4f6382cc",
-      "81bf5f20-9f2d-43da-bb23-917d4fee8cbd",
-      "f0c48643-b848-403c-8827-e6f5d235b8a9",
-      "4a15e264-9c5a-4026-89e8-729468f0e0d5",
-      "9a14ec83-4719-4b33-976c-fdd47c4794ba",
-      "fc17bd2f-ce50-42b0-8f2c-77f171f8f3fb",
-      "c15738b1-3f3b-4885-ad80-529d8263e25f",
-      "bb547255-e985-4009-a717-0a28c840ffaf",
-      "70a6f15c-c8bf-48c1-bea6-31c6c0369f9d",
-      "47333020-1469-4b6a-a9c1-7290016bf265"
+      "5beba14e-cd18-4133-ac7a-5130311c01c7",
+      "248bd2ae-6e75-4b16-a654-7a0295d4041a",
+      "fddb6ee5-a589-4521-8be4-5eb28a793032",
+      "3888175d-ac52-4f65-b36f-b8eb00cc86ae",
+      "4e7a6b24-51b9-48e9-98c2-c267f754919f",
+      "95e6c7b3-800e-4de6-9ef0-f9ac4277942f",
+      "0aeabee4-b78d-42af-9312-4c7b1d07315e",
+      "1cf47cd9-40c7-4a5a-b4ab-0461ef2ff7db",
+      "e0afcef6-2f7a-4e38-a30b-edb78bd7f3e8",
+      "9c34dbd8-17a1-4aca-ba03-9851c3e842da",
+      "05328a4b-1310-4d2c-aced-66d9a14eb20c",
+      "6d65f123-0b68-4e77-9281-6573f77aa012",
+      "4b39f97e-15aa-460f-9bbb-506a37524215",
+      "f46c5fc9-5407-4450-a517-5be6d98d1008",
+      "2f55bc23-fa2d-4107-8892-beb0b2901dfb",
+      "c7190b2d-a5e3-4be1-b211-ddc1710e1657"
     ],
     "memExperienceTeam": [
-      "39d68a98-4442-4881-9cd2-41e58acde58b",
-      "ca82f8fa-15de-4461-bc72-80942a8c3648",
-      "3e83c532-0f4d-4f74-82f8-42275e0ff016",
-      "44d71c07-f637-48e6-94d3-26fe60c8e1e9",
-      "7a186b36-97dc-4fc8-8e75-08f0cb1692a2",
-      "7aaf7f7f-8fd4-47e9-9ba1-cb6a3c270e89",
-      "f3ef7d0c-ca36-4c99-a703-f9fd56086b9a",
-      "37a448b9-1fe1-4ef6-86a1-c94b56f2ef56",
-      "76c16fb7-21ff-413d-86a3-03bf92cbdf3a",
-      "2494a9a9-0d7c-4342-b037-0ea5efa32878",
-      "c0bd972d-9f00-4fa4-8bb6-00dd46bb844e"
+      "d7ac099f-b75c-4ca7-9318-a0d7437e9245",
+      "248bd2ae-6e75-4b16-a654-7a0295d4041a",
+      "007a9a32-2d64-409d-909c-7eaf328472e4",
+      "39e251cb-b3a5-44d8-aba6-61e9dd043977",
+      "fddb6ee5-a589-4521-8be4-5eb28a793032",
+      "0881e1b0-8862-4ed5-8cf5-effc825fe9f4",
+      "97b65ed4-7b81-4091-9627-18ebdf5ad45f",
+      "7f3d1c36-187c-4744-aca7-a508ab87fe0b",
+      "4ae24868-df79-4c56-be2b-38eb0bbd4a8a",
+      "e88aa1c1-aeb8-4021-883c-24ffb954fb02",
+      "7574b175-53c7-4ccf-b589-29229881be27"
     ],
     "designTeam": [
-      "8b116686-4144-4579-8807-dfb5708df4e7",
-      "09e076fb-fd39-4d1a-b73d-f7d177eac884"
+      "8315712e-6481-4fa1-bf0e-ce1b106ff163",
+      "e3879eee-e989-4ccb-96d7-3772e789ee5f"
     ],
     "externalTeam": [
-      "8b188206-de37-4e49-8cde-61b022568745",
-      "27992b25-101d-45c5-8e38-111596b8c8a3",
-      "a5377ab2-f77a-4911-9e79-04ae62aff2d0",
-      "fe302942-7878-45ab-bad3-91aa6b2088ea"
+      "e2ae69cc-9d2f-406e-8908-d08e00ad5300",
+      "de24bddc-a497-4ead-a0d3-cff1c9abc4fd",
+      "b1bb05a8-895c-4e24-97e1-6923cbfca089",
+      "6c08225d-33f2-4ef4-9bb7-0741e60b50d2"
     ]
   }
 }
