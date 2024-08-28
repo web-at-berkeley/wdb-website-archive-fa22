@@ -14,7 +14,7 @@ interface MemberCard_Props {
 
 const getImage = (filename: string) => {
 	try {
-		const img = require(`../../assets/pfps/${filename}`).default;
+		const img = require(`../../assets/pfps/${filename}`);
 		return img;
 	} catch (e) {
 		return '';
@@ -32,16 +32,22 @@ const MemberCard = ({ member }: MemberCard_Props) => {
 		init();
 	}, []);
 
+	console.log(member.image);
+
 	return (
 		<Col className={styles['profile']}>
 			<div className={styles['container']}>
 				<img
 					className={styles['photo']}
+
+					// src={require(`../../assets/pfps/${member.image}`)}
+
 					src={
 						!!image
 							? image
 							: require('../../assets/pfps/pfp-default.jpg').default
 					}
+					
 					alt={`${member.firstName} Profile`}
 				/>
 				{(!!member.linkedIn || !!member.email || !!member.website) && (
