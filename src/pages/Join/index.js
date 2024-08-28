@@ -88,17 +88,23 @@ const Join = () => {
 								</p>
 							</div>
 
-							<p className={styles['title']}>
-								Sep 4 - CLUB + DECAL INFOSESSION #1
-							</p>
+							<p className={styles['title']}>Sep 3 - DECAL INFOSESSION #1</p>
 							<div className={styles['description']}>
 								<p>
 									<b>DWINELLE 242 @ 8-9:30PM</b>
 								</p>
 								<p>
-									Come to our infosession to learn more about WDB and the Intro
-									to Full Stack Decal!
+									Come to our infosession to learn more about the Intro to Full
+									Stack Decal!
 								</p>
+							</div>
+
+							<p className={styles['title']}>Sep 4 - CLUB INFOSESSION #1</p>
+							<div className={styles['description']}>
+								<p>
+									<b>DWINELLE 242 @ 8-9:30PM</b>
+								</p>
+								<p>Come to our infosession to learn more about joining WDB!</p>
 							</div>
 
 							<p className={styles['title']}>
@@ -123,7 +129,7 @@ const Join = () => {
 									both.
 								</p>
 								<p>
-									Club Infosession: <b>Wheeler 222 @ 8:30-9:30PM</b>
+									Club Infosession: <b>Wheeler 222 @ 8-9:30PM</b>
 								</p>
 								<p>
 									DeCal Infosession: <b>Dwinelle 234 @ 8-9:30PM</b>
