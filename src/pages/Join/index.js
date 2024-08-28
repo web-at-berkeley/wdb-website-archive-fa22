@@ -32,7 +32,7 @@ const Join = () => {
 					</p> */}
 					<Fade up delay={169}>
 						<div className={styles['timeline']}>
-							<p className={styles['title']}>Jan 16 - Applications open</p>
+							<p className={styles['title']}>Aug 28 - Applications open</p>
 							<div
 								className={`${styles['description']} ${styles['apply-buttons']}`}
 							>
@@ -40,7 +40,7 @@ const Join = () => {
 									text="Club Application"
 									onClick={() =>
 										window.location.replace(
-											'https://airtable.com/appX15UWiN17hulFC/shr5G4iX1fbpuT8gG'
+											'https://airtable.com/appV8EBgP29Id1on5/shrKlVVL4XGyvEGBM',
 										)
 									}
 								/>
@@ -48,38 +48,27 @@ const Join = () => {
 									text="DeCal Application"
 									onClick={() =>
 										window.location.replace(
-											'https://docs.google.com/forms/d/e/1FAIpQLSfktrNEIJovVzKOTV2gJEpg30kK0SVKoXXur0boEhNwlJ-jpg/viewform'
+											'https://forms.gle/6cog4gYdRjY3m9qU6',
 										)
 									}
 								/>
 							</div>
-							<p className={styles['title']}>Jan 16 - Coffee Chats Open</p>
+							<p className={styles['title']}>Aug 28 - Coffee Chats Open</p>
 							<div className={styles['description']}>
 								<Button
 									text="Chat with us!"
 									onClick={() =>
 										window.location.replace(
-											'https://airtable.com/appWoOwHS7hIg7DNv/shrlDn8Zo9qYlfC7W'
+											'https://airtable.com/appWoOwHS7hIg7DNv/shrNy6L9o6vYeepvB',
 										)
 									}
 								/>
 							</div>
-							<p className={styles['title']}>Jan 19 - Design Fair</p>
+
+							<p className={styles['title']}>Aug 29 - Clubs &amp; Cookies</p>
 							<div className={styles['description']}>
 								<p>
-									<b>Jacobs 310 @ 12PM-4PM</b>
-								</p>
-							</div>
-							<p className={styles['title']}>Jan 19 - Tech Diversity Night</p>
-							<div className={styles['description']}>
-								<p>
-									<b>Chou Hall N150 @ 8PM-10PM</b>
-								</p>
-							</div>
-							<p className={styles['title']}>Jan 22 - Clubs and Cookies</p>
-							<div className={styles['description']}>
-								<p>
-									<b>VLSB 2050 @ 8PM-10PM</b>
+									<b>Evans 10 @ 8PM-9:30PM</b>
 								</p>
 								<p>
 									New to the tech scene at Cal? Craving some yummy cookies? Come
@@ -91,54 +80,87 @@ const Join = () => {
 									with current members!
 								</p>
 							</div>
+
+							<p className={styles['title']}>Aug 30 - Design Fair</p>
+							<div className={styles['description']}>
+								<p>
+									<b>Jacobs 310 @ 6PM-8PM</b>
+								</p>
+							</div>
+
 							<p className={styles['title']}>
-								JAN 23 - CLUB + DECAL INFOSESSION #1
+								Sep 4 - CLUB + DECAL INFOSESSION #1
 							</p>
 							<div className={styles['description']}>
 								<p>
-									<b>DWINELLE 234 @ 8-9:30PM</b>
+									<b>DWINELLE 242 @ 8-9:30PM</b>
 								</p>
 								<p>
 									Come to our infosession to learn more about WDB and the Intro
 									to Full Stack Decal!
 								</p>
-								<p>DeCal Infosession: 8-8:30PM</p>
-								<p>Club Infosession: 8:30-9:30PM</p>
 							</div>
 
 							<p className={styles['title']}>
-								JAN 25 - CLUB + DECAL INFOSESSION #2
+								Sep 4 - Diverse Opportunity Fair
 							</p>
 							<div className={styles['description']}>
 								<p>
-									<b>WHEELER 104 @ 8-9:30PM</b>
+									<b>TBD @ 8-10PM</b>
+								</p>
+							</div>
+
+							<p className={styles['title']}>
+								Sep 5 - CLUB + DECAL INFOSESSION #2
+							</p>
+							<div className={styles['description']}>
+								<p>
+									<b>8-9:30PM</b>
 								</p>
 								<p>
 									In case you missed infosession #1! All the information
 									presented will be the same so don't worry about attending
 									both.
 								</p>
-								<p>DeCal Infosession: 8-8:30PM</p>
-								<p>Club Infosession: 8:30-9:30PM</p>
+								<p>
+									Club Infosession: <b>Wheeler 222 @ 8:30-9:30PM</b>
+								</p>
+								<p>
+									DeCal Infosession: <b>Dwinelle 234 @ 8-9:30PM</b>
+								</p>
 							</div>
 							<p className={styles['title']}>
-								JAN 26 - CLUB APPLICATION DUE @ 11:59PM
+								Sep 6 - CLUB APPLICATION DUE @ 11:59PM
 							</p>
 							<div className={styles['description']}></div>
+
 							<p className={styles['title']}>
-								JAN 27 - DECAL APPLICATION DUE @ 11:59PM
+								Sep 7 - DECAL APPLICATION DUE @ 11:59PM
 							</p>
+
 							<div className={styles['description']}></div>
 							<p className={styles['title']}>
-								JAN 30-31 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
+								Sep 9 - CLUB DESIGN CHALLENGE DUE (INVITE ONLY) @ 11:59PM
 							</p>
 							<div className={styles['description']}></div>
+
 							<p className={styles['title']}>
-								FEB 1 - CLUB MEET AND GREET (INVITE ONLY)
+								Sep 9-11 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)
+							</p>
+							<div className={styles['description']}>
+								<p>
+									Since the design challenge is due on the 9th, design
+									interviews will be held Sept 10-11 only.
+								</p>
+							</div>
+
+							<p className={styles['title']}>
+								Sep 12 - CLUB SOCIAL NIGHT (INVITE ONLY)
 							</p>
 							<div className={styles['description']}></div>
+
 							<p className={styles['title']}>
-								FEB 1-2 - CLUB FINAL INTERVIEWS (INVITE ONLY)
+								Sep 12-13 - CLUB FINAL INTERVIEWS (INVITE ONLY)
 							</p>
 						</div>
 					</Fade>
