@@ -6,8 +6,7 @@
       "nickname": "",
       "image": "zayna-lateef-0.jpg",
       "roles": [
-        "[DeCal] Fullstack TA",
-        "[Exec] VP Education"
+        "[DeCal] Course Staff"
       ],
       "linkedIn": "https://www.linkedin.com/in/zayna-lateef-942756216/",
       "website": "",
@@ -31,9 +30,7 @@
       "nickname": "",
       "image": "jackson-wong-0.jpg",
       "roles": [
-        "[Exec] President",
-        "[Industry] Product Manager",
-        "[External Team] Member"
+        "[Exec] President"
       ],
       "linkedIn": "https://www.linkedin.com/in/jacksontwong/",
       "website": "",
@@ -45,8 +42,7 @@
       "nickname": "",
       "image": "sinead-mccaffery-0.jpg",
       "roles": [
-        "[Exec] President",
-        "[Industry] Product Manager"
+        "[Exec] President"
       ],
       "linkedIn": "https://www.linkedin.com/in/sineadmccaffery",
       "website": "",
@@ -70,9 +66,7 @@
       "nickname": "",
       "image": "ezra-apple-0.jpg",
       "roles": [
-        "[Exec] VP Bootcamp",
-        "[DeCal] Fullstack TA",
-        "[Industry] Fullstack Developer"
+        "[Exec] VP Bootcamp"
       ],
       "linkedIn": "https://www.linkedin.com/in/ezraapple/",
       "website": "",
@@ -84,9 +78,7 @@
       "nickname": "",
       "image": "trisha-sathish-0.jpg",
       "roles": [
-        "[Exec] VP Bootcamp",
-        "[DeCal] Design TA",
-        "[Exec] President"
+        "[Exec] VP Bootcamp"
       ],
       "linkedIn": "https://www.linkedin.com/in/trisha-sathish-36b9021b3/",
       "website": "",
@@ -98,8 +90,7 @@
       "nickname": "",
       "image": "kira-fukuda-0.jpg",
       "roles": [
-        "[Exec] VP Design",
-        "[Industry] Product Designer"
+        "[Exec] VP Design"
       ],
       "linkedIn": "www.linkedin.com/in/kirafukuda",
       "website": "https://www.kirafukuda.com/",
@@ -111,8 +102,6 @@
       "nickname": "Matt",
       "image": "matt-robillard-0.jpg",
       "roles": [
-        "[Exec] VP Education",
-        "[DeCal] Fullstack TA",
         "[Exec] VP Education"
       ],
       "linkedIn": "https://www.linkedin.com/in/matthew-robillard-6723b8252/",
@@ -125,8 +114,7 @@
       "nickname": "",
       "image": "prabhas-kurapati-0.jpg",
       "roles": [
-        "[Exec] VP Education",
-        "[Decal] Course Staff"
+        "[Exec] VP Education"
       ],
       "linkedIn": "https://www.linkedin.com/in/prabhask/",
       "website": "",
@@ -138,9 +126,7 @@
       "nickname": "Manuel",
       "image": "manuel-munoz-0.jpg",
       "roles": [
-        "[Exec] VP External",
-        "[Industry] Product Manager",
-        "[Decal] Course Staff"
+        "[Exec] VP External"
       ],
       "linkedIn": "linkedin.com/in/manuel-munoz-968582236",
       "website": "https://manuelmunoz.me/",
@@ -164,9 +150,7 @@
       "nickname": "",
       "image": "kyle-kuwahara-0.jpg",
       "roles": [
-        "[Exec] VP Internal",
-        "[MET] Member",
-        "[Industry] Backend Developer"
+        "[Exec] VP Internal"
       ],
       "linkedIn": "www.linkedin.com/in/ kylekuwahara",
       "website": "",
@@ -178,9 +162,7 @@
       "nickname": "Sommie",
       "image": "sommie-santilla-0.jpg",
       "roles": [
-        "[Exec] VP Internal",
-        "[MET] Member",
-        "[Industry] Product Designer"
+        "[Exec] VP Internal"
       ],
       "linkedIn": "www.linkedin.com/in/chloesantilla",
       "website": "",
@@ -204,8 +186,7 @@
       "nickname": "",
       "image": "thien-le-0.jpg",
       "roles": [
-        "[Industry] Backend Developer",
-        "[External Team] Member"
+        "[Industry] Backend Developer"
       ],
       "linkedIn": "https://www.linkedin.com/mwlite/in/thien-le-91aab21aa",
       "website": "",
@@ -229,8 +210,7 @@
       "nickname": "",
       "image": "rohan-penmatcha-0.jpg",
       "roles": [
-        "[Industry] Backend Developer",
-        "[Industry] Frontend Developer"
+        "[Industry] Backend Developer"
       ],
       "linkedIn": "https://www.linkedin.com/in/ropenmatc2004/",
       "website": "",
@@ -242,7 +222,8 @@
       "nickname": "",
       "image": "joel-cisneros-0.jpg",
       "roles": [
-        "[Industry] Backend Developer"
+        "[Industry] Backend Developer",
+        "[MET] Member"
       ],
       "linkedIn": "https://www.linkedin.com/in/jcisnerosss/",
       "website": "",
@@ -255,8 +236,7 @@
       "image": "hunter-harling-0.jpg",
       "roles": [
         "[Industry] Backend Developer",
-        "[MET] Member",
-        "[Industry] Product Manager"
+        "[MET] Member"
       ],
       "linkedIn": "https://www.linkedin.com/mwlite/in/hunterharling",
       "website": "",
@@ -293,8 +273,7 @@
       "nickname": "",
       "image": "quincy-thai-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "[Industry] Frontend Developer"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "https://www.linkedin.com/in/quincythai/",
       "website": "",
@@ -306,8 +285,7 @@
       "nickname": "Alex",
       "image": "alex-chow-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "[Bootcamp] Developer"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "https://www.linkedin.com/in/alexander-chow-2167ab249/",
       "website": "",
@@ -319,8 +297,7 @@
       "nickname": "",
       "image": "aurelia-wang-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "[Bootcamp] Developer"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "https://www.linkedin.com/in/wangaurelia",
       "website": "",
@@ -332,8 +309,7 @@
       "nickname": "",
       "image": "gisella-chan-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "[Bootcamp] Developer"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "N/A",
       "website": "",
@@ -345,8 +321,7 @@
       "nickname": "",
       "image": "janelle-xu-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "[Bootcamp] Developer"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "www.linkedin.com/in/janelle-xu",
       "website": "",
@@ -358,8 +333,7 @@
       "nickname": "",
       "image": "michelle-wang-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "Away"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "https://www.linkedin.com/mwlite/in/michelle-wang-3aa12a227",
       "website": "",
@@ -389,14 +363,13 @@
       "website": "",
       "email": "richajos34@berkeley.edu"
     },
-"alejandro-beltran": {
+    "alejandro-beltran": {
       "firstName": "Alejandro",
       "lastName": "Beltran",
       "nickname": "",
       "image": "alejandro-beltran-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "[Bootcamp] Developer"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "https://www.linkedin.com/in/alejandro-beltran-a99862249",
       "website": "",
@@ -408,8 +381,7 @@
       "nickname": "",
       "image": "arhum-khan-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "[Industry] Frontend Developer"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "https://www.linkedin.com/in/arhum--khan/",
       "website": "",
@@ -421,8 +393,7 @@
       "nickname": "",
       "image": "nathan-rouston-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "[Bootcamp] Developer"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "http://www.linkedin.com/in/nathan-rouston-ab72b328b",
       "website": "",
@@ -434,8 +405,7 @@
       "nickname": "",
       "image": "nicole-lee-0.jpg",
       "roles": [
-        "[Industry] Fullstack Developer",
-        "[Bootcamp] Developer"
+        "[Industry] Fullstack Developer"
       ],
       "linkedIn": "https://www.linkedin.com/in/nicolelee7887/",
       "website": "https://nnicolee.github.io/",
@@ -448,8 +418,7 @@
       "image": "krish-soni-0.jpg",
       "roles": [
         "[Industry] Fullstack Developer",
-        "[DeCal] Course Staff",
-        "[Decal] Course Staff"
+        "[DeCal] Course Staff"
       ],
       "linkedIn": "",
       "website": "",
@@ -461,8 +430,7 @@
       "nickname": "Lena",
       "image": "lena-vuong-0.jpg",
       "roles": [
-        "[Industry] Product Designer",
-        "[Bootcamp] Designer"
+        "[Industry] Product Designer"
       ],
       "linkedIn": "www.linkedin.com/in/helenavuong",
       "website": "",
@@ -486,8 +454,7 @@
       "nickname": "",
       "image": "lauren-kim-0.jpg",
       "roles": [
-        "[Industry] Product Designer",
-        "[Exec] VP Bootcamp"
+        "[Industry] Product Designer"
       ],
       "linkedIn": "https://www.linkedin.com/in/laurennayunkim/",
       "website": "laurennayunkim.com",
@@ -499,8 +466,7 @@
       "nickname": "",
       "image": "marin-lau-0.jpg",
       "roles": [
-        "[Industry] Product Designer",
-        "[Industry] Product Manager"
+        "[Industry] Product Designer"
       ],
       "linkedIn": "linkedin.com/in/marin-lau-42b2bb255/",
       "website": "https://sites.google.com/berkeley.edu/marinlau/home",
@@ -537,8 +503,7 @@
       "image": "rachel-cortez-0.jpg",
       "roles": [
         "[Industry] Product Designer",
-        "[MET] Member",
-        "[Bootcamp] Designer"
+        "[MET] Member"
       ],
       "linkedIn": "https://www.linkedin.com/in/rachel-cortez/",
       "website": "",
@@ -551,8 +516,7 @@
       "image": "charlie-kwon-0.jpg",
       "roles": [
         "[Industry] Product Designer",
-        "[MET] Member",
-        "[Bootcamp] Designer"
+        "[MET] Member"
       ],
       "linkedIn": "www.linkedin.com/in/charlotte-kwon-1a2481281",
       "website": "",
@@ -566,8 +530,7 @@
       "roles": [
         "[Industry] Product Designer",
         "[MET] Member",
-        "[Design Team] Member",
-        "[Bootcamp] Designer"
+        "[Design Team] Member"
       ],
       "linkedIn": "www.linkedin.com/in/tung-nguyen-a75735284",
       "website": "",
@@ -579,8 +542,7 @@
       "nickname": "",
       "image": "bhada-yun-0.jpg",
       "roles": [
-        "[Industry] Product Manager",
-        "[Industry] Frontend Developer"
+        "[Industry] Product Manager"
       ],
       "linkedIn": "https://www.linkedin.com/in/bhadayun/",
       "website": "https://bhadayun.com/",
@@ -592,9 +554,7 @@
       "nickname": "Yucian",
       "image": "yucian-liu-0.jpg",
       "roles": [
-        "[Industry] Product Manager",
-        "[DeCal] Design TA",
-        "[Exec] President"
+        "[Industry] Product Manager"
       ],
       "linkedIn": "https://www.linkedin.com/in/yucianliu/",
       "website": "",
@@ -607,8 +567,7 @@
       "image": "ashley-zheng-0.jpg",
       "roles": [
         "[Industry] Product Manager",
-        "[MET] Member",
-        "Away"
+        "[MET] Member"
       ],
       "linkedIn": "www.linkedin.com/in/ashley-zheng-5553151a8",
       "website": "",
@@ -620,9 +579,8 @@
       "nickname": "",
       "image": "jason-duong-0.jpg",
       "roles": [
-        "[Industry] Product Manager",
-        "[MET] Member",
-        "[Industry] Frontend Developer"
+        "[Industry] Tech Lead",
+        "[MET] Member"
       ],
       "linkedIn": "linkedin.com/in/jasonduongg/",
       "website": "jasonduongg.github.io/Personal/",
@@ -649,8 +607,7 @@
       "image": "ridge-huang-0.jpg",
       "roles": [
         "[MET] Member",
-        "[Industry] Backend Developer",
-        "[Industry] Frontend Developer"
+        "[Industry] Backend Developer"
       ],
       "linkedIn": "https://www.linkedin.com/in/ridge-huang/",
       "website": "",
@@ -663,8 +620,7 @@
       "image": "warren-chang-0.jpg",
       "roles": [
         "[MET] Member",
-        "[Industry] Backend Developer",
-        "[Bootcamp] Developer"
+        "[Industry] Backend Developer"
       ],
       "linkedIn": "https://www.linkedin.com/in/warren-chang-215644229/",
       "website": "",
@@ -676,8 +632,7 @@
       "nickname": "Cass",
       "image": "cass-li-0.jpg",
       "roles": [
-        "Senior Advisor",
-        "[MET] Member"
+        "Senior Advisor"
       ],
       "linkedIn": "https://www.linkedin.com/in/chengyin-li/",
       "website": "https://cassli.webflow.io",
@@ -689,9 +644,7 @@
       "nickname": "Nick",
       "image": "nick-shin-0.jpg",
       "roles": [
-        "Senior Advisor",
-        "[Industry] Fullstack Developer",
-        "[MET] Member"
+        "Senior Advisor"
       ],
       "linkedIn": "https://www.linkedin.com/in/nicholas-shin-b998651b2",
       "website": "",
@@ -703,9 +656,7 @@
       "nickname": "",
       "image": "danielle-wong-0.jpg",
       "roles": [
-        "Senior Advisor",
-        "[DeCal] Design TA",
-        "[MET] Member"
+        "Senior Advisor"
       ],
       "linkedIn": "https://www.linkedin.com/in/danielle-n-wong/",
       "website": "",
@@ -717,8 +668,7 @@
       "nickname": "",
       "image": "henric-zhang-0.jpg",
       "roles": [
-        "Senior Advisor",
-        "[Decal] Course Staff"
+        "Senior Advisor"
       ],
       "linkedIn": "https://www.linkedin.com/in/henriczhang/",
       "website": "",
@@ -730,8 +680,7 @@
       "nickname": "Jenny",
       "image": "jenny-weng-0.jpg",
       "roles": [
-        "Senior Advisor",
-        "[Exec] VP Design"
+        "Senior Advisor"
       ],
       "linkedIn": "https://www.linkedin.com/in/jennyweng",
       "website": "jennyweng.com",
@@ -2601,17 +2550,10 @@
       "kabir-shah",
       "kyle-kuwahara",
       "sommie-santilla",
-      "naomi-manuel",
-      "yucian-liu",
-      "zayna-lateef"
+      "naomi-manuel"
     ],
     "productManagers": [
-      "jackson-wong",
-      "sinead-mccaffery",
       "bhada-yun",
-      "manuel-munoz",
-      "hunter-harling",
-      "marin-lau",
       "yucian-liu",
       "ashley-zheng",
       "jason-duong"
@@ -2646,47 +2588,21 @@
       "rachel-cortez",
       "charlie-kwon",
       "tommy-nguyen",
-      "bhada-yun",
       "seeun-ahn",
       "ridge-huang",
-      "warren-chang",
-      "nick-shin",
-      "ezra-apple",
-      "zayna-lateef",
-      "kira-fukuda",
-      "sommie-santilla",
-      "jason-duong"
-    ],
-    "bootcampMembers": [
-      "alex-chow",
-      "aurelia-wang",
-      "gisella-chan",
-      "janelle-xu",
-      "alejandro-beltran",
-      "nathan-rouston",
-      "nicole-lee",
-      "lena-vuong",
-      "rachel-cortez",
-      "charlie-kwon",
-      "tommy-nguyen",
       "warren-chang"
     ],
-    "courseStaff": [
+    "bootcampMembers": [
+      "amish-gupta",
       "ezra-apple",
-      "trisha-sathish",
-      "matt-robillard",
-      "prabhas-kurapati",
-      "manuel-munoz",
+      "trisha-sathish"
+    ],
+    "courseStaff": [
       "krish-soni",
       "seeun-ahn",
-      "danielle-wong",
-      "henric-zhang",
-      "yucian-liu",
       "zayna-lateef"
     ],
     "memExperienceTeam": [
-      "kyle-kuwahara",
-      "sommie-santilla",
       "sophia-sung",
       "hunter-harling",
       "rachel-cortez",
@@ -2697,19 +2613,11 @@
       "warren-chang",
       "ashley-zheng",
       "jason-duong",
-      "cass-li",
-      "nick-shin",
-      "danielle-wong"
+      "joel-cisneros"
     ],
     "designTeam": [
       "sarah-suen",
       "tommy-nguyen"
-    ],
-    "externalTeam": [
-      "jackson-wong",
-      "manuel-munoz",
-      "kabir-shah",
-      "thien-le"
     ],
     "alumni": [
       "5ce3b055-c0d4-4271-9b80-b6fe6552f372",
