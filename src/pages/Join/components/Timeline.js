@@ -92,13 +92,13 @@ const timelineData = [
 		title: 'Jan 31 - DECAL APPLICATION DUE @ 11:59PM',
 	},
 	{
-		title: 'JAN 31 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)',
+		title: 'FEB 1-3 - CLUB TECHNICAL INTERVIEWS (INVITE ONLY)',
 	},
 	{
-		title: 'FEB 2 - SOCIAL NIGHT (INVITE ONLY)',
+		title: 'FEB 4 - SOCIAL NIGHT (INVITE ONLY)',
 	},
 	{
-		title: 'FEB 4 - CLUB FINAL INTERVIEWS (INVITE ONLY)',
+		title: 'FEB 5-6 - CLUB FINAL INTERVIEWS (INVITE ONLY)',
 	},
 ];
 
