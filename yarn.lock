@@ -4223,6 +4223,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:18":
+  version: 18.3.5
+  resolution: "@types/react-dom@npm:18.3.5"
+  peerDependencies:
+    "@types/react": ^18.0.0
+  checksum: 95c757684f71e761515c5a11299e5feec550c72bb52975487f360e6f0d359b26454c26eaf2ce45dd22748205aa9b2c2fe0abe7005ebcbd233a7615283ac39a7d
+  languageName: node
+  linkType: hard
+
 "@types/react-transition-group@npm:^4.4.6":
   version: 4.4.11
   resolution: "@types/react-transition-group@npm:4.4.11"
@@ -4240,6 +4249,16 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 18cae64f5bfd6bb58fbd8ee2ba52ec82de844f114254e26de7b513e4b86621f643f9b71d7066958cd571b0d78cb86cbceda449c5289f9349ca573df29ab69252
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18":
+  version: 18.3.18
+  resolution: "@types/react@npm:18.3.18"
+  dependencies:
+    "@types/prop-types": "*"
+    csstype: ^3.0.2
+  checksum: 5933597bc9f53e282f0438f0bb76d0f0fab60faabe760ea806e05ffe6f5c61b9b4d363e1a03a8fea47c510d493c6cf926cdeeba9f7074fa97b61940c350245e7
   languageName: node
   linkType: hard
 
@@ -12818,7 +12837,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.3.1":
+"react-dom@npm:18":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
   dependencies:
@@ -13014,7 +13033,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.3.1":
+"react@npm:18":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
   dependencies:
@@ -15230,13 +15249,15 @@ __metadata:
     "@testing-library/jest-dom": ^6.5.0
     "@testing-library/react": ^16.0.0
     "@testing-library/user-event": ^14.5.2
+    "@types/react": 18
+    "@types/react-dom": 18
     axios: ^1.7.5
     bootstrap: 5.3.3
     heic2any: ^0.0.4
-    react: ^18.3.1
+    react: 18
     react-bootstrap: ^2.10.4
     react-countup: ^6.5.3
-    react-dom: ^18.3.1
+    react-dom: 18
     react-reveal: ^1.2.2
     react-router-dom: ^6.26.1
     react-scripts: 5.0.1

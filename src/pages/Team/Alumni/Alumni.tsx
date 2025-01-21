@@ -15,13 +15,6 @@ const Alumni = () => {
 				<h1>Alumni</h1>
 			</Header>
 			<Container className={styles['container']}>
-				<h4 className={styles['divider-header']}>Senior Advisors</h4>
-				<Row lg="5" sm="3" xs="2">
-					{seniorAdvisors.map((data, i) => (
-						<MemberCard member={data} key={i} />
-					))}
-				</Row>
-
 				<h4 className={styles['divider-header']}>UC Berkeley Graduates</h4>
 				<Row lg="5" sm="3" xs="2">
 					{alumni.map((data, i) => (

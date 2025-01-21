@@ -1,2713 +1,1717 @@
 {
-  "allMembers": {
-    "zayna-lateef": {
-      "firstName": "Zayna",
-      "lastName": "Lateef",
-      "nickname": "",
-      "image": "zayna-lateef-0.jpg",
-      "roles": [
-        "[DeCal] Course Staff"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/zayna-lateef-942756216/",
-      "website": "",
-      "email": "dorafok@berkeley.edu"
-    },
-    "sarah-suen": {
-      "firstName": "Sarah",
-      "lastName": "Suen",
-      "nickname": "",
-      "image": "sarah-suen-0.jpg",
-      "roles": [
-        "[Design Team] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sarahsuen/",
-      "website": "",
-      "email": "sarahsuen@berkeley.edu"
-    },
-    "jackson-wong": {
-      "firstName": "Jackson",
-      "lastName": "Wong",
-      "nickname": "",
-      "image": "jackson-wong-0.jpg",
-      "roles": [
-        "[Exec] President"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jacksontwong/",
-      "website": "",
-      "email": "wongjt@berkeley.edu"
-    },
-    "sinead-mccaffery": {
-      "firstName": "Sinead",
-      "lastName": "McCaffery",
-      "nickname": "",
-      "image": "sinead-mccaffery-0.jpg",
-      "roles": [
-        "[Exec] President"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sineadmccaffery",
-      "website": "",
-      "email": "sineadmccaffery@berkeley.edu"
-    },
-    "amish-gupta": {
-      "firstName": "Amish",
-      "lastName": "Gupta",
-      "nickname": "",
-      "image": "amish-gupta-0.jpg",
-      "roles": [
-        "[Exec] VP Bootcamp"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/amishgupta678/",
-      "website": "",
-      "email": "amish@berkeley.edu"
-    },
-    "ezra-apple": {
-      "firstName": "Ezra",
-      "lastName": "Apple",
-      "nickname": "",
-      "image": "ezra-apple-0.jpg",
-      "roles": [
-        "[Exec] VP Bootcamp"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ezraapple/",
-      "website": "",
-      "email": "ezraapple@berkeley.edu"
-    },
-    "trisha-sathish": {
-      "firstName": "Trisha",
-      "lastName": "Sathish",
-      "nickname": "",
-      "image": "trisha-sathish-0.jpg",
-      "roles": [
-        "[Exec] VP Bootcamp"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/trisha-sathish-36b9021b3/",
-      "website": "",
-      "email": "trishasathish@berkeley.edu"
-    },
-    "kira-fukuda": {
-      "firstName": "Kira",
-      "lastName": "Fukuda",
-      "nickname": "",
-      "image": "kira-fukuda-0.jpg",
-      "roles": [
-        "[Exec] VP Design"
-      ],
-      "linkedIn": "www.linkedin.com/in/kirafukuda",
-      "website": "https://www.kirafukuda.com/",
-      "email": "kirafukuda@berkeley.edu"
-    },
-    "matt-robillard": {
-      "firstName": "Matthew",
-      "lastName": "Robillard",
-      "nickname": "Matt",
-      "image": "matt-robillard-0.jpg",
-      "roles": [
-        "[Exec] VP Education"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/matthew-robillard-6723b8252/",
-      "website": "mjrobillard.com",
-      "email": "Robillard.matthew22@berkeley.edu"
-    },
-    "prabhas-kurapati": {
-      "firstName": "Prabhas",
-      "lastName": "Kurapati",
-      "nickname": "",
-      "image": "prabhas-kurapati-0.jpg",
-      "roles": [
-        "[Exec] VP Education"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/prabhask/",
-      "website": "",
-      "email": "prabhask@berkeley.edu"
-    },
-    "manuel-munoz": {
-      "firstName": "Manuel De Jesus",
-      "lastName": "Muñoz",
-      "nickname": "Manuel",
-      "image": "manuel-munoz-0.jpg",
-      "roles": [
-        "[Exec] VP External"
-      ],
-      "linkedIn": "linkedin.com/in/manuel-munoz-968582236",
-      "website": "https://manuelmunoz.me/",
-      "email": "mannymnz@berkeley.edu"
-    },
-    "kabir-shah": {
-      "firstName": "Kabir",
-      "lastName": "Shah",
-      "nickname": "",
-      "image": "kabir-shah-0.jpg",
-      "roles": [
-        "[Exec] VP External"
-      ],
-      "linkedIn": "http://linkedin.com/in/kabir-shah",
-      "website": "https://kabir.sh",
-      "email": "kabirshah@berkeley.edu"
-    },
-    "kyle-kuwahara": {
-      "firstName": "Kyle",
-      "lastName": "Kuwahara",
-      "nickname": "",
-      "image": "kyle-kuwahara-0.jpg",
-      "roles": [
-        "[Exec] VP Internal"
-      ],
-      "linkedIn": "www.linkedin.com/in/ kylekuwahara",
-      "website": "",
-      "email": "kylekuwahara@berkeley.edu"
-    },
-    "sommie-santilla": {
-      "firstName": "Chloe Sommer",
-      "lastName": "Santilla",
-      "nickname": "Sommie",
-      "image": "sommie-santilla-0.jpg",
-      "roles": [
-        "[Exec] VP Internal"
-      ],
-      "linkedIn": "www.linkedin.com/in/chloesantilla",
-      "website": "",
-      "email": "chlosomsantilla@berkeley.edu"
-    },
-    "naomi-manuel": {
-      "firstName": "Naomi",
-      "lastName": "Manuel",
-      "nickname": "",
-      "image": "naomi-manuel-0.jpg",
-      "roles": [
-        "[Exec] VP Marketing"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/naomi-m-899a011a5",
-      "website": "",
-      "email": "naomimanuel@berkeley.edu"
-    },
-    "thien-le": {
-      "firstName": "Thien",
-      "lastName": "Le",
-      "nickname": "",
-      "image": "thien-le-0.jpg",
-      "roles": [
-        "[Industry] Backend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/mwlite/in/thien-le-91aab21aa",
-      "website": "",
-      "email": "thienle1942@berkeley.edu"
-    },
-    "david-pantoja": {
-      "firstName": "David",
-      "lastName": "Pantoja",
-      "nickname": "",
-      "image": "david-pantoja-0.jpg",
-      "roles": [
-        "[Industry] Backend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/david-pantoja/",
-      "website": "",
-      "email": "davidpantoja@berkeley.edu"
-    },
-    "rohan-penmatcha": {
-      "firstName": "Rohan",
-      "lastName": "Penmatcha",
-      "nickname": "",
-      "image": "rohan-penmatcha-0.jpg",
-      "roles": [
-        "[Industry] Backend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ropenmatc2004/",
-      "website": "",
-      "email": "rp5169@berkeley.edu"
-    },
-    "joel-cisneros": {
-      "firstName": "Joel",
-      "lastName": "Cisneros",
-      "nickname": "",
-      "image": "joel-cisneros-0.jpg",
-      "roles": [
-        "[Industry] Backend Developer",
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jcisnerosss/",
-      "website": "",
-      "email": "joelcisneros25@berkeley.edu"
-    },
-    "hunter-harling": {
-      "firstName": "Hunter",
-      "lastName": "Harling",
-      "nickname": "",
-      "image": "hunter-harling-0.jpg",
-      "roles": [
-        "[Industry] Backend Developer",
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/mwlite/in/hunterharling",
-      "website": "",
-      "email": "hunterharling@berkeley.edu"
-    },
-    "avik-semantha": {
-      "firstName": "Avik",
-      "lastName": "Semantha",
-      "nickname": "",
-      "image": "avik-semantha-0.jpg",
-      "roles": [
-        "[Industry] Frontend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/avik-samanta-33530024b/",
-      "website": "https://lojikick.github.io/Personal_Site/",
-      "email": "aviksamanta5811@berkeley.edu"
-    },
-    "sophia-sung": {
-      "firstName": "Sophia",
-      "lastName": "Sung",
-      "nickname": "",
-      "image": "sophia-sung-0.jpg",
-      "roles": [
-        "[Industry] Frontend Developer",
-        "[MET] Member"
-      ],
-      "linkedIn": "www.linkedin.com/in/sophia-sung-0948b6212",
-      "website": "",
-      "email": "sophiasung@berkeley.edu"
-    },
-    "quincy-thai": {
-      "firstName": "Quincy",
-      "lastName": "Thai",
-      "nickname": "",
-      "image": "quincy-thai-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/quincythai/",
-      "website": "",
-      "email": "quincythai@berkeley.edu"
-    },
-    "alex-chow": {
-      "firstName": "Alexander",
-      "lastName": "Chow",
-      "nickname": "Alex",
-      "image": "alex-chow-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/alexander-chow-2167ab249/",
-      "website": "",
-      "email": "alexbchow@berkeley.edu"
-    },
-    "aurelia-wang": {
-      "firstName": "Aurelia",
-      "lastName": "Wang",
-      "nickname": "",
-      "image": "aurelia-wang-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/wangaurelia",
-      "website": "",
-      "email": "aureliawang@berkeley.edu"
-    },
-    "gisella-chan": {
-      "firstName": "Gisella",
-      "lastName": "Chan",
-      "nickname": "",
-      "image": "gisella-chan-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "N/A",
-      "website": "",
-      "email": "gisellachan@berkeley.edu"
-    },
-    "janelle-xu": {
-      "firstName": "Janelle",
-      "lastName": "Xu",
-      "nickname": "",
-      "image": "janelle-xu-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "www.linkedin.com/in/janelle-xu",
-      "website": "",
-      "email": "janellex4@berkeley.edu"
-    },
-    "michelle-wang": {
-      "firstName": "Michelle",
-      "lastName": "Wang",
-      "nickname": "",
-      "image": "michelle-wang-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/mwlite/in/michelle-wang-3aa12a227",
-      "website": "",
-      "email": "michelle.wang@berkeley.edu"
-    },
-    "nemer-singh": {
-      "firstName": "Nemerjit",
-      "lastName": "Singh",
-      "nickname": "Nemer",
-      "image": "nemer-singh-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/nemerjit-singh",
-      "website": "",
-      "email": "nemerjitsingh@berkeley.edu"
-    },
-    "richa-jos": {
-      "firstName": "Richa",
-      "lastName": "Jos",
-      "nickname": "",
-      "image": "richa-jos-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/richa-jos/",
-      "website": "",
-      "email": "richajos34@berkeley.edu"
-    },
-    "alejandro-beltran": {
-      "firstName": "Alejandro",
-      "lastName": "Beltran",
-      "nickname": "",
-      "image": "alejandro-beltran-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/alejandro-beltran-a99862249",
-      "website": "",
-      "email": "alejandrobeltran@berkeley.edu"
-    },
-    "arhum-khan": {
-      "firstName": "Arhum",
-      "lastName": "Khan",
-      "nickname": "",
-      "image": "arhum-khan-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/arhum--khan/",
-      "website": "",
-      "email": "arhum@berkeley.edu"
-    },
-    "nathan-rouston": {
-      "firstName": "Nathan",
-      "lastName": "Rouston",
-      "nickname": "",
-      "image": "nathan-rouston-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "http://www.linkedin.com/in/nathan-rouston-ab72b328b",
-      "website": "",
-      "email": "nathan.rouston@berkeley.edu"
-    },
-    "nicole-lee": {
-      "firstName": "Nicole",
-      "lastName": "Lee",
-      "nickname": "",
-      "image": "nicole-lee-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/nicolelee7887/",
-      "website": "https://nnicolee.github.io/",
-      "email": "nicolelee1@berkeley.edu"
-    },
-    "krish-soni": {
-      "firstName": "Krish",
-      "lastName": "Soni",
-      "nickname": "",
-      "image": "krish-soni-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer",
-        "[DeCal] Course Staff"
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "krish_soni@berkeley.edu"
-    },
-    "lena-vuong": {
-      "firstName": "Helena",
-      "lastName": "Vuong",
-      "nickname": "Lena",
-      "image": "lena-vuong-0.jpg",
-      "roles": [
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "www.linkedin.com/in/helenavuong",
-      "website": "",
-      "email": "hmv1018@berkeley.edu"
-    },
-    "sophia-matthews": {
-      "firstName": "Sophia",
-      "lastName": "Matthews",
-      "nickname": "",
-      "image": "sophia-matthews-0.jpg",
-      "roles": [
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "www.linkedin.com/in/sophia-matthews-0a0467224",
-      "website": "https://www.behance.net/sophiamatthews3",
-      "email": "sophiamatthews@berkeley.edu"
-    },
-    "lauren-kim": {
-      "firstName": "Lauren",
-      "lastName": "Kim",
-      "nickname": "",
-      "image": "lauren-kim-0.jpg",
-      "roles": [
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/laurennayunkim/",
-      "website": "laurennayunkim.com",
-      "email": "laurennayunkim@berkeley.edu"
-    },
-    "marin-lau": {
-      "firstName": "Marin",
-      "lastName": "Lau",
-      "nickname": "",
-      "image": "marin-lau-0.jpg",
-      "roles": [
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "linkedin.com/in/marin-lau-42b2bb255/",
-      "website": "https://sites.google.com/berkeley.edu/marinlau/home",
-      "email": "marinlau@berkeley.edu"
-    },
-    "rachel-yun": {
-      "firstName": "Rachel",
-      "lastName": "Yun",
-      "nickname": "",
-      "image": "rachel-yun-0.jpg",
-      "roles": [
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "ryun24@berkeley.edu"
-    },
-    "rachel-quach": {
-      "firstName": "Rachel",
-      "lastName": "Quach",
-      "nickname": "",
-      "image": "rachel-quach-0.jpg",
-      "roles": [
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/rachelquach1/",
-      "website": "",
-      "email": "racheljquach@berkeley.edu"
-    },
-    "rachel-cortez": {
-      "firstName": "Rachel",
-      "lastName": "Cortez",
-      "nickname": "",
-      "image": "rachel-cortez-0.jpg",
-      "roles": [
-        "[Industry] Product Designer",
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/rachel-cortez/",
-      "website": "",
-      "email": "rach.cort@berkeley.edu"
-    },
-    "charlie-kwon": {
-      "firstName": "Charlotte",
-      "lastName": "Kwon",
-      "nickname": "Charlie",
-      "image": "charlie-kwon-0.jpg",
-      "roles": [
-        "[Industry] Product Designer",
-        "[MET] Member"
-      ],
-      "linkedIn": "www.linkedin.com/in/charlotte-kwon-1a2481281",
-      "website": "",
-      "email": "charlottekwon04@berkeley.edu"
-    },
-    "tommy-nguyen": {
-      "firstName": "Tung",
-      "lastName": "Nguyen",
-      "nickname": "Tommy",
-      "image": "tommy-nguyen-0.jpg",
-      "roles": [
-        "[Industry] Product Designer",
-        "[MET] Member",
-        "[Design Team] Member"
-      ],
-      "linkedIn": "www.linkedin.com/in/tung-nguyen-a75735284",
-      "website": "",
-      "email": "tungsn278@berkeley.edu"
-    },
-    "bhada-yun": {
-      "firstName": "Bhada",
-      "lastName": "Yun",
-      "nickname": "",
-      "image": "bhada-yun-0.jpg",
-      "roles": [
-        "[Industry] Product Manager"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/bhadayun/",
-      "website": "https://bhadayun.com/",
-      "email": "bhadayun@berkeley.edu"
-    },
-    "yucian-liu": {
-      "firstName": "Yu-Cian",
-      "lastName": "Liu",
-      "nickname": "Yucian",
-      "image": "yucian-liu-0.jpg",
-      "roles": [
-        "[Industry] Product Manager"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/yucianliu/",
-      "website": "",
-      "email": "yucianliu@berkeley.edu"
-    },
-    "ashley-zheng": {
-      "firstName": "Ashley",
-      "lastName": "Zheng",
-      "nickname": "",
-      "image": "ashley-zheng-0.jpg",
-      "roles": [
-        "[Industry] Product Manager",
-        "[MET] Member"
-      ],
-      "linkedIn": "www.linkedin.com/in/ashley-zheng-5553151a8",
-      "website": "",
-      "email": "ashley.zheng@berkeley.edu"
-    },
-    "jason-duong": {
-      "firstName": "Jason",
-      "lastName": "Duong",
-      "nickname": "",
-      "image": "jason-duong-0.jpg",
-      "roles": [
-        "[Industry] Tech Lead",
-        "[MET] Member"
-      ],
-      "linkedIn": "linkedin.com/in/jasonduongg/",
-      "website": "jasonduongg.github.io/Personal/",
-      "email": "jasonduong@berkeley.edu"
-    },
-    "seeun-ahn": {
-      "firstName": "Seeun",
-      "lastName": "Ahn",
-      "nickname": "",
-      "image": "seeun-ahn-0.jpg",
-      "roles": [
-        "[MET] Member",
-        "[DeCal] Course Staff",
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "http://www.linkedin.com/in/seeunahn",
-      "website": "",
-      "email": "seeun@berkeley.edu"
-    },
-    "ridge-huang": {
-      "firstName": "Ridge",
-      "lastName": "Huang",
-      "nickname": "",
-      "image": "ridge-huang-0.jpg",
-      "roles": [
-        "[MET] Member",
-        "[Industry] Backend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ridge-huang/",
-      "website": "",
-      "email": "ridgeh5@berkeley.edu"
-    },
-    "warren-chang": {
-      "firstName": "Bo-Wei",
-      "lastName": "Chang",
-      "nickname": "Warren",
-      "image": "warren-chang-0.jpg",
-      "roles": [
-        "[MET] Member",
-        "[Industry] Backend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/warren-chang-215644229/",
-      "website": "",
-      "email": "boweichang@berkeley.edu"
-    },
-    "cass-li": {
-      "firstName": "Chengyin",
-      "lastName": "Li",
-      "nickname": "Cass",
-      "image": "cass-li-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/chengyin-li/",
-      "website": "https://cassli.webflow.io",
-      "email": "chengyin@berkeley.edu"
-    },
-    "nick-shin": {
-      "firstName": "Nicholas",
-      "lastName": "Shin",
-      "nickname": "Nick",
-      "image": "nick-shin-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/nicholas-shin-b998651b2",
-      "website": "",
-      "email": "nshin02@berkeley.edu"
-    },
-    "danielle-wong": {
-      "firstName": "Danielle",
-      "lastName": "Wong",
-      "nickname": "",
-      "image": "danielle-wong-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/danielle-n-wong/",
-      "website": "",
-      "email": "daniellenwong@berkeley.edu"
-    },
-    "henric-zhang": {
-      "firstName": "Henric",
-      "lastName": "Zhang",
-      "nickname": "",
-      "image": "henric-zhang-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/henriczhang/",
-      "website": "",
-      "email": "henriczhang@berkeley.edu"
-    },
-    "jenny-weng": {
-      "firstName": "Jiahuang",
-      "lastName": "Weng",
-      "nickname": "Jenny",
-      "image": "jenny-weng-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jennyweng",
-      "website": "jennyweng.com",
-      "email": "jennyweng@berkeley.edu"
-    },
-    "joying-yang": {
-      "firstName": "Zhuoying",
-      "lastName": "Yang",
-      "nickname": "Joying",
-      "image": "joying-yang-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/joying-yang",
-      "website": "",
-      "email": "joying@berkeley.edu"
-    },
-    "4d226a5f-e531-4e1d-ae04-514899ce77ab": {
-      "firstName": "Aadhiti",
-      "lastName": "Ghankota",
-      "nickname": "",
-      "image": "aadhiti-ghankota-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "aadhitighankota@berkeley.edu"
-    },
-    "5ce3b055-c0d4-4271-9b80-b6fe6552f372": {
-      "firstName": "Abigail",
-      "lastName": "Delgado",
-      "nickname": "Abby",
-      "image": "abigail-delgado-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/abigail-gee-delgado",
-      "website": "",
-      "email": "abigaildelgado@berkeley.edu"
-    },
-    "ac833a3e-a14d-4b23-a74d-eb4623ed1e8c": {
-      "firstName": "Abdul",
-      "lastName": "Karim",
-      "nickname": "",
-      "image": "abdul-karim-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/abdulfk",
-      "website": "https://www.linkedin.com/in/abdulfk",
-      "email": "afkarim@berkeley.edu"
-    },
-    "9ba14d40-22b6-43ef-9ef6-0e4fb4eeacae": {
-      "firstName": "Adam",
-      "lastName": "Goldstein",
-      "nickname": "",
-      "image": "adam-goldstein-0.jpg",
-      "roles": [
-        "[DeCal] Fullstack TA"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/adam-j-goldstein",
-      "website": "",
-      "email": "adamgoldstein@berkeley.edu"
-    },
-    "d4017cfc-cdaa-4bbd-bd61-f2f244d86543": {
-      "firstName": "Aditya",
-      "lastName": "Bhawal",
-      "nickname": "",
-      "image": "aditya-bhawal-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/adityabhawal/",
-      "website": "",
-      "email": "adbhawal@berkeley.edu"
-    },
-    "c0961cae-aa8e-4394-b1b4-473c2d1fbada": {
-      "firstName": "Albert",
-      "lastName": "Tian",
-      "nickname": "",
-      "image": "albert-tian-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/albert-tian/'",
-      "website": "https://www.github.com/albTian",
-      "email": ""
-    },
-    "adaef201-251e-41bf-a2b4-1650d6d53190": {
-      "firstName": "Alex",
-      "lastName": "Wu",
-      "nickname": "",
-      "image": "alex-wu-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "9c7492d3-1427-4266-a47a-0d9e0d1860a1": {
-      "firstName": "Alexis",
-      "lastName": "Kim",
-      "nickname": "",
-      "image": "alexis-kim-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/alexisskim",
-      "website": "https://www.alexiskim.me",
-      "email": "alexis-kim@berkeley.edu"
-    },
-    "2de29781-d7cb-4704-9553-2060c9ca08e3": {
-      "firstName": "Ali",
-      "lastName": "Ansari",
-      "nickname": "",
-      "image": "ali-ansari-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "3612494e-8cfd-438e-86ba-395cb4c75eb7": {
-      "firstName": "Alina",
-      "lastName": "Wang",
-      "nickname": "",
-      "image": "alina-wang-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/wangerful/",
-      "website": "",
-      "email": "alina.wang@berkeley.edu"
-    },
-    "fc960f74-8885-4b87-a274-e667c9d84cfb": {
-      "firstName": "Amish",
-      "lastName": "Gupta",
-      "nickname": "",
-      "image": "amish-gupta-0.jpg",
-      "roles": [
-        "[Exec] VP Bootcamp"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/amishgupta678/",
-      "website": "",
-      "email": "amish@berkeley.edu"
-    },
-    "a943e997-45a9-4ddc-91b0-e8a271407134": {
-      "firstName": "YeEun",
-      "lastName": "Kwon",
-      "nickname": "Amy",
-      "image": "yeeun-kwon-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/amy-kwon-928872142/",
-      "website": "",
-      "email": "amykwon@berkeley.edu"
-    },
-    "86f52874-4cfc-440a-8a7d-41d3db94341d": {
-      "firstName": "Amy",
-      "lastName": "Yang",
-      "nickname": "",
-      "image": "amy-yang-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/amy-yang-3632331bb/",
-      "website": "",
-      "email": "ayang24@berkeley.edu"
-    },
-    "0754da19-ed14-4d78-9f50-05d7c2853793": {
-      "firstName": "Andy",
-      "lastName": "Ngo",
-      "nickname": "",
-      "image": "andy-ngo-0.jpg",
-      "roles": [
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/andytngo",
-      "website": "",
-      "email": "ango9031@berkeley.edu"
-    },
-    "df16c537-485e-4308-acb5-e41d1a0d8fe6": {
-      "firstName": "Angel",
-      "lastName": "Mau",
-      "nickname": "",
-      "image": "angel-mau-0.jpg",
-      "roles": [
-        "[DeCal] Fullstack TA",
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin/angelmau",
-      "website": "",
-      "email": "angelmau@berkeley.edu"
-    },
-    "c8b0a7fb-ac17-4dc2-8a6b-d93d61eb0a02": {
-      "firstName": "Angela",
-      "lastName": "Li",
-      "nickname": "",
-      "image": "angela-li-0.jpg",
-      "roles": [
-        "[Exec] VP Internal"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/totalangela",
-      "website": "https://www.totalangela.github.io",
-      "email": "totalangela@berkeley.edu"
-    },
-    "51219a5c-d3de-4882-b83c-e6237df32805": {
-      "firstName": "Aniruddh",
-      "lastName": "Chennapragada",
-      "nickname": "Ani",
-      "image": "aniruddh-chennapragada-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/aniruddh-chennapragada-976278179/",
-      "website": "",
-      "email": "anic@berkeley.edu"
-    },
-    "ade7685c-44ca-4246-adfb-64a221b0de1d": {
-      "firstName": "Aniruddha",
-      "lastName": "Vangala",
-      "nickname": "Ani",
-      "image": "aniruddha-vangala-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "bc5371d8-a44f-47d5-a612-ed15f4be36c7": {
-      "firstName": "Anish",
-      "lastName": "Shanbhag",
-      "nickname": "",
-      "image": "anish-shanbhag-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/anish-shanbhag",
-      "website": "",
-      "email": "anish.shanbhag@berkeley.edu"
-    },
-    "69e5f054-f25c-4178-b603-3df6b9f0d4c9": {
-      "firstName": "Anjan",
-      "lastName": "Bharadwaj",
-      "nickname": "",
-      "image": "anjan-bharadwaj-0.jpg",
-      "roles": [
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/anjanbharadwaj/",
-      "website": "https://www.anjanbharadwaj.com/",
-      "email": "anjanb@berkeley.edu"
-    },
-    "896716c1-a5ca-438c-966e-569471013fb7": {
-      "firstName": "Anna",
-      "lastName": "Hagiwara",
-      "nickname": "",
-      "image": "anna-hagiwara-0.jpg",
-      "roles": [
-        "[Industry] Product Manager"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/anna-hagiwara",
-      "website": "",
-      "email": "ahagiwara@berkeley.edu"
-    },
-    "c6f637d9-8635-4b0d-a403-b6fb58e42ca1": {
-      "firstName": "Viansa",
-      "lastName": "Schmulbach",
-      "nickname": "Ansa",
-      "image": "viansa-schmulbach-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/viansa-s/",
-      "website": "",
-      "email": "ansa@berkeley.edu"
-    },
-    "6c2d9121-3ed0-4727-86a9-578a8a53809a": {
-      "firstName": "Artem",
-      "lastName": "Tkachuk",
-      "nickname": "Art",
-      "image": "artem-tkachuk-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/artemtkachuk/",
-      "website": "https://www.artemtkachuk.me",
-      "email": "atkachuk@berkeley.edu"
-    },
-    "80572244-f13f-4178-b47e-afe2efaf3201": {
-      "firstName": "Arushi",
-      "lastName": "Somani",
-      "nickname": "",
-      "image": "arushi-somani-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/arushisomani/",
-      "website": "http://amks.me",
-      "email": ""
-    },
-    "5e2634e3-d024-4ff4-a2cd-7b39a9045217": {
-      "firstName": "Ashley",
-      "lastName": "Zheng",
-      "nickname": "",
-      "image": "ashley-zheng-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ashley-zheng-5553151a8",
-      "website": "",
-      "email": "ashley.zheng@berkeley.edu"
-    },
-    "ac94e9af-b198-46ee-84b2-8290311ea447": {
-      "firstName": "Atharva",
-      "lastName": "Mehendale",
-      "nickname": "",
-      "image": "atharva-mehendale-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "a0094a63-3e77-4349-b049-f6e8af3c1079": {
-      "firstName": "Avinash",
-      "lastName": "Rao",
-      "nickname": "",
-      "image": "avinash-rao-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/avinashrao2002/",
-      "website": "",
-      "email": "avinashrao2002@berkeley.edu"
-    },
-    "f6ba3948-0169-4bca-b302-c1034b0e97e7": {
-      "firstName": "Ayaka",
-      "lastName": "Chou",
-      "nickname": "",
-      "image": "ayaka-chou-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ayaka-chou",
-      "website": "",
-      "email": "ayakachou@berkeley.edu"
-    },
-    "53eae74e-7614-44bf-afcc-8b75d3d9d664": {
-      "firstName": "Caelin",
-      "lastName": "Sutch",
-      "nickname": "",
-      "image": "caelin-sutch-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/caelinsutch/",
-      "website": "https://www.caelinsutch.com/",
-      "email": ""
-    },
-    "73421f3d-6a2c-4d34-b546-653d8770d9a8": {
-      "firstName": "Chengyin",
-      "lastName": "Li",
-      "nickname": "Cass",
-      "image": "chengyin-li-0.jpg",
-      "roles": [
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/chengyin-li/",
-      "website": "https://www.cassli.webflow.io",
-      "email": "chengyin@berkeley.edu"
-    },
-    "a7599b05-73e2-445e-b6f0-6038ae23adc3": {
-      "firstName": "Chanel",
-      "lastName": "Zeng",
-      "nickname": "",
-      "image": "chanel-zeng-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/chanelzeng/",
-      "website": "",
-      "email": "zengchanel@berkeley.edu"
-    },
-    "eb1bfb81-085b-4484-9ac1-47cdf35cf1e2": {
-      "firstName": "Cindy",
-      "lastName": "Liu",
-      "nickname": "",
-      "image": "cindy-liu-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/cindy-c-liu/",
-      "website": "",
-      "email": "liu.cindy@berkeley.edu"
-    },
-    "3755d9fd-8172-4ccf-8660-f56f7671aa6f": {
-      "firstName": "Danielle",
-      "lastName": "Wong",
-      "nickname": "",
-      "image": "danielle-wong-0.jpg",
-      "roles": [
-        "[DeCal] Design TA",
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/danielle-n-wong/",
-      "website": "",
-      "email": "daniellenwong@berkeley.edu"
-    },
-    "4780cb60-ee88-4632-95f1-b3dba6091e93": {
-      "firstName": "Deniz",
-      "lastName": "Demirtas",
-      "nickname": "DD",
-      "image": "deniz-demirtas-0.jpg",
-      "roles": [
-        "[Industry] Product Manager",
-        "[External Team] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/deniz-demirtas-827416225/",
-      "website": "",
-      "email": "denizdemirtas@berkeley.edu"
-    },
-    "66c09073-c547-4def-8e7e-b44db6a81fe3": {
-      "firstName": "Dhruv",
-      "lastName": "Vaish",
-      "nickname": "",
-      "image": "dhruv-vaish-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/dhruv-vaish",
-      "website": "",
-      "email": "dvaish@berkeley.edu"
-    },
-    "7525f7e9-2971-436f-8d56-8a4a4f67b776": {
-      "firstName": "Dominic",
-      "lastName": "deBettencourt",
-      "nickname": "",
-      "image": "dominic-debettencourt-0.jpg",
-      "roles": [
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ddebettencourt",
-      "website": "https://www.dominicd.me",
-      "email": "dominicd@berkeley.edu"
-    },
-    "a03bd558-007f-4ff4-ba50-cad6537f9745": {
-      "firstName": "Dora",
-      "lastName": "Fok",
-      "nickname": "",
-      "image": "dora-fok-0.jpg",
-      "roles": [
-        "[Decal] Course Staff"
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "dorafok@berkeley.edu"
-    },
-    "1ab73c37-9c8e-4987-9760-8ab349f55bff": {
-      "firstName": "Edward",
-      "lastName": "Luna",
-      "nickname": "",
-      "image": "edward-luna-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/edwardlunacs/",
-      "website": "",
-      "email": "mister.luna@berkeley.edu"
-    },
-    "6ffd9879-795b-4dc9-b55a-ac5d21127da8": {
-      "firstName": "Emir",
-      "lastName": "Karabeg",
-      "nickname": "",
-      "image": "emir-karabeg-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "emirkarabeg@berkeley.edu"
-    },
-    "a220ad05-76b8-4faf-ac1b-487b8f85730d": {
-      "firstName": "Ervin",
-      "lastName": "Baccay",
-      "nickname": "",
-      "image": "ervin-baccay-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "73359749-5020-4f30-81ab-9912de0a2e1f": {
-      "firstName": "Ethan",
-      "lastName": "Pang",
-      "nickname": "",
-      "image": "ethan-pang-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ethanpang5/",
-      "website": "https://www.ethanpang5.github.io/",
-      "email": "ethanp5@berkeley.edu"
-    },
-    "82bb408a-257e-472b-bc9d-6280172e7b9a": {
-      "firstName": "Ethan",
-      "lastName": "Wu",
-      "nickname": "",
-      "image": "ethan-wu-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ethan-wu/",
-      "website": "",
-      "email": ""
-    },
-    "c6229d15-dd4f-435e-a041-0fb7b91e313f": {
-      "firstName": "Evan",
-      "lastName": "Quan",
-      "nickname": "",
-      "image": "evan-quan-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/evqu",
-      "website": "https://www.evanq.studio",
-      "email": "evan.quan@berkeley.edu"
-    },
-    "49108687-3911-447d-a9a6-feb1ef963b02": {
-      "firstName": "Ezra",
-      "lastName": "Apple",
-      "nickname": "",
-      "image": "ezra-apple-0.jpg",
-      "roles": [
-        "[DeCal] Fullstack TA"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ezraapple/",
-      "website": "",
-      "email": "ezraapple@berkeley.edu"
-    },
-    "72635c88-8c7a-4640-a53b-fbe4fe58520e": {
-      "firstName": "Felix",
-      "lastName": "Zhu",
-      "nickname": "",
-      "image": "felix-zhu-0.jpg",
-      "roles": [
-        "[Decal] Course Staff"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/felixzhu555",
-      "website": "",
-      "email": "felixzhu@berkeley.edu"
-    },
-    "eec5f62f-14c3-41e4-a433-e991181a80a0": {
-      "firstName": "Gabriel",
-      "lastName": "Meng",
-      "nickname": "Gabe",
-      "image": "gabriel-meng-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "7845f3e1-5d6c-44fd-b3f5-ed58604801f6": {
-      "firstName": "Genna",
-      "lastName": "Gams",
-      "nickname": "",
-      "image": "genna-gams-0.jpg",
-      "roles": [
-        "[Exec] VP Bootcamp"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/genna-gams",
-      "website": "https://www.ggams2020.github.io/site",
-      "email": "ggams@berkeley.edu"
-    },
-    "298fe1e6-7d03-47f8-983e-4e3f784891da": {
-      "firstName": "Hector",
-      "lastName": "Ramos",
-      "nickname": "",
-      "image": "hector-ramos-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/hector-ramos-/",
-      "website": "",
-      "email": ""
-    },
-    "7210ed39-c717-4c91-8129-683b3fae716a": {
-      "firstName": "Henric",
-      "lastName": "Zhang",
-      "nickname": "",
-      "image": "henric-zhang-0.jpg",
-      "roles": [
-        "[Decal] Course Staff"
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "henriczhang@berkeley.edu"
-    },
-    "ddbcd94f-bd16-46f4-a79f-9755404887c2": {
-      "firstName": "Henry",
-      "lastName": "Chiu",
-      "nickname": "",
-      "image": "henry-chiu-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/henryychiu/",
-      "website": "http://henrychiu.me",
-      "email": ""
-    },
-    "4b1cf378-b6ff-4770-b3ea-1ce88f79437a": {
-      "firstName": "Hunter",
-      "lastName": "Harling",
-      "nickname": "",
-      "image": "hunter-harling-0.jpg",
-      "roles": [
-        "[Industry] Product Manager"
-      ],
-      "linkedIn": "https://www.linkedin.com/mwlite/in/hunterharling",
-      "website": "",
-      "email": "hunterharling@berkeley.edu"
-    },
-    "0524094b-acf6-433b-949c-beba26c6ea12": {
-      "firstName": "Ikshita",
-      "lastName": "Puri",
-      "nickname": "Iki",
-      "image": "ikshita-puri-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/mwlite/in/ikshita-puri-3bb3251a3",
-      "website": "",
-      "email": "ikshitapuri@berkeley.edu"
-    },
-    "4e6651d7-a092-4bde-bafa-94f6d6e77c36": {
-      "firstName": "Isaac",
-      "lastName": "Ong",
-      "nickname": "",
-      "image": "isaac-ong-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/isaacong",
-      "website": "https://www.isaacong.me",
-      "email": "isaacong@berkeley.edu"
-    },
-    "eb981be4-8a79-44e8-a6f2-3005449bc782": {
-      "firstName": "Isabel",
-      "lastName": "Zheng",
-      "nickname": "",
-      "image": "isabel-zheng-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "izheng@berkeley.edu"
-    },
-    "4696069c-d460-46a1-ada4-7a377b99d0fa": {
-      "firstName": "Ishan",
-      "lastName": "Amin",
-      "nickname": "",
-      "image": "ishan-amin-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ishan-amin-522027174/  ",
-      "website": "",
-      "email": "ishanthewizard@berkeley.edu"
-    },
-    "46f3d9e3-3e41-4c56-8afc-ec036b7468ac": {
-      "firstName": "Izzie",
-      "lastName": "Lau",
-      "nickname": "",
-      "image": "izzie-lau-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "6c00ca9c-422e-45f2-a500-e7eb082d56a7": {
-      "firstName": "Jackson",
-      "lastName": "Wong",
-      "nickname": "",
-      "image": "jackson-wong-0.jpg",
-      "roles": [
-        "[Industry] Product Manager",
-        "[External Team] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jacksontwong/",
-      "website": "",
-      "email": "wongjt@berkeley.edu"
-    },
-    "d5d4dc57-8acd-44fa-81dc-db21e93169e9": {
-      "firstName": "James",
-      "lastName": "Shin",
-      "nickname": "",
-      "image": "james-shin-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "fb255640-3679-41cc-bfea-cf3c6f6663c3": {
-      "firstName": "Jasmine",
-      "lastName": "Chen",
-      "nickname": "",
-      "image": "jasmine-chen-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jasminewschen/",
-      "website": "https://www.jasminewschen.com/",
-      "email": ""
-    },
-    "59b81e5f-d02f-40bf-afe8-a47106fb4572": {
-      "firstName": "Jason",
-      "lastName": "Duong",
-      "nickname": "",
-      "image": "jason-duong-0.jpg",
-      "roles": [
-        "[Industry] Frontend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jasonduongg/",
-      "website": "https://www.jasonduongg.github.io/Personal/",
-      "email": "jasonduong@berkeley.edu"
-    },
-    "4feb2062-a3c3-4f58-a89e-23567bbe3799": {
-      "firstName": "Jazem",
-      "lastName": "Siddiqui",
-      "nickname": "",
-      "image": "jazem-siddiqui-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "6c1e6017-ea43-4d22-9853-22545259dcf7": {
-      "firstName": "Jeffrey",
-      "lastName": "Huang",
-      "nickname": "",
-      "image": "jeffrey-huang-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jeffreyhuang2002/",
-      "website": "https://www.jefforee.github.io/jeffreyhuang/",
-      "email": "jeff0827@berkeley.edu"
-    },
-    "79d1f3eb-a19b-4464-a5b3-7a79fbda8ed6": {
-      "firstName": "Jiahuang",
-      "lastName": "Weng",
-      "nickname": "Jenny",
-      "image": "jiahuang-weng-0.jpg",
-      "roles": [
-        "[Exec] VP Design"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jennyweng",
-      "website": "https://www.jennyweng.com",
-      "email": "jennyweng@berkeley.edu"
-    },
-    "558ca635-bd00-414d-9ff2-8949d05bb812": {
-      "firstName": "Jessica",
-      "lastName": "Hwang",
-      "nickname": "",
-      "image": "jessica-hwang-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "jyjhwang@berkeley.edu"
-    },
-    "3baea49c-b121-4226-88b0-c7e7a2cb1ce4": {
-      "firstName": "Jessica",
-      "lastName": "Wu",
-      "nickname": "",
-      "image": "jessica-wu-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "9e127f12-079b-4c6a-8c83-6e0f4509411d": {
-      "firstName": "Jiro",
-      "lastName": "Noor",
-      "nickname": "",
-      "image": "jiro-noor-0.jpg",
-      "roles": [
-        "[Decal] Course Staff",
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jiro-ryzard-noor/",
-      "website": "",
-      "email": "jiro.noor@berkeley.edu"
-    },
-    "baf370ea-a4db-4a51-879f-95fee9b62858": {
-      "firstName": "Jonathan",
-      "lastName": "Sun",
-      "nickname": "Jon",
-      "image": "jonathan-sun-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "jsun63@berkeley.edu"
-    },
-    "442a204d-4dea-4599-b990-f4758aa1edd5": {
-      "firstName": "Joshua",
-      "lastName": "Tsai",
-      "nickname": "Josh",
-      "image": "joshua-tsai-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "jtsai24@berkeley.edu"
-    },
-    "6068b9ec-68d0-4571-b9c1-964652e5c069": {
-      "firstName": "Zhuoying",
-      "lastName": "Yang",
-      "nickname": "Joying",
-      "image": "zhuoying-yang-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/joying-yang",
-      "website": "",
-      "email": "joying@berkeley.edu"
-    },
-    "610b08dc-220a-432f-8134-791b2d6d3016": {
-      "firstName": "SuHyang",
-      "lastName": "Kim",
-      "nickname": "Juliet",
-      "image": "suhyang-kim-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/suhyangkim",
-      "website": "",
-      "email": "suhyang@berkeley.edu"
-    },
-    "a4388adf-8bc7-4ed4-8f73-c7eaa66ebada": {
-      "firstName": "Kabir",
-      "lastName": "Shah",
-      "nickname": "",
-      "image": "kabir-shah-0.jpg",
-      "roles": [
-        "[Exec] VP External"
-      ],
-      "linkedIn": "http://linkedin.com/in/kabir-shah",
-      "website": "https://www.kabir.sh",
-      "email": "kabirshah@berkeley.edu"
-    },
-    "4b699222-f2fc-48bc-8da4-9f888e22963a": {
-      "firstName": "Kartik",
-      "lastName": "Aggarwal",
-      "nickname": "",
-      "image": "kartik-aggarwal-0.jpg",
-      "roles": [
-        "[External Team] Member",
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/-kartikaggarwal/",
-      "website": "",
-      "email": "kartikaggarwal@berkeley.edu"
-    },
-    "db3d5e1b-eb28-4d27-bcc6-64d7104a25d2": {
-      "firstName": "Kenzie",
-      "lastName": "Tee",
-      "nickname": "",
-      "image": "kenzie-tee-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "53e78c57-a408-4bc8-97c8-078b7034b4ca": {
-      "firstName": "Kimberley",
-      "lastName": "Fan",
-      "nickname": "",
-      "image": "kimberley-fan-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/kimberleyfan",
-      "website": "",
-      "email": "kimberley.fan123@berkeley.edu"
-    },
-    "1e5f67d7-60bc-4333-afaa-dedda4f98462": {
-      "firstName": "Krish",
-      "lastName": "Soni",
-      "nickname": "",
-      "image": "krish-soni-0.jpg",
-      "roles": [
-        "[Decal] Course Staff"
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "krish_soni@berkeley.edu"
-    },
-    "440c2931-8cea-4785-8d63-a001002a2f7e": {
-      "firstName": "Kush",
-      "lastName": "Garg",
-      "nickname": "Kush",
-      "image": "kush-garg-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/kushg02/",
-      "website": "https://www.kushgarg.com",
-      "email": "kush.garg@berkeley.edu"
-    },
-    "222e2331-14c9-40ad-869e-2f7a63a7dad1": {
-      "firstName": "Kyle",
-      "lastName": "Kuwahara",
-      "nickname": "",
-      "image": "kyle-kuwahara-0.jpg",
-      "roles": [
-        "[MET] Member",
-        "[Industry] Backend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ kylekuwahara",
-      "website": "",
-      "email": "kylekuwahara@berkeley.edu"
-    },
-    "c86adc9e-c690-40b2-aafe-b4a06ce109cc": {
-      "firstName": "Laura",
-      "lastName": "Pei",
-      "nickname": "",
-      "image": "laura-pei-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/laurapei/",
-      "website": "",
-      "email": ""
-    },
-    "c70a8961-2d40-41d5-975a-fad76770ed2d": {
-      "firstName": "Lauren",
-      "lastName": "Kim",
-      "nickname": "",
-      "image": "lauren-kim-0.jpg",
-      "roles": [
-        "[Exec] VP Bootcamp"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/laurennayunkim/",
-      "website": "https://www.laurennayunkim.com",
-      "email": "laurennayunkim@berkeley.edu"
-    },
-    "05b7c03e-1565-4b47-8860-aabbf61b86d0": {
-      "firstName": "Leah",
-      "lastName": "Hong",
-      "nickname": "",
-      "image": "leah-hong-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "leah6519@berkeley.edu"
-    },
-    "10821703-9625-4e9c-b72b-26012d306c8e": {
-      "firstName": "Leen",
-      "lastName": "Armoush",
-      "nickname": "",
-      "image": "leen-armoush-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/leen-armoush/",
-      "website": "",
-      "email": "Larmoush@berkeley.edu"
-    },
-    "d3eeb566-8619-4995-9347-a86211e8e667": {
-      "firstName": "Lizzie",
-      "lastName": "Lau",
-      "nickname": "",
-      "image": "lizzie-lau-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/lizzie-lau/",
-      "website": "",
-      "email": ""
-    },
-    "6982d5ab-fedc-4cb9-83e4-6dcb44c26f5f": {
-      "firstName": "ManuelDeJesus",
-      "lastName": "Muñoz",
-      "nickname": "Manuel",
-      "image": "manueldejesus-muñoz-0.jpg",
-      "roles": [
-        "[Industry] Product Manager",
-        "[Decal] Course Staff"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/manuel-munoz-968582236",
-      "website": "https://www.manuelmunoz.me/",
-      "email": "mannymnz@berkeley.edu"
-    },
-    "9a3c80cf-52e6-4779-8e7b-42d49bb75b93": {
-      "firstName": "Marin",
-      "lastName": "Lau",
-      "nickname": "Marin",
-      "image": "marin-lau-0.jpg",
-      "roles": [
-        "[Industry] Product Manager"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/marin-lau-42b2bb255/",
-      "website": "https://www.sites.google.com/berkeley.edu/marinlau/home",
-      "email": "marinlau@berkeley.edu"
-    },
-    "88c77a7a-ab90-4bc2-99a4-5e08a85934d5": {
-      "firstName": "Matthew",
-      "lastName": "Robillard",
-      "nickname": "Matt",
-      "image": "matthew-robillard-0.jpg",
-      "roles": [
-        "[DeCal] Fullstack TA",
-        "[Exec] VP Education"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/matthew-robillard-6723b8252/",
-      "website": "https://www.mjrobillard.com",
-      "email": "Robillard.matthew22@berkeley.edu"
-    },
-    "85e7f551-a540-4aee-88c2-5345c207473e": {
-      "firstName": "Matthew",
-      "lastName": "Lee",
-      "nickname": "",
-      "image": "matthew-lee-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "a34fe205-9a95-48d0-99b1-4d19ef5d53b3": {
-      "firstName": "Max",
-      "lastName": "Ye",
-      "nickname": "",
-      "image": "max-ye-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/maxsye/",
-      "website": "https://www.maxye.net",
-      "email": "maxye@berkeley.edu"
-    },
-    "2a7db6e4-e70e-445f-9499-70b7b378d506": {
-      "firstName": "Meiqi",
-      "lastName": "Liang",
-      "nickname": "",
-      "image": "meiqi-liang-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/meiqi-liang/",
-      "website": "",
-      "email": "mliang21@berkeley.edu"
-    },
-    "ca549133-27d2-4b2b-9854-a43c116e69ab": {
-      "firstName": "Melody",
-      "lastName": "Yan",
-      "nickname": "",
-      "image": "melody-yan-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "8a12c56a-bcfc-47f3-81e2-cba380809098": {
-      "firstName": "Michelle",
-      "lastName": "Wang",
-      "nickname": "",
-      "image": "michelle-wang-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/mwlite/in/michelle-wang-3aa12a227 ",
-      "website": "",
-      "email": "michelle.wang@berkeley.edu"
-    },
-    "ba088b41-168c-4297-b7a3-3ef727c4dbbd": {
-      "firstName": "Minh",
-      "lastName": "Nguyen",
-      "nickname": "",
-      "image": "minh-nguyen-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/minhnguy19",
-      "website": "https://www.minhnguy19.github.io/",
-      "email": "minhnguy19@berkeley.edu"
-    },
-    "af54894d-95f6-49db-a66d-9165ef6bd916": {
-      "firstName": "Naomi",
-      "lastName": "Manuel",
-      "nickname": "",
-      "image": "naomi-manuel-0.jpg",
-      "roles": [
-        "[Exec] VP Marketing"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/naomi-m-899a011a5",
-      "website": "",
-      "email": "naomimanuel@berkeley.edu"
-    },
-    "9ef16f10-1124-4e00-8f61-0148e84c31a9": {
-      "firstName": "Natalia",
-      "lastName": "Shamoon",
-      "nickname": "",
-      "image": "natalia-shamoon-0.jpg",
-      "roles": [
-        "[Exec] VP External"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/natalia-shamoon",
-      "website": "",
-      "email": "nataliashamoon@berkeley.edu"
-    },
-    "076638e3-0122-4029-be9a-653bcda48532": {
-      "firstName": "Neha",
-      "lastName": "Haq",
-      "nickname": "",
-      "image": "neha-haq-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "cd5632ff-3c85-49ce-b2d7-8966a9385441": {
-      "firstName": "Neil",
-      "lastName": "Kamdar",
-      "nickname": "",
-      "image": "neil-kamdar-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/neil-kamdar/",
-      "website": "",
-      "email": ""
-    },
-    "04a58363-aef1-418b-9e7d-c58ea03587ef": {
-      "firstName": "Nemerjit",
-      "lastName": "Singh",
-      "nickname": "Nemer",
-      "image": "nemerjit-singh-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/nemerjit-singh",
-      "website": "",
-      "email": "nemerjitsingh@berkeley.edu"
-    },
-    "117360ea-7be5-4ebe-be73-bee85d3ece70": {
-      "firstName": "Nerissa",
-      "lastName": "Hsieh",
-      "nickname": "",
-      "image": "nerissa-hsieh-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/nerissahsieh/",
-      "website": "https://www.nerissahsieh.com/",
-      "email": ""
-    },
-    "9a3868a5-1d3f-457c-a2df-4af4a481eaa9": {
-      "firstName": "Nicholas",
-      "lastName": "Shin",
-      "nickname": "Nick",
-      "image": "nicholas-shin-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer",
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/nicholas-shin-b998651b2",
-      "website": "",
-      "email": "nshin02@berkeley.edu"
-    },
-    "9e3ddcc1-589a-4c11-84f5-4d412dba7561": {
-      "firstName": "Nicholas",
-      "lastName": "Galin",
-      "nickname": "Nico",
-      "image": "nicholas-galin-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/nicholas-galin/",
-      "website": "https://www.nicogalin.com",
-      "email": "nicholas.galin@berkeley.edu"
-    },
-    "d2dc5c25-c487-413f-abac-bd213fd8e818": {
-      "firstName": "Nitya",
-      "lastName": "Krishnakumar",
-      "nickname": "",
-      "image": "nitya-krishnakumar-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/nitya-krish/",
-      "website": "",
-      "email": "nkrishnakumar@berkeley.edu"
-    },
-    "81a788a1-76db-4ae5-a5ad-ac5467986cf5": {
-      "firstName": "Prabhas",
-      "lastName": "Kurapati",
-      "nickname": "",
-      "image": "prabhas-kurapati-0.jpg",
-      "roles": [
-        "[Decal] Course Staff"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/prabhask/",
-      "website": "",
-      "email": "prabhask@berkeley.edu"
-    },
-    "81e0de5a-acbc-401b-9b93-cade2f0613df": {
-      "firstName": "Pranav",
-      "lastName": "Prasad",
-      "nickname": "",
-      "image": "pranav-prasad-0.jpg",
-      "roles": [
-        "[Design Team] Member",
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/pranav-prasad-476b24271",
-      "website": "",
-      "email": "pranav.prasad@berkeley.edu"
-    },
-    "25fadbd8-58fd-4d2f-865a-c54315057271": {
-      "firstName": "Qianyi",
-      "lastName": "Chen",
-      "nickname": "",
-      "image": "qianyi-chen-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "9f26f5f1-6022-4a6b-91f4-843f3664f03a": {
-      "firstName": "Rachel",
-      "lastName": "Yun",
-      "nickname": "Rachel",
-      "image": "rachel-yun-0.jpg",
-      "roles": [
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "ryun24@berkeley.edu"
-    },
-    "ef396d47-47d3-4b20-9f06-00ec7c5f8985": {
-      "firstName": "Rachel",
-      "lastName": "Ng",
-      "nickname": "",
-      "image": "rachel-ng-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "40be67b6-dc6d-4957-84a2-afad9aa3292d": {
-      "firstName": "Rachel",
-      "lastName": "Quach",
-      "nickname": "",
-      "image": "rachel-quach-0.jpg",
-      "roles": [
-        "[Industry] Frontend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/rachelquach1/",
-      "website": "",
-      "email": "racheljquach@berkeley.edu"
-    },
-    "511f96e6-3317-4964-ad16-b55e2a775920": {
-      "firstName": "Raga",
-      "lastName": "Kavari",
-      "nickname": "",
-      "image": "raga-kavari-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "92aa9450-8d7b-4b2d-92b6-758bf9c521cf": {
-      "firstName": "Cheng-Jui",
-      "lastName": "Wan",
-      "nickname": "Ray",
-      "image": "cheng-jui-wan-0.jpg",
-      "roles": [
-        "[Decal] Course Staff"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ray-wan-23a9121ba",
-      "website": "",
-      "email": "raywan@berkeley.edu"
-    },
-    "15b76854-5f7c-454f-b9c5-7881e586ebf7": {
-      "firstName": "YoonWha",
-      "lastName": "Won",
-      "nickname": "Rebecca",
-      "image": "yoonwha-won-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "wyh402@berkeley.edu"
-    },
-    "d7c7902b-805d-4c5c-a354-2a439c8d7740": {
-      "firstName": "Rex",
-      "lastName": "Liu",
-      "nickname": "Rex",
-      "image": "rex-liu-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/rexliu3",
-      "website": "https://www.rexliu.dev",
-      "email": "rexliu3@berkeley.edu"
-    },
-    "54248fea-4cfa-48af-a864-abaeac791921": {
-      "firstName": "Richa",
-      "lastName": "Jos",
-      "nickname": "",
-      "image": "richa-jos-0.jpg",
-      "roles": [
-        "[Industry] Fullstack Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/richa-jos/",
-      "website": "",
-      "email": "richajos34@berkeley.edu"
-    },
-    "c5f18918-b3a8-44da-8b19-badc8228bfe5": {
-      "firstName": "Richard",
-      "lastName": "Xue",
-      "nickname": "",
-      "image": "richard-xue-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "a447c368-347d-418e-9cf8-9a914b5ef435": {
-      "firstName": "Jerrick",
-      "lastName": "Zhou",
-      "nickname": "Rick",
-      "image": "jerrick-zhou-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.ttps://www.linkedin.com/in/rick-zhou-a35208169",
-      "website": "",
-      "email": ""
-    },
-    "a82cba82-3b67-4352-aaa6-d2fd66e5fdb3": {
-      "firstName": "Ridge",
-      "lastName": "Huang",
-      "nickname": "",
-      "image": "ridge-huang-0.jpg",
-      "roles": [
-        "[Industry] Frontend Developer",
-        "[Industry] Backend Developer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ridge-huang/",
-      "website": "",
-      "email": "ridgeh5@berkeley.edu"
-    },
-    "1c16520c-7742-43bf-9b7c-01d924d9e8e1": {
-      "firstName": "Rishi",
-      "lastName": "Khare",
-      "nickname": "",
-      "image": "rishi-khare-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/rishi-khare/",
-      "website": "",
-      "email": "rishi.khare@berkeley.edu"
-    },
-    "57201d4f-2d06-4f46-b1b1-b9c723772e9b": {
-      "firstName": "Rohan",
-      "lastName": "Taneja",
-      "nickname": "",
-      "image": "rohan-taneja-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/rohan-taneja/",
-      "website": "https://www.rtaneja.com",
-      "email": "rohan.taneja@berkeley.edu"
-    },
-    "707e917a-3811-492d-a942-2464c06e8731": {
-      "firstName": "Ryan",
-      "lastName": "Huang",
-      "nickname": "",
-      "image": "ryan-huang-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/ryanhuang36/",
-      "website": "",
-      "email": "ryanhuang@berkeley.edu"
-    },
-    "7da7b5ee-b323-4f79-8330-7af5f27cea43": {
-      "firstName": "Sajal",
-      "lastName": "Ravish",
-      "nickname": "",
-      "image": "sajal-ravish-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sajalr",
-      "website": "",
-      "email": "sajal@berkeley.edu"
-    },
-    "28f50c07-d322-43d9-a665-e01ca8ffd10d": {
-      "firstName": "Saketh",
-      "lastName": "Panchumarthy",
-      "nickname": "",
-      "image": "saketh-panchumarthy-0.jpg",
-      "roles": [
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sakethpanchumarthy",
-      "website": "",
-      "email": "saketh@berkeley.edu"
-    },
-    "edcd0be3-f1f5-43a5-9fa4-3a1662f9cd9b": {
-      "firstName": "Samarth",
-      "lastName": "Goel",
-      "nickname": "",
-      "image": "samarth-goel-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/samarth-goel1",
-      "website": "https://www.samarthgoel.com",
-      "email": "sgoel9@berkeley.edu"
-    },
-    "2a75ca48-c80e-4dca-bd9b-fc9bdd51b07c": {
-      "firstName": "Sanjeev",
-      "lastName": "Thurgam",
-      "nickname": "",
-      "image": "sanjeev-thurgam-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sanjeev-thurgam-1188b0196/",
-      "website": "",
-      "email": "sanjeevt@berkeley.edu"
-    },
-    "662b9cca-a3f8-4090-9341-375ff7a6c11e": {
-      "firstName": "Sarah",
-      "lastName": "Suen",
-      "nickname": "",
-      "image": "sarah-suen-0.jpg",
-      "roles": [
-        "[Design Team] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sarahsuen/",
-      "website": "",
-      "email": "sarahsuen@berkeley.edu"
-    },
-    "134fe10b-473c-4efe-a8ff-507f69457d3d": {
-      "firstName": "Sebastiaan",
-      "lastName": "Szafir",
-      "nickname": "Sebi",
-      "image": "sebastiaan-szafir-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sebastiaan-szafir-fridman/",
-      "website": "https://www.sebiszafir.com",
-      "email": "sebastiaan@berkeley.edu"
-    },
-    "10b9d8d0-a1dc-437b-8a65-2c0b20cae570": {
-      "firstName": "Seeun",
-      "lastName": "Ahn",
-      "nickname": "",
-      "image": "seeun-ahn-0.jpg",
-      "roles": [
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "http://www.linkedin.com/in/seeunahn",
-      "website": "",
-      "email": "seeun@berkeley.edu"
-    },
-    "adc8d056-3752-462e-8773-fd6b7b445603": {
-      "firstName": "Siddhant",
-      "lastName": "Sharma",
-      "nickname": "Sid",
-      "image": "siddhant-sharma-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sharma-sid/",
-      "website": "https://www.siddhantsharma.me",
-      "email": "siddhantsharma@berkeley.edu"
-    },
-    "0b62b63d-f681-40bb-a071-f91b9ebd0fe9": {
-      "firstName": "Sinead",
-      "lastName": "McCaffery",
-      "nickname": "",
-      "image": "sinead-mccaffery-0.jpg",
-      "roles": [
-        "[Industry] Product Manager"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sineadmccaffery",
-      "website": "",
-      "email": "sineadmccaffery@berkeley.edu"
-    },
-    "d0a50d2c-eb74-4642-aaa5-ca48e8d7b08b": {
-      "firstName": "ChloeSommer",
-      "lastName": "Santilla",
-      "nickname": "Sommie",
-      "image": "chloesommer-santilla-0.jpg",
-      "roles": [
-        "[MET] Member",
-        "[Industry] Product Designer"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/chloesantilla",
-      "website": "",
-      "email": "chlosomsantilla@berkeley.edu"
-    },
-    "55c50072-34cc-4f1f-9130-e17ee209f1e2": {
-      "firstName": "Sooyeon",
-      "lastName": "Oh",
-      "nickname": "",
-      "image": "sooyeon-oh-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sooyeonoh",
-      "website": "",
-      "email": ""
-    },
-    "71387d73-c207-4047-8a67-ed294673b005": {
-      "firstName": "Sophia",
-      "lastName": "Guo",
-      "nickname": "",
-      "image": "sophia-guo-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sophiaaguo/",
-      "website": "https://www.sophiaguo.com",
-      "email": "sophia_guo555@berkeley.edu"
-    },
-    "576bc117-e2a0-4973-871e-8a482f75ad20": {
-      "firstName": "Sophia",
-      "lastName": "Sharifi",
-      "nickname": "",
-      "image": "sophia-sharifi-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "736cdc04-ddf3-403f-b079-89badd9e6662": {
-      "firstName": "Sophia",
-      "lastName": "Sung",
-      "nickname": "",
-      "image": "sophia-sung-0.jpg",
-      "roles": [
-        "[Industry] Frontend Developer",
-        "[MET] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/sophia-sung-0948b6212",
-      "website": "",
-      "email": "sophiasung@berkeley.edu"
-    },
-    "f1c3a0ca-815b-4b9c-b0b8-06295ef77964": {
-      "firstName": "Stephen",
-      "lastName": "Krider",
-      "nickname": "",
-      "image": "stephen-krider-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/skrider/",
-      "website": "",
-      "email": ""
-    },
-    "546c2649-e7b3-42be-a455-4744b322c4cc": {
-      "firstName": "Thien",
-      "lastName": "Le",
-      "nickname": "Thien",
-      "image": "thien-le-0.jpg",
-      "roles": [
-        "[External Team] Member"
-      ],
-      "linkedIn": "https://www.linkedin.com/mwlite/in/thien-le-91aab21aa",
-      "website": "",
-      "email": "thienle1942@berkeley.edu"
-    },
-    "44d841c2-658a-4fa2-9269-fd284a789d39": {
-      "firstName": "Tijmen",
-      "lastName": "Sep",
-      "nickname": "",
-      "image": "tijmen-sep-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/jasminewschen/",
-      "website": "",
-      "email": ""
-    },
-    "3dc1dfa2-180f-4a20-a5bd-cbc349935518": {
-      "firstName": "Trevor",
-      "lastName": "Trinh",
-      "nickname": "",
-      "image": "trevor-trinh-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/trevortrinh",
-      "website": "https://www.trevx.me",
-      "email": "trevortrinh@berkeley.edu"
-    },
-    "29b6c18c-5158-4551-aff2-20e5184449a7": {
-      "firstName": "Trisha",
-      "lastName": "Sathish",
-      "nickname": "",
-      "image": "trisha-sathish-0.jpg",
-      "roles": [
-        "[DeCal] Design TA",
-        "[Exec] President"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/trisha-sathish-36b9021b3/",
-      "website": "",
-      "email": "trishasathish@berkeley.edu"
-    },
-    "534da3de-e54e-49b7-b367-c851ba8ed217": {
-      "firstName": "Vaikundh",
-      "lastName": "Jagannathan",
-      "nickname": "V",
-      "image": "vaikundh-jagannathan-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/vaikundh",
-      "website": "",
-      "email": "vaikundh.j@berkeley.edu"
-    },
-    "cd594cfb-13b5-4c3c-8b3f-7ef77b666a1e": {
-      "firstName": "Vanessa",
-      "lastName": "Qiu",
-      "nickname": "",
-      "image": "vanessa-qiu-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "vanessaq@berkeley.edu"
-    },
-    "22c36c90-0a1d-4d48-a7af-5c843c272405": {
-      "firstName": "Venezia",
-      "lastName": "Hartanto",
-      "nickname": "Venezia",
-      "image": "venezia-hartanto-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "veneziangela@berkeley.edu"
-    },
-    "2ab80cc9-832e-49a2-8dae-b6c2e754df15": {
-      "firstName": "Victoria",
-      "lastName": "Li",
-      "nickname": "Vicky",
-      "image": "victoria-li-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/victoriayli/",
-      "website": "https://www.vickyli.me/",
-      "email": "victoria.li@berkeley.edu"
-    },
-    "8b2608a4-e969-491e-a448-20452b8f2a92": {
-      "firstName": "Victor",
-      "lastName": "Shen",
-      "nickname": "",
-      "image": "victor-shen-0.jpg",
-      "roles": [
-        "[Exec] VP Internal"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/vmshen",
-      "website": "https://www.vshen.me",
-      "email": "vshen@berkeley.edu"
-    },
-    "9dc70aae-005e-4f1b-bc0e-0e265b58b460": {
-      "firstName": "Vihan",
-      "lastName": "Bhargava",
-      "nickname": "",
-      "image": "vihan-bhargava-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/vihanb/",
-      "website": "https://www.vihan.org",
-      "email": "vihan@berkeley.edu"
-    },
-    "ea522c77-a420-48db-bbc0-449ac9325fbd": {
-      "firstName": "Vincent",
-      "lastName": "Lin",
-      "nickname": "",
-      "image": "vincent-lin-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/vincentlin83/",
-      "website": "",
-      "email": "vincentlin83@berkeley.edu"
-    },
-    "bbf7e0d1-7213-43a9-a143-62920a5e6c88": {
-      "firstName": "Violet",
-      "lastName": "Luo",
-      "nickname": "",
-      "image": "violet-luo-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "12f4b9dc-f816-4d81-9612-dc6a80728c69": {
-      "firstName": "Waleed",
-      "lastName": "Latif",
-      "nickname": "",
-      "image": "waleed-latif-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": ""
-    },
-    "8e038fdc-9085-4ea5-ad7b-e97bf4157d3d": {
-      "firstName": "William",
-      "lastName": "Henderson",
-      "nickname": "Will",
-      "image": "william-henderson-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "",
-      "website": "https://www.william-henderson.com",
-      "email": "william_henderson@berkeley.edu"
-    },
-    "0a33f294-4ccc-45fc-9d09-824f6b0a2ee2": {
-      "firstName": "William",
-      "lastName": "Louis",
-      "nickname": "Will",
-      "image": "william-louis-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/william-l-549860132/",
-      "website": "",
-      "email": "wlouis23@berkeley.edu"
-    },
-    "bbb9a87b-dae4-4b2e-bc3d-c0c583713922": {
-      "firstName": "Youngjun",
-      "lastName": "Seo",
-      "nickname": "",
-      "image": "youngjun-seo-0.jpg",
-      "roles": [
-        ""
-      ],
-      "linkedIn": "https://www.linkedin.com/in/youngjun-seo-9170a91a1",
-      "website": "",
-      "email": ""
-    },
-    "ea3a54c2-1215-43d3-b7d9-4c7ebc28e26c": {
-      "firstName": "Yu-Cian",
-      "lastName": "Liu",
-      "nickname": "Yucian",
-      "image": "yu-cian-liu-0.jpg",
-      "roles": [
-        "[DeCal] Design TA",
-        "[Exec] President"
-      ],
-      "linkedIn": "",
-      "website": "",
-      "email": "yucianliu@berkeley.edu"
-    },
-    "959083ed-c708-4e18-8468-25413bed1262": {
-      "firstName": "Yuto",
-      "lastName": "Nishida",
-      "nickname": "",
-      "image": "yuto-nishida-0.jpg",
-      "roles": [
-        "Senior Advisor"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/yuton",
-      "website": "https://www.yart.me/",
-      "email": "yuto@berkeley.edu"
-    },
-    "0a198b02-4710-47f3-9d6c-662b2045fefb": {
-      "firstName": "Zayna",
-      "lastName": "Lateef",
-      "nickname": "",
-      "image": "zayna-lateef-0.jpg",
-      "roles": [
-        "[DeCal] Fullstack TA",
-        "[Exec] VP Education"
-      ],
-      "linkedIn": "https://www.linkedin.com/in/zayna-lateef-942756216/ ",
-      "website": "",
-      "email": "zayna.lateef@berkeley.edu"
-    }
-  },
-  "teams": {
-    "seniorAdvisors": [
-      "cass-li",
-      "nick-shin",
-      "danielle-wong",
-      "henric-zhang",
-      "jenny-weng",
-      "joying-yang"
-    ],
-    "execMembers": [
-      "jackson-wong",
-      "sinead-mccaffery",
-      "amish-gupta",
-      "ezra-apple",
-      "trisha-sathish",
-      "kira-fukuda",
-      "matt-robillard",
-      "prabhas-kurapati",
-      "manuel-munoz",
-      "kabir-shah",
-      "kyle-kuwahara",
-      "sommie-santilla",
-      "naomi-manuel"
-    ],
-    "productManagers": [
-      "bhada-yun",
-      "yucian-liu",
-      "ashley-zheng",
-      "jason-duong"
-    ],
-    "industryMembers": [
-      "thien-le",
-      "david-pantoja",
-      "rohan-penmatcha",
-      "joel-cisneros",
-      "hunter-harling",
-      "avik-semantha",
-      "sophia-sung",
-      "quincy-thai",
-      "alex-chow",
-      "aurelia-wang",
-      "gisella-chan",
-      "janelle-xu",
-      "michelle-wang",
-      "nemer-singh",
-      "richa-jos",
-      "alejandro-beltran",
-      "arhum-khan",
-      "nathan-rouston",
-      "nicole-lee",
-      "krish-soni",
-      "lena-vuong",
-      "sophia-matthews",
-      "lauren-kim",
-      "marin-lau",
-      "rachel-yun",
-      "rachel-quach",
-      "rachel-cortez",
-      "charlie-kwon",
-      "tommy-nguyen",
-      "seeun-ahn",
-      "ridge-huang",
-      "warren-chang"
-    ],
-    "bootcampMembers": [
-      "amish-gupta",
-      "ezra-apple",
-      "trisha-sathish"
-    ],
-    "courseStaff": [
-      "krish-soni",
-      "seeun-ahn",
-      "zayna-lateef"
-    ],
-    "memExperienceTeam": [
-      "sophia-sung",
-      "hunter-harling",
-      "rachel-cortez",
-      "charlie-kwon",
-      "tommy-nguyen",
-      "seeun-ahn",
-      "ridge-huang",
-      "warren-chang",
-      "ashley-zheng",
-      "jason-duong",
-      "joel-cisneros"
-    ],
-    "designTeam": [
-      "sarah-suen",
-      "tommy-nguyen"
-    ],
-    "alumni": [
-      "5ce3b055-c0d4-4271-9b80-b6fe6552f372",
-      "ac833a3e-a14d-4b23-a74d-eb4623ed1e8c",
-      "d4017cfc-cdaa-4bbd-bd61-f2f244d86543",
-      "c0961cae-aa8e-4394-b1b4-473c2d1fbada",
-      "adaef201-251e-41bf-a2b4-1650d6d53190",
-      "9c7492d3-1427-4266-a47a-0d9e0d1860a1",
-      "2de29781-d7cb-4704-9553-2060c9ca08e3",
-      "3612494e-8cfd-438e-86ba-395cb4c75eb7",
-      "a943e997-45a9-4ddc-91b0-e8a271407134",
-      "86f52874-4cfc-440a-8a7d-41d3db94341d",
-      "51219a5c-d3de-4882-b83c-e6237df32805",
-      "ade7685c-44ca-4246-adfb-64a221b0de1d",
-      "c6f637d9-8635-4b0d-a403-b6fb58e42ca1",
-      "6c2d9121-3ed0-4727-86a9-578a8a53809a",
-      "80572244-f13f-4178-b47e-afe2efaf3201",
-      "ac94e9af-b198-46ee-84b2-8290311ea447",
-      "a0094a63-3e77-4349-b049-f6e8af3c1079",
-      "f6ba3948-0169-4bca-b302-c1034b0e97e7",
-      "53eae74e-7614-44bf-afcc-8b75d3d9d664",
-      "a7599b05-73e2-445e-b6f0-6038ae23adc3",
-      "eb1bfb81-085b-4484-9ac1-47cdf35cf1e2",
-      "1ab73c37-9c8e-4987-9760-8ab349f55bff",
-      "6ffd9879-795b-4dc9-b55a-ac5d21127da8",
-      "a220ad05-76b8-4faf-ac1b-487b8f85730d",
-      "73359749-5020-4f30-81ab-9912de0a2e1f",
-      "82bb408a-257e-472b-bc9d-6280172e7b9a",
-      "c6229d15-dd4f-435e-a041-0fb7b91e313f",
-      "eec5f62f-14c3-41e4-a433-e991181a80a0",
-      "298fe1e6-7d03-47f8-983e-4e3f784891da",
-      "ddbcd94f-bd16-46f4-a79f-9755404887c2",
-      "0524094b-acf6-433b-949c-beba26c6ea12",
-      "4e6651d7-a092-4bde-bafa-94f6d6e77c36",
-      "46f3d9e3-3e41-4c56-8afc-ec036b7468ac",
-      "d5d4dc57-8acd-44fa-81dc-db21e93169e9",
-      "fb255640-3679-41cc-bfea-cf3c6f6663c3",
-      "4feb2062-a3c3-4f58-a89e-23567bbe3799",
-      "6c1e6017-ea43-4d22-9853-22545259dcf7",
-      "558ca635-bd00-414d-9ff2-8949d05bb812",
-      "3baea49c-b121-4226-88b0-c7e7a2cb1ce4",
-      "baf370ea-a4db-4a51-879f-95fee9b62858",
-      "442a204d-4dea-4599-b990-f4758aa1edd5",
-      "610b08dc-220a-432f-8134-791b2d6d3016",
-      "db3d5e1b-eb28-4d27-bcc6-64d7104a25d2",
-      "440c2931-8cea-4785-8d63-a001002a2f7e",
-      "c86adc9e-c690-40b2-aafe-b4a06ce109cc",
-      "05b7c03e-1565-4b47-8860-aabbf61b86d0",
-      "10821703-9625-4e9c-b72b-26012d306c8e",
-      "d3eeb566-8619-4995-9347-a86211e8e667",
-      "85e7f551-a540-4aee-88c2-5345c207473e",
-      "a34fe205-9a95-48d0-99b1-4d19ef5d53b3",
-      "2a7db6e4-e70e-445f-9499-70b7b378d506",
-      "ca549133-27d2-4b2b-9854-a43c116e69ab",
-      "8a12c56a-bcfc-47f3-81e2-cba380809098",
-      "ba088b41-168c-4297-b7a3-3ef727c4dbbd",
-      "076638e3-0122-4029-be9a-653bcda48532",
-      "cd5632ff-3c85-49ce-b2d7-8966a9385441",
-      "117360ea-7be5-4ebe-be73-bee85d3ece70",
-      "9e3ddcc1-589a-4c11-84f5-4d412dba7561",
-      "d2dc5c25-c487-413f-abac-bd213fd8e818",
-      "25fadbd8-58fd-4d2f-865a-c54315057271",
-      "ef396d47-47d3-4b20-9f06-00ec7c5f8985",
-      "511f96e6-3317-4964-ad16-b55e2a775920",
-      "15b76854-5f7c-454f-b9c5-7881e586ebf7",
-      "d7c7902b-805d-4c5c-a354-2a439c8d7740",
-      "c5f18918-b3a8-44da-8b19-badc8228bfe5",
-      "a447c368-347d-418e-9cf8-9a914b5ef435",
-      "1c16520c-7742-43bf-9b7c-01d924d9e8e1",
-      "707e917a-3811-492d-a942-2464c06e8731",
-      "7da7b5ee-b323-4f79-8330-7af5f27cea43",
-      "edcd0be3-f1f5-43a5-9fa4-3a1662f9cd9b",
-      "2a75ca48-c80e-4dca-bd9b-fc9bdd51b07c",
-      "adc8d056-3752-462e-8773-fd6b7b445603",
-      "55c50072-34cc-4f1f-9130-e17ee209f1e2",
-      "71387d73-c207-4047-8a67-ed294673b005",
-      "576bc117-e2a0-4973-871e-8a482f75ad20",
-      "f1c3a0ca-815b-4b9c-b0b8-06295ef77964",
-      "44d841c2-658a-4fa2-9269-fd284a789d39",
-      "3dc1dfa2-180f-4a20-a5bd-cbc349935518",
-      "534da3de-e54e-49b7-b367-c851ba8ed217",
-      "cd594cfb-13b5-4c3c-8b3f-7ef77b666a1e",
-      "22c36c90-0a1d-4d48-a7af-5c843c272405",
-      "2ab80cc9-832e-49a2-8dae-b6c2e754df15",
-      "ea522c77-a420-48db-bbc0-449ac9325fbd",
-      "bbf7e0d1-7213-43a9-a143-62920a5e6c88",
-      "12f4b9dc-f816-4d81-9612-dc6a80728c69",
-      "8e038fdc-9085-4ea5-ad7b-e97bf4157d3d",
-      "0a33f294-4ccc-45fc-9d09-824f6b0a2ee2",
-      "bbb9a87b-dae4-4b2e-bc3d-c0c583713922"
-    ]
-  }
+	"allMembers": {
+		"zayna-lateef": {
+			"firstName": "Zayna",
+			"lastName": "Lateef",
+			"nickname": "",
+			"image": "zayna-lateef-0.jpg",
+			"roles": ["[DeCal] Course Staff"],
+			"linkedIn": "https://www.linkedin.com/in/zayna-lateef-942756216/",
+			"website": "",
+			"email": "dorafok@berkeley.edu"
+		},
+		"sarah-suen": {
+			"firstName": "Sarah",
+			"lastName": "Suen",
+			"nickname": "",
+			"image": "sarah-suen-0.jpg",
+			"roles": ["[Design Team] Member"],
+			"linkedIn": "https://www.linkedin.com/in/sarahsuen/",
+			"website": "",
+			"email": "sarahsuen@berkeley.edu"
+		},
+		"sinead-mccaffery": {
+			"firstName": "Sinead",
+			"lastName": "McCaffery",
+			"nickname": "",
+			"image": "sinead-mccaffery-0.jpg",
+			"roles": ["[Exec] Board Member"],
+			"linkedIn": "https://www.linkedin.com/in/sineadmccaffery",
+			"website": "",
+			"email": "sineadmccaffery@berkeley.edu"
+		},
+
+		"trisha-sathish": {
+			"firstName": "Trisha",
+			"lastName": "Sathish",
+			"nickname": "",
+			"image": "trisha-sathish-0.jpg",
+			"roles": ["[Exec] VP Bootcamp"],
+			"linkedIn": "https://www.linkedin.com/in/trisha-sathish-36b9021b3/",
+			"website": "",
+			"email": "trishasathish@berkeley.edu"
+		},
+		"kira-fukuda": {
+			"firstName": "Kira",
+			"lastName": "Fukuda",
+			"nickname": "",
+			"image": "kira-fukuda-0.jpg",
+			"roles": ["[Exec] VP Design"],
+			"linkedIn": "www.linkedin.com/in/kirafukuda",
+			"website": "https://www.kirafukuda.com/",
+			"email": "kirafukuda@berkeley.edu"
+		},
+		"matt-robillard": {
+			"firstName": "Matthew",
+			"lastName": "Robillard",
+			"nickname": "Matt",
+			"image": "matt-robillard-0.jpg",
+			"roles": ["[Exec] VP Education"],
+			"linkedIn": "https://www.linkedin.com/in/matthew-robillard-6723b8252/",
+			"website": "mjrobillard.com",
+			"email": "Robillard.matthew22@berkeley.edu"
+		},
+		"prabhas-kurapati": {
+			"firstName": "Prabhas",
+			"lastName": "Kurapati",
+			"nickname": "",
+			"image": "prabhas-kurapati-0.jpg",
+			"roles": ["[Exec] VP Education"],
+			"linkedIn": "https://www.linkedin.com/in/prabhask/",
+			"website": "",
+			"email": "prabhask@berkeley.edu"
+		},
+		"sommie-santilla": {
+			"firstName": "Chloe Sommer",
+			"lastName": "Santilla",
+			"nickname": "Sommie",
+			"image": "sommie-santilla-0.jpg",
+			"roles": ["[Exec] VP Internal"],
+			"linkedIn": "www.linkedin.com/in/chloesantilla",
+			"website": "",
+			"email": "chlosomsantilla@berkeley.edu"
+		},
+		"naomi-manuel": {
+			"firstName": "Naomi",
+			"lastName": "Manuel",
+			"nickname": "",
+			"image": "naomi-manuel-0.jpg",
+			"roles": ["[Exec] VP Marketing"],
+			"linkedIn": "https://www.linkedin.com/in/naomi-m-899a011a5",
+			"website": "",
+			"email": "naomimanuel@berkeley.edu"
+		},
+		"thien-le": {
+			"firstName": "Thien",
+			"lastName": "Le",
+			"nickname": "",
+			"image": "thien-le-0.jpg",
+			"roles": ["[Industry] Backend Developer"],
+			"linkedIn": "https://www.linkedin.com/mwlite/in/thien-le-91aab21aa",
+			"website": "",
+			"email": "thienle1942@berkeley.edu"
+		},
+		"david-pantoja": {
+			"firstName": "David",
+			"lastName": "Pantoja",
+			"nickname": "",
+			"image": "david-pantoja-0.jpg",
+			"roles": ["[Industry] Tech Lead"],
+			"linkedIn": "https://www.linkedin.com/in/david-pantoja/",
+			"website": "",
+			"email": "davidpantoja@berkeley.edu"
+		},
+		"rohan-penmatcha": {
+			"firstName": "Rohan",
+			"lastName": "Penmatcha",
+			"nickname": "",
+			"image": "rohan-penmatcha-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "https://www.linkedin.com/in/ropenmatc2004/",
+			"website": "",
+			"email": "rp5169@berkeley.edu"
+		},
+		"joel-cisneros": {
+			"firstName": "Joel",
+			"lastName": "Cisneros",
+			"nickname": "",
+			"image": "joel-cisneros-0.jpg",
+			"roles": ["[Industry] Tech Lead"],
+			"linkedIn": "https://www.linkedin.com/in/jcisnerosss/",
+			"website": "",
+			"email": "joelcisneros25@berkeley.edu"
+		},
+		"avik-semantha": {
+			"firstName": "Avik",
+			"lastName": "Semantha",
+			"nickname": "",
+			"image": "avik-semantha-0.jpg",
+			"roles": ["[Industry] Frontend Developer"],
+			"linkedIn": "https://www.linkedin.com/in/avik-samanta-33530024b/",
+			"website": "https://lojikick.github.io/Personal_Site/",
+			"email": "aviksamanta5811@berkeley.edu"
+		},
+		"sophia-sung": {
+			"firstName": "Sophia",
+			"lastName": "Sung",
+			"nickname": "",
+			"image": "sophia-sung-0.jpg",
+			"roles": ["[Industry] Frontend Developer", "[MET] Member"],
+			"linkedIn": "www.linkedin.com/in/sophia-sung-0948b6212",
+			"website": "",
+			"email": "sophiasung@berkeley.edu"
+		},
+		"quincy-thai": {
+			"firstName": "Quincy",
+			"lastName": "Thai",
+			"nickname": "",
+			"image": "quincy-thai-0.jpg",
+			"roles": ["[Industry] Product Manager"],
+			"linkedIn": "https://www.linkedin.com/in/quincythai/",
+			"website": "",
+			"email": "quincythai@berkeley.edu"
+		},
+		"alex-chow": {
+			"firstName": "Alexander",
+			"lastName": "Chow",
+			"nickname": "Alex",
+			"image": "alex-chow-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "https://www.linkedin.com/in/alexander-chow-2167ab249/",
+			"website": "",
+			"email": "alexbchow@berkeley.edu"
+		},
+		"aurelia-wang": {
+			"firstName": "Aurelia",
+			"lastName": "Wang",
+			"nickname": "",
+			"image": "aurelia-wang-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "https://www.linkedin.com/in/wangaurelia",
+			"website": "",
+			"email": "aureliawang@berkeley.edu"
+		},
+		"gisella-chan": {
+			"firstName": "Gisella",
+			"lastName": "Chan",
+			"nickname": "",
+			"image": "gisella-chan-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "N/A",
+			"website": "",
+			"email": "gisellachan@berkeley.edu"
+		},
+		"janelle-xu": {
+			"firstName": "Janelle",
+			"lastName": "Xu",
+			"nickname": "",
+			"image": "janelle-xu-0.jpg",
+			"roles": ["[Industry]  Developer"],
+			"linkedIn": "www.linkedin.com/in/janelle-xu",
+			"website": "",
+			"email": "janellex4@berkeley.edu"
+		},
+		"michelle-wang": {
+			"firstName": "Michelle",
+			"lastName": "Wang",
+			"nickname": "",
+			"image": "michelle-wang-0.jpg",
+			"roles": ["[Industry]  Developer"],
+			"linkedIn": "https://www.linkedin.com/mwlite/in/michelle-wang-3aa12a227",
+			"website": "",
+			"email": "michelle.wang@berkeley.edu"
+		},
+		"nemer-singh": {
+			"firstName": "Nemerjit",
+			"lastName": "Singh",
+			"nickname": "Nemer",
+			"image": "nemer-singh-0.jpg",
+			"roles": ["[Industry]  Developer"],
+			"linkedIn": "https://www.linkedin.com/in/nemerjit-singh",
+			"website": "",
+			"email": "nemerjitsingh@berkeley.edu"
+		},
+		"richa-jos": {
+			"firstName": "Richa",
+			"lastName": "Jos",
+			"nickname": "",
+			"image": "richa-jos-0.jpg",
+			"roles": ["[Industry] Product Manager"],
+			"linkedIn": "https://www.linkedin.com/in/richa-jos/",
+			"website": "",
+			"email": "richajos34@berkeley.edu"
+		},
+		"alejandro-beltran": {
+			"firstName": "Alejandro",
+			"lastName": "Beltran",
+			"nickname": "",
+			"image": "alejandro-beltran-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "https://www.linkedin.com/in/alejandro-beltran-a99862249",
+			"website": "",
+			"email": "alejandrobeltran@berkeley.edu"
+		},
+		"arhum-khan": {
+			"firstName": "Arhum",
+			"lastName": "Khan",
+			"nickname": "",
+			"image": "arhum-khan-0.jpg",
+			"roles": ["[Industry]  Developer"],
+			"linkedIn": "https://www.linkedin.com/in/arhum--khan/",
+			"website": "",
+			"email": "arhum@berkeley.edu"
+		},
+		"nathan-rouston": {
+			"firstName": "Nathan",
+			"lastName": "Rouston",
+			"nickname": "",
+			"image": "nathan-rouston-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "http://www.linkedin.com/in/nathan-rouston-ab72b328b",
+			"website": "",
+			"email": "nathan.rouston@berkeley.edu"
+		},
+		"nicole-lee": {
+			"firstName": "Nicole",
+			"lastName": "Lee",
+			"nickname": "",
+			"image": "nicole-lee-0.jpg",
+			"roles": ["[Industry] Tech Lead"],
+			"linkedIn": "https://www.linkedin.com/in/nicolelee7887/",
+			"website": "https://nnicolee.github.io/",
+			"email": "nicolelee1@berkeley.edu"
+		},
+		"lena-vuong": {
+			"firstName": "Helena",
+			"lastName": "Vuong",
+			"nickname": "Lena",
+			"image": "lena-vuong-0.jpg",
+			"roles": ["[Industry] Product Manager"],
+			"linkedIn": "www.linkedin.com/in/helenavuong",
+			"website": "",
+			"email": "hmv1018@berkeley.edu"
+		},
+		"sophia-matthews": {
+			"firstName": "Sophia",
+			"lastName": "Matthews",
+			"nickname": "",
+			"image": "sophia-matthews-0.jpg",
+			"roles": ["[Industry] Product Designer"],
+			"linkedIn": "www.linkedin.com/in/sophia-matthews-0a0467224",
+			"website": "https://www.behance.net/sophiamatthews3",
+			"email": "sophiamatthews@berkeley.edu"
+		},
+		"rachel-yun": {
+			"firstName": "Rachel",
+			"lastName": "Yun",
+			"nickname": "",
+			"image": "rachel-yun-0.jpg",
+			"roles": ["[Industry] Product Designer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "ryun24@berkeley.edu"
+		},
+		"rachel-quach": {
+			"firstName": "Rachel",
+			"lastName": "Quach",
+			"nickname": "",
+			"image": "rachel-quach-0.jpg",
+			"roles": ["[Industry] Product Designer"],
+			"linkedIn": "https://www.linkedin.com/in/rachelquach1/",
+			"website": "",
+			"email": "racheljquach@berkeley.edu"
+		},
+		"rachel-cortez": {
+			"firstName": "Rachel",
+			"lastName": "Cortez",
+			"nickname": "",
+			"image": "rachel-cortez-0.jpg",
+			"roles": ["[Exec] VP Marketing"],
+			"linkedIn": "https://www.linkedin.com/in/rachel-cortez/",
+			"website": "",
+			"email": "rach.cort@berkeley.edu"
+		},
+		"charlie-kwon": {
+			"firstName": "Charlotte",
+			"lastName": "Kwon",
+			"nickname": "Charlie",
+			"image": "charlie-kwon-0.jpg",
+			"roles": ["[Industry] Product Designer", "[MET] Member"],
+			"linkedIn": "www.linkedin.com/in/charlotte-kwon-1a2481281",
+			"website": "",
+			"email": "charlottekwon04@berkeley.edu"
+		},
+		"tommy-nguyen": {
+			"firstName": "Tung",
+			"lastName": "Nguyen",
+			"nickname": "Tommy",
+			"image": "tommy-nguyen-0.jpg",
+			"roles": ["[Exec] VP Internal"],
+			"linkedIn": "www.linkedin.com/in/tung-nguyen-a75735284",
+			"website": "",
+			"email": "tungsn278@berkeley.edu"
+		},
+		"bhada-yun": {
+			"firstName": "Bhada",
+			"lastName": "Yun",
+			"nickname": "",
+			"image": "bhada-yun-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/bhadayun/",
+			"website": "https://bhadayun.com/",
+			"email": "bhadayun@berkeley.edu",
+			"destination": "Undergraduate Student @ UC Berkeley"
+		},
+		"seeun-ahn": {
+			"firstName": "Seeun",
+			"lastName": "Ahn",
+			"nickname": "",
+			"image": "seeun-ahn-0.jpg",
+			"roles": [
+				"[MET] Member",
+				"[DeCal] Course Staff",
+				"[Industry] Product Designer"
+			],
+			"linkedIn": "http://www.linkedin.com/in/seeunahn",
+			"website": "",
+			"email": "seeun@berkeley.edu"
+		},
+		"ridge-huang": {
+			"firstName": "Ridge",
+			"lastName": "Huang",
+			"nickname": "",
+			"image": "ridge-huang-0.jpg",
+			"roles": ["[MET] Member", "[Industry] Developer"],
+			"linkedIn": "https://www.linkedin.com/in/ridge-huang/",
+			"website": "",
+			"email": "ridgeh5@berkeley.edu"
+		},
+		"warren-chang": {
+			"firstName": "Bo-Wei",
+			"lastName": "Chang",
+			"nickname": "Warren",
+			"image": "warren-chang-0.jpg",
+			"roles": ["[Industry] Tech Lead"],
+			"linkedIn": "https://www.linkedin.com/in/warren-chang-215644229/",
+			"website": "",
+			"email": "boweichang@berkeley.edu"
+		},
+		"cass-li": {
+			"firstName": "Chengyin",
+			"lastName": "Li",
+			"nickname": "Cass",
+			"image": "cass-li-0.jpg",
+			"roles": ["Senior Advisor"],
+			"linkedIn": "https://www.linkedin.com/in/chengyin-li/",
+			"website": "https://cassli.webflow.io",
+			"email": "chengyin@berkeley.edu"
+		},
+		"nick-shin": {
+			"firstName": "Nicholas",
+			"lastName": "Shin",
+			"nickname": "Nick",
+			"image": "nick-shin-0.jpg",
+			"roles": ["Senior Advisor"],
+			"linkedIn": "https://www.linkedin.com/in/nicholas-shin-b998651b2",
+			"website": "",
+			"email": "nshin02@berkeley.edu"
+		},
+		"jenny-weng": {
+			"firstName": "Jiahuang",
+			"lastName": "Weng",
+			"nickname": "Jenny",
+			"image": "jenny-weng-0.jpg",
+			"roles": ["[Exec] VP Design"],
+			"linkedIn": "https://www.linkedin.com/in/jennyweng",
+			"website": "jennyweng.com",
+			"email": "jennyweng@berkeley.edu"
+		},
+		"aadhiti-ghankota": {
+			"firstName": "Aadhiti",
+			"lastName": "Ghankota",
+			"nickname": "",
+			"image": "aadhiti-ghankota-0.jpg",
+			"roles": ["Senior Advisor"],
+			"linkedIn": "",
+			"website": "",
+			"email": "aadhitighankota@berkeley.edu"
+		},
+		"abigail-delgado": {
+			"firstName": "Abigail",
+			"lastName": "Delgado",
+			"nickname": "Abby",
+			"image": "abigail-delgado-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/abigail-gee-delgado",
+			"website": "",
+			"email": "abigaildelgado@berkeley.edu",
+			"destination": "Software Engineer @ Microsoft"
+		},
+		"abdul-karim": {
+			"firstName": "Abdul",
+			"lastName": "Karim",
+			"nickname": "",
+			"image": "abdul-karim-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/abdulfk",
+			"website": "https://www.linkedin.com/in/abdulfk",
+			"email": "afkarim@berkeley.edu",
+			"destination": "Software Engineer @ Google"
+		},
+		"adam-goldstein": {
+			"firstName": "Adam",
+			"lastName": "Goldstein",
+			"nickname": "",
+			"image": "adam-goldstein-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/adam-j-goldstein",
+			"website": "",
+			"email": "adamgoldstein@berkeley.edu",
+			"destination": "Co-Founder & CTO @ TeachShare"
+		},
+		"aditya-bhawal": {
+			"firstName": "Aditya",
+			"lastName": "Bhawal",
+			"nickname": "",
+			"image": "aditya-bhawal-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/adityabhawal/",
+			"website": "",
+			"email": "adbhawal@berkeley.edu",
+			"destination": "Software Engineer @ Etsy"
+		},
+		"albert-tian": {
+			"firstName": "Albert",
+			"lastName": "Tian",
+			"nickname": "",
+			"image": "albert-tian-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/albert-tian/'",
+			"website": "https://www.github.com/albTian",
+			"email": "",
+			"destination": "Software Engineer @ Stealth Startup"
+		},
+		"alex-wu": {
+			"firstName": "Alex",
+			"lastName": "Wu",
+			"nickname": "",
+			"image": "alex-wu-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ Meta"
+		},
+		"alexis-kim": {
+			"firstName": "Alexis",
+			"lastName": "Kim",
+			"nickname": "",
+			"image": "alexis-kim-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/alexisskim",
+			"website": "https://www.alexiskim.me",
+			"email": "alexis-kim@berkeley.edu",
+			"destination": "Product Designer @ Garmin"
+		},
+		"ali-ansari": {
+			"firstName": "Ali",
+			"lastName": "Ansari",
+			"nickname": "",
+			"image": "ali-ansari-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Founder & CEO @ micro1"
+		},
+		"alina-wang": {
+			"firstName": "Alina",
+			"lastName": "Wang",
+			"nickname": "",
+			"image": "alina-wang-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/wangerful/",
+			"website": "",
+			"email": "alina.wang@berkeley.edu",
+			"destination": "Software Engineer @ Atlassian"
+		},
+		"amish-gupta": {
+			"firstName": "Amish",
+			"lastName": "Gupta",
+			"nickname": "",
+			"image": "amish-gupta-0.jpg",
+			"roles": ["[Exec] VP Bootcamp"],
+			"linkedIn": "https://www.linkedin.com/in/amishgupta678/",
+			"website": "",
+			"email": "amish@berkeley.edu"
+		},
+		"amy-kwon": {
+			"firstName": "YeEun",
+			"lastName": "Kwon",
+			"nickname": "Amy",
+			"image": "yeeun-kwon-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/amy-kwon-928872142/",
+			"website": "",
+			"email": "amykwon@berkeley.edu",
+			"destination": "Software Engineer @ Hyundai Motor Company"
+		},
+		"amy-yang": {
+			"firstName": "Amy",
+			"lastName": "Yang",
+			"nickname": "",
+			"image": "amy-yang-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/amy-yang-3632331bb/",
+			"website": "",
+			"email": "ayang24@berkeley.edu",
+			"destination": "Graduate Student @ UPenn"
+		},
+		"andy-ngo": {
+			"firstName": "Andy",
+			"lastName": "Ngo",
+			"nickname": "",
+			"image": "andy-ngo-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/andytngo",
+			"website": "",
+			"email": "ango9031@berkeley.edu",
+			"destination": "Software Engineer @ Amazon"
+		},
+		"angel-mau": {
+			"firstName": "Angel",
+			"lastName": "Mau",
+			"nickname": "",
+			"image": "angel-mau-0.jpg",
+			"roles": ["[MET] Member", "[DeCal] Course Staff"],
+			"linkedIn": "",
+			"website": "",
+			"email": "angelmau@berkeley.edu"
+		},
+		"angela-li": {
+			"firstName": "Angela",
+			"lastName": "Li",
+			"nickname": "",
+			"image": "angela-li-0.jpg",
+			"roles": ["[Exec] VP Internal"],
+			"linkedIn": "https://www.linkedin.com/in/totalangela",
+			"website": "https://www.totalangela.github.io",
+			"email": "totalangela@berkeley.edu"
+		},
+		"aniruddh-chennapragada": {
+			"firstName": "Aniruddh",
+			"lastName": "Chennapragada",
+			"nickname": "Ani",
+			"image": "aniruddh-chennapragada-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/aniruddh-chennapragada-976278179/",
+			"website": "",
+			"email": "anic@berkeley.edu",
+			"destination": "Software Engineer @ Google"
+		},
+		"aniruddha-vangala": {
+			"firstName": "Aniruddha",
+			"lastName": "Vangala",
+			"nickname": "Ani",
+			"image": "aniruddha-vangala-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ Tesla"
+		},
+		"anish-shanbhag": {
+			"firstName": "Anish",
+			"lastName": "Shanbhag",
+			"nickname": "",
+			"image": "anish-shanbhag-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/anish-shanbhag",
+			"website": "",
+			"email": "anish.shanbhag@berkeley.edu",
+			"destination": "Undergraduate Researcher @ UC Berkeley"
+		},
+		"anjan-bharadwaj": {
+			"firstName": "Anjan",
+			"lastName": "Bharadwaj",
+			"nickname": "",
+			"image": "anjan-bharadwaj-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/anjanbharadwaj/",
+			"website": "https://www.anjanbharadwaj.com/",
+			"email": "anjanb@berkeley.edu",
+			"destination": "Software Engineer @ OpenAI"
+		},
+		"anna-hagiwara": {
+			"firstName": "Anna",
+			"lastName": "Hagiwara",
+			"nickname": "",
+			"image": "anna-hagiwara-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/anna-hagiwara",
+			"website": "",
+			"email": "ahagiwara@berkeley.edu",
+			"destination": "Software Engineer @ Amazon"
+		},
+		"viansa-schmulbach": {
+			"firstName": "Viansa",
+			"lastName": "Schmulbach",
+			"nickname": "Ansa",
+			"image": "viansa-schmulbach-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/viansa-s/",
+			"website": "",
+			"email": "ansa@berkeley.edu",
+			"destination": "PHD Student @ MIT"
+		},
+		"artem-tkachuk": {
+			"firstName": "Artem",
+			"lastName": "Tkachuk",
+			"nickname": "Art",
+			"image": "artem-tkachuk-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/artemtkachuk/",
+			"website": "https://www.artemtkachuk.me",
+			"email": "atkachuk@berkeley.edu",
+			"destination": "Software Engineer @ Netflix"
+		},
+		"arushi-somani": {
+			"firstName": "Arushi",
+			"lastName": "Somani",
+			"nickname": "",
+			"image": "arushi-somani-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/arushisomani/",
+			"website": "http://amks.me",
+			"email": "",
+			"destination": "Software Researcher @ Anthopic"
+		},
+		"ashley-zheng": {
+			"firstName": "Ashley",
+			"lastName": "Zheng",
+			"nickname": "",
+			"image": "ashley-zheng-0.jpg",
+			"roles": ["[Exec] President"],
+			"linkedIn": "https://www.linkedin.com/in/ashley-zheng-5553151a8",
+			"website": "",
+			"email": "ashley.zheng@berkeley.edu"
+		},
+		"atharva-mehendale": {
+			"firstName": "Atharva",
+			"lastName": "Mehendale",
+			"nickname": "",
+			"image": "atharva-mehendale-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Product Manager @ Salesforce"
+		},
+		"avinash-rao": {
+			"firstName": "Avinash",
+			"lastName": "Rao",
+			"nickname": "",
+			"image": "avinash-rao-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/avinashrao2002/",
+			"website": "",
+			"email": "avinashrao2002@berkeley.edu",
+			"destination": "Software Engineer @ Databricks"
+		},
+		"ayaka-chou": {
+			"firstName": "Ayaka",
+			"lastName": "Chou",
+			"nickname": "",
+			"image": "ayaka-chou-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/ayaka-chou",
+			"website": "",
+			"email": "ayakachou@berkeley.edu",
+			"destination": "Software Engineer @ Sony"
+		},
+		"caelin-sutch": {
+			"firstName": "Caelin",
+			"lastName": "Sutch",
+			"nickname": "",
+			"image": "caelin-sutch-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/caelinsutch/",
+			"website": "https://www.caelinsutch.com/",
+			"email": "",
+			"destination": "Co-founder @ Lookbk"
+		},
+		"chengyin-li": {
+			"firstName": "Chengyin",
+			"lastName": "Li",
+			"nickname": "Cass",
+			"image": "chengyin-li-0.jpg",
+			"roles": ["[MET] Member"],
+			"linkedIn": "https://www.linkedin.com/in/chengyin-li/",
+			"website": "https://www.cassli.webflow.io",
+			"email": "chengyin@berkeley.edu"
+		},
+		"chanel-zeng": {
+			"firstName": "Chanel",
+			"lastName": "Zeng",
+			"nickname": "",
+			"image": "chanel-zeng-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/chanelzeng/",
+			"website": "",
+			"email": "zengchanel@berkeley.edu",
+			"destination": "Software Engineer @ Atlassian"
+		},
+		"cindy-liu": {
+			"firstName": "Cindy",
+			"lastName": "Liu",
+			"nickname": "",
+			"image": "cindy-liu-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/cindy-c-liu/",
+			"website": "",
+			"email": "liu.cindy@berkeley.edu",
+			"destination": "Designer @ PayPal"
+		},
+		"danielle-wong": {
+			"firstName": "Danielle",
+			"lastName": "Wong",
+			"nickname": "",
+			"image": "danielle-wong-0.jpg",
+			"roles": ["[DeCal] Design TA", "[MET] Member"],
+			"linkedIn": "https://www.linkedin.com/in/danielle-n-wong/",
+			"website": "",
+			"email": "daniellenwong@berkeley.edu"
+		},
+		"deniz-demirtas": {
+			"firstName": "Deniz",
+			"lastName": "Demirtas",
+			"nickname": "DD",
+			"image": "deniz-demirtas-0.jpg",
+			"roles": ["[Industry] Product Manager", "[External Team] Member"],
+			"linkedIn": "https://www.linkedin.com/in/deniz-demirtas-827416225/",
+			"website": "",
+			"email": "denizdemirtas@berkeley.edu"
+		},
+		"dhruv-vaish": {
+			"firstName": "Dhruv",
+			"lastName": "Vaish",
+			"nickname": "",
+			"image": "dhruv-vaish-0.jpg",
+			"roles": ["Senior Advisor"],
+			"linkedIn": "https://www.linkedin.com/in/dhruv-vaish",
+			"website": "",
+			"email": "dvaish@berkeley.edu"
+		},
+		"dominic-debettencourt": {
+			"firstName": "Dominic",
+			"lastName": "deBettencourt",
+			"nickname": "",
+			"image": "dominic-debettencourt-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/ddebettencourt",
+			"website": "https://www.dominicd.me",
+			"email": "dominicd@berkeley.edu",
+			"destination": "Quantitative Trader @ Jane Street"
+		},
+		"dora-fok": {
+			"firstName": "Dora",
+			"lastName": "Fok",
+			"nickname": "",
+			"image": "dora-fok-0.jpg",
+			"roles": ["[Decal] Course Staff"],
+			"linkedIn": "",
+			"website": "",
+			"email": "dorafok@berkeley.edu"
+		},
+		"edward-luna": {
+			"firstName": "Edward",
+			"lastName": "Luna",
+			"nickname": "",
+			"image": "edward-luna-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/edwardlunacs/",
+			"website": "",
+			"email": "mister.luna@berkeley.edu"
+		},
+		"emir-karabeg": {
+			"firstName": "Emir",
+			"lastName": "Karabeg",
+			"nickname": "",
+			"image": "emir-karabeg-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "emirkarabeg@berkeley.edu",
+			"destination": "Founder & CEO @ Sim"
+		},
+		"ervin-baccay": {
+			"firstName": "Ervin",
+			"lastName": "Baccay",
+			"nickname": "",
+			"image": "ervin-baccay-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ myriad"
+		},
+		"ethan-pang": {
+			"firstName": "Ethan",
+			"lastName": "Pang",
+			"nickname": "",
+			"image": "ethan-pang-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/ethanpang5/",
+			"website": "https://www.ethanpang5.github.io/",
+			"email": "ethanp5@berkeley.edu",
+			"destination": "Software Engineer @ Amazon"
+		},
+		"ethan-wu": {
+			"firstName": "Ethan",
+			"lastName": "Wu",
+			"nickname": "",
+			"image": "ethan-wu-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/ethan-wu/",
+			"website": "",
+			"email": "",
+			"destination": "Service Engineer @ SPAN"
+		},
+		"evan-quan": {
+			"firstName": "Evan",
+			"lastName": "Quan",
+			"nickname": "",
+			"image": "evan-quan-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/evqu",
+			"website": "https://www.evanq.studio",
+			"email": "evan.quan@berkeley.edu",
+			"destination": "Design @ GoDaddy"
+		},
+		"ezra-apple": {
+			"firstName": "Ezra",
+			"lastName": "Apple",
+			"nickname": "",
+			"image": "ezra-apple-0.jpg",
+			"roles": ["[Exec] VP Bootcamp"],
+			"linkedIn": "https://www.linkedin.com/in/ezraapple/",
+			"website": "",
+			"email": "ezraapple@berkeley.edu"
+		},
+		"felix-zhu": {
+			"firstName": "Felix",
+			"lastName": "Zhu",
+			"nickname": "",
+			"image": "felix-zhu-0.jpg",
+			"roles": ["[Decal] Course Staff"],
+			"linkedIn": "https://www.linkedin.com/in/felixzhu555",
+			"website": "",
+			"email": "felixzhu@berkeley.edu"
+		},
+		"gabriel-meng": {
+			"firstName": "Gabriel",
+			"lastName": "Meng",
+			"nickname": "Gabe",
+			"image": "gabriel-meng-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ Amazon"
+		},
+		"genna-gams": {
+			"firstName": "Genna",
+			"lastName": "Gams",
+			"nickname": "",
+			"image": "genna-gams-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/genna-gams",
+			"website": "https://www.ggams2020.github.io/site",
+			"email": "ggams@berkeley.edu",
+			"destination": "Software Engineer @ Tiktok"
+		},
+		"hector-ramos": {
+			"firstName": "Hector",
+			"lastName": "Ramos",
+			"nickname": "",
+			"image": "hector-ramos-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/hector-ramos-/",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ BlackRock"
+		},
+		"henric-zhang": {
+			"firstName": "Henric",
+			"lastName": "Zhang",
+			"nickname": "",
+			"image": "henric-zhang-0.jpg",
+			"roles": ["Senior Advisor"],
+			"linkedIn": "https://www.linkedin.com/in/henriczhang/",
+			"website": "",
+			"email": "henriczhang@berkeley.edu"
+		},
+		"henry-chiu": {
+			"firstName": "Henry",
+			"lastName": "Chiu",
+			"nickname": "",
+			"image": "henry-chiu-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/henryychiu/",
+			"website": "http://henrychiu.me",
+			"email": "",
+			"destination": "Software Engineer @ Notion"
+		},
+		"hunter-harling": {
+			"firstName": "Hunter",
+			"lastName": "Harling",
+			"nickname": "",
+			"image": "hunter-harling-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "https://www.linkedin.com/mwlite/in/hunterharling",
+			"website": "",
+			"email": "hunterharling@berkeley.edu"
+		},
+		"ikshita-puri": {
+			"firstName": "Ikshita",
+			"lastName": "Puri",
+			"nickname": "Iki",
+			"image": "ikshita-puri-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/mwlite/in/ikshita-puri-3bb3251a3",
+			"website": "",
+			"email": "ikshitapuri@berkeley.edu",
+			"destination": "Software Engineer @ July"
+		},
+		"isaac-ong": {
+			"firstName": "Isaac",
+			"lastName": "Ong",
+			"nickname": "",
+			"image": "isaac-ong-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/isaacong",
+			"website": "https://www.isaacong.me",
+			"email": "isaacong@berkeley.edu",
+			"destination": "Engineer @ Anthropic"
+		},
+		"isabel-zheng": {
+			"firstName": "Isabel",
+			"lastName": "Zheng",
+			"nickname": "",
+			"image": "isabel-zheng-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "izheng@berkeley.edu",
+			"destination": "Product Manager @ Datadog"
+		},
+		"ishan-amin": {
+			"firstName": "Ishan",
+			"lastName": "Amin",
+			"nickname": "",
+			"image": "ishan-amin-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/ishan-amin-522027174/  ",
+			"website": "",
+			"email": "ishanthewizard@berkeley.edu",
+			"destination": "Graduate Researcher @ BAIR"
+		},
+		"izzie-lau": {
+			"firstName": "Izzie",
+			"lastName": "Lau",
+			"nickname": "",
+			"image": "izzie-lau-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ Microsoft"
+		},
+		"jackson-wong": {
+			"firstName": "Jackson",
+			"lastName": "Wong",
+			"nickname": "",
+			"image": "jackson-wong-0.jpg",
+			"roles": ["[Industry] Product Manager", "[External Team] Member"],
+			"linkedIn": "https://www.linkedin.com/in/jacksontwong/",
+			"website": "",
+			"email": "wongjt@berkeley.edu"
+		},
+		"jasmine-chen": {
+			"firstName": "Jasmine",
+			"lastName": "Chen",
+			"nickname": "",
+			"image": "jasmine-chen-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/jasminewschen/",
+			"website": "https://www.jasminewschen.com/",
+			"email": "",
+			"destination": "Product Designer @ Replo"
+		},
+		"jason-duong": {
+			"firstName": "Jason",
+			"lastName": "Duong",
+			"nickname": "",
+			"image": "jason-duong-0.jpg",
+			"roles": ["[Exec] President"],
+			"linkedIn": "https://www.linkedin.com/in/jasonduongg/",
+			"website": "https://www.jasonduongg.github.io/Personal/",
+			"email": "jasonduong@berkeley.edu"
+		},
+		"jazem-siddiqui": {
+			"firstName": "Jazem",
+			"lastName": "Siddiqui",
+			"nickname": "",
+			"image": "jazem-siddiqui-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ Capital One"
+		},
+		"jeffrey-huang": {
+			"firstName": "Jeffrey",
+			"lastName": "Huang",
+			"nickname": "",
+			"image": "jeffrey-huang-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/jeffreyhuang2002/",
+			"website": "https://www.jefforee.github.io/jeffreyhuang/",
+			"email": "jeff0827@berkeley.edu",
+			"destination": "Software Engineer @ Amazon"
+		},
+		"jiahuang-weng": {
+			"firstName": "Jiahuang",
+			"lastName": "Weng",
+			"nickname": "Jenny",
+			"image": "jiahuang-weng-0.jpg",
+			"roles": ["[Exec] VP Design"],
+			"linkedIn": "https://www.linkedin.com/in/jennyweng",
+			"website": "https://www.jennyweng.com",
+			"email": "jennyweng@berkeley.edu"
+		},
+		"jessica-hwang": {
+			"firstName": "Jessica",
+			"lastName": "Hwang",
+			"nickname": "",
+			"image": "jessica-hwang-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "jyjhwang@berkeley.edu"
+		},
+		"jessie-liu": {
+			"firstName": "Jessie",
+			"lastName": "Liu",
+			"nickname": "",
+			"image": "jessie-liu-0.jpg",
+			"roles": ["[Exec] VP Education"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"jessica-wu": {
+			"firstName": "Jessica",
+			"lastName": "Wu",
+			"nickname": "",
+			"image": "jessica-wu-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ Amazon"
+		},
+		"sommie-santilla": {
+			"firstName": "Sommie",
+			"lastName": "Santilla",
+			"nickname": "",
+			"image": "sommie-santilla-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"jiro-noor": {
+			"firstName": "Jiro",
+			"lastName": "Noor",
+			"nickname": "",
+			"image": "jiro-noor-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/jiro-ryzard-noor/",
+			"website": "",
+			"email": "jiro.noor@berkeley.edu",
+			"destination": "Software Engineer @ Juniper Networks"
+		},
+		"jonathan-sun": {
+			"firstName": "Jonathan",
+			"lastName": "Sun",
+			"nickname": "Jon",
+			"image": "jonathan-sun-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "jsun63@berkeley.edu",
+			"destination": "Software Engineer @ AWS"
+		},
+		"joshua-tsai": {
+			"firstName": "Joshua",
+			"lastName": "Tsai",
+			"nickname": "Josh",
+			"image": "joshua-tsai-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "jtsai24@berkeley.edu"
+		},
+		"joying-yang": {
+			"firstName": "Zhuoying",
+			"lastName": "Yang",
+			"nickname": "Joying",
+			"image": "zhuoying-yang-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/joying-yang",
+			"website": "",
+			"email": "joying@berkeley.edu",
+			"destination": "Software Engineer @ Apple"
+		},
+		"juliet-kim": {
+			"firstName": "SuHyang",
+			"lastName": "Kim",
+			"nickname": "Juliet",
+			"image": "suhyang-kim-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/suhyangkim",
+			"website": "",
+			"email": "suhyang@berkeley.edu",
+			"destination": "Software Engineer @ LinkedIn"
+		},
+		"kabir-shah": {
+			"firstName": "Kabir",
+			"lastName": "Shah",
+			"nickname": "",
+			"image": "kabir-shah-0.jpg",
+			"roles": ["[Exec] VP External"],
+			"linkedIn": "http://linkedin.com/in/kabir-shah",
+			"website": "https://www.kabir.sh",
+			"email": "kabirshah@berkeley.edu"
+		},
+		"kartik-aggarwal": {
+			"firstName": "Kartik",
+			"lastName": "Aggarwal",
+			"nickname": "",
+			"image": "kartik-aggarwal-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/-kartikaggarwal/",
+			"website": "",
+			"email": "kartikaggarwal@berkeley.edu",
+			"destination": "Product Manager @ Google"
+		},
+		"kenzie-tee": {
+			"firstName": "Kenzie",
+			"lastName": "Tee",
+			"nickname": "",
+			"image": "kenzie-tee-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ OpenAI"
+		},
+		"kimberley-fan": {
+			"firstName": "Kimberley",
+			"lastName": "Fan",
+			"nickname": "",
+			"image": "kimberley-fan-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/kimberleyfan",
+			"website": "",
+			"email": "kimberley.fan123@berkeley.edu",
+			"destination": "Software Engineer @ Apple"
+		},
+		"krish-soni": {
+			"firstName": "Krish",
+			"lastName": "Soni",
+			"nickname": "",
+			"image": "krish-soni-0.jpg",
+			"roles": ["[Industry]  Developer", "[DeCal] Course Staff"],
+			"linkedIn": "",
+			"website": "",
+			"email": "krish_soni@berkeley.edu"
+		},
+		"kush-garg": {
+			"firstName": "Kush",
+			"lastName": "Garg",
+			"nickname": "Kush",
+			"image": "kush-garg-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/kushg02/",
+			"website": "https://www.kushgarg.com",
+			"email": "kush.garg@berkeley.edu",
+			"destination": "Software Engineer @ AWS"
+		},
+		"darren-ich": {
+			"firstName": "Darren",
+			"lastName": "Ich",
+			"nickname": "Darren",
+			"image": "darren-ich-0.jpg",
+			"roles": ["[Exec] VP Education"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"kyle-kuwahara": {
+			"firstName": "Kyle",
+			"lastName": "Kuwahara",
+			"nickname": "",
+			"image": "kyle-kuwahara-0.jpg",
+			"roles": ["[Exec] VP External"],
+			"linkedIn": "https://www.linkedin.com/in/ kylekuwahara",
+			"website": "",
+			"email": "kylekuwahara@berkeley.edu"
+		},
+		"laura-pei": {
+			"firstName": "Laura",
+			"lastName": "Pei",
+			"nickname": "",
+			"image": "laura-pei-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/laurapei/",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ Stripe"
+		},
+		"lauren-kim": {
+			"firstName": "Lauren",
+			"lastName": "Kim",
+			"nickname": "",
+			"image": "lauren-kim-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "https://www.linkedin.com/in/laurennayunkim/",
+			"website": "https://www.laurennayunkim.com",
+			"email": "laurennayunkim@berkeley.edu"
+		},
+		"leah-hong": {
+			"firstName": "Leah",
+			"lastName": "Hong",
+			"nickname": "",
+			"image": "leah-hong-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": "leah6519@berkeley.edu",
+			"destination": "Software Engineer @ Inductive Automation"
+		},
+		"leen-armoush": {
+			"firstName": "Leen",
+			"lastName": "Armoush",
+			"nickname": "",
+			"image": "leen-armoush-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/leen-armoush/",
+			"website": "",
+			"email": "Larmoush@berkeley.edu",
+			"destination": "Software Engineer @ Accenture"
+		},
+		"lizzie-lau": {
+			"firstName": "Lizzie",
+			"lastName": "Lau",
+			"nickname": "",
+			"image": "lizzie-lau-0.jpg",
+			"roles": [""],
+			"linkedIn": "https://www.linkedin.com/in/lizzie-lau/",
+			"website": "",
+			"email": "",
+			"destination": "Software Engineer @ Microsoft"
+		},
+		"manuel-munoz": {
+			"firstName": "ManuelDeJesus",
+			"lastName": "Muñoz",
+			"nickname": "Manuel",
+			"image": "manuel-munoz-0.jpg",
+			"roles": ["[Exec] VP Internal"],
+			"linkedIn": "https://www.linkedin.com/in/manuel-munoz-968582236",
+			"website": "https://www.manuelmunoz.me/",
+			"email": "mannymnz@berkeley.edu"
+		},
+		"marin-lau": {
+			"firstName": "Marin",
+			"lastName": "Lau",
+			"nickname": "",
+			"image": "marin-lau-0.jpg",
+			"roles": ["[Industry] Product Manager"],
+			"linkedIn": "https://www.linkedin.com/in/marin-lau-42b2bb255/",
+			"website": "https://www.sites.google.com/berkeley.edu/marinlau/home",
+			"email": "marinlau@berkeley.edu"
+		},
+		"melanie-liu": {
+			"firstName": "Melanie",
+			"lastName": "Liu",
+			"nickname": "",
+			"image": "melanie-liu-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "melanieliu@berkeley.edu"
+		},
+		"inah-vasquez": {
+			"firstName": "Inah",
+			"lastName": "Vasquez",
+			"nickname": "",
+			"image": "inah-vasquez-0.jpg",
+			"roles": ["[Industry] Product Manager"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"natalie-hoang": {
+			"firstName": "Natalie",
+			"lastName": "Hoang",
+			"nickname": "",
+			"image": "natalie-hoang-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "nataliehoang@berkeley.edu"
+		},
+		"chris-wang": {
+			"firstName": "Chris",
+			"lastName": "Wang",
+			"nickname": "",
+			"image": "chris-wang-0.jpg",
+			"roles": ["[Industry] Tech Lead"],
+			"linkedIn": "",
+			"website": "",
+			"email": "chriswang@berkeley.edu"
+		},
+		"pranav-dogra": {
+			"firstName": "Pranav",
+			"lastName": "Dogra",
+			"nickname": "",
+			"image": "pranav-dogra-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "pranavdogra@berkeley.edu"
+		},
+		"sage-an": {
+			"firstName": "Hyunji",
+			"lastName": "An",
+			"nickname": "Sage",
+			"image": "sage-an-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "sagean@berkeley.edu"
+		},
+		"tina-ye": {
+			"firstName": "Tina",
+			"lastName": "Ye",
+			"nickname": "",
+			"image": "tina-ye-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "tinaye@berkeley.edu"
+		},
+		"tina-zou": {
+			"firstName": "Tina",
+			"lastName": "Zou",
+			"nickname": "",
+			"image": "tina-zou-0.jpg",
+			"roles": ["[Industry] Designer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "tinazou@berkeley.edu"
+		},
+		"tyler-webb": {
+			"firstName": "Tyler",
+			"lastName": "Webb",
+			"nickname": "",
+			"image": "tyler-webb-0.jpg",
+			"roles": ["[Industry] Designer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "tylerwebb@berkeley.edu"
+		},
+		"varun-vaidya": {
+			"firstName": "Varun",
+			"lastName": "Vaidya",
+			"nickname": "",
+			"image": "varun-vaidya-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "varunvaidya@berkeley.edu"
+		},
+		"victor-hui": {
+			"firstName": "Victor",
+			"lastName": "Hui",
+			"nickname": "",
+			"image": "victor-hui-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": "victorhui@berkeley.edu"
+		},
+		"yucian-liu": {
+			"firstName": "Yu-Cian",
+			"lastName": "Liu",
+			"nickname": "Yucian",
+			"image": "yucian-liu-0.jpg",
+			"roles": ["[Industry] Product Manager"],
+			"linkedIn": "https://www.linkedin.com/in/yucianliu/",
+			"website": "",
+			"email": "yucianliu@berkeley.edu"
+		},
+		"david-liu": {
+			"firstName": "David",
+			"lastName": "Liu",
+			"nickname": "",
+			"image": "david-liu-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"elaine-zhang": {
+			"firstName": "Elaine",
+			"lastName": "Zhang",
+			"nickname": "",
+			"image": "elaine-zhang-0.jpg",
+			"roles": ["[Industry] Designer"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"cassie-orr": {
+			"firstName": "Cassie",
+			"lastName": "Orr",
+			"nickname": "",
+			"image": "cassie-orr-0.jpg",
+			"roles": ["[Industry] Designer"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"jecy-liu": {
+			"firstName": "Jecy",
+			"lastName": "Liu",
+			"nickname": "",
+			"image": "jecy-liu-0.jpg",
+			"roles": ["[Industry] Designer"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"angad-bhargav": {
+			"firstName": "Angad",
+			"lastName": "Bhargav",
+			"nickname": "",
+			"image": "angad-bhargav-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"audrey-zhang": {
+			"firstName": "Audrey",
+			"lastName": "Zhang",
+			"nickname": "",
+			"image": "audrey-zhang-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"chase-graham": {
+			"firstName": "Chase",
+			"lastName": "Graham",
+			"nickname": "",
+			"image": "chase-graham-0.jpg",
+			"roles": ["[Industry] Developer"],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		},
+		"parbhas-kurapati": {
+			"firstName": "Parbhas",
+			"lastName": "Kurapati",
+			"nickname": "",
+			"image": "prabhas-kurapati-0.jpg",
+			"roles": [""],
+			"linkedIn": "",
+			"website": "",
+			"email": ""
+		}
+	},
+	"teams": {
+		"execMembers": [
+			"ashley-zheng",
+			"darren-ich",
+			"ezra-apple",
+			"jason-duong",
+			"jenny-weng",
+			"jessie-liu",
+			"kabir-shah",
+			"kyle-kuwahara",
+			"manuel-munoz",
+			"rachel-cortez",
+			"sinead-mccaffery",
+			"tommy-nguyen",
+			"trisha-sathish"
+		],
+		"productManagers": [
+			"inah-vasquez",
+			"lena-vuong",
+			"quincy-thai",
+			"richa-jos",
+			"yucian-liu",
+			"chris-wang",
+			"david-pantoja",
+			"joel-cisneros",
+			"nicole-lee",
+			"warren-chang"
+		],
+		"industryDevelopers": [
+			"alejandro-beltran",
+			"alex-chow",
+			"angad-bhargav",
+			"audrey-zhang",
+			"aurelia-wang",
+			"chase-graham",
+			"david-liu",
+			"gisella-chan",
+			"hunter-harling",
+			"natalie-hoang",
+			"nathan-rouston",
+			"pranav-dogra",
+			"ridge-huang",
+			"rohan-penmatcha",
+			"sage-an",
+			"tina-ye",
+			"varun-vaidya",
+			"victor-hui",
+			"melanie-liu"
+		],
+		"industryDesigners": [
+			"elaine-zhang",
+			"cassie-orr",
+			"jecy-liu",
+			"tina-zou",
+			"tyler-webb",
+			"lauren-kim"
+		],
+		"bootcampMembers": [""],
+		"courseStaff": [
+			"jessie-liu",
+			"darren-ich",
+			"jason-duong",
+			"marin-lau",
+			"matt-robillard"
+		],
+		"memExperienceTeam": [
+			"angel-mau",
+			"danielle-wong",
+			"henric-zhang",
+			"jecy-liu",
+			"marin-lau",
+			"natalie-hoang",
+			"sommie-santilla",
+			"tina-ye",
+			"tyler-webb",
+			"victor-hui"
+		],
+		"designTeam": [
+			"tommy-nguyen",
+			"jenny-weng",
+			"rachel-cortez",
+			"elaine-zhang",
+			"lauren-kim",
+			"tyler-webb",
+			"marin-lau"
+		],
+		"gapSemester": [
+			"arhum-khan",
+			"bhada-yun",
+			"charlie-kwon",
+			"kira-fukuda",
+			"nemer-singh",
+			"prabhas-kurapati",
+			"rachel-quach",
+			"sarah-suen",
+			"seeun-ahn",
+			"zayna-lateef"
+		],
+		"seniorAdvisors": [
+			"amish-gupta",
+			"angel-mau",
+			"cass-li",
+			"danielle-wong",
+			"dd-demirtas",
+			"henric-zhang",
+			"jackson-wong",
+			"krish-soni",
+			"marin-lau",
+			"matt-robillard",
+			"naomi-manuel",
+			"nick-shin",
+			"rachel-yun",
+			"sommie-santilla",
+			"sophia-sung",
+			"thien-le"
+		],
+		"alumni": [
+			"abigail-delgado",
+			"abdul-karim",
+			"adam-goldstein",
+			"aditya-bhawal",
+			"albert-tian",
+			"alex-wu",
+			"alexis-kim",
+			"ali-ansari",
+			"alina-wang",
+			"amy-kwon",
+			"amy-yang",
+			"andy-ngo",
+			"aniruddh-chennapragada",
+			"aniruddha-vangala",
+			"anish-shanbhag",
+			"anjan-bharadwaj",
+			"anna-hagiwara",
+			"viansa-schmulbach",
+			"artem-tkachuk",
+			"arushi-somani",
+			"atharva-mehendale",
+			"avinash-rao",
+			"ayaka-chou",
+			"bhada-yun",
+			"caelin-sutch",
+			"chanel-zeng",
+			"cindy-liu",
+			"dominic-debettencourt",
+			"edward-luna",
+			"emir-karabeg",
+			"ervin-baccay",
+			"ethan-pang",
+			"ethan-wu",
+			"evan-quan",
+			"gabriel-meng",
+			"genna-gams",
+			"hector-ramos",
+			"henry-chiu",
+			"ikshita-puri",
+			"isaac-ong",
+			"isabel-zheng",
+			"ishan-amin",
+			"izzie-lau",
+			"jasmine-chen",
+			"jazem-siddiqui",
+			"jeffrey-huang",
+			"jessica-hwang",
+			"jessica-wu",
+			"jiro-noor",
+			"jonathan-sun",
+			"joshua-tsai",
+			"joying-yang",
+			"juliet-kim",
+			"kartik-aggarwal",
+			"kenzie-tee",
+			"kimberley-fan",
+			"kush-garg",
+			"laura-pei",
+			"leah-hong",
+			"leen-armoush",
+			"lizzie-lau"
+		]
+	}
 }

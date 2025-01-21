@@ -8,6 +8,12 @@
 	z-index: 2;
 }
 
+.sub-header {
+	@include subtitle;
+	font-size: 20px;
+	z-index: 2;
+}
+
 .blobs {
 	position: absolute;
 	z-index: 1;

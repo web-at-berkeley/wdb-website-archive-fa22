@@ -96,6 +96,10 @@
 			min-height: 30px;
 		}
 
+		.description-last {
+			display: none;
+		}
+
 		.location {
 			margin-bottom: 0.5rem;
 			@include text;
@@ -104,6 +108,13 @@
 
 		.text {
 			@include text;
+		}
+
+		.apply-buttons {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			margin-left: 1em;
 		}
 	}
 }
@@ -325,9 +336,9 @@
 
 .apply-buttons {
 	> * {
-		white-space: nowrap;
-		flex: 1;
-		margin-right: 10px;
+		display: flex;
+		margin-left: 1em;
+		justify-content: flex-start;
 	}
 }
 

@@ -3,9 +3,11 @@ import {
 	courseStaff,
 	designTeam,
 	execMembers,
-	industryMembers,
+	industryDevelopers,
+	industryDesigners,
 	memExperienceTeam,
 	productManagers,
+	seniorAdvisors,
 } from '../../../static/members';
 
 import Header from '../../../components/Header';
@@ -27,7 +29,17 @@ const removePrefix = (role: string) => {
 		.replace(/\[|\]/g, '');
 };
 
-const filterRoles = (member: Member, prefix: string) => {
+const filterRoles = (member: Member | undefined, prefix: string) => {
+	if (!member?.roles) {
+		console.warn('Member or member roles is undefined:', member);
+		return {
+			firstName: 'Unknown',
+			lastName: '',
+			roles: [],
+			image: '',
+			nickname: '',
+		};
+	}
 	return {
 		...member,
 		roles: member.roles.filter((r) => r.includes(prefix)).map(removePrefix),
@@ -70,7 +82,9 @@ const execSort = (a: Member, b: Member) => {
 };
 
 execMembers.sort(execSort);
-industryMembers.sort(alphabeticalRoleSort);
+industryDevelopers.sort(alphabeticalRoleSort);
+industryDesigners.sort(alphabeticalRoleSort);
+productManagers.sort(alphabeticalRoleSort);
 
 const Members = () => {
 	return (
@@ -98,13 +112,31 @@ const Members = () => {
 				</Row>
 
 				<h4 className={styles['divider-header']}>Industry Branch</h4>
+				<h4 className={styles['sub-header']}>Developers</h4>
+
 				<Row lg="5" sm="3" xs="2">
-					{industryMembers.map((data, i) => (
-						<MemberCard member={filterRoles(data, '[Industry]')} key={i} />
+					{industryDevelopers.map((data, i) => (
+						<MemberCard
+							member={filterRoles(data, '[Industry] Developer')}
+							key={i}
+						/>
 					))}
 				</Row>
 
-				<h4 className={styles['divider-header']}>Course Staff</h4>
+				<h4 className={styles['sub-header']}>Designers</h4>
+
+				<Row lg="5" sm="3" xs="2">
+					{industryDesigners.map((data, i) => (
+						<MemberCard
+							member={filterRoles(data, '[Industry] Designer')}
+							key={i}
+						/>
+					))}
+				</Row>
+
+				<h4 className={styles['divider-header']}>Supplementary Roles</h4>
+
+				<h4 className={styles['sub-header']}>Course Staff</h4>
 				<Row lg="5" sm="3" xs="2">
 					{courseStaff.map((data, i) => (
 						<MemberCard member={filterRoles(data, '[DeCal]')} key={i} />
@@ -117,16 +149,25 @@ const Members = () => {
 						<MemberCard member={filterRoles(data, '[Bootcamp]')} key={i} />
 					))}
 				</Row> */}
-				<h4 className={styles['divider-header']}>Design Team</h4>
+				<h4 className={styles['sub-header']}>Design Team</h4>
 				<Row lg="5" sm="3" xs="2">
 					{designTeam.map((data, i) => (
 						<MemberCard member={filterRoles(data, '[Design Team]')} key={i} />
 					))}
 				</Row>
-				<h4 className={styles['divider-header']}>Member Experience Team</h4>
+				<h4 className={styles['sub-header']}>Member Experience Team</h4>
 				<Row lg="5" sm="3" xs="2">
 					{memExperienceTeam.map((data, i) => (
 						<MemberCard member={filterRoles(data, '[MET]')} key={i} />
+					))}
+				</Row>
+				<h4 className={styles['sub-header']}>Senior Advisors</h4>
+				<Row lg="5" sm="3" xs="2">
+					{seniorAdvisors.map((data, i) => (
+						<MemberCard
+							member={filterRoles(data, '[Senior Advisor]')}
+							key={i}
+						/>
 					))}
 				</Row>
 			</Container>

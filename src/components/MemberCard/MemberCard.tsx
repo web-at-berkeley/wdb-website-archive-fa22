@@ -17,7 +17,7 @@ const getImage = (filename: string) => {
 		const img = require(`../../assets/pfps/${filename}`);
 		return img;
 	} catch (e) {
-		return '';
+		return require('../../assets/pfps/default-pfp.jpg');
 	}
 };
 
@@ -32,14 +32,11 @@ const MemberCard = ({ member }: MemberCard_Props) => {
 		init();
 	}, []);
 
-	console.log(member.image);
-
 	return (
 		<Col className={styles['profile']}>
 			<div className={styles['container']}>
 				<img
 					className={styles['photo']}
-
 					// src={require(`../../assets/pfps/${member.image}`)}
 
 					src={
@@ -47,7 +44,6 @@ const MemberCard = ({ member }: MemberCard_Props) => {
 							? image
 							: require('../../assets/pfps/pfp-default.jpg').default
 					}
-					
 					alt={`${member.firstName} Profile`}
 				/>
 				{(!!member.linkedIn || !!member.email || !!member.website) && (
@@ -88,6 +84,20 @@ const MemberCard = ({ member }: MemberCard_Props) => {
 					? `${member.nickname} ${member.lastName}`
 					: `${member.firstName} ${member.lastName}`}
 			</h5>
+
+			{!!member.destination && (
+				<h6 className={styles['role']} id="destination">
+					{member.destination.split('@').map((part, i) =>
+						i === 1 ? (
+							<>
+								@ <i style={{ color: '', fontWeight: 'bold' }}> {part}</i>
+							</>
+						) : (
+							part
+						)
+					)}
+				</h6>
+			)}
 
 			<h6 className={styles['role']} id="role">
 				{member.roles.join(', ')}
