@@ -25,7 +25,7 @@
 			"lastName": "McCaffery",
 			"nickname": "",
 			"image": "sinead-mccaffery-0.jpg",
-			"roles": ["[Exec] Board Member"],
+			"roles": ["[Exec] VP Bootcamp"],
 			"linkedIn": "https://www.linkedin.com/in/sineadmccaffery",
 			"website": "",
 			"email": "sineadmccaffery@berkeley.edu"
@@ -106,7 +106,7 @@
 			"lastName": "Pantoja",
 			"nickname": "",
 			"image": "david-pantoja-0.jpg",
-			"roles": ["[Industry] Tech Lead"],
+			"roles": ["[Industry] Product Manager"],
 			"linkedIn": "https://www.linkedin.com/in/david-pantoja/",
 			"website": "",
 			"email": "davidpantoja@berkeley.edu"
@@ -156,7 +156,7 @@
 			"lastName": "Thai",
 			"nickname": "",
 			"image": "quincy-thai-0.jpg",
-			"roles": ["[Industry] Product Manager"],
+			"roles": ["[Industry] Tech Lead"],
 			"linkedIn": "https://www.linkedin.com/in/quincythai/",
 			"website": "",
 			"email": "quincythai@berkeley.edu"
@@ -1254,7 +1254,7 @@
 			"lastName": "Kuwahara",
 			"nickname": "",
 			"image": "kyle-kuwahara-0.jpg",
-			"roles": ["[Exec] VP External"],
+			"roles": ["[Exec] VP Internal"],
 			"linkedIn": "https://www.linkedin.com/in/ kylekuwahara",
 			"website": "",
 			"email": "kylekuwahara@berkeley.edu"
@@ -1318,7 +1318,7 @@
 			"lastName": "Muñoz",
 			"nickname": "Manuel",
 			"image": "manuel-munoz-0.jpg",
-			"roles": ["[Exec] VP Internal"],
+			"roles": ["[Exec] VP External"],
 			"linkedIn": "https://www.linkedin.com/in/manuel-munoz-968582236",
 			"website": "https://www.manuelmunoz.me/",
 			"email": "mannymnz@berkeley.edu"
