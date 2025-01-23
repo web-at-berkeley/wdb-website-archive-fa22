@@ -16,7 +16,8 @@ const timelineData = [
 			},
 			{
 				text: 'DeCal Application',
-				onClick: () => alert('Coming soon!'),
+				onClick: () =>
+					window.open('https://forms.gle/ojyw3mi565k8TQ6m6', '_blank'),
 			},
 		],
 	},
