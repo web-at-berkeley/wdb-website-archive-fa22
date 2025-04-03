@@ -106,7 +106,7 @@
 			"lastName": "Pantoja",
 			"nickname": "",
 			"image": "david-pantoja-0.jpg",
-			"roles": ["[Industry] Product Manager"],
+			"roles": [],
 			"linkedIn": "https://www.linkedin.com/in/david-pantoja/",
 			"website": "",
 			"email": "davidpantoja@berkeley.edu"
@@ -166,7 +166,7 @@
 			"lastName": "Chow",
 			"nickname": "Alex",
 			"image": "alex-chow-0.jpg",
-			"roles": ["[Industry] Developer"],
+			"roles": [],
 			"linkedIn": "https://www.linkedin.com/in/alexander-chow-2167ab249/",
 			"website": "",
 			"email": "alexbchow@berkeley.edu"
@@ -1557,14 +1557,12 @@
 			"richa-jos",
 			"yucian-liu",
 			"chris-wang",
-			"david-pantoja",
 			"joel-cisneros",
 			"nicole-lee",
 			"warren-chang"
 		],
 		"industryDevelopers": [
 			"alejandro-beltran",
-			"alex-chow",
 			"angad-bhargav",
 			"audrey-zhang",
 			"aurelia-wang",
