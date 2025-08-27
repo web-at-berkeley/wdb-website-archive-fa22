@@ -91,7 +91,8 @@ const Members = () => {
 		<main>
 			<Header
 				title="Meet the team"
-				subtitle="Students with a passion for building."
+				// subtitle="Students with a passion for building."
+				subtitle="Our Members page is being updated for Fall 2025 — check back soon for the latest roster! For now, the members shown below are from Spring 2025."
 			/>
 			<img src={Side1} alt="" className={styles['side-1']} />
 			<img src={Side2} alt="" className={styles['side-2']} />
