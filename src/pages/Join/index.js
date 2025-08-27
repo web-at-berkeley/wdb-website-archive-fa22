@@ -27,15 +27,15 @@ const Join = () => {
 					<img src={Blobs2} alt="" />
 					<h3>Applications are now open!</h3>
 					<Timeline />
-					<h3>Sign up for a coffee chat!</h3>
+					{/* <h3>Sign up for a coffee chat!</h3>
 					<iframe
 						class="airtable-embed"
-						src="https://airtable.com/embed/appTem4WA5Y5ZShFA/shrG0viG1OB1LPQ7s?viewControls=on"
+						src="https://airtable.com/appmpjePOVGj1CLC3/shrr8bBj8PJuyg0g8?backgroundColor=cyanLight&viewControls=on"
 						frameborder="0"
 						onmousewheel=""
 						width="100%"
 						height="533"
-					></iframe>
+					></iframe> */}
 				</div>
 
 				<div className={styles['experiences']}>
