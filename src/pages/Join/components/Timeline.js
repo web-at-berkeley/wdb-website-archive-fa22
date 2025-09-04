@@ -15,6 +15,14 @@ const timelineData = [
 					),
 			},
 			{
+				text: 'Club Application Guide',
+				onClick: () =>
+					window.open(
+						'https://docs.google.com/document/d/12BUhAoa0d9sdeXfgZzPkAPF2_KKqM-k7cF5cGjYlge8/edit?usp=sharing',
+						'_blank'
+					),
+			},
+			{
 				text: 'DeCal Application',
 				onClick: () =>
 					window.open('https://forms.gle/sbAs4EMiqUhbqzVK7', '_blank'),
